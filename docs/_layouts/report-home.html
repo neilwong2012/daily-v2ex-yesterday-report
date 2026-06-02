@@ -140,6 +140,7 @@
       }
       .report { padding: 28px; overflow: hidden; }
       .report h1 { font-size: 30px; margin-bottom: 10px; }
+      .report h1:first-of-type { display: none; }
       .report h2 {
         margin-top: 34px;
         padding-top: 18px;
@@ -147,6 +148,10 @@
         font-size: 23px;
       }
       .report p, .report li { color: #263244; }
+      .report p, .report li, .report a {
+        overflow-wrap: anywhere;
+        word-break: break-word;
+      }
       .report blockquote {
         margin: 0 0 18px;
         padding: 12px 14px;
