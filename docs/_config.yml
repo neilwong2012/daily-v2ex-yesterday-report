@@ -1,0 +1,10 @@
+title: V2EX Yesterday Report
+description: Daily V2EX API 2.0 yesterday report, excluding 二手交易 and 推广.
+timezone: Asia/Shanghai
+lang: zh-CN
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+exclude:
+  - README.md

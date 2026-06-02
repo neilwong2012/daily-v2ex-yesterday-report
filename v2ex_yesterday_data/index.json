@@ -1,0 +1,2512 @@
+[
+  {
+    "id": 1201122,
+    "title": "✨Racknerd 洛杉矶 DC3 机房又补货了，高性价比养龙虾 OpenClaw 小帮手 流量可以翻倍，长期有效",
+    "url": "https://www.v2ex.com/t/1201122",
+    "node": "promotions",
+    "nodeTitle": "推广",
+    "author": "digwow",
+    "replies": 121,
+    "createdAt": "2026-05-25 16:36:09 +08:00"
+  },
+  {
+    "id": 1203713,
+    "title": "Casdoor x OpenClaw：给 AI Agent 加上安全护栏，开源可自托管",
+    "url": "https://www.v2ex.com/t/1203713",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "Casbin",
+    "replies": 5,
+    "createdAt": "2026-05-25 00:08:02 +08:00"
+  },
+  {
+    "id": 1211140,
+    "title": "[压力测试] Codex GPT-5.5 新中转站开业，人人免费领 3 亿 token， 评论立送 300 美刀/月会员",
+    "url": "https://www.v2ex.com/t/1211140",
+    "node": "promotions",
+    "nodeTitle": "推广",
+    "author": "l534891619",
+    "replies": 1127,
+    "createdAt": "2026-05-25 14:54:33 +08:00"
+  },
+  {
+    "id": 1213925,
+    "title": "不要从 Turgame 上购买土区礼品卡！",
+    "url": "https://www.v2ex.com/t/1213925",
+    "node": "apple",
+    "nodeTitle": "Apple",
+    "author": "userding2",
+    "replies": 25,
+    "createdAt": "2026-05-25 23:36:02 +08:00"
+  },
+  {
+    "id": 1214082,
+    "title": "我的记账哲学：让财务有盈余，生活有余裕",
+    "url": "https://www.v2ex.com/t/1214082",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "hzsenlife",
+    "replies": 8,
+    "createdAt": "2026-05-25 19:35:56 +08:00"
+  },
+  {
+    "id": 1214104,
+    "title": "antigravity 登录后验证 需要 扫码验证怎么破",
+    "url": "https://www.v2ex.com/t/1214104",
+    "node": "programmer",
+    "nodeTitle": "程序员",
+    "author": "VampireDemon",
+    "replies": 4,
+    "createdAt": "2026-05-25 15:37:16 +08:00"
+  },
+  {
+    "id": 1214105,
+    "title": "有没有纠结 AirPods Max 和索尼新出的 1000X 的朋友。",
+    "url": "https://www.v2ex.com/t/1214105",
+    "node": "earphone",
+    "nodeTitle": "耳机",
+    "author": "baozreal",
+    "replies": 6,
+    "createdAt": "2026-05-25 13:16:37 +08:00"
+  },
+  {
+    "id": 1214127,
+    "title": "大学同学聚餐，杭州有没有推荐的饭馆，大约 10 人左右",
+    "url": "https://www.v2ex.com/t/1214127",
+    "node": "hangzhou",
+    "nodeTitle": "杭州",
+    "author": "Teresa789",
+    "replies": 13,
+    "createdAt": "2026-05-25 16:31:28 +08:00"
+  },
+  {
+    "id": 1214140,
+    "title": "[淘宝闪购] 淘宝闪购-Agent 开发(P7/P8)-中间件 求投递",
+    "url": "https://www.v2ex.com/t/1214140",
+    "node": "jobs",
+    "nodeTitle": "酷工作",
+    "author": "Charlie17Li",
+    "replies": 7,
+    "createdAt": "2026-05-25 11:02:56 +08:00"
+  },
+  {
+    "id": 1214200,
+    "title": "看选苹果还是选小米有感，十年米粉转黑",
+    "url": "https://www.v2ex.com/t/1214200",
+    "node": "mmm",
+    "nodeTitle": "买买买",
+    "author": "memos",
+    "replies": 108,
+    "createdAt": "2026-05-25 14:29:06 +08:00"
+  },
+  {
+    "id": 1214250,
+    "title": "利用 iPhone + Mac 的本地语音输入法",
+    "url": "https://www.v2ex.com/t/1214250",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "darluc",
+    "replies": 8,
+    "createdAt": "2026-05-25 16:08:44 +08:00"
+  },
+  {
+    "id": 1214251,
+    "title": "MacOS 微信输入法语音输入 Bug 导致 AirPods 音质降级",
+    "url": "https://www.v2ex.com/t/1214251",
+    "node": "macos",
+    "nodeTitle": "macOS",
+    "author": "howard777",
+    "replies": 9,
+    "createdAt": "2026-05-25 03:34:27 +08:00"
+  },
+  {
+    "id": 1214253,
+    "title": "正常购买 plus 也会需要验证手机号吗？",
+    "url": "https://www.v2ex.com/t/1214253",
+    "node": "openai",
+    "nodeTitle": "OpenAI",
+    "author": "uaoin",
+    "replies": 18,
+    "createdAt": "2026-05-25 12:22:46 +08:00"
+  },
+  {
+    "id": 1214260,
+    "title": "请问下各位大佬们，在帝都的三家基础运营商，不管是固网宽带还是移网，以下科学上网协议，哪个更靠谱、更相对稳定、速度流畅不太受限严重的？以下哪个协议受 QoS、GFW、运营商 DPI 系统影响严重？",
+    "url": "https://www.v2ex.com/t/1214260",
+    "node": "bb",
+    "nodeTitle": "宽带症候群",
+    "author": "bclerdx",
+    "replies": 10,
+    "createdAt": "2026-05-25 19:41:54 +08:00"
+  },
+  {
+    "id": 1214290,
+    "title": "条件不好，找不到对象，是不是该彻底不婚主义",
+    "url": "https://www.v2ex.com/t/1214290",
+    "node": "life",
+    "nodeTitle": "生活",
+    "author": "mianbizhe",
+    "replies": 256,
+    "createdAt": "2026-05-25 14:44:05 +08:00"
+  },
+  {
+    "id": 1214322,
+    "title": "macos 升级到 26.5 后， safari 经常报错 [因为出现问题，此网页已重新载入] ，尤其是在关闭标签页后，前一个关联页面就报错。",
+    "url": "https://www.v2ex.com/t/1214322",
+    "node": "macos",
+    "nodeTitle": "macOS",
+    "author": "luckyzd",
+    "replies": 4,
+    "createdAt": "2026-05-25 08:50:10 +08:00"
+  },
+  {
+    "id": 1214325,
+    "title": "想请教一下大家，如何稳定使用 claude code，稳定使用的成本是多少呢？",
+    "url": "https://www.v2ex.com/t/1214325",
+    "node": "claudecode",
+    "nodeTitle": "Claude Code",
+    "author": "feeeff",
+    "replies": 13,
+    "createdAt": "2026-05-25 17:47:46 +08:00"
+  },
+  {
+    "id": 1214335,
+    "title": "[招聘-可远程] AI Agent 基础设施创业公司招 AI Engineer｜北上广深杭 / 新加坡",
+    "url": "https://www.v2ex.com/t/1214335",
+    "node": "jobs",
+    "nodeTitle": "酷工作",
+    "author": "wateryfield",
+    "replies": 7,
+    "createdAt": "2026-05-25 10:57:07 +08:00"
+  },
+  {
+    "id": 1214361,
+    "title": "成都本地有玩军模的么？",
+    "url": "https://www.v2ex.com/t/1214361",
+    "node": "chengdu",
+    "nodeTitle": "成都",
+    "author": "madeworldbetter",
+    "replies": 4,
+    "createdAt": "2026-05-25 13:43:03 +08:00"
+  },
+  {
+    "id": 1214374,
+    "title": "opus 4.7 是不是出问题了？",
+    "url": "https://www.v2ex.com/t/1214374",
+    "node": "claude",
+    "nodeTitle": "Claude",
+    "author": "reitao",
+    "replies": 10,
+    "createdAt": "2026-05-25 14:28:28 +08:00"
+  },
+  {
+    "id": 1214387,
+    "title": "Antigravity： Gemini 模型额度永久提高为原来的三倍",
+    "url": "https://www.v2ex.com/t/1214387",
+    "node": "google",
+    "nodeTitle": "Google",
+    "author": "street000",
+    "replies": 52,
+    "createdAt": "2026-05-25 01:25:48 +08:00"
+  },
+  {
+    "id": 1214393,
+    "title": "Windows 平台的上位机开发，需要用 CAN 通信，能用 go 吗？",
+    "url": "https://www.v2ex.com/t/1214393",
+    "node": "programmer",
+    "nodeTitle": "程序员",
+    "author": "TirionHo",
+    "replies": 30,
+    "createdAt": "2026-05-25 16:34:47 +08:00"
+  },
+  {
+    "id": 1214403,
+    "title": "6G 网要来了？",
+    "url": "https://www.v2ex.com/t/1214403",
+    "node": "bb",
+    "nodeTitle": "宽带症候群",
+    "author": "xiaoxiaodong",
+    "replies": 73,
+    "createdAt": "2026-05-25 16:19:04 +08:00"
+  },
+  {
+    "id": 1214412,
+    "title": "一个道德困境：想跟 AI 说谢谢，但又怕浪费水和电怎么办？",
+    "url": "https://www.v2ex.com/t/1214412",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "CallmeDredd",
+    "replies": 45,
+    "createdAt": "2026-05-25 08:34:27 +08:00"
+  },
+  {
+    "id": 1214417,
+    "title": "装修小白入门贴",
+    "url": "https://www.v2ex.com/t/1214417",
+    "node": "share",
+    "nodeTitle": "分享发现",
+    "author": "ChevalierLxc",
+    "replies": 20,
+    "createdAt": "2026-05-25 18:22:31 +08:00"
+  },
+  {
+    "id": 1214422,
+    "title": "[成都] 高级前端开发工程师",
+    "url": "https://www.v2ex.com/t/1214422",
+    "node": "jobs",
+    "nodeTitle": "酷工作",
+    "author": "ovovovovo",
+    "replies": 17,
+    "createdAt": "2026-05-25 15:15:42 +08:00"
+  },
+  {
+    "id": 1214437,
+    "title": "2026 年了,「记笔记」这件事真的可以外包给 AI 了 - -BiliNote Pro AI 视频转笔记工具",
+    "url": "https://www.v2ex.com/t/1214437",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "jefferyH",
+    "replies": 6,
+    "createdAt": "2026-05-25 17:54:00 +08:00"
+  },
+  {
+    "id": 1214439,
+    "title": "有 IBKR 替代的 APP 吗？",
+    "url": "https://www.v2ex.com/t/1214439",
+    "node": "invest",
+    "nodeTitle": "投资",
+    "author": "8byte",
+    "replies": 13,
+    "createdAt": "2026-05-25 12:50:47 +08:00"
+  },
+  {
+    "id": 1214443,
+    "title": "有没有机场推荐的",
+    "url": "https://www.v2ex.com/t/1214443",
+    "node": "bb",
+    "nodeTitle": "宽带症候群",
+    "author": "gg1025",
+    "replies": 121,
+    "createdAt": "2026-05-25 12:12:47 +08:00"
+  },
+  {
+    "id": 1214448,
+    "title": "HyperAPI 留 ID 加 20 刀",
+    "url": "https://www.v2ex.com/t/1214448",
+    "node": "promotions",
+    "nodeTitle": "推广",
+    "author": "WinterLord",
+    "replies": 154,
+    "createdAt": "2026-05-25 13:49:14 +08:00"
+  },
+  {
+    "id": 1214457,
+    "title": "向微信输入法投降🏳️， 我再也不当嘉豪了",
+    "url": "https://www.v2ex.com/t/1214457",
+    "node": "ime",
+    "nodeTitle": "输入法",
+    "author": "HvangStormstout",
+    "replies": 111,
+    "createdAt": "2026-05-25 12:00:53 +08:00"
+  },
+  {
+    "id": 1214458,
+    "title": "～～青岛烟台旅行求推荐～～",
+    "url": "https://www.v2ex.com/t/1214458",
+    "node": "travel",
+    "nodeTitle": "旅行",
+    "author": "Tuwofie",
+    "replies": 45,
+    "createdAt": "2026-05-25 17:20:04 +08:00"
+  },
+  {
+    "id": 1214471,
+    "title": "被通知辞退后，第一件事是暂停了基金定投，第二件事是退掉了晚上团的烤鱼券。",
+    "url": "https://www.v2ex.com/t/1214471",
+    "node": "life",
+    "nodeTitle": "生活",
+    "author": "pweng286",
+    "replies": 41,
+    "createdAt": "2026-05-25 08:31:14 +08:00"
+  },
+  {
+    "id": 1214482,
+    "title": "GPT-Image-2 全网高赞案例分享：完整提示词 + 复用模板 + 沉淀体系",
+    "url": "https://www.v2ex.com/t/1214482",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "dhc90",
+    "replies": 16,
+    "createdAt": "2026-05-25 11:23:51 +08:00"
+  },
+  {
+    "id": 1214520,
+    "title": "搞了土区的 Apple Id 但是没有 iPhone",
+    "url": "https://www.v2ex.com/t/1214520",
+    "node": "openai",
+    "nodeTitle": "OpenAI",
+    "author": "mingoing428",
+    "replies": 27,
+    "createdAt": "2026-05-25 12:00:52 +08:00"
+  },
+  {
+    "id": 1214527,
+    "title": "AppleCare+换屏幕的标准是什么？",
+    "url": "https://www.v2ex.com/t/1214527",
+    "node": "iphone",
+    "nodeTitle": "iPhone",
+    "author": "CYKun",
+    "replies": 8,
+    "createdAt": "2026-05-25 11:58:40 +08:00"
+  },
+  {
+    "id": 1214530,
+    "title": "腾讯搞了一个 mavis,3 个小时前就有人蹭上了热度搞木马",
+    "url": "https://www.v2ex.com/t/1214530",
+    "node": "share",
+    "nodeTitle": "分享发现",
+    "author": "ntatvr456",
+    "replies": 2,
+    "createdAt": "2026-05-25 07:57:15 +08:00"
+  },
+  {
+    "id": 1214553,
+    "title": "震惊 qwen 生图模型已经被玩坏了？",
+    "url": "https://www.v2ex.com/t/1214553",
+    "node": "share",
+    "nodeTitle": "分享发现",
+    "author": "necopp",
+    "replies": 19,
+    "createdAt": "2026-05-25 11:34:46 +08:00"
+  },
+  {
+    "id": 1214565,
+    "title": "现在还有什么中转站有可用的 GPT-5.5-Pro 模型？",
+    "url": "https://www.v2ex.com/t/1214565",
+    "node": "tokentransfer",
+    "nodeTitle": "中转站测评",
+    "author": "showonder",
+    "replies": 21,
+    "createdAt": "2026-05-25 17:30:07 +08:00"
+  },
+  {
+    "id": 1214568,
+    "title": "好久没有分享游记了，这一次会是谁的家乡",
+    "url": "https://www.v2ex.com/t/1214568",
+    "node": "travel",
+    "nodeTitle": "旅行",
+    "author": "opscoffeecn",
+    "replies": 12,
+    "createdAt": "2026-05-25 12:34:56 +08:00"
+  },
+  {
+    "id": 1214573,
+    "title": "Vigil：让 Claude Code 在我睡觉的时候自己跑队列任务 —— 撞墙自动续、跑完自动 commit",
+    "url": "https://www.v2ex.com/t/1214573",
+    "node": "programmer",
+    "nodeTitle": "程序员",
+    "author": "sdfw23xd",
+    "replies": 13,
+    "createdAt": "2026-05-25 09:33:35 +08:00"
+  },
+  {
+    "id": 1214592,
+    "title": "USDT 加密货币购买国内国外礼品卡游戏点卡，全球话费充值，游戏直播充值",
+    "url": "https://www.v2ex.com/t/1214592",
+    "node": "promotions",
+    "nodeTitle": "推广",
+    "author": "card123",
+    "replies": 2,
+    "createdAt": "2026-05-25 12:18:18 +08:00"
+  },
+  {
+    "id": 1214606,
+    "title": "真心求推荐： PDD 上有哪些便宜又顶的零食？",
+    "url": "https://www.v2ex.com/t/1214606",
+    "node": "taste",
+    "nodeTitle": "美酒与美食",
+    "author": "opticalproperti",
+    "replies": 32,
+    "createdAt": "2026-05-25 18:16:52 +08:00"
+  },
+  {
+    "id": 1214626,
+    "title": "Codex 用了下太香了，现在想买 Pro，",
+    "url": "https://www.v2ex.com/t/1214626",
+    "node": "codex",
+    "nodeTitle": "Codex",
+    "author": "mgoann",
+    "replies": 55,
+    "createdAt": "2026-05-25 09:09:18 +08:00"
+  },
+  {
+    "id": 1214628,
+    "title": "多大开始给孩子玩 switch 里面的家庭游戏、体感游戏、育儿游戏比较合适？",
+    "url": "https://www.v2ex.com/t/1214628",
+    "node": "parenting",
+    "nodeTitle": "育儿",
+    "author": "zcdll",
+    "replies": 2,
+    "createdAt": "2026-05-25 21:11:51 +08:00"
+  },
+  {
+    "id": 1214641,
+    "title": "s11 到手，使用尾插已经激活全部功能",
+    "url": "https://www.v2ex.com/t/1214641",
+    "node": "watch",
+    "nodeTitle": " WATCH",
+    "author": "diudiuu",
+    "replies": 69,
+    "createdAt": "2026-05-25 14:53:11 +08:00"
+  },
+  {
+    "id": 1214644,
+    "title": "腾讯云的 coding plan 套餐现在是不打算更新模型了吗？",
+    "url": "https://www.v2ex.com/t/1214644",
+    "node": "openai",
+    "nodeTitle": "OpenAI",
+    "author": "chinayang",
+    "replies": 15,
+    "createdAt": "2026-05-25 17:15:10 +08:00"
+  },
+  {
+    "id": 1214650,
+    "title": "换过电池的 13pro 在京东和淘宝之间徘徊",
+    "url": "https://www.v2ex.com/t/1214650",
+    "node": "apple",
+    "nodeTitle": "Apple",
+    "author": "tonyer",
+    "replies": 8,
+    "createdAt": "2026-05-25 13:21:53 +08:00"
+  },
+  {
+    "id": 1214654,
+    "title": "[东莞-非远程] 全栈工程师(AI 方向)",
+    "url": "https://www.v2ex.com/t/1214654",
+    "node": "jobs",
+    "nodeTitle": "酷工作",
+    "author": "cainyc",
+    "replies": 6,
+    "createdAt": "2026-05-25 17:32:40 +08:00"
+  },
+  {
+    "id": 1214683,
+    "title": "xdm，今天(2026/5/22)应该是 macbook air m5 16+512 拼多多最低的价格",
+    "url": "https://www.v2ex.com/t/1214683",
+    "node": "apple",
+    "nodeTitle": "Apple",
+    "author": "HtPM",
+    "replies": 16,
+    "createdAt": "2026-05-25 01:38:36 +08:00"
+  },
+  {
+    "id": 1214689,
+    "title": "蔚来换电讨论",
+    "url": "https://www.v2ex.com/t/1214689",
+    "node": "ev",
+    "nodeTitle": "电动汽车",
+    "author": "he123",
+    "replies": 120,
+    "createdAt": "2026-05-25 10:19:35 +08:00"
+  },
+  {
+    "id": 1214690,
+    "title": "年前被裁员，过完年到现在也没找到工作。",
+    "url": "https://www.v2ex.com/t/1214690",
+    "node": "career",
+    "nodeTitle": "职场话题",
+    "author": "LittleYe233",
+    "replies": 8,
+    "createdAt": "2026-05-25 10:48:34 +08:00"
+  },
+  {
+    "id": 1214691,
+    "title": "现在还有认真做 Code Review 和重视代码质量的公司吗？",
+    "url": "https://www.v2ex.com/t/1214691",
+    "node": "career",
+    "nodeTitle": "职场话题",
+    "author": "wenrouxiaozhu",
+    "replies": 22,
+    "createdAt": "2026-05-25 15:21:07 +08:00"
+  },
+  {
+    "id": 1214695,
+    "title": "除了闲鱼，有什么途径搞定台湾手机号么？",
+    "url": "https://www.v2ex.com/t/1214695",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "NewEpoch",
+    "replies": 18,
+    "createdAt": "2026-05-25 13:27:01 +08:00"
+  },
+  {
+    "id": 1214700,
+    "title": "完全使用 AI Coding 上线一个工具站，帮看看是不是 bug 满天飞",
+    "url": "https://www.v2ex.com/t/1214700",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "Rorschachx",
+    "replies": 6,
+    "createdAt": "2026-05-25 10:24:24 +08:00"
+  },
+  {
+    "id": 1214701,
+    "title": "AI 真是太恶心了，本来指望他攻克癌症、可控核聚变等真正造福人类的事情，结果弄个大语言模型淘汰人类脑力工作",
+    "url": "https://www.v2ex.com/t/1214701",
+    "node": "aigc",
+    "nodeTitle": "人工智能",
+    "author": "iloveyou",
+    "replies": 13,
+    "createdAt": "2026-05-25 08:59:36 +08:00"
+  },
+  {
+    "id": 1214712,
+    "title": "wawo(智能驾驶) ¥79 元 /年 2G 内存 2T 流量 2000Mbps",
+    "url": "https://www.v2ex.com/t/1214712",
+    "node": "vps",
+    "nodeTitle": "VPS",
+    "author": "zw2019",
+    "replies": 3,
+    "createdAt": "2026-05-25 11:23:27 +08:00"
+  },
+  {
+    "id": 1214714,
+    "title": "求问如何使用 imgur 图床",
+    "url": "https://www.v2ex.com/t/1214714",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "abcfreedom",
+    "replies": 17,
+    "createdAt": "2026-05-25 08:53:07 +08:00"
+  },
+  {
+    "id": 1214726,
+    "title": "关于电车还是油车的抉择",
+    "url": "https://www.v2ex.com/t/1214726",
+    "node": "car",
+    "nodeTitle": "汽车",
+    "author": "xx841140091",
+    "replies": 21,
+    "createdAt": "2026-05-25 09:13:14 +08:00"
+  },
+  {
+    "id": 1214736,
+    "title": "坐标杭州，不签同意分月发 n+1 的协议，直接就不给 n+1 了？该怎么维权",
+    "url": "https://www.v2ex.com/t/1214736",
+    "node": "career",
+    "nodeTitle": "职场话题",
+    "author": "bluebird007",
+    "replies": 8,
+    "createdAt": "2026-05-25 17:17:11 +08:00"
+  },
+  {
+    "id": 1214737,
+    "title": "备用 android 机求推荐",
+    "url": "https://www.v2ex.com/t/1214737",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "Ayanokouji",
+    "replies": 15,
+    "createdAt": "2026-05-25 21:04:22 +08:00"
+  },
+  {
+    "id": 1214771,
+    "title": "我发现有了 AI 之后，很多人都在重复造轮子",
+    "url": "https://www.v2ex.com/t/1214771",
+    "node": "agent",
+    "nodeTitle": "AI Agent 智能体",
+    "author": "jiames1969",
+    "replies": 8,
+    "createdAt": "2026-05-25 17:29:07 +08:00"
+  },
+  {
+    "id": 1214782,
+    "title": "我觉得 AI 幻觉可能是避免不了的了，这也许就是人类工程师还存在的理由？",
+    "url": "https://www.v2ex.com/t/1214782",
+    "node": "programmer",
+    "nodeTitle": "程序员",
+    "author": "cxd8190102",
+    "replies": 4,
+    "createdAt": "2026-05-25 11:50:21 +08:00"
+  },
+  {
+    "id": 1214825,
+    "title": "[记录]-2026-05-22 藏龙卧虎的邻居",
+    "url": "https://www.v2ex.com/t/1214825",
+    "node": "life",
+    "nodeTitle": "生活",
+    "author": "PendingOni",
+    "replies": 5,
+    "createdAt": "2026-05-25 08:33:27 +08:00"
+  },
+  {
+    "id": 1214827,
+    "title": "求教,Google 账号地区怎么修改(不是 Google Play 里的地区)",
+    "url": "https://www.v2ex.com/t/1214827",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "amosgole",
+    "replies": 11,
+    "createdAt": "2026-05-25 22:36:25 +08:00"
+  },
+  {
+    "id": 1214836,
+    "title": "被 composer 2.5 震撼了",
+    "url": "https://www.v2ex.com/t/1214836",
+    "node": "programming",
+    "nodeTitle": "编程",
+    "author": "sickworm",
+    "replies": 21,
+    "createdAt": "2026-05-25 01:02:52 +08:00"
+  },
+  {
+    "id": 1214838,
+    "title": "alt-tab 在版本 11.0 正式升级为 alt-tab pro 版",
+    "url": "https://www.v2ex.com/t/1214838",
+    "node": "macos",
+    "nodeTitle": "macOS",
+    "author": "chachi",
+    "replies": 11,
+    "createdAt": "2026-05-25 16:13:18 +08:00"
+  },
+  {
+    "id": 1214845,
+    "title": "千万别更新 OneDrive 26.078.0426",
+    "url": "https://www.v2ex.com/t/1214845",
+    "node": "macos",
+    "nodeTitle": "macOS",
+    "author": "chechekk",
+    "replies": 9,
+    "createdAt": "2026-05-25 15:45:16 +08:00"
+  },
+  {
+    "id": 1214855,
+    "title": "萌新的第一台软路由上 N5105 是不是有点奢侈？",
+    "url": "https://www.v2ex.com/t/1214855",
+    "node": "bb",
+    "nodeTitle": "宽带症候群",
+    "author": "adz1181014499",
+    "replies": 77,
+    "createdAt": "2026-05-25 17:28:55 +08:00"
+  },
+  {
+    "id": 1214862,
+    "title": "[免费赠送] 住宅 IP 流量 CDK，新用户专享，手慢无",
+    "url": "https://www.v2ex.com/t/1214862",
+    "node": "promotions",
+    "nodeTitle": "推广",
+    "author": "565784135",
+    "replies": 11,
+    "createdAt": "2026-05-25 09:33:21 +08:00"
+  },
+  {
+    "id": 1214865,
+    "title": "鹅厂取消组长负责制；拉勾网破产； Meta 裁员补偿曝光！",
+    "url": "https://www.v2ex.com/t/1214865",
+    "node": "career",
+    "nodeTitle": "职场话题",
+    "author": "Amazing10086",
+    "replies": 4,
+    "createdAt": "2026-05-25 11:04:52 +08:00"
+  },
+  {
+    "id": 1214866,
+    "title": "阿里云 tokenplan 和 百度 codingplan 慎买",
+    "url": "https://www.v2ex.com/t/1214866",
+    "node": "programmer",
+    "nodeTitle": "程序员",
+    "author": "zhengmin4516",
+    "replies": 52,
+    "createdAt": "2026-05-25 23:29:01 +08:00"
+  },
+  {
+    "id": 1214873,
+    "title": "有一张好卡和一个好 IP，支付订阅确实非常丝滑",
+    "url": "https://www.v2ex.com/t/1214873",
+    "node": "claude",
+    "nodeTitle": "Claude",
+    "author": "zhhmax",
+    "replies": 18,
+    "createdAt": "2026-05-25 16:44:50 +08:00"
+  },
+  {
+    "id": 1214878,
+    "title": "qwen3.7-max 的代码能力提升非常大",
+    "url": "https://www.v2ex.com/t/1214878",
+    "node": "programmer",
+    "nodeTitle": "程序员",
+    "author": "cubecube",
+    "replies": 46,
+    "createdAt": "2026-05-25 23:18:29 +08:00"
+  },
+  {
+    "id": 1214883,
+    "title": "这一瞬间感觉被 AI 击中了",
+    "url": "https://www.v2ex.com/t/1214883",
+    "node": "programmer",
+    "nodeTitle": "程序员",
+    "author": "AlexaZhou",
+    "replies": 19,
+    "createdAt": "2026-05-25 09:49:52 +08:00"
+  },
+  {
+    "id": 1214884,
+    "title": "后 AI 时代，我们会怎么活着",
+    "url": "https://www.v2ex.com/t/1214884",
+    "node": "random",
+    "nodeTitle": "随想",
+    "author": "foolherb",
+    "replies": 20,
+    "createdAt": "2026-05-25 16:08:03 +08:00"
+  },
+  {
+    "id": 1214887,
+    "title": "有没有不用买车也能让新手熟练掌握开车驾驶的办法？",
+    "url": "https://www.v2ex.com/t/1214887",
+    "node": "car",
+    "nodeTitle": "汽车",
+    "author": "shanex",
+    "replies": 63,
+    "createdAt": "2026-05-25 15:15:19 +08:00"
+  },
+  {
+    "id": 1214894,
+    "title": "作为程序员，你愿意为“0 AI 代码介入”的汽车支付溢价吗？",
+    "url": "https://www.v2ex.com/t/1214894",
+    "node": "car",
+    "nodeTitle": "汽车",
+    "author": "Tilie",
+    "replies": 75,
+    "createdAt": "2026-05-25 22:42:43 +08:00"
+  },
+  {
+    "id": 1214896,
+    "title": "Mac 版微信劫持了 Ctrl+E，又没地方关，这设计是怎么过评审的",
+    "url": "https://www.v2ex.com/t/1214896",
+    "node": "macos",
+    "nodeTitle": "macOS",
+    "author": "wswuai",
+    "replies": 15,
+    "createdAt": "2026-05-25 10:44:33 +08:00"
+  },
+  {
+    "id": 1214900,
+    "title": "[🔥火热招聘] 上海 国金证券社招内推，诚聘 Java / Android / 数据开发 / 测试 / AI 产品等岗位",
+    "url": "https://www.v2ex.com/t/1214900",
+    "node": "jobs",
+    "nodeTitle": "酷工作",
+    "author": "wuzhi1234",
+    "replies": 4,
+    "createdAt": "2026-05-25 10:11:43 +08:00"
+  },
+  {
+    "id": 1214901,
+    "title": "Antigravity IDE 我咋感觉比 Antigravity/Codex APP 好用啊",
+    "url": "https://www.v2ex.com/t/1214901",
+    "node": "programmer",
+    "nodeTitle": "程序员",
+    "author": "KCL",
+    "replies": 8,
+    "createdAt": "2026-05-25 21:53:59 +08:00"
+  },
+  {
+    "id": 1214902,
+    "title": "MiMo 有什么强于其他模型的吗？想起之前送的 max 额度都还没有用。",
+    "url": "https://www.v2ex.com/t/1214902",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "tho",
+    "replies": 7,
+    "createdAt": "2026-05-25 09:26:05 +08:00"
+  },
+  {
+    "id": 1214908,
+    "title": "Vibe Coding 了一个项目， 2 周基本已全部完成，感慨一下我已经基本上可以下岗了。",
+    "url": "https://www.v2ex.com/t/1214908",
+    "node": "vibecoding",
+    "nodeTitle": "☕Vibe Coding🤖",
+    "author": "hnhertt",
+    "replies": 5,
+    "createdAt": "2026-05-25 08:36:22 +08:00"
+  },
+  {
+    "id": 1214916,
+    "title": "aipet.dev 升级 — 换了 GPT-Image-2 生成，像素宠物效果好不少",
+    "url": "https://www.v2ex.com/t/1214916",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "royluo",
+    "replies": 3,
+    "createdAt": "2026-05-25 10:17:21 +08:00"
+  },
+  {
+    "id": 1214920,
+    "title": "大家用 codex、Antigravity 都开 tun 吗？",
+    "url": "https://www.v2ex.com/t/1214920",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "mingtdlb",
+    "replies": 23,
+    "createdAt": "2026-05-25 16:50:33 +08:00"
+  },
+  {
+    "id": 1214927,
+    "title": "天猫超市真的是作死的节奏，商品价格直接按照集齐所有优惠的最低价来显示了",
+    "url": "https://www.v2ex.com/t/1214927",
+    "node": "share",
+    "nodeTitle": "分享发现",
+    "author": "meetyuan",
+    "replies": 20,
+    "createdAt": "2026-05-25 20:08:34 +08:00"
+  },
+  {
+    "id": 1214930,
+    "title": "正经贴！关于男士改善自身生活",
+    "url": "https://www.v2ex.com/t/1214930",
+    "node": "life",
+    "nodeTitle": "生活",
+    "author": "MoonGlitter",
+    "replies": 28,
+    "createdAt": "2026-05-25 17:30:24 +08:00"
+  },
+  {
+    "id": 1214940,
+    "title": "讨论一下各位给自己和父母的保险配置",
+    "url": "https://www.v2ex.com/t/1214940",
+    "node": "life",
+    "nodeTitle": "生活",
+    "author": "hchx",
+    "replies": 5,
+    "createdAt": "2026-05-25 21:51:37 +08:00"
+  },
+  {
+    "id": 1214946,
+    "title": "写了个 ClaudeCode 前置网络检测插件，开源",
+    "url": "https://www.v2ex.com/t/1214946",
+    "node": "claude",
+    "nodeTitle": "Claude",
+    "author": "chengrui0428",
+    "replies": 8,
+    "createdAt": "2026-05-25 10:00:25 +08:00"
+  },
+  {
+    "id": 1214947,
+    "title": "有没有安卓 TV 上观看 IPTV 的 APP 推荐？",
+    "url": "https://www.v2ex.com/t/1214947",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "PEPEXXX",
+    "replies": 9,
+    "createdAt": "2026-05-25 15:16:14 +08:00"
+  },
+  {
+    "id": 1214949,
+    "title": "求求支招：视频在线培训网页",
+    "url": "https://www.v2ex.com/t/1214949",
+    "node": "video",
+    "nodeTitle": "视频技术",
+    "author": "wendy12478",
+    "replies": 1,
+    "createdAt": "2026-05-25 10:42:30 +08:00"
+  },
+  {
+    "id": 1214952,
+    "title": "macmini 选择",
+    "url": "https://www.v2ex.com/t/1214952",
+    "node": "macmini",
+    "nodeTitle": "Mac mini",
+    "author": "mouseman",
+    "replies": 7,
+    "createdAt": "2026-05-25 11:04:23 +08:00"
+  },
+  {
+    "id": 1214955,
+    "title": "oyunfor 购买土区礼品卡遇到问题求帮助",
+    "url": "https://www.v2ex.com/t/1214955",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "eventlooped",
+    "replies": 16,
+    "createdAt": "2026-05-25 21:49:21 +08:00"
+  },
+  {
+    "id": 1214957,
+    "title": "⚽ 四年一度的世界杯要来了,分享一个世界杯赛程日历",
+    "url": "https://www.v2ex.com/t/1214957",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "Wongzigii",
+    "replies": 5,
+    "createdAt": "2026-05-25 11:15:57 +08:00"
+  },
+  {
+    "id": 1214958,
+    "title": "小区有人高空抛物，差点砸到人。是不是无解？",
+    "url": "https://www.v2ex.com/t/1214958",
+    "node": "life",
+    "nodeTitle": "生活",
+    "author": "hahade",
+    "replies": 36,
+    "createdAt": "2026-05-25 13:58:37 +08:00"
+  },
+  {
+    "id": 1214964,
+    "title": "求推荐一个支持 ESIM 的安卓主力机",
+    "url": "https://www.v2ex.com/t/1214964",
+    "node": "android",
+    "nodeTitle": "Android",
+    "author": "adz1181014499",
+    "replies": 19,
+    "createdAt": "2026-05-25 22:25:11 +08:00"
+  },
+  {
+    "id": 1214968,
+    "title": "开源了一个本地字幕工具 Fast Sub，聊聊三周 Codex 实战经验",
+    "url": "https://www.v2ex.com/t/1214968",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "mywind",
+    "replies": 8,
+    "createdAt": "2026-05-25 09:55:37 +08:00"
+  },
+  {
+    "id": 1214970,
+    "title": "5 年 Java 经验后端想转 AI agent 开发",
+    "url": "https://www.v2ex.com/t/1214970",
+    "node": "programmer",
+    "nodeTitle": "程序员",
+    "author": "jackiejkl",
+    "replies": 10,
+    "createdAt": "2026-05-25 19:32:47 +08:00"
+  },
+  {
+    "id": 1214978,
+    "title": "vibe coding 了一个在线计算器音乐网站，可以用数字键跟弹歌曲，求体验反馈",
+    "url": "https://www.v2ex.com/t/1214978",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "icev5",
+    "replies": 5,
+    "createdAt": "2026-05-25 17:22:07 +08:00"
+  },
+  {
+    "id": 1214980,
+    "title": "我做了一个 AI Token 市场定价的撮合系统，实现了真正的 Token 自由😂，感兴趣的来看看！",
+    "url": "https://www.v2ex.com/t/1214980",
+    "node": "openai",
+    "nodeTitle": "OpenAI",
+    "author": "fruitbagxxx",
+    "replies": 16,
+    "createdAt": "2026-05-25 19:54:18 +08:00"
+  },
+  {
+    "id": 1214984,
+    "title": "OpenAI 给我道歉了",
+    "url": "https://www.v2ex.com/t/1214984",
+    "node": "openai",
+    "nodeTitle": "OpenAI",
+    "author": "WinterLord",
+    "replies": 17,
+    "createdAt": "2026-05-25 10:52:06 +08:00"
+  },
+  {
+    "id": 1215001,
+    "title": "ccglass：看清 Claude Code / Codex / DeepSeek 到底给大模型发了什么",
+    "url": "https://www.v2ex.com/t/1215001",
+    "node": "claudecode",
+    "nodeTitle": "Claude Code",
+    "author": "jianshuo",
+    "replies": 10,
+    "createdAt": "2026-05-25 17:20:43 +08:00"
+  },
+  {
+    "id": 1215013,
+    "title": "openai 周限又重置了，已经放弃 claude 了",
+    "url": "https://www.v2ex.com/t/1215013",
+    "node": "openai",
+    "nodeTitle": "OpenAI",
+    "author": "layxy",
+    "replies": 75,
+    "createdAt": "2026-05-25 16:49:30 +08:00"
+  },
+  {
+    "id": 1215017,
+    "title": "自荐一个适合 AI Coding 的远程会话工具： tssh + tsshd",
+    "url": "https://www.v2ex.com/t/1215017",
+    "node": "programmer",
+    "nodeTitle": "程序员",
+    "author": "LonnyWong",
+    "replies": 17,
+    "createdAt": "2026-05-25 14:08:53 +08:00"
+  },
+  {
+    "id": 1215024,
+    "title": "［创业组队］真诚寻找数据全栈工程师",
+    "url": "https://www.v2ex.com/t/1215024",
+    "node": "meet",
+    "nodeTitle": "创业组队",
+    "author": "Captain0711",
+    "replies": 20,
+    "createdAt": "2026-05-25 14:28:29 +08:00"
+  },
+  {
+    "id": 1215032,
+    "title": "AI Pro 家庭车有需要的吗？",
+    "url": "https://www.v2ex.com/t/1215032",
+    "node": "gemini",
+    "nodeTitle": "Google Gemini",
+    "author": "farah9",
+    "replies": 3,
+    "createdAt": "2026-05-25 15:47:34 +08:00"
+  },
+  {
+    "id": 1215038,
+    "title": "麒麟 V10 的 GRUB 里那个 Factory Restore",
+    "url": "https://www.v2ex.com/t/1215038",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "mgoann",
+    "replies": 4,
+    "createdAt": "2026-05-25 09:48:08 +08:00"
+  },
+  {
+    "id": 1215039,
+    "title": "想问一下🌹花在微信里是表示成功、勿忧的黑话吗？",
+    "url": "https://www.v2ex.com/t/1215039",
+    "node": "career",
+    "nodeTitle": "职场话题",
+    "author": "intoext",
+    "replies": 27,
+    "createdAt": "2026-05-25 19:42:22 +08:00"
+  },
+  {
+    "id": 1215040,
+    "title": "vibe-coding 一时爽，一直 vibe-coding 呢？",
+    "url": "https://www.v2ex.com/t/1215040",
+    "node": "career",
+    "nodeTitle": "职场话题",
+    "author": "dsd2077",
+    "replies": 21,
+    "createdAt": "2026-05-25 18:03:48 +08:00"
+  },
+  {
+    "id": 1215041,
+    "title": "后端工程师招聘（ PHP / Go）",
+    "url": "https://www.v2ex.com/t/1215041",
+    "node": "jobs",
+    "nodeTitle": "酷工作",
+    "author": "ASBTYU",
+    "replies": 10,
+    "createdAt": "2026-05-25 18:07:48 +08:00"
+  },
+  {
+    "id": 1215042,
+    "title": "寻求一份远程 或者上海的开发工作",
+    "url": "https://www.v2ex.com/t/1215042",
+    "node": "cv",
+    "nodeTitle": "求职",
+    "author": "Unitent",
+    "replies": 7,
+    "createdAt": "2026-05-25 18:06:25 +08:00"
+  },
+  {
+    "id": 1215043,
+    "title": "美国电话实体卡和 esim 当下有哪些还可以新开通",
+    "url": "https://www.v2ex.com/t/1215043",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "yhtengustc",
+    "replies": 6,
+    "createdAt": "2026-05-25 07:50:06 +08:00"
+  },
+  {
+    "id": 1215046,
+    "title": "技术不值钱 想法和流量才值钱",
+    "url": "https://www.v2ex.com/t/1215046",
+    "node": "career",
+    "nodeTitle": "职场话题",
+    "author": "DiKaErJi",
+    "replies": 70,
+    "createdAt": "2026-05-25 17:17:55 +08:00"
+  },
+  {
+    "id": 1215048,
+    "title": "开源 OpenSeek: 给 DeepSeek V4 写了一层 Claude Code 同款的 TUI agent harness",
+    "url": "https://www.v2ex.com/t/1215048",
+    "node": "programmer",
+    "nodeTitle": "程序员",
+    "author": "lichamnesia",
+    "replies": 13,
+    "createdAt": "2026-05-25 19:30:05 +08:00"
+  },
+  {
+    "id": 1215050,
+    "title": "老大，我的 2FA 丢了",
+    "url": "https://www.v2ex.com/t/1215050",
+    "node": "newbie",
+    "nodeTitle": "新手求助",
+    "author": "zhu921020",
+    "replies": 12,
+    "createdAt": "2026-05-25 09:47:48 +08:00"
+  },
+  {
+    "id": 1215052,
+    "title": "做了一个物品交接系统。用于各类实物物品交接通过电子系统进行记录",
+    "url": "https://www.v2ex.com/t/1215052",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "aimashi",
+    "replies": 13,
+    "createdAt": "2026-05-25 13:10:46 +08:00"
+  },
+  {
+    "id": 1215053,
+    "title": "在推广节点领了大半个月赛博鸡蛋，做了个 AI 中转站排名网站",
+    "url": "https://www.v2ex.com/t/1215053",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "baba5",
+    "replies": 28,
+    "createdAt": "2026-05-25 11:07:07 +08:00"
+  },
+  {
+    "id": 1215054,
+    "title": "去年定投币圈亏损离场转玩中转站了。",
+    "url": "https://www.v2ex.com/t/1215054",
+    "node": "promotions",
+    "nodeTitle": "推广",
+    "author": "KelleyV9",
+    "replies": 19,
+    "createdAt": "2026-05-25 23:30:05 +08:00"
+  },
+  {
+    "id": 1215066,
+    "title": "若不是 token 有限额，我真觉得 GPT5.5/OPUS4.6 加上相对成熟的 Harness 基本已是 AGI 了",
+    "url": "https://www.v2ex.com/t/1215066",
+    "node": "programmer",
+    "nodeTitle": "程序员",
+    "author": "viskem",
+    "replies": 16,
+    "createdAt": "2026-05-25 17:54:24 +08:00"
+  },
+  {
+    "id": 1215069,
+    "title": "求推荐个车载磁吸手机支架",
+    "url": "https://www.v2ex.com/t/1215069",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "sjqboss",
+    "replies": 10,
+    "createdAt": "2026-05-25 16:04:39 +08:00"
+  },
+  {
+    "id": 1215071,
+    "title": "京东自营英睿达为啥 16G DDR5 两条套装 比 16G 单条*2 的价格价格便宜这么多，有啥猫腻吗",
+    "url": "https://www.v2ex.com/t/1215071",
+    "node": "hardware",
+    "nodeTitle": "硬件",
+    "author": "unt",
+    "replies": 6,
+    "createdAt": "2026-05-25 09:32:45 +08:00"
+  },
+  {
+    "id": 1215073,
+    "title": "[请教各位大佬] VPS 跑 OpenClaw 生成的文件，怎么方便地 Web 查看 + Git 管理？",
+    "url": "https://www.v2ex.com/t/1215073",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "abc0123xyz",
+    "replies": 2,
+    "createdAt": "2026-05-25 10:14:52 +08:00"
+  },
+  {
+    "id": 1215075,
+    "title": "deepseek-v4-pro 的 api 结合哪个编程最好用？",
+    "url": "https://www.v2ex.com/t/1215075",
+    "node": "programmer",
+    "nodeTitle": "程序员",
+    "author": "ixixi",
+    "replies": 24,
+    "createdAt": "2026-05-25 19:12:05 +08:00"
+  },
+  {
+    "id": 1215076,
+    "title": "咸鱼论文下载商推荐",
+    "url": "https://www.v2ex.com/t/1215076",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "littlemis",
+    "replies": 3,
+    "createdAt": "2026-05-25 08:31:53 +08:00"
+  },
+  {
+    "id": 1215077,
+    "title": "[远程-长沙] Java 开发和测试",
+    "url": "https://www.v2ex.com/t/1215077",
+    "node": "jobs",
+    "nodeTitle": "酷工作",
+    "author": "marine2c",
+    "replies": 1,
+    "createdAt": "2026-05-25 06:00:00 +08:00"
+  },
+  {
+    "id": 1215081,
+    "title": "寻量化组队 我有成熟策略思路，来个回测技术伙伴",
+    "url": "https://www.v2ex.com/t/1215081",
+    "node": "meet",
+    "nodeTitle": "创业组队",
+    "author": "ccai",
+    "replies": 7,
+    "createdAt": "2026-05-25 13:07:14 +08:00"
+  },
+  {
+    "id": 1215088,
+    "title": "现在 32G/36G 内存的 Mac 哪款性价比高一些？",
+    "url": "https://www.v2ex.com/t/1215088",
+    "node": "apple",
+    "nodeTitle": "Apple",
+    "author": "Mickeyy",
+    "replies": 3,
+    "createdAt": "2026-05-25 20:29:12 +08:00"
+  },
+  {
+    "id": 1215097,
+    "title": "北京 Android 的出路在那里呢？",
+    "url": "https://www.v2ex.com/t/1215097",
+    "node": "career",
+    "nodeTitle": "职场话题",
+    "author": "Cyoung4ever",
+    "replies": 20,
+    "createdAt": "2026-05-25 11:59:19 +08:00"
+  },
+  {
+    "id": 1215098,
+    "title": "5 块钱一年！写了个极品纯数字域名发现工具，已开源",
+    "url": "https://www.v2ex.com/t/1215098",
+    "node": "share",
+    "nodeTitle": "分享发现",
+    "author": "codergkd",
+    "replies": 6,
+    "createdAt": "2026-05-25 21:30:51 +08:00"
+  },
+  {
+    "id": 1215099,
+    "title": "我做了一个让 Codex / Claude Code 操作真实 Chrome 的插件，结果自己先用上了",
+    "url": "https://www.v2ex.com/t/1215099",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "hashtome",
+    "replies": 6,
+    "createdAt": "2026-05-25 09:23:01 +08:00"
+  },
+  {
+    "id": 1215100,
+    "title": "想问一下大家京东数码海外自营旗舰店里的 Macbook Air M1 靠谱吗",
+    "url": "https://www.v2ex.com/t/1215100",
+    "node": "apple",
+    "nodeTitle": "Apple",
+    "author": "archinde",
+    "replies": 27,
+    "createdAt": "2026-05-25 18:08:37 +08:00"
+  },
+  {
+    "id": 1215105,
+    "title": "用 kiro 免费额度搓了个面试辅助系统",
+    "url": "https://www.v2ex.com/t/1215105",
+    "node": "programmer",
+    "nodeTitle": "程序员",
+    "author": "lxxzml",
+    "replies": 11,
+    "createdAt": "2026-05-25 15:57:11 +08:00"
+  },
+  {
+    "id": 1215106,
+    "title": "[开源免费] 实时数字人 OpenTalking 项目演示 -- 新闻主播数字人",
+    "url": "https://www.v2ex.com/t/1215106",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "xuxin123122",
+    "replies": 3,
+    "createdAt": "2026-05-25 20:52:54 +08:00"
+  },
+  {
+    "id": 1215107,
+    "title": "被国产安卓海外版恶心到了",
+    "url": "https://www.v2ex.com/t/1215107",
+    "node": "android",
+    "nodeTitle": "Android",
+    "author": "obeykarma",
+    "replies": 7,
+    "createdAt": "2026-05-25 22:04:59 +08:00"
+  },
+  {
+    "id": 1215109,
+    "title": "All-IN-ONE：小红书/微博/抖音统一 CLI & Agent Skill",
+    "url": "https://www.v2ex.com/t/1215109",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "cvcat",
+    "replies": 2,
+    "createdAt": "2026-05-25 16:09:34 +08:00"
+  },
+  {
+    "id": 1215111,
+    "title": "前后端技术发展是否已经停滞？",
+    "url": "https://www.v2ex.com/t/1215111",
+    "node": "career",
+    "nodeTitle": "职场话题",
+    "author": "ghking6",
+    "replies": 16,
+    "createdAt": "2026-05-25 18:35:27 +08:00"
+  },
+  {
+    "id": 1215120,
+    "title": "请问使用 Antigravity-Manager/Antigravity Tools 会封号吗？",
+    "url": "https://www.v2ex.com/t/1215120",
+    "node": "gemini",
+    "nodeTitle": "Google Gemini",
+    "author": "lhyannis",
+    "replies": 5,
+    "createdAt": "2026-05-25 16:08:06 +08:00"
+  },
+  {
+    "id": 1215123,
+    "title": "做了一个 claude code 健身插件- claude 干活时不妨活动下身体",
+    "url": "https://www.v2ex.com/t/1215123",
+    "node": "programmer",
+    "nodeTitle": "程序员",
+    "author": "rizon",
+    "replies": 1,
+    "createdAt": "2026-05-25 08:34:26 +08:00"
+  },
+  {
+    "id": 1215127,
+    "title": "没有 bitfinex 的用户啊，里面有不到 100 美刀怎么提出来？",
+    "url": "https://www.v2ex.com/t/1215127",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "000sitereg",
+    "replies": 1,
+    "createdAt": "2026-05-25 08:31:13 +08:00"
+  },
+  {
+    "id": 1215129,
+    "title": "做了一个本地消息中转工具：把微信、HTTP API 和各种 AI Agent 接起来",
+    "url": "https://www.v2ex.com/t/1215129",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "Leeww",
+    "replies": 3,
+    "createdAt": "2026-05-25 17:44:45 +08:00"
+  },
+  {
+    "id": 1215132,
+    "title": "「送码」市面上已经有成万上亿个 todo 应用了，我还是写了一个符合自己习惯的 Real Todo",
+    "url": "https://www.v2ex.com/t/1215132",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "iPocket",
+    "replies": 3,
+    "createdAt": "2026-05-25 12:52:50 +08:00"
+  },
+  {
+    "id": 1215134,
+    "title": "新买二手 MBP M4pro 还是装 Linux 服务器",
+    "url": "https://www.v2ex.com/t/1215134",
+    "node": "apple",
+    "nodeTitle": "Apple",
+    "author": "lxxzml",
+    "replies": 6,
+    "createdAt": "2026-05-25 17:56:50 +08:00"
+  },
+  {
+    "id": 1215140,
+    "title": "openai pro 模型在搞啥风控",
+    "url": "https://www.v2ex.com/t/1215140",
+    "node": "openai",
+    "nodeTitle": "OpenAI",
+    "author": "Saunak",
+    "replies": 7,
+    "createdAt": "2026-05-25 14:39:31 +08:00"
+  },
+  {
+    "id": 1215141,
+    "title": "大家觉得 半导体公司（工业 agent），药企研发（效率 agent）， saas 公司（旧业务转型 agent）。这几个方向哪个更有前景",
+    "url": "https://www.v2ex.com/t/1215141",
+    "node": "career",
+    "nodeTitle": "职场话题",
+    "author": "qianxaingmoli",
+    "replies": 6,
+    "createdAt": "2026-05-25 14:16:58 +08:00"
+  },
+  {
+    "id": 1215142,
+    "title": "写了一个极简且免费的 IP 地址查询服务",
+    "url": "https://www.v2ex.com/t/1215142",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "hzz2",
+    "replies": 7,
+    "createdAt": "2026-05-25 20:43:01 +08:00"
+  },
+  {
+    "id": 1215143,
+    "title": "一个偏极简的全球电台收听 App，上线了，欢迎体验和反馈",
+    "url": "https://www.v2ex.com/t/1215143",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "wumian1",
+    "replies": 11,
+    "createdAt": "2026-05-25 19:41:11 +08:00"
+  },
+  {
+    "id": 1215144,
+    "title": "中银香港 10 元羊毛，秒到，秒到。",
+    "url": "https://www.v2ex.com/t/1215144",
+    "node": "deals",
+    "nodeTitle": "优惠信息",
+    "author": "Lowlife",
+    "replies": 6,
+    "createdAt": "2026-05-25 14:13:36 +08:00"
+  },
+  {
+    "id": 1215146,
+    "title": "我把自己这周干的事喂给 AI，它帮我写完了周报",
+    "url": "https://www.v2ex.com/t/1215146",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "kasusa",
+    "replies": 3,
+    "createdAt": "2026-05-25 19:51:41 +08:00"
+  },
+  {
+    "id": 1215149,
+    "title": "周末发布一个 steam 游戏，灵感来源于经典的 Chrome 离线恐龙小游戏",
+    "url": "https://www.v2ex.com/t/1215149",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "liuliangsir",
+    "replies": 6,
+    "createdAt": "2026-05-25 20:02:13 +08:00"
+  },
+  {
+    "id": 1215150,
+    "title": "这 Gemini 怎么了，给我吓一跳",
+    "url": "https://www.v2ex.com/t/1215150",
+    "node": "gemini",
+    "nodeTitle": "Google Gemini",
+    "author": "kkcling",
+    "replies": 8,
+    "createdAt": "2026-05-25 10:15:14 +08:00"
+  },
+  {
+    "id": 1215151,
+    "title": "大家公司办公网带宽多大？可以连接真互联网吗？如何访问生产环境？",
+    "url": "https://www.v2ex.com/t/1215151",
+    "node": "career",
+    "nodeTitle": "职场话题",
+    "author": "zhoudaiyu",
+    "replies": 10,
+    "createdAt": "2026-05-25 16:06:05 +08:00"
+  },
+  {
+    "id": 1215152,
+    "title": "cursor 首月 5 折优惠,仅限新用户",
+    "url": "https://www.v2ex.com/t/1215152",
+    "node": "promotions",
+    "nodeTitle": "推广",
+    "author": "jaavforcn",
+    "replies": 1,
+    "createdAt": "2026-05-25 09:21:30 +08:00"
+  },
+  {
+    "id": 1215155,
+    "title": "有没有稳定的易支付接口",
+    "url": "https://www.v2ex.com/t/1215155",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "iamtom",
+    "replies": 10,
+    "createdAt": "2026-05-25 10:03:20 +08:00"
+  },
+  {
+    "id": 1215156,
+    "title": "vibe coding 了个 ai 生图体验站 免费 GPT-5.5 畅聊",
+    "url": "https://www.v2ex.com/t/1215156",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "DQb007",
+    "replies": 2,
+    "createdAt": "2026-05-25 11:15:03 +08:00"
+  },
+  {
+    "id": 1215159,
+    "title": "网页版 AI Gemini/ChatGPT/Aistuido /Cluade 对话 如何导出 为本地 文件?",
+    "url": "https://www.v2ex.com/t/1215159",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "SachinBeyond",
+    "replies": 3,
+    "createdAt": "2026-05-25 09:01:55 +08:00"
+  },
+  {
+    "id": 1215161,
+    "title": "找一首古早的盗版光盘附赠英文歌",
+    "url": "https://www.v2ex.com/t/1215161",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "tuding",
+    "replies": 2,
+    "createdAt": "2026-05-25 08:57:56 +08:00"
+  },
+  {
+    "id": 1215164,
+    "title": "写了一个让 claude code 等工具 hit limit 后到时间继续执行的工具，且在 tmux 中运行 ssh 断了也没事",
+    "url": "https://www.v2ex.com/t/1215164",
+    "node": "vibecoding",
+    "nodeTitle": "☕Vibe Coding🤖",
+    "author": "zhihuiyuze",
+    "replies": 0,
+    "createdAt": "2026-05-25 05:15:21 +08:00"
+  },
+  {
+    "id": 1215166,
+    "title": "阿里云国际-马尼拉机房-公网出口某个连接/状态阈值异常偏低-大家注意踩坑",
+    "url": "https://www.v2ex.com/t/1215166",
+    "node": "cloud",
+    "nodeTitle": "云计算",
+    "author": "azraelrabbit",
+    "replies": 4,
+    "createdAt": "2026-05-25 11:14:30 +08:00"
+  },
+  {
+    "id": 1215167,
+    "title": "为什么人可以脑子抽成这样。",
+    "url": "https://www.v2ex.com/t/1215167",
+    "node": "shenzhen",
+    "nodeTitle": "深圳",
+    "author": "muluc",
+    "replies": 71,
+    "createdAt": "2026-05-25 17:37:56 +08:00"
+  },
+  {
+    "id": 1215173,
+    "title": "今早 6 点中转哀嚎一片",
+    "url": "https://www.v2ex.com/t/1215173",
+    "node": "promotions",
+    "nodeTitle": "推广",
+    "author": "yang1395592280",
+    "replies": 9,
+    "createdAt": "2026-05-25 17:04:50 +08:00"
+  },
+  {
+    "id": 1215174,
+    "title": "我开发了这么多 app，也没啥热度，不知道我做错了什么",
+    "url": "https://www.v2ex.com/t/1215174",
+    "node": "starter",
+    "nodeTitle": "创造者",
+    "author": "zitup",
+    "replies": 57,
+    "createdAt": "2026-05-25 14:52:39 +08:00"
+  },
+  {
+    "id": 1215175,
+    "title": "华为 USG 防火墙开发文档求助",
+    "url": "https://www.v2ex.com/t/1215175",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "owltacklejaguar",
+    "replies": 8,
+    "createdAt": "2026-05-25 11:09:19 +08:00"
+  },
+  {
+    "id": 1215177,
+    "title": "请问哪里可以找到全球各个国家主要高校字典？",
+    "url": "https://www.v2ex.com/t/1215177",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "geniushui",
+    "replies": 0,
+    "createdAt": "2026-05-25 09:11:47 +08:00"
+  },
+  {
+    "id": 1215178,
+    "title": "最近搞了个 AI 写网文的站（千章 AI 网文创作助手），欢迎大家使用体验",
+    "url": "https://www.v2ex.com/t/1215178",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "Z1R0",
+    "replies": 17,
+    "createdAt": "2026-05-25 23:31:25 +08:00"
+  },
+  {
+    "id": 1215181,
+    "title": "第一次尝试用 Figma Make 设计 Landing Page，效果让我很惊艳啊！",
+    "url": "https://www.v2ex.com/t/1215181",
+    "node": "share",
+    "nodeTitle": "分享发现",
+    "author": "nofishing",
+    "replies": 13,
+    "createdAt": "2026-05-25 17:38:23 +08:00"
+  },
+  {
+    "id": 1215182,
+    "title": "感谢作者 CemraJC 写的 ClickFix 救活了我单击变双击的鼠标",
+    "url": "https://www.v2ex.com/t/1215182",
+    "node": "share",
+    "nodeTitle": "分享发现",
+    "author": "huntagain2008",
+    "replies": 12,
+    "createdAt": "2026-05-25 17:29:22 +08:00"
+  },
+  {
+    "id": 1215186,
+    "title": "Rue.js 框架 WASM，业务 TypeScript ， React Vue 语法兼容",
+    "url": "https://www.v2ex.com/t/1215186",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "doyouhaobaby",
+    "replies": 10,
+    "createdAt": "2026-05-25 13:43:09 +08:00"
+  },
+  {
+    "id": 1215188,
+    "title": "123 云盘 webdav 挂载问题",
+    "url": "https://www.v2ex.com/t/1215188",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "docxs",
+    "replies": 5,
+    "createdAt": "2026-05-25 15:13:24 +08:00"
+  },
+  {
+    "id": 1215189,
+    "title": "福利贴：住宅 IP 流量 CDK 三枚，新用户自取",
+    "url": "https://www.v2ex.com/t/1215189",
+    "node": "promotions",
+    "nodeTitle": "推广",
+    "author": "565784135",
+    "replies": 2,
+    "createdAt": "2026-05-25 10:19:20 +08:00"
+  },
+  {
+    "id": 1215195,
+    "title": "macOS 的 QQ，左上角🚥左间距一直不修复？",
+    "url": "https://www.v2ex.com/t/1215195",
+    "node": "gts",
+    "nodeTitle": "全球工单系统",
+    "author": "CSGO",
+    "replies": 0,
+    "createdAt": "2026-05-25 09:47:14 +08:00"
+  },
+  {
+    "id": 1215198,
+    "title": "刚通过认证，和大家打个招呼",
+    "url": "https://www.v2ex.com/t/1215198",
+    "node": "v2ex",
+    "nodeTitle": "V2EX",
+    "author": "YBill",
+    "replies": 2,
+    "createdAt": "2026-05-25 10:29:31 +08:00"
+  },
+  {
+    "id": 1215200,
+    "title": "呼吸机挺好用的",
+    "url": "https://www.v2ex.com/t/1215200",
+    "node": "share",
+    "nodeTitle": "分享发现",
+    "author": "Donahue",
+    "replies": 27,
+    "createdAt": "2026-05-25 17:29:46 +08:00"
+  },
+  {
+    "id": 1215201,
+    "title": "google 新注册账号求助：“Too many failed attempts”",
+    "url": "https://www.v2ex.com/t/1215201",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "eventlooped",
+    "replies": 1,
+    "createdAt": "2026-05-25 10:11:28 +08:00"
+  },
+  {
+    "id": 1215202,
+    "title": "5k 显示器有没有推荐的， mac 外接屏幕，写代码用。",
+    "url": "https://www.v2ex.com/t/1215202",
+    "node": "display",
+    "nodeTitle": "显示器",
+    "author": "yuyuf",
+    "replies": 9,
+    "createdAt": "2026-05-25 14:37:31 +08:00"
+  },
+  {
+    "id": 1215203,
+    "title": "做了个好玩的页面， AI Native 的游戏方向",
+    "url": "https://www.v2ex.com/t/1215203",
+    "node": "share",
+    "nodeTitle": "分享发现",
+    "author": "yunchun",
+    "replies": 1,
+    "createdAt": "2026-05-25 23:04:07 +08:00"
+  },
+  {
+    "id": 1215205,
+    "title": "Antigravity2.0 安装后打不开了",
+    "url": "https://www.v2ex.com/t/1215205",
+    "node": "programmer",
+    "nodeTitle": "程序员",
+    "author": "buzzin",
+    "replies": 3,
+    "createdAt": "2026-05-25 15:37:47 +08:00"
+  },
+  {
+    "id": 1215210,
+    "title": "有没有基于区块链的 PT",
+    "url": "https://www.v2ex.com/t/1215210",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "cncmmdwl",
+    "replies": 3,
+    "createdAt": "2026-05-25 14:20:05 +08:00"
+  },
+  {
+    "id": 1215215,
+    "title": "大佬们，有血压计推荐吗",
+    "url": "https://www.v2ex.com/t/1215215",
+    "node": "fit",
+    "nodeTitle": "健康",
+    "author": "gjinin",
+    "replies": 13,
+    "createdAt": "2026-05-25 15:35:36 +08:00"
+  },
+  {
+    "id": 1215217,
+    "title": "[DDShub] 直连的折扣 API 中转站",
+    "url": "https://www.v2ex.com/t/1215217",
+    "node": "promotions",
+    "nodeTitle": "推广",
+    "author": "ddshub",
+    "replies": 0,
+    "createdAt": "2026-05-25 10:36:22 +08:00"
+  },
+  {
+    "id": 1215218,
+    "title": "2026 年了 Java 仔有人用 ZGC 了么?",
+    "url": "https://www.v2ex.com/t/1215218",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "chenfang",
+    "replies": 4,
+    "createdAt": "2026-05-25 11:42:37 +08:00"
+  },
+  {
+    "id": 1215227,
+    "title": "[日本] 后端/全栈/AI/移动端 | 年收 400-1000w | N2 起",
+    "url": "https://www.v2ex.com/t/1215227",
+    "node": "jobs",
+    "nodeTitle": "酷工作",
+    "author": "qwe0828",
+    "replies": 1,
+    "createdAt": "2026-05-25 18:59:52 +08:00"
+  },
+  {
+    "id": 1215228,
+    "title": "去档口卖年会抽的新手机要注意些什么？",
+    "url": "https://www.v2ex.com/t/1215228",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "Zhuzhuchenyan",
+    "replies": 16,
+    "createdAt": "2026-05-25 13:16:09 +08:00"
+  },
+  {
+    "id": 1215230,
+    "title": "《远程居家办公--AI Agent 方向》招聘 AI 工程师、后端软件工程师、增长工程师",
+    "url": "https://www.v2ex.com/t/1215230",
+    "node": "remote",
+    "nodeTitle": "远程工作",
+    "author": "wateryfield",
+    "replies": 4,
+    "createdAt": "2026-05-25 21:09:02 +08:00"
+  },
+  {
+    "id": 1215234,
+    "title": "南京 11 年 Java 后端（前端也能写）求捞",
+    "url": "https://www.v2ex.com/t/1215234",
+    "node": "cv",
+    "nodeTitle": "求职",
+    "author": "1qaz2wsx",
+    "replies": 7,
+    "createdAt": "2026-05-25 15:30:51 +08:00"
+  },
+  {
+    "id": 1215237,
+    "title": "DigVPS 测评 - V.PS（小秘书）更新 Tokyo Gen 2 产品详评数据：日本顶尖产品。",
+    "url": "https://www.v2ex.com/t/1215237",
+    "node": "vps",
+    "nodeTitle": "VPS",
+    "author": "tpxcer",
+    "replies": 0,
+    "createdAt": "2026-05-25 11:10:49 +08:00"
+  },
+  {
+    "id": 1215240,
+    "title": "基于 Vinext 做了一个运行在 Cloudflare Workers 上的订阅到期提醒管理应用",
+    "url": "https://www.v2ex.com/t/1215240",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "Merack",
+    "replies": 0,
+    "createdAt": "2026-05-25 11:16:46 +08:00"
+  },
+  {
+    "id": 1215241,
+    "title": "开发了一个英语语法学习的小程序，每天用户量就 10 几 20 个，不知道是不是一个自嗨品",
+    "url": "https://www.v2ex.com/t/1215241",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "singleion",
+    "replies": 6,
+    "createdAt": "2026-05-25 15:35:25 +08:00"
+  },
+  {
+    "id": 1215245,
+    "title": "做了个 MacAutoClean —— 跟 Claude Code/Cursor 说一句\"清一下硬盘\"它就帮你清完",
+    "url": "https://www.v2ex.com/t/1215245",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "MaxSoloware",
+    "replies": 1,
+    "createdAt": "2026-05-25 11:37:00 +08:00"
+  },
+  {
+    "id": 1215246,
+    "title": "现在都是互联网时代了，为什么还是会有这么多资金盘诈骗？",
+    "url": "https://www.v2ex.com/t/1215246",
+    "node": "career",
+    "nodeTitle": "职场话题",
+    "author": "Amazing10086",
+    "replies": 3,
+    "createdAt": "2026-05-25 13:33:52 +08:00"
+  },
+  {
+    "id": 1215247,
+    "title": "由于 Linux 桌面没有一个好用的天气程序就写了一个跨平台的",
+    "url": "https://www.v2ex.com/t/1215247",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "ko20",
+    "replies": 0,
+    "createdAt": "2026-05-25 11:32:26 +08:00"
+  },
+  {
+    "id": 1215248,
+    "title": "Syntopica:写了个 RSS 阅读器，让本地 AI 给新闻自动归类",
+    "url": "https://www.v2ex.com/t/1215248",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "zanebono",
+    "replies": 1,
+    "createdAt": "2026-05-25 11:45:10 +08:00"
+  },
+  {
+    "id": 1215250,
+    "title": "香港或新加坡 Apple Store 付费维修咨询",
+    "url": "https://www.v2ex.com/t/1215250",
+    "node": "apple",
+    "nodeTitle": "Apple",
+    "author": "BenjaminYing",
+    "replies": 4,
+    "createdAt": "2026-05-25 18:28:54 +08:00"
+  },
+  {
+    "id": 1215251,
+    "title": "用 Codex 开发了一个 gpt-image-2 的应用，谈谈用 AI 全栈开发的感受",
+    "url": "https://www.v2ex.com/t/1215251",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "ttkit",
+    "replies": 2,
+    "createdAt": "2026-05-25 12:00:38 +08:00"
+  },
+  {
+    "id": 1215255,
+    "title": "超值订阅来了",
+    "url": "https://www.v2ex.com/t/1215255",
+    "node": "promotions",
+    "nodeTitle": "推广",
+    "author": "qw7624611",
+    "replies": 0,
+    "createdAt": "2026-05-25 11:57:05 +08:00"
+  },
+  {
+    "id": 1215256,
+    "title": "我们在找生图模型 API 中转站，一天 1 万次调用量",
+    "url": "https://www.v2ex.com/t/1215256",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "xming",
+    "replies": 2,
+    "createdAt": "2026-05-25 20:57:35 +08:00"
+  },
+  {
+    "id": 1215257,
+    "title": "5 月我做 AI 的所得所悟",
+    "url": "https://www.v2ex.com/t/1215257",
+    "node": "share",
+    "nodeTitle": "分享发现",
+    "author": "9684xtpa",
+    "replies": 2,
+    "createdAt": "2026-05-25 21:28:45 +08:00"
+  },
+  {
+    "id": 1215260,
+    "title": "京东上有个 4499 的 mac mini， 16+256，官网没有，靠谱不",
+    "url": "https://www.v2ex.com/t/1215260",
+    "node": "macmini",
+    "nodeTitle": "Mac mini",
+    "author": "V2April",
+    "replies": 7,
+    "createdAt": "2026-05-25 15:22:47 +08:00"
+  },
+  {
+    "id": 1215264,
+    "title": "大家有没有感觉最近 Codex 的速度明显变慢了？",
+    "url": "https://www.v2ex.com/t/1215264",
+    "node": "codex",
+    "nodeTitle": "Codex",
+    "author": "haoooooooo",
+    "replies": 0,
+    "createdAt": "2026-05-25 12:27:41 +08:00"
+  },
+  {
+    "id": 1215267,
+    "title": "让 coding agent 干活时是否有必要压缩 error log、warning 等内容里的废话？",
+    "url": "https://www.v2ex.com/t/1215267",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "newtype0092",
+    "replies": 2,
+    "createdAt": "2026-05-25 13:51:12 +08:00"
+  },
+  {
+    "id": 1215269,
+    "title": "帝都建行信用卡领 6*6vx 立减金",
+    "url": "https://www.v2ex.com/t/1215269",
+    "node": "deals",
+    "nodeTitle": "优惠信息",
+    "author": "rcg1997",
+    "replies": 4,
+    "createdAt": "2026-05-25 19:38:42 +08:00"
+  },
+  {
+    "id": 1215271,
+    "title": "寻找熟悉 Telegram 逆向工程的开发者，预算充足",
+    "url": "https://www.v2ex.com/t/1215271",
+    "node": "telegram",
+    "nodeTitle": "Telegram",
+    "author": "yoshiyuki",
+    "replies": 1,
+    "createdAt": "2026-05-25 17:47:33 +08:00"
+  },
+  {
+    "id": 1215272,
+    "title": "小米 Mimo MAX 订阅 速蹬",
+    "url": "https://www.v2ex.com/t/1215272",
+    "node": "aigc",
+    "nodeTitle": "人工智能",
+    "author": "morningstar132",
+    "replies": 1,
+    "createdAt": "2026-05-25 18:15:19 +08:00"
+  },
+  {
+    "id": 1215275,
+    "title": "被喷了一天后，我觉得技术不值钱这句话应该改一下",
+    "url": "https://www.v2ex.com/t/1215275",
+    "node": "agent",
+    "nodeTitle": "AI Agent 智能体",
+    "author": "DiKaErJi",
+    "replies": 7,
+    "createdAt": "2026-05-25 17:51:12 +08:00"
+  },
+  {
+    "id": 1215279,
+    "title": "帮朋友解决 AI 生成 html 网页不方便分享的痛点，搞了个 HTML 托管网站",
+    "url": "https://www.v2ex.com/t/1215279",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "1010115121",
+    "replies": 17,
+    "createdAt": "2026-05-25 17:37:17 +08:00"
+  },
+  {
+    "id": 1215280,
+    "title": "都 vibe coding 了，为啥不把 Rust 项目 rewrite 到 Swift ？",
+    "url": "https://www.v2ex.com/t/1215280",
+    "node": "swift",
+    "nodeTitle": "Swift",
+    "author": "tgfbeta",
+    "replies": 0,
+    "createdAt": "2026-05-25 13:39:32 +08:00"
+  },
+  {
+    "id": 1215281,
+    "title": "有没有好用的提取视频硬字幕的工具推荐？",
+    "url": "https://www.v2ex.com/t/1215281",
+    "node": "qna",
+    "nodeTitle": "问与答",
+    "author": "hatch",
+    "replies": 2,
+    "createdAt": "2026-05-25 15:30:09 +08:00"
+  },
+  {
+    "id": 1215284,
+    "title": "业余写了个箭头益智的浏览器游戏，希望大家试玩两分钟挑挑刺",
+    "url": "https://www.v2ex.com/t/1215284",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "LegendsRise",
+    "replies": 26,
+    "createdAt": "2026-05-25 21:08:34 +08:00"
+  },
+  {
+    "id": 1215285,
+    "title": "即将在深圳拥有第一个小房子，装修看麻了",
+    "url": "https://www.v2ex.com/t/1215285",
+    "node": "life",
+    "nodeTitle": "生活",
+    "author": "Oats",
+    "replies": 11,
+    "createdAt": "2026-05-25 22:41:47 +08:00"
+  },
+  {
+    "id": 1215287,
+    "title": "MCP Dock v1.3.1 现在支持 14 个 AI 客户端的 MCP 配置管理了",
+    "url": "https://www.v2ex.com/t/1215287",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "Folayi",
+    "replies": 0,
+    "createdAt": "2026-05-25 14:03:24 +08:00"
+  },
+  {
+    "id": 1215288,
+    "title": "Vibe coding 做了一个文生图网站，大家看看 AI 味重吗？",
+    "url": "https://www.v2ex.com/t/1215288",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "sunls",
+    "replies": 17,
+    "createdAt": "2026-05-25 23:41:03 +08:00"
+  },
+  {
+    "id": 1215289,
+    "title": "一个支持“先编辑、后导出”的 PDF/图片翻译工具：基于 Cloudflare Workers + Markdown 链路",
+    "url": "https://www.v2ex.com/t/1215289",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "gladlyknow",
+    "replies": 1,
+    "createdAt": "2026-05-25 18:16:22 +08:00"
+  },
+  {
+    "id": 1215293,
+    "title": "Anything AI — 免费领取 20K Credits！",
+    "url": "https://www.v2ex.com/t/1215293",
+    "node": "promotions",
+    "nodeTitle": "推广",
+    "author": "jonnyzhu",
+    "replies": 0,
+    "createdAt": "2026-05-25 14:07:49 +08:00"
+  },
+  {
+    "id": 1215294,
+    "title": "[抽奖] 6.18 开始了,推荐下自己的微信返利机器人",
+    "url": "https://www.v2ex.com/t/1215294",
+    "node": "promotions",
+    "nodeTitle": "推广",
+    "author": "ewillie381",
+    "replies": 0,
+    "createdAt": "2026-05-25 14:13:36 +08:00"
+  },
+  {
+    "id": 1215296,
+    "title": "求租一个北京的电车牌子！",
+    "url": "https://www.v2ex.com/t/1215296",
+    "node": "beijing",
+    "nodeTitle": "北京",
+    "author": "fxgao",
+    "replies": 0,
+    "createdAt": "2026-05-25 14:18:31 +08:00"
+  },
+  {
+    "id": 1215299,
+    "title": "爱国版 Unihertz Titan2 如何安装 google play？",
+    "url": "https://www.v2ex.com/t/1215299",
+    "node": "android",
+    "nodeTitle": "Android",
+    "author": "UNXLAB",
+    "replies": 0,
+    "createdAt": "2026-05-25 14:29:38 +08:00"
+  },
+  {
+    "id": 1215300,
+    "title": "夏天洗脸清爽",
+    "url": "https://www.v2ex.com/t/1215300",
+    "node": "mmm",
+    "nodeTitle": "买买买",
+    "author": "5wunian",
+    "replies": 2,
+    "createdAt": "2026-05-25 18:39:41 +08:00"
+  },
+  {
+    "id": 1215306,
+    "title": "安徽联通连接学校 RDP 服务器 5min 被断开",
+    "url": "https://www.v2ex.com/t/1215306",
+    "node": "bb",
+    "nodeTitle": "宽带症候群",
+    "author": "Newban",
+    "replies": 13,
+    "createdAt": "2026-05-25 20:50:16 +08:00"
+  },
+  {
+    "id": 1215308,
+    "title": "🌐 Novproxy 薅羊毛攻略：注册送 500M 流量 + 独家 9 折优惠码！文末更有免费 CDK 限量抢 👇",
+    "url": "https://www.v2ex.com/t/1215308",
+    "node": "promotions",
+    "nodeTitle": "推广",
+    "author": "novproxy",
+    "replies": 2,
+    "createdAt": "2026-05-25 16:11:25 +08:00"
+  },
+  {
+    "id": 1215314,
+    "title": "AI 焦虑越来越重，来免费聊聊天？",
+    "url": "https://www.v2ex.com/t/1215314",
+    "node": "promotions",
+    "nodeTitle": "推广",
+    "author": "kenneth2018",
+    "replies": 0,
+    "createdAt": "2026-05-25 15:14:54 +08:00"
+  },
+  {
+    "id": 1215318,
+    "title": "macos 上的 ansible 问题",
+    "url": "https://www.v2ex.com/t/1215318",
+    "node": "macos",
+    "nodeTitle": "macOS",
+    "author": "garyalen",
+    "replies": 0,
+    "createdAt": "2026-05-25 15:26:56 +08:00"
+  },
+  {
+    "id": 1215320,
+    "title": "招聘|外资对冲基金|机器学习工程师",
+    "url": "https://www.v2ex.com/t/1215320",
+    "node": "cuda",
+    "nodeTitle": "CUDA",
+    "author": "dream7758522",
+    "replies": 0,
+    "createdAt": "2026-05-25 15:30:25 +08:00"
+  },
+  {
+    "id": 1215322,
+    "title": "（注册送额度的）oai 今天杀疯了，再分享 4 个还没有调倍率的站点",
+    "url": "https://www.v2ex.com/t/1215322",
+    "node": "promotions",
+    "nodeTitle": "推广",
+    "author": "sumozuishuai",
+    "replies": 4,
+    "createdAt": "2026-05-25 16:55:30 +08:00"
+  },
+  {
+    "id": 1215325,
+    "title": "企业级客服和复杂业务流程，为什么 ReAct Agent 和 Workflow Agent 都做不好？",
+    "url": "https://www.v2ex.com/t/1215325",
+    "node": "programmer",
+    "nodeTitle": "程序员",
+    "author": "hanswang73",
+    "replies": 0,
+    "createdAt": "2026-05-25 15:39:42 +08:00"
+  },
+  {
+    "id": 1215326,
+    "title": "分享一个我自己的 Agent 框架： smithfile",
+    "url": "https://www.v2ex.com/t/1215326",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "flankerfc",
+    "replies": 0,
+    "createdAt": "2026-05-25 15:40:13 +08:00"
+  },
+  {
+    "id": 1215334,
+    "title": "推荐一个开源项目， Kevlar-4u（评论区模拟器）",
+    "url": "https://www.v2ex.com/t/1215334",
+    "node": "share",
+    "nodeTitle": "分享发现",
+    "author": "Ehzuiq",
+    "replies": 2,
+    "createdAt": "2026-05-25 17:06:32 +08:00"
+  },
+  {
+    "id": 1215335,
+    "title": "WeChat 「订单与卡包」页面崩溃",
+    "url": "https://www.v2ex.com/t/1215335",
+    "node": "wechat",
+    "nodeTitle": "微信",
+    "author": "ericFork",
+    "replies": 9,
+    "createdAt": "2026-05-25 18:54:15 +08:00"
+  },
+  {
+    "id": 1215337,
+    "title": "claude_team 0.8 倍率，官方直连，效果与 max 一致，欢迎使用",
+    "url": "https://www.v2ex.com/t/1215337",
+    "node": "promotions",
+    "nodeTitle": "推广",
+    "author": "kk2685803719",
+    "replies": 1,
+    "createdAt": "2026-05-25 16:48:21 +08:00"
+  },
+  {
+    "id": 1215342,
+    "title": "做了 5 个技术学习/求职交流群，想找一批同学小流量测试",
+    "url": "https://www.v2ex.com/t/1215342",
+    "node": "promotions",
+    "nodeTitle": "推广",
+    "author": "smallbuding",
+    "replies": 0,
+    "createdAt": "2026-05-25 16:14:55 +08:00"
+  },
+  {
+    "id": 1215344,
+    "title": "做了个 VS Code 小工具，用来看本机和远程服务器的资源占用",
+    "url": "https://www.v2ex.com/t/1215344",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "nexmoe",
+    "replies": 3,
+    "createdAt": "2026-05-25 17:21:18 +08:00"
+  },
+  {
+    "id": 1215347,
+    "title": "超龄劳动者基本权益保障暂行规定",
+    "url": "https://www.v2ex.com/t/1215347",
+    "node": "life",
+    "nodeTitle": "生活",
+    "author": "zljklang",
+    "replies": 3,
+    "createdAt": "2026-05-25 16:49:20 +08:00"
+  },
+  {
+    "id": 1215351,
+    "title": "分享一个创建爆款 Lofi Dusk Filter 照片的网站",
+    "url": "https://www.v2ex.com/t/1215351",
+    "node": "promotions",
+    "nodeTitle": "推广",
+    "author": "maomaolkd",
+    "replies": 1,
+    "createdAt": "2026-05-25 23:59:28 +08:00"
+  },
+  {
+    "id": 1215359,
+    "title": "Marvis 实战： 3 分钟搞定 Sublime Text 安装与汉化，全程 AI 代劳",
+    "url": "https://www.v2ex.com/t/1215359",
+    "node": "promotions",
+    "nodeTitle": "推广",
+    "author": "HRTops",
+    "replies": 4,
+    "createdAt": "2026-05-25 23:37:04 +08:00"
+  },
+  {
+    "id": 1215366,
+    "title": "有老哥知道小米汽车的 ai 萌宠是怎么实现的吗",
+    "url": "https://www.v2ex.com/t/1215366",
+    "node": "xiaomi",
+    "nodeTitle": "小米",
+    "author": "lovelyded",
+    "replies": 2,
+    "createdAt": "2026-05-25 22:09:17 +08:00"
+  },
+  {
+    "id": 1215371,
+    "title": "airpods pro3 的最好入手时间是 618 吗？",
+    "url": "https://www.v2ex.com/t/1215371",
+    "node": "airpods",
+    "nodeTitle": "AirPods",
+    "author": "HtPM",
+    "replies": 1,
+    "createdAt": "2026-05-25 18:44:23 +08:00"
+  },
+  {
+    "id": 1215372,
+    "title": "13 年 Java ，人在杭州 ，求捞啊各位。",
+    "url": "https://www.v2ex.com/t/1215372",
+    "node": "cv",
+    "nodeTitle": "求职",
+    "author": "panbolin1988",
+    "replies": 0,
+    "createdAt": "2026-05-25 17:42:41 +08:00"
+  },
+  {
+    "id": 1215375,
+    "title": "Musk 已经完成 1.5T 基座模型训练，代码能力大提升，基于 cursor 的数据",
+    "url": "https://www.v2ex.com/t/1215375",
+    "node": "share",
+    "nodeTitle": "分享发现",
+    "author": "tf2",
+    "replies": 0,
+    "createdAt": "2026-05-25 17:48:14 +08:00"
+  },
+  {
+    "id": 1215377,
+    "title": "分享一个 Claude Code 脚手架： abc-scaffold",
+    "url": "https://www.v2ex.com/t/1215377",
+    "node": "agent",
+    "nodeTitle": "AI Agent 智能体",
+    "author": "chengrui0428",
+    "replies": 0,
+    "createdAt": "2026-05-25 17:50:08 +08:00"
+  },
+  {
+    "id": 1215380,
+    "title": "有人喜欢 Daring Fireball 博客吗？我做了一个复刻版 Wordpress 主题",
+    "url": "https://www.v2ex.com/t/1215380",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "happyxiao",
+    "replies": 2,
+    "createdAt": "2026-05-25 18:02:53 +08:00"
+  },
+  {
+    "id": 1215382,
+    "title": "花云 IP 池污染",
+    "url": "https://www.v2ex.com/t/1215382",
+    "node": "airport",
+    "nodeTitle": "机场",
+    "author": "AlanTeng",
+    "replies": 0,
+    "createdAt": "2026-05-25 18:07:27 +08:00"
+  },
+  {
+    "id": 1215385,
+    "title": "抽时间 AI Coding 了一个帮助记单词的小程序，大家给提提意见哦。",
+    "url": "https://www.v2ex.com/t/1215385",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "HiSavey",
+    "replies": 0,
+    "createdAt": "2026-05-25 18:19:17 +08:00"
+  },
+  {
+    "id": 1215390,
+    "title": "[杭州][内推] .NET 全栈工程师(Web 方向)",
+    "url": "https://www.v2ex.com/t/1215390",
+    "node": "jobs",
+    "nodeTitle": "酷工作",
+    "author": "laggage",
+    "replies": 1,
+    "createdAt": "2026-05-25 21:08:12 +08:00"
+  },
+  {
+    "id": 1215394,
+    "title": "QuestTree 面向家长、学生和教育者的学习资源导航站。",
+    "url": "https://www.v2ex.com/t/1215394",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "mobilehero",
+    "replies": 1,
+    "createdAt": "2026-05-25 20:33:49 +08:00"
+  },
+  {
+    "id": 1215396,
+    "title": "最近 codex 做了一个 mac 版本的动态桌面",
+    "url": "https://www.v2ex.com/t/1215396",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "zhangyan985211",
+    "replies": 0,
+    "createdAt": "2026-05-25 19:07:35 +08:00"
+  },
+  {
+    "id": 1215401,
+    "title": "做了个基于 LLM 的小说 EPUB 翻译工具，效果能打过市面上大部分机器翻译",
+    "url": "https://www.v2ex.com/t/1215401",
+    "node": "create",
+    "nodeTitle": "分享创造",
+    "author": "Tritium0041",
+    "replies": 0,
+    "createdAt": "2026-05-25 19:39:21 +08:00"
+  },
+  {
+    "id": 1215403,
+    "title": "阿里云国际站实名账号免实名/免绑卡，支持 USDT 充值！",
+    "url": "https://www.v2ex.com/t/1215403",
+    "node": "promotions",
+    "nodeTitle": "推广",
+    "author": "rebornszoro",
+    "replies": 0,
+    "createdAt": "2026-05-25 19:58:35 +08:00"
+  },
+  {
+    "id": 1215406,
+    "title": "Cursor Pro 首月 50% 优惠分享及 Composer 2.5 实用体验",
+    "url": "https://www.v2ex.com/t/1215406",
+    "node": "promotions",
+    "nodeTitle": "推广",
+    "author": "Dnys",
+    "replies": 0,
+    "createdAt": "2026-05-25 20:25:48 +08:00"
+  },
+  {
+    "id": 1215407,
+    "title": "有人做量化交易可以一起 share api 接口吗？（alpha vantage）",
+    "url": "https://www.v2ex.com/t/1215407",
+    "node": "invest",
+    "nodeTitle": "投资",
+    "author": "niuyeye611",
+    "replies": 0,
+    "createdAt": "2026-05-25 20:57:33 +08:00"
+  },
+  {
+    "id": 1215410,
+    "title": "新激活 Web3 账户申请解除‘问与答’和‘程序员’节点发言限制",
+    "url": "https://www.v2ex.com/t/1215410",
+    "node": "webmaster",
+    "nodeTitle": "站长",
+    "author": "cunganbu0521",
+    "replies": 1,
+    "createdAt": "2026-05-25 23:10:30 +08:00"
+  },
+  {
+    "id": 1215411,
+    "title": "AI + “当前最前沿科学理解”意识",
+    "url": "https://www.v2ex.com/t/1215411",
+    "node": "share",
+    "nodeTitle": "分享发现",
+    "author": "RamenCurator",
+    "replies": 0,
+    "createdAt": "2026-05-25 21:36:32 +08:00"
+  },
+  {
+    "id": 1215413,
+    "title": "Agent Harness 阅读小组纳新（招 2 人）",
+    "url": "https://www.v2ex.com/t/1215413",
+    "node": "reading",
+    "nodeTitle": "阅读",
+    "author": "gbin",
+    "replies": 0,
+    "createdAt": "2026-05-25 21:39:57 +08:00"
+  },
+  {
+    "id": 1215415,
+    "title": "[ Java 后端工程师 · 外包/兼职] 星汉智能（AI 社交产品）",
+    "url": "https://www.v2ex.com/t/1215415",
+    "node": "meet",
+    "nodeTitle": "创业组队",
+    "author": "mike2016",
+    "replies": 0,
+    "createdAt": "2026-05-25 22:08:48 +08:00"
+  }
+]

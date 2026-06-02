@@ -1,0 +1,89 @@
+name: Daily V2EX Yesterday Report
+
+on:
+  schedule:
+    # 23:30 UTC = 07:30 Asia/Shanghai. GitHub schedules can be delayed.
+    - cron: "30 23 * * *"
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: "Target date in Asia/Shanghai, formatted as YYYY-MM-DD. Leave empty for yesterday."
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-v2ex-report
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    outputs:
+      report_status: ${{ steps.run_report.outputs.report_status }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Check scripts
+        run: npm run check
+
+      - name: Run V2EX report
+        id: run_report
+        env:
+          V2EX_TOKEN: ${{ secrets.V2EX_TOKEN }}
+          V2EX_DATE: ${{ inputs.target_date }}
+        run: |
+          set +e
+          npm run report
+          status=$?
+          if [ "$status" -eq 0 ]; then
+            echo "report_status=success" >> "$GITHUB_OUTPUT"
+          else
+            echo "report_status=blocked" >> "$GITHUB_OUTPUT"
+          fi
+          exit 0
+
+      - name: Publish report to Pages content
+        env:
+          V2EX_DATE: ${{ inputs.target_date }}
+        run: npm run publish:blog
+
+      - name: Commit generated report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add v2ex_*.json v2ex_*.md v2ex_yesterday_data/*.json docs/_posts/*.md docs/data/*.json docs/latest.md
+          if git diff --cached --quiet; then
+            echo "No generated report changes to commit."
+          else
+            git commit -m "chore: publish daily V2EX report"
+            git push
+          fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Fail if report was blocked
+        if: steps.run_report.outputs.report_status == 'blocked'
+        run: |
+          echo "The V2EX report was blocked. A blocked report was still published for diagnostics."
+          exit 1

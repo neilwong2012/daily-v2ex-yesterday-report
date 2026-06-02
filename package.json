@@ -1,0 +1,14 @@
+{
+  "name": "daily-v2ex-yesterday-report",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check fetch_v2ex_yesterday.mjs && node --check scripts/publish_github_pages.mjs",
+    "report": "node fetch_v2ex_yesterday.mjs",
+    "publish:blog": "node scripts/publish_github_pages.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

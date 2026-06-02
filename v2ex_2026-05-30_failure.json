@@ -1,0 +1,16 @@
+{
+  "target_date": "2026-05-30",
+  "timezone": "Asia/Shanghai",
+  "status": "blocked",
+  "token_present": true,
+  "proxy": "http://127.0.0.1:10080",
+  "proxy_attempted": true,
+  "forced_proxy": false,
+  "fallback_proxy": true,
+  "direct_error_before_proxy": "TypeError: fetch failed | cause=Error: getaddrinfo ENOTFOUND www.v2ex.com | code=ENOTFOUND | syscall=getaddrinfo",
+  "proxy_note": "Script defaults to direct access first; if a network error occurs, it retries once with NODE_USE_ENV_PROXY=1 through the detected proxy.",
+  "blocker": "TypeError: fetch failed | cause=Error: connect EPERM 127.0.0.1:10080 - Local (0.0.0.0:0) | code=EPERM | syscall=connect | address=127.0.0.1 | port=10080",
+  "generated_at": "2026-05-31 09:02:41",
+  "failure_file": "/Users/neil/Documents/Codex/2026-05-26/https-www-v2ex-com-help-api/v2ex_2026-05-30_failure.json",
+  "blocked_report_file": "/Users/neil/Documents/Codex/2026-05-26/https-www-v2ex-com-help-api/v2ex_2026-05-30_report_blocked.md"
+}

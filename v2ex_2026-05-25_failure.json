@@ -1,0 +1,33 @@
+{
+  "target_date": "2026-05-25",
+  "timezone": "Asia/Shanghai",
+  "status": "blocked",
+  "token_present": true,
+  "steps_attempted": [
+    {
+      "tool": "curl",
+      "endpoint": "https://www.v2ex.com/api/v2/token",
+      "result": "curl: (6) Could not resolve host: www.v2ex.com"
+    },
+    {
+      "tool": "curl",
+      "endpoint": "https://www.v2ex.com/api/v2/topics/1215243",
+      "result": "curl: (6) Could not resolve host: www.v2ex.com"
+    }
+  ],
+  "blocker": {
+    "type": "dns_resolution_failure",
+    "message": "Current execution environment cannot resolve www.v2ex.com, so V2EX API 2.0 cannot be reached.",
+    "what_needs_fixing": [
+      "Restore outbound DNS/network access from this environment to www.v2ex.com",
+      "Then rerun the V2EX API 2.0 collection with the existing V2EX_TOKEN"
+    ]
+  },
+  "existing_local_files_not_used_as_fresh_source": [
+    "v2ex_yesterday_data/topics.json",
+    "v2ex_yesterday_data/topics_created_2026-05-25.json",
+    "v2ex_yesterday_data/index.json",
+    "v2ex_2026-05-25_report.md"
+  ],
+  "generated_at": "2026-05-26 13:13:10 CST"
+}
