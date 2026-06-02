@@ -1,14 +1,22 @@
 ---
-layout: post
+layout: report-post
 title: "V2EX 2026-06-01 昨日新帖报告"
+hero_title: "V2EX 2026-06-01 昨日新帖报告"
 date: 2026-06-01 08:30:00 +0800
 categories: [v2ex, daily-report]
 status: success
 target_date: 2026-06-01
+generated_at: "2026-06-02 20:26:58"
 summary: "昨日主题 303 个，过滤 56 个，纳入分析 247 个，高信号 25 个。"
+count_all: 303
+count_excluded: 56
+count_included: 247
+count_high_signal: 25
+report_url: "/v2ex/daily-report/2026/06/01/v2ex-yesterday-report.html"
+data_url: "/data/2026-06-01.json"
 ---
 
-> 发布状态：成功。生成时间：2026-06-02 20:26:58（Asia/Shanghai）。
+> 发布状态：成功。生成时间：2026-06-02 20:32:51（Asia/Shanghai）。
 
 # V2EX 2026-06-01 昨日新帖报告
 
@@ -133,8 +141,8 @@ summary: "昨日主题 303 个，过滤 56 个，纳入分析 247 个，高信�
 
 ## 原始文件
 
-- 原始 JSON：[v2ex_2026-06-01_raw.json]({{ site.baseurl }}/data/2026-06-01.json)
-- Markdown 报告：[v2ex_2026-06-01_report.md]({{ page.url | relative_url }})
+- 原始 JSON：[v2ex_2026-06-01_raw.json](/home/runner/work/daily-v2ex-yesterday-report/daily-v2ex-yesterday-report/v2ex_2026-06-01_raw.json)
+- Markdown 报告：[v2ex_2026-06-01_report.md](/home/runner/work/daily-v2ex-yesterday-report/daily-v2ex-yesterday-report/v2ex_2026-06-01_report.md)
 
 
 数据文件：[/data/2026-06-01.json]({{ site.baseurl }}/data/2026-06-01.json)

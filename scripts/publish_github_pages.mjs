@@ -95,6 +95,30 @@ function buildSummary(payload, status) {
   return `昨日主题 ${counts.allCreated ?? 0} 个，过滤 ${counts.excluded ?? 0} 个，纳入分析 ${counts.included ?? 0} 个，高信号 ${counts.highSignal ?? 0} 个。`;
 }
 
+function pageFrontMatter({ layout, title, status, summary, targetDate, payload }) {
+  const counts = payload?.counts || {};
+  const generatedAt = payload?.generatedAt || formatShanghaiDateTime();
+  return [
+    '---',
+    `layout: ${layout}`,
+    `title: "${yamlEscape(title)}"`,
+    `hero_title: "V2EX ${targetDate} 昨日新帖报告"`,
+    `date: ${targetDate} 08:30:00 +0800`,
+    `categories: [v2ex, daily-report]`,
+    `status: ${status}`,
+    `target_date: ${targetDate}`,
+    `generated_at: "${yamlEscape(generatedAt)}"`,
+    `summary: "${yamlEscape(summary)}"`,
+    `count_all: ${Number(counts.allCreated || 0)}`,
+    `count_excluded: ${Number(counts.excluded || 0)}`,
+    `count_included: ${Number(counts.included || 0)}`,
+    `count_high_signal: ${Number(counts.highSignal || 0)}`,
+    `report_url: "/v2ex/daily-report/${targetDate.slice(0, 4)}/${targetDate.slice(5, 7)}/${targetDate.slice(8, 10)}/v2ex-yesterday-report.html"`,
+    `data_url: "/data/${targetDate}.json"`,
+    '---',
+  ].join('\n');
+}
+
 async function main() {
   await fs.mkdir(postsDir, { recursive: true });
   await fs.mkdir(dataDir, { recursive: true });
@@ -117,16 +141,9 @@ async function main() {
     await fs.writeFile(dataPath, JSON.stringify(payload, null, 2));
   }
 
+  const postTitle = `V2EX ${targetDate} 昨日新帖报告${status === 'blocked' ? '（阻塞）' : ''}`;
   const lines = [
-    '---',
-    `layout: post`,
-    `title: "V2EX ${targetDate} 昨日新帖报告${status === 'blocked' ? '（阻塞）' : ''}"`,
-    `date: ${targetDate} 08:30:00 +0800`,
-    `categories: [v2ex, daily-report]`,
-    `status: ${status}`,
-    `target_date: ${targetDate}`,
-    `summary: "${yamlEscape(summary)}"`,
-    '---',
+    pageFrontMatter({ layout: 'report-post', title: postTitle, status, summary, targetDate, payload }),
     '',
     `> 发布状态：${status === 'success' ? '成功' : '阻塞'}。生成时间：${formatShanghaiDateTime()}（${timezone}）。`,
     '',
@@ -141,14 +158,31 @@ async function main() {
   const post = lines.join('\n');
 
   await fs.writeFile(postPath, post);
+  await fs.writeFile(new URL('../docs/index.md', import.meta.url), [
+    pageFrontMatter({ layout: 'report-home', title: 'V2EX 昨日新帖报告', status, summary, targetDate, payload }),
+    '',
+    markdown,
+    '',
+  ].join('\n'));
   await fs.writeFile(new URL('../docs/latest.md', import.meta.url), [
     '---',
-    'layout: page',
-    'title: 最新报告',
+    'layout: report-home',
+    'title: "最新报告"',
+    `hero_title: "V2EX ${targetDate} 昨日新帖报告"`,
     'permalink: /latest/',
+    `status: ${status}`,
+    `target_date: ${targetDate}`,
+    `generated_at: "${yamlEscape(payload?.generatedAt || formatShanghaiDateTime())}"`,
+    `summary: "${yamlEscape(summary)}"`,
+    `count_all: ${Number(payload?.counts?.allCreated || 0)}`,
+    `count_excluded: ${Number(payload?.counts?.excluded || 0)}`,
+    `count_included: ${Number(payload?.counts?.included || 0)}`,
+    `count_high_signal: ${Number(payload?.counts?.highSignal || 0)}`,
+    `report_url: "/v2ex/daily-report/${targetDate.slice(0, 4)}/${targetDate.slice(5, 7)}/${targetDate.slice(8, 10)}/v2ex-yesterday-report.html"`,
+    `data_url: "/data/${targetDate}.json"`,
     '---',
     '',
-    `最新报告：[V2EX ${targetDate} 昨日新帖报告]({{ site.baseurl }}{% post_url ${targetDate}-v2ex-yesterday-report %})`,
+    markdown,
     '',
   ].join('\n'));
 

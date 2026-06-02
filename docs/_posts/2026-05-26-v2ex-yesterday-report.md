@@ -1,14 +1,22 @@
 ---
-layout: post
+layout: report-post
 title: "V2EX 2026-05-26 昨日新帖报告"
+hero_title: "V2EX 2026-05-26 昨日新帖报告"
 date: 2026-05-26 08:30:00 +0800
 categories: [v2ex, daily-report]
 status: success
 target_date: 2026-05-26
+generated_at: "2026-05-27 09:52:50"
 summary: "昨日主题 176 个，过滤 31 个，纳入分析 145 个，高信号 25 个。"
+count_all: 176
+count_excluded: 31
+count_included: 145
+count_high_signal: 25
+report_url: "/v2ex/daily-report/2026/05/26/v2ex-yesterday-report.html"
+data_url: "/data/2026-05-26.json"
 ---
 
-> 发布状态：成功。生成时间：2026-06-02 20:15:18（Asia/Shanghai）。
+> 发布状态：成功。生成时间：2026-06-02 20:32:51（Asia/Shanghai）。
 
 # V2EX 2026-05-26 昨日新帖报告
 
