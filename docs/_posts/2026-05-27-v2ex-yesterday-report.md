@@ -1,7 +1,7 @@
 ---
 layout: report-post
 title: "V2EX 2026-05-27 昨日新帖报告"
-hero_title: "V2EX 2026-05-27 昨日新帖报告"
+hero_title: "昨日 V2EX 关键内容"
 date: 2026-05-27 08:30:00 +0800
 categories: [v2ex, daily-report]
 status: success
@@ -14,9 +14,76 @@ count_included: 238
 count_high_signal: 25
 report_url: "/v2ex/daily-report/2026/05/27/v2ex-yesterday-report.html"
 data_url: "/data/2026-05-27.json"
+key_trends:
+  - label: "AI 编程 / Agent"
+    count: 142
+  - label: "独立开发 / 工具发布"
+    count: 104
+  - label: "求职 / 招聘 / 外包"
+    count: 27
+  - label: "安全 / 合规 / 风险"
+    count: 21
+top_topics:
+  - title: "寻找 postman、xshell、navicat 的替代软件"
+    url: "https://www.v2ex.com/t/1215798"
+    node: "程序员"
+    replies: 113
+    stars: 80
+  - title: "做了一个“全网视频下载”的 Windows 桌面应用：仅 2.2MB，粘贴链接就能下，欢迎试用"
+    url: "https://www.v2ex.com/t/1215779"
+    node: "分享创造"
+    replies: 71
+    stars: 59
+  - title: "老婆最近频繁让我准备润去新加坡"
+    url: "https://www.v2ex.com/t/1215832"
+    node: "移民"
+    replies: 252
+    stars: 35
+  - title: "不主动不拒绝不表态的女生，还有必要继续吗？"
+    url: "https://www.v2ex.com/t/1215945"
+    node: "情感问题"
+    replies: 276
+    stars: 29
+  - title: "大厂前端社招复盘"
+    url: "https://www.v2ex.com/t/1215796"
+    node: "职场话题"
+    replies: 94
+    stars: 28
+tool_topics:
+  - title: "寻找 postman、xshell、navicat 的替代软件"
+    url: "https://www.v2ex.com/t/1215798"
+    node: "程序员"
+    replies: 113
+    stars: 80
+  - title: "做了一个“全网视频下载”的 Windows 桌面应用：仅 2.2MB，粘贴链接就能下，欢迎试用"
+    url: "https://www.v2ex.com/t/1215779"
+    node: "分享创造"
+    replies: 71
+    stars: 59
+  - title: "大厂前端社招复盘"
+    url: "https://www.v2ex.com/t/1215796"
+    node: "职场话题"
+    replies: 94
+    stars: 28
+risk_topics:
+  - title: "不主动不拒绝不表态的女生，还有必要继续吗？"
+    url: "https://www.v2ex.com/t/1215945"
+    node: "情感问题"
+    replies: 276
+    stars: 29
+  - title: "兄弟们，国产 Code Agent 到底有没有能打的？"
+    url: "https://www.v2ex.com/t/1215881"
+    node: "程序员"
+    replies: 43
+    stars: 6
+  - title: "中排量摩托车求推荐！"
+    url: "https://www.v2ex.com/t/1215948"
+    node: "生活"
+    replies: 39
+    stars: 2
 ---
 
-> 发布状态：成功。生成时间：2026-06-02 20:32:51（Asia/Shanghai）。
+> 发布状态：成功。生成时间：2026-06-02 20:41:39（Asia/Shanghai）。
 
 # V2EX 2026-05-27 昨日新帖报告
 

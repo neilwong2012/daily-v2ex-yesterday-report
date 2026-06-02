@@ -1,7 +1,7 @@
 ---
 layout: report-post
 title: "V2EX 2026-05-26 昨日新帖报告"
-hero_title: "V2EX 2026-05-26 昨日新帖报告"
+hero_title: "昨日 V2EX 关键内容"
 date: 2026-05-26 08:30:00 +0800
 categories: [v2ex, daily-report]
 status: success
@@ -14,9 +14,76 @@ count_included: 145
 count_high_signal: 25
 report_url: "/v2ex/daily-report/2026/05/26/v2ex-yesterday-report.html"
 data_url: "/data/2026-05-26.json"
+key_trends:
+  - label: "AI 编程 / Agent"
+    count: 67
+  - label: "独立开发 / 工具发布"
+    count: 64
+  - label: "云 / 运维 / 基础设施"
+    count: 16
+  - label: "求职 / 招聘 / 外包"
+    count: 14
+top_topics:
+  - title: "各位 Javaer 现在是怎么用 idea+各种 AI 工具的"
+    url: "https://www.v2ex.com/t/1215463"
+    node: "程序员"
+    replies: 63
+    stars: 20
+  - title: "终于训练出最强坦克了"
+    url: "https://www.v2ex.com/t/1215445"
+    node: "游戏"
+    replies: 49
+    stars: 16
+  - title: "最近要装修了，有没有推荐的装修资料"
+    url: "https://www.v2ex.com/t/1215439"
+    node: "装修"
+    replies: 33
+    stars: 21
+  - title: "写网页，用上我说的这几个 skills，界面 ui 好看一倍，不好看你来打我"
+    url: "https://www.v2ex.com/t/1215430"
+    node: "技术栈"
+    replies: 10
+    stars: 28
+  - title: "收录 15000+ 独立博客的 3D 星图，重磅更新！"
+    url: "https://www.v2ex.com/t/1215436"
+    node: "分享创造"
+    replies: 18
+    stars: 17
+tool_topics:
+  - title: "各位 Javaer 现在是怎么用 idea+各种 AI 工具的"
+    url: "https://www.v2ex.com/t/1215463"
+    node: "程序员"
+    replies: 63
+    stars: 20
+  - title: "终于训练出最强坦克了"
+    url: "https://www.v2ex.com/t/1215445"
+    node: "游戏"
+    replies: 49
+    stars: 16
+  - title: "收录 15000+ 独立博客的 3D 星图，重磅更新！"
+    url: "https://www.v2ex.com/t/1215436"
+    node: "分享创造"
+    replies: 18
+    stars: 17
+risk_topics:
+  - title: "虽说 vibe coding 遍地走，但自己从零手搓完一个完整的 App，感觉还是不一样"
+    url: "https://www.v2ex.com/t/1215426"
+    node: "分享创造"
+    replies: 4
+    stars: 3
+  - title: "做了一个现代的 IBKR portfolio 站"
+    url: "https://www.v2ex.com/t/1215578"
+    node: "分享创造"
+    replies: 0
+    stars: 0
+  - title: "分享自己写的一个平行人生的维基网站"
+    url: "https://www.v2ex.com/t/1215713"
+    node: "分享创造"
+    replies: 0
+    stars: 0
 ---
 
-> 发布状态：成功。生成时间：2026-06-02 20:32:51（Asia/Shanghai）。
+> 发布状态：成功。生成时间：2026-06-02 20:41:39（Asia/Shanghai）。
 
 # V2EX 2026-05-26 昨日新帖报告
 

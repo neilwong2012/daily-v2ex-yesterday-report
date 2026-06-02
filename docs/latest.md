@@ -1,7 +1,7 @@
 ---
 layout: report-home
 title: "最新报告"
-hero_title: "V2EX 2026-06-01 昨日新帖报告"
+hero_title: "昨日 V2EX 关键内容"
 permalink: /latest/
 status: success
 target_date: 2026-06-01
@@ -13,6 +13,73 @@ count_included: 247
 count_high_signal: 25
 report_url: "/v2ex/daily-report/2026/06/01/v2ex-yesterday-report.html"
 data_url: "/data/2026-06-01.json"
+key_trends:
+  - label: "AI 编程 / Agent"
+    count: 132
+  - label: "独立开发 / 工具发布"
+    count: 90
+  - label: "求职 / 招聘 / 外包"
+    count: 27
+  - label: "云 / 运维 / 基础设施"
+    count: 27
+top_topics:
+  - title: "试用了几天阮老师推荐的 Echo Loop，感觉太棒了！"
+    url: "https://www.v2ex.com/t/1216903"
+    node: "English"
+    replies: 46
+    stars: 132
+  - title: "你最美好的童年回忆是什么？"
+    url: "https://www.v2ex.com/t/1216885"
+    node: "生活"
+    replies: 173
+    stars: 97
+  - title: "我的理财方案,想更进一步,求推荐"
+    url: "https://www.v2ex.com/t/1216889"
+    node: "投资"
+    replies: 62
+    stars: 68
+  - title: "你愿意主动推荐给别人观看的电影有哪些？"
+    url: "https://www.v2ex.com/t/1217030"
+    node: "电影"
+    replies: 77
+    stars: 55
+  - title: "手贱翻了女朋友手机发现她和很多男的亲密照片，两天了 人还是没缓过来！"
+    url: "https://www.v2ex.com/t/1216940"
+    node: "情感问题"
+    replies: 216
+    stars: 34
+tool_topics:
+  - title: "试用了几天阮老师推荐的 Echo Loop，感觉太棒了！"
+    url: "https://www.v2ex.com/t/1216903"
+    node: "English"
+    replies: 46
+    stars: 132
+  - title: "能不能有一个不以盈利为目的的外卖平台"
+    url: "https://www.v2ex.com/t/1217106"
+    node: "奇思妙想"
+    replies: 237
+    stars: 11
+  - title: "免费剪贴板神器 Paster 支持全平台了还增加了录屏功能欢迎使用"
+    url: "https://www.v2ex.com/t/1216899"
+    node: "分享创造"
+    replies: 44
+    stars: 20
+risk_topics:
+  - title: "免费剪贴板神器 Paster 支持全平台了还增加了录屏功能欢迎使用"
+    url: "https://www.v2ex.com/t/1216899"
+    node: "分享创造"
+    replies: 44
+    stars: 20
+  - title: "Codex 账号触发风控，要求手机号验证，但原号码不可用导致无法登录"
+    url: "https://www.v2ex.com/t/1216881"
+    node: "Codex"
+    replies: 67
+    stars: 11
+  - title: "一次真实的 Web3 招聘木马经历：从 Zoom 面试到 fyMeet.exe，最终发现电脑被植入异常进程"
+    url: "https://www.v2ex.com/t/1216968"
+    node: "职场话题"
+    replies: 13
+    stars: 5
 ---
 
 # V2EX 2026-06-01 昨日新帖报告

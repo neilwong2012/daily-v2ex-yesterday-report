@@ -57,6 +57,22 @@ function yamlEscape(value) {
   return String(value).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
 }
 
+function yamlList(name, items, fields) {
+  const lines = [`${name}:`];
+  if (!items || items.length === 0) {
+    lines.push('  []');
+    return lines;
+  }
+  for (const item of items) {
+    lines.push(`  - ${fields[0]}: "${yamlEscape(item[fields[0]] ?? '')}"`);
+    for (const field of fields.slice(1)) {
+      const value = item[field] ?? '';
+      lines.push(typeof value === 'number' ? `    ${field}: ${value}` : `    ${field}: "${yamlEscape(value)}"`);
+    }
+  }
+  return lines;
+}
+
 function scrubSecrets(value) {
   if (typeof value === 'string') {
     return SECRET_PATTERNS.reduce((text, pattern) => text.replace(pattern, '[REDACTED_SECRET]'), value);
@@ -95,6 +111,37 @@ function buildSummary(payload, status) {
   return `昨日主题 ${counts.allCreated ?? 0} 个，过滤 ${counts.excluded ?? 0} 个，纳入分析 ${counts.included ?? 0} 个，高信号 ${counts.highSignal ?? 0} 个。`;
 }
 
+function compactTopic(topic) {
+  return {
+    title: topic?.title || '',
+    url: topic?.url || '',
+    node: topic?.node?.title || topic?.nodeTitle || '未知',
+    replies: Number(topic?.replies || 0),
+    stars: Number(topic?.stars || 0),
+  };
+}
+
+function frontMatterInsights(payload) {
+  if (!payload) {
+    return [
+      'key_trends:',
+      '  []',
+      'top_topics:',
+      '  []',
+      'tool_topics:',
+      '  []',
+      'risk_topics:',
+      '  []',
+    ];
+  }
+  return [
+    ...yamlList('key_trends', (payload.trendSummary || []).slice(0, 4), ['label', 'count']),
+    ...yamlList('top_topics', (payload.highSignalTopics || []).slice(0, 5).map(compactTopic), ['title', 'url', 'node', 'replies', 'stars']),
+    ...yamlList('tool_topics', (payload.picks?.toolTopics || []).slice(0, 3).map(compactTopic), ['title', 'url', 'node', 'replies', 'stars']),
+    ...yamlList('risk_topics', (payload.picks?.riskTopics || []).slice(0, 3).map(compactTopic), ['title', 'url', 'node', 'replies', 'stars']),
+  ];
+}
+
 function pageFrontMatter({ layout, title, status, summary, targetDate, payload }) {
   const counts = payload?.counts || {};
   const generatedAt = payload?.generatedAt || formatShanghaiDateTime();
@@ -102,7 +149,7 @@ function pageFrontMatter({ layout, title, status, summary, targetDate, payload }
     '---',
     `layout: ${layout}`,
     `title: "${yamlEscape(title)}"`,
-    `hero_title: "V2EX ${targetDate} 昨日新帖报告"`,
+    `hero_title: "昨日 V2EX 关键内容"`,
     `date: ${targetDate} 08:30:00 +0800`,
     `categories: [v2ex, daily-report]`,
     `status: ${status}`,
@@ -115,6 +162,7 @@ function pageFrontMatter({ layout, title, status, summary, targetDate, payload }
     `count_high_signal: ${Number(counts.highSignal || 0)}`,
     `report_url: "/v2ex/daily-report/${targetDate.slice(0, 4)}/${targetDate.slice(5, 7)}/${targetDate.slice(8, 10)}/v2ex-yesterday-report.html"`,
     `data_url: "/data/${targetDate}.json"`,
+    ...frontMatterInsights(payload),
     '---',
   ].join('\n');
 }
@@ -168,7 +216,7 @@ async function main() {
     '---',
     'layout: report-home',
     'title: "最新报告"',
-    `hero_title: "V2EX ${targetDate} 昨日新帖报告"`,
+    `hero_title: "昨日 V2EX 关键内容"`,
     'permalink: /latest/',
     `status: ${status}`,
     `target_date: ${targetDate}`,
@@ -180,6 +228,7 @@ async function main() {
     `count_high_signal: ${Number(payload?.counts?.highSignal || 0)}`,
     `report_url: "/v2ex/daily-report/${targetDate.slice(0, 4)}/${targetDate.slice(5, 7)}/${targetDate.slice(8, 10)}/v2ex-yesterday-report.html"`,
     `data_url: "/data/${targetDate}.json"`,
+    ...frontMatterInsights(payload),
     '---',
     '',
     markdown,

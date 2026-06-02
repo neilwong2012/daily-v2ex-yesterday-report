@@ -53,7 +53,7 @@
       .nav a { color: var(--muted); }
       .hero {
         display: grid;
-        grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.65fr);
+        grid-template-columns: minmax(0, 1.05fr) minmax(340px, 0.95fr);
         gap: 22px;
         align-items: stretch;
         margin-bottom: 22px;
@@ -75,7 +75,7 @@
       }
       h1 {
         margin: 0;
-        font-size: clamp(30px, 4vw, 52px);
+        font-size: clamp(30px, 4vw, 48px);
         line-height: 1.08;
         letter-spacing: 0;
       }
@@ -106,20 +106,77 @@
       .status.blocked { background: #fee4e2; color: var(--red); }
       .stats {
         display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(4, minmax(0, 1fr));
         gap: 10px;
-        margin: 18px 0;
+        margin: 18px 0 0;
       }
       .stat {
         border: 1px solid var(--line);
         border-radius: 8px;
-        padding: 14px;
+        padding: 12px;
         background: #fff;
-        min-height: 86px;
+        min-height: 76px;
       }
-      .stat strong { display: block; font-size: 28px; line-height: 1; margin-bottom: 7px; }
+      .stat strong { display: block; font-size: 25px; line-height: 1; margin-bottom: 7px; }
       .stat span { color: var(--muted); font-size: 13px; }
-      .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 18px; }
+      .insight-block { margin-top: 22px; }
+      .insight-title {
+        margin: 0 0 10px;
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: .04em;
+        text-transform: uppercase;
+      }
+      .trend-list {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      .trend-list li {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 12px;
+        background: var(--panel-soft);
+      }
+      .trend-list strong { display: block; font-size: 18px; line-height: 1.15; }
+      .trend-list span { color: var(--muted); font-size: 13px; }
+      .topic-list {
+        display: grid;
+        gap: 10px;
+        margin: 14px 0 0;
+        padding: 0;
+        list-style: none;
+      }
+      .topic-list a {
+        display: block;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 12px;
+        background: #fff;
+      }
+      .topic-list strong {
+        display: block;
+        color: var(--ink);
+        line-height: 1.35;
+        overflow-wrap: anywhere;
+      }
+      .topic-list span {
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .small-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 16px;
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
       .button {
         display: inline-flex;
         justify-content: center;
@@ -184,9 +241,12 @@
         .topbar, .hero, .content-grid { display: block; }
         .nav { margin-top: 12px; }
         .summary-panel, .archive { margin-top: 14px; }
-        .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        .stats, .trend-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
         .report { padding: 18px; }
         .archive { position: static; }
+      }
+      @media (max-width: 420px) {
+        .stats, .trend-list { grid-template-columns: 1fr; }
       }
     </style>
   </head>
@@ -206,30 +266,46 @@
           <div class="eyebrow">Asia/Shanghai Daily Digest</div>
           <h1>{{ page.hero_title | default: page.title }}</h1>
           <p class="subtitle">{{ page.summary }}</p>
-          <div class="meta-row">
-            <span class="pill">目标日期：{{ page.target_date }}</span>
-            <span class="pill">生成时间：{{ page.generated_at }}</span>
-            <span class="pill">过滤：二手交易 / 推广</span>
-          </div>
-        </div>
-        <aside class="summary-panel">
-          <span class="status {% if page.status == 'blocked' %}blocked{% endif %}">{% if page.status == 'success' %}已生成{% else %}阻塞{% endif %}</span>
           <div class="stats">
             <div class="stat"><strong>{{ page.count_all | default: 0 }}</strong><span>昨日主题</span></div>
             <div class="stat"><strong>{{ page.count_included | default: 0 }}</strong><span>纳入分析</span></div>
             <div class="stat"><strong>{{ page.count_excluded | default: 0 }}</strong><span>已过滤</span></div>
             <div class="stat"><strong>{{ page.count_high_signal | default: 0 }}</strong><span>高信号</span></div>
           </div>
-          <div class="actions">
-            <a class="button primary" href="{{ page.report_url | relative_url }}">打开文章</a>
-            <a class="button" href="{{ page.data_url | relative_url }}">Raw JSON</a>
+          <div class="insight-block">
+            <p class="insight-title">主要趋势</p>
+            <ul class="trend-list">
+              {% for trend in page.key_trends limit: 4 %}
+                <li><strong>{{ trend.count }}</strong><span>{{ trend.label }}</span></li>
+              {% endfor %}
+            </ul>
           </div>
-          <p class="footnote">每天由 GitHub Actions 自动抓取、生成、提交并部署。</p>
+        </div>
+        <aside class="summary-panel">
+          <p class="insight-title">最值得先看</p>
+          <ul class="topic-list">
+            {% for topic in page.top_topics limit: 5 %}
+              <li>
+                <a href="{{ topic.url }}">
+                  <strong>{{ topic.title }}</strong>
+                  <span>{{ topic.node }} · {{ topic.replies }} 回复 · {{ topic.stars }} 收藏</span>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+          <div class="actions">
+            <a class="button primary" href="#full-report">阅读全文</a>
+          </div>
+          <div class="small-meta">
+            <span>{{ page.target_date }}</span>
+            <span>{% if page.status == 'success' %}已生成{% else %}阻塞{% endif %}</span>
+            <a href="{{ page.data_url | relative_url }}">数据</a>
+          </div>
         </aside>
       </section>
 
       <section class="content-grid">
-        <article class="report">
+        <article class="report" id="full-report">
           {{ content }}
         </article>
         <aside class="archive">
