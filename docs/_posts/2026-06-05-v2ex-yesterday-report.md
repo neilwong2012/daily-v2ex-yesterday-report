@@ -1,8 +1,9 @@
 ---
-layout: report-home
-title: "最新报告"
+layout: report-post
+title: "V2EX 2026-06-05 昨日新帖报告"
 hero_title: "昨日 V2EX 关键内容"
-permalink: /latest/
+date: 2026-06-05 08:30:00 +0800
+categories: [v2ex, daily-report]
 status: success
 target_date: 2026-06-05
 generated_at: "2026-06-06 07:53:36"
@@ -81,6 +82,8 @@ risk_topics:
     replies: 25
     stars: 16
 ---
+
+> 发布状态：成功。生成时间：2026-06-06 07:53:37（Asia/Shanghai）。
 
 # V2EX 2026-06-05 昨日新帖报告
 
@@ -208,3 +211,5 @@ risk_topics:
 - 原始 JSON：[v2ex_2026-06-05_raw.json]({{ site.baseurl }}/data/2026-06-05.json)
 - Markdown 报告：[v2ex_2026-06-05_report.md]({{ page.url | relative_url }})
 
+
+数据文件：[/data/2026-06-05.json]({{ site.baseurl }}/data/2026-06-05.json)
