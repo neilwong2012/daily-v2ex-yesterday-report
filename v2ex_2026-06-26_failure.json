@@ -1,0 +1,16 @@
+{
+  "target_date": "2026-06-26",
+  "timezone": "Asia/Shanghai",
+  "status": "blocked",
+  "token_present": true,
+  "proxy": null,
+  "proxy_attempted": false,
+  "forced_proxy": false,
+  "fallback_proxy": false,
+  "direct_error_before_proxy": null,
+  "proxy_note": null,
+  "blocker": "ApiError: 522 topics/1223166: | status=522 | endpoint=topics/1223166",
+  "generated_at": "2026-06-27 07:50:25",
+  "failure_file": "/home/runner/work/daily-v2ex-yesterday-report/daily-v2ex-yesterday-report/v2ex_2026-06-26_failure.json",
+  "blocked_report_file": "/home/runner/work/daily-v2ex-yesterday-report/daily-v2ex-yesterday-report/v2ex_2026-06-26_report_blocked.md"
+}
