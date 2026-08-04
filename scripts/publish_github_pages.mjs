@@ -108,7 +108,7 @@ function buildSummary(payload, status) {
     return `API 抓取失败，已发布阻塞诊断。`;
   }
   const counts = payload?.counts || {};
-  return `昨日主题 ${counts.allCreated ?? 0} 个，过滤 ${counts.excluded ?? 0} 个，纳入分析 ${counts.included ?? 0} 个，高信号 ${counts.highSignal ?? 0} 个。`;
+  return `昨日主题 ${counts.allCreated ?? 0} 个，过滤 ${counts.excluded ?? 0} 个，DeepSeek 分析 ${counts.analysisSuccess ?? 0} 个，保留高价值内容 ${counts.valuable ?? counts.highSignal ?? 0} 个。`;
 }
 
 function compactTopic(topic) {
