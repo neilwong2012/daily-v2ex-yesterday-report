@@ -1,9 +1,13 @@
 import fs from 'node:fs/promises';
 import { spawnSync } from 'node:child_process';
+import { analyzeTopicsWithDeepSeek } from './lib/deepseek-analysis.mjs';
 
-const base = 'https://www.v2ex.com';
-const apiBase = `${base}/api/v2`;
+const base = process.env.V2EX_BASE_URL || 'https://www.v2ex.com';
+const apiBase = process.env.V2EX_API_BASE_URL || `${base}/api/v2`;
 const token = process.env.V2EX_TOKEN;
+const apiMaxRetries = readNonNegativeInteger('V2EX_API_MAX_RETRIES', 3);
+const apiRetryBaseMs = readNonNegativeInteger('V2EX_API_RETRY_BASE_MS', 500);
+const apiRetryMaxMs = readNonNegativeInteger('V2EX_API_RETRY_MAX_MS', 5000);
 const proxy =
   process.env.V2EX_PROXY ??
   process.env.HTTPS_PROXY ??
@@ -21,6 +25,7 @@ const reportFile = new URL(`./v2ex_${targetDate}_report.md`, import.meta.url);
 const rawFile = new URL(`./v2ex_${targetDate}_raw.json`, import.meta.url);
 const failureFile = new URL(`./v2ex_${targetDate}_failure.json`, import.meta.url);
 const blockedReportFile = new URL(`./v2ex_${targetDate}_report_blocked.md`, import.meta.url);
+const repliesFile = new URL(`./v2ex_yesterday_data/replies_${targetDate}.json`, import.meta.url);
 
 function runWithProxy(extraEnv = {}) {
   const result = spawnSync(process.execPath, process.argv.slice(1), {
@@ -75,6 +80,11 @@ function isNetworkError(error) {
   return /fetch failed|ENOTFOUND|ECONN|ETIMEDOUT|EAI_AGAIN|UND_ERR|EPERM|EHOSTUNREACH|network/i.test(description);
 }
 
+function readNonNegativeInteger(name, fallback) {
+  const value = Number(process.env[name]);
+  return Number.isInteger(value) && value >= 0 ? value : fallback;
+}
+
 class ApiError extends Error {
   constructor(message, { status, endpoint, body, json } = {}) {
     super(message);
@@ -86,13 +96,25 @@ class ApiError extends Error {
   }
 }
 
-function isRetryableApiGap(error) {
-  if (!(error instanceof ApiError)) return true;
-  return error.status === 404;
+function isTransientApiError(error) {
+  return error instanceof ApiError && (
+    error.status === 408 ||
+    error.status === 425 ||
+    error.status === 429 ||
+    (error.status >= 500 && error.status <= 599)
+  );
+}
+
+function isRetryableRequestError(error) {
+  return isNetworkError(error) || isTransientApiError(error);
+}
+
+function isSkippableTopicError(error) {
+  return error instanceof ApiError && (error.status === 404 || isTransientApiError(error));
 }
 
 function isRateLimitError(error) {
-  return error instanceof ApiError && (error.status === 403 || /Rate Limit Exceeded/i.test(error.message));
+  return error instanceof ApiError && (error.status === 403 || error.status === 429 || /Rate Limit Exceeded/i.test(error.message));
 }
 
 if (!token) {
@@ -232,7 +254,7 @@ async function getText(url) {
   return res.text();
 }
 
-async function getJson(endpoint) {
+async function getJsonOnce(endpoint) {
   const res = await fetch(`${apiBase}/${endpoint}`, {
     headers: {
       Authorization: `Bearer ${token}`,
@@ -247,7 +269,7 @@ async function getJson(endpoint) {
   } catch {
     // Some API misses return HTML; keep the body excerpt in the error.
   }
-  if (!res.ok || json.success === false) {
+  if (!res.ok || json?.success === false) {
     const detail = json ? JSON.stringify(json).slice(0, 240) : body.slice(0, 240);
     throw new ApiError(`${res.status} ${endpoint}: ${detail}`, {
       status: res.status,
@@ -257,6 +279,21 @@ async function getJson(endpoint) {
     });
   }
   return json.result;
+}
+
+async function getJson(endpoint) {
+  for (let attempt = 0; ; attempt += 1) {
+    try {
+      return await getJsonOnce(endpoint);
+    } catch (error) {
+      if (!isRetryableRequestError(error) || attempt >= apiMaxRetries) throw error;
+      const delayMs = Math.min(apiRetryMaxMs, apiRetryBaseMs * (2 ** attempt));
+      console.error(
+        `Transient V2EX API error for ${endpoint}; retry ${attempt + 1}/${apiMaxRetries} in ${delayMs}ms: ${describeError(error)}`,
+      );
+      await sleep(delayMs);
+    }
+  }
 }
 
 async function tryGetJson(endpoint) {
@@ -325,7 +362,7 @@ async function getNearbyTopicForSearch(id) {
   try {
     return await getCachedTopic(id);
   } catch (error) {
-    if (isNetworkError(error) || isRateLimitError(error) || !isRetryableApiGap(error)) throw error;
+    if (isNetworkError(error) || isRateLimitError(error) || !isSkippableTopicError(error)) throw error;
   }
   for (let offset = 1; offset <= 8; offset += 1) {
     for (const candidateId of [id - offset, id + offset]) {
@@ -333,7 +370,7 @@ async function getNearbyTopicForSearch(id) {
       try {
         return await getCachedTopic(candidateId);
       } catch (error) {
-        if (isNetworkError(error) || isRateLimitError(error) || !isRetryableApiGap(error)) throw error;
+        if (isNetworkError(error) || isRateLimitError(error) || !isSkippableTopicError(error)) throw error;
       }
     }
   }
@@ -456,11 +493,17 @@ function makeReport(payload) {
     scannedIds,
     scannedTopicCount,
     scanGaps,
+    scanErrors,
     scannedCandidates,
     allCreatedTopics,
     excludedTopics,
     includedTopics,
     highSignalTopics,
+    valuableAnalyses,
+    analysisStats,
+    deepseekModel,
+    downloadedReplyCount,
+    replyFetchErrors,
     replyInsights,
     nodeSummary,
     trendSummary,
@@ -475,19 +518,23 @@ function makeReport(payload) {
   lines.push('');
   lines.push(`抓取时间：${generatedAt}（${timezone}）  `);
   lines.push(`时间口径：${targetDate} 00:00:00 到次日 00:00:00（${timezone}）  `);
-  lines.push(`数据口径：使用 V2EX API 2.0 按 topic id 扫描，并用 API 返回的 created 字段确认昨日创建主题；高信号主题进一步通过 API 2.0 抓取回复。  `);
-  lines.push(`过滤规则：\`二手交易\` 和 \`推广\` 已从分析、趋势统计、高信号筛选、推荐结论中完全排除。`);
+  lines.push(`数据口径：使用 V2EX API 2.0 按 topic id 扫描并抓取全部主题回复；过滤后由 ${deepseekModel} 逐帖进行隔离的结构化价值分析。  `);
+  lines.push(`过滤规则：\`二手交易\` 和 \`推广\` 已从 DeepSeek 分析、趋势统计、高价值筛选和推荐结论中完全排除。`);
   lines.push('');
   lines.push('## 数据范围与计数');
   lines.push('');
   lines.push(`- 扫描 topic id 数：${scannedIds}`);
   lines.push(`- 成功读取主题详情数：${scannedTopicCount}`);
   lines.push(`- 扫描空洞 / 失败 id 数：${scanGaps}`);
+  lines.push(`- 重试耗尽后跳过的临时 API 错误：${scanErrors.length}`);
   lines.push(`- API 确认为昨日创建的候选主题数：${scannedCandidates}`);
   lines.push(`- API 确认为昨日创建的主题总数：${allCreatedTopics.length}`);
   lines.push(`- 过滤掉的 \`二手交易\` / \`推广\` 主题：${excludedTopics.length}`);
   lines.push(`- 纳入分析的主题：${includedTopics.length}`);
-  lines.push(`- 补抓回复的高信号主题：${highSignalTopics.length}`);
+  lines.push(`- 下载的全部回复：${downloadedReplyCount}`);
+  lines.push(`- 回复抓取失败的主题：${replyFetchErrors}`);
+  lines.push(`- DeepSeek 分析成功 / 失败：${analysisStats.success} / ${analysisStats.failed}`);
+  lines.push(`- DeepSeek 判定的高价值主题：${valuableAnalyses.length}`);
   lines.push('');
   lines.push('节点分布 Top：');
   lines.push('');
@@ -495,13 +542,37 @@ function makeReport(payload) {
     lines.push(`- ${item.nodeTitle}：${item.count}`);
   }
   lines.push('');
+  lines.push('## DeepSeek V4 高价值精选');
+  lines.push('');
+  if (valuableAnalyses.length === 0) {
+    lines.push('- 本次没有通过价值阈值和结构校验的主题。');
+  } else {
+    for (const item of valuableAnalyses.slice(0, 20)) {
+      const topic = item.topic;
+      lines.push(`### [${topic.title}](${topic.url})`);
+      lines.push('');
+      lines.push(`- 价值评分：${item.value_score}/100｜分类：${item.category}｜节点：${topic.node?.title || topic.nodeTitle || '未知'}`);
+      lines.push(`- 内容摘要：${item.summary}`);
+      for (const takeaway of item.key_takeaways) {
+        lines.push(`- 要点：${takeaway}`);
+      }
+      if (item.evidence_reply_ids.length > 0) {
+        const evidence = item.evidence_reply_ids.map((id) => `[#${id}](${topic.url}#reply${id})`).join('、');
+        lines.push(`- 依据回复：${evidence}`);
+      }
+      if (item.input_truncated) {
+        lines.push(`- 覆盖说明：该主题回复过长，分析了 ${item.analyzed_reply_count}/${item.total_reply_count} 条回复。`);
+      }
+      lines.push('');
+    }
+  }
   lines.push('## 主要趋势');
   lines.push('');
   for (const item of trendSummary.slice(0, 6)) {
     lines.push(`- ${item.label}：${item.count} 帖，仍是昨天最密集的讨论簇。`);
   }
   lines.push('');
-  lines.push('高信号主题样本：');
+  lines.push('高价值主题样本：');
   lines.push('');
   for (const topic of highSignalTopics.slice(0, 10)) {
     lines.push(lineForTopic(topic));
@@ -560,6 +631,7 @@ function makeReport(payload) {
   lines.push('## 原始文件');
   lines.push('');
   lines.push(`- 原始 JSON：[v2ex_${targetDate}_raw.json](${rawFile.pathname})`);
+  lines.push(`- 全量回复归档：\`v2ex_yesterday_data/replies_${targetDate}.json\``);
   lines.push(`- Markdown 报告：[v2ex_${targetDate}_report.md](${reportFile.pathname})`);
   return `${lines.join('\n')}\n`;
 }
@@ -567,6 +639,7 @@ function makeReport(payload) {
 async function collectTopicIdCandidates() {
   const found = new Map();
   const scanned = [];
+  const scanErrors = [];
   const configuredStart = Number(process.env.V2EX_SCAN_START || 0);
   const configuredEnd = Number(process.env.V2EX_SCAN_END || 0);
   const latestId = configuredStart || (await getLatestTopicId());
@@ -609,9 +682,14 @@ async function collectTopicIdCandidates() {
       } catch (error) {
         if (isNetworkError(error)) throw error;
         if (isRateLimitError(error)) throw error;
-        if (!isRetryableApiGap(error)) throw error;
+        if (!isSkippableTopicError(error)) throw error;
         gaps += 1;
         consecutiveGaps += 1;
+        if (error.status !== 404) {
+          const scanError = { id, status: error.status, error: describeError(error) };
+          scanErrors.push(scanError);
+          console.error(`Skipping topic ${id} after retries were exhausted: ${scanError.error}`);
+        }
       }
       if (!boundedByDate && found.size > 0 && consecutiveGaps >= 120) break;
       if (scannedIds % 50 === 0) console.error(`id scan down ${scannedIds}: id=${id}, target=${found.size}, gaps=${gaps}`);
@@ -638,9 +716,14 @@ async function collectTopicIdCandidates() {
       } catch (error) {
         if (isNetworkError(error)) throw error;
         if (isRateLimitError(error)) throw error;
-        if (!isRetryableApiGap(error)) throw error;
+        if (!isSkippableTopicError(error)) throw error;
         gaps += 1;
         consecutiveGaps += 1;
+        if (error.status !== 404) {
+          const scanError = { id, status: error.status, error: describeError(error) };
+          scanErrors.push(scanError);
+          console.error(`Skipping topic ${id} after retries were exhausted: ${scanError.error}`);
+        }
       }
       if (found.size > 0 && consecutiveGaps >= 120) break;
       if (scannedIds % 50 === 0) console.error(`id scan up ${scannedIds}: id=${id}, target=${found.size}, gaps=${gaps}`);
@@ -652,6 +735,7 @@ async function collectTopicIdCandidates() {
     scannedIds,
     scannedTopicCount: scanned.length,
     gaps,
+    scanErrors,
     latestId,
     localMaxId,
     candidates: [...found.values()].sort((a, b) => a.id - b.id),
@@ -698,6 +782,7 @@ async function writeFailure(error) {
     timezone,
     status: 'blocked',
     token_present: Boolean(token),
+    deepseek_key_present: Boolean(process.env.DEEPSEEK_API_KEY),
     proxy,
     proxy_attempted: process.env.NODE_USE_ENV_PROXY === '1',
     forced_proxy: process.env.V2EX_PROXY_FORCED === '1',
@@ -717,11 +802,12 @@ async function writeFailure(error) {
     '',
     `抓取时间：${payload.generated_at}（${timezone}）  `,
     `时间口径：${targetDate} 00:00:00 到次日 00:00:00（${timezone}）  `,
-    '状态：API 抓取失败，未生成有效分析报告。',
+    '状态：数据抓取或 DeepSeek 分析失败，未生成有效分析报告。',
     '',
     '## 阻塞原因',
     '',
     `- V2EX_TOKEN：${payload.token_present ? '已检测到' : '未检测到'}`,
+    `- DEEPSEEK_API_KEY：${payload.deepseek_key_present ? '已检测到' : '未检测到'}`,
     `- 代理环境：${proxy || '未检测到'}`,
     `- 是否已尝试代理：${payload.proxy_attempted ? '是' : '否'}`,
     ...(payload.direct_error_before_proxy ? [`- 直连失败：${payload.direct_error_before_proxy}`] : []),
@@ -759,9 +845,51 @@ async function main() {
     const allCreatedTopics = details.filter((topic) => !topic.error && topicDate(topic.created) === targetDate);
     const excludedTopics = allCreatedTopics.filter(isExcludedTopic);
     const includedTopics = allCreatedTopics.filter((topic) => !isExcludedTopic(topic));
+    const allReplyBag = await collectReplies(allCreatedTopics);
+    await fs.writeFile(repliesFile, JSON.stringify(scrubSecrets({
+      targetDate,
+      generatedAt: formatShanghaiDateTime(),
+      topics: allReplyBag,
+    }), null, 2));
+    const includedIds = new Set(includedTopics.map((topic) => topic.id));
+    const analysisReplyBag = allReplyBag.filter((item) => includedIds.has(item.topic.id));
+    const deepseekEnabled = process.env.V2EX_SKIP_AI !== '1';
+    const deepseekModel = process.env.DEEPSEEK_MODEL || 'deepseek-v4-flash';
+    const analysisResults = deepseekEnabled
+      ? await analyzeTopicsWithDeepSeek(analysisReplyBag, {
+          model: deepseekModel,
+          onProgress: ({ completed, total, succeeded, failed }) => {
+            if (completed % 10 === 0 || completed === total) {
+              console.error(`DeepSeek analysis ${completed}/${total}: success=${succeeded}, failed=${failed}`);
+            }
+          },
+        })
+      : [];
+    const successfulAnalyses = analysisResults.filter((item) => item.status === 'success');
+    const failedAnalyses = analysisResults.filter((item) => item.status === 'failed');
+    const minimumSuccessRatio = Number(process.env.DEEPSEEK_MIN_SUCCESS_RATIO || 0.8);
+    if (deepseekEnabled && successfulAnalyses.length / Math.max(analysisReplyBag.length, 1) < minimumSuccessRatio) {
+      throw new Error(`DeepSeek analysis success ratio ${successfulAnalyses.length}/${analysisReplyBag.length} is below ${minimumSuccessRatio}`);
+    }
+    const topicById = new Map(includedTopics.map((topic) => [topic.id, topic]));
+    const valuableAnalyses = successfulAnalyses
+      .filter((item) => item.keep && topicById.has(item.topic_id))
+      .map((item) => ({ ...item, topic: topicById.get(item.topic_id) }))
+      .sort((a, b) => b.value_score - a.value_score);
     const scoredTopics = [...includedTopics].sort((a, b) => topicScore(b) - topicScore(a));
-    const highSignalTopics = scoredTopics.filter(isHighSignal).slice(0, 25);
-    const replyBag = await collectReplies(highSignalTopics);
+    const highSignalTopics = deepseekEnabled
+      ? valuableAnalyses.slice(0, 25).map((item) => item.topic)
+      : scoredTopics.filter(isHighSignal).slice(0, 25);
+    const highSignalIds = new Set(highSignalTopics.map((topic) => topic.id));
+    const replyBag = analysisReplyBag.filter((item) => highSignalIds.has(item.topic.id));
+    const downloadedReplyCount = allReplyBag.reduce((total, item) => total + item.replies.length, 0);
+    const replyFetchErrors = allReplyBag.filter((item) => item.error).length;
+    const analysisStats = {
+      requested: analysisReplyBag.length,
+      success: successfulAnalyses.length,
+      failed: failedAnalyses.length,
+      kept: valuableAnalyses.length,
+    };
     const toolTopics = topByCategory(scoredTopics, TOOL_PATTERNS);
     const marketTopics = topByCategory(scoredTopics, MARKET_PATTERNS);
     const riskTopics = topByCategory(scoredTopics, RISK_PATTERNS);
@@ -780,6 +908,7 @@ async function main() {
       scannedIds: idScan.scannedIds,
       scannedTopicCount: idScan.scannedTopicCount,
       scanGaps: idScan.gaps,
+      scanErrors: idScan.scanErrors,
       latestId: idScan.latestId,
       localMaxId: idScan.localMaxId,
       scannedPages: 0,
@@ -789,6 +918,10 @@ async function main() {
         excluded: excludedTopics.length,
         included: includedTopics.length,
         highSignal: highSignalTopics.length,
+        replies: downloadedReplyCount,
+        analysisSuccess: analysisStats.success,
+        analysisFailed: analysisStats.failed,
+        valuable: valuableAnalyses.length,
       },
       recentCandidates: [],
       idScanCandidates: idScan.candidates,
@@ -797,6 +930,13 @@ async function main() {
       includedTopics,
       highSignalTopics,
       replyBag,
+      replyArchiveFile: `v2ex_yesterday_data/replies_${targetDate}.json`,
+      deepseek: {
+        enabled: deepseekEnabled,
+        model: deepseekModel,
+        stats: analysisStats,
+        analyses: analysisResults,
+      },
       trendSummary,
       nodeSummary,
       picks: {
@@ -814,11 +954,17 @@ async function main() {
       scannedIds: idScan.scannedIds,
       scannedTopicCount: idScan.scannedTopicCount,
       scanGaps: idScan.gaps,
+      scanErrors: idScan.scanErrors,
       scannedCandidates: idScan.candidates.length,
       allCreatedTopics,
       excludedTopics,
       includedTopics,
       highSignalTopics,
+      valuableAnalyses,
+      analysisStats,
+      deepseekModel,
+      downloadedReplyCount,
+      replyFetchErrors,
       replyInsights,
       nodeSummary,
       trendSummary,

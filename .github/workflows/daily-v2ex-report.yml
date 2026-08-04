@@ -41,6 +41,7 @@ jobs:
         id: run_report
         env:
           V2EX_TOKEN: ${{ secrets.V2EX_TOKEN }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           V2EX_DATE: ${{ inputs.target_date }}
         run: |
           set +e

@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "check": "node --check fetch_v2ex_yesterday.mjs && node --check scripts/publish_github_pages.mjs",
+    "check": "node --check fetch_v2ex_yesterday.mjs && node --check lib/deepseek-analysis.mjs && node --check scripts/publish_github_pages.mjs && node --test tests/*.test.mjs",
+    "test": "node --test tests/*.test.mjs",
     "report": "node fetch_v2ex_yesterday.mjs",
     "publish:blog": "node scripts/publish_github_pages.mjs"
   },
