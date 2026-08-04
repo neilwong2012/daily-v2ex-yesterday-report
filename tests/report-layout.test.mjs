@@ -23,7 +23,10 @@ test('report home keeps the page content-first', async () => {
 
   assert.match(layout, /<article class="report">\s*\{\{ content \}\}/);
   assert.match(layout, /<span>V2EX 每日热点<\/span>/);
-  assert.match(layout, /<p class="kicker">\{\{ page\.target_date \| date: "%Y年%m月%d日" \}\} 热点内容<\/p>/);
+  assert.match(layout, /<h1 class="kicker">/);
+  assert.match(layout, /<time class="kicker-date" datetime="\{\{ page\.target_date \}\}">\{\{ page\.target_date \| date: "%Y年%m月%d日" \}\}<\/time>/);
+  assert.match(layout, /<span class="kicker-label">热点内容<\/span>/);
+  assert.match(layout, /\.kicker-label\s*\{[^}]*color: var\(--accent\)/s);
   assert.match(layout, /\.topic-card > summary/);
   assert.match(layout, /\.topic-title/);
   assert.match(layout, /class="date-sidebar"/);
@@ -36,19 +39,19 @@ test('report home keeps the page content-first', async () => {
   assert.match(layout, /\.topic-article h3/);
   assert.match(layout, /\.topic-article pre/);
   assert.match(layout, /\.topic-source/);
-  assert.match(layout, /\.topic-card > \.topic-source/);
-  assert.match(layout, /\.topic-source::before/);
+  assert.match(layout, /\.topic-content::before/);
   assert.match(layout, /summary:has\(\.topic-title:hover\)::after/);
   assert.match(layout, /\.topic-card\[open\] > summary::after/);
   assert.match(layout, /--accent: #d92d20/);
-  assert.match(layout, /\.topic-article::before/);
   assert.match(layout, /\.topic-article ul li::before/);
   assert.match(layout, /@keyframes topic-content-reveal/);
   assert.match(layout, /prefers-reduced-motion: no-preference/);
-  assert.match(layout, /\.topic-card\[open\] > \.topic-article/);
+  assert.match(layout, /\.topic-card\[open\] > \.topic-content/);
   assert.match(layout, /localStorage\.setItem\(readStorageKey/);
   assert.match(layout, /replace\('原标题：', '原链接：'\)/);
   assert.match(layout, /insertBefore\(source, article\)/);
+  assert.match(layout, /content\.append\(source, followingArticle\)/);
+  assert.doesNotMatch(layout, /\.topic-(?:article|source)::before/);
   assert.equal((layout.match(/<label for="report-date-select">切换日期<\/label>/g) || []).length, 1);
   assert.doesNotMatch(layout, /昨日内容精选|class="metrics"|page\.hero_title/);
   assert.doesNotMatch(layout, /date-month|报告日期|选择报告日期|按日期查看报告/);

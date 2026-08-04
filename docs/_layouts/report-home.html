@@ -75,13 +75,26 @@
         padding: 48px 0 72px;
       }
       .content-column { min-width: 0; }
-      .report-header { margin-bottom: 22px; }
+      .report-header { margin-bottom: 30px; }
       .kicker {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        gap: 12px;
         margin: 0;
-        color: var(--muted);
-        font-size: 14px;
-        text-align: center;
+        line-height: 1.35;
+      }
+      .kicker-date {
+        color: #8a8a8a;
+        font-size: 17px;
+        font-weight: 450;
         font-variant-numeric: tabular-nums;
+      }
+      .kicker-label {
+        color: var(--accent);
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: -.02em;
       }
       .blocked-note {
         margin: 22px 0 0;
@@ -203,24 +216,26 @@
         margin-right: 38px;
       }
       .topic-card > p:first-of-type { font-size: 14px; }
-      .topic-article {
+      .topic-content {
         position: relative;
-        margin-left: 0;
-        margin-right: 0;
         margin-bottom: 30px;
-        padding: 20px 0 6px 42px;
-        background: transparent;
-        color: #303030;
+        padding: 18px 0 0 42px;
       }
-      .topic-article::before {
+      .topic-content::before {
         position: absolute;
-        top: -19px;
-        bottom: -30px;
+        top: 18px;
+        bottom: 0;
         left: 0;
         width: 3px;
         border-radius: 999px;
         background: linear-gradient(180deg, var(--accent), var(--accent-line));
         content: "";
+      }
+      .topic-article {
+        margin: 0;
+        padding: 20px 0 6px;
+        background: transparent;
+        color: #303030;
       }
       .topic-article h3 {
         position: relative;
@@ -284,29 +299,13 @@
         line-height: 1.6;
       }
       .topic-article > :last-child { margin-bottom: 0; }
-      .topic-card > .topic-source {
-        margin-left: 0;
-        margin-right: 0;
-      }
       .topic-source {
-        position: relative;
-        margin-top: 18px;
-        margin-bottom: 0;
-        padding: 0 0 13px 42px;
+        margin: 0;
+        padding: 0 0 13px;
         border-bottom: 1px solid var(--line);
         background: transparent;
         color: var(--muted);
         font-size: 14px;
-      }
-      .topic-source::before {
-        position: absolute;
-        top: 0;
-        bottom: -20px;
-        left: 0;
-        width: 3px;
-        border-radius: 999px;
-        background: linear-gradient(180deg, var(--accent), var(--accent-line));
-        content: "";
       }
       .topic-source a {
         color: #a82a21;
@@ -331,11 +330,9 @@
         .topic-card > summary::after {
           transition: opacity 140ms ease, transform 220ms cubic-bezier(.2, .7, .2, 1);
         }
-        .topic-card[open] > .topic-article,
-        .topic-card[open] > .topic-source {
+        .topic-card[open] > .topic-content {
           animation: topic-content-reveal 180ms cubic-bezier(.2, .7, .2, 1) both;
         }
-        .topic-card[open] > .topic-article { animation-delay: 25ms; }
       }
       .analysis-evidence {
         margin: 18px 0 34px;
@@ -418,7 +415,10 @@
         .site-header-inner { min-height: 52px; }
         .page-shell { padding: 30px 0 52px; }
         .mobile-date-jump { margin-bottom: 24px; }
-        .report-header { margin-bottom: 18px; }
+        .report-header { margin-bottom: 24px; }
+        .kicker { gap: 9px; }
+        .kicker-date { font-size: 15px; }
+        .kicker-label { font-size: 21px; }
         .report h2 { margin-top: 48px; font-size: 24px; }
         .topic-card > summary { align-items: baseline; gap: 8px; padding: 17px 0; }
         .topic-rank { min-width: 1.9em; }
@@ -427,9 +427,9 @@
         .topic-card > ul,
         .topic-card > ol,
         .topic-card > .analysis-evidence { margin-left: 0; margin-right: 0; }
-        .topic-article { padding: 19px 0 4px 30px; }
-        .topic-article::before { top: -19px; }
-        .topic-source { padding: 0 0 12px 30px; }
+        .topic-content { padding-left: 30px; }
+        .topic-article { padding: 19px 0 4px; }
+        .topic-source { padding-bottom: 12px; }
       }
     </style>
   </head>
@@ -455,7 +455,10 @@
         </div>
 
         <header class="report-header">
-          <p class="kicker">{{ page.target_date | date: "%Y年%m月%d日" }} 热点内容</p>
+          <h1 class="kicker">
+            <time class="kicker-date" datetime="{{ page.target_date }}">{{ page.target_date | date: "%Y年%m月%d日" }}</time>
+            <span class="kicker-label">热点内容</span>
+          </h1>
           {% if page.status == 'blocked' %}
             <p class="blocked-note">本期报告生成受阻，正文保留诊断信息供排查。</p>
           {% endif %}
@@ -513,6 +516,16 @@
           const article = source.previousElementSibling;
           if (article?.classList.contains('topic-article')) {
             source.parentElement.insertBefore(source, article);
+          }
+          const followingArticle = source.nextElementSibling;
+          if (
+            followingArticle?.classList.contains('topic-article')
+            && !source.parentElement.classList.contains('topic-content')
+          ) {
+            const content = document.createElement('div');
+            content.className = 'topic-content';
+            source.parentElement.insertBefore(content, source);
+            content.append(source, followingArticle);
           }
           const label = source.firstChild;
           if (label?.nodeType === Node.TEXT_NODE) {
