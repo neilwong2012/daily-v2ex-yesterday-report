@@ -11,113 +11,14 @@ count_all: 276
 count_excluded: 54
 count_included: 222
 count_high_signal: 25
+count_valuable: 46
 report_url: "/v2ex/daily-report/2026/08/03/v2ex-yesterday-report.html"
 data_url: "/data/2026-08-03.json"
-key_trends:
-  - label: "AI 编程 / Agent"
-    count: 123
-  - label: "独立开发 / 工具发布"
-    count: 101
-  - label: "云 / 运维 / 基础设施"
-    count: 30
-  - label: "安全 / 合规 / 风险"
-    count: 29
-top_topics:
-  - title: "当 agent 说\"我做完了\" —— 四个从翻车里长出来的 Claude Code skill"
-    url: "https://www.v2ex.com/t/1231702"
-    node: "人工智能"
-    replies: 0
-    stars: 1
-  - title: "请问 claude 能注册吗"
-    url: "https://www.v2ex.com/t/1231801"
-    node: "Claude"
-    replies: 2
-    stars: 0
-  - title: "新电视买回来了，但快被现在的“套娃会员”逼疯了！影视会员、体育会员就算了，现在连看个电视直播都要单独开会员，真的是吃相太难看"
-    url: "https://www.v2ex.com/t/1231677"
-    node: "问与答"
-    replies: 39
-    stars: 21
-  - title: "大家现在 Windows 下面是如何使用 codex 的，怎么搞都有问题"
-    url: "https://www.v2ex.com/t/1231744"
-    node: "程序员"
-    replies: 56
-    stars: 15
-  - title: "codex 被封号了， 1 个苹果账号可以绑多个 openai 吗？不想切苹果账号注册新的。"
-    url: "https://www.v2ex.com/t/1231781"
-    node: "OpenAI"
-    replies: 15
-    stars: 0
-tool_topics:
-  - title: "极致精简，已经优化为仅 100 多 KB！单文件 PHP 论坛！"
-    url: "https://www.v2ex.com/t/1231731"
-    node: "PHP"
-    replies: 71
-    stars: 56
-  - title: "大家现在 Windows 下面是如何使用 codex 的，怎么搞都有问题"
-    url: "https://www.v2ex.com/t/1231744"
-    node: "程序员"
-    replies: 56
-    stars: 15
-  - title: "35 岁程序员，想用 90 天验证 AI 创业方向，想听听大家的建议"
-    url: "https://www.v2ex.com/t/1231645"
-    node: "职场话题"
-    replies: 42
-    stars: 17
-risk_topics:
-  - title: "同求建议，相亲 4 个月，因 12.8 万彩礼谈到分手，是该妥协还是婚姻观不合？"
-    url: "https://www.v2ex.com/t/1231745"
-    node: "生活"
-    replies: 316
-    stars: 13
-  - title: "AI 短剧 每月至少 1-2w 真的这么挣钱吗？"
-    url: "https://www.v2ex.com/t/1231729"
-    node: "问与答"
-    replies: 56
-    stars: 19
-  - title: "用 Rust 从零写了个跨平台文件管理器 tessoa， UI 全自绘，现在开放内测！"
-    url: "https://www.v2ex.com/t/1231761"
-    node: "分享创造"
-    replies: 12
-    stars: 9
 ---
 
 # V2EX 2026-08-03 昨日新帖报告
 
-抓取时间：2026-08-04 17:13:12（Asia/Shanghai）  
-时间口径：2026-08-03 00:00:00 到次日 00:00:00（Asia/Shanghai）  
-数据口径：使用 V2EX API 2.0 按 topic id 扫描并抓取全部主题回复；过滤后由 deepseek-v4-flash 逐帖进行隔离的结构化价值分析。  
-过滤规则：`二手交易` 和 `推广` 已从 DeepSeek 分析、趋势统计、高价值筛选和推荐结论中完全排除。
-
-## 数据范围与计数
-
-- 扫描 topic id 数：276
-- 成功读取主题详情数：276
-- 扫描空洞 / 失败 id 数：0
-- 重试耗尽后跳过的临时 API 错误：0
-- API 确认为昨日创建的候选主题数：276
-- API 确认为昨日创建的主题总数：276
-- 过滤掉的 `二手交易` / `推广` 主题：54
-- 纳入分析的主题：222
-- 下载的全部回复：1946
-- 回复抓取失败的主题：0
-- DeepSeek 分析成功 / 失败：222 / 0
-- DeepSeek 判定的高价值主题：46
-
-节点分布 Top：
-
-- 问与答：39
-- 分享创造：37
-- 程序员：22
-- 分享发现：14
-- 生活：14
-- OpenAI：8
-- 酷工作：6
-- 职场话题：5
-- Apple：4
-- iPhone：4
-
-## DeepSeek V4 高价值精选
+## 今日值得看
 
 ### [当 agent 说"我做完了" —— 四个从翻车里长出来的 Claude Code skill](https://www.v2ex.com/t/1231702)
 
@@ -420,9 +321,40 @@ risk_topics:
   - vopsoft：wls1 并设置为规则 我的是这样设置的 仅供参考 --- Linux/Bash 环境默认行为 需要执行 SSH 、SCP 、rsync 、bash 脚本、Linux 命令行工具等操作时，默认通过 aibash WSL 发行版运行，而不是使
   - exploretheworld：要不要试试我这个用 git bash 的 codex ，我维护了一个主要给自己用，也打包了 codex app ，https://github.com/ump90/codex
 
-## 原始文件
+## 报告说明
 
-- 原始 JSON：[v2ex_2026-08-03_raw.json]({{ site.baseurl }}/data/2026-08-03.json)
-- 全量回复归档：`v2ex_yesterday_data/replies_2026-08-03.json`
-- Markdown 报告：[v2ex_2026-08-03_report.md]({{ page.url | relative_url }})
+抓取时间：2026-08-04 17:13:12（Asia/Shanghai）
 
+时间口径：2026-08-03 00:00:00 到次日 00:00:00（Asia/Shanghai）
+
+数据口径：使用 V2EX API 2.0 按 topic id 扫描并抓取全部主题回复；过滤后由 deepseek-v4-flash 逐帖进行隔离的结构化价值分析。
+
+过滤规则：`二手交易` 和 `推广` 已从 DeepSeek 分析、趋势统计、高价值筛选和推荐结论中完全排除。
+
+### 数据范围与计数
+
+- 扫描 topic id 数：276
+- 成功读取主题详情数：276
+- 扫描空洞 / 失败 id 数：0
+- 重试耗尽后跳过的临时 API 错误：0
+- API 确认为昨日创建的候选主题数：276
+- API 确认为昨日创建的主题总数：276
+- 过滤掉的 `二手交易` / `推广` 主题：54
+- 纳入分析的主题：222
+- 下载的全部回复：1946
+- 回复抓取失败的主题：0
+- DeepSeek 分析成功 / 失败：222 / 0
+- DeepSeek 判定的高价值主题：46
+
+节点分布 Top：
+
+- 问与答：39
+- 分享创造：37
+- 程序员：22
+- 分享发现：14
+- 生活：14
+- OpenAI：8
+- 酷工作：6
+- 职场话题：5
+- Apple：4
+- iPhone：4

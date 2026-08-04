@@ -498,7 +498,6 @@ function makeReport(payload) {
     allCreatedTopics,
     excludedTopics,
     includedTopics,
-    highSignalTopics,
     valuableAnalyses,
     analysisStats,
     deepseekModel,
@@ -516,33 +515,7 @@ function makeReport(payload) {
   const lines = [];
   lines.push(`# V2EX ${targetDate} 昨日新帖报告`);
   lines.push('');
-  lines.push(`抓取时间：${generatedAt}（${timezone}）  `);
-  lines.push(`时间口径：${targetDate} 00:00:00 到次日 00:00:00（${timezone}）  `);
-  lines.push(`数据口径：使用 V2EX API 2.0 按 topic id 扫描并抓取全部主题回复；过滤后由 ${deepseekModel} 逐帖进行隔离的结构化价值分析。  `);
-  lines.push(`过滤规则：\`二手交易\` 和 \`推广\` 已从 DeepSeek 分析、趋势统计、高价值筛选和推荐结论中完全排除。`);
-  lines.push('');
-  lines.push('## 数据范围与计数');
-  lines.push('');
-  lines.push(`- 扫描 topic id 数：${scannedIds}`);
-  lines.push(`- 成功读取主题详情数：${scannedTopicCount}`);
-  lines.push(`- 扫描空洞 / 失败 id 数：${scanGaps}`);
-  lines.push(`- 重试耗尽后跳过的临时 API 错误：${scanErrors.length}`);
-  lines.push(`- API 确认为昨日创建的候选主题数：${scannedCandidates}`);
-  lines.push(`- API 确认为昨日创建的主题总数：${allCreatedTopics.length}`);
-  lines.push(`- 过滤掉的 \`二手交易\` / \`推广\` 主题：${excludedTopics.length}`);
-  lines.push(`- 纳入分析的主题：${includedTopics.length}`);
-  lines.push(`- 下载的全部回复：${downloadedReplyCount}`);
-  lines.push(`- 回复抓取失败的主题：${replyFetchErrors}`);
-  lines.push(`- DeepSeek 分析成功 / 失败：${analysisStats.success} / ${analysisStats.failed}`);
-  lines.push(`- DeepSeek 判定的高价值主题：${valuableAnalyses.length}`);
-  lines.push('');
-  lines.push('节点分布 Top：');
-  lines.push('');
-  for (const item of nodeSummary) {
-    lines.push(`- ${item.nodeTitle}：${item.count}`);
-  }
-  lines.push('');
-  lines.push('## DeepSeek V4 高价值精选');
+  lines.push('## 今日值得看');
   lines.push('');
   if (valuableAnalyses.length === 0) {
     lines.push('- 本次没有通过价值阈值和结构校验的主题。');
@@ -570,12 +543,6 @@ function makeReport(payload) {
   lines.push('');
   for (const item of trendSummary.slice(0, 6)) {
     lines.push(`- ${item.label}：${item.count} 帖，仍是昨天最密集的讨论簇。`);
-  }
-  lines.push('');
-  lines.push('高价值主题样本：');
-  lines.push('');
-  for (const topic of highSignalTopics.slice(0, 10)) {
-    lines.push(lineForTopic(topic));
   }
   lines.push('');
   lines.push('## 值得关注的工具 / 项目 / 链接');
@@ -628,11 +595,15 @@ function makeReport(payload) {
     }
   }
   lines.push('');
-  lines.push('## 原始文件');
+  lines.push('## 报告说明');
   lines.push('');
-  lines.push(`- 原始 JSON：[v2ex_${targetDate}_raw.json](${rawFile.pathname})`);
-  lines.push(`- 全量回复归档：\`v2ex_yesterday_data/replies_${targetDate}.json\``);
-  lines.push(`- Markdown 报告：[v2ex_${targetDate}_report.md](${reportFile.pathname})`);
+  lines.push(`- 抓取时间：${generatedAt}（${timezone}）`);
+  lines.push(`- 时间范围：${targetDate} 00:00:00 到次日 00:00:00（${timezone}）`);
+  lines.push(`- 内容处理：通过 V2EX API 2.0 抓取主题与回复，排除二手交易和推广后，由 ${deepseekModel} 逐帖进行隔离的结构化分析。`);
+  lines.push(`- 覆盖情况：昨日 ${allCreatedTopics.length} 个主题，过滤 ${excludedTopics.length} 个，分析 ${includedTopics.length} 个，下载 ${downloadedReplyCount} 条回复，保留 ${valuableAnalyses.length} 个高价值主题。`);
+  lines.push(`- 运行质量：主题扫描 ${scannedIds} 个 id，读取 ${scannedTopicCount} 个主题详情，${scanGaps} 个空洞或失败 id；重试耗尽后跳过的临时 API 错误：${scanErrors.length}；回复抓取失败 ${replyFetchErrors} 个，分析成功 / 失败 ${analysisStats.success} / ${analysisStats.failed}。`);
+  lines.push(`- 节点分布：${nodeSummary.map((item) => `${item.nodeTitle} ${item.count}`).join('、')}`);
+  lines.push(`- 昨日候选主题：${scannedCandidates} 个。`);
   return `${lines.join('\n')}\n`;
 }
 

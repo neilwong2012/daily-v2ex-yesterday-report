@@ -57,22 +57,6 @@ function yamlEscape(value) {
   return String(value).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
 }
 
-function yamlList(name, items, fields) {
-  const lines = [`${name}:`];
-  if (!items || items.length === 0) {
-    lines.push('  []');
-    return lines;
-  }
-  for (const item of items) {
-    lines.push(`  - ${fields[0]}: "${yamlEscape(item[fields[0]] ?? '')}"`);
-    for (const field of fields.slice(1)) {
-      const value = item[field] ?? '';
-      lines.push(typeof value === 'number' ? `    ${field}: ${value}` : `    ${field}: "${yamlEscape(value)}"`);
-    }
-  }
-  return lines;
-}
-
 function scrubSecrets(value) {
   if (typeof value === 'string') {
     return SECRET_PATTERNS.reduce((text, pattern) => text.replace(pattern, '[REDACTED_SECRET]'), value);
@@ -98,6 +82,36 @@ function relativizeWorkspaceLinks(markdown, dateText) {
     .replaceAll(`{{ site.baseurl }}/v2ex_${dateText}_report_blocked.md`, `{{ page.url | relative_url }}`);
 }
 
+function prioritizeReportContent(markdown) {
+  const highlightHeading = '\n## DeepSeek V4 高价值精选\n';
+  const originalHeading = '\n## 原始文件\n';
+  const highlightIndex = markdown.indexOf(highlightHeading);
+  if (highlightIndex < 0) return markdown;
+
+  const intro = markdown.slice(0, highlightIndex).trim();
+  const reportBody = markdown.slice(highlightIndex + highlightHeading.length).trim();
+  const originalIndex = reportBody.indexOf(originalHeading);
+  const mainContent = originalIndex < 0 ? reportBody : reportBody.slice(0, originalIndex).trim();
+  const introLines = intro.split('\n');
+  const title = introLines.shift() || '';
+  const reportNotes = introLines.join('\n').trim()
+    .replace(/^## 数据范围与计数$/m, '### 数据范围与计数')
+    .replace(/ {2}\n/g, '\n\n');
+
+  const sections = [
+    title,
+    '',
+    '## 今日值得看',
+    '',
+    mainContent,
+    '',
+    '## 报告说明',
+    '',
+    reportNotes,
+  ];
+  return sections.join('\n').trim() + '\n';
+}
+
 async function readJsonIfPresent(fileUrl) {
   if (!(await exists(fileUrl))) return null;
   return JSON.parse(await fs.readFile(fileUrl, 'utf8'));
@@ -109,37 +123,6 @@ function buildSummary(payload, status) {
   }
   const counts = payload?.counts || {};
   return `昨日主题 ${counts.allCreated ?? 0} 个，过滤 ${counts.excluded ?? 0} 个，DeepSeek 分析 ${counts.analysisSuccess ?? 0} 个，保留高价值内容 ${counts.valuable ?? counts.highSignal ?? 0} 个。`;
-}
-
-function compactTopic(topic) {
-  return {
-    title: topic?.title || '',
-    url: topic?.url || '',
-    node: topic?.node?.title || topic?.nodeTitle || '未知',
-    replies: Number(topic?.replies || 0),
-    stars: Number(topic?.stars || 0),
-  };
-}
-
-function frontMatterInsights(payload) {
-  if (!payload) {
-    return [
-      'key_trends:',
-      '  []',
-      'top_topics:',
-      '  []',
-      'tool_topics:',
-      '  []',
-      'risk_topics:',
-      '  []',
-    ];
-  }
-  return [
-    ...yamlList('key_trends', (payload.trendSummary || []).slice(0, 4), ['label', 'count']),
-    ...yamlList('top_topics', (payload.highSignalTopics || []).slice(0, 5).map(compactTopic), ['title', 'url', 'node', 'replies', 'stars']),
-    ...yamlList('tool_topics', (payload.picks?.toolTopics || []).slice(0, 3).map(compactTopic), ['title', 'url', 'node', 'replies', 'stars']),
-    ...yamlList('risk_topics', (payload.picks?.riskTopics || []).slice(0, 3).map(compactTopic), ['title', 'url', 'node', 'replies', 'stars']),
-  ];
 }
 
 function pageFrontMatter({ layout, title, status, summary, targetDate, payload }) {
@@ -160,9 +143,9 @@ function pageFrontMatter({ layout, title, status, summary, targetDate, payload }
     `count_excluded: ${Number(counts.excluded || 0)}`,
     `count_included: ${Number(counts.included || 0)}`,
     `count_high_signal: ${Number(counts.highSignal || 0)}`,
+    `count_valuable: ${Number(counts.valuable ?? counts.highSignal ?? 0)}`,
     `report_url: "/v2ex/daily-report/${targetDate.slice(0, 4)}/${targetDate.slice(5, 7)}/${targetDate.slice(8, 10)}/v2ex-yesterday-report.html"`,
     `data_url: "/data/${targetDate}.json"`,
-    ...frontMatterInsights(payload),
     '---',
   ].join('\n');
 }
@@ -181,7 +164,9 @@ async function main() {
   const sourceReport = hasReport ? reportPath : blockedReportPath;
   const sourceData = hasReport ? rawPath : failurePath;
   const payload = scrubSecrets(await readJsonIfPresent(sourceData));
-  const markdown = scrubSecrets(relativizeWorkspaceLinks(await fs.readFile(sourceReport, 'utf8'), targetDate));
+  const markdown = scrubSecrets(prioritizeReportContent(
+    relativizeWorkspaceLinks(await fs.readFile(sourceReport, 'utf8'), targetDate),
+  ));
   const summary = buildSummary(payload, status);
 
   const hasData = await exists(sourceData);
@@ -193,26 +178,21 @@ async function main() {
   const lines = [
     pageFrontMatter({ layout: 'report-post', title: postTitle, status, summary, targetDate, payload }),
     '',
-    `> 发布状态：${status === 'success' ? '成功' : '阻塞'}。生成时间：${formatShanghaiDateTime()}（${timezone}）。`,
-    '',
-    markdown,
-    '',
   ];
-  if (hasData) {
-    lines.push(`数据文件：[/data/${targetDate}.json]({{ site.baseurl }}/data/${targetDate}.json)`);
-    lines.push('');
+  if (status === 'blocked') {
+    lines.push(`> 发布状态：阻塞。生成时间：${formatShanghaiDateTime()}（${timezone}）。`, '');
   }
-
-  const post = lines.join('\n');
+  lines.push(markdown, '');
+  const post = `${lines.join('\n').trimEnd()}\n`;
 
   await fs.writeFile(postPath, post);
-  await fs.writeFile(new URL('../docs/index.md', import.meta.url), [
+  await fs.writeFile(new URL('../docs/index.md', import.meta.url), `${[
     pageFrontMatter({ layout: 'report-home', title: 'V2EX 昨日新帖报告', status, summary, targetDate, payload }),
     '',
     markdown,
     '',
-  ].join('\n'));
-  await fs.writeFile(new URL('../docs/latest.md', import.meta.url), [
+  ].join('\n').trimEnd()}\n`);
+  await fs.writeFile(new URL('../docs/latest.md', import.meta.url), `${[
     '---',
     'layout: report-home',
     'title: "最新报告"',
@@ -226,14 +206,14 @@ async function main() {
     `count_excluded: ${Number(payload?.counts?.excluded || 0)}`,
     `count_included: ${Number(payload?.counts?.included || 0)}`,
     `count_high_signal: ${Number(payload?.counts?.highSignal || 0)}`,
+    `count_valuable: ${Number(payload?.counts?.valuable ?? payload?.counts?.highSignal ?? 0)}`,
     `report_url: "/v2ex/daily-report/${targetDate.slice(0, 4)}/${targetDate.slice(5, 7)}/${targetDate.slice(8, 10)}/v2ex-yesterday-report.html"`,
     `data_url: "/data/${targetDate}.json"`,
-    ...frontMatterInsights(payload),
     '---',
     '',
     markdown,
     '',
-  ].join('\n'));
+  ].join('\n').trimEnd()}\n`);
 
   console.log(JSON.stringify({
     targetDate,
