@@ -1,6 +1,8 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
+import { MIN_CONTENT_SCORE, replyWeightForCount } from '../lib/deepseek-analysis.mjs';
+
 const timezone = 'Asia/Shanghai';
 const targetDate = process.env.V2EX_DATE || getShanghaiDateOffset(-1);
 const rootDir = new URL('../', import.meta.url);
@@ -125,13 +127,45 @@ function buildSummary(payload, status) {
   return `昨日主题 ${counts.allCreated ?? 0} 个，过滤 ${counts.excluded ?? 0} 个，DeepSeek 分析 ${counts.analysisSuccess ?? 0} 个，保留高价值内容 ${countValuable(payload)} 个。`;
 }
 
+function withReplyWeight(item, topic) {
+  if (item?.status !== 'success' || item.content_score != null) return item;
+  const threshold = Number(process.env.DEEPSEEK_VALUE_THRESHOLD || 70);
+  const contentScore = Number(item.value_score || 0);
+  const replyWeight = replyWeightForCount(topic?.replies || 0);
+  const finalScore = Math.max(0, contentScore + replyWeight);
+  return {
+    ...item,
+    value_score: finalScore,
+    content_score: contentScore,
+    reply_weight: replyWeight,
+    keep: Boolean(item.keep) && contentScore >= MIN_CONTENT_SCORE && finalScore >= threshold,
+  };
+}
+
 function countValuable(payload) {
   const analyses = payload?.deepseek?.analyses;
   if (Array.isArray(analyses)) {
     const threshold = Number(process.env.DEEPSEEK_VALUE_THRESHOLD || 70);
-    return analyses.filter((item) => item.status === 'success' && item.keep && Number(item.value_score) >= threshold).length;
+    const topicById = new Map((payload.includedTopics || []).map((topic) => [Number(topic.id), topic]));
+    return analyses
+      .map((item) => withReplyWeight(item, topicById.get(Number(item.topic_id))))
+      .filter((item) => item.status === 'success' && item.keep && Number(item.value_score) >= threshold)
+      .length;
   }
   return Number(payload?.counts?.valuable ?? payload?.counts?.highSignal ?? 0);
+}
+
+function buildPublicPayload(payload) {
+  if (!payload?.counts) return payload;
+  const topicById = new Map((payload.includedTopics || []).map((topic) => [Number(topic.id), topic]));
+  const analyses = Array.isArray(payload.deepseek?.analyses)
+    ? payload.deepseek.analyses.map((item) => withReplyWeight(item, topicById.get(Number(item.topic_id))))
+    : null;
+  return {
+    ...payload,
+    counts: { ...payload.counts, valuable: countValuable(payload) },
+    ...(analyses ? { deepseek: { ...payload.deepseek, analyses } } : {}),
+  };
 }
 
 function pageFrontMatter({ layout, title, status, summary, targetDate, payload }) {
@@ -173,9 +207,7 @@ async function main() {
   const sourceReport = hasReport ? reportPath : blockedReportPath;
   const sourceData = hasReport ? rawPath : failurePath;
   const payload = scrubSecrets(await readJsonIfPresent(sourceData));
-  const publicPayload = payload && payload.counts
-    ? { ...payload, counts: { ...payload.counts, valuable: countValuable(payload) } }
-    : payload;
+  const publicPayload = buildPublicPayload(payload);
   const markdown = scrubSecrets(prioritizeReportContent(
     relativizeWorkspaceLinks(await fs.readFile(sourceReport, 'utf8'), targetDate),
   ));

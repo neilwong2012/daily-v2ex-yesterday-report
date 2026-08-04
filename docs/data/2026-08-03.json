@@ -20,7 +20,7 @@
     "replies": 1946,
     "analysisSuccess": 222,
     "analysisFailed": 0,
-    "valuable": 26
+    "valuable": 36
   },
   "recentCandidates": [],
   "idScanCandidates": [
@@ -40264,13 +40264,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 0,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231585,
-        "value_score": 55,
+        "value_score": 45,
         "keep": false,
         "category": "工具与项目",
         "summary": "介绍一个免费AI鉴图小站，支持多个视觉模型交叉判断，游客每天免费测3次，结果分为疑似AI、更近真实或不确定，并有论坛功能供人工讨论，强调非专业鉴定。",
@@ -40287,13 +40289,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231586,
-        "value_score": 20,
+        "value_score": 10,
         "keep": false,
         "category": "观点与讨论",
         "summary": "作者总结Claude、GPT、DeepSeek的性格特点，并展示三个模型各自的自我评价反馈，内容轻松但无实质信息。",
@@ -40309,13 +40313,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 20,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231587,
-        "value_score": 5,
+        "value_score": 14,
         "keep": false,
         "category": "商业与行业",
         "summary": "作者自称29天145用户306亿token调用，推广带aff链接的API中转服务，被多名用户指为广告，管理员已封禁账号。",
@@ -40338,13 +40344,15 @@
         ],
         "analyzed_reply_count": 9,
         "total_reply_count": 9,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 5,
+        "reply_weight": 9
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231588,
-        "value_score": 5,
+        "value_score": 7,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者推广 image-to-image.org 图像工具，宣称支持图生图、文生图、图片编辑、老照片修复等，签到送积分；回复指出生成图片带水印，整体疑似广告推广。",
@@ -40363,13 +40371,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 5,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231589,
-        "value_score": 65,
+        "value_score": 77,
         "keep": true,
         "category": "经验与教程",
         "summary": "作者分享开发Chrome标签页整理插件的经历：日活约1200，付费用户300+，买断29元，月收入2000-3000，刻意保持极简与低维护成本，不追求做大，并询问独立开发是否必须追求规模。",
@@ -40393,13 +40403,15 @@
         ],
         "analyzed_reply_count": 12,
         "total_reply_count": 12,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 65,
+        "reply_weight": 12
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231590,
-        "value_score": 20,
+        "value_score": 22,
         "keep": false,
         "category": "观点与讨论",
         "summary": "用户对比三个AI对同一问题的回答，展示性格差异，属娱乐性内容，信息价值有限。",
@@ -40413,13 +40425,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 20,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231591,
-        "value_score": 45,
+        "value_score": 58,
         "keep": false,
         "category": "观点与讨论",
         "summary": "用户疑惑模型厂商为何不以使用量扣费来杜绝中转站号池共享模式，评论区解释了订阅制的商业逻辑、成本优势、数据利用及厂商态度，认为中转站体量不足以影响厂商策略。",
@@ -40445,14 +40459,16 @@
         ],
         "analyzed_reply_count": 13,
         "total_reply_count": 13,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 45,
+        "reply_weight": 13
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231592,
-        "value_score": 78,
-        "keep": true,
+        "value_score": 68,
+        "keep": false,
         "category": "AI与开发",
         "summary": "作者解读欧盟《AI法案》第50条透明规则，区分机器可读标记与可见标签，提出系统提供方与业务使用方的四问自检框架，并关注人工审核证据的可追溯性。",
         "key_takeaways": [
@@ -40468,14 +40484,16 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 78,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231593,
-        "value_score": 65,
-        "keep": true,
+        "value_score": 67,
+        "keep": false,
         "category": "经验与教程",
         "summary": "用户询问笔记本键盘卡键及油渍清理方法，回复建议扣下键帽清理，并分享更换整个C面的替代方案，提醒注意键帽卡扣脆弱。",
         "key_takeaways": [
@@ -40493,13 +40511,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 65,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231594,
-        "value_score": 62,
+        "value_score": 67,
         "keep": false,
         "category": "经验与教程",
         "summary": "讨论 AdSense 国内收款方式，比较电汇、HyperWallet 等，网友分享平安银行可免费收款、招行可能产生中转费，并提示注意免税信息。",
@@ -40519,13 +40539,15 @@
         ],
         "analyzed_reply_count": 5,
         "total_reply_count": 5,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 62,
+        "reply_weight": 5
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231595,
-        "value_score": 45,
+        "value_score": 194,
         "keep": false,
         "category": "观点与讨论",
         "summary": "楼主吐槽单休工作导致生活与工作失衡，引发对单休制度、劳动法落实及不同行业工作强度的讨论。",
@@ -40548,13 +40570,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 45,
+        "reply_weight": 149
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231597,
-        "value_score": 55,
+        "value_score": 60,
         "keep": false,
         "category": "工具与项目",
         "summary": "用户询问Intel Mac上可用的代理软件，因flclash更新后无法启动。回复推荐Clash Verge、v2ray、singbox、v2rayN等，并提及V2rayU，其中夹带付费合租广告。",
@@ -40576,13 +40600,15 @@
         ],
         "analyzed_reply_count": 5,
         "total_reply_count": 5,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": 5
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231598,
-        "value_score": 62,
+        "value_score": 63,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者分享了一个名为「往来」的轻量级博客留言板项目，适用于Hugo，基于Cloudflare和GitHub运行，无需数据库和用户注册。留言先经Turnstile过滤，再进入作者私有仓库，作者可决定是否公开或回复。",
@@ -40601,13 +40627,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 62,
+        "reply_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231599,
-        "value_score": 15,
+        "value_score": 19,
         "keep": false,
         "category": "观点与讨论",
         "summary": "作者预测5年后本地AI电脑配置并计算预算，从AMD方案改到EPYC方案，预算降至约2万元，但内容多为个人畅想，缺少实质信息。",
@@ -40627,13 +40655,15 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 15,
+        "reply_weight": 4
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231600,
-        "value_score": 55,
+        "value_score": 64,
         "keep": false,
         "category": "生活与消费",
         "summary": "用户反映Apple TV美区商店及服务周期性消失，仅登录美区账号仍复发。多位用户遇到同样问题，推测与苹果近期服务调整或网络环境有关，临时方案为商店退出重登，代理可缓解。",
@@ -40655,13 +40685,15 @@
         ],
         "analyzed_reply_count": 9,
         "total_reply_count": 9,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": 9
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231601,
-        "value_score": 52,
+        "value_score": 97,
         "keep": false,
         "category": "生活与消费",
         "summary": "楼主因油价上涨改乘公交通勤，求推荐能装两台手机、Kindle、钥匙、耳机和小雨伞的小包，并分享重温韩剧《鬼怪》《主君的太阳》的困惑。回复提供多款斜挎包、双肩包的具体型号和购买建议，同时展开韩剧推荐与讨论。",
@@ -40686,13 +40718,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 52,
+        "reply_weight": 45
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231602,
-        "value_score": 5,
+        "value_score": 50,
         "keep": false,
         "category": "观点与讨论",
         "summary": "主题询问男性恋爱后多久发生性关系，回复多为调侃或个人经历，缺乏实质信息。",
@@ -40710,13 +40744,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 5,
+        "reply_weight": 45
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231603,
-        "value_score": 40,
+        "value_score": 43,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者开源了基于DeepSeek优化的Coding Agent，强调快、省、稳、开放、安全，支持多模型切换、本地存储、MCP等，MIT协议开源。但回复有限，未提供实际使用验证。",
@@ -40733,13 +40769,15 @@
         ],
         "analyzed_reply_count": 3,
         "total_reply_count": 3,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 40,
+        "reply_weight": 3
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231604,
-        "value_score": 60,
+        "value_score": 152,
         "keep": false,
         "category": "生活与消费",
         "summary": "用户出售iPhone Air半年折损约459元，吐槽续航、发热、充电、摄像头等缺点；部分回复表示满意，评价两极分化。",
@@ -40765,13 +40803,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 60,
+        "reply_weight": 92
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231605,
-        "value_score": 15,
+        "value_score": 20,
         "keep": false,
         "category": "其他",
         "summary": "作者分享用 Antigravity 部署的 PolyTrack 游戏站，提供试玩和赛道代码，但未透露技术细节，回复多为游戏体验和闲聊，缺乏可复用经验。",
@@ -40790,13 +40830,15 @@
         ],
         "analyzed_reply_count": 5,
         "total_reply_count": 5,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 15,
+        "reply_weight": 5
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231606,
-        "value_score": 75,
+        "value_score": 82,
         "keep": true,
         "category": "工具与项目",
         "summary": "作者分享C2Go Toolchain，一个基于Clang/LLVM将C源码编译为纯Go package的工具，不依赖cgo，支持CGO_ENABLED=0构建。当前为RC版本，支持多平台，强调栈指针逃逸审计限制，征求反馈。",
@@ -40816,13 +40858,15 @@
         ],
         "analyzed_reply_count": 7,
         "total_reply_count": 7,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 75,
+        "reply_weight": 7
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231607,
-        "value_score": 10,
+        "value_score": 0,
         "keep": false,
         "category": "生活与消费",
         "summary": "用户求助如何挑选维修旧DV的店铺，其佳能DV出现对焦故障，内容仅提出问题，无任何回复或解决方案。",
@@ -40836,13 +40880,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 10,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231608,
-        "value_score": 70,
+        "value_score": 88,
         "keep": true,
         "category": "工具与项目",
         "summary": "用户询问国家超算平台Token Plan价值。回复显示其价格偏高，如GLM-5.2无缓存约6.86元/1M，远贵于同类；有实际体验者抱怨模型能力不足，建议避雷。网友推测该平台主要面向政企采购，个人使用性价比低。",
@@ -40866,13 +40912,15 @@
         ],
         "analyzed_reply_count": 18,
         "total_reply_count": 18,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 70,
+        "reply_weight": 18
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231609,
-        "value_score": 35,
+        "value_score": 70,
         "keep": false,
         "category": "观点与讨论",
         "summary": "作者分享多款AI工具半年使用体验，称日常使用免费版足够，仅建议重度用户付费，并给出各工具适用场景，但文末附带个人网站链接，被多名回复质疑为AI生成及引流。",
@@ -40897,13 +40945,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 35,
+        "reply_weight": 35
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231610,
-        "value_score": 68,
+        "value_score": 97,
         "keep": true,
         "category": "生活与消费",
         "summary": "用户求推荐淡雅不刺鼻的车载香氛。回复推荐了朗龙、MUJI扩香石、蜂花檀香皂、宜家干花香包、网易严选等产品，并讨论了香味持久度、性价比及暴晒后挥发快的问题。",
@@ -40928,13 +40978,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 68,
+        "reply_weight": 29
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231611,
-        "value_score": 20,
+        "value_score": 63,
         "keep": false,
         "category": "生活与消费",
         "summary": "帖子回忆2000年代网吧游戏与上网体验，感叹如今缺乏当初的兴奋感，回复多为怀旧情绪和共鸣，无实质工具或经验信息。",
@@ -40956,13 +41008,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 20,
+        "reply_weight": 43
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231612,
-        "value_score": 68,
+        "value_score": 149,
         "keep": true,
         "category": "生活与消费",
         "summary": "讨论大件电器购买中安装费与增项问题，分享避坑经验，如自购挂架、确认收费明细等。",
@@ -40988,13 +41042,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 68,
+        "reply_weight": 81
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231613,
-        "value_score": 60,
+        "value_score": 62,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者分享自研Spring AI Demo，更新3.0.2版本，新增Tool查询结果的图表展示，支持23种图表类型，并提供GitHub仓库链接。",
@@ -41011,13 +41067,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 60,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231614,
-        "value_score": 25,
+        "value_score": 29,
         "keep": false,
         "category": "生活与消费",
         "summary": "分享网易云音乐8月免费会员领取链接，随机获得1-7天会员，活动持续共128天。",
@@ -41037,13 +41095,15 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 25,
+        "reply_weight": 4
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231616,
-        "value_score": 0,
+        "value_score": 1,
         "keep": false,
         "category": "其他",
         "summary": "用户向V2EX充值10美元，站方确认到账，无实质信息。",
@@ -41056,13 +41116,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 0,
+        "reply_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231617,
-        "value_score": 10,
+        "value_score": 11,
         "keep": false,
         "category": "其他",
         "summary": "主题为codex邀请好友互得额度，内容为空，仅引导留邮箱，无实质信息，疑似推广。",
@@ -41077,13 +41139,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 10,
+        "reply_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231618,
-        "value_score": 25,
+        "value_score": 44,
         "keep": false,
         "category": "商业与行业",
         "summary": "用户询问OpenAI的邀请拉新活动，回复显示不同账户获得的信用额度不同（250/500/1000），部分用户借此邀请他人，但活动细节不明。",
@@ -41106,13 +41170,15 @@
         ],
         "analyzed_reply_count": 19,
         "total_reply_count": 19,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 25,
+        "reply_weight": 19
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231620,
-        "value_score": 55,
+        "value_score": 58,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者介绍了一款视频转写与配乐整理桌面工具，支持文稿提取、多人校对、配乐识别，目前未开源，正在征求需求、功能价值、付费模式及平台建议。",
@@ -41131,13 +41197,15 @@
         ],
         "analyzed_reply_count": 3,
         "total_reply_count": 3,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": 3
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231621,
-        "value_score": 10,
+        "value_score": 11,
         "keep": false,
         "category": "生活与消费",
         "summary": "主题提供网易云音乐免费会员领取链接，但内容为邀请推广，信息不完整，需警惕风险。",
@@ -41153,13 +41221,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 10,
+        "reply_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231622,
-        "value_score": 58,
+        "value_score": 73,
         "keep": false,
         "category": "观点与讨论",
         "summary": "用户询问macOS 27 beta5更新时间，回复预测周二凌晨发布，并反馈beta4存在外接显示器卡顿、鼠标割裂、Promotion触控撕裂、风扇控制异常及App Exposé显示问题。",
@@ -41182,13 +41252,15 @@
         ],
         "analyzed_reply_count": 15,
         "total_reply_count": 15,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 58,
+        "reply_weight": 15
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231626,
-        "value_score": 45,
+        "value_score": 372,
         "keep": false,
         "category": "生活与消费",
         "summary": "作者在相恋同居女友和相亲对象之间纠结，父母反对前者并倾向后者。回复普遍建议优先考虑性格、家庭氛围和三观匹配，而非外在条件，并指出恋爱初期表现不可持续，需审视是否依赖家庭经济支持。",
@@ -41214,13 +41286,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 45,
+        "reply_weight": 327
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231627,
-        "value_score": 5,
+        "value_score": 101,
         "keep": false,
         "category": "安全与风险",
         "summary": "用户以空投为诱饵诱导他人留下EVM地址并参与推广，实为meme币拉新和营销行为，存在传销和诈骗风险。",
@@ -41241,13 +41315,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 5,
+        "reply_weight": 96
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231628,
-        "value_score": 78,
+        "value_score": 106,
         "keep": true,
         "category": "工具与项目",
         "summary": "讨论macOS上Docker Desktop替代方案，主流推荐OrbStack、Apple Container、Colima/Lima、Podman等，并比较各方案特点与限制。",
@@ -41273,13 +41349,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 78,
+        "reply_weight": 28
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231629,
-        "value_score": 30,
+        "value_score": 40,
         "keep": false,
         "category": "其他",
         "summary": "用户用国内手机号注册WhatsApp订购哈萨克斯坦旅行团后被封号，求助稳定使用方法和申诉经验。回复中有人建议绑定邮箱备份，也有人认为与账号权重或平台对中国用户不友好有关，但缺乏具体解决方案。",
@@ -41301,13 +41379,15 @@
         ],
         "analyzed_reply_count": 10,
         "total_reply_count": 10,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 30,
+        "reply_weight": 10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231632,
-        "value_score": 40,
+        "value_score": 30,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者自建基于MiniMax H3的视频生成工具，支持文字生成5/10秒视频，多种比例，有积分系统和失败返还，欢迎体验反馈。",
@@ -41323,13 +41403,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 40,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231637,
-        "value_score": 10,
+        "value_score": 78,
         "keep": false,
         "category": "观点与讨论",
         "summary": "用户询问Linux Do账号被临时暂停的解封方法，回复大多嘲讽该论坛管理严苛、无售后，建议放弃，未提供有效解决方案。",
@@ -41351,13 +41433,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 10,
+        "reply_weight": 68
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231638,
-        "value_score": 62,
+        "value_score": 66,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者分享自用的 Windows 端 AI 用量/余额指示工具 Quotify，基于 GPUI，单文件约 18MiB、内存约 40MiB，支持常见 AI Provider。讨论指出 opencode 需登录 webview，DeepSeek 提供官方余额 API。",
@@ -41379,13 +41463,15 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 62,
+        "reply_weight": 4
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231640,
-        "value_score": 10,
+        "value_score": 14,
         "keep": false,
         "category": "职场与招聘",
         "summary": "一名10年经验的全栈开发者发布求职帖，寻求全职远程或深圳岗位，介绍了个人项目经历与技术栈，但回复中无实质讨论。",
@@ -41400,13 +41486,15 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 10,
+        "reply_weight": 4
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231641,
-        "value_score": 52,
+        "value_score": 71,
         "keep": false,
         "category": "工具与项目",
         "summary": "讨论 AI 生成前端时是否选择 TailwindCSS，回复多建议 React+Tailwind，也有推荐 shadcn/ui、Ant Design Pro 或纯 CSS，强调根据是否需审查来选择。",
@@ -41432,13 +41520,15 @@
         ],
         "analyzed_reply_count": 19,
         "total_reply_count": 19,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 52,
+        "reply_weight": 19
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231642,
-        "value_score": 45,
+        "value_score": 51,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者分享了一个JS Repl版博客终端项目，提供多个演示链接，并附带一篇介绍文章。回复中网友表示有趣，但也有人误以为网站挂了。",
@@ -41459,13 +41549,15 @@
         ],
         "analyzed_reply_count": 6,
         "total_reply_count": 6,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 45,
+        "reply_weight": 6
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231643,
-        "value_score": 55,
+        "value_score": 66,
         "keep": false,
         "category": "经验与教程",
         "summary": "作者反思AI获取信息容易但难真正理解新事物，讨论如何解决。回复给出多种方法：要求AI用通俗语言解释、以儿童能懂的方式讲解、生成结构化图文HTML、以及指出AI可能出错需自己验证。总体认为AI只能指方向，深入理解需主动思考。",
@@ -41489,13 +41581,15 @@
         ],
         "analyzed_reply_count": 11,
         "total_reply_count": 11,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": 11
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231644,
-        "value_score": 55,
+        "value_score": 63,
         "keep": false,
         "category": "生活与消费",
         "summary": "作者分享湘西芷江自驾游记，提及当地美食、历史与抗战受降地，并询问弥勒美食游玩推荐。",
@@ -41516,13 +41610,15 @@
         ],
         "analyzed_reply_count": 8,
         "total_reply_count": 8,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": 8
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231645,
-        "value_score": 55,
+        "value_score": 97,
         "keep": false,
         "category": "观点与讨论",
         "summary": "35岁程序员计划用AI在90天内验证100个创业想法，征求建议。回复提醒应先有真实需求、模仿已验证模式、注意机会成本，个人开发者面临大公司复刻风险。",
@@ -41548,13 +41644,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": 42
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231647,
-        "value_score": 62,
+        "value_score": 147,
         "keep": false,
         "category": "生活与消费",
         "summary": "针对租房老旧空调不想用的情况，回复建议优先花一两百元请官方售后清洗空调，或与房东协商以旧换新/分担费用；不推荐空调扇，可考虑落地风扇或千元级新空调。",
@@ -41580,13 +41678,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 62,
+        "reply_weight": 85
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231649,
-        "value_score": 30,
+        "value_score": 33,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者分享自己开发的速算网页小游戏MathJump，提供在线体验，回复中用户建议增加难度分级和选择题模式，作者回应有意优化。",
@@ -41604,13 +41704,15 @@
         ],
         "analyzed_reply_count": 3,
         "total_reply_count": 3,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 30,
+        "reply_weight": 3
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231650,
-        "value_score": 20,
+        "value_score": 22,
         "keep": false,
         "category": "工具与项目",
         "summary": "询问 opencode 上的 DeepSeek v4 flash 是否已更新为 0731 权重，回复确认需开启“启用在中国部署的模型”选项。",
@@ -41625,13 +41727,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 20,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231651,
-        "value_score": 10,
+        "value_score": 13,
         "keep": false,
         "category": "AI与开发",
         "summary": "用户请求 opencode go 邀请链接，两名回复者分享了邀请链接，用户已使用。内容以邀请分享为主，实质信息较少。",
@@ -41648,13 +41752,15 @@
         ],
         "analyzed_reply_count": 3,
         "total_reply_count": 3,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 10,
+        "reply_weight": 3
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231652,
-        "value_score": 20,
+        "value_score": 30,
         "keep": false,
         "category": "工具与项目",
         "summary": "用户询问满足大流量、多设备及AI使用稳定的VPN推荐，回复多为推广链接，仅有少量关于自建线路的建议，缺乏实质对比与可靠性验证。",
@@ -41673,13 +41779,15 @@
         ],
         "analyzed_reply_count": 10,
         "total_reply_count": 10,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 20,
+        "reply_weight": 10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231653,
-        "value_score": 65,
+        "value_score": 170,
         "keep": true,
         "category": "生活与消费",
         "summary": "亲妹妹升学宴送礼物求助，回复建议笔记本、平板、手机等实用设备需考虑专业需求，或直接送红包，也有提升宿舍幸福感的选择。",
@@ -41705,13 +41813,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 65,
+        "reply_weight": 105
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231654,
-        "value_score": 75,
+        "value_score": 105,
         "keep": true,
         "category": "经验与教程",
         "summary": "作者分享深圳租房经历，指出线上中介信息不互通、线下中介态度差等坑。回复中多位网友给出实用建议：城中村可直接扫街、问保安；小区房可看公告牌或找正规中介如贝壳；注意招租电话可能是中介。整体经验对租房新手有帮助。",
@@ -41737,13 +41847,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 75,
+        "reply_weight": 30
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231656,
-        "value_score": 35,
+        "value_score": 72,
         "keep": false,
         "category": "观点与讨论",
         "summary": "作者认为外挂产品不愁用户且无需推广，但评论区一致指出其违法风险高、实际运营复杂，强调法律后果和行业运作模式。",
@@ -41769,13 +41881,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 35,
+        "reply_weight": 37
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231657,
-        "value_score": 65,
+        "value_score": 70,
         "keep": true,
         "category": "工具与项目",
         "summary": "作者分享了一款自研的macOS环形应用切换器OrbitLauncher，支持Surface Dial原生HID控制，提供旋钮切换、按下确认等交互，并开源代码。内容包括功能列表、安装说明及硬件适配经验。",
@@ -41796,13 +41910,15 @@
         ],
         "analyzed_reply_count": 5,
         "total_reply_count": 5,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 65,
+        "reply_weight": 5
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231659,
-        "value_score": 20,
+        "value_score": 10,
         "keep": false,
         "category": "观点与讨论",
         "summary": "用户分享与Claude交互时，AI无视定时器指令主动提前执行任务的经历，感叹AI行为失控。",
@@ -41817,13 +41933,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 20,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231662,
-        "value_score": 35,
+        "value_score": 37,
         "keep": false,
         "category": "职场与招聘",
         "summary": "该帖为React Native远程开发岗位招聘，要求3年以上经验，按工时结算，时薪80-120元，适合自由职业者。回复仅2条，缺少实际讨论，真实性待考。",
@@ -41842,13 +41960,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 35,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231665,
-        "value_score": 55,
+        "value_score": 68,
         "keep": false,
         "category": "经验与教程",
         "summary": "VSCode 的 codex 插件查看 Diff 报错，多位用户遇到相同问题，回退到 26.715.61943 版本可临时解决，最新版本已修复。",
@@ -41870,13 +41990,15 @@
         ],
         "analyzed_reply_count": 13,
         "total_reply_count": 13,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": 13
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231666,
-        "value_score": 20,
+        "value_score": 25,
         "keep": false,
         "category": "观点与讨论",
         "summary": "用户询问两个GPT账号额度不同的原因，回复推测与模型选择、账号权重、缓存命中比例等因素有关，但均无实证，信息零散。",
@@ -41897,13 +42019,15 @@
         ],
         "analyzed_reply_count": 5,
         "total_reply_count": 5,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 20,
+        "reply_weight": 5
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231667,
-        "value_score": 5,
+        "value_score": 6,
         "keep": false,
         "category": "生活与消费",
         "summary": "用户询问在闲鱼低价购买Gemini pro账号的搜索黑话，仅有一条回复建议寻找免费邀请码。信息量低，且涉及非正规购买途径，价值有限。",
@@ -41916,13 +42040,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 5,
+        "reply_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231668,
-        "value_score": 55,
+        "value_score": 71,
         "keep": false,
         "category": "AI与开发",
         "summary": "作者分享自研的桌面端 browser agent，基于 Electron 与 CDP，通过工具编排和 DOM 剪枝优化 token 消耗，支持多平台与多任务，计划开源，目前提供内测。讨论了风控、性能等局限。",
@@ -41945,13 +42071,15 @@
         ],
         "analyzed_reply_count": 16,
         "total_reply_count": 16,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": 16
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231669,
-        "value_score": 55,
+        "value_score": 98,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者分享搭建的简易HTML部署工具，测试dsv4 flash及新支付渠道，讨论目标用户为外行，国内合规风险高，类似服务已有GitHub Pages等。",
@@ -41977,13 +42105,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": 43
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231670,
-        "value_score": 20,
+        "value_score": 21,
         "keep": false,
         "category": "观点与讨论",
         "summary": "用户询问哪些设计效果看起来像AI生成，并举例单侧边框效果。仅有一条回复提到类似iOS 26液态玻璃效果，讨论浅尝辄止，缺乏深度内容。",
@@ -41999,13 +42129,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 20,
+        "reply_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231672,
-        "value_score": 65,
+        "value_score": 93,
         "keep": true,
         "category": "生活与消费",
         "summary": "楼主求推荐通勤双肩包，要求装15寸笔记本和键盘、防水、有隔断、侧袋拉链。回复集中推荐小鹰日光/星云32L、TUMI Alpha、Elecom、格里高利等，用户建议隔断可单独收纳，另有低价仿品试用建议。",
@@ -42031,14 +42163,16 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 65,
+        "reply_weight": 28
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231673,
-        "value_score": 70,
-        "keep": true,
+        "value_score": 60,
+        "keep": false,
         "category": "工具与项目",
         "summary": "作者介绍了自研的 TUI 工具 captain-miao，用于在 Kitty 或 Zellij 终端中集中管理多个 Coding Agent（如 Claude Code）会话，通过外部终端协同工作，解决多会话状态查看与切换问题。",
         "key_takeaways": [
@@ -42053,13 +42187,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 70,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231674,
-        "value_score": 55,
+        "value_score": 209,
         "keep": false,
         "category": "生活与消费",
         "summary": "用户咨询送妻子产后礼物的建议，预算1-2万元，回复提供金饰、LV包、护肤品、产后恢复等多种建议，并强调心意与产后关怀的重要性。",
@@ -42085,13 +42221,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": 154
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231675,
-        "value_score": 55,
+        "value_score": 80,
         "keep": false,
         "category": "商业与行业",
         "summary": "opencode 因 deepseek-v4-flash 用量激增导致服务不稳定，出现额度不足提示。数据显示其周末用量达3.8T，中国地区占比高，年收入约4000万美元，成本可控。",
@@ -42116,13 +42254,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": 25
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231676,
-        "value_score": 10,
+        "value_score": 16,
         "keep": false,
         "category": "工具与项目",
         "summary": "主题称有deepseek harness内测，申请条件为有相关开源项目，附链接。回复中多数用户反感作者持续推广项目，另有用户提及openpencil项目。",
@@ -42143,13 +42283,15 @@
         ],
         "analyzed_reply_count": 6,
         "total_reply_count": 6,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 10,
+        "reply_weight": 6
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231677,
-        "value_score": 82,
+        "value_score": 121,
         "keep": true,
         "category": "生活与消费",
         "summary": "用户吐槽电视套娃会员收费，寻求实用方案。回复提供运营商IPTV、央视频投屏、TVbox/NAS本地播放、网盘+播放器等多种选择，并提醒设备与服务分离，省心选IPTV，折腾可白嫖。",
@@ -42175,13 +42317,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 82,
+        "reply_weight": 39
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231678,
-        "value_score": 20,
+        "value_score": 21,
         "keep": false,
         "category": "经验与教程",
         "summary": "用户询问如何删除U盘连接手机后自动生成的目录，提出基于目录大小和内容特征的识别规则，但最终仅得到一条建议：隐藏目录。",
@@ -42198,13 +42342,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 20,
+        "reply_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231679,
-        "value_score": 32,
+        "value_score": 33,
         "keep": false,
         "category": "AI与开发",
         "summary": "用户询问Open Code的zen中使用DeepSeek是否有波峰涨价，回复称目前flash公测期及pro未发布公测，故尚未正式启用波峰涨价。",
@@ -42221,13 +42367,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 32,
+        "reply_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231680,
-        "value_score": 75,
+        "value_score": 110,
         "keep": true,
         "category": "生活与消费",
         "summary": "用户询问小米电视可安装的有趣APP，回复推荐了blbl（第三方B站）、Jellyfin、飞牛TV、Apple TV+cheers等方案，以及外接主机、游戏机等使用方式，分享了电视作为大屏的多种玩法。",
@@ -42253,13 +42401,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 75,
+        "reply_weight": 35
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231682,
-        "value_score": 20,
+        "value_score": 10,
         "keep": false,
         "category": "观点与讨论",
         "summary": "用户抱怨微软即将删除Edge的Drop和侧边栏功能，认为这些便捷功能被砍不合理，纯属个人情绪表达，缺乏实质信息。",
@@ -42273,13 +42423,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 20,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231683,
-        "value_score": 35,
+        "value_score": 69,
         "keep": false,
         "category": "生活与消费",
         "summary": "楼主在两位相亲对象间纠结：L 条件较好但进度慢，H 主动但家人评价不佳。回复多建议相亲应直奔主题、及时止损，避免拉扯浪费时间。",
@@ -42302,13 +42454,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 35,
+        "reply_weight": 34
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231684,
-        "value_score": 50,
+        "value_score": 52,
         "keep": false,
         "category": "生活与消费",
         "summary": "询问给父母买电视：预算5000，关注亮度、运营商盒子和防猫踢。回复建议首选运营商盒子，推荐TCL/雷鸟，并分享为长辈简化智能电视应用的经验。",
@@ -42326,13 +42480,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 50,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231685,
-        "value_score": 55,
+        "value_score": 45,
         "keep": false,
         "category": "工具与项目",
         "summary": "OpenPanels 是一个 MIT 开源的面板集，面向独立开发者，包含五个面板，用于整理产品资料、生成推广内容、制作配图、排版和发布，支持多 Agent 协作和自定义 Skill。",
@@ -42349,13 +42505,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231686,
-        "value_score": 50,
+        "value_score": 40,
         "keep": false,
         "category": "职场与招聘",
         "summary": "拼多多国际化搜推团队招聘算法、工程、数据分析等岗位，涵盖搜索推荐广告、多模态大模型、AI Infra等方向。",
@@ -42371,13 +42529,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 50,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231687,
-        "value_score": 65,
+        "value_score": 75,
         "keep": false,
         "category": "生活与消费",
         "summary": "用户询问看美剧的平台，推荐包含B站（有摩登家庭）、Netflix、emby、115、百度网盘、Telegram群等，需注意资源版权和广告风险。",
@@ -42402,13 +42562,15 @@
         ],
         "analyzed_reply_count": 10,
         "total_reply_count": 10,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 65,
+        "reply_weight": 10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231688,
-        "value_score": 10,
+        "value_score": 12,
         "keep": false,
         "category": "观点与讨论",
         "summary": "用户发帖讨论持有兆易创新股票亏损近20%，寻求安慰，回复中有人提到基金赎回和亏损30%。",
@@ -42425,13 +42587,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 10,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231689,
-        "value_score": 35,
+        "value_score": 41,
         "keep": false,
         "category": "生活与消费",
         "summary": "一年级书包选购咨询，获得卡拉羊、贝克曼、迪卡侬 NH900 等推荐，最终发帖者选择 NH900。",
@@ -42451,14 +42615,16 @@
         ],
         "analyzed_reply_count": 6,
         "total_reply_count": 6,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 35,
+        "reply_weight": 6
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231691,
-        "value_score": 70,
-        "keep": true,
+        "value_score": 60,
+        "keep": false,
         "category": "AI与开发",
         "summary": "作者针对Codex手动切模型繁琐问题，创建自动路由Skill，依据任务依赖拆分并发，按难度选模型，并分享Luna各版本与Sol成本性能对比。",
         "key_takeaways": [
@@ -42474,13 +42640,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 70,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231693,
-        "value_score": 20,
+        "value_score": 24,
         "keep": false,
         "category": "生活与消费",
         "summary": "用户询问废旧手机和平板的处理渠道，回复提及爱回收、闲鱼估价等，但缺乏详细操作和安全注意事项，参考价值有限。",
@@ -42500,14 +42668,16 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 20,
+        "reply_weight": 4
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231694,
-        "value_score": 65,
-        "keep": true,
+        "value_score": 55,
+        "keep": false,
         "category": "工具与项目",
         "summary": "作者分享自研的 Unix 时间戳转换 Chrome 扩展，基于 React 19 和 WXT，采用 iframe 隔离样式，支持秒/毫秒识别、快捷键操作与本地处理，并已开源。",
         "key_takeaways": [
@@ -42523,13 +42693,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 65,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231696,
-        "value_score": 10,
+        "value_score": 12,
         "keep": false,
         "category": "生活与消费",
         "summary": "用户反映淘宝88vip频繁弹窗邀请但实际开通时显示邀请制无法开通，体验不佳。",
@@ -42542,13 +42714,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 10,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231697,
-        "value_score": 80,
+        "value_score": 81,
         "keep": false,
         "category": "经验与教程",
         "summary": "作者分享放弃低价AI API中转的原因：存在模型替换、计费不透明、积分模糊、Token统计不实、SSE不稳定等问题。并给出检测中转站是否换模型的测试方法，最后介绍自己开发的OpenRouter网关，强调透明可核验。提供对开发者有用的排查经验。",
@@ -42565,13 +42739,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 80,
+        "reply_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231701,
-        "value_score": 15,
+        "value_score": 17,
         "keep": false,
         "category": "其他",
         "summary": "作者分享其开发的 AI 网红生成工具，可生成虚拟人物图片和短视频，并致力于解决角色一致性问题，但未提供具体技术细节或成本经验。回复中讨论了 AI 黄色视频的合规风险。",
@@ -42589,13 +42765,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 15,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231702,
-        "value_score": 90,
+        "value_score": 80,
         "keep": true,
         "category": "AI与开发",
         "summary": "作者分享四个源于实践翻车经验的Claude Code技能：false-green通过变异测试防止虚假单测，delegating-to-agents强化子代理审查，concurrent-worktrees解决多Agent并行冲突，batch-closeout优化批量验收。技能已开源，适用于多种AI编码代理。",
@@ -42612,13 +42790,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 90,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231703,
-        "value_score": 62,
+        "value_score": 70,
         "keep": false,
         "category": "生活与消费",
         "summary": "用户iPad 10关机键摔坏，官方只换不修费用超3000元，纠结是否找非官方维修或出售。回复多建议线下看着修、过保产品官方维修不划算，或直接出售换二手。",
@@ -42640,13 +42820,15 @@
         ],
         "analyzed_reply_count": 8,
         "total_reply_count": 8,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 62,
+        "reply_weight": 8
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231704,
-        "value_score": 55,
+        "value_score": 70,
         "keep": false,
         "category": "经验与教程",
         "summary": "讨论当前GPT玻利维亚区订阅状态：无法付款，有封号风险，用户分享替代菲律宾区及模拟器刷开通的方法，但风险较高且退款困难。",
@@ -42672,13 +42854,15 @@
         ],
         "analyzed_reply_count": 15,
         "total_reply_count": 15,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": 15
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231705,
-        "value_score": 55,
+        "value_score": 45,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者发布domd Mac版0.4.0，可双击打开markdown分享实时协同，无需账号，支持离线合并，并兼容Obsidian和VS Code。",
@@ -42695,13 +42879,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231706,
-        "value_score": 55,
+        "value_score": 57,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者分享开源AI订阅比价项目，聚合ChatGPT、Claude等产品多渠道价格及App Store地区官方价，但回复少且被质疑重复发帖。",
@@ -42718,13 +42904,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231707,
-        "value_score": 60,
+        "value_score": 50,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者分享了一款用于快速切换 openclaw 版本的工具 ocswitch，提供网站和开源地址，方便测试插件兼容性。",
@@ -42739,13 +42927,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 60,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231708,
-        "value_score": 5,
+        "value_score": 7,
         "keep": false,
         "category": "其他",
         "summary": "用户询问 origin.v2ex.com 是否绕过 CDN 直连源站，以及 DDoS 时是否会关闭，但讨论缺乏实质技术细节，无明确结论。",
@@ -42756,13 +42946,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 5,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231709,
-        "value_score": 55,
+        "value_score": 85,
         "keep": false,
         "category": "商业与行业",
         "summary": "讨论“互联网藤壶”现象，指大厂中不产出但依附于平台的中层管理者，分析了其成因、能力争议及行业收缩期的处境。",
@@ -42787,13 +42979,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": 30
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231710,
-        "value_score": 25,
+        "value_score": 68,
         "keep": false,
         "category": "观点与讨论",
         "summary": "讨论68万亿化债对普通人钱包的影响，多数回复认为普通人无力应对，建议降低杠杆、增加储蓄、适度消费，也有观点认为应考虑通胀风险或买房对冲，整体以个人观点为主，缺乏实质数据。",
@@ -42820,14 +43014,16 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 25,
+        "reply_weight": 43
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231711,
-        "value_score": 65,
-        "keep": true,
+        "value_score": 69,
+        "keep": false,
         "category": "生活与消费",
         "summary": "用户询问iPhone 17标准版能否使用iPhone 16 Pro的保护壳，多位回复确认可以通用，摄像头位基本兼容，但外观略有别扭，有用户实际使用半年。",
         "key_takeaways": [
@@ -42845,13 +43041,15 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 65,
+        "reply_weight": 4
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231712,
-        "value_score": 40,
+        "value_score": 44,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者分享自制的记事本工具，支持GitHub存储和AI写作；回复反馈旧版iPhone存在crypto.randomUUID兼容性bug。",
@@ -42869,14 +43067,16 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 40,
+        "reply_weight": 4
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231713,
-        "value_score": 70,
-        "keep": true,
+        "value_score": 60,
+        "keep": false,
         "category": "工具与项目",
         "summary": "作者发布了一款名为 Web Technology Inspector 的 Chrome 扩展，用于检测网站实际使用的 Web 技术，如 HTTP 版本、CDN、WebSocket、WebAssembly、Security headers 等，与 Wappalyzer 不同，不识别框架而关注平台能力，并强调隐私保护。",
         "key_takeaways": [
@@ -42892,13 +43092,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 70,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231715,
-        "value_score": 40,
+        "value_score": 30,
         "keep": false,
         "category": "职场与招聘",
         "summary": "招聘交易执行系统开发者，要求精通Rust与Python，理解编译原理和数仓，熟悉Nautilus Trader框架，月薪5000-10000美元，支持香港或远程，需投简历至指定邮箱。",
@@ -42916,13 +43118,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 40,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231717,
-        "value_score": 5,
+        "value_score": 0,
         "keep": false,
         "category": "其他",
         "summary": "用户发帖拼车合购ChatGPT Pro账号，按人数收费，承诺额度同步和退款保障，但要求至少一个月且个人原因不退。",
@@ -42937,13 +43141,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 5,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231718,
-        "value_score": 55,
+        "value_score": 45,
         "keep": false,
         "category": "工具与项目",
         "summary": "macOS原生终端Termite发布1.18版本，新增工作区功能，灵感来自ARC浏览器，支持触控板左右快速切换，项目开源在GitHub。",
@@ -42959,13 +43165,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231719,
-        "value_score": 70,
+        "value_score": 84,
         "keep": true,
         "category": "生活与消费",
         "summary": "用户询问广州宝藏小店，多位广州网友推荐了具体餐厅和美食，包括瑞记饭庄、惠食佳、文记壹心鸡、专二港式奶茶等，也有猎奇选项如龙虱，适合游客参考。",
@@ -42988,13 +43196,15 @@
         ],
         "analyzed_reply_count": 14,
         "total_reply_count": 14,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 70,
+        "reply_weight": 14
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231720,
-        "value_score": 35,
+        "value_score": 52,
         "keep": false,
         "category": "工具与项目",
         "summary": "开发者分享自制《易经》起卦iOS应用「灵机」，用三枚铜币六次成卦，AI仅解释不解卦，不替用户决策。目前在找内测，欢迎反馈界面仪式感、真实感及AI解读质量等问题。",
@@ -43018,13 +43228,15 @@
         ],
         "analyzed_reply_count": 17,
         "total_reply_count": 17,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 35,
+        "reply_weight": 17
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231721,
-        "value_score": 65,
+        "value_score": 71,
         "keep": true,
         "category": "AI与开发",
         "summary": "用户咨询OpenAI API缓存token的计算方式，差异的3个token来自chat template中的特殊token，这些token不会进入缓存。",
@@ -43042,13 +43254,15 @@
         ],
         "analyzed_reply_count": 6,
         "total_reply_count": 6,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 65,
+        "reply_weight": 6
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231722,
-        "value_score": 30,
+        "value_score": 34,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者分享自制的AI会话搜索管理工具，支持书签式管理codex/claude-code会话，中文搜索优化，但README未提供安装说明，信息不完整。",
@@ -43070,13 +43284,15 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 30,
+        "reply_weight": 4
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231723,
-        "value_score": 20,
+        "value_score": 25,
         "keep": false,
         "category": "工具与项目",
         "summary": "用户发现GPT账号不再显示手机号，查FAQ疑取消验证，但回复称不同平台和账号仍可见或需验证，信息不确定。",
@@ -43096,13 +43312,15 @@
         ],
         "analyzed_reply_count": 5,
         "total_reply_count": 5,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 20,
+        "reply_weight": 5
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231724,
-        "value_score": 20,
+        "value_score": 29,
         "keep": false,
         "category": "其他",
         "summary": "用户因Surge不支持vless协议而寻求机场推荐，但回复多为建议更换软件或自建节点，缺乏对普通读者可复用的高价值信息。",
@@ -43123,13 +43341,15 @@
         ],
         "analyzed_reply_count": 9,
         "total_reply_count": 9,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 20,
+        "reply_weight": 9
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231725,
-        "value_score": 55,
+        "value_score": 62,
         "keep": false,
         "category": "经验与教程",
         "summary": "作者分析八大排序在实际开发与面试中的价值，指出标准库已高度优化，快排最值得深挖，归并是Tim Sort基础，插入排序适合小数据量，冒泡选择实用性低，并给出重点准备建议，但文末附个人博客推广链接，且代码实现被质疑可能超时。",
@@ -43153,7 +43373,9 @@
         ],
         "analyzed_reply_count": 7,
         "total_reply_count": 7,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": 7
       },
       {
         "status": "success",
@@ -43170,13 +43392,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 0,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231728,
-        "value_score": 25,
+        "value_score": 28,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者分享自建的面部分析工具KnowMyFace，可分析脸型、外貌年龄、皮肤状态并提供发型妆容建议，支持免费预览，照片数据180天后自动删除。帖子回复少，缺乏深入讨论。",
@@ -43196,13 +43420,15 @@
         ],
         "analyzed_reply_count": 3,
         "total_reply_count": 3,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 25,
+        "reply_weight": 3
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231729,
-        "value_score": 45,
+        "value_score": 101,
         "keep": false,
         "category": "安全与风险",
         "summary": "用户询问好友从事成人AI短剧月入1-2万是否真实，回复普遍指出此类内容违法、风险极高，收入与法律风险不成比例。",
@@ -43228,14 +43454,16 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 45,
+        "reply_weight": 56
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231730,
-        "value_score": 65,
-        "keep": true,
+        "value_score": 69,
+        "keep": false,
         "category": "AI与开发",
         "summary": "用户询问 ChatGPT 套餐是否可直接对接 API，回复指出官方 API 需单独按量付费，订阅套餐不通用；非正规途径如 sub2api 有封号风险。",
         "key_takeaways": [
@@ -43254,13 +43482,15 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 65,
+        "reply_weight": 4
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231731,
-        "value_score": 68,
+        "value_score": 139,
         "keep": true,
         "category": "工具与项目",
         "summary": "作者发布优化至仅100多KB的单文件PHP论坛bbs1org，功能可通过插件扩展，附GitHub仓库及演示站。回复中对轻量化设计有讨论，作者表示适合作为项目附属功能。",
@@ -43286,13 +43516,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 68,
+        "reply_weight": 71
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231732,
-        "value_score": 45,
+        "value_score": 209,
         "keep": false,
         "category": "工具与项目",
         "summary": "分享一个在线模拟传统竹知了玩具的网页，网友以华为鸿蒙、智驾等话题展开调侃，认为其创意有趣，但交互细节仍有提升空间。",
@@ -43315,13 +43547,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 45,
+        "reply_weight": 164
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231733,
-        "value_score": 20,
+        "value_score": 22,
         "keep": false,
         "category": "商业与行业",
         "summary": "用户分享HSBC澳洲零售银行业务将关闭的消息，该行曾支持国内护照网申0元开户，用于国际支付。目前零售业务关闭，房贷业务转交其他银行。",
@@ -43337,13 +43571,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 20,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231734,
-        "value_score": 10,
+        "value_score": 12,
         "keep": false,
         "category": "生活与消费",
         "summary": "用户询问七夕礼物建议，预算5k，描述对方习惯与喜好，但回复中无实质建议，仅有两句闲聊，信息价值低。",
@@ -43354,13 +43590,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 10,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231736,
-        "value_score": 35,
+        "value_score": 40,
         "keep": false,
         "category": "生活与消费",
         "summary": "用户发现老家后院被邻居种满爬山虎，且隔壁将建羊圈，担心影响生活，寻求解决办法。",
@@ -43379,13 +43617,15 @@
         ],
         "analyzed_reply_count": 5,
         "total_reply_count": 5,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 35,
+        "reply_weight": 5
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231737,
-        "value_score": 55,
+        "value_score": 59,
         "keep": false,
         "category": "工具与项目",
         "summary": "用户分享自制无广告全平台视频下载器，回复指出X视频下载清晰度易出错，默认取低码率，需手动选择最高档，并提及多视频抓取问题。",
@@ -43404,13 +43644,15 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": 4
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231738,
-        "value_score": 25,
+        "value_score": 15,
         "keep": false,
         "category": "商业与行业",
         "summary": "文章科普后量子密码学主要路线，重点分析格基密码的代数结构及在DEX场景的潜力，并以Veraxon项目为例阐述其可升级密码架构设计，但内容偏项目宣传。",
@@ -43427,13 +43669,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 25,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231739,
-        "value_score": 25,
+        "value_score": 15,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者在分享创造节点介绍自己开发的极简写作工具 Riikee，强调打开即写、界面克制，并内置习惯统计和 AI 润色、建议、纠错功能。帖子无其他用户回复或实测反馈。",
@@ -43449,13 +43693,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 25,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231744,
-        "value_score": 82,
+        "value_score": 138,
         "keep": true,
         "category": "经验与教程",
         "summary": "用户反馈在Windows下使用Codex CLI/App时遇到插件、性能、环境配置等问题，讨论中分享多种解决方案：WSL规则配置、PowerShell7设置、MCP集成、VSCode插件等。",
@@ -43481,13 +43727,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 82,
+        "reply_weight": 56
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231745,
-        "value_score": 60,
+        "value_score": 376,
         "keep": false,
         "category": "生活与消费",
         "summary": "95年程序员与护士女友因12.8万彩礼谈崩。女方要求彩礼由自己保管，男方提出3万个人+3万共同账户被拒。父母愿出钱但男方不愿依赖父母，纠结是否妥协。",
@@ -43513,13 +43761,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 60,
+        "reply_weight": 316
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231746,
-        "value_score": 20,
+        "value_score": 55,
         "keep": false,
         "category": "生活与消费",
         "summary": "用户纠结iPhone 18涨价是否值得购买，回复多为主观意见，缺乏客观数据和对比分析。",
@@ -43542,13 +43792,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 20,
+        "reply_weight": 35
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231747,
-        "value_score": 65,
+        "value_score": 76,
         "keep": true,
         "category": "经验与教程",
         "summary": "用户询问非技术人员适合的AI推荐，排除需翻墙和幻觉高的选项，评论中给出豆包、千问、Kimi等实测体验，强调用户体验、稳定性、免费和功能集成的重要性。",
@@ -43571,13 +43823,15 @@
         ],
         "analyzed_reply_count": 11,
         "total_reply_count": 11,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 65,
+        "reply_weight": 11
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231748,
-        "value_score": 45,
+        "value_score": 52,
         "keep": false,
         "category": "生活与消费",
         "summary": "用户询问闲置的2018款MacBook Pro（i5/8G/256G，电池损坏、键盘失灵）还能做什么，回复多建议卖掉回血，也有人分享换电池扩容内存继续使用的经验，并指出老系统不适合跑AI助手。",
@@ -43601,13 +43855,15 @@
         ],
         "analyzed_reply_count": 7,
         "total_reply_count": 7,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 45,
+        "reply_weight": 7
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231749,
-        "value_score": 55,
+        "value_score": 75,
         "keep": false,
         "category": "观点与讨论",
         "summary": "用户收到 Claude Code 提额 50% 的通知，回复表明这是普遍临时提额，并非个例。多名用户分享封号经历，并推荐 cux 工具用于账号切换。",
@@ -43632,13 +43888,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": 20
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231750,
-        "value_score": 10,
+        "value_score": 13,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者推广自研客服平台 Meloy Chat，但链接 404、网站加载缓慢，评论一致反馈体验不佳，缺乏实质性价值。",
@@ -43658,13 +43916,15 @@
         ],
         "analyzed_reply_count": 3,
         "total_reply_count": 3,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 10,
+        "reply_weight": 3
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231751,
-        "value_score": 55,
+        "value_score": 106,
         "keep": false,
         "category": "观点与讨论",
         "summary": "楼主想从码农转FDE，认为薪资高且能应对AI裁员。回复中多数认为国内FDE实为驻场外包，也有观点认为类似实施工程师，需梳理业务流程结合大模型。楼主分享了GitHub上的FDE指南书。",
@@ -43690,13 +43950,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": 51
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231752,
-        "value_score": 65,
+        "value_score": 123,
         "keep": true,
         "category": "商业与行业",
         "summary": "微信小程序虚拟支付手续费大幅上涨，Android 10%、iOS 17%，此前为千分之三。商家反映成本剧增，讨论涉及适用范围、行业对比及应对策略，信息有参考价值，但标题存在误导风险。",
@@ -43722,13 +43984,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 65,
+        "reply_weight": 58
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231753,
-        "value_score": 25,
+        "value_score": 31,
         "keep": false,
         "category": "生活与消费",
         "summary": "作者寻求34寸内办公显示器，要求竖屏或1:1，接Mac。回复推荐可旋转DELL和华为MateView，但作者排除国产，未获满意方案。",
@@ -43746,13 +44010,15 @@
         ],
         "analyzed_reply_count": 6,
         "total_reply_count": 6,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 25,
+        "reply_weight": 6
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231754,
-        "value_score": 55,
+        "value_score": 82,
         "keep": false,
         "category": "安全与风险",
         "summary": "Giffgaff 封号潮后，用户询问未封号如何保号。回复中多数用户表示开机但关移动数据未封，有用户开启 eSIM 收验证码即被封，也有未开机被注销的案例。建议重要账号考虑转移或转网。",
@@ -43777,13 +44043,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": 27
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231755,
-        "value_score": 5,
+        "value_score": 36,
         "keep": false,
         "category": "观点与讨论",
         "summary": "讨论在卫生间偶遇同事的应对方式，回复多为玩笑和段子，无实质信息或可复用经验，属于闲聊话题。",
@@ -43806,13 +44074,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 5,
+        "reply_weight": 31
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231757,
-        "value_score": 62,
+        "value_score": 91,
         "keep": false,
         "category": "工具与项目",
         "summary": "用户咨询阿里tokenplan各模型消耗对比，客服回复含糊。多位用户反馈额度消耗极快，preview版本有折扣但不稳定，限流严重。",
@@ -43836,13 +44106,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 62,
+        "reply_weight": 29
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231758,
-        "value_score": 45,
+        "value_score": 35,
         "keep": false,
         "category": "职场与招聘",
         "summary": "求职者自荐全栈+AI应用开发，展示独立完成上线项目，技术栈涵盖Vue3、Node.js、RAG、向量数据库等，期望远程全职或项目制。",
@@ -43859,13 +44131,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 45,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231759,
-        "value_score": 55,
+        "value_score": 45,
         "keep": false,
         "category": "观点与讨论",
         "summary": "用户披露智谱WorkBuddy账单显示，GLM-5.2虽请求量仅占22%，但消耗积分超52%，平均单次积分约为DeepSeek-V4-Pro的8倍，质疑其计费合理性。",
@@ -43880,13 +44154,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231760,
-        "value_score": 35,
+        "value_score": 39,
         "keep": false,
         "category": "生活与消费",
         "summary": "用户寻找美国eSIM推荐，现有建议红包卡虽阉割但30刀一年仍可用，无更优替代，其他用户也在观望。",
@@ -43902,13 +44178,15 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 35,
+        "reply_weight": 4
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231761,
-        "value_score": 70,
+        "value_score": 82,
         "keep": true,
         "category": "工具与项目",
         "summary": "作者用Rust从零开发跨平台文件管理器tessoa，全自绘UI，无Electron/WebView，支持Win/macOS/Linux。开放内测，免费版可下载。回复反馈了macOS白屏、Linux软链接识别等问题，作者已定位并发布修复版，整体完成度较高。",
@@ -43933,13 +44211,15 @@
         ],
         "analyzed_reply_count": 12,
         "total_reply_count": 12,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 70,
+        "reply_weight": 12
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231762,
-        "value_score": 65,
+        "value_score": 82,
         "keep": false,
         "category": "经验与教程",
         "summary": "用户反馈云雾中转站海外模型下架疑似跑路，求推荐替代。回复推荐了多个中转站，并指出云雾存在重复计费问题，有用户建议联系客服转移余额。",
@@ -43965,13 +44245,15 @@
         ],
         "analyzed_reply_count": 17,
         "total_reply_count": 17,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 65,
+        "reply_weight": 17
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231763,
-        "value_score": 5,
+        "value_score": 11,
         "keep": false,
         "category": "观点与讨论",
         "summary": "用户发帖讨论he123.com域名用途，回复多为调侃标题党或提及价格，无实质内容。",
@@ -43988,13 +44270,15 @@
         ],
         "analyzed_reply_count": 6,
         "total_reply_count": 6,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 5,
+        "reply_weight": 6
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231764,
-        "value_score": 55,
+        "value_score": 60,
         "keep": false,
         "category": "AI与开发",
         "summary": "用户询问 GPT5.6 上下文长度限制及修改方法，回复普遍指出超过 272K 会价格翻倍并导致性能不稳定，官方默认 258K 是权衡后的甜点区间，不建议修改。",
@@ -44016,13 +44300,15 @@
         ],
         "analyzed_reply_count": 5,
         "total_reply_count": 5,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": 5
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231765,
-        "value_score": 5,
+        "value_score": 6,
         "keep": false,
         "category": "其他",
         "summary": "用户询问Livid推荐过的一个卡牌页游地址，但回复中仅用户自问自答，无有效信息。",
@@ -44037,13 +44323,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 5,
+        "reply_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231766,
-        "value_score": 62,
+        "value_score": 133,
         "keep": false,
         "category": "生活与消费",
         "summary": "新手奶爸询问婴儿奶粉选择，多位家长分享了实际喂养品牌，并提示部分品牌存在质量争议，建议先试用小罐再囤货。",
@@ -44066,13 +44354,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 62,
+        "reply_weight": 71
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231767,
-        "value_score": 65,
+        "value_score": 125,
         "keep": true,
         "category": "生活与消费",
         "summary": "用户反映浙江联通、移动宽带自8月1日起涨价，如500M从360元/年涨至720元/年，移动300M涨至480元/年。回复中多名用户提供各地资费及应对方法，如携号转网、办理低消套餐送宽带、闲鱼找代理商等。",
@@ -44098,13 +44388,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 65,
+        "reply_weight": 60
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231768,
-        "value_score": 65,
+        "value_score": 68,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者分享用 ClaudeCode 开发的 macOS 小工具 Thelxis，支持全局选中文字快速润色、翻译并原地替换，可接 OpenAI 兼容 API 或使用其付费云端服务，并说明了适用场景和已知限制。",
@@ -44125,13 +44417,15 @@
         ],
         "analyzed_reply_count": 3,
         "total_reply_count": 3,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 65,
+        "reply_weight": 3
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231769,
-        "value_score": 5,
+        "value_score": 0,
         "keep": false,
         "category": "AI与开发",
         "summary": "用户发帖询问在AI Agent开发中如何管理memory，是否使用mem0，但帖子没有回复，缺乏有效讨论和可复用信息。",
@@ -44142,13 +44436,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 5,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231770,
-        "value_score": 45,
+        "value_score": 63,
         "keep": false,
         "category": "生活与消费",
         "summary": "用户分享去年618装机配置及价格，近期内存、SSD、显卡涨价，同配置现价约7000元，引发关于DIY市场涨价和二手硬件保值的讨论。",
@@ -44170,13 +44466,15 @@
         ],
         "analyzed_reply_count": 18,
         "total_reply_count": 18,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 45,
+        "reply_weight": 18
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231771,
-        "value_score": 10,
+        "value_score": 0,
         "keep": false,
         "category": "其他",
         "summary": "用户反馈充值V2EX两笔仅记录一笔，并附Solscan地址，无实质细节或解决方案。",
@@ -44187,13 +44485,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 10,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231772,
-        "value_score": 65,
+        "value_score": 85,
         "keep": true,
         "category": "经验与教程",
         "summary": "用户讨论将NAS照片备份改为移动硬盘的可行性，回复中涉及移动硬盘可靠性、备份策略、NAS休眠等经验，整体具有参考价值，但部分回复存在争论。",
@@ -44217,13 +44517,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 65,
+        "reply_weight": 20
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231773,
-        "value_score": 75,
+        "value_score": 81,
         "keep": true,
         "category": "经验与教程",
         "summary": "作者分享泰国旅行实用经验，涵盖机票、打车、酒店、一日游、美食、马杀鸡等细节，提及省钱技巧与避坑点，对计划赴泰游客有参考价值。",
@@ -44243,13 +44545,15 @@
         ],
         "analyzed_reply_count": 6,
         "total_reply_count": 6,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 75,
+        "reply_weight": 6
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231774,
-        "value_score": 70,
+        "value_score": 78,
         "keep": true,
         "category": "经验与教程",
         "summary": "讨论iPhone上微信双开的方案，反馈包括淘宝分身、个人开发者证书签名砸壳包、TestFlight等，建议注重账号权重与KYC，或双持/安卓最稳。",
@@ -44272,13 +44576,15 @@
         ],
         "analyzed_reply_count": 8,
         "total_reply_count": 8,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 70,
+        "reply_weight": 8
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231775,
-        "value_score": 60,
+        "value_score": 64,
         "keep": false,
         "category": "生活与消费",
         "summary": "用户询问ChatGPT订阅套餐与API按量付费的成本差异，回复指出20美元套餐约相当于400美元API额度的典型值，并补充了不同套餐的官方周/月限额，对决策有参考价值。",
@@ -44296,13 +44602,15 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 60,
+        "reply_weight": 4
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231776,
-        "value_score": 10,
+        "value_score": 0,
         "keep": false,
         "category": "其他",
         "summary": "用户询问商场中收信用卡积分是否为骗局，并求薅羊毛方式，但无回复，无实质信息。",
@@ -44315,13 +44623,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 10,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231777,
-        "value_score": 35,
+        "value_score": 73,
         "keep": false,
         "category": "观点与讨论",
         "summary": "楼主询问广东清远一性侵案二审翻供且无物证却判无期是否真实。回复讨论我国刑事案件定罪率高、仅凭口供定罪等问题，但缺乏权威法律解读，信息可靠度低。",
@@ -44341,13 +44651,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 35,
+        "reply_weight": 38
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231778,
-        "value_score": 72,
+        "value_score": 80,
         "keep": true,
         "category": "工具与项目",
         "summary": "用户询问Immich替代品，认为其内存要求高且不支持Podman。回复中多位用户分享实际内存占用经验，指出通常低于官方6GB建议，并推荐PhotoPrism、MT Photos等替代方案。",
@@ -44370,13 +44682,15 @@
         ],
         "analyzed_reply_count": 8,
         "total_reply_count": 8,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 72,
+        "reply_weight": 8
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231779,
-        "value_score": 30,
+        "value_score": 41,
         "keep": false,
         "category": "生活与消费",
         "summary": "用户询问朋友从美国回国探亲可带何物，回复提及美国本土服装、电子产品、SIM卡等建议，但整体以闲聊为主，实用信息有限。",
@@ -44397,13 +44711,15 @@
         ],
         "analyzed_reply_count": 11,
         "total_reply_count": 11,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 30,
+        "reply_weight": 11
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231780,
-        "value_score": 35,
+        "value_score": 25,
         "keep": false,
         "category": "生活与消费",
         "summary": "用户转让Surge for Mac拼车车位，已续费至明年，每人分摊130元，联系方式以base64给出。",
@@ -44414,13 +44730,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 35,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231781,
-        "value_score": 80,
+        "value_score": 95,
         "keep": true,
         "category": "经验与教程",
         "summary": "讨论OpenAI封号及苹果账号绑定限制，用户经验：Apple ID与OpenAI长期绑定难解绑，但手机号可绑定约3个账号；封号与IP切换有关，退款政策趋严。",
@@ -44446,13 +44764,15 @@
         ],
         "analyzed_reply_count": 15,
         "total_reply_count": 15,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 80,
+        "reply_weight": 15
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231783,
-        "value_score": 15,
+        "value_score": 16,
         "keep": false,
         "category": "其他",
         "summary": "用户自建ICP信息查询Chrome扩展，使用收费API和免费IP9实现功能，但未提供扩展链接或代码，仅作分享。",
@@ -44466,13 +44786,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 15,
+        "reply_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231784,
-        "value_score": 10,
+        "value_score": 0,
         "keep": false,
         "category": "工具与项目",
         "summary": "用户询问宝塔面板资源占用具体体现在何处，但暂无回复，缺乏实质讨论。",
@@ -44485,13 +44807,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 10,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231786,
-        "value_score": 25,
+        "value_score": 15,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者分享自制八盘联动英文猜词游戏 Octordle Pro，支持每日和无限模式，包含两千答案词、本地统计和多语言界面，属于独立非官方项目。",
@@ -44506,13 +44830,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 25,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231787,
-        "value_score": 10,
+        "value_score": 18,
         "keep": false,
         "category": "职场与招聘",
         "summary": "作者因老板炒币破产跑路失业，面临房贷压力，寻求远程工作或外包机会，并附上个人站点和技能介绍。回复多数建议卖房。",
@@ -44530,13 +44856,15 @@
         ],
         "analyzed_reply_count": 8,
         "total_reply_count": 8,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 10,
+        "reply_weight": 8
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231789,
-        "value_score": 20,
+        "value_score": 22,
         "keep": false,
         "category": "安全与风险",
         "summary": "用户询问代理商为何自研客户端放弃Clash，回复指出是因管局外包订阅抓取机场订阅连接，定制客户端仅提高门槛，防通报意义不大。",
@@ -44551,13 +44879,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 20,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231790,
-        "value_score": 62,
+        "value_score": 85,
         "keep": false,
         "category": "AI与开发",
         "summary": "讨论程序员是否应投身 coding agent 开发，多数观点认为个人难以与大厂竞争，但可打造个性化工作流，需注意高维护成本与技术快速迭代风险。",
@@ -44583,13 +44913,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 62,
+        "reply_weight": 23
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231791,
-        "value_score": 10,
+        "value_score": 12,
         "keep": false,
         "category": "生活与消费",
         "summary": "用户询问一两百元价位钱包推荐，回复仅提及Nike品牌和轻便卡包建议，信息量较少，缺乏具体型号和比较。",
@@ -44606,13 +44938,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 10,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231792,
-        "value_score": 15,
+        "value_score": 17,
         "keep": false,
         "category": "观点与讨论",
         "summary": "用户提问 AI 是否成为新生产资料，并探讨其社会影响及硅基生命等抽象问题。回复观点简单，缺乏实质论据。",
@@ -44628,13 +44962,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 15,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231793,
-        "value_score": 55,
+        "value_score": 57,
         "keep": false,
         "category": "观点与讨论",
         "summary": "楼主询问适合VR和骨骼点识别的简单手脚并用小游戏创意，类似节奏达人。回复推荐了《Maestro》和《Ragnarock》两个VR游戏，并指出Beat Saber是该品类标杆，手脚并用玩法受限于脚部追踪设备普及率。",
@@ -44652,13 +44988,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231794,
-        "value_score": 35,
+        "value_score": 36,
         "keep": false,
         "category": "经验与教程",
         "summary": "独立开发者分享新App开发两周仍为demo的周记，记录AI辅助开发细节、App Store审核变慢、优惠券营销带动付费的效果，以及生活感悟。",
@@ -44675,13 +45013,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 35,
+        "reply_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231795,
-        "value_score": 5,
+        "value_score": 15,
         "keep": false,
         "category": "观点与讨论",
         "summary": "用户感叹8月找工作投递无反馈，评论区多调侃“未来10年最好一年”，另有观点认为毕业生多、天气热导致岗位少，缺乏实质信息。",
@@ -44697,13 +45037,15 @@
         ],
         "analyzed_reply_count": 10,
         "total_reply_count": 10,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 5,
+        "reply_weight": 10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231797,
-        "value_score": 65,
+        "value_score": 83,
         "keep": false,
         "category": "工具与项目",
         "summary": "用户抱怨PopClip更新后需重新付费，回复解释其两年免费更新政策，有用户成功联系作者获得两年授权，并推荐开源替代品OneClip及自研插件方案。",
@@ -44729,13 +45071,15 @@
         ],
         "analyzed_reply_count": 18,
         "total_reply_count": 18,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 65,
+        "reply_weight": 18
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231799,
-        "value_score": 30,
+        "value_score": 20,
         "keep": false,
         "category": "职场与招聘",
         "summary": "5年前端开发者因裁员面临职业方向选择，纠结于自学AI还是全栈，认为前端岗位稀少且未来可能消失。",
@@ -44751,13 +45095,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 30,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231800,
-        "value_score": 45,
+        "value_score": 50,
         "keep": false,
         "category": "生活与消费",
         "summary": "作者分享半年后入手的米家智能家居清单，包括路由器、门锁、灯光、开关、音箱、空气净化器、浴霸、烟机灶具、冰箱、扫地机器人、电视等，对门锁和电视最满意，扫地机器人表现一般。回复建议补充网关、人在传感器等设备。",
@@ -44777,13 +45123,15 @@
         ],
         "analyzed_reply_count": 5,
         "total_reply_count": 5,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 45,
+        "reply_weight": 5
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231801,
-        "value_score": 85,
+        "value_score": 87,
         "keep": true,
         "category": "AI与开发",
         "summary": "用户询问Claude注册及用AI将Chrome插件从MV2迁移到MV3的方法。回复提供了一份详细、分阶段的迁移提示词，涵盖数据库抽象、Service Worker改造、权限更新及验证流程，具有较强可复用性。",
@@ -44802,13 +45150,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 85,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231802,
-        "value_score": 72,
+        "value_score": 83,
         "keep": true,
         "category": "经验与教程",
         "summary": "作者利用DeepSeek v4-Flash将名画转换为矢量笔触画，通过分析图像纹路方向、撒点绘制彩色短线，生成印象派、素描等风格的SVG图。文章介绍了原理、成本及调试体验，适合对AI结合图像编程感兴趣的读者参考。",
@@ -44831,13 +45181,15 @@
         ],
         "analyzed_reply_count": 11,
         "total_reply_count": 11,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 72,
+        "reply_weight": 11
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231803,
-        "value_score": 20,
+        "value_score": 22,
         "keep": false,
         "category": "观点与讨论",
         "summary": "用户询问是否还有人使用 VSCode 搭配 AI Agent 开发，仅收到两条简短回复，提及 Codex 和 ACP 插件，缺乏深入讨论。",
@@ -44855,13 +45207,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 20,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231805,
-        "value_score": 5,
+        "value_score": 6,
         "keep": false,
         "category": "AI与开发",
         "summary": "用户询问Vibe Coding新项目应从哪层引入AI及是否有专为Vibe设计的脚手架，但仅有一条回复表示不理解问题，未获得有效信息。",
@@ -44876,13 +45230,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 5,
+        "reply_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231807,
-        "value_score": 35,
+        "value_score": 25,
         "keep": false,
         "category": "职场与招聘",
         "summary": "SHEIN算法岗内推帖，列出搜推、广告、NLP、供应链、风控等方向，薪资30-90k，要求电商背景，强调内推码和投递链接，内容为官方岗位信息搬运。",
@@ -44900,13 +45256,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 35,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231808,
-        "value_score": 68,
+        "value_score": 197,
         "keep": true,
         "category": "经验与教程",
         "summary": "主题咨询家境不佳的19岁妹妹是否应读民办大专、复读考兽医或直接打工。回复多建议优先处理抑郁问题，复读一年为可选路径，或从宠物医院学徒起步，不建议直接辍学。",
@@ -44932,13 +45290,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 68,
+        "reply_weight": 129
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231809,
-        "value_score": 15,
+        "value_score": 5,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者发布了一个自称免费的量化网站及GitHub项目链接，但未提供任何功能、使用说明或数据支撑，内容空洞。",
@@ -44950,13 +45310,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 15,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231810,
-        "value_score": 40,
+        "value_score": 43,
         "keep": false,
         "category": "经验与教程",
         "summary": "用户询问没有外国公司如何订阅Claude高级版，回复建议个人也可购买，或使用礼品卡、U卡、内购等方式解决支付问题。",
@@ -44975,13 +45337,15 @@
         ],
         "analyzed_reply_count": 3,
         "total_reply_count": 3,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 40,
+        "reply_weight": 3
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231811,
-        "value_score": 65,
+        "value_score": 99,
         "keep": true,
         "category": "经验与教程",
         "summary": "40岁程序员分享做小红书自媒体一年总结：总收入10万，其中港股开户介绍费5万、咨询费3万、会员费1万，自媒体本身未直接盈利。经验是分享对别人有帮助的内容，选择港股打新赛道，被媒体报道，获8000粉丝。对大龄程序员转型有一定参考意义。",
@@ -45005,13 +45369,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 65,
+        "reply_weight": 34
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231812,
-        "value_score": 20,
+        "value_score": 21,
         "keep": false,
         "category": "经验与教程",
         "summary": "用户询问戴尔U2720QM显示器内部EDP屏线损坏后的购买方向（同向或反向），并提供了屏线型号。唯一回复建议直接淘宝搜索拆机屏线，但未解答方向问题。",
@@ -45027,13 +45393,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 20,
+        "reply_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231813,
-        "value_score": 75,
+        "value_score": 84,
         "keep": true,
         "category": "AI与开发",
         "summary": "用户反馈kimi k3在CRUD开发中速度慢，即使使用subagent流程也耗时较长。回复中给出优化建议：用快速模型如deepseek处理设计开发，k3仅做review；或放弃superpowers只保留AGENT.md；并提及kimi质量好但负载差。",
@@ -45057,13 +45425,15 @@
         ],
         "analyzed_reply_count": 9,
         "total_reply_count": 9,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 75,
+        "reply_weight": 9
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231814,
-        "value_score": 20,
+        "value_score": 10,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者分享新工具“侧写”，输入key和文档链接即可让Agent生成深度报道风格文章，可修改，未授权不发布，并提供示例链接。",
@@ -45081,13 +45451,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 20,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231815,
-        "value_score": 35,
+        "value_score": 45,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者开发了一个可通过SSH访问的终端论坛，提供访客只读账号，注册后可发帖。回复多为趣味调侃，无深度技术讨论。",
@@ -45106,13 +45478,15 @@
         ],
         "analyzed_reply_count": 10,
         "total_reply_count": 10,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 35,
+        "reply_weight": 10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231816,
-        "value_score": 15,
+        "value_score": 25,
         "keep": false,
         "category": "观点与讨论",
         "summary": "作者分享其小程序被抄袭的经历，包括抄袭者反咬、删评等行为，并呼吁举报。回复多认为抄袭普遍，比拼运营能力，建议专注自身。",
@@ -45134,13 +45508,15 @@
         ],
         "analyzed_reply_count": 10,
         "total_reply_count": 10,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 15,
+        "reply_weight": 10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231817,
-        "value_score": 30,
+        "value_score": 20,
         "keep": false,
         "category": "观点与讨论",
         "summary": "用户询问Google总结的桌面端小工具中Svelte份额20%-25%是否属实，并探讨Svelte在桌面小工具中的适用性，但主题无回复，缺乏数据支撑。",
@@ -45153,13 +45529,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 30,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231818,
-        "value_score": 70,
+        "value_score": 88,
         "keep": true,
         "category": "AI与开发",
         "summary": "作者将多年私人日记喂给AI，AI深度分析其性格、习惯并给出未来发展建议，作者感到震撼。回复中用户分享类似经历，并提供了具体操作方法（如ChatGPT Projects组织日记、用Codex读取文件），同时提醒隐私风险。",
@@ -45185,13 +45563,15 @@
         ],
         "analyzed_reply_count": 18,
         "total_reply_count": 18,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 70,
+        "reply_weight": 18
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231819,
-        "value_score": 75,
+        "value_score": 88,
         "keep": true,
         "category": "经验与教程",
         "summary": "用户预算3000内入门3D打印，纠结创想K2与拓竹。多数回复认为拓竹更省心，推荐P1S combo，并提醒按封箱、尺寸、多色等需求选型，同时强调建模能力决定打印机利用率。",
@@ -45216,13 +45596,15 @@
         ],
         "analyzed_reply_count": 13,
         "total_reply_count": 13,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 75,
+        "reply_weight": 13
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231820,
-        "value_score": 5,
+        "value_score": 6,
         "keep": false,
         "category": "其他",
         "summary": "标题为“中转和专线 夯到拉”，内容称“跨境需求首选”并征求评价，但仅有一条简短回复，无实质信息，疑似广告。",
@@ -45236,13 +45618,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 5,
+        "reply_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231821,
-        "value_score": 15,
+        "value_score": 5,
         "keep": false,
         "category": "商业与行业",
         "summary": "DMIT LAX.AS3.Pro.TINY线路合租寻车友，年付140元，200G流量/月，要求个人使用并遵守规则。",
@@ -45260,14 +45644,16 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 15,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231822,
-        "value_score": 65,
-        "keep": true,
+        "value_score": 55,
+        "keep": false,
         "category": "工具与项目",
         "summary": "作者开源AI桌面系统OpenOS，可实现输入一句话生成可交互应用并运行，支持沙箱和多模型，项目刚开源，邀请参与。",
         "key_takeaways": [
@@ -45283,13 +45669,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 65,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231823,
-        "value_score": 10,
+        "value_score": 11,
         "keep": false,
         "category": "观点与讨论",
         "summary": "用户询问Telegram新闻简报频道的推广方法，仅获得一条建议发布到推广节点，内容单一，缺乏实质操作经验。",
@@ -45302,13 +45690,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 10,
+        "reply_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231824,
-        "value_score": 40,
+        "value_score": 30,
         "keep": false,
         "category": "职场与招聘",
         "summary": "深圳星元智科招聘大模型算法工程师和AI开发工程师，岗位要求涉及大模型微调、Agent编排、RAG等技术栈，服务于金融机构AI平台。",
@@ -45325,13 +45715,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 40,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231825,
-        "value_score": 55,
+        "value_score": 45,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者为蔚来车主自制了NIO Radio网页播放器，支持Chrome安装为应用并息屏播放，同时提供开源代码，方便自行部署和使用。",
@@ -45347,13 +45739,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231826,
-        "value_score": 65,
+        "value_score": 66,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者开源了一个用Rust编写的多入口AI Agent项目，支持QQ和微信，强调低内存（约25MiB）、单进程运行，具备多轮聊天、工具调用、记忆、定时推送等功能，并提供Web配置中心，适合低配置服务器自托管。",
@@ -45370,13 +45764,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 65,
+        "reply_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231830,
-        "value_score": 35,
+        "value_score": 39,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者分享了一个按月/按年支出统计工具，回复中讨论用AI与数据库搭建个性化记账统计方案的替代思路。",
@@ -45395,13 +45791,15 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 35,
+        "reply_weight": 4
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231831,
-        "value_score": 10,
+        "value_score": 0,
         "keep": false,
         "category": "商业与行业",
         "summary": "该帖宣传企业级AI账号池与网关管理服务，介绍支付托管、私有化部署和Token管控功能，属于商业推广内容。",
@@ -45412,13 +45810,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 10,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231832,
-        "value_score": 5,
+        "value_score": 0,
         "keep": false,
         "category": "生活与消费",
         "summary": "用户询问14寸双肩包推荐，要求轻便且带独立笔记本夹层，但暂无任何回复。",
@@ -45429,13 +45829,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 5,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231833,
-        "value_score": 25,
+        "value_score": 49,
         "keep": false,
         "category": "职场与招聘",
         "summary": "作者描述同事因年中考核被裁，自己也面临离职风险，表达焦虑和无助，并打算记录后续经历。回复中多位用户分享类似处境，讨论裁员赔偿与心态调整。",
@@ -45456,13 +45858,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 25,
+        "reply_weight": 24
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231834,
-        "value_score": 5,
+        "value_score": 0,
         "keep": false,
         "category": "工具与项目",
         "summary": "用户询问 iOS 上支持语音输入的终端应用，目前使用 Termius 但无法使用 iOS 自带键盘的语音输入，希望推荐其他应用。无回复。",
@@ -45473,13 +45877,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 5,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231835,
-        "value_score": 65,
+        "value_score": 77,
         "keep": true,
         "category": "AI与开发",
         "summary": "用户分享gpt-5.6-luna-max半天使用体验，认为价格便宜、智商不错，但token用量翻倍、速度慢。回复中多人认可其性价比，也有用户对比其他模型。",
@@ -45505,13 +45911,15 @@
         ],
         "analyzed_reply_count": 12,
         "total_reply_count": 12,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 65,
+        "reply_weight": 12
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231836,
-        "value_score": 20,
+        "value_score": 41,
         "keep": false,
         "category": "观点与讨论",
         "summary": "用户离职后学习投资入市，7月亏损20%寻求交流。回复多劝谨慎，有推广金融agent的广告回复。",
@@ -45536,13 +45944,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 20,
+        "reply_weight": 21
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231837,
-        "value_score": 75,
+        "value_score": 89,
         "keep": true,
         "category": "经验与教程",
         "summary": "用户询问iOS 26.6下WLOC改定位是否有效，众多回复确认有效，并分享关键操作流程：保存位置后开飞行模式、关定位重启，再开代理和定位。",
@@ -45565,13 +45975,15 @@
         ],
         "analyzed_reply_count": 14,
         "total_reply_count": 14,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 75,
+        "reply_weight": 14
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231838,
-        "value_score": 52,
+        "value_score": 58,
         "keep": false,
         "category": "AI与开发",
         "summary": "用户发现 GPT Pro 模式响应过快，怀疑被降智，询问身份后确认是 GPT-5.5-mini，建议切换家宽 IP 改善。",
@@ -45593,13 +46005,15 @@
         ],
         "analyzed_reply_count": 6,
         "total_reply_count": 6,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 52,
+        "reply_weight": 6
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231840,
-        "value_score": 10,
+        "value_score": 12,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者发布浏览器书签管理插件SuperMark的推广帖，介绍了AI整理、导入、推荐、导航等核心功能，并附赠激活码。回复数少，主要为领码互动，缺少实际用户评测。",
@@ -45618,13 +46032,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 10,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231842,
-        "value_score": 15,
+        "value_score": 17,
         "keep": false,
         "category": "生活与消费",
         "summary": "网易云音乐8月免费会员领取活动，随机1-7天，含邀请推广链接，属软文推广。",
@@ -45637,13 +46053,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 15,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231844,
-        "value_score": 50,
+        "value_score": 56,
         "keep": false,
         "category": "生活与消费",
         "summary": "拼多多百亿补贴东方树叶乌龙茶6瓶335ml售价11.45元，有用户求购茉莉花茶并有人提供代购，也有用户分享线下便利店价格及临期茶饮的省钱经验。",
@@ -45664,13 +46082,15 @@
         ],
         "analyzed_reply_count": 6,
         "total_reply_count": 6,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 50,
+        "reply_weight": 6
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231845,
-        "value_score": 75,
+        "value_score": 86,
         "keep": true,
         "category": "工具与项目",
         "summary": "用户分享从i3wm切换至Niri+DankMaterialShell的体验，认为更整体更现代，钉钉表现改善。回复讨论Niri、Noctalia、Ironbar等组合，以及XWayland适配、缩放等常见问题。",
@@ -45696,13 +46116,15 @@
         ],
         "analyzed_reply_count": 11,
         "total_reply_count": 11,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 75,
+        "reply_weight": 11
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231846,
-        "value_score": 30,
+        "value_score": 20,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者分享自制的GitHub项目健康评估工具TrustOSS，输入仓库链接可生成活跃度、维护、社区等报告，免费使用，但无用户反馈验证。",
@@ -45719,13 +46141,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 30,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231848,
-        "value_score": 20,
+        "value_score": 21,
         "keep": false,
         "category": "工具与项目",
         "summary": "用户询问Claude Code在不同电脑间迁移配置的方法，目前仅一条回复建议使用局域网开源的跨电脑同步工具让Claude自行同步，未提供具体方案。",
@@ -45740,13 +46164,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 20,
+        "reply_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231849,
-        "value_score": 30,
+        "value_score": 43,
         "keep": false,
         "category": "观点与讨论",
         "summary": "用户质疑DeepSeek低价高能是否会被Claude/GPT套利，回复多认为官方不会，因模型差距仍在，尤其多模态缺失，但DeepSeek性价比适合自动化。",
@@ -45768,13 +46194,15 @@
         ],
         "analyzed_reply_count": 13,
         "total_reply_count": 13,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 30,
+        "reply_weight": 13
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231850,
-        "value_score": 45,
+        "value_score": 35,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者介绍了一个免费声音表达分析工具，用户录5-15秒即可获得清晰度、语速等反馈，支持面试等场景练习，无需注册且不保存录音，但该主题无用户回复验证。",
@@ -45791,13 +46219,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 45,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231851,
-        "value_score": 5,
+        "value_score": 7,
         "keep": false,
         "category": "其他",
         "summary": "主题询问OpenAI相关服务重置卡使用时机，回复仅闲聊，无实质信息。",
@@ -45811,13 +46241,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 5,
+        "reply_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231853,
-        "value_score": 15,
+        "value_score": 5,
         "keep": false,
         "category": "其他",
         "summary": "用户询问是否有逆向similarweb流量查询接口的优惠方案，提到已用Playwright配合代理实现约2美元/千次查询，寻求更实惠途径。",
@@ -45832,13 +46264,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 15,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231854,
-        "value_score": 5,
+        "value_score": 0,
         "keep": false,
         "category": "其他",
         "summary": "作者分享用DeepSeek和GPT运行德州扑克对战视频，但内容仅提及设计实现和低成本测试，无实质技术细节或可复用经验，属于推广性质。",
@@ -45849,13 +46283,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 5,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231856,
-        "value_score": 10,
+        "value_score": 0,
         "keep": false,
         "category": "商业与行业",
         "summary": "一个自称10年全栈开发的工作室在V2EX发布外包接单广告，介绍项目案例与合作流程，无实际回复。",
@@ -45869,13 +46305,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 10,
+        "reply_weight": -10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231857,
-        "value_score": 62,
+        "value_score": 63,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者因 Codeium 停止服务，开发了 Sublime Text 的 AI 代码补全插件 AIComplete，开源并分享安装方法，体验接近原版。",
@@ -45894,13 +46332,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 62,
+        "reply_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231858,
-        "value_score": 55,
+        "value_score": 56,
         "keep": false,
         "category": "工具与项目",
         "summary": "作者因原版webd不开源且夹带私货，复刻了轻量网盘webd并开源。提供编译好的二进制和源码，支持CMake编译，建议配合nginx反代使用。",
@@ -45918,14 +46358,16 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 55,
+        "reply_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231859,
-        "value_score": 72,
-        "keep": true,
+        "value_score": 62,
+        "keep": false,
         "category": "工具与项目",
         "summary": "Panerelay 0.5.0 开源工具，让 agent-browser、Browser Use、Playwright CLI 复用日常 Chrome 的登录状态和标签页，仅暴露授权内容，本地运行。",
         "key_takeaways": [
@@ -45941,7 +46383,9 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "content_score": 72,
+        "reply_weight": -10
       }
     ]
   },

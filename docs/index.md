@@ -7,12 +7,12 @@ categories: [v2ex, daily-report]
 status: success
 target_date: 2026-08-03
 generated_at: "2026-08-04 17:13:12"
-summary: "昨日主题 276 个，过滤 54 个，DeepSeek 分析 222 个，保留高价值内容 26 个。"
+summary: "昨日主题 276 个，过滤 54 个，DeepSeek 分析 222 个，保留高价值内容 36 个。"
 count_all: 276
 count_excluded: 54
 count_included: 222
 count_high_signal: 25
-count_valuable: 26
+count_valuable: 36
 report_url: "/v2ex/daily-report/2026/08/03/v2ex-yesterday-report.html"
 data_url: "/data/2026-08-03.json"
 ---
@@ -21,46 +21,177 @@ data_url: "/data/2026-08-03.json"
 
 ## 有价值内容
 
-从 222 个候选主题中保留 26 个，以下按综合价值评分从高到低排列。
+从 222 个候选主题中保留 36 个，以下按综合价值评分从高到低排列。
 
-### 1. [当 agent 说"我做完了" —— 四个从翻车里长出来的 Claude Code skill](https://www.v2ex.com/t/1231702)
+### 1. [关于妹妹要不要继续读书的咨询](https://www.v2ex.com/t/1231808)
 
-**90/100** · AI与开发 · 人工智能 · 0 回复 · 1 收藏
+**综合分 197** · 经验与教程 · 问与答 · 129 回复 · 10 收藏
 
-作者分享四个源于实践翻车经验的Claude Code技能：false-green通过变异测试防止虚假单测，delegating-to-agents强化子代理审查，concurrent-worktrees解决多Agent并行冲突，batch-closeout优化批量验收。技能已开源，适用于多种AI编码代理。
-
-**核心信息**
-
-- false-green通过变异测试确保单测真正有效，避免假绿。
-- delegating-to-agents要求主代理核实子代理报告，避免盲信。
-- concurrent-worktrees利用Git Worktree支持多Agent安全并行开发。
-- batch-closeout延后同类验收，批量收尾提升效率且不降质量。
-- 这些技能已开源，可配合Matt Pocock Skills使用。
-
-### 2. [请问 claude 能注册吗](https://www.v2ex.com/t/1231801)
-
-**85/100** · AI与开发 · Claude · 2 回复
-
-用户询问Claude注册及用AI将Chrome插件从MV2迁移到MV3的方法。回复提供了一份详细、分阶段的迁移提示词，涵盖数据库抽象、Service Worker改造、权限更新及验证流程，具有较强可复用性。
+主题咨询家境不佳的19岁妹妹是否应读民办大专、复读考兽医或直接打工。回复多建议优先处理抑郁问题，复读一年为可选路径，或从宠物医院学徒起步，不建议直接辍学。
 
 **核心信息**
 
-- 用AI迁移Chrome扩展时，应要求其先生成审计文档，而非直接全量替换。
-- 迁移需分阶段：先抽象数据库层，再改Service Worker，最后更新manifest。
-- MV3迁移需注意Service Worker生命周期，避免依赖长驻全局变量或定时器。
-- 数据迁移必须幂等、可中断恢复，并保留旧数据直至新数据验证成功。
-- 使用AI时给出具体角色、步骤和验证要求，可显著提升迁移成功率。
+- 先评估抑郁问题并寻求治疗，心理健康是后续决策基础
+- 民办大专性价比低，不考虑直接辍学则复读一年最差可回归原选择
+- 宠物行业更看重执业兽医资格证，可通过学徒+成人学历入行
+- 排除直接打工选项，否则易陷入低门槛低天花板工作
+- 尊重妹妹意愿，让她参与决策以减少未来埋怨
 
 <details class="analysis-evidence" markdown="1">
 <summary>评分详情与内容依据</summary>
 
-依据回复：[#17932790](https://www.v2ex.com/t/1231801#reply17932790)
+评分构成：内容基础分 68 · 回复权重 +129
+
+依据回复：[#17932910](https://www.v2ex.com/t/1231808#reply17932910)、[#17932925](https://www.v2ex.com/t/1231808#reply17932925)、[#17933075](https://www.v2ex.com/t/1231808#reply17933075)、[#17933164](https://www.v2ex.com/t/1231808#reply17933164)、[#17933242](https://www.v2ex.com/t/1231808#reply17933242)、[#17932972](https://www.v2ex.com/t/1231808#reply17932972)、[#17932936](https://www.v2ex.com/t/1231808#reply17932936)、[#17933232](https://www.v2ex.com/t/1231808#reply17933232)
 
 </details>
 
-### 3. [新电视买回来了，但快被现在的“套娃会员”逼疯了！影视会员、体育会员就算了，现在连看个电视直播都要单独开会员，真的是吃相太难看](https://www.v2ex.com/t/1231677)
+### 2. [妹妹考上大学了，升学宴送什么合适？求建议](https://www.v2ex.com/t/1231653)
 
-**82/100** · 生活与消费 · 问与答 · 39 回复 · 21 收藏
+**综合分 170** · 生活与消费 · 生活 · 105 回复 · 2 收藏
+
+亲妹妹升学宴送礼物求助，回复建议笔记本、平板、手机等实用设备需考虑专业需求，或直接送红包，也有提升宿舍幸福感的选择。
+
+**核心信息**
+
+- 送笔记本前需确认专业软件需求及学校是否允许带电脑。
+- 手机、平板、耳机等日常高频设备实用且不易踩坑。
+- 直接送红包最实用，可搭配贺卡增加纪念意义。
+- 电动车、洗衣机可提升宿舍幸福感，但不适合宴席赠送。
+- 可参考学长经验，了解实际需求再决定。
+
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
+
+评分构成：内容基础分 65 · 回复权重 +105
+
+依据回复：[#17930041](https://www.v2ex.com/t/1231653#reply17930041)、[#17930209](https://www.v2ex.com/t/1231653#reply17930209)、[#17930310](https://www.v2ex.com/t/1231653#reply17930310)、[#17930331](https://www.v2ex.com/t/1231653#reply17930331)、[#17930458](https://www.v2ex.com/t/1231653#reply17930458)、[#17930543](https://www.v2ex.com/t/1231653#reply17930543)、[#17930584](https://www.v2ex.com/t/1231653#reply17930584)、[#17930601](https://www.v2ex.com/t/1231653#reply17930601)
+
+</details>
+
+### 3. [购买大件电器有感](https://www.v2ex.com/t/1231612)
+
+**综合分 149** · 生活与消费 · 分享发现 · 81 回复 · 5 收藏
+
+讨论大件电器购买中安装费与增项问题，分享避坑经验，如自购挂架、确认收费明细等。
+
+**核心信息**
+
+- 高空费、铜管费按需收取，属合理增项，但需提前确认。
+- 电视挂架自行购买比师傅带的便宜，可考虑自己安装。
+- 部分品牌安装收费不透明，小米等品牌流程较正规。
+- 安装师傅可能推销延保，建议通过官方400渠道购买。
+- 空调安装费用可提前了解，加长铜管可自行购买以节省开支。
+
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
+
+评分构成：内容基础分 68 · 回复权重 +81
+
+依据回复：[#17929436](https://www.v2ex.com/t/1231612#reply17929436)、[#17929479](https://www.v2ex.com/t/1231612#reply17929479)、[#17929548](https://www.v2ex.com/t/1231612#reply17929548)、[#17929599](https://www.v2ex.com/t/1231612#reply17929599)、[#17929521](https://www.v2ex.com/t/1231612#reply17929521)、[#17929696](https://www.v2ex.com/t/1231612#reply17929696)、[#17929513](https://www.v2ex.com/t/1231612#reply17929513)、[#17929692](https://www.v2ex.com/t/1231612#reply17929692)
+
+</details>
+
+### 4. [极致精简，已经优化为仅 100 多 KB！单文件 PHP 论坛！](https://www.v2ex.com/t/1231731)
+
+**综合分 139** · 工具与项目 · PHP · 71 回复 · 56 收藏
+
+作者发布优化至仅100多KB的单文件PHP论坛bbs1org，功能可通过插件扩展，附GitHub仓库及演示站。回复中对轻量化设计有讨论，作者表示适合作为项目附属功能。
+
+**核心信息**
+
+- bbs1org是一个约100多KB的单文件PHP论坛，支持插件化扩展。
+- 适合作为项目附属功能，不占用项目文件资源，保持整洁。
+- 有用户提出加密需求，作者建议可用AI自行开发插件。
+- 有用户指出需搭配FPM/Nginx使用，瘦身意义有限；作者认为已有环境下则无额外负担。
+- 项目提供演示站和GitHub地址，读者可自行验证体验。
+
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
+
+评分构成：内容基础分 68 · 回复权重 +71
+
+依据回复：[#17932378](https://www.v2ex.com/t/1231731#reply17932378)、[#17932558](https://www.v2ex.com/t/1231731#reply17932558)、[#17932832](https://www.v2ex.com/t/1231731#reply17932832)、[#17932857](https://www.v2ex.com/t/1231731#reply17932857)、[#17931862](https://www.v2ex.com/t/1231731#reply17931862)、[#17932113](https://www.v2ex.com/t/1231731#reply17932113)、[#17931396](https://www.v2ex.com/t/1231731#reply17931396)、[#17931784](https://www.v2ex.com/t/1231731#reply17931784)
+
+</details>
+
+### 5. [大家现在 Windows 下面是如何使用 codex 的，怎么搞都有问题](https://www.v2ex.com/t/1231744)
+
+**综合分 138** · 经验与教程 · 程序员 · 56 回复 · 15 收藏
+
+用户反馈在Windows下使用Codex CLI/App时遇到插件、性能、环境配置等问题，讨论中分享多种解决方案：WSL规则配置、PowerShell7设置、MCP集成、VSCode插件等。
+
+**核心信息**
+
+- 使用WSL2可较好适配Codex，通过AGENTS.md明确环境可减少问题。
+- PowerShell7需配置代理和包管理器（scoop、vfox/mise），并在全局AGENTS.md中声明。
+- 桌面版Codex较卡，CLI版更流畅；可尝试Codex+MCP（如powershell.mcp）提升体验。
+- 使用VSCode的Codex插件配合PowerShell7也是可行方案。
+- 参考WSL规则，明确何时用WSL何时用PowerShell，避免混用问题。
+
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
+
+评分构成：内容基础分 82 · 回复权重 +56
+
+依据回复：[#17931579](https://www.v2ex.com/t/1231744#reply17931579)、[#17931492](https://www.v2ex.com/t/1231744#reply17931492)、[#17931637](https://www.v2ex.com/t/1231744#reply17931637)、[#17932151](https://www.v2ex.com/t/1231744#reply17932151)、[#17932158](https://www.v2ex.com/t/1231744#reply17932158)、[#17932192](https://www.v2ex.com/t/1231744#reply17932192)、[#17931626](https://www.v2ex.com/t/1231744#reply17931626)、[#17931635](https://www.v2ex.com/t/1231744#reply17931635)
+
+</details>
+
+### 6. [好一个声东击西， 8 月 1 日起宽带也偷偷涨价了](https://www.v2ex.com/t/1231767)
+
+**综合分 125** · 生活与消费 · 宽带症候群 · 60 回复 · 4 收藏
+
+用户反映浙江联通、移动宽带自8月1日起涨价，如500M从360元/年涨至720元/年，移动300M涨至480元/年。回复中多名用户提供各地资费及应对方法，如携号转网、办理低消套餐送宽带、闲鱼找代理商等。
+
+**核心信息**
+
+- 浙江联通/移动宽带大幅涨价，部分套餐涨幅达100%。
+- 携号转网或可获折扣，有用户通过此方法降低资费。
+- 办理手机低消套餐可能免费送宽带，如39元档送500M。
+- 线下营业厅或闲鱼代理商可能有更优惠的宽带套餐。
+- 老用户续费前可对比多方价格，注意涨价节点。
+
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
+
+评分构成：内容基础分 65 · 回复权重 +60
+
+依据回复：[#17931991](https://www.v2ex.com/t/1231767#reply17931991)、[#17932025](https://www.v2ex.com/t/1231767#reply17932025)、[#17932060](https://www.v2ex.com/t/1231767#reply17932060)、[#17932493](https://www.v2ex.com/t/1231767#reply17932493)、[#17932964](https://www.v2ex.com/t/1231767#reply17932964)、[#17933205](https://www.v2ex.com/t/1231767#reply17933205)、[#17933214](https://www.v2ex.com/t/1231767#reply17933214)、[#17932601](https://www.v2ex.com/t/1231767#reply17932601)
+
+</details>
+
+### 7. [腾讯这是不打算让小程序商家活了？支付手续费涨了几十倍，直接干到 10%-17%](https://www.v2ex.com/t/1231752)
+
+**综合分 123** · 商业与行业 · 程序员 · 58 回复 · 12 收藏
+
+微信小程序虚拟支付手续费大幅上涨，Android 10%、iOS 17%，此前为千分之三。商家反映成本剧增，讨论涉及适用范围、行业对比及应对策略，信息有参考价值，但标题存在误导风险。
+
+**核心信息**
+
+- 微信虚拟支付费率从千分之三涨至Android 10%、iOS 17%，涨幅巨大。
+- 该政策仅针对虚拟支付类目，实体商品支付不受影响。
+- 行业对比：苹果抽成30%、华为20%，微信费率并非最高，但仍冲击小商家利润。
+- 商家无法在小程序内接入支付宝等支付方式，存在平台锁定问题。
+- 建议商家评估新成本，考虑迁移至APP或调整业务模式应对。
+
+**注意事项**
+
+- 信息不足
+- 争议性
+
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
+
+评分构成：内容基础分 65 · 回复权重 +58
+
+依据回复：[#17931578](https://www.v2ex.com/t/1231752#reply17931578)、[#17931685](https://www.v2ex.com/t/1231752#reply17931685)、[#17931700](https://www.v2ex.com/t/1231752#reply17931700)、[#17931702](https://www.v2ex.com/t/1231752#reply17931702)、[#17931656](https://www.v2ex.com/t/1231752#reply17931656)、[#17931847](https://www.v2ex.com/t/1231752#reply17931847)、[#17931857](https://www.v2ex.com/t/1231752#reply17931857)
+
+</details>
+
+### 8. [新电视买回来了，但快被现在的“套娃会员”逼疯了！影视会员、体育会员就算了，现在连看个电视直播都要单独开会员，真的是吃相太难看](https://www.v2ex.com/t/1231677)
+
+**综合分 121** · 生活与消费 · 问与答 · 39 回复 · 21 收藏
 
 用户吐槽电视套娃会员收费，寻求实用方案。回复提供运营商IPTV、央视频投屏、TVbox/NAS本地播放、网盘+播放器等多种选择，并提醒设备与服务分离，省心选IPTV，折腾可白嫖。
 
@@ -79,90 +210,15 @@ data_url: "/data/2026-08-03.json"
 <details class="analysis-evidence" markdown="1">
 <summary>评分详情与内容依据</summary>
 
+评分构成：内容基础分 82 · 回复权重 +39
+
 依据回复：[#17930413](https://www.v2ex.com/t/1231677#reply17930413)、[#17930755](https://www.v2ex.com/t/1231677#reply17930755)、[#17930482](https://www.v2ex.com/t/1231677#reply17930482)、[#17930617](https://www.v2ex.com/t/1231677#reply17930617)、[#17930848](https://www.v2ex.com/t/1231677#reply17930848)、[#17930914](https://www.v2ex.com/t/1231677#reply17930914)、[#17930951](https://www.v2ex.com/t/1231677#reply17930951)、[#17930461](https://www.v2ex.com/t/1231677#reply17930461)
 
 </details>
 
-### 4. [大家现在 Windows 下面是如何使用 codex 的，怎么搞都有问题](https://www.v2ex.com/t/1231744)
+### 9. [中登新买了个电视，各位有什么好玩的电视 APP？](https://www.v2ex.com/t/1231680)
 
-**82/100** · 经验与教程 · 程序员 · 56 回复 · 15 收藏
-
-用户反馈在Windows下使用Codex CLI/App时遇到插件、性能、环境配置等问题，讨论中分享多种解决方案：WSL规则配置、PowerShell7设置、MCP集成、VSCode插件等。
-
-**核心信息**
-
-- 使用WSL2可较好适配Codex，通过AGENTS.md明确环境可减少问题。
-- PowerShell7需配置代理和包管理器（scoop、vfox/mise），并在全局AGENTS.md中声明。
-- 桌面版Codex较卡，CLI版更流畅；可尝试Codex+MCP（如powershell.mcp）提升体验。
-- 使用VSCode的Codex插件配合PowerShell7也是可行方案。
-- 参考WSL规则，明确何时用WSL何时用PowerShell，避免混用问题。
-
-<details class="analysis-evidence" markdown="1">
-<summary>评分详情与内容依据</summary>
-
-依据回复：[#17931579](https://www.v2ex.com/t/1231744#reply17931579)、[#17931492](https://www.v2ex.com/t/1231744#reply17931492)、[#17931637](https://www.v2ex.com/t/1231744#reply17931637)、[#17932151](https://www.v2ex.com/t/1231744#reply17932151)、[#17932158](https://www.v2ex.com/t/1231744#reply17932158)、[#17932192](https://www.v2ex.com/t/1231744#reply17932192)、[#17931626](https://www.v2ex.com/t/1231744#reply17931626)、[#17931635](https://www.v2ex.com/t/1231744#reply17931635)
-
-</details>
-
-### 5. [codex 被封号了， 1 个苹果账号可以绑多个 openai 吗？不想切苹果账号注册新的。](https://www.v2ex.com/t/1231781)
-
-**80/100** · 经验与教程 · OpenAI · 15 回复
-
-讨论OpenAI封号及苹果账号绑定限制，用户经验：Apple ID与OpenAI长期绑定难解绑，但手机号可绑定约3个账号；封号与IP切换有关，退款政策趋严。
-
-**核心信息**
-
-- Apple ID与OpenAI账号绑定是长期的，不能随意解绑或更换。
-- 一个手机号可以绑定多个OpenAI账号（约3个）。
-- 封号可能与IP地址频繁切换有关，且存在随机性。
-- 新注册账号时可用原手机号验证，可能不冲突。
-- 退款政策收紧，第一次可能成功，后续拒绝。
-
-<details class="analysis-evidence" markdown="1">
-<summary>评分详情与内容依据</summary>
-
-依据回复：[#17932285](https://www.v2ex.com/t/1231781#reply17932285)、[#17932960](https://www.v2ex.com/t/1231781#reply17932960)、[#17933048](https://www.v2ex.com/t/1231781#reply17933048)、[#17933442](https://www.v2ex.com/t/1231781#reply17933442)、[#17933986](https://www.v2ex.com/t/1231781#reply17933986)、[#17932994](https://www.v2ex.com/t/1231781#reply17932994)、[#17932286](https://www.v2ex.com/t/1231781#reply17932286)、[#17932748](https://www.v2ex.com/t/1231781#reply17932748)
-
-</details>
-
-### 6. [macos 上容器运行时推荐用哪个呢？](https://www.v2ex.com/t/1231628)
-
-**78/100** · 工具与项目 · 问与答 · 28 回复 · 9 收藏
-
-讨论macOS上Docker Desktop替代方案，主流推荐OrbStack、Apple Container、Colima/Lima、Podman等，并比较各方案特点与限制。
-
-**核心信息**
-
-- OrbStack是macOS上最获推荐的容器运行时，内存动态回收是重要优势
-- Apple官方Container已发布正式版，但不支持compose编排，是硬伤
-- Colima/Lima轻量开源，底层基于QEMU，适合简单场景
-- Podman Desktop可作备选，但有人反馈体验不佳
-- Docker Desktop因商业授权和内存占用问题被部分用户弃用
-
-<details class="analysis-evidence" markdown="1">
-<summary>评分详情与内容依据</summary>
-
-依据回复：[#17929683](https://www.v2ex.com/t/1231628#reply17929683)、[#17929748](https://www.v2ex.com/t/1231628#reply17929748)、[#17929720](https://www.v2ex.com/t/1231628#reply17929720)、[#17929797](https://www.v2ex.com/t/1231628#reply17929797)、[#17930007](https://www.v2ex.com/t/1231628#reply17930007)、[#17930084](https://www.v2ex.com/t/1231628#reply17930084)、[#17930191](https://www.v2ex.com/t/1231628#reply17930191)、[#17929744](https://www.v2ex.com/t/1231628#reply17929744)
-
-</details>
-
-### 7. [从产品实现看欧盟 AI 内容透明规则：别把机器标记和可见标签混为一谈](https://www.v2ex.com/t/1231592)
-
-**78/100** · AI与开发 · 程序员 · 0 回复
-
-作者解读欧盟《AI法案》第50条透明规则，区分机器可读标记与可见标签，提出系统提供方与业务使用方的四问自检框架，并关注人工审核证据的可追溯性。
-
-**核心信息**
-
-- 欧盟AI法案第50条自2026年8月2日起适用于AI内容透明义务。
-- 需区分提供方系统能力（机器可读标记）与业务使用方披露（可见标签）两层。
-- 深伪、情感识别/生物特征分类及公共利益文字需额外披露义务。
-- 个人、非职业用途不构成deployer，减轻合规负担。
-- 实质人工审核需记录修改责任，否则可能被视为橡皮图章。
-
-### 8. [中登新买了个电视，各位有什么好玩的电视 APP？](https://www.v2ex.com/t/1231680)
-
-**75/100** · 生活与消费 · 智能家电 · 35 回复 · 10 收藏
+**综合分 110** · 生活与消费 · 智能家电 · 35 回复 · 10 收藏
 
 用户询问小米电视可安装的有趣APP，回复推荐了blbl（第三方B站）、Jellyfin、飞牛TV、Apple TV+cheers等方案，以及外接主机、游戏机等使用方式，分享了电视作为大屏的多种玩法。
 
@@ -177,13 +233,38 @@ data_url: "/data/2026-08-03.json"
 <details class="analysis-evidence" markdown="1">
 <summary>评分详情与内容依据</summary>
 
+评分构成：内容基础分 75 · 回复权重 +35
+
 依据回复：[#17930456](https://www.v2ex.com/t/1231680#reply17930456)、[#17930562](https://www.v2ex.com/t/1231680#reply17930562)、[#17930619](https://www.v2ex.com/t/1231680#reply17930619)、[#17930637](https://www.v2ex.com/t/1231680#reply17930637)、[#17931459](https://www.v2ex.com/t/1231680#reply17931459)、[#17932343](https://www.v2ex.com/t/1231680#reply17932343)、[#17931358](https://www.v2ex.com/t/1231680#reply17931358)、[#17930702](https://www.v2ex.com/t/1231680#reply17930702)
 
 </details>
 
-### 9. [深圳租房经历](https://www.v2ex.com/t/1231654)
+### 10. [macos 上容器运行时推荐用哪个呢？](https://www.v2ex.com/t/1231628)
 
-**75/100** · 经验与教程 · 租房 · 30 回复 · 8 收藏
+**综合分 106** · 工具与项目 · 问与答 · 28 回复 · 9 收藏
+
+讨论macOS上Docker Desktop替代方案，主流推荐OrbStack、Apple Container、Colima/Lima、Podman等，并比较各方案特点与限制。
+
+**核心信息**
+
+- OrbStack是macOS上最获推荐的容器运行时，内存动态回收是重要优势
+- Apple官方Container已发布正式版，但不支持compose编排，是硬伤
+- Colima/Lima轻量开源，底层基于QEMU，适合简单场景
+- Podman Desktop可作备选，但有人反馈体验不佳
+- Docker Desktop因商业授权和内存占用问题被部分用户弃用
+
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
+
+评分构成：内容基础分 78 · 回复权重 +28
+
+依据回复：[#17929683](https://www.v2ex.com/t/1231628#reply17929683)、[#17929748](https://www.v2ex.com/t/1231628#reply17929748)、[#17929720](https://www.v2ex.com/t/1231628#reply17929720)、[#17929797](https://www.v2ex.com/t/1231628#reply17929797)、[#17930007](https://www.v2ex.com/t/1231628#reply17930007)、[#17930084](https://www.v2ex.com/t/1231628#reply17930084)、[#17930191](https://www.v2ex.com/t/1231628#reply17930191)、[#17929744](https://www.v2ex.com/t/1231628#reply17929744)
+
+</details>
+
+### 11. [深圳租房经历](https://www.v2ex.com/t/1231654)
+
+**综合分 105** · 经验与教程 · 租房 · 30 回复 · 8 收藏
 
 作者分享深圳租房经历，指出线上中介信息不互通、线下中介态度差等坑。回复中多位网友给出实用建议：城中村可直接扫街、问保安；小区房可看公告牌或找正规中介如贝壳；注意招租电话可能是中介。整体经验对租房新手有帮助。
 
@@ -198,76 +279,111 @@ data_url: "/data/2026-08-03.json"
 <details class="analysis-evidence" markdown="1">
 <summary>评分详情与内容依据</summary>
 
+评分构成：内容基础分 75 · 回复权重 +30
+
 依据回复：[#17930132](https://www.v2ex.com/t/1231654#reply17930132)、[#17930169](https://www.v2ex.com/t/1231654#reply17930169)、[#17930203](https://www.v2ex.com/t/1231654#reply17930203)、[#17930446](https://www.v2ex.com/t/1231654#reply17930446)、[#17930478](https://www.v2ex.com/t/1231654#reply17930478)、[#17930598](https://www.v2ex.com/t/1231654#reply17930598)、[#17931186](https://www.v2ex.com/t/1231654#reply17931186)、[#17931246](https://www.v2ex.com/t/1231654#reply17931246)
 
 </details>
 
-### 10. [用起来比较舒服的 Linux 桌面 Niri+DankMaterialShell](https://www.v2ex.com/t/1231845)
+### 12. [程序员尝试小红书博主一年总结](https://www.v2ex.com/t/1231811)
 
-**75/100** · 工具与项目 · Linux · 11 回复 · 1 收藏
+**综合分 99** · 经验与教程 · 程序员 · 34 回复 · 15 收藏
 
-用户分享从i3wm切换至Niri+DankMaterialShell的体验，认为更整体更现代，钉钉表现改善。回复讨论Niri、Noctalia、Ironbar等组合，以及XWayland适配、缩放等常见问题。
+40岁程序员分享做小红书自媒体一年总结：总收入10万，其中港股开户介绍费5万、咨询费3万、会员费1万，自媒体本身未直接盈利。经验是分享对别人有帮助的内容，选择港股打新赛道，被媒体报道，获8000粉丝。对大龄程序员转型有一定参考意义。
 
 **核心信息**
 
-- Niri平铺式桌面获得多位用户认可，但XWayland兼容性仍是常见痛点。
-- 部分用户因缩放和XWayland问题回归GNOME+PaperWM或KDE Plasma。
-- Niri可搭配Noctalia、Ironbar或DankMaterialShell，风格取舍因人而异。
-- 使用Codex等AI工具辅助排查Linux桌面问题成为新趋势。
-- Labwc作为堆叠式WM替代方案，适合不喜欢平铺的用户。
+- 做自媒体核心是分享对别人有帮助的内容，需要坚持并积累账号信任。
+- 财经类账号易被限流，需调整心态；平台审核严格，需注意资质。
+- 收入来源可多元化：会员费、咨询费、开户返佣等，但自媒体直接收入可能很低。
+- 个人品牌可带来采访和口碑，有助于建立信任和更多合作。
+- 大龄程序员可考虑结合自身专业领域做自媒体，但需投入大量时间，收入不一定稳定。
+
+**注意事项**
+
+- 争议性
 
 <details class="analysis-evidence" markdown="1">
 <summary>评分详情与内容依据</summary>
 
-依据回复：[#17933597](https://www.v2ex.com/t/1231845#reply17933597)、[#17933600](https://www.v2ex.com/t/1231845#reply17933600)、[#17933735](https://www.v2ex.com/t/1231845#reply17933735)、[#17933850](https://www.v2ex.com/t/1231845#reply17933850)、[#17935806](https://www.v2ex.com/t/1231845#reply17935806)、[#17936128](https://www.v2ex.com/t/1231845#reply17936128)、[#17933913](https://www.v2ex.com/t/1231845#reply17933913)、[#17933753](https://www.v2ex.com/t/1231845#reply17933753)
+评分构成：内容基础分 65 · 回复权重 +34
+
+依据回复：[#17933632](https://www.v2ex.com/t/1231811#reply17933632)、[#17934382](https://www.v2ex.com/t/1231811#reply17934382)、[#17934568](https://www.v2ex.com/t/1231811#reply17934568)、[#17933279](https://www.v2ex.com/t/1231811#reply17933279)、[#17933574](https://www.v2ex.com/t/1231811#reply17933574)、[#17934035](https://www.v2ex.com/t/1231811#reply17934035)
 
 </details>
 
-### 11. [入门 3d 打印前调研](https://www.v2ex.com/t/1231819)
+### 13. [有没有推荐的车载香氛,香片,香包之类的？](https://www.v2ex.com/t/1231610)
 
-**75/100** · 经验与教程 · 问与答 · 13 回复 · 2 收藏
+**综合分 97** · 生活与消费 · 生活 · 29 回复 · 7 收藏
 
-用户预算3000内入门3D打印，纠结创想K2与拓竹。多数回复认为拓竹更省心，推荐P1S combo，并提醒按封箱、尺寸、多色等需求选型，同时强调建模能力决定打印机利用率。
+用户求推荐淡雅不刺鼻的车载香氛。回复推荐了朗龙、MUJI扩香石、蜂花檀香皂、宜家干花香包、网易严选等产品，并讨论了香味持久度、性价比及暴晒后挥发快的问题。
 
 **核心信息**
 
-- 拓竹对小白更友好，封闭系统；创想更开放但更折腾。
-- 拓竹P1S combo活动价不到3k，不要买A系列（不带封箱）。
-- 选型需考虑封箱、尺寸、多色（AMS）、主动仓温等需求。
-- 建模能力很重要，不会建模容易吃灰。
-- 3D打印圈子对拓竹有争议，需理性看待。
+- 蜂花檀香皂可多块放置车内，性价比高且持久。
+- 宜家干花香包不拆包装，可保持约两个月。
+- 车载香薰暴晒后易挥发，需注意更换频率。
+- 朗龙香味淡雅但价格偏高，可先试闻装。
+- 偏好清淡可选MUJI扩香石配舒缓精油或山姆海盐鼠尾草。
 
 <details class="analysis-evidence" markdown="1">
 <summary>评分详情与内容依据</summary>
 
-依据回复：[#17933174](https://www.v2ex.com/t/1231819#reply17933174)、[#17933832](https://www.v2ex.com/t/1231819#reply17933832)、[#17933899](https://www.v2ex.com/t/1231819#reply17933899)、[#17933961](https://www.v2ex.com/t/1231819#reply17933961)、[#17933965](https://www.v2ex.com/t/1231819#reply17933965)、[#17933704](https://www.v2ex.com/t/1231819#reply17933704)、[#17933209](https://www.v2ex.com/t/1231819#reply17933209)
+评分构成：内容基础分 68 · 回复权重 +29
+
+依据回复：[#17929428](https://www.v2ex.com/t/1231610#reply17929428)、[#17929447](https://www.v2ex.com/t/1231610#reply17929447)、[#17929637](https://www.v2ex.com/t/1231610#reply17929637)、[#17929712](https://www.v2ex.com/t/1231610#reply17929712)、[#17929856](https://www.v2ex.com/t/1231610#reply17929856)、[#17930904](https://www.v2ex.com/t/1231610#reply17930904)、[#17930943](https://www.v2ex.com/t/1231610#reply17930943)
 
 </details>
 
-### 12. [kimi k3 不怎么适合业务开发啊, 太慢了. 接入了 superpowers 更是慢上加慢!简单 crud 页面动辄也是 30 分钟起步.](https://www.v2ex.com/t/1231813)
+### 14. [codex 被封号了， 1 个苹果账号可以绑多个 openai 吗？不想切苹果账号注册新的。](https://www.v2ex.com/t/1231781)
 
-**75/100** · AI与开发 · 问与答 · 9 回复
+**综合分 95** · 经验与教程 · OpenAI · 15 回复
 
-用户反馈kimi k3在CRUD开发中速度慢，即使使用subagent流程也耗时较长。回复中给出优化建议：用快速模型如deepseek处理设计开发，k3仅做review；或放弃superpowers只保留AGENT.md；并提及kimi质量好但负载差。
+讨论OpenAI封号及苹果账号绑定限制，用户经验：Apple ID与OpenAI长期绑定难解绑，但手机号可绑定约3个账号；封号与IP切换有关，退款政策趋严。
 
 **核心信息**
 
-- subagent开发可用deepseek flash等快速模型，k3最终审查效率更高。
-- 设计文档可交给deepseek开发，k3只做review可大幅提速。
-- superpowers可能拖慢速度，尝试只用AGENT.md工作流。
-- kimi速度慢但生成质量不错，适合做复杂任务的审查。
-- 可用探针监控Kimi等AI服务的网络负载，选时使用。
+- Apple ID与OpenAI账号绑定是长期的，不能随意解绑或更换。
+- 一个手机号可以绑定多个OpenAI账号（约3个）。
+- 封号可能与IP地址频繁切换有关，且存在随机性。
+- 新注册账号时可用原手机号验证，可能不冲突。
+- 退款政策收紧，第一次可能成功，后续拒绝。
 
 <details class="analysis-evidence" markdown="1">
 <summary>评分详情与内容依据</summary>
 
-依据回复：[#17933144](https://www.v2ex.com/t/1231813#reply17933144)、[#17933163](https://www.v2ex.com/t/1231813#reply17933163)、[#17933337](https://www.v2ex.com/t/1231813#reply17933337)、[#17933352](https://www.v2ex.com/t/1231813#reply17933352)、[#17933298](https://www.v2ex.com/t/1231813#reply17933298)、[#17933888](https://www.v2ex.com/t/1231813#reply17933888)
+评分构成：内容基础分 80 · 回复权重 +15
+
+依据回复：[#17932285](https://www.v2ex.com/t/1231781#reply17932285)、[#17932960](https://www.v2ex.com/t/1231781#reply17932960)、[#17933048](https://www.v2ex.com/t/1231781#reply17933048)、[#17933442](https://www.v2ex.com/t/1231781#reply17933442)、[#17933986](https://www.v2ex.com/t/1231781#reply17933986)、[#17932994](https://www.v2ex.com/t/1231781#reply17932994)、[#17932286](https://www.v2ex.com/t/1231781#reply17932286)、[#17932748](https://www.v2ex.com/t/1231781#reply17932748)
 
 </details>
 
-### 13. [iOS 26.6 WLOC 改定位还有效吗？](https://www.v2ex.com/t/1231837)
+### 15. [有什么双肩包请推荐一个](https://www.v2ex.com/t/1231672)
 
-**75/100** · 经验与教程 · iOS · 14 回复 · 3 收藏
+**综合分 93** · 生活与消费 · 生活 · 28 回复 · 9 收藏
+
+楼主求推荐通勤双肩包，要求装15寸笔记本和键盘、防水、有隔断、侧袋拉链。回复集中推荐小鹰日光/星云32L、TUMI Alpha、Elecom、格里高利等，用户建议隔断可单独收纳，另有低价仿品试用建议。
+
+**核心信息**
+
+- 小鹰星云32L被推荐且获户外装备网站好评
+- 背包隔断需求可用独立收纳包实现
+- TUMI Alpha耐用但价格较高
+- Elecom相机包轻便隔断多，但装键盘可能吃力
+- 预算有限可先买仿品试用，但需注意质量
+
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
+
+评分构成：内容基础分 65 · 回复权重 +28
+
+依据回复：[#17931996](https://www.v2ex.com/t/1231672#reply17931996)、[#17932033](https://www.v2ex.com/t/1231672#reply17932033)、[#17932224](https://www.v2ex.com/t/1231672#reply17932224)、[#17932471](https://www.v2ex.com/t/1231672#reply17932471)、[#17932736](https://www.v2ex.com/t/1231672#reply17932736)、[#17932686](https://www.v2ex.com/t/1231672#reply17932686)、[#17932408](https://www.v2ex.com/t/1231672#reply17932408)、[#17931944](https://www.v2ex.com/t/1231672#reply17931944)
+
+</details>
+
+### 16. [iOS 26.6 WLOC 改定位还有效吗？](https://www.v2ex.com/t/1231837)
+
+**综合分 89** · 经验与教程 · iOS · 14 回复 · 3 收藏
 
 用户询问iOS 26.6下WLOC改定位是否有效，众多回复确认有效，并分享关键操作流程：保存位置后开飞行模式、关定位重启，再开代理和定位。
 
@@ -282,110 +398,15 @@ data_url: "/data/2026-08-03.json"
 <details class="analysis-evidence" markdown="1">
 <summary>评分详情与内容依据</summary>
 
+评分构成：内容基础分 75 · 回复权重 +14
+
 依据回复：[#17933711](https://www.v2ex.com/t/1231837#reply17933711)、[#17934763](https://www.v2ex.com/t/1231837#reply17934763)、[#17935663](https://www.v2ex.com/t/1231837#reply17935663)、[#17934433](https://www.v2ex.com/t/1231837#reply17934433)、[#17934583](https://www.v2ex.com/t/1231837#reply17934583)
 
 </details>
 
-### 14. [分享一个还在 RC 阶段的项目：把 C 编译成不依赖 cgo 的 Go package](https://www.v2ex.com/t/1231606)
+### 17. [试着把写了 N 年的私人日记喂给 ai...](https://www.v2ex.com/t/1231818)
 
-**75/100** · 工具与项目 · Go 编程语言 · 7 回复 · 7 收藏
-
-作者分享C2Go Toolchain，一个基于Clang/LLVM将C源码编译为纯Go package的工具，不依赖cgo，支持CGO_ENABLED=0构建。当前为RC版本，支持多平台，强调栈指针逃逸审计限制，征求反馈。
-
-**核心信息**
-
-- C2Go基于Clang/LLVM，将C源码编译为.go+.s文件，最终Go包构建时无需cgo或C编译器。
-- 项目区分managed与unmanaged数据，通过扩展描述类型和所有权，以应对Go runtime内存模型。
-- 当前限制包括不支持C++、VLA、动态alloca，仅支持64位目标。
-- 作者强调必须进行全程序逃逸审计，因为C栈局部变量地址不会自动提升到Go堆。
-- 开源协议混合：c2go-clang采用Apache-2.0，c2go-bind采用AGPL-3.0，libc含多种来源。
-
-<details class="analysis-evidence" markdown="1">
-<summary>评分详情与内容依据</summary>
-
-依据回复：[#17929679](https://www.v2ex.com/t/1231606#reply17929679)、[#17930219](https://www.v2ex.com/t/1231606#reply17930219)
-
-</details>
-
-### 15. [泰国已去已回，随意记录些印象深刻的点](https://www.v2ex.com/t/1231773)
-
-**75/100** · 经验与教程 · 旅行 · 6 回复 · 5 收藏
-
-作者分享泰国旅行实用经验，涵盖机票、打车、酒店、一日游、美食、马杀鸡等细节，提及省钱技巧与避坑点，对计划赴泰游客有参考价值。
-
-**核心信息**
-
-- 狮航便宜但取消率高，行李查得松
-- 携程接机可能比打车便宜，高德打车优于Grab/Bolt
-- 支付宝和现金覆盖大部分场景，无需Visa卡
-- 普吉岛打车贵，卡塔冲浪1000泰铢/小时值得体验
-- Google Map高分马杀鸡基本不踩雷，美食推荐需谨慎
-
-<details class="analysis-evidence" markdown="1">
-<summary>评分详情与内容依据</summary>
-
-依据回复：[#17932409](https://www.v2ex.com/t/1231773#reply17932409)、[#17932552](https://www.v2ex.com/t/1231773#reply17932552)
-
-</details>
-
-### 16. [Immich 有什么替代品吗？](https://www.v2ex.com/t/1231778)
-
-**72/100** · 工具与项目 · 程序员 · 8 回复
-
-用户询问Immich替代品，认为其内存要求高且不支持Podman。回复中多位用户分享实际内存占用经验，指出通常低于官方6GB建议，并推荐PhotoPrism、MT Photos等替代方案。
-
-**核心信息**
-
-- Immich官方建议至少6GB内存，但实际运行可能仅需2GB左右，可禁用机器学习降低占用。
-- Immich可通过Rootful Podman配合Docker Compose兼容运行。
-- 替代品包括PhotoPrism（开源）和MT Photos（闭源付费）。
-- 部署前可先在Docker中实测资源占用，避免仅凭官方要求判断。
-
-<details class="analysis-evidence" markdown="1">
-<summary>评分详情与内容依据</summary>
-
-依据回复：[#17932839](https://www.v2ex.com/t/1231778#reply17932839)、[#17933311](https://www.v2ex.com/t/1231778#reply17933311)、[#17933827](https://www.v2ex.com/t/1231778#reply17933827)、[#17933916](https://www.v2ex.com/t/1231778#reply17933916)、[#17934321](https://www.v2ex.com/t/1231778#reply17934321)、[#17934590](https://www.v2ex.com/t/1231778#reply17934590)
-
-</details>
-
-### 17. [关于我用 deepseek -v4-flash 画了几张图...](https://www.v2ex.com/t/1231802)
-
-**72/100** · 经验与教程 · 分享发现 · 11 回复 · 6 收藏
-
-作者利用DeepSeek v4-Flash将名画转换为矢量笔触画，通过分析图像纹路方向、撒点绘制彩色短线，生成印象派、素描等风格的SVG图。文章介绍了原理、成本及调试体验，适合对AI结合图像编程感兴趣的读者参考。
-
-**核心信息**
-
-- 笔触画生成原理：计算像素局部纹路方向，沿方向绘制彩色短线，叠加形成画面。
-- 该方法本质是Python脚本实现，不依赖特定AI模型，其他模型也可完成。
-- 印象派及油画风格效果较好，水墨风格需更多调试和算法优化。
-- 生成速度极快（几秒），但算法调试和风格优化耗时长。
-- 将文章描述粘贴给AI可快速复现类似效果，降低上手门槛。
-
-<details class="analysis-evidence" markdown="1">
-<summary>评分详情与内容依据</summary>
-
-依据回复：[#17935022](https://www.v2ex.com/t/1231802#reply17935022)、[#17935404](https://www.v2ex.com/t/1231802#reply17935404)、[#17933177](https://www.v2ex.com/t/1231802#reply17933177)、[#17933255](https://www.v2ex.com/t/1231802#reply17933255)、[#17932886](https://www.v2ex.com/t/1231802#reply17932886)
-
-</details>
-
-### 18. [[分享创造] Panerelay 0.5.0：让 agent-browser / Browser Use / Playwright CLI 直接使用日常 Chrome](https://www.v2ex.com/t/1231859)
-
-**72/100** · 工具与项目 · 分享创造 · 0 回复 · 2 收藏
-
-Panerelay 0.5.0 开源工具，让 agent-browser、Browser Use、Playwright CLI 复用日常 Chrome 的登录状态和标签页，仅暴露授权内容，本地运行。
-
-**核心信息**
-
-- 支持 agent-browser、Browser Use、Playwright CLI 三种自动化工具。
-- 复用现有 Chrome 登录状态，不导出 Cookie，安全性更好。
-- 仅暴露扩展中明确授权的标签页，隔离权限。
-- 后台工作不切换当前标签页，体验更友好。
-- MIT 开源，可本地部署，通过 npx skills add 安装。
-
-### 19. [试着把写了 N 年的私人日记喂给 ai...](https://www.v2ex.com/t/1231818)
-
-**70/100** · AI与开发 · 分享发现 · 18 回复 · 1 收藏
+**综合分 88** · AI与开发 · 分享发现 · 18 回复 · 1 收藏
 
 作者将多年私人日记喂给AI，AI深度分析其性格、习惯并给出未来发展建议，作者感到震撼。回复中用户分享类似经历，并提供了具体操作方法（如ChatGPT Projects组织日记、用Codex读取文件），同时提醒隐私风险。
 
@@ -400,34 +421,38 @@ Panerelay 0.5.0 开源工具，让 agent-browser、Browser Use、Playwright CLI 
 <details class="analysis-evidence" markdown="1">
 <summary>评分详情与内容依据</summary>
 
+评分构成：内容基础分 70 · 回复权重 +18
+
 依据回复：[#17933185](https://www.v2ex.com/t/1231818#reply17933185)、[#17933453](https://www.v2ex.com/t/1231818#reply17933453)、[#17933498](https://www.v2ex.com/t/1231818#reply17933498)、[#17933546](https://www.v2ex.com/t/1231818#reply17933546)、[#17933551](https://www.v2ex.com/t/1231818#reply17933551)、[#17933641](https://www.v2ex.com/t/1231818#reply17933641)、[#17933678](https://www.v2ex.com/t/1231818#reply17933678)、[#17936444](https://www.v2ex.com/t/1231818#reply17936444)
 
 </details>
 
-### 20. [用 Rust 从零写了个跨平台文件管理器 tessoa， UI 全自绘，现在开放内测！](https://www.v2ex.com/t/1231761)
+### 18. [入门 3d 打印前调研](https://www.v2ex.com/t/1231819)
 
-**70/100** · 工具与项目 · 分享创造 · 12 回复 · 9 收藏
+**综合分 88** · 经验与教程 · 问与答 · 13 回复 · 2 收藏
 
-作者用Rust从零开发跨平台文件管理器tessoa，全自绘UI，无Electron/WebView，支持Win/macOS/Linux。开放内测，免费版可下载。回复反馈了macOS白屏、Linux软链接识别等问题，作者已定位并发布修复版，整体完成度较高。
+用户预算3000内入门3D打印，纠结创想K2与拓竹。多数回复认为拓竹更省心，推荐P1S combo，并提醒按封箱、尺寸、多色等需求选型，同时强调建模能力决定打印机利用率。
 
 **核心信息**
 
-- 跨平台文件管理器tessoa用Rust自绘UI，单可执行文件免安装
-- macOS白屏根因是wgpu首帧渲染时机问题，已修复
-- Linux软链接识别错误已定位，下个版本修复
-- 内存200MB与渲染管线映射有关，仍有优化空间
-- 支持单击/双击模式设置等用户需求，开发中
+- 拓竹对小白更友好，封闭系统；创想更开放但更折腾。
+- 拓竹P1S combo活动价不到3k，不要买A系列（不带封箱）。
+- 选型需考虑封箱、尺寸、多色（AMS）、主动仓温等需求。
+- 建模能力很重要，不会建模容易吃灰。
+- 3D打印圈子对拓竹有争议，需理性看待。
 
 <details class="analysis-evidence" markdown="1">
 <summary>评分详情与内容依据</summary>
 
-依据回复：[#17931902](https://www.v2ex.com/t/1231761#reply17931902)、[#17931951](https://www.v2ex.com/t/1231761#reply17931951)、[#17932068](https://www.v2ex.com/t/1231761#reply17932068)、[#17932130](https://www.v2ex.com/t/1231761#reply17932130)、[#17933161](https://www.v2ex.com/t/1231761#reply17933161)、[#17933225](https://www.v2ex.com/t/1231761#reply17933225)、[#17933238](https://www.v2ex.com/t/1231761#reply17933238)
+评分构成：内容基础分 75 · 回复权重 +13
+
+依据回复：[#17933174](https://www.v2ex.com/t/1231819#reply17933174)、[#17933832](https://www.v2ex.com/t/1231819#reply17933832)、[#17933899](https://www.v2ex.com/t/1231819#reply17933899)、[#17933961](https://www.v2ex.com/t/1231819#reply17933961)、[#17933965](https://www.v2ex.com/t/1231819#reply17933965)、[#17933704](https://www.v2ex.com/t/1231819#reply17933704)、[#17933209](https://www.v2ex.com/t/1231819#reply17933209)
 
 </details>
 
-### 21. [国家超算平台新出的 Token Plan 怎么样？ 对比 opencode go 如何？](https://www.v2ex.com/t/1231608)
+### 19. [国家超算平台新出的 Token Plan 怎么样？ 对比 opencode go 如何？](https://www.v2ex.com/t/1231608)
 
-**70/100** · 工具与项目 · 问与答 · 18 回复 · 1 收藏
+**综合分 88** · 工具与项目 · 问与答 · 18 回复 · 1 收藏
 
 用户询问国家超算平台Token Plan价值。回复显示其价格偏高，如GLM-5.2无缓存约6.86元/1M，远贵于同类；有实际体验者抱怨模型能力不足，建议避雷。网友推测该平台主要面向政企采购，个人使用性价比低。
 
@@ -446,13 +471,111 @@ Panerelay 0.5.0 开源工具，让 agent-browser、Browser Use、Playwright CLI 
 <details class="analysis-evidence" markdown="1">
 <summary>评分详情与内容依据</summary>
 
+评分构成：内容基础分 70 · 回复权重 +18
+
 依据回复：[#17929777](https://www.v2ex.com/t/1231608#reply17929777)、[#17929575](https://www.v2ex.com/t/1231608#reply17929575)、[#17929796](https://www.v2ex.com/t/1231608#reply17929796)、[#17931171](https://www.v2ex.com/t/1231608#reply17931171)、[#17931204](https://www.v2ex.com/t/1231608#reply17931204)、[#17933946](https://www.v2ex.com/t/1231608#reply17933946)
 
 </details>
 
-### 22. [有没有广州老铁推荐一下附近的宝藏小店](https://www.v2ex.com/t/1231719)
+### 20. [请问 claude 能注册吗](https://www.v2ex.com/t/1231801)
 
-**70/100** · 生活与消费 · 广州 · 14 回复 · 2 收藏
+**综合分 87** · AI与开发 · Claude · 2 回复
+
+用户询问Claude注册及用AI将Chrome插件从MV2迁移到MV3的方法。回复提供了一份详细、分阶段的迁移提示词，涵盖数据库抽象、Service Worker改造、权限更新及验证流程，具有较强可复用性。
+
+**核心信息**
+
+- 用AI迁移Chrome扩展时，应要求其先生成审计文档，而非直接全量替换。
+- 迁移需分阶段：先抽象数据库层，再改Service Worker，最后更新manifest。
+- MV3迁移需注意Service Worker生命周期，避免依赖长驻全局变量或定时器。
+- 数据迁移必须幂等、可中断恢复，并保留旧数据直至新数据验证成功。
+- 使用AI时给出具体角色、步骤和验证要求，可显著提升迁移成功率。
+
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
+
+评分构成：内容基础分 85 · 回复权重 +2
+
+依据回复：[#17932790](https://www.v2ex.com/t/1231801#reply17932790)
+
+</details>
+
+### 21. [用起来比较舒服的 Linux 桌面 Niri+DankMaterialShell](https://www.v2ex.com/t/1231845)
+
+**综合分 86** · 工具与项目 · Linux · 11 回复 · 1 收藏
+
+用户分享从i3wm切换至Niri+DankMaterialShell的体验，认为更整体更现代，钉钉表现改善。回复讨论Niri、Noctalia、Ironbar等组合，以及XWayland适配、缩放等常见问题。
+
+**核心信息**
+
+- Niri平铺式桌面获得多位用户认可，但XWayland兼容性仍是常见痛点。
+- 部分用户因缩放和XWayland问题回归GNOME+PaperWM或KDE Plasma。
+- Niri可搭配Noctalia、Ironbar或DankMaterialShell，风格取舍因人而异。
+- 使用Codex等AI工具辅助排查Linux桌面问题成为新趋势。
+- Labwc作为堆叠式WM替代方案，适合不喜欢平铺的用户。
+
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
+
+评分构成：内容基础分 75 · 回复权重 +11
+
+依据回复：[#17933597](https://www.v2ex.com/t/1231845#reply17933597)、[#17933600](https://www.v2ex.com/t/1231845#reply17933600)、[#17933735](https://www.v2ex.com/t/1231845#reply17933735)、[#17933850](https://www.v2ex.com/t/1231845#reply17933850)、[#17935806](https://www.v2ex.com/t/1231845#reply17935806)、[#17936128](https://www.v2ex.com/t/1231845#reply17936128)、[#17933913](https://www.v2ex.com/t/1231845#reply17933913)、[#17933753](https://www.v2ex.com/t/1231845#reply17933753)
+
+</details>
+
+### 22. [关于发现 NAS 好像不是自己理想中的照片备份方案，现在想改成移动硬盘，有搞头吗？](https://www.v2ex.com/t/1231772)
+
+**综合分 85** · 经验与教程 · NAS · 20 回复 · 2 收藏
+
+用户讨论将NAS照片备份改为移动硬盘的可行性，回复中涉及移动硬盘可靠性、备份策略、NAS休眠等经验，整体具有参考价值，但部分回复存在争论。
+
+**核心信息**
+
+- 移动硬盘USB接口不如SATA稳定，机械盘怕震动，固态可能烧盘
+- 多副本备份（NAS+网盘+移动硬盘）是保障数据安全的好做法
+- 冷备硬盘即使使用频率低也可能损坏，需定期检查更换
+- NAS休眠不现实，应最大化利用而非过于省电
+- 重要数据可考虑RAID1或增加冷备盘来提升可靠性
+
+**注意事项**
+
+- 争议性
+
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
+
+评分构成：内容基础分 65 · 回复权重 +20
+
+依据回复：[#17932235](https://www.v2ex.com/t/1231772#reply17932235)、[#17932688](https://www.v2ex.com/t/1231772#reply17932688)、[#17932746](https://www.v2ex.com/t/1231772#reply17932746)、[#17933658](https://www.v2ex.com/t/1231772#reply17933658)、[#17934969](https://www.v2ex.com/t/1231772#reply17934969)、[#17934148](https://www.v2ex.com/t/1231772#reply17934148)
+
+</details>
+
+### 23. [kimi k3 不怎么适合业务开发啊, 太慢了. 接入了 superpowers 更是慢上加慢!简单 crud 页面动辄也是 30 分钟起步.](https://www.v2ex.com/t/1231813)
+
+**综合分 84** · AI与开发 · 问与答 · 9 回复
+
+用户反馈kimi k3在CRUD开发中速度慢，即使使用subagent流程也耗时较长。回复中给出优化建议：用快速模型如deepseek处理设计开发，k3仅做review；或放弃superpowers只保留AGENT.md；并提及kimi质量好但负载差。
+
+**核心信息**
+
+- subagent开发可用deepseek flash等快速模型，k3最终审查效率更高。
+- 设计文档可交给deepseek开发，k3只做review可大幅提速。
+- superpowers可能拖慢速度，尝试只用AGENT.md工作流。
+- kimi速度慢但生成质量不错，适合做复杂任务的审查。
+- 可用探针监控Kimi等AI服务的网络负载，选时使用。
+
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
+
+评分构成：内容基础分 75 · 回复权重 +9
+
+依据回复：[#17933144](https://www.v2ex.com/t/1231813#reply17933144)、[#17933163](https://www.v2ex.com/t/1231813#reply17933163)、[#17933337](https://www.v2ex.com/t/1231813#reply17933337)、[#17933352](https://www.v2ex.com/t/1231813#reply17933352)、[#17933298](https://www.v2ex.com/t/1231813#reply17933298)、[#17933888](https://www.v2ex.com/t/1231813#reply17933888)
+
+</details>
+
+### 24. [有没有广州老铁推荐一下附近的宝藏小店](https://www.v2ex.com/t/1231719)
+
+**综合分 84** · 生活与消费 · 广州 · 14 回复 · 2 收藏
 
 用户询问广州宝藏小店，多位广州网友推荐了具体餐厅和美食，包括瑞记饭庄、惠食佳、文记壹心鸡、专二港式奶茶等，也有猎奇选项如龙虱，适合游客参考。
 
@@ -467,13 +590,150 @@ Panerelay 0.5.0 开源工具，让 agent-browser、Browser Use、Playwright CLI 
 <details class="analysis-evidence" markdown="1">
 <summary>评分详情与内容依据</summary>
 
+评分构成：内容基础分 70 · 回复权重 +14
+
 依据回复：[#17931244](https://www.v2ex.com/t/1231719#reply17931244)、[#17932329](https://www.v2ex.com/t/1231719#reply17932329)、[#17933218](https://www.v2ex.com/t/1231719#reply17933218)、[#17932912](https://www.v2ex.com/t/1231719#reply17932912)、[#17931331](https://www.v2ex.com/t/1231719#reply17931331)
 
 </details>
 
-### 23. [大佬们求教 iPhone 有安全稳定微信双开的方案吗](https://www.v2ex.com/t/1231774)
+### 25. [关于我用 deepseek -v4-flash 画了几张图...](https://www.v2ex.com/t/1231802)
 
-**70/100** · 经验与教程 · 问与答 · 8 回复
+**综合分 83** · 经验与教程 · 分享发现 · 11 回复 · 6 收藏
+
+作者利用DeepSeek v4-Flash将名画转换为矢量笔触画，通过分析图像纹路方向、撒点绘制彩色短线，生成印象派、素描等风格的SVG图。文章介绍了原理、成本及调试体验，适合对AI结合图像编程感兴趣的读者参考。
+
+**核心信息**
+
+- 笔触画生成原理：计算像素局部纹路方向，沿方向绘制彩色短线，叠加形成画面。
+- 该方法本质是Python脚本实现，不依赖特定AI模型，其他模型也可完成。
+- 印象派及油画风格效果较好，水墨风格需更多调试和算法优化。
+- 生成速度极快（几秒），但算法调试和风格优化耗时长。
+- 将文章描述粘贴给AI可快速复现类似效果，降低上手门槛。
+
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
+
+评分构成：内容基础分 72 · 回复权重 +11
+
+依据回复：[#17935022](https://www.v2ex.com/t/1231802#reply17935022)、[#17935404](https://www.v2ex.com/t/1231802#reply17935404)、[#17933177](https://www.v2ex.com/t/1231802#reply17933177)、[#17933255](https://www.v2ex.com/t/1231802#reply17933255)、[#17932886](https://www.v2ex.com/t/1231802#reply17932886)
+
+</details>
+
+### 26. [用 Rust 从零写了个跨平台文件管理器 tessoa， UI 全自绘，现在开放内测！](https://www.v2ex.com/t/1231761)
+
+**综合分 82** · 工具与项目 · 分享创造 · 12 回复 · 9 收藏
+
+作者用Rust从零开发跨平台文件管理器tessoa，全自绘UI，无Electron/WebView，支持Win/macOS/Linux。开放内测，免费版可下载。回复反馈了macOS白屏、Linux软链接识别等问题，作者已定位并发布修复版，整体完成度较高。
+
+**核心信息**
+
+- 跨平台文件管理器tessoa用Rust自绘UI，单可执行文件免安装
+- macOS白屏根因是wgpu首帧渲染时机问题，已修复
+- Linux软链接识别错误已定位，下个版本修复
+- 内存200MB与渲染管线映射有关，仍有优化空间
+- 支持单击/双击模式设置等用户需求，开发中
+
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
+
+评分构成：内容基础分 70 · 回复权重 +12
+
+依据回复：[#17931902](https://www.v2ex.com/t/1231761#reply17931902)、[#17931951](https://www.v2ex.com/t/1231761#reply17931951)、[#17932068](https://www.v2ex.com/t/1231761#reply17932068)、[#17932130](https://www.v2ex.com/t/1231761#reply17932130)、[#17933161](https://www.v2ex.com/t/1231761#reply17933161)、[#17933225](https://www.v2ex.com/t/1231761#reply17933225)、[#17933238](https://www.v2ex.com/t/1231761#reply17933238)
+
+</details>
+
+### 27. [分享一个还在 RC 阶段的项目：把 C 编译成不依赖 cgo 的 Go package](https://www.v2ex.com/t/1231606)
+
+**综合分 82** · 工具与项目 · Go 编程语言 · 7 回复 · 7 收藏
+
+作者分享C2Go Toolchain，一个基于Clang/LLVM将C源码编译为纯Go package的工具，不依赖cgo，支持CGO_ENABLED=0构建。当前为RC版本，支持多平台，强调栈指针逃逸审计限制，征求反馈。
+
+**核心信息**
+
+- C2Go基于Clang/LLVM，将C源码编译为.go+.s文件，最终Go包构建时无需cgo或C编译器。
+- 项目区分managed与unmanaged数据，通过扩展描述类型和所有权，以应对Go runtime内存模型。
+- 当前限制包括不支持C++、VLA、动态alloca，仅支持64位目标。
+- 作者强调必须进行全程序逃逸审计，因为C栈局部变量地址不会自动提升到Go堆。
+- 开源协议混合：c2go-clang采用Apache-2.0，c2go-bind采用AGPL-3.0，libc含多种来源。
+
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
+
+评分构成：内容基础分 75 · 回复权重 +7
+
+依据回复：[#17929679](https://www.v2ex.com/t/1231606#reply17929679)、[#17930219](https://www.v2ex.com/t/1231606#reply17930219)
+
+</details>
+
+### 28. [泰国已去已回，随意记录些印象深刻的点](https://www.v2ex.com/t/1231773)
+
+**综合分 81** · 经验与教程 · 旅行 · 6 回复 · 5 收藏
+
+作者分享泰国旅行实用经验，涵盖机票、打车、酒店、一日游、美食、马杀鸡等细节，提及省钱技巧与避坑点，对计划赴泰游客有参考价值。
+
+**核心信息**
+
+- 狮航便宜但取消率高，行李查得松
+- 携程接机可能比打车便宜，高德打车优于Grab/Bolt
+- 支付宝和现金覆盖大部分场景，无需Visa卡
+- 普吉岛打车贵，卡塔冲浪1000泰铢/小时值得体验
+- Google Map高分马杀鸡基本不踩雷，美食推荐需谨慎
+
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
+
+评分构成：内容基础分 75 · 回复权重 +6
+
+依据回复：[#17932409](https://www.v2ex.com/t/1231773#reply17932409)、[#17932552](https://www.v2ex.com/t/1231773#reply17932552)
+
+</details>
+
+### 29. [Immich 有什么替代品吗？](https://www.v2ex.com/t/1231778)
+
+**综合分 80** · 工具与项目 · 程序员 · 8 回复
+
+用户询问Immich替代品，认为其内存要求高且不支持Podman。回复中多位用户分享实际内存占用经验，指出通常低于官方6GB建议，并推荐PhotoPrism、MT Photos等替代方案。
+
+**核心信息**
+
+- Immich官方建议至少6GB内存，但实际运行可能仅需2GB左右，可禁用机器学习降低占用。
+- Immich可通过Rootful Podman配合Docker Compose兼容运行。
+- 替代品包括PhotoPrism（开源）和MT Photos（闭源付费）。
+- 部署前可先在Docker中实测资源占用，避免仅凭官方要求判断。
+
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
+
+评分构成：内容基础分 72 · 回复权重 +8
+
+依据回复：[#17932839](https://www.v2ex.com/t/1231778#reply17932839)、[#17933311](https://www.v2ex.com/t/1231778#reply17933311)、[#17933827](https://www.v2ex.com/t/1231778#reply17933827)、[#17933916](https://www.v2ex.com/t/1231778#reply17933916)、[#17934321](https://www.v2ex.com/t/1231778#reply17934321)、[#17934590](https://www.v2ex.com/t/1231778#reply17934590)
+
+</details>
+
+### 30. [当 agent 说"我做完了" —— 四个从翻车里长出来的 Claude Code skill](https://www.v2ex.com/t/1231702)
+
+**综合分 80** · AI与开发 · 人工智能 · 0 回复 · 1 收藏
+
+作者分享四个源于实践翻车经验的Claude Code技能：false-green通过变异测试防止虚假单测，delegating-to-agents强化子代理审查，concurrent-worktrees解决多Agent并行冲突，batch-closeout优化批量验收。技能已开源，适用于多种AI编码代理。
+
+**核心信息**
+
+- false-green通过变异测试确保单测真正有效，避免假绿。
+- delegating-to-agents要求主代理核实子代理报告，避免盲信。
+- concurrent-worktrees利用Git Worktree支持多Agent安全并行开发。
+- batch-closeout延后同类验收，批量收尾提升效率且不降质量。
+- 这些技能已开源，可配合Matt Pocock Skills使用。
+
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
+
+评分构成：内容基础分 90 · 回复权重 -10
+
+</details>
+
+### 31. [大佬们求教 iPhone 有安全稳定微信双开的方案吗](https://www.v2ex.com/t/1231774)
+
+**综合分 78** · 经验与教程 · 问与答 · 8 回复
 
 讨论iPhone上微信双开的方案，反馈包括淘宝分身、个人开发者证书签名砸壳包、TestFlight等，建议注重账号权重与KYC，或双持/安卓最稳。
 
@@ -492,55 +752,133 @@ Panerelay 0.5.0 开源工具，让 agent-browser、Browser Use、Playwright CLI 
 <details class="analysis-evidence" markdown="1">
 <summary>评分详情与内容依据</summary>
 
+评分构成：内容基础分 70 · 回复权重 +8
+
 依据回复：[#17932845](https://www.v2ex.com/t/1231774#reply17932845)、[#17932589](https://www.v2ex.com/t/1231774#reply17932589)、[#17932927](https://www.v2ex.com/t/1231774#reply17932927)、[#17932513](https://www.v2ex.com/t/1231774#reply17932513)、[#17932348](https://www.v2ex.com/t/1231774#reply17932348)
 
 </details>
 
-### 24. [给 Codex 做了个自动选模型的 Skill，顺手加了并发调度](https://www.v2ex.com/t/1231691)
+### 32. [用了半天 gpt5.6-luna-max，感觉效果也还可以](https://www.v2ex.com/t/1231835)
 
-**70/100** · AI与开发 · 分享创造 · 0 回复 · 3 收藏
+**综合分 77** · AI与开发 · 程序员 · 12 回复
 
-作者针对Codex手动切模型繁琐问题，创建自动路由Skill，依据任务依赖拆分并发，按难度选模型，并分享Luna各版本与Sol成本性能对比。
-
-**核心信息**
-
-- Luna High正确率比Low高19.2个百分点，成本仅略增。
-- Luna Max性能与Sol Medium相当，成本约五分之一。
-- 机械任务避免用Luna Low，可用Medium或High。
-- 复杂任务用Sol High，普通任务用Luna High。
-- 任务依赖分析可安全并发，共享资源串行。
-
-### 25. [做了一个浏览器插件，用来查看 Web 技术使用情况](https://www.v2ex.com/t/1231713)
-
-**70/100** · 工具与项目 · 分享创造 · 0 回复 · 1 收藏
-
-作者发布了一款名为 Web Technology Inspector 的 Chrome 扩展，用于检测网站实际使用的 Web 技术，如 HTTP 版本、CDN、WebSocket、WebAssembly、Security headers 等，与 Wappalyzer 不同，不识别框架而关注平台能力，并强调隐私保护。
+用户分享gpt-5.6-luna-max半天使用体验，认为价格便宜、智商不错，但token用量翻倍、速度慢。回复中多人认可其性价比，也有用户对比其他模型。
 
 **核心信息**
 
-- 该扩展可检测 HTTP/2/3、HTTPS、CDN、Web Server、压缩方式及 Security headers 等网络技术。
-- 支持检测 WebSocket、WebTransport、SSE、prefetch、modulepreload 等现代网络特性。
-- 能识别 Open Graph、Theme Color、iOS App 等 meta 标签信息。
-- 可检测 WebAssembly、Service Worker、WebGL、WebGPU、WebRTC 等浏览器 API。
-- 插件不上传页面内容、不保存 Cookie/IP，仅抓取有限 metadata，隐私友好。
+- gpt-5.6-luna-max价格便宜，约sol的10%
+- token用量较高，速度慢
+- 适合成本敏感场景
+- 与DSV4Flash等模型对比存在不同选择
+- 复杂任务可能不够好
 
-### 26. [captain-miao: 管理多个 Coding Agent Sessions 的 TUI 面板](https://www.v2ex.com/t/1231673)
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
 
-**70/100** · 工具与项目 · 分享创造 · 0 回复
+评分构成：内容基础分 65 · 回复权重 +12
 
-作者介绍了自研的 TUI 工具 captain-miao，用于在 Kitty 或 Zellij 终端中集中管理多个 Coding Agent（如 Claude Code）会话，通过外部终端协同工作，解决多会话状态查看与切换问题。
+依据回复：[#17933412](https://www.v2ex.com/t/1231835#reply17933412)、[#17933423](https://www.v2ex.com/t/1231835#reply17933423)、[#17933466](https://www.v2ex.com/t/1231835#reply17933466)、[#17933479](https://www.v2ex.com/t/1231835#reply17933479)、[#17933487](https://www.v2ex.com/t/1231835#reply17933487)、[#17933516](https://www.v2ex.com/t/1231835#reply17933516)、[#17933615](https://www.v2ex.com/t/1231835#reply17933615)、[#17933831](https://www.v2ex.com/t/1231835#reply17933831)
+
+</details>
+
+### 33. [一个人搞了个浏览器插件,量很小但很稳,聊聊为什么我不打算做大](https://www.v2ex.com/t/1231589)
+
+**综合分 77** · 经验与教程 · 分享创造 · 12 回复 · 3 收藏
+
+作者分享开发Chrome标签页整理插件的经历：日活约1200，付费用户300+，买断29元，月收入2000-3000，刻意保持极简与低维护成本，不追求做大，并询问独立开发是否必须追求规模。
 
 **核心信息**
 
-- captain-miao 是管理多个 Coding Agent 会话的 TUI 面板，支持 Kitty 和 Zellij。
-- 它不内置终端或复用器，而是利用外部终端的远程控制 API 与 hooks 协作。
-- 适合多开 Claude Code 等工具时快速查看会话状态和切换终端窗口。
-- 项目基于实际开发需求产生，持续完善中，欢迎试用反馈。
+- 通过Chrome商店自然流量即可获得稳定小规模用户，无需强推广
+- 买断制配合本地存储可大幅降低个人开发者维护成本
+- 面对用户反馈需取舍，避免功能膨胀导致成本失控
+- 独立开发成功标准多元，控制规模可换取时间自由
+- 注意买断制收入依赖新增用户，需评估可持续性
+
+**注意事项**
+
+- 争议性
+
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
+
+评分构成：内容基础分 65 · 回复权重 +12
+
+依据回复：[#17929239](https://www.v2ex.com/t/1231589#reply17929239)、[#17929255](https://www.v2ex.com/t/1231589#reply17929255)、[#17929641](https://www.v2ex.com/t/1231589#reply17929641)、[#17929125](https://www.v2ex.com/t/1231589#reply17929125)、[#17929139](https://www.v2ex.com/t/1231589#reply17929139)、[#17935390](https://www.v2ex.com/t/1231589#reply17935390)
+
+</details>
+
+### 34. [非技术人员、普通用户推荐用什么 AI？千问 or 智谱 or 豆包 or KIMI？](https://www.v2ex.com/t/1231747)
+
+**综合分 76** · 经验与教程 · 问与答 · 11 回复
+
+用户询问非技术人员适合的AI推荐，排除需翻墙和幻觉高的选项，评论中给出豆包、千问、Kimi等实测体验，强调用户体验、稳定性、免费和功能集成的重要性。
+
+**核心信息**
+
+- 非技术人员选择AI应重点考虑APP体验、稳定性和价格，而非模型参数。
+- 豆包功能多、体验好，但大模型能力一般；千问模型强但APP简单。
+- DeepSeek联网搜索好用且能查看参考链接，但幻觉较高。
+- 可搭配多模型使用，如豆包+DeepSeek组合。
+- 职场人建议选择支持图片分析和Agent能力的AI。
+
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
+
+评分构成：内容基础分 65 · 回复权重 +11
+
+依据回复：[#17931855](https://www.v2ex.com/t/1231747#reply17931855)、[#17932187](https://www.v2ex.com/t/1231747#reply17932187)、[#17932215](https://www.v2ex.com/t/1231747#reply17932215)、[#17932557](https://www.v2ex.com/t/1231747#reply17932557)、[#17932062](https://www.v2ex.com/t/1231747#reply17932062)
+
+</details>
+
+### 35. [openai 的 cache 是咋计算的呀？ input_tokens=cache_write_tokens+3？](https://www.v2ex.com/t/1231721)
+
+**综合分 71** · AI与开发 · OpenAI · 6 回复
+
+用户咨询OpenAI API缓存token的计算方式，差异的3个token来自chat template中的特殊token，这些token不会进入缓存。
+
+**核心信息**
+
+- input_tokens与cache_write_tokens的差异是未命中缓存的token数。
+- chat template中的特殊token（如 ）通常不参与缓存。
+- 相同请求命中缓存后，cached_tokens会等于首次的cache_write_tokens。
+
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
+
+评分构成：内容基础分 65 · 回复权重 +6
+
+依据回复：[#17931228](https://www.v2ex.com/t/1231721#reply17931228)、[#17931283](https://www.v2ex.com/t/1231721#reply17931283)
+
+</details>
+
+### 36. [做了一个 macOS 环形应用切换器，现在支持 Microsoft Surface Dial](https://www.v2ex.com/t/1231657)
+
+**综合分 70** · 工具与项目 · 分享创造 · 5 回复 · 3 收藏
+
+作者分享了一款自研的macOS环形应用切换器OrbitLauncher，支持Surface Dial原生HID控制，提供旋钮切换、按下确认等交互，并开源代码。内容包括功能列表、安装说明及硬件适配经验。
+
+**核心信息**
+
+- 可用Codex辅助开发个性化macOS工具
+- Surface Dial可通过原生HID在macOS使用，无需模拟鼠标
+- 开源项目RingLauncher提供环形应用切换方案
+- 支持鼠标滚轮、键盘编码器及Surface Dial多种交互
+- 可通过xattr命令绕过未签名应用的限制
+
+<details class="analysis-evidence" markdown="1">
+<summary>评分详情与内容依据</summary>
+
+评分构成：内容基础分 65 · 回复权重 +5
+
+依据回复：[#17930249](https://www.v2ex.com/t/1231657#reply17930249)、[#17930599](https://www.v2ex.com/t/1231657#reply17930599)、[#17932605](https://www.v2ex.com/t/1231657#reply17932605)
+
+</details>
 
 ## 报告说明
 
 - 抓取时间：2026-08-04 17:13:12（Asia/Shanghai）
 - 时间范围：2026-08-03 00:00:00 到次日 00:00:00（Asia/Shanghai）
 - 内容处理：抓取标题、正文与回复，排除二手交易和推广后，由 deepseek-v4-flash 对每个主题独立提取、评分和校验。
-- 筛选结果：昨日 276 个主题，过滤 54 个，分析 222 个，下载 1946 条回复，保留 26 个高价值主题。
+- 筛选结果：昨日 276 个主题，过滤 54 个，分析 222 个，下载 1946 条回复，保留 36 个高价值主题。
 - 运行质量：扫描 276 个 id，读取 276 个主题详情，0 个空洞或失败 id；重试耗尽后跳过的临时 API 错误：0；回复抓取失败 0 个，分析成功 / 失败 222 / 0。

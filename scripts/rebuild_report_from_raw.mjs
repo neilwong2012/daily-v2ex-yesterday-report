@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 
+import { MIN_CONTENT_SCORE, replyWeightForCount } from '../lib/deepseek-analysis.mjs';
 import { renderValueReport } from '../lib/report-renderer.mjs';
 
 const timezone = 'Asia/Shanghai';
@@ -15,9 +16,21 @@ const raw = JSON.parse(await fs.readFile(rawUrl, 'utf8'));
 const topics = Array.isArray(raw.includedTopics) ? raw.includedTopics : [];
 const topicById = new Map(topics.map((topic) => [Number(topic.id), topic]));
 const valuableAnalyses = (raw.deepseek?.analyses || [])
-  .filter((item) => item.status === 'success' && item.keep && Number(item.value_score) >= threshold)
+  .filter((item) => item.status === 'success' && item.keep)
   .filter((item) => topicById.has(Number(item.topic_id)))
-  .map((item) => ({ ...item, topic: topicById.get(Number(item.topic_id)) }));
+  .map((item) => {
+    const topic = topicById.get(Number(item.topic_id));
+    const contentScore = Number(item.content_score ?? item.value_score ?? 0);
+    const replyWeight = replyWeightForCount(topic.replies || 0);
+    return {
+      ...item,
+      value_score: Math.max(0, contentScore + replyWeight),
+      content_score: contentScore,
+      reply_weight: replyWeight,
+      topic,
+    };
+  })
+  .filter((item) => item.content_score >= MIN_CONTENT_SCORE && item.value_score >= threshold);
 
 const report = renderValueReport({
   generatedAt: raw.generatedAt,

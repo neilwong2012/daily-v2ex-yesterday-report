@@ -58,7 +58,9 @@ test('renders comprehensive extraction and collapses scoring evidence', () => {
       replies: 3,
       stars: 8,
     },
-    value_score: 88,
+    value_score: 94,
+    content_score: 88,
+    reply_weight: 6,
     category: 'AI与开发',
     recommendation_reason: '提供了可执行且经评论验证的方法。',
     summary: '这是正文与评论的综合摘要。',
@@ -86,5 +88,6 @@ test('renders comprehensive extraction and collapses scoring evidence', () => {
   assert.match(report, /不同意见/);
   assert.match(report, /<details class="analysis-evidence"/);
   assert.match(report, /信息密度 22/);
+  assert.match(report, /内容基础分 88 · 回复权重 \+6/);
   assert.match(report, /#456/);
 });
