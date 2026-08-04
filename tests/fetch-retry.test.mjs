@@ -56,6 +56,7 @@ test('retries a 522 response, records it, and continues the topic scan', async (
           title_content_consistent: true,
           has_reusable_information: true,
           category: '经验与教程',
+          optimized_title: '经过验证的测试方法',
           recommendation_reason: '包含经过验证、可以复用的测试方法。',
           summary: '包含可以复用的测试经验。',
           core_information: ['先验证输入，再执行后续步骤。'],
@@ -148,7 +149,7 @@ test('retries a 522 response, records it, and continues the topic scan', async (
   });
   const report = await fs.readFile(path.join(tempDir, 'v2ex_2026-08-03_report.md'), 'utf8');
   assert.match(report, /重试耗尽后跳过的临时 API 错误：1/);
-  assert.match(report, /## 有价值内容/);
+  assert.match(report, /## 值得读的内容/);
   assert.match(report, /包含可以复用的测试经验/);
   const replyArchive = JSON.parse(await fs.readFile(path.join(tempDir, 'v2ex_yesterday_data/replies_2026-08-03.json'), 'utf8'));
   assert.equal(replyArchive.topics.length, 1);

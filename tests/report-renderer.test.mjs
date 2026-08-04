@@ -22,7 +22,7 @@ function payloadWith(items) {
   };
 }
 
-test('renders every valuable topic once and sorts by value score', () => {
+test('renders every valuable topic once as a collapsed title and sorts by value score', () => {
   const items = Array.from({ length: 22 }, (_, index) => ({
     topic: {
       id: index + 1,
@@ -41,9 +41,10 @@ test('renders every valuable topic once and sorts by value score', () => {
 
   const report = renderValueReport(payloadWith(items));
 
-  assert.equal((report.match(/^### \d+\. /gm) || []).length, 22);
+  assert.equal((report.match(/<details class="topic-card"/g) || []).length, 22);
+  assert.equal((report.match(/<summary>/g) || []).length, 22);
   assert.ok(report.indexOf('主题 22') < report.indexOf('主题 1'));
-  assert.equal((report.match(/主题 7\]\(https:\/\/www\.v2ex\.com\/t\/7\)/g) || []).length, 1);
+  assert.equal((report.match(/https:\/\/www\.v2ex\.com\/t\/7/g) || []).length, 1);
   assert.match(report, /主题 1 的旧版核心信息/);
   assert.doesNotMatch(report, /主要趋势|工具 \/ 项目|回复里的有效信息/);
 });
@@ -62,6 +63,7 @@ test('renders comprehensive extraction and collapses scoring evidence', () => {
     content_score: 88,
     reply_weight: 6,
     category: 'AI与开发',
+    optimized_title: '综合分析后的信息型标题',
     recommendation_reason: '提供了可执行且经评论验证的方法。',
     summary: '这是正文与评论的综合摘要。',
     core_information: ['核心事实'],
@@ -84,6 +86,8 @@ test('renders comprehensive extraction and collapses scoring evidence', () => {
   const report = renderValueReport(payloadWith([item]));
 
   assert.match(report, /推荐理由：/);
+  assert.match(report, /<span class="topic-title">综合分析后的信息型标题<\/span>/);
+  assert.match(report, /原标题：.*综合分析主题/);
   assert.match(report, /评论共识/);
   assert.match(report, /不同意见/);
   assert.match(report, /<details class="analysis-evidence"/);

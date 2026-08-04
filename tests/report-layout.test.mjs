@@ -23,6 +23,8 @@ test('report home keeps the page content-first', async () => {
 
   assert.match(layout, /<article class="report">\s*\{\{ content \}\}/);
   assert.match(layout, /count_valuable/);
+  assert.match(layout, /\.topic-card > summary/);
+  assert.match(layout, /\.topic-title/);
   assert.doesNotMatch(layout, /summary-panel|trend-list|topic-list|阅读全文/);
 });
 

@@ -1,7 +1,7 @@
 ---
 layout: report-home
 title: "最新报告"
-hero_title: "昨日 V2EX 关键内容"
+hero_title: "昨日 V2EX 值得读"
 permalink: /latest/
 status: success
 target_date: 2026-08-03
@@ -18,13 +18,20 @@ data_url: "/data/2026-08-03.json"
 
 # V2EX 2026-08-03 昨日新帖报告
 
-## 有价值内容
+## 值得读的内容
 
-从 222 个候选主题中保留 36 个，以下按综合价值评分从高到低排列。
+从 222 个候选主题中保留 36 个，按综合价值评分排列；点击标题展开摘要、核心信息与评论结论。
 
-### 1. [关于妹妹要不要继续读书的咨询](https://www.v2ex.com/t/1231808)
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">1</span><span class="topic-title">关于妹妹要不要继续读书的咨询</span></span>
+<span class="topic-summary-meta"><strong>综合分 197</strong><span>经验与教程 · 问与答 · 129 回复 · 10 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
 
-**综合分 197** · 经验与教程 · 问与答 · 129 回复 · 10 收藏
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231808)
 
 主题咨询家境不佳的19岁妹妹是否应读民办大专、复读考兽医或直接打工。回复多建议优先处理抑郁问题，复读一年为可选路径，或从宠物医院学徒起步，不建议直接辍学。
 
@@ -45,9 +52,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 2. [妹妹考上大学了，升学宴送什么合适？求建议](https://www.v2ex.com/t/1231653)
+</details>
 
-**综合分 170** · 生活与消费 · 生活 · 105 回复 · 2 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">2</span><span class="topic-title">妹妹考上大学了，升学宴送什么合适？求建议</span></span>
+<span class="topic-summary-meta"><strong>综合分 170</strong><span>生活与消费 · 生活 · 105 回复 · 2 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231653)
 
 亲妹妹升学宴送礼物求助，回复建议笔记本、平板、手机等实用设备需考虑专业需求，或直接送红包，也有提升宿舍幸福感的选择。
 
@@ -68,9 +84,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 3. [购买大件电器有感](https://www.v2ex.com/t/1231612)
+</details>
 
-**综合分 149** · 生活与消费 · 分享发现 · 81 回复 · 5 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">3</span><span class="topic-title">购买大件电器有感</span></span>
+<span class="topic-summary-meta"><strong>综合分 149</strong><span>生活与消费 · 分享发现 · 81 回复 · 5 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231612)
 
 讨论大件电器购买中安装费与增项问题，分享避坑经验，如自购挂架、确认收费明细等。
 
@@ -91,9 +116,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 4. [极致精简，已经优化为仅 100 多 KB！单文件 PHP 论坛！](https://www.v2ex.com/t/1231731)
+</details>
 
-**综合分 139** · 工具与项目 · PHP · 71 回复 · 56 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">4</span><span class="topic-title">极致精简，已经优化为仅 100 多 KB！单文件 PHP 论坛！</span></span>
+<span class="topic-summary-meta"><strong>综合分 139</strong><span>工具与项目 · PHP · 71 回复 · 56 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231731)
 
 作者发布优化至仅100多KB的单文件PHP论坛bbs1org，功能可通过插件扩展，附GitHub仓库及演示站。回复中对轻量化设计有讨论，作者表示适合作为项目附属功能。
 
@@ -114,9 +148,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 5. [大家现在 Windows 下面是如何使用 codex 的，怎么搞都有问题](https://www.v2ex.com/t/1231744)
+</details>
 
-**综合分 138** · 经验与教程 · 程序员 · 56 回复 · 15 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">5</span><span class="topic-title">大家现在 Windows 下面是如何使用 codex 的，怎么搞都有问题</span></span>
+<span class="topic-summary-meta"><strong>综合分 138</strong><span>经验与教程 · 程序员 · 56 回复 · 15 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231744)
 
 用户反馈在Windows下使用Codex CLI/App时遇到插件、性能、环境配置等问题，讨论中分享多种解决方案：WSL规则配置、PowerShell7设置、MCP集成、VSCode插件等。
 
@@ -137,9 +180,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 6. [好一个声东击西， 8 月 1 日起宽带也偷偷涨价了](https://www.v2ex.com/t/1231767)
+</details>
 
-**综合分 125** · 生活与消费 · 宽带症候群 · 60 回复 · 4 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">6</span><span class="topic-title">好一个声东击西， 8 月 1 日起宽带也偷偷涨价了</span></span>
+<span class="topic-summary-meta"><strong>综合分 125</strong><span>生活与消费 · 宽带症候群 · 60 回复 · 4 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231767)
 
 用户反映浙江联通、移动宽带自8月1日起涨价，如500M从360元/年涨至720元/年，移动300M涨至480元/年。回复中多名用户提供各地资费及应对方法，如携号转网、办理低消套餐送宽带、闲鱼找代理商等。
 
@@ -160,9 +212,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 7. [腾讯这是不打算让小程序商家活了？支付手续费涨了几十倍，直接干到 10%-17%](https://www.v2ex.com/t/1231752)
+</details>
 
-**综合分 123** · 商业与行业 · 程序员 · 58 回复 · 12 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">7</span><span class="topic-title">腾讯这是不打算让小程序商家活了？支付手续费涨了几十倍，直接干到 10%-17%</span></span>
+<span class="topic-summary-meta"><strong>综合分 123</strong><span>商业与行业 · 程序员 · 58 回复 · 12 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231752)
 
 微信小程序虚拟支付手续费大幅上涨，Android 10%、iOS 17%，此前为千分之三。商家反映成本剧增，讨论涉及适用范围、行业对比及应对策略，信息有参考价值，但标题存在误导风险。
 
@@ -188,9 +249,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 8. [新电视买回来了，但快被现在的“套娃会员”逼疯了！影视会员、体育会员就算了，现在连看个电视直播都要单独开会员，真的是吃相太难看](https://www.v2ex.com/t/1231677)
+</details>
 
-**综合分 121** · 生活与消费 · 问与答 · 39 回复 · 21 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">8</span><span class="topic-title">新电视买回来了，但快被现在的“套娃会员”逼疯了！影视会员、体育会员就算了，现在连看个电视直播都要单独开会员，真的是吃相太难看</span></span>
+<span class="topic-summary-meta"><strong>综合分 121</strong><span>生活与消费 · 问与答 · 39 回复 · 21 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231677)
 
 用户吐槽电视套娃会员收费，寻求实用方案。回复提供运营商IPTV、央视频投屏、TVbox/NAS本地播放、网盘+播放器等多种选择，并提醒设备与服务分离，省心选IPTV，折腾可白嫖。
 
@@ -215,9 +285,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 9. [中登新买了个电视，各位有什么好玩的电视 APP？](https://www.v2ex.com/t/1231680)
+</details>
 
-**综合分 110** · 生活与消费 · 智能家电 · 35 回复 · 10 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">9</span><span class="topic-title">中登新买了个电视，各位有什么好玩的电视 APP？</span></span>
+<span class="topic-summary-meta"><strong>综合分 110</strong><span>生活与消费 · 智能家电 · 35 回复 · 10 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231680)
 
 用户询问小米电视可安装的有趣APP，回复推荐了blbl（第三方B站）、Jellyfin、飞牛TV、Apple TV+cheers等方案，以及外接主机、游戏机等使用方式，分享了电视作为大屏的多种玩法。
 
@@ -238,9 +317,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 10. [macos 上容器运行时推荐用哪个呢？](https://www.v2ex.com/t/1231628)
+</details>
 
-**综合分 106** · 工具与项目 · 问与答 · 28 回复 · 9 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">10</span><span class="topic-title">macos 上容器运行时推荐用哪个呢？</span></span>
+<span class="topic-summary-meta"><strong>综合分 106</strong><span>工具与项目 · 问与答 · 28 回复 · 9 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231628)
 
 讨论macOS上Docker Desktop替代方案，主流推荐OrbStack、Apple Container、Colima/Lima、Podman等，并比较各方案特点与限制。
 
@@ -261,9 +349,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 11. [深圳租房经历](https://www.v2ex.com/t/1231654)
+</details>
 
-**综合分 105** · 经验与教程 · 租房 · 30 回复 · 8 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">11</span><span class="topic-title">深圳租房经历</span></span>
+<span class="topic-summary-meta"><strong>综合分 105</strong><span>经验与教程 · 租房 · 30 回复 · 8 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231654)
 
 作者分享深圳租房经历，指出线上中介信息不互通、线下中介态度差等坑。回复中多位网友给出实用建议：城中村可直接扫街、问保安；小区房可看公告牌或找正规中介如贝壳；注意招租电话可能是中介。整体经验对租房新手有帮助。
 
@@ -284,9 +381,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 12. [程序员尝试小红书博主一年总结](https://www.v2ex.com/t/1231811)
+</details>
 
-**综合分 99** · 经验与教程 · 程序员 · 34 回复 · 15 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">12</span><span class="topic-title">程序员尝试小红书博主一年总结</span></span>
+<span class="topic-summary-meta"><strong>综合分 99</strong><span>经验与教程 · 程序员 · 34 回复 · 15 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231811)
 
 40岁程序员分享做小红书自媒体一年总结：总收入10万，其中港股开户介绍费5万、咨询费3万、会员费1万，自媒体本身未直接盈利。经验是分享对别人有帮助的内容，选择港股打新赛道，被媒体报道，获8000粉丝。对大龄程序员转型有一定参考意义。
 
@@ -311,9 +417,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 13. [有没有推荐的车载香氛,香片,香包之类的？](https://www.v2ex.com/t/1231610)
+</details>
 
-**综合分 97** · 生活与消费 · 生活 · 29 回复 · 7 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">13</span><span class="topic-title">有没有推荐的车载香氛,香片,香包之类的？</span></span>
+<span class="topic-summary-meta"><strong>综合分 97</strong><span>生活与消费 · 生活 · 29 回复 · 7 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231610)
 
 用户求推荐淡雅不刺鼻的车载香氛。回复推荐了朗龙、MUJI扩香石、蜂花檀香皂、宜家干花香包、网易严选等产品，并讨论了香味持久度、性价比及暴晒后挥发快的问题。
 
@@ -334,9 +449,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 14. [codex 被封号了， 1 个苹果账号可以绑多个 openai 吗？不想切苹果账号注册新的。](https://www.v2ex.com/t/1231781)
+</details>
 
-**综合分 95** · 经验与教程 · OpenAI · 15 回复
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">14</span><span class="topic-title">codex 被封号了， 1 个苹果账号可以绑多个 openai 吗？不想切苹果账号注册新的。</span></span>
+<span class="topic-summary-meta"><strong>综合分 95</strong><span>经验与教程 · OpenAI · 15 回复</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231781)
 
 讨论OpenAI封号及苹果账号绑定限制，用户经验：Apple ID与OpenAI长期绑定难解绑，但手机号可绑定约3个账号；封号与IP切换有关，退款政策趋严。
 
@@ -357,9 +481,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 15. [有什么双肩包请推荐一个](https://www.v2ex.com/t/1231672)
+</details>
 
-**综合分 93** · 生活与消费 · 生活 · 28 回复 · 9 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">15</span><span class="topic-title">有什么双肩包请推荐一个</span></span>
+<span class="topic-summary-meta"><strong>综合分 93</strong><span>生活与消费 · 生活 · 28 回复 · 9 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231672)
 
 楼主求推荐通勤双肩包，要求装15寸笔记本和键盘、防水、有隔断、侧袋拉链。回复集中推荐小鹰日光/星云32L、TUMI Alpha、Elecom、格里高利等，用户建议隔断可单独收纳，另有低价仿品试用建议。
 
@@ -380,9 +513,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 16. [iOS 26.6 WLOC 改定位还有效吗？](https://www.v2ex.com/t/1231837)
+</details>
 
-**综合分 89** · 经验与教程 · iOS · 14 回复 · 3 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">16</span><span class="topic-title">iOS 26.6 WLOC 改定位还有效吗？</span></span>
+<span class="topic-summary-meta"><strong>综合分 89</strong><span>经验与教程 · iOS · 14 回复 · 3 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231837)
 
 用户询问iOS 26.6下WLOC改定位是否有效，众多回复确认有效，并分享关键操作流程：保存位置后开飞行模式、关定位重启，再开代理和定位。
 
@@ -403,9 +545,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 17. [试着把写了 N 年的私人日记喂给 ai...](https://www.v2ex.com/t/1231818)
+</details>
 
-**综合分 88** · AI与开发 · 分享发现 · 18 回复 · 1 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">17</span><span class="topic-title">试着把写了 N 年的私人日记喂给 ai...</span></span>
+<span class="topic-summary-meta"><strong>综合分 88</strong><span>AI与开发 · 分享发现 · 18 回复 · 1 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231818)
 
 作者将多年私人日记喂给AI，AI深度分析其性格、习惯并给出未来发展建议，作者感到震撼。回复中用户分享类似经历，并提供了具体操作方法（如ChatGPT Projects组织日记、用Codex读取文件），同时提醒隐私风险。
 
@@ -426,9 +577,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 18. [入门 3d 打印前调研](https://www.v2ex.com/t/1231819)
+</details>
 
-**综合分 88** · 经验与教程 · 问与答 · 13 回复 · 2 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">18</span><span class="topic-title">入门 3d 打印前调研</span></span>
+<span class="topic-summary-meta"><strong>综合分 88</strong><span>经验与教程 · 问与答 · 13 回复 · 2 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231819)
 
 用户预算3000内入门3D打印，纠结创想K2与拓竹。多数回复认为拓竹更省心，推荐P1S combo，并提醒按封箱、尺寸、多色等需求选型，同时强调建模能力决定打印机利用率。
 
@@ -449,9 +609,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 19. [国家超算平台新出的 Token Plan 怎么样？ 对比 opencode go 如何？](https://www.v2ex.com/t/1231608)
+</details>
 
-**综合分 88** · 工具与项目 · 问与答 · 18 回复 · 1 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">19</span><span class="topic-title">国家超算平台新出的 Token Plan 怎么样？ 对比 opencode go 如何？</span></span>
+<span class="topic-summary-meta"><strong>综合分 88</strong><span>工具与项目 · 问与答 · 18 回复 · 1 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231608)
 
 用户询问国家超算平台Token Plan价值。回复显示其价格偏高，如GLM-5.2无缓存约6.86元/1M，远贵于同类；有实际体验者抱怨模型能力不足，建议避雷。网友推测该平台主要面向政企采购，个人使用性价比低。
 
@@ -476,9 +645,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 20. [请问 claude 能注册吗](https://www.v2ex.com/t/1231801)
+</details>
 
-**综合分 87** · AI与开发 · Claude · 2 回复
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">20</span><span class="topic-title">请问 claude 能注册吗</span></span>
+<span class="topic-summary-meta"><strong>综合分 87</strong><span>AI与开发 · Claude · 2 回复</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231801)
 
 用户询问Claude注册及用AI将Chrome插件从MV2迁移到MV3的方法。回复提供了一份详细、分阶段的迁移提示词，涵盖数据库抽象、Service Worker改造、权限更新及验证流程，具有较强可复用性。
 
@@ -499,9 +677,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 21. [用起来比较舒服的 Linux 桌面 Niri+DankMaterialShell](https://www.v2ex.com/t/1231845)
+</details>
 
-**综合分 86** · 工具与项目 · Linux · 11 回复 · 1 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">21</span><span class="topic-title">用起来比较舒服的 Linux 桌面 Niri+DankMaterialShell</span></span>
+<span class="topic-summary-meta"><strong>综合分 86</strong><span>工具与项目 · Linux · 11 回复 · 1 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231845)
 
 用户分享从i3wm切换至Niri+DankMaterialShell的体验，认为更整体更现代，钉钉表现改善。回复讨论Niri、Noctalia、Ironbar等组合，以及XWayland适配、缩放等常见问题。
 
@@ -522,9 +709,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 22. [关于发现 NAS 好像不是自己理想中的照片备份方案，现在想改成移动硬盘，有搞头吗？](https://www.v2ex.com/t/1231772)
+</details>
 
-**综合分 85** · 经验与教程 · NAS · 20 回复 · 2 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">22</span><span class="topic-title">关于发现 NAS 好像不是自己理想中的照片备份方案，现在想改成移动硬盘，有搞头吗？</span></span>
+<span class="topic-summary-meta"><strong>综合分 85</strong><span>经验与教程 · NAS · 20 回复 · 2 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231772)
 
 用户讨论将NAS照片备份改为移动硬盘的可行性，回复中涉及移动硬盘可靠性、备份策略、NAS休眠等经验，整体具有参考价值，但部分回复存在争论。
 
@@ -549,9 +745,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 23. [kimi k3 不怎么适合业务开发啊, 太慢了. 接入了 superpowers 更是慢上加慢!简单 crud 页面动辄也是 30 分钟起步.](https://www.v2ex.com/t/1231813)
+</details>
 
-**综合分 84** · AI与开发 · 问与答 · 9 回复
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">23</span><span class="topic-title">kimi k3 不怎么适合业务开发啊, 太慢了. 接入了 superpowers 更是慢上加慢!简单 crud 页面动辄也是 30 分钟起步.</span></span>
+<span class="topic-summary-meta"><strong>综合分 84</strong><span>AI与开发 · 问与答 · 9 回复</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231813)
 
 用户反馈kimi k3在CRUD开发中速度慢，即使使用subagent流程也耗时较长。回复中给出优化建议：用快速模型如deepseek处理设计开发，k3仅做review；或放弃superpowers只保留AGENT.md；并提及kimi质量好但负载差。
 
@@ -572,9 +777,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 24. [有没有广州老铁推荐一下附近的宝藏小店](https://www.v2ex.com/t/1231719)
+</details>
 
-**综合分 84** · 生活与消费 · 广州 · 14 回复 · 2 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">24</span><span class="topic-title">有没有广州老铁推荐一下附近的宝藏小店</span></span>
+<span class="topic-summary-meta"><strong>综合分 84</strong><span>生活与消费 · 广州 · 14 回复 · 2 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231719)
 
 用户询问广州宝藏小店，多位广州网友推荐了具体餐厅和美食，包括瑞记饭庄、惠食佳、文记壹心鸡、专二港式奶茶等，也有猎奇选项如龙虱，适合游客参考。
 
@@ -595,9 +809,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 25. [关于我用 deepseek -v4-flash 画了几张图...](https://www.v2ex.com/t/1231802)
+</details>
 
-**综合分 83** · 经验与教程 · 分享发现 · 11 回复 · 6 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">25</span><span class="topic-title">关于我用 deepseek -v4-flash 画了几张图...</span></span>
+<span class="topic-summary-meta"><strong>综合分 83</strong><span>经验与教程 · 分享发现 · 11 回复 · 6 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231802)
 
 作者利用DeepSeek v4-Flash将名画转换为矢量笔触画，通过分析图像纹路方向、撒点绘制彩色短线，生成印象派、素描等风格的SVG图。文章介绍了原理、成本及调试体验，适合对AI结合图像编程感兴趣的读者参考。
 
@@ -618,9 +841,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 26. [用 Rust 从零写了个跨平台文件管理器 tessoa， UI 全自绘，现在开放内测！](https://www.v2ex.com/t/1231761)
+</details>
 
-**综合分 82** · 工具与项目 · 分享创造 · 12 回复 · 9 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">26</span><span class="topic-title">用 Rust 从零写了个跨平台文件管理器 tessoa， UI 全自绘，现在开放内测！</span></span>
+<span class="topic-summary-meta"><strong>综合分 82</strong><span>工具与项目 · 分享创造 · 12 回复 · 9 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231761)
 
 作者用Rust从零开发跨平台文件管理器tessoa，全自绘UI，无Electron/WebView，支持Win/macOS/Linux。开放内测，免费版可下载。回复反馈了macOS白屏、Linux软链接识别等问题，作者已定位并发布修复版，整体完成度较高。
 
@@ -641,9 +873,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 27. [分享一个还在 RC 阶段的项目：把 C 编译成不依赖 cgo 的 Go package](https://www.v2ex.com/t/1231606)
+</details>
 
-**综合分 82** · 工具与项目 · Go 编程语言 · 7 回复 · 7 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">27</span><span class="topic-title">分享一个还在 RC 阶段的项目：把 C 编译成不依赖 cgo 的 Go package</span></span>
+<span class="topic-summary-meta"><strong>综合分 82</strong><span>工具与项目 · Go 编程语言 · 7 回复 · 7 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231606)
 
 作者分享C2Go Toolchain，一个基于Clang/LLVM将C源码编译为纯Go package的工具，不依赖cgo，支持CGO_ENABLED=0构建。当前为RC版本，支持多平台，强调栈指针逃逸审计限制，征求反馈。
 
@@ -664,9 +905,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 28. [泰国已去已回，随意记录些印象深刻的点](https://www.v2ex.com/t/1231773)
+</details>
 
-**综合分 81** · 经验与教程 · 旅行 · 6 回复 · 5 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">28</span><span class="topic-title">泰国已去已回，随意记录些印象深刻的点</span></span>
+<span class="topic-summary-meta"><strong>综合分 81</strong><span>经验与教程 · 旅行 · 6 回复 · 5 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231773)
 
 作者分享泰国旅行实用经验，涵盖机票、打车、酒店、一日游、美食、马杀鸡等细节，提及省钱技巧与避坑点，对计划赴泰游客有参考价值。
 
@@ -687,9 +937,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 29. [Immich 有什么替代品吗？](https://www.v2ex.com/t/1231778)
+</details>
 
-**综合分 80** · 工具与项目 · 程序员 · 8 回复
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">29</span><span class="topic-title">Immich 有什么替代品吗？</span></span>
+<span class="topic-summary-meta"><strong>综合分 80</strong><span>工具与项目 · 程序员 · 8 回复</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231778)
 
 用户询问Immich替代品，认为其内存要求高且不支持Podman。回复中多位用户分享实际内存占用经验，指出通常低于官方6GB建议，并推荐PhotoPrism、MT Photos等替代方案。
 
@@ -709,9 +968,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 30. [当 agent 说"我做完了" —— 四个从翻车里长出来的 Claude Code skill](https://www.v2ex.com/t/1231702)
+</details>
 
-**综合分 80** · AI与开发 · 人工智能 · 0 回复 · 1 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">30</span><span class="topic-title">当 agent 说&quot;我做完了&quot; —— 四个从翻车里长出来的 Claude Code skill</span></span>
+<span class="topic-summary-meta"><strong>综合分 80</strong><span>AI与开发 · 人工智能 · 0 回复 · 1 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231702)
 
 作者分享四个源于实践翻车经验的Claude Code技能：false-green通过变异测试防止虚假单测，delegating-to-agents强化子代理审查，concurrent-worktrees解决多Agent并行冲突，batch-closeout优化批量验收。技能已开源，适用于多种AI编码代理。
 
@@ -730,9 +998,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 31. [大佬们求教 iPhone 有安全稳定微信双开的方案吗](https://www.v2ex.com/t/1231774)
+</details>
 
-**综合分 78** · 经验与教程 · 问与答 · 8 回复
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">31</span><span class="topic-title">大佬们求教 iPhone 有安全稳定微信双开的方案吗</span></span>
+<span class="topic-summary-meta"><strong>综合分 78</strong><span>经验与教程 · 问与答 · 8 回复</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231774)
 
 讨论iPhone上微信双开的方案，反馈包括淘宝分身、个人开发者证书签名砸壳包、TestFlight等，建议注重账号权重与KYC，或双持/安卓最稳。
 
@@ -757,9 +1034,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 32. [用了半天 gpt5.6-luna-max，感觉效果也还可以](https://www.v2ex.com/t/1231835)
+</details>
 
-**综合分 77** · AI与开发 · 程序员 · 12 回复
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">32</span><span class="topic-title">用了半天 gpt5.6-luna-max，感觉效果也还可以</span></span>
+<span class="topic-summary-meta"><strong>综合分 77</strong><span>AI与开发 · 程序员 · 12 回复</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231835)
 
 用户分享gpt-5.6-luna-max半天使用体验，认为价格便宜、智商不错，但token用量翻倍、速度慢。回复中多人认可其性价比，也有用户对比其他模型。
 
@@ -780,9 +1066,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 33. [一个人搞了个浏览器插件,量很小但很稳,聊聊为什么我不打算做大](https://www.v2ex.com/t/1231589)
+</details>
 
-**综合分 77** · 经验与教程 · 分享创造 · 12 回复 · 3 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">33</span><span class="topic-title">一个人搞了个浏览器插件,量很小但很稳,聊聊为什么我不打算做大</span></span>
+<span class="topic-summary-meta"><strong>综合分 77</strong><span>经验与教程 · 分享创造 · 12 回复 · 3 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231589)
 
 作者分享开发Chrome标签页整理插件的经历：日活约1200，付费用户300+，买断29元，月收入2000-3000，刻意保持极简与低维护成本，不追求做大，并询问独立开发是否必须追求规模。
 
@@ -807,9 +1102,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 34. [非技术人员、普通用户推荐用什么 AI？千问 or 智谱 or 豆包 or KIMI？](https://www.v2ex.com/t/1231747)
+</details>
 
-**综合分 76** · 经验与教程 · 问与答 · 11 回复
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">34</span><span class="topic-title">非技术人员、普通用户推荐用什么 AI？千问 or 智谱 or 豆包 or KIMI？</span></span>
+<span class="topic-summary-meta"><strong>综合分 76</strong><span>经验与教程 · 问与答 · 11 回复</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231747)
 
 用户询问非技术人员适合的AI推荐，排除需翻墙和幻觉高的选项，评论中给出豆包、千问、Kimi等实测体验，强调用户体验、稳定性、免费和功能集成的重要性。
 
@@ -830,9 +1134,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 35. [openai 的 cache 是咋计算的呀？ input_tokens=cache_write_tokens+3？](https://www.v2ex.com/t/1231721)
+</details>
 
-**综合分 71** · AI与开发 · OpenAI · 6 回复
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">35</span><span class="topic-title">openai 的 cache 是咋计算的呀？ input_tokens=cache_write_tokens+3？</span></span>
+<span class="topic-summary-meta"><strong>综合分 71</strong><span>AI与开发 · OpenAI · 6 回复</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231721)
 
 用户咨询OpenAI API缓存token的计算方式，差异的3个token来自chat template中的特殊token，这些token不会进入缓存。
 
@@ -851,9 +1164,18 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-### 36. [做了一个 macOS 环形应用切换器，现在支持 Microsoft Surface Dial](https://www.v2ex.com/t/1231657)
+</details>
 
-**综合分 70** · 工具与项目 · 分享创造 · 5 回复 · 3 收藏
+<details class="topic-card" markdown="1">
+<summary>
+<span class="topic-summary-main">
+<span class="topic-heading"><span class="topic-rank">36</span><span class="topic-title">做了一个 macOS 环形应用切换器，现在支持 Microsoft Surface Dial</span></span>
+<span class="topic-summary-meta"><strong>综合分 70</strong><span>工具与项目 · 分享创造 · 5 回复 · 3 收藏</span></span>
+</span>
+<span class="topic-toggle" aria-hidden="true"></span>
+</summary>
+
+[查看 V2EX 原帖](https://www.v2ex.com/t/1231657)
 
 作者分享了一款自研的macOS环形应用切换器OrbitLauncher，支持Surface Dial原生HID控制，提供旋钮切换、按下确认等交互，并开源代码。内容包括功能列表、安装说明及硬件适配经验。
 
@@ -871,6 +1193,8 @@ data_url: "/data/2026-08-03.json"
 评分构成：内容基础分 65 · 回复权重 +5
 
 依据回复：[#17930249](https://www.v2ex.com/t/1231657#reply17930249)、[#17930599](https://www.v2ex.com/t/1231657#reply17930599)、[#17932605](https://www.v2ex.com/t/1231657#reply17932605)
+
+</details>
 
 </details>
 

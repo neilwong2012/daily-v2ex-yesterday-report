@@ -119,14 +119,6 @@
         padding-top: 0;
         border-top: 0;
       }
-      .report h3 {
-        margin: 36px 0 12px;
-        padding-top: 30px;
-        border-top: 1px solid var(--line);
-        font-size: 20px;
-        line-height: 1.5;
-        letter-spacing: -.01em;
-      }
       .report p { margin: 0 0 18px; }
       .report ul,
       .report ol {
@@ -159,6 +151,76 @@
         border: 0;
         border-top: 1px solid var(--line);
       }
+      .topic-card {
+        margin: 0;
+        border-top: 1px solid var(--line);
+      }
+      .topic-card:last-of-type { border-bottom: 1px solid var(--line); }
+      .topic-card > summary {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        padding: 22px 0;
+        cursor: pointer;
+        list-style: none;
+      }
+      .topic-card > summary::-webkit-details-marker { display: none; }
+      .topic-card > summary:hover .topic-title { color: var(--accent); }
+      .topic-card[open] > summary { padding-bottom: 18px; }
+      .topic-summary-main {
+        min-width: 0;
+        flex: 1;
+      }
+      .topic-heading {
+        display: flex;
+        align-items: baseline;
+        gap: 12px;
+      }
+      .topic-rank {
+        min-width: 2.2em;
+        color: #a3a3a3;
+        font: 650 13px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-variant-numeric: tabular-nums;
+      }
+      .topic-title {
+        color: var(--ink);
+        font-size: 19px;
+        font-weight: 720;
+        line-height: 1.45;
+        letter-spacing: -.01em;
+        transition: color .15s ease;
+      }
+      .topic-summary-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px 10px;
+        margin: 7px 0 0 3.1em;
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.5;
+      }
+      .topic-summary-meta strong {
+        color: var(--ink);
+        font-variant-numeric: tabular-nums;
+      }
+      .topic-toggle {
+        width: 20px;
+        flex: 0 0 20px;
+        color: var(--muted);
+        font-size: 20px;
+        line-height: 1;
+        text-align: center;
+      }
+      .topic-toggle::before { content: "+"; }
+      .topic-card[open] .topic-toggle::before { content: "−"; }
+      .topic-card > p,
+      .topic-card > ul,
+      .topic-card > ol,
+      .topic-card > .analysis-evidence {
+        margin-left: 3.1em;
+        margin-right: 38px;
+      }
+      .topic-card > p:first-of-type { font-size: 14px; }
       .analysis-evidence {
         margin: 18px 0 34px;
         padding: 12px 14px;
@@ -213,7 +275,15 @@
         .report-header h1 { font-size: 36px; }
         .metrics { margin-top: 18px; }
         .report h2 { margin-top: 48px; font-size: 24px; }
-        .report h3 { margin-top: 30px; font-size: 19px; }
+        .topic-card > summary { align-items: flex-start; gap: 10px; padding: 18px 0; }
+        .topic-heading { gap: 8px; }
+        .topic-rank { min-width: 1.9em; }
+        .topic-title { font-size: 17px; line-height: 1.5; }
+        .topic-summary-meta { margin-left: 2.5em; }
+        .topic-card > p,
+        .topic-card > ul,
+        .topic-card > ol,
+        .topic-card > .analysis-evidence { margin-left: 0; margin-right: 0; }
         .archive { margin-top: 56px; }
       }
     </style>
@@ -234,9 +304,9 @@
         <p class="kicker">{{ page.target_date }} · 昨日内容精选</p>
         <h1>{{ page.hero_title | default: page.title }}</h1>
         <ul class="metrics" aria-label="报告概览">
-          <li><strong>{{ page.count_all | default: 0 }}</strong> 个主题</li>
-          <li><strong>{{ page.count_included | default: 0 }}</strong> 个完成分析</li>
-          <li><strong>{{ page.count_valuable | default: page.count_high_signal | default: 0 }}</strong> 个高价值</li>
+          <li><strong>{{ page.count_all | default: 0 }}</strong> 个新主题</li>
+          <li><strong>{{ page.count_included | default: 0 }}</strong> 个已分析</li>
+          <li><strong>{{ page.count_valuable | default: page.count_high_signal | default: 0 }}</strong> 条值得读</li>
         </ul>
         {% if page.status == 'blocked' %}
           <p class="blocked-note">本期报告生成受阻，正文保留诊断信息供排查。</p>
