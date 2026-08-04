@@ -28,6 +28,7 @@ test('report home keeps the page content-first', async () => {
   assert.match(layout, /class="date-sidebar"/);
   assert.match(layout, /id="report-date-select"/);
   assert.match(layout, /\.topic-card\.is-read/);
+  assert.match(layout, /\.topic-card\.is-read > summary:hover \.topic-title/);
   assert.match(layout, /\.topic-article/);
   assert.match(layout, /\.topic-article h3/);
   assert.match(layout, /\.topic-article pre/);
