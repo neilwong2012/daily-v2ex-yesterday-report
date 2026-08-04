@@ -278,6 +278,11 @@
         line-height: 1.6;
       }
       .topic-article > :last-child { margin-bottom: 0; }
+      .topic-article a {
+        text-decoration: underline;
+        text-decoration-color: var(--accent-line);
+        text-decoration-thickness: 1px;
+      }
       .topic-source {
         margin: 0;
         padding: 0 0 10px;
@@ -506,6 +511,19 @@
           const label = source.firstChild;
           if (label?.nodeType === Node.TEXT_NODE) {
             label.textContent = label.textContent.replace('原标题：', '原链接：');
+          }
+        });
+
+        document.querySelectorAll('.topic-article a[href]').forEach((link) => {
+          try {
+            const destination = new URL(link.getAttribute('href'), window.location.href);
+            if (!['http:', 'https:'].includes(destination.protocol)) return;
+            if (destination.origin !== window.location.origin) {
+              link.target = '_blank';
+              link.rel = 'noopener noreferrer';
+            }
+          } catch (_) {
+            // Invalid links remain inert instead of affecting article rendering.
           }
         });
 

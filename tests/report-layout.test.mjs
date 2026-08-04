@@ -56,6 +56,9 @@ test('report home keeps the page content-first', async () => {
   assert.match(layout, /replace\('原标题：', '原链接：'\)/);
   assert.match(layout, /insertBefore\(source, article\)/);
   assert.match(layout, /content\.append\(source, followingArticle\)/);
+  assert.match(layout, /document\.querySelectorAll\('\.topic-article a\[href\]'\)/);
+  assert.match(layout, /link\.target = '_blank'/);
+  assert.match(layout, /link\.rel = 'noopener noreferrer'/);
   assert.doesNotMatch(layout, /\.topic-(?:article|source)::before/);
   assert.equal((layout.match(/<label for="report-date-select">切换日期<\/label>/g) || []).length, 1);
   assert.doesNotMatch(layout, /昨日内容精选|class="metrics"|page\.hero_title/);

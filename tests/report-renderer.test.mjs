@@ -68,7 +68,7 @@ test('renders each analysis as safe Markdown with the original link at the top',
     reply_weight: 6,
     category: 'AI与开发',
     optimized_title: '综合分析后的信息型标题',
-    article: '## 核心内容\n第一段保留**核心事实**。\n\n### 关键要点\n- 第二段综合评论共识\n- [危险链接](javascript:alert(1))\n- {{ site.secret }}\n\n<script>忽略</script>',
+    article: '## 核心内容\n第一段保留**核心事实**。\n\n### 关键要点\n- 第二段综合评论共识\n- [官方文档](https://example.com/docs)\n- [危险链接](javascript:alert(1))\n- {{ site.secret }}\n\n<script>忽略</script>',
     recommendation_reason: '提供了可执行且经评论验证的方法。',
     summary: '这是正文与评论的综合摘要。',
     core_information: ['核心事实'],
@@ -93,7 +93,7 @@ test('renders each analysis as safe Markdown with the original link at the top',
   assert.match(report, /<span class="topic-title">综合分析后的信息型标题<\/span>/);
   assert.match(report, /data-topic-id="123"/);
   assert.match(report, /<div class="topic-content" markdown="1">/);
-  assert.match(report, /<div class="topic-article" markdown="1">\s*### 核心内容\s*第一段保留\*\*核心事实\*\*。\s*### 关键要点\s*- 第二段综合评论共识\s*- 危险链接\s*-\s+site\.secret\s*忽略\s*<\/div>/);
+  assert.match(report, /<div class="topic-article" markdown="1">\s*### 核心内容\s*第一段保留\*\*核心事实\*\*。\s*### 关键要点\s*- 第二段综合评论共识\s*- \[官方文档\]\(https:\/\/example\.com\/docs\)\s*- 危险链接\s*-\s+site\.secret\s*忽略\s*<\/div>/);
   assert.match(report, /<p class="topic-source">原链接：<a href="https:\/\/www\.v2ex\.com\/t\/123" target="_blank" rel="noopener noreferrer">综合分析主题<\/a><\/p>/);
   assert.ok(
     report.indexOf('<p class="topic-source">原链接：')
