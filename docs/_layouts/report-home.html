@@ -235,17 +235,6 @@
         line-height: 1.45;
         letter-spacing: -.01em;
       }
-      .topic-article h3::before {
-        position: absolute;
-        top: .62em;
-        left: -17px;
-        width: 6px;
-        height: 6px;
-        border-radius: 50%;
-        background: var(--accent);
-        content: "";
-        transform: translateY(-50%);
-      }
       .topic-article h3:first-child { margin-top: 2px; }
       .topic-article p { margin-bottom: 14px; }
       .topic-article ul {
@@ -389,8 +378,9 @@
         }
         .mobile-date-jump select {
           min-width: 0;
+          min-height: 44px;
           max-width: 190px;
-          padding: 7px 30px 7px 10px;
+          padding: 9px 30px 9px 10px;
           border: 1px solid var(--line);
           border-radius: 7px;
           background: var(--bg);
@@ -454,8 +444,8 @@
         </article>
       </div>
 
-      <aside class="date-sidebar" aria-label="按日期查看">
-        <h2>日期</h2>
+      <aside class="date-sidebar" aria-label="往期热点">
+        <h2>往期热点</h2>
         <nav class="date-list" aria-label="日期列表">
         {% for post in site.posts %}
           <a class="date-link{% if post.target_date == page.target_date %} is-current{% endif %}" href="{{ post.url | relative_url }}"{% if post.target_date == page.target_date %} aria-current="page"{% endif %}>{{ post.target_date | default: post.date | date: "%Y-%m-%d" }}</a>

@@ -29,13 +29,15 @@ test('report home keeps the page content-first', async () => {
   assert.match(layout, /\.topic-card > summary/);
   assert.match(layout, /\.topic-title/);
   assert.match(layout, /class="date-sidebar"/);
-  assert.match(layout, /<h2>日期<\/h2>/);
+  assert.match(layout, /<aside class="date-sidebar" aria-label="往期热点">/);
+  assert.match(layout, /<h2>往期热点<\/h2>/);
   assert.match(layout, /<nav class="date-list" aria-label="日期列表">/);
   assert.match(layout, /id="report-date-select"/);
   assert.match(layout, /\.topic-card\.is-read/);
   assert.match(layout, /\.topic-card\.is-read > summary:hover \.topic-title/);
   assert.match(layout, /\.topic-article/);
   assert.match(layout, /\.topic-article h3/);
+  assert.doesNotMatch(layout, /\.topic-article h3::before/);
   assert.match(layout, /\.topic-article pre/);
   assert.match(layout, /\.topic-source/);
   assert.match(layout, /\.topic-content::before/);
@@ -43,6 +45,7 @@ test('report home keeps the page content-first', async () => {
   assert.match(layout, /\.topic-card\[open\] > summary::after/);
   assert.match(layout, /--accent: #d92d20/);
   assert.match(layout, /\.topic-article ul li::before/);
+  assert.match(layout, /\.mobile-date-jump select\s*\{[^}]*min-height: 44px/s);
   assert.match(layout, /@keyframes topic-content-reveal/);
   assert.match(layout, /prefers-reduced-motion: no-preference/);
   assert.match(layout, /\.topic-card\[open\] > \.topic-content/);
