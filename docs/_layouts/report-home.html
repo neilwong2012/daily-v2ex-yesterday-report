@@ -255,7 +255,37 @@
       .topic-article {
         color: #303030;
       }
-      .topic-article p { margin-bottom: 16px; }
+      .topic-article h3 {
+        margin: 26px 0 10px;
+        color: var(--ink);
+        font-size: 17px;
+        line-height: 1.45;
+        letter-spacing: -.01em;
+      }
+      .topic-article h3:first-child { margin-top: 2px; }
+      .topic-article p { margin-bottom: 14px; }
+      .topic-article ul,
+      .topic-article ol {
+        margin: 0 0 18px;
+        padding-left: 1.25em;
+      }
+      .topic-article li { margin: 5px 0; }
+      .topic-article blockquote {
+        margin: 12px 0 18px;
+        padding: 8px 13px;
+        border-left-width: 2px;
+        font-size: 15px;
+      }
+      .topic-article pre {
+        margin: 12px 0 18px;
+        padding: 13px 15px;
+        overflow-x: auto;
+        border-radius: 7px;
+        background: var(--soft);
+        font-size: 14px;
+        line-height: 1.6;
+      }
+      .topic-article > :last-child { margin-bottom: 0; }
       .topic-source {
         margin-top: 26px;
         margin-bottom: 34px;
