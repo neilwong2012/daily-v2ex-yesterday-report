@@ -639,6 +639,7 @@ async function main() {
       && analysisReplyBag.length > 0
       && successfulAnalyses.length / analysisReplyBag.length < minimumSuccessRatio
     ) {
+      console.error('DeepSeek failure samples:', JSON.stringify(failedAnalyses.slice(0, 5), null, 2));
       throw new Error(`DeepSeek analysis success ratio ${successfulAnalyses.length}/${analysisReplyBag.length} is below ${minimumSuccessRatio}`);
     }
     const topicById = new Map(includedTopics.map((topic) => [topic.id, topic]));
