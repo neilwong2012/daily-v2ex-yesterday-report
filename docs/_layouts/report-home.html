@@ -32,7 +32,7 @@
         margin: 0;
         background: var(--bg);
         color: var(--ink);
-        font: 17px/1.78 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+        font: 17px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
         text-rendering: optimizeLegibility;
       }
       a {
@@ -48,7 +48,7 @@
         margin: 0 auto;
       }
       .site-header-inner {
-        min-height: 58px;
+        min-height: 54px;
         display: flex;
         align-items: center;
       }
@@ -72,10 +72,10 @@
         grid-template-columns: minmax(0, var(--content-width)) 180px;
         align-items: start;
         gap: 64px;
-        padding: 48px 0 72px;
+        padding: 36px 0 56px;
       }
       .content-column { min-width: 0; }
-      .report-header { margin-bottom: 30px; }
+      .report-header { margin-bottom: 24px; }
       .kicker {
         margin: 0;
         color: var(--ink);
@@ -151,13 +151,13 @@
         display: flex;
         align-items: baseline;
         gap: 12px;
-        padding: 20px 0;
+        padding: 15px 0;
         cursor: pointer;
         list-style: none;
       }
       .topic-card > summary::-webkit-details-marker { display: none; }
       .topic-card > summary:hover .topic-title { color: var(--accent); }
-      .topic-card[open] > summary { padding-bottom: 14px; }
+      .topic-card[open] > summary { padding-bottom: 10px; }
       .topic-card > summary::after {
         width: 9px;
         height: 9px;
@@ -208,12 +208,12 @@
       .topic-card > p:first-of-type { font-size: 14px; }
       .topic-content {
         position: relative;
-        margin-bottom: 30px;
-        padding: 18px 0 0 42px;
+        margin-bottom: 24px;
+        padding: 14px 0 0 42px;
       }
       .topic-content::before {
         position: absolute;
-        top: 18px;
+        top: 14px;
         bottom: 0;
         left: 0;
         width: 3px;
@@ -223,22 +223,22 @@
       }
       .topic-article {
         margin: 0;
-        padding: 20px 0 6px;
+        padding: 16px 0 4px;
         background: transparent;
         color: #303030;
       }
       .topic-article h3 {
         position: relative;
-        margin: 26px 0 10px;
+        margin: 22px 0 8px;
         color: var(--ink);
         font-size: 17px;
         line-height: 1.45;
         letter-spacing: -.01em;
       }
       .topic-article h3:first-child { margin-top: 2px; }
-      .topic-article p { margin-bottom: 14px; }
+      .topic-article p { margin-bottom: 12px; }
       .topic-article ul {
-        margin: 0 0 18px;
+        margin: 0 0 14px;
         padding-left: 0;
         list-style: none;
       }
@@ -258,10 +258,10 @@
         transform: translateY(-50%);
       }
       .topic-article ol {
-        margin: 0 0 18px;
+        margin: 0 0 14px;
         padding-left: 1.3em;
       }
-      .topic-article li { margin: 5px 0; }
+      .topic-article li { margin: 4px 0; }
       .topic-article blockquote {
         margin: 12px 0 18px;
         padding: 8px 13px;
@@ -280,7 +280,7 @@
       .topic-article > :last-child { margin-bottom: 0; }
       .topic-source {
         margin: 0;
-        padding: 0 0 13px;
+        padding: 0 0 10px;
         border-bottom: 1px solid var(--line);
         background: transparent;
         color: var(--muted);
@@ -337,7 +337,7 @@
         scrollbar-width: thin;
       }
       .date-sidebar h2 {
-        margin: 0 0 16px;
+        margin: 0 0 12px;
         color: var(--muted);
         font-size: 13px;
         font-weight: 650;
@@ -346,7 +346,7 @@
       .date-list { display: grid; gap: 2px; }
       .date-link {
         display: block;
-        padding: 6px 9px;
+        padding: 4px 9px;
         border-radius: 6px;
         color: var(--muted);
         font-size: 13px;
@@ -372,7 +372,7 @@
           display: flex;
           align-items: center;
           gap: 10px;
-          margin-bottom: 28px;
+          margin-bottom: 20px;
           color: var(--muted);
           font-size: 13px;
         }
@@ -389,25 +389,26 @@
         }
       }
       @media (max-width: 640px) {
-        body { font-size: 16px; line-height: 1.75; }
+        body { font-size: 16px; line-height: 1.68; }
         .site-header-inner,
         .page-shell { width: min(calc(100% - 32px), var(--content-width)); }
-        .site-header-inner { min-height: 52px; }
-        .page-shell { padding: 30px 0 52px; }
-        .mobile-date-jump { margin-bottom: 24px; }
-        .report-header { margin-bottom: 24px; }
+        .site-header-inner { min-height: 50px; }
+        .page-shell { padding: 24px 0 44px; }
+        .mobile-date-jump { margin-bottom: 18px; }
+        .report-header { margin-bottom: 20px; }
         .kicker { font-size: 23px; }
         .report h2 { margin-top: 48px; font-size: 24px; }
-        .topic-card > summary { align-items: baseline; gap: 8px; padding: 17px 0; }
+        .topic-card > summary { min-height: 52px; align-items: baseline; gap: 8px; padding: 13px 0; }
+        .topic-card[open] > summary { padding-bottom: 10px; }
         .topic-rank { min-width: 1.9em; }
-        .topic-title { font-size: 17px; line-height: 1.5; }
+        .topic-title { font-size: 17px; line-height: 1.45; }
         .topic-card > p,
         .topic-card > ul,
         .topic-card > ol,
         .topic-card > .analysis-evidence { margin-left: 0; margin-right: 0; }
         .topic-content { padding-left: 30px; }
-        .topic-article { padding: 19px 0 4px; }
-        .topic-source { padding-bottom: 12px; }
+        .topic-article { padding: 15px 0 3px; }
+        .topic-source { padding-bottom: 10px; }
       }
     </style>
   </head>
