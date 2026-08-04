@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} | {{ site.title }}</title>
     <meta name="description" content="{{ page.summary | default: site.description | strip_html | escape }}">
+    <meta name="theme-color" content="#2563eb">
     <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/v2ex-hot-icon.svg' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon-16x16.png' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/apple-touch-icon.png' | relative_url }}">
     <style>
       :root {
         color-scheme: light;
@@ -46,10 +51,19 @@
         align-items: center;
       }
       .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 9px;
         color: var(--ink);
         font-size: 15px;
         font-weight: 720;
         letter-spacing: .01em;
+      }
+      .brand-mark {
+        width: 26px;
+        height: 26px;
+        flex: 0 0 auto;
+        border-radius: 6px;
       }
       .page-shell {
         display: grid;
@@ -403,7 +417,10 @@
   <body class="status-{{ page.status | default: 'success' }}">
     <header class="site-header">
       <div class="site-header-inner">
-        <a class="brand" href="{{ '/' | relative_url }}">V2EX 每日报告</a>
+        <a class="brand" href="{{ '/' | relative_url }}">
+          <img class="brand-mark" src="{{ '/assets/v2ex-hot-icon.svg' | relative_url }}" width="26" height="26" alt="">
+          <span>V2EX 每日报告</span>
+        </a>
       </div>
     </header>
 
