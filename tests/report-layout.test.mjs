@@ -33,7 +33,12 @@ test('report home keeps the page content-first', async () => {
   assert.match(layout, /\.topic-article h3/);
   assert.match(layout, /\.topic-article pre/);
   assert.match(layout, /\.topic-source/);
-  assert.match(layout, /border-left: 2px solid #d4d4d4/);
+  assert.match(layout, /--accent: #d92d20/);
+  assert.match(layout, /\.topic-article::before/);
+  assert.match(layout, /\.topic-article ul li::before/);
+  assert.match(layout, /@keyframes topic-content-reveal/);
+  assert.match(layout, /prefers-reduced-motion: no-preference/);
+  assert.match(layout, /\.topic-card\[open\] > \.topic-article/);
   assert.match(layout, /localStorage\.setItem\(readStorageKey/);
   assert.doesNotMatch(layout, /topic-summary-meta|topic-read-state|topic-toggle|topic-risk/);
   assert.doesNotMatch(layout, /class="archive"|href="#archive"/);
@@ -55,4 +60,11 @@ test('publisher exposes valuable topic count without duplicating report cards', 
 test('report URLs use a date-only permalink', async () => {
   const config = await fs.readFile(new URL('../docs/_config.yml', import.meta.url), 'utf8');
   assert.match(config, /^permalink: \/:year\/:month\/:day\/$/m);
+});
+
+test('site icon uses a white mark on hotspot red', async () => {
+  const icon = await fs.readFile(new URL('../docs/assets/v2ex-hot-icon.svg', import.meta.url), 'utf8');
+  assert.match(icon, /fill="#e53935"/);
+  assert.match(icon, /fill="#fff"/);
+  assert.doesNotMatch(icon, /#2563eb/);
 });
