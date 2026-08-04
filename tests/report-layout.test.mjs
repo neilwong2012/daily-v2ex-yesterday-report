@@ -23,10 +23,12 @@ test('report home keeps the page content-first', async () => {
 
   assert.match(layout, /<article class="report">\s*\{\{ content \}\}/);
   assert.match(layout, /<span>V2EX 每日热点<\/span>/);
-  assert.match(layout, /<p class="kicker">\{\{ page\.target_date \}\}<\/p>/);
+  assert.match(layout, /<p class="kicker">\{\{ page\.target_date \| date: "%Y年%m月%d日" \}\} 热点内容<\/p>/);
   assert.match(layout, /\.topic-card > summary/);
   assert.match(layout, /\.topic-title/);
   assert.match(layout, /class="date-sidebar"/);
+  assert.match(layout, /<h2>日期<\/h2>/);
+  assert.match(layout, /<nav class="date-list" aria-label="日期列表">/);
   assert.match(layout, /id="report-date-select"/);
   assert.match(layout, /\.topic-card\.is-read/);
   assert.match(layout, /\.topic-card\.is-read > summary:hover \.topic-title/);
@@ -46,7 +48,10 @@ test('report home keeps the page content-first', async () => {
   assert.match(layout, /\.topic-card\[open\] > \.topic-article/);
   assert.match(layout, /localStorage\.setItem\(readStorageKey/);
   assert.match(layout, /replace\('原标题：', '原链接：'\)/);
+  assert.match(layout, /insertBefore\(source, article\)/);
+  assert.equal((layout.match(/<label for="report-date-select">切换日期<\/label>/g) || []).length, 1);
   assert.doesNotMatch(layout, /昨日内容精选|class="metrics"|page\.hero_title/);
+  assert.doesNotMatch(layout, /date-month|报告日期|选择报告日期|按日期查看报告/);
   assert.doesNotMatch(layout, /topic-summary-meta|topic-read-state|topic-toggle|topic-risk/);
   assert.doesNotMatch(layout, /class="archive"|href="#archive"/);
   assert.doesNotMatch(layout, /summary-panel|trend-list|topic-list|阅读全文/);

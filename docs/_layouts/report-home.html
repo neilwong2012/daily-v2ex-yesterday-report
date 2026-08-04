@@ -80,6 +80,7 @@
         margin: 0;
         color: var(--muted);
         font-size: 14px;
+        text-align: center;
         font-variant-numeric: tabular-nums;
       }
       .blocked-note {
@@ -206,15 +207,15 @@
         position: relative;
         margin-left: 0;
         margin-right: 0;
-        margin-bottom: 0;
-        padding: 23px 0 6px 42px;
+        margin-bottom: 30px;
+        padding: 20px 0 6px 42px;
         background: transparent;
         color: #303030;
       }
       .topic-article::before {
         position: absolute;
-        top: 25px;
-        bottom: -19px;
+        top: -19px;
+        bottom: -30px;
         left: 0;
         width: 3px;
         border-radius: 999px;
@@ -290,17 +291,17 @@
       .topic-source {
         position: relative;
         margin-top: 18px;
-        margin-bottom: 30px;
-        padding: 13px 0 0 42px;
-        border-top: 1px solid var(--line);
+        margin-bottom: 0;
+        padding: 0 0 13px 42px;
+        border-bottom: 1px solid var(--line);
         background: transparent;
         color: var(--muted);
         font-size: 14px;
       }
       .topic-source::before {
         position: absolute;
-        top: -19px;
-        bottom: -30px;
+        top: 0;
+        bottom: -20px;
         left: 0;
         width: 3px;
         border-radius: 999px;
@@ -334,7 +335,7 @@
         .topic-card[open] > .topic-source {
           animation: topic-content-reveal 180ms cubic-bezier(.2, .7, .2, 1) both;
         }
-        .topic-card[open] > .topic-source { animation-delay: 25ms; }
+        .topic-card[open] > .topic-article { animation-delay: 25ms; }
       }
       .analysis-evidence {
         margin: 18px 0 34px;
@@ -366,13 +367,6 @@
         font-weight: 650;
         letter-spacing: .08em;
       }
-      .date-month {
-        margin: 18px 0 7px;
-        color: #a3a3a3;
-        font-size: 12px;
-        font-variant-numeric: tabular-nums;
-      }
-      .date-month:first-of-type { margin-top: 0; }
       .date-list { display: grid; gap: 2px; }
       .date-link {
         display: block;
@@ -434,8 +428,8 @@
         .topic-card > ol,
         .topic-card > .analysis-evidence { margin-left: 0; margin-right: 0; }
         .topic-article { padding: 19px 0 4px 30px; }
-        .topic-article::before { top: 21px; }
-        .topic-source { padding: 12px 0 0 30px; }
+        .topic-article::before { top: -19px; }
+        .topic-source { padding: 0 0 12px 30px; }
       }
     </style>
   </head>
@@ -453,7 +447,7 @@
       <div class="content-column">
         <div class="mobile-date-jump">
           <label for="report-date-select">切换日期</label>
-          <select id="report-date-select" aria-label="选择报告日期">
+          <select id="report-date-select" aria-label="选择日期">
             {% for post in site.posts %}
               <option value="{{ post.url | relative_url }}"{% if post.target_date == page.target_date %} selected{% endif %}>{{ post.target_date | default: post.date | date: "%Y-%m-%d" }}</option>
             {% endfor %}
@@ -461,7 +455,7 @@
         </div>
 
         <header class="report-header">
-          <p class="kicker">{{ page.target_date }}</p>
+          <p class="kicker">{{ page.target_date | date: "%Y年%m月%d日" }} 热点内容</p>
           {% if page.status == 'blocked' %}
             <p class="blocked-note">本期报告生成受阻，正文保留诊断信息供排查。</p>
           {% endif %}
@@ -472,20 +466,13 @@
         </article>
       </div>
 
-      <aside class="date-sidebar" aria-label="按日期查看报告">
-        <h2>报告日期</h2>
-        {% assign current_month = '' %}
+      <aside class="date-sidebar" aria-label="按日期查看">
+        <h2>日期</h2>
+        <nav class="date-list" aria-label="日期列表">
         {% for post in site.posts %}
-          {% assign post_month = post.target_date | slice: 0, 7 %}
-          {% if post_month != current_month %}
-            {% if current_month != '' %}</nav>{% endif %}
-            <p class="date-month">{{ post_month }}</p>
-            <nav class="date-list" aria-label="{{ post_month }} 报告">
-            {% assign current_month = post_month %}
-          {% endif %}
           <a class="date-link{% if post.target_date == page.target_date %} is-current{% endif %}" href="{{ post.url | relative_url }}"{% if post.target_date == page.target_date %} aria-current="page"{% endif %}>{{ post.target_date | default: post.date | date: "%Y-%m-%d" }}</a>
-          {% if forloop.last %}</nav>{% endif %}
         {% endfor %}
+        </nav>
       </aside>
     </main>
 
@@ -523,6 +510,10 @@
         }
 
         document.querySelectorAll('.topic-source').forEach((source) => {
+          const article = source.previousElementSibling;
+          if (article?.classList.contains('topic-article')) {
+            source.parentElement.insertBefore(source, article);
+          }
           const label = source.firstChild;
           if (label?.nodeType === Node.TEXT_NODE) {
             label.textContent = label.textContent.replace('原标题：', '原链接：');
