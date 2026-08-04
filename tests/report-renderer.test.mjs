@@ -49,6 +49,7 @@ test('renders every valuable topic once as a collapsed title and sorts by value 
   assert.match(report, /主题 1 的精编文章/);
   assert.doesNotMatch(report, /主题 1 的旧版核心信息/);
   assert.doesNotMatch(report, /主要趋势|工具 \/ 项目|回复里的有效信息/);
+  assert.doesNotMatch(report, /## 值得读的内容|按综合价值评分排列/);
   assert.doesNotMatch(report, /## 报告说明/);
 });
 
@@ -92,7 +93,7 @@ test('renders each analysis as safe Markdown with the original title at the bott
   assert.match(report, /<span class="topic-title">综合分析后的信息型标题<\/span>/);
   assert.match(report, /data-topic-id="123"/);
   assert.match(report, /<div class="topic-article" markdown="1">\s*### 核心内容\s*第一段保留\*\*核心事实\*\*。\s*### 关键要点\s*- 第二段综合评论共识\s*- 危险链接\s*-\s+site\.secret\s*忽略\s*<\/div>/);
-  assert.match(report, /<p class="topic-source">原标题：<a href="https:\/\/www\.v2ex\.com\/t\/123" target="_blank" rel="noopener noreferrer">综合分析主题<\/a><\/p>/);
+  assert.match(report, /<p class="topic-source">原链接：<a href="https:\/\/www\.v2ex\.com\/t\/123" target="_blank" rel="noopener noreferrer">综合分析主题<\/a><\/p>/);
   assert.doesNotMatch(report, /<strong>综合分 \d+|>AI与开发<|3 回复|8 收藏|topic-summary-meta|topic-read-state|topic-toggle|topic-risk/);
   assert.doesNotMatch(report, /javascript:|<script>|\{\{/);
   assert.doesNotMatch(report, /\*\*(?:推荐理由|核心信息|可执行建议|评论共识|不同意见)|评分详情与内容依据/);

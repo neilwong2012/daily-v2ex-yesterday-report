@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }} | {{ site.title }}</title>
+    <title>{{ site.title }}{% if page.target_date %} · {{ page.target_date }}{% endif %}</title>
     <meta name="description" content="{{ page.summary | default: site.description | strip_html | escape }}">
     <meta name="theme-color" content="#e53935">
     <link rel="canonical" href="{{ page.url | absolute_url }}">
@@ -75,39 +75,11 @@
         padding: 48px 0 72px;
       }
       .content-column { min-width: 0; }
-      .report-header { margin-bottom: 38px; }
+      .report-header { margin-bottom: 22px; }
       .kicker {
-        margin: 0 0 13px;
-        color: var(--muted);
-        font-size: 14px;
-        font-variant-numeric: tabular-nums;
-      }
-      .report-header h1 {
         margin: 0;
-        max-width: 720px;
-        font-size: clamp(32px, 5vw, 44px);
-        line-height: 1.13;
-        letter-spacing: -.035em;
-      }
-      .metrics {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 7px 0;
-        margin: 24px 0 0;
-        padding: 0;
         color: var(--muted);
         font-size: 14px;
-        list-style: none;
-      }
-      .metrics li { white-space: nowrap; }
-      .metrics li + li::before {
-        content: "·";
-        margin: 0 9px;
-        color: #a3a3a3;
-      }
-      .metrics strong {
-        color: var(--ink);
-        font-size: 16px;
         font-variant-numeric: tabular-nums;
       }
       .blocked-note {
@@ -182,6 +154,25 @@
       .topic-card > summary::-webkit-details-marker { display: none; }
       .topic-card > summary:hover .topic-title { color: var(--accent); }
       .topic-card[open] > summary { padding-bottom: 14px; }
+      .topic-card > summary::after {
+        width: 9px;
+        height: 9px;
+        flex: 0 0 auto;
+        align-self: center;
+        margin: 0 4px 0 auto;
+        border-right: 2px solid var(--accent);
+        border-bottom: 2px solid var(--accent);
+        content: "";
+        opacity: 0;
+        transform: translateY(-2px) rotate(45deg);
+        transform-origin: center;
+      }
+      .topic-card > summary:has(.topic-title:hover)::after,
+      .topic-card > summary:focus-visible::after,
+      .topic-card[open] > summary::after { opacity: 1; }
+      .topic-card[open] > summary::after {
+        transform: translateY(2px) rotate(225deg);
+      }
       .topic-rank {
         min-width: 2.2em;
         color: #a3a3a3;
@@ -223,7 +214,7 @@
       .topic-article::before {
         position: absolute;
         top: 25px;
-        bottom: 8px;
+        bottom: -19px;
         left: 0;
         width: 3px;
         border-radius: 999px;
@@ -292,13 +283,29 @@
         line-height: 1.6;
       }
       .topic-article > :last-child { margin-bottom: 0; }
+      .topic-card > .topic-source {
+        margin-left: 0;
+        margin-right: 0;
+      }
       .topic-source {
-        margin: 18px 0 30px;
+        position: relative;
+        margin-top: 18px;
+        margin-bottom: 30px;
         padding: 13px 0 0 42px;
         border-top: 1px solid var(--line);
         background: transparent;
         color: var(--muted);
         font-size: 14px;
+      }
+      .topic-source::before {
+        position: absolute;
+        top: -19px;
+        bottom: -30px;
+        left: 0;
+        width: 3px;
+        border-radius: 999px;
+        background: linear-gradient(180deg, var(--accent), var(--accent-line));
+        content: "";
       }
       .topic-source a {
         color: #a82a21;
@@ -320,6 +327,9 @@
         }
       }
       @media (prefers-reduced-motion: no-preference) {
+        .topic-card > summary::after {
+          transition: opacity 140ms ease, transform 220ms cubic-bezier(.2, .7, .2, 1);
+        }
         .topic-card[open] > .topic-article,
         .topic-card[open] > .topic-source {
           animation: topic-content-reveal 180ms cubic-bezier(.2, .7, .2, 1) both;
@@ -414,9 +424,7 @@
         .site-header-inner { min-height: 52px; }
         .page-shell { padding: 30px 0 52px; }
         .mobile-date-jump { margin-bottom: 24px; }
-        .report-header { margin-bottom: 32px; }
-        .report-header h1 { font-size: 32px; }
-        .metrics { margin-top: 18px; }
+        .report-header { margin-bottom: 18px; }
         .report h2 { margin-top: 48px; font-size: 24px; }
         .topic-card > summary { align-items: baseline; gap: 8px; padding: 17px 0; }
         .topic-rank { min-width: 1.9em; }
@@ -436,7 +444,7 @@
       <div class="site-header-inner">
         <a class="brand" href="{{ '/' | relative_url }}">
           <img class="brand-mark" src="{{ '/assets/v2ex-hot-icon.svg' | relative_url }}" width="26" height="26" alt="">
-          <span>V2EX 每日报告</span>
+          <span>V2EX 每日热点</span>
         </a>
       </div>
     </header>
@@ -453,12 +461,7 @@
         </div>
 
         <header class="report-header">
-          <p class="kicker">{{ page.target_date }} · 昨日内容精选</p>
-          <h1>{{ page.hero_title | default: page.title }}</h1>
-          <ul class="metrics" aria-label="报告概览">
-            <li><strong>{{ page.count_valuable | default: page.count_high_signal | default: 0 }}</strong> 条值得读</li>
-            <li>来自 <strong>{{ page.count_included | default: 0 }}</strong> 个候选主题</li>
-          </ul>
+          <p class="kicker">{{ page.target_date }}</p>
           {% if page.status == 'blocked' %}
             <p class="blocked-note">本期报告生成受阻，正文保留诊断信息供排查。</p>
           {% endif %}
@@ -495,6 +498,18 @@
 
         // Older generated reports may still contain this now-retired section.
         const report = document.querySelector('.report');
+        const retiredHighlights = Array.from(report?.querySelectorAll('h2') || [])
+          .find((item) => item.textContent.trim() === '值得读的内容');
+        if (retiredHighlights) {
+          let sibling = retiredHighlights.nextElementSibling;
+          while (sibling && !sibling.matches('.topic-card')) {
+            const next = sibling.nextElementSibling;
+            sibling.remove();
+            sibling = next;
+          }
+          retiredHighlights.remove();
+        }
+
         const heading = Array.from(report?.querySelectorAll('h2') || [])
           .find((item) => item.textContent.trim() === '报告说明');
         if (heading) {
@@ -506,6 +521,13 @@
           }
           heading.remove();
         }
+
+        document.querySelectorAll('.topic-source').forEach((source) => {
+          const label = source.firstChild;
+          if (label?.nodeType === Node.TEXT_NODE) {
+            label.textContent = label.textContent.replace('原标题：', '原链接：');
+          }
+        });
 
         const readStorageKey = 'v2ex-report-read-topics-v1';
         let readTopicIds = new Set();

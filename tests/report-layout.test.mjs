@@ -22,7 +22,8 @@ test('report home keeps the page content-first', async () => {
   );
 
   assert.match(layout, /<article class="report">\s*\{\{ content \}\}/);
-  assert.match(layout, /count_valuable/);
+  assert.match(layout, /<span>V2EX 每日热点<\/span>/);
+  assert.match(layout, /<p class="kicker">\{\{ page\.target_date \}\}<\/p>/);
   assert.match(layout, /\.topic-card > summary/);
   assert.match(layout, /\.topic-title/);
   assert.match(layout, /class="date-sidebar"/);
@@ -33,6 +34,10 @@ test('report home keeps the page content-first', async () => {
   assert.match(layout, /\.topic-article h3/);
   assert.match(layout, /\.topic-article pre/);
   assert.match(layout, /\.topic-source/);
+  assert.match(layout, /\.topic-card > \.topic-source/);
+  assert.match(layout, /\.topic-source::before/);
+  assert.match(layout, /summary:has\(\.topic-title:hover\)::after/);
+  assert.match(layout, /\.topic-card\[open\] > summary::after/);
   assert.match(layout, /--accent: #d92d20/);
   assert.match(layout, /\.topic-article::before/);
   assert.match(layout, /\.topic-article ul li::before/);
@@ -40,6 +45,8 @@ test('report home keeps the page content-first', async () => {
   assert.match(layout, /prefers-reduced-motion: no-preference/);
   assert.match(layout, /\.topic-card\[open\] > \.topic-article/);
   assert.match(layout, /localStorage\.setItem\(readStorageKey/);
+  assert.match(layout, /replace\('原标题：', '原链接：'\)/);
+  assert.doesNotMatch(layout, /昨日内容精选|class="metrics"|page\.hero_title/);
   assert.doesNotMatch(layout, /topic-summary-meta|topic-read-state|topic-toggle|topic-risk/);
   assert.doesNotMatch(layout, /class="archive"|href="#archive"/);
   assert.doesNotMatch(layout, /summary-panel|trend-list|topic-list|阅读全文/);

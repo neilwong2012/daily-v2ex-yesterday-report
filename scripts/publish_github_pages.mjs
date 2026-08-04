@@ -180,7 +180,6 @@ function pageFrontMatter({ layout, title, status, summary, targetDate, payload }
     '---',
     `layout: ${layout}`,
     `title: "${yamlEscape(title)}"`,
-    `hero_title: "昨日 V2EX 值得读"`,
     `date: ${targetDate} 08:30:00 +0800`,
     `categories: [v2ex, daily-report]`,
     `status: ${status}`,
@@ -223,7 +222,7 @@ async function main() {
     await fs.writeFile(dataPath, JSON.stringify(publicPayload, null, 2));
   }
 
-  const postTitle = `V2EX ${targetDate} 昨日新帖报告${status === 'blocked' ? '（阻塞）' : ''}`;
+  const postTitle = `V2EX 每日热点 · ${targetDate}${status === 'blocked' ? '（阻塞）' : ''}`;
   const lines = [
     pageFrontMatter({ layout: 'report-post', title: postTitle, status, summary, targetDate, payload }),
     '',
@@ -236,7 +235,7 @@ async function main() {
 
   await fs.writeFile(postPath, post);
   await fs.writeFile(new URL('../docs/index.md', import.meta.url), `${[
-    pageFrontMatter({ layout: 'report-home', title: 'V2EX 昨日新帖报告', status, summary, targetDate, payload }),
+    pageFrontMatter({ layout: 'report-home', title: 'V2EX 每日热点', status, summary, targetDate, payload }),
     '',
     markdown,
     '',
@@ -244,8 +243,7 @@ async function main() {
   await fs.writeFile(new URL('../docs/latest.md', import.meta.url), `${[
     '---',
     'layout: report-home',
-    'title: "最新报告"',
-    `hero_title: "昨日 V2EX 值得读"`,
+    'title: "V2EX 每日热点"',
     'permalink: /latest/',
     `status: ${status}`,
     `target_date: ${targetDate}`,
