@@ -6,7 +6,7 @@ date: 2026-08-03 08:30:00 +0800
 categories: [v2ex, daily-report]
 status: blocked
 target_date: 2026-08-03
-generated_at: "2026-08-04 21:49:48"
+generated_at: "2026-08-04 22:14:39"
 summary: "API 抓取失败，已发布阻塞诊断。"
 count_all: 0
 count_excluded: 0
@@ -19,7 +19,7 @@ data_url: "/data/2026-08-03.json"
 
 # V2EX 2026-08-03 昨日新帖报告（阻塞）
 
-抓取时间：2026-08-04 21:49:47（Asia/Shanghai）  
+抓取时间：2026-08-04 22:14:39（Asia/Shanghai）  
 时间口径：2026-08-03 00:00:00 到次日 00:00:00（Asia/Shanghai）  
 状态：数据抓取或 DeepSeek 分析失败，未生成有效分析报告。
 
@@ -29,7 +29,7 @@ data_url: "/data/2026-08-03.json"
 - DEEPSEEK_API_KEY：已检测到
 - 代理环境：未检测到
 - 是否已尝试代理：否
-- 具体错误：Error: DeepSeek analysis success ratio 84/188 is below 0.8
+- 具体错误：Error: DeepSeek analysis success ratio 116/189 is below 0.8
 
 ## 需要修复
 
