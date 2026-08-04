@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-import { MIN_CONTENT_SCORE, replyWeightForCount } from '../lib/deepseek-analysis.mjs';
+import { isAnalysisCandidate, MIN_CONTENT_SCORE, replyWeightForCount } from '../lib/deepseek-analysis.mjs';
 
 const timezone = 'Asia/Shanghai';
 const targetDate = process.env.V2EX_DATE || getShanghaiDateOffset(-1);
@@ -153,6 +153,7 @@ function countValuable(payload) {
     const topicById = new Map((payload.includedTopics || []).map((topic) => [Number(topic.id), topic]));
     return analyses
       .map((item) => withReplyWeight(item, topicById.get(Number(item.topic_id))))
+      .filter((item) => isAnalysisCandidate(topicById.get(Number(item.topic_id))))
       .filter((item) => item.status === 'success' && item.keep && Number(item.value_score) >= threshold)
       .length;
   }

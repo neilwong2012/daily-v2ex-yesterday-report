@@ -57,6 +57,7 @@ test('retries a 522 response, records it, and continues the topic scan', async (
           has_reusable_information: true,
           category: '经验与教程',
           optimized_title: '经过验证的测试方法',
+          article: '先验证输入，再执行后续步骤。这一方法已经过测试，可以复用。',
           recommendation_reason: '包含经过验证、可以复用的测试方法。',
           summary: '包含可以复用的测试经验。',
           core_information: ['先验证输入，再执行后续步骤。'],
@@ -97,7 +98,7 @@ test('retries a 522 response, records it, and continues the topic scan', async (
         url: `https://www.v2ex.com/t/${id}`,
         created: shanghaiEpoch('2026-08-03'),
         replies: 0,
-        stars: 0,
+        stars: 1,
         node: { title: '问与答' },
         member: { username: 'tester' },
       },
@@ -149,7 +150,8 @@ test('retries a 522 response, records it, and continues the topic scan', async (
   });
   const report = await fs.readFile(path.join(tempDir, 'v2ex_2026-08-03_report.md'), 'utf8');
   assert.match(report, /## 值得读的内容/);
-  assert.match(report, /包含可以复用的测试经验/);
+  assert.match(report, /这一方法已经过测试，可以复用/);
+  assert.match(report, /原标题：<a[^>]+target="_blank"[^>]*>普通测试主题<\/a>/);
   assert.doesNotMatch(report, /报告说明|重试耗尽后跳过的临时 API 错误/);
   const replyArchive = JSON.parse(await fs.readFile(path.join(tempDir, 'v2ex_yesterday_data/replies_2026-08-03.json'), 'utf8'));
   assert.equal(replyArchive.topics.length, 1);

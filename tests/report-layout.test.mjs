@@ -29,6 +29,8 @@ test('report home keeps the page content-first', async () => {
   assert.match(layout, /id="report-date-select"/);
   assert.match(layout, /\.topic-card\.is-read/);
   assert.match(layout, /\.topic-risk-verify/);
+  assert.match(layout, /\.topic-article/);
+  assert.match(layout, /\.topic-source/);
   assert.match(layout, /localStorage\.setItem\(readStorageKey/);
   assert.doesNotMatch(layout, /class="archive"|href="#archive"/);
   assert.doesNotMatch(layout, /summary-panel|trend-list|topic-list|阅读全文/);

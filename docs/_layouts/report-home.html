@@ -242,6 +242,8 @@
       }
       .topic-toggle::before { content: "+"; }
       .topic-card[open] .topic-toggle::before { content: "−"; }
+      .topic-card > .topic-article,
+      .topic-card > .topic-source,
       .topic-card > p,
       .topic-card > ul,
       .topic-card > ol,
@@ -250,6 +252,18 @@
         margin-right: 38px;
       }
       .topic-card > p:first-of-type { font-size: 14px; }
+      .topic-article {
+        color: #303030;
+      }
+      .topic-article p { margin-bottom: 16px; }
+      .topic-source {
+        margin-top: 26px;
+        margin-bottom: 34px;
+        padding-top: 14px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 14px;
+      }
       .analysis-evidence {
         margin: 18px 0 34px;
         padding: 12px 14px;
@@ -347,6 +361,8 @@
         .topic-rank { min-width: 1.9em; }
         .topic-title { font-size: 17px; line-height: 1.5; }
         .topic-summary-meta { margin-left: 2.5em; }
+        .topic-card > .topic-article,
+        .topic-card > .topic-source,
         .topic-card > p,
         .topic-card > ul,
         .topic-card > ol,

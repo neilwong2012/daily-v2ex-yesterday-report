@@ -33,6 +33,7 @@ test('renders every valuable topic once as a collapsed title and sorts by value 
     },
     value_score: 70 + index,
     category: '经验与教程',
+    article: `主题 ${index + 1} 的精编文章。`,
     summary: `主题 ${index + 1} 的摘要`,
     key_takeaways: [`主题 ${index + 1} 的旧版核心信息`],
     evidence_reply_ids: [],
@@ -45,12 +46,13 @@ test('renders every valuable topic once as a collapsed title and sorts by value 
   assert.equal((report.match(/<summary>/g) || []).length, 22);
   assert.ok(report.indexOf('主题 22') < report.indexOf('主题 1'));
   assert.equal((report.match(/https:\/\/www\.v2ex\.com\/t\/7/g) || []).length, 1);
-  assert.match(report, /主题 1 的旧版核心信息/);
+  assert.match(report, /主题 1 的精编文章/);
+  assert.doesNotMatch(report, /主题 1 的旧版核心信息/);
   assert.doesNotMatch(report, /主要趋势|工具 \/ 项目|回复里的有效信息/);
   assert.doesNotMatch(report, /## 报告说明/);
 });
 
-test('renders comprehensive extraction and collapses scoring evidence', () => {
+test('renders each analysis as a concise article with the original title at the bottom', () => {
   const item = {
     topic: {
       id: 123,
@@ -65,6 +67,7 @@ test('renders comprehensive extraction and collapses scoring evidence', () => {
     reply_weight: 6,
     category: 'AI与开发',
     optimized_title: '综合分析后的信息型标题',
+    article: '第一段保留核心事实。\n\n第二段综合评论共识、分歧和限制。',
     recommendation_reason: '提供了可执行且经评论验证的方法。',
     summary: '这是正文与评论的综合摘要。',
     core_information: ['核心事实'],
@@ -86,17 +89,12 @@ test('renders comprehensive extraction and collapses scoring evidence', () => {
 
   const report = renderValueReport(payloadWith([item]));
 
-  assert.match(report, /推荐理由：/);
   assert.match(report, /<span class="topic-title">综合分析后的信息型标题<\/span>/);
   assert.match(report, /data-topic-id="123"/);
   assert.match(report, /topic-risk-verify">待核验/);
   assert.match(report, /topic-risk-disputed">有争议/);
   assert.match(report, /class="topic-read-state">已读/);
-  assert.match(report, /原标题：.*综合分析主题/);
-  assert.match(report, /评论共识/);
-  assert.match(report, /不同意见/);
-  assert.match(report, /<details class="analysis-evidence"/);
-  assert.match(report, /信息密度 22/);
-  assert.match(report, /内容基础分 88 · 回复权重 \+6/);
-  assert.match(report, /#456/);
+  assert.match(report, /<div class="topic-article">\s*<p>第一段保留核心事实。<\/p>\s*<p>第二段综合评论共识、分歧和限制。<\/p>\s*<\/div>/);
+  assert.match(report, /<p class="topic-source">原标题：<a href="https:\/\/www\.v2ex\.com\/t\/123" target="_blank" rel="noopener noreferrer">综合分析主题<\/a><\/p>/);
+  assert.doesNotMatch(report, /\*\*(?:推荐理由|核心信息|可执行建议|评论共识|不同意见)|评分详情与内容依据/);
 });

@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import { spawnSync } from 'node:child_process';
-import { analyzeTopicsWithDeepSeek } from './lib/deepseek-analysis.mjs';
+import { analyzeTopicsWithDeepSeek, isAnalysisCandidate } from './lib/deepseek-analysis.mjs';
 import { renderValueReport } from './lib/report-renderer.mjs';
 
 const base = process.env.V2EX_BASE_URL || 'https://www.v2ex.com';
@@ -608,7 +608,9 @@ async function main() {
     const details = await collectTopicDetails(idScan.candidates);
     const allCreatedTopics = details.filter((topic) => !topic.error && topicDate(topic.created) === targetDate);
     const excludedTopics = allCreatedTopics.filter(isExcludedTopic);
-    const includedTopics = allCreatedTopics.filter((topic) => !isExcludedTopic(topic));
+    const contentEligibleTopics = allCreatedTopics.filter((topic) => !isExcludedTopic(topic));
+    const noEngagementTopics = contentEligibleTopics.filter((topic) => !isAnalysisCandidate(topic));
+    const includedTopics = contentEligibleTopics.filter(isAnalysisCandidate);
     const allReplyBag = await collectReplies(allCreatedTopics);
     await fs.writeFile(repliesFile, JSON.stringify(scrubSecrets({
       targetDate,
@@ -632,7 +634,11 @@ async function main() {
     const successfulAnalyses = analysisResults.filter((item) => item.status === 'success');
     const failedAnalyses = analysisResults.filter((item) => item.status === 'failed');
     const minimumSuccessRatio = Number(process.env.DEEPSEEK_MIN_SUCCESS_RATIO || 0.8);
-    if (deepseekEnabled && successfulAnalyses.length / Math.max(analysisReplyBag.length, 1) < minimumSuccessRatio) {
+    if (
+      deepseekEnabled
+      && analysisReplyBag.length > 0
+      && successfulAnalyses.length / analysisReplyBag.length < minimumSuccessRatio
+    ) {
       throw new Error(`DeepSeek analysis success ratio ${successfulAnalyses.length}/${analysisReplyBag.length} is below ${minimumSuccessRatio}`);
     }
     const topicById = new Map(includedTopics.map((topic) => [topic.id, topic]));
@@ -667,7 +673,9 @@ async function main() {
       scannedCandidates: idScan.candidates.length,
       counts: {
         allCreated: allCreatedTopics.length,
-        excluded: excludedTopics.length,
+        excluded: excludedTopics.length + noEngagementTopics.length,
+        excludedByNode: excludedTopics.length,
+        excludedNoEngagement: noEngagementTopics.length,
         included: includedTopics.length,
         replies: downloadedReplyCount,
         analysisSuccess: analysisStats.success,
@@ -678,6 +686,7 @@ async function main() {
       idScanCandidates: idScan.candidates,
       allCreatedTopics,
       excludedTopics,
+      noEngagementTopics,
       includedTopics,
       replyFetchErrors,
       replyArchiveFile: `v2ex_yesterday_data/replies_${targetDate}.json`,
