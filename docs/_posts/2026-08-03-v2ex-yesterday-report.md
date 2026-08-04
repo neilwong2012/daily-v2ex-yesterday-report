@@ -1,8 +1,9 @@
 ---
-layout: report-home
-title: "最新报告"
+layout: report-post
+title: "V2EX 2026-08-03 昨日新帖报告（阻塞）"
 hero_title: "昨日 V2EX 关键内容"
-permalink: /latest/
+date: 2026-08-03 08:30:00 +0800
+categories: [v2ex, daily-report]
 status: blocked
 target_date: 2026-08-03
 generated_at: "2026-08-04 08:58:46"
@@ -22,6 +23,8 @@ tool_topics:
 risk_topics:
   []
 ---
+
+> 发布状态：阻塞。生成时间：2026-08-04 08:58:46（Asia/Shanghai）。
 
 # V2EX 2026-08-03 昨日新帖报告（阻塞）
 
@@ -47,3 +50,5 @@ risk_topics:
 - 失败 JSON：[v2ex_2026-08-03_failure.json]({{ site.baseurl }}/data/2026-08-03.json)
 - 阻塞报告：[v2ex_2026-08-03_report_blocked.md]({{ page.url | relative_url }})
 
+
+数据文件：[/data/2026-08-03.json]({{ site.baseurl }}/data/2026-08-03.json)

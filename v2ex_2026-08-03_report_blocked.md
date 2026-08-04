@@ -1,28 +1,3 @@
----
-layout: report-home
-title: "最新报告"
-hero_title: "昨日 V2EX 关键内容"
-permalink: /latest/
-status: blocked
-target_date: 2026-08-03
-generated_at: "2026-08-04 08:58:46"
-summary: "API 抓取失败，已发布阻塞诊断。"
-count_all: 0
-count_excluded: 0
-count_included: 0
-count_high_signal: 0
-report_url: "/v2ex/daily-report/2026/08/03/v2ex-yesterday-report.html"
-data_url: "/data/2026-08-03.json"
-key_trends:
-  []
-top_topics:
-  []
-tool_topics:
-  []
-risk_topics:
-  []
----
-
 # V2EX 2026-08-03 昨日新帖报告（阻塞）
 
 抓取时间：2026-08-04 08:58:46（Asia/Shanghai）  
@@ -44,6 +19,5 @@ risk_topics:
 
 ## 输出文件
 
-- 失败 JSON：[v2ex_2026-08-03_failure.json]({{ site.baseurl }}/data/2026-08-03.json)
-- 阻塞报告：[v2ex_2026-08-03_report_blocked.md]({{ page.url | relative_url }})
-
+- 失败 JSON：[v2ex_2026-08-03_failure.json](/home/runner/work/daily-v2ex-yesterday-report/daily-v2ex-yesterday-report/v2ex_2026-08-03_failure.json)
+- 阻塞报告：[v2ex_2026-08-03_report_blocked.md](/home/runner/work/daily-v2ex-yesterday-report/daily-v2ex-yesterday-report/v2ex_2026-08-03_report_blocked.md)
