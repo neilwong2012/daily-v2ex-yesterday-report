@@ -13,7 +13,7 @@ count_excluded: 54
 count_included: 222
 count_high_signal: 25
 count_valuable: 36
-report_url: "/v2ex/daily-report/2026/08/03/v2ex-yesterday-report.html"
+report_url: "/2026/08/03/"
 data_url: "/data/2026-08-03.json"
 ---
 

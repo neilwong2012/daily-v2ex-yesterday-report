@@ -59,6 +59,10 @@ function yamlEscape(value) {
   return String(value).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
 }
 
+function reportUrl(dateText) {
+  return `/${dateText.slice(0, 4)}/${dateText.slice(5, 7)}/${dateText.slice(8, 10)}/`;
+}
+
 function scrubSecrets(value) {
   if (typeof value === 'string') {
     return SECRET_PATTERNS.reduce((text, pattern) => text.replace(pattern, '[REDACTED_SECRET]'), value);
@@ -187,7 +191,7 @@ function pageFrontMatter({ layout, title, status, summary, targetDate, payload }
     `count_included: ${Number(counts.included || 0)}`,
     `count_high_signal: ${Number(counts.highSignal || 0)}`,
     `count_valuable: ${countValuable(payload)}`,
-    `report_url: "/v2ex/daily-report/${targetDate.slice(0, 4)}/${targetDate.slice(5, 7)}/${targetDate.slice(8, 10)}/v2ex-yesterday-report.html"`,
+    `report_url: "${reportUrl(targetDate)}"`,
     `data_url: "/data/${targetDate}.json"`,
     '---',
   ].join('\n');
@@ -251,7 +255,7 @@ async function main() {
     `count_included: ${Number(payload?.counts?.included || 0)}`,
     `count_high_signal: ${Number(payload?.counts?.highSignal || 0)}`,
     `count_valuable: ${countValuable(payload)}`,
-    `report_url: "/v2ex/daily-report/${targetDate.slice(0, 4)}/${targetDate.slice(5, 7)}/${targetDate.slice(8, 10)}/v2ex-yesterday-report.html"`,
+    `report_url: "${reportUrl(targetDate)}"`,
     `data_url: "/data/${targetDate}.json"`,
     '---',
     '',

@@ -41,5 +41,12 @@ test('publisher exposes valuable topic count without duplicating report cards', 
   );
 
   assert.match(publisher, /count_valuable:/);
+  assert.match(publisher, /function reportUrl\(dateText\)/);
+  assert.doesNotMatch(publisher, /\/v2ex\/daily-report\//);
   assert.doesNotMatch(publisher, /frontMatterInsights|top_topics:/);
+});
+
+test('report URLs use a date-only permalink', async () => {
+  const config = await fs.readFile(new URL('../docs/_config.yml', import.meta.url), 'utf8');
+  assert.match(config, /^permalink: \/:year\/:month\/:day\/$/m);
 });

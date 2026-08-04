@@ -4,6 +4,7 @@ timezone: Asia/Shanghai
 lang: zh-CN
 markdown: kramdown
 theme: minima
+permalink: /:year/:month/:day/
 plugins:
   - jekyll-feed
 exclude:
