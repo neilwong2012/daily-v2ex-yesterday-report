@@ -122,7 +122,16 @@ function buildSummary(payload, status) {
     return `API 抓取失败，已发布阻塞诊断。`;
   }
   const counts = payload?.counts || {};
-  return `昨日主题 ${counts.allCreated ?? 0} 个，过滤 ${counts.excluded ?? 0} 个，DeepSeek 分析 ${counts.analysisSuccess ?? 0} 个，保留高价值内容 ${counts.valuable ?? counts.highSignal ?? 0} 个。`;
+  return `昨日主题 ${counts.allCreated ?? 0} 个，过滤 ${counts.excluded ?? 0} 个，DeepSeek 分析 ${counts.analysisSuccess ?? 0} 个，保留高价值内容 ${countValuable(payload)} 个。`;
+}
+
+function countValuable(payload) {
+  const analyses = payload?.deepseek?.analyses;
+  if (Array.isArray(analyses)) {
+    const threshold = Number(process.env.DEEPSEEK_VALUE_THRESHOLD || 70);
+    return analyses.filter((item) => item.status === 'success' && item.keep && Number(item.value_score) >= threshold).length;
+  }
+  return Number(payload?.counts?.valuable ?? payload?.counts?.highSignal ?? 0);
 }
 
 function pageFrontMatter({ layout, title, status, summary, targetDate, payload }) {
@@ -143,7 +152,7 @@ function pageFrontMatter({ layout, title, status, summary, targetDate, payload }
     `count_excluded: ${Number(counts.excluded || 0)}`,
     `count_included: ${Number(counts.included || 0)}`,
     `count_high_signal: ${Number(counts.highSignal || 0)}`,
-    `count_valuable: ${Number(counts.valuable ?? counts.highSignal ?? 0)}`,
+    `count_valuable: ${countValuable(payload)}`,
     `report_url: "/v2ex/daily-report/${targetDate.slice(0, 4)}/${targetDate.slice(5, 7)}/${targetDate.slice(8, 10)}/v2ex-yesterday-report.html"`,
     `data_url: "/data/${targetDate}.json"`,
     '---',
@@ -164,6 +173,9 @@ async function main() {
   const sourceReport = hasReport ? reportPath : blockedReportPath;
   const sourceData = hasReport ? rawPath : failurePath;
   const payload = scrubSecrets(await readJsonIfPresent(sourceData));
+  const publicPayload = payload && payload.counts
+    ? { ...payload, counts: { ...payload.counts, valuable: countValuable(payload) } }
+    : payload;
   const markdown = scrubSecrets(prioritizeReportContent(
     relativizeWorkspaceLinks(await fs.readFile(sourceReport, 'utf8'), targetDate),
   ));
@@ -171,7 +183,7 @@ async function main() {
 
   const hasData = await exists(sourceData);
   if (hasData) {
-    await fs.writeFile(dataPath, JSON.stringify(payload, null, 2));
+    await fs.writeFile(dataPath, JSON.stringify(publicPayload, null, 2));
   }
 
   const postTitle = `V2EX ${targetDate} 昨日新帖报告${status === 'blocked' ? '（阻塞）' : ''}`;
@@ -206,7 +218,7 @@ async function main() {
     `count_excluded: ${Number(payload?.counts?.excluded || 0)}`,
     `count_included: ${Number(payload?.counts?.included || 0)}`,
     `count_high_signal: ${Number(payload?.counts?.highSignal || 0)}`,
-    `count_valuable: ${Number(payload?.counts?.valuable ?? payload?.counts?.highSignal ?? 0)}`,
+    `count_valuable: ${countValuable(payload)}`,
     `report_url: "/v2ex/daily-report/${targetDate.slice(0, 4)}/${targetDate.slice(5, 7)}/${targetDate.slice(8, 10)}/v2ex-yesterday-report.html"`,
     `data_url: "/data/${targetDate}.json"`,
     '---',

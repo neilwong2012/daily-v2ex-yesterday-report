@@ -27,6 +27,7 @@ async function copyRuntime(tempDir) {
   await Promise.all([
     fs.copyFile(new URL('../fetch_v2ex_yesterday.mjs', import.meta.url), path.join(tempDir, 'fetch_v2ex_yesterday.mjs')),
     fs.copyFile(new URL('../lib/deepseek-analysis.mjs', import.meta.url), path.join(tempDir, 'lib/deepseek-analysis.mjs')),
+    fs.copyFile(new URL('../lib/report-renderer.mjs', import.meta.url), path.join(tempDir, 'lib/report-renderer.mjs')),
   ]);
 }
 
@@ -43,10 +44,25 @@ test('retries a 522 response, records it, and continues the topic scan', async (
         choices: [{ message: { content: JSON.stringify({
           topic_id: document.topic.id,
           value_score: 82,
+          score_breakdown: {
+            information_density: 20,
+            actionability: 20,
+            evidence_quality: 15,
+            novelty: 12,
+            topic_consistency: 10,
+            credibility: 5,
+          },
           keep: true,
+          title_content_consistent: true,
+          has_reusable_information: true,
           category: '经验与教程',
+          recommendation_reason: '包含经过验证、可以复用的测试方法。',
           summary: '包含可以复用的测试经验。',
-          key_takeaways: ['先验证输入，再执行后续步骤。'],
+          core_information: ['先验证输入，再执行后续步骤。'],
+          actionable_steps: ['先验证输入。'],
+          comment_consensus: [],
+          comment_disagreements: [],
+          caveats: [],
           evidence_reply_ids: [],
           risk_flags: ['无'],
         }) } }],
@@ -132,7 +148,7 @@ test('retries a 522 response, records it, and continues the topic scan', async (
   });
   const report = await fs.readFile(path.join(tempDir, 'v2ex_2026-08-03_report.md'), 'utf8');
   assert.match(report, /重试耗尽后跳过的临时 API 错误：1/);
-  assert.match(report, /## 今日值得看/);
+  assert.match(report, /## 有价值内容/);
   assert.match(report, /包含可以复用的测试经验/);
   const replyArchive = JSON.parse(await fs.readFile(path.join(tempDir, 'v2ex_yesterday_data/replies_2026-08-03.json'), 'utf8'));
   assert.equal(replyArchive.topics.length, 1);

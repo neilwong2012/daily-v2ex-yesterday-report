@@ -2,7 +2,7 @@
 
 This repository downloads yesterday's V2EX topics and replies, uses DeepSeek V4 Flash to select high-value content, and publishes the generated Markdown report to GitHub Pages.
 
-The report uses the Asia/Shanghai date boundary and always excludes `二手交易` and `推广` from analysis, trend counts, high-signal selection, and recommendations.
+The report uses the Asia/Shanghai date boundary and always excludes `二手交易` and `推广` from analysis and recommendations. Each remaining topic is analyzed once using its title, body, and replies, then filtered and ranked by value score without duplicated keyword-based sections.
 
 ## Setup
 
@@ -29,13 +29,22 @@ Optional variables:
 - `V2EX_API_RETRY_MAX_MS=5000`: maximum delay between retries.
 - `DEEPSEEK_MODEL=deepseek-v4-flash`: model used for per-topic analysis.
 - `DEEPSEEK_CONCURRENCY=4`: number of concurrent topic analyses.
-- `DEEPSEEK_VALUE_THRESHOLD=65`: minimum model score required to keep a topic.
+- `DEEPSEEK_VALUE_THRESHOLD=70`: minimum validated score required to keep a topic.
 - `DEEPSEEK_MIN_SUCCESS_RATIO=0.8`: block publication when too many analyses fail.
 - `DEEPSEEK_MAX_INPUT_CHARS=200000`: per-topic input limit; all replies are still archived locally.
 
 After retries are exhausted, an isolated transient topic error is recorded in `scanErrors` and skipped so the rest of the daily report can finish. Authentication and rate-limit failures still block the run.
 
 All topic and reply text is treated as untrusted data. DeepSeek receives one topic at a time without tools, and its JSON response is validated, length-limited, stripped of HTML, and checked against real topic and reply IDs before it can enter the report.
+
+The final score is recomputed locally from six bounded components: information density (25), actionability (25), evidence quality (20), novelty (15), topic consistency (10), and credibility (5). Advertising, insufficient information, title/content mismatch, or the absence of reusable information is a hard rejection regardless of the model's requested keep flag.
+
+To rebuild a report from an existing raw analysis without calling DeepSeek again:
+
+```bash
+V2EX_DATE=YYYY-MM-DD npm run rebuild:report
+V2EX_DATE=YYYY-MM-DD npm run publish:blog
+```
 
 ## Outputs
 

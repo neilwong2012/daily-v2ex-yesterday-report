@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import { spawnSync } from 'node:child_process';
 import { analyzeTopicsWithDeepSeek } from './lib/deepseek-analysis.mjs';
+import { renderValueReport } from './lib/report-renderer.mjs';
 
 const base = process.env.V2EX_BASE_URL || 'https://www.v2ex.com';
 const apiBase = process.env.V2EX_API_BASE_URL || `${base}/api/v2`;
@@ -123,19 +124,6 @@ if (!token) {
 }
 
 const EXCLUDED_NODE_TITLES = new Set(['二手交易', '推广']);
-const TREND_PATTERNS = [
-  ['AI 编程 / Agent', /AI|Claude|Codex|GPT|Agent|Cursor|Windsurf|Gemini|Qwen|模型|中转|API/i],
-  ['独立开发 / 工具发布', /开源|发布|做了个|分享|项目|工具|插件|脚手架|SaaS|GitHub|仓库|浏览器游戏|独立开发/i],
-  ['求职 / 招聘 / 外包', /招聘|求职|简历|远程|外包|兼职|内推|正社员|全栈|后端|前端/i],
-  ['云 / 运维 / 基础设施', /云|容器|镜像|Kubernetes|k8s|Docker|DNS|服务器|监控|排障|运维|WebRTC/i],
-  ['安全 / 合规 / 风险', /安全|合规|整改|封号|供应链|攻击|漏洞|后门|隐私|风控|网信办/i],
-  ['生活 / 消费 / 出行', /装修|租车|床垫|手表|手环|旅游|旅行|汽车|家电|消费|除湿机/i],
-];
-
-const TOOL_PATTERNS = /GitHub|github\.com|开源|项目|工具|插件|脚手架|API|RSS|镜像|监控|翻译|阅读器|浏览器游戏|WebRTC|VS Code|扩展/i;
-const MARKET_PATTERNS = /招聘|求职|外包|兼职|远程|岗位|社招|内推|日本|年收|薪资|面试|Java|后端|全栈/i;
-const RISK_PATTERNS = /安全|合规|整改|封号|攻击|供应链|漏洞|后门|隐私|风控|收费|DNS|网信办/i;
-const LIFE_PATTERNS = /装修|租车|床垫|手环|手表|旅游|新疆|汽车|消费|家电|除湿机|耳机|电器/i;
 const SECRET_PATTERNS = [
   /\bnpm_[A-Za-z0-9]{20,}\b/g,
   /\b(?:ghp|gho|ghu|ghs|ghr)_[A-Za-z0-9]{20,}\b/g,
@@ -207,14 +195,6 @@ function decodeHtml(text) {
 
 function stripTags(text) {
   return decodeHtml(String(text || '').replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim());
-}
-
-function normalizeText(topic) {
-  return [topic.title, topic.content, topic.node?.title, topic.member?.username].filter(Boolean).join('\n');
-}
-
-function extractLinks(text) {
-  return [...new Set((text.match(/https?:\/\/[^\s<>()"]+/g) || []).map((link) => link.replace(/[),.;]+$/, '')))];
 }
 
 function parseRecent(html) {
@@ -404,48 +384,6 @@ function isExcludedTopic(topic) {
   return EXCLUDED_NODE_TITLES.has(topic.node?.title || topic.nodeTitle || '');
 }
 
-function topicScore(topic) {
-  const text = normalizeText(topic);
-  let score = 0;
-  score += Math.min(topic.replies || 0, 120);
-  score += (topic.stars || 0) * 3;
-  score += (topic.thanks || 0) * 2;
-  if (extractLinks(text).length > 0) score += 12;
-  if (TOOL_PATTERNS.test(text)) score += 10;
-  if (MARKET_PATTERNS.test(text)) score += 8;
-  if (RISK_PATTERNS.test(text)) score += 8;
-  if (LIFE_PATTERNS.test(text)) score += 6;
-  return score;
-}
-
-function isHighSignal(topic) {
-  const text = normalizeText(topic);
-  return (
-    (topic.replies || 0) >= 40 ||
-    (topic.stars || 0) >= 10 ||
-    (topic.thanks || 0) >= 10 ||
-    extractLinks(text).length > 0 ||
-    TOOL_PATTERNS.test(text) ||
-    MARKET_PATTERNS.test(text) ||
-    RISK_PATTERNS.test(text) ||
-    /分享创造|程序员|问与答|职场话题|酷工作|分享发现|奇思妙想|云计算/.test(topic.node?.title || '')
-  );
-}
-
-function topByCategory(topics, matcher, limit = 6) {
-  return topics
-    .filter((topic) => matcher.test(normalizeText(topic)))
-    .sort((a, b) => topicScore(b) - topicScore(a))
-    .slice(0, limit);
-}
-
-function summarizeTrend(topics) {
-  return TREND_PATTERNS.map(([label, pattern]) => ({
-    label,
-    count: topics.filter((topic) => pattern.test(normalizeText(topic))).length,
-  })).filter((item) => item.count > 0).sort((a, b) => b.count - a.count);
-}
-
 function summarizeNodes(topics) {
   const counts = new Map();
   for (const topic of topics) {
@@ -458,153 +396,8 @@ function summarizeNodes(topics) {
     .slice(0, 10);
 }
 
-function pickReplyInsights(replyBag) {
-  const findings = [];
-  for (const item of replyBag) {
-    const usefulReplies = item.replies
-      .filter((reply) => /github|开源|代理|可以|建议|排障|收费|经验|推荐|vpn|风控|封号|镜像|脚手架|教程|链接|不如|别用|注意/i.test(reply.content || ''))
-      .slice(0, 3)
-      .map((reply) => `- ${reply.member?.username || '匿名'}：${stripTags(reply.content).slice(0, 120)}`);
-    if (usefulReplies.length > 0) {
-      findings.push({
-        topic: item.topic,
-        bullets: usefulReplies,
-      });
-    }
-  }
-  return findings.slice(0, 8);
-}
-
-function lineForTopic(topic, extra = '') {
-  const parts = [
-    `- [${topic.title}](${topic.url})`,
-    `${topic.node?.title || topic.nodeTitle || '未知节点'}`,
-    `${topic.replies || 0} 回复`,
-  ];
-  if (topic.stars) parts.push(`${topic.stars} 收藏`);
-  if (extra) parts.push(extra);
-  return parts.join('｜');
-}
-
 function makeReport(payload) {
-  const {
-    generatedAt,
-    targetDate,
-    scannedIds,
-    scannedTopicCount,
-    scanGaps,
-    scanErrors,
-    scannedCandidates,
-    allCreatedTopics,
-    excludedTopics,
-    includedTopics,
-    valuableAnalyses,
-    analysisStats,
-    deepseekModel,
-    downloadedReplyCount,
-    replyFetchErrors,
-    replyInsights,
-    nodeSummary,
-    trendSummary,
-    toolTopics,
-    marketTopics,
-    riskTopics,
-    lifeTopics,
-  } = payload;
-
-  const lines = [];
-  lines.push(`# V2EX ${targetDate} 昨日新帖报告`);
-  lines.push('');
-  lines.push('## 今日值得看');
-  lines.push('');
-  if (valuableAnalyses.length === 0) {
-    lines.push('- 本次没有通过价值阈值和结构校验的主题。');
-  } else {
-    for (const item of valuableAnalyses.slice(0, 20)) {
-      const topic = item.topic;
-      lines.push(`### [${topic.title}](${topic.url})`);
-      lines.push('');
-      lines.push(`- 价值评分：${item.value_score}/100｜分类：${item.category}｜节点：${topic.node?.title || topic.nodeTitle || '未知'}`);
-      lines.push(`- 内容摘要：${item.summary}`);
-      for (const takeaway of item.key_takeaways) {
-        lines.push(`- 要点：${takeaway}`);
-      }
-      if (item.evidence_reply_ids.length > 0) {
-        const evidence = item.evidence_reply_ids.map((id) => `[#${id}](${topic.url}#reply${id})`).join('、');
-        lines.push(`- 依据回复：${evidence}`);
-      }
-      if (item.input_truncated) {
-        lines.push(`- 覆盖说明：该主题回复过长，分析了 ${item.analyzed_reply_count}/${item.total_reply_count} 条回复。`);
-      }
-      lines.push('');
-    }
-  }
-  lines.push('## 主要趋势');
-  lines.push('');
-  for (const item of trendSummary.slice(0, 6)) {
-    lines.push(`- ${item.label}：${item.count} 帖，仍是昨天最密集的讨论簇。`);
-  }
-  lines.push('');
-  lines.push('## 值得关注的工具 / 项目 / 链接');
-  lines.push('');
-  for (const topic of toolTopics) {
-    const links = extractLinks(normalizeText(topic)).slice(0, 2).join('，');
-    lines.push(lineForTopic(topic, links ? `链接：${links}` : ''));
-  }
-  lines.push('');
-  lines.push('## 市场 / 招聘信号');
-  lines.push('');
-  if (marketTopics.length === 0) {
-    lines.push('- 昨天进入高价值区间的招聘/求职信号不多，更多还是围绕工具、生活消费和 AI 编程讨论。');
-  } else {
-    for (const topic of marketTopics) {
-      lines.push(lineForTopic(topic));
-    }
-  }
-  lines.push('');
-  lines.push('## 风险 / 安全 / 合规');
-  lines.push('');
-  if (riskTopics.length === 0) {
-    lines.push('- 昨天明显的安全/合规主题不算密集，但云服务收费、账号封禁、供应链和隐私类风险仍在高频被提及。');
-  } else {
-    for (const topic of riskTopics) {
-      lines.push(lineForTopic(topic));
-    }
-  }
-  lines.push('');
-  lines.push('## 高价值生活 / 消费信息');
-  lines.push('');
-  if (lifeTopics.length === 0) {
-    lines.push('- 昨天生活消费类高收藏帖不多，整体热度仍然被 AI 编程和工具话题占据。');
-  } else {
-    for (const topic of lifeTopics) {
-      lines.push(lineForTopic(topic));
-    }
-  }
-  lines.push('');
-  lines.push('## 回复里的有效信息');
-  lines.push('');
-  if (replyInsights.length === 0) {
-    lines.push('- 高信号回复里没有稳定提炼出比主帖更高价值的新链接或新结论。');
-  } else {
-    for (const item of replyInsights) {
-      lines.push(`- [${item.topic.title}](${item.topic.url})`);
-      for (const bullet of item.bullets) {
-        lines.push(`  ${bullet}`);
-      }
-    }
-  }
-  lines.push('');
-  lines.push('## 报告说明');
-  lines.push('');
-  lines.push(`- 抓取时间：${generatedAt}（${timezone}）`);
-  lines.push(`- 时间范围：${targetDate} 00:00:00 到次日 00:00:00（${timezone}）`);
-  lines.push(`- 内容处理：通过 V2EX API 2.0 抓取主题与回复，排除二手交易和推广后，由 ${deepseekModel} 逐帖进行隔离的结构化分析。`);
-  lines.push(`- 覆盖情况：昨日 ${allCreatedTopics.length} 个主题，过滤 ${excludedTopics.length} 个，分析 ${includedTopics.length} 个，下载 ${downloadedReplyCount} 条回复，保留 ${valuableAnalyses.length} 个高价值主题。`);
-  lines.push(`- 运行质量：主题扫描 ${scannedIds} 个 id，读取 ${scannedTopicCount} 个主题详情，${scanGaps} 个空洞或失败 id；重试耗尽后跳过的临时 API 错误：${scanErrors.length}；回复抓取失败 ${replyFetchErrors} 个，分析成功 / 失败 ${analysisStats.success} / ${analysisStats.failed}。`);
-  lines.push(`- 节点分布：${nodeSummary.map((item) => `${item.nodeTitle} ${item.count}`).join('、')}`);
-  lines.push(`- 昨日候选主题：${scannedCandidates} 个。`);
-  return `${lines.join('\n')}\n`;
+  return renderValueReport({ ...payload, timezone });
 }
 
 async function collectTopicIdCandidates() {
@@ -847,12 +640,6 @@ async function main() {
       .filter((item) => item.keep && topicById.has(item.topic_id))
       .map((item) => ({ ...item, topic: topicById.get(item.topic_id) }))
       .sort((a, b) => b.value_score - a.value_score);
-    const scoredTopics = [...includedTopics].sort((a, b) => topicScore(b) - topicScore(a));
-    const highSignalTopics = deepseekEnabled
-      ? valuableAnalyses.slice(0, 25).map((item) => item.topic)
-      : scoredTopics.filter(isHighSignal).slice(0, 25);
-    const highSignalIds = new Set(highSignalTopics.map((topic) => topic.id));
-    const replyBag = analysisReplyBag.filter((item) => highSignalIds.has(item.topic.id));
     const downloadedReplyCount = allReplyBag.reduce((total, item) => total + item.replies.length, 0);
     const replyFetchErrors = allReplyBag.filter((item) => item.error).length;
     const analysisStats = {
@@ -861,13 +648,7 @@ async function main() {
       failed: failedAnalyses.length,
       kept: valuableAnalyses.length,
     };
-    const toolTopics = topByCategory(scoredTopics, TOOL_PATTERNS);
-    const marketTopics = topByCategory(scoredTopics, MARKET_PATTERNS);
-    const riskTopics = topByCategory(scoredTopics, RISK_PATTERNS);
-    const lifeTopics = topByCategory(scoredTopics, LIFE_PATTERNS);
-    const trendSummary = summarizeTrend(includedTopics);
     const nodeSummary = summarizeNodes(includedTopics);
-    const replyInsights = pickReplyInsights(replyBag);
     const generatedAt = formatShanghaiDateTime();
 
     const rawPayload = {
@@ -888,7 +669,6 @@ async function main() {
         allCreated: allCreatedTopics.length,
         excluded: excludedTopics.length,
         included: includedTopics.length,
-        highSignal: highSignalTopics.length,
         replies: downloadedReplyCount,
         analysisSuccess: analysisStats.success,
         analysisFailed: analysisStats.failed,
@@ -899,8 +679,7 @@ async function main() {
       allCreatedTopics,
       excludedTopics,
       includedTopics,
-      highSignalTopics,
-      replyBag,
+      replyFetchErrors,
       replyArchiveFile: `v2ex_yesterday_data/replies_${targetDate}.json`,
       deepseek: {
         enabled: deepseekEnabled,
@@ -908,15 +687,7 @@ async function main() {
         stats: analysisStats,
         analyses: analysisResults,
       },
-      trendSummary,
       nodeSummary,
-      picks: {
-        toolTopics,
-        marketTopics,
-        riskTopics,
-        lifeTopics,
-      },
-      replyInsights,
     };
 
     const report = makeReport({
@@ -926,23 +697,14 @@ async function main() {
       scannedTopicCount: idScan.scannedTopicCount,
       scanGaps: idScan.gaps,
       scanErrors: idScan.scanErrors,
-      scannedCandidates: idScan.candidates.length,
       allCreatedTopics,
       excludedTopics,
       includedTopics,
-      highSignalTopics,
       valuableAnalyses,
       analysisStats,
       deepseekModel,
       downloadedReplyCount,
       replyFetchErrors,
-      replyInsights,
-      nodeSummary,
-      trendSummary,
-      toolTopics,
-      marketTopics,
-      riskTopics,
-      lifeTopics,
     });
 
     await fs.writeFile(rawFile, JSON.stringify(scrubSecrets(rawPayload), null, 2));

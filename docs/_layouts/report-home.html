@@ -121,6 +121,8 @@
       }
       .report h3 {
         margin: 36px 0 12px;
+        padding-top: 30px;
+        border-top: 1px solid var(--line);
         font-size: 20px;
         line-height: 1.5;
         letter-spacing: -.01em;
@@ -157,6 +159,22 @@
         border: 0;
         border-top: 1px solid var(--line);
       }
+      .analysis-evidence {
+        margin: 18px 0 34px;
+        padding: 12px 14px;
+        border: 1px solid var(--line);
+        border-radius: 7px;
+        background: var(--soft);
+        color: #525252;
+        font-size: 14px;
+      }
+      .analysis-evidence summary {
+        cursor: pointer;
+        color: var(--muted);
+        font-weight: 650;
+      }
+      .analysis-evidence[open] summary { margin-bottom: 10px; }
+      .analysis-evidence p:last-child { margin-bottom: 0; }
       .archive {
         margin-top: 72px;
         padding-top: 24px;
