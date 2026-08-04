@@ -21,13 +21,13 @@ data_url: "/data/2026-08-03.json"
 
 ## 值得读的内容
 
-从 222 个候选主题中保留 36 个，按综合价值评分排列；点击标题展开摘要、核心信息与评论结论。
+按综合价值评分排列，点击标题展开摘要、核心信息与评论结论。
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231808" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">1</span><span class="topic-title">关于妹妹要不要继续读书的咨询</span></span>
-<span class="topic-summary-meta"><strong>综合分 197</strong><span>经验与教程 · 问与答 · 129 回复 · 10 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 197</strong><span>经验与教程 · 129 回复 · 10 收藏</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -55,11 +55,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231653" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">2</span><span class="topic-title">妹妹考上大学了，升学宴送什么合适？求建议</span></span>
-<span class="topic-summary-meta"><strong>综合分 170</strong><span>生活与消费 · 生活 · 105 回复 · 2 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 170</strong><span>生活与消费 · 105 回复 · 2 收藏</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -87,11 +87,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231612" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">3</span><span class="topic-title">购买大件电器有感</span></span>
-<span class="topic-summary-meta"><strong>综合分 149</strong><span>生活与消费 · 分享发现 · 81 回复 · 5 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 149</strong><span>生活与消费 · 81 回复 · 5 收藏</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -119,11 +119,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231731" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">4</span><span class="topic-title">极致精简，已经优化为仅 100 多 KB！单文件 PHP 论坛！</span></span>
-<span class="topic-summary-meta"><strong>综合分 139</strong><span>工具与项目 · PHP · 71 回复 · 56 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 139</strong><span>工具与项目 · 71 回复 · 56 收藏</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -151,11 +151,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231744" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">5</span><span class="topic-title">大家现在 Windows 下面是如何使用 codex 的，怎么搞都有问题</span></span>
-<span class="topic-summary-meta"><strong>综合分 138</strong><span>经验与教程 · 程序员 · 56 回复 · 15 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 138</strong><span>经验与教程 · 56 回复 · 15 收藏</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -183,11 +183,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231767" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">6</span><span class="topic-title">好一个声东击西， 8 月 1 日起宽带也偷偷涨价了</span></span>
-<span class="topic-summary-meta"><strong>综合分 125</strong><span>生活与消费 · 宽带症候群 · 60 回复 · 4 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 125</strong><span>生活与消费 · 60 回复 · 4 收藏</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -215,11 +215,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231752" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">7</span><span class="topic-title">腾讯这是不打算让小程序商家活了？支付手续费涨了几十倍，直接干到 10%-17%</span></span>
-<span class="topic-summary-meta"><strong>综合分 123</strong><span>商业与行业 · 程序员 · 58 回复 · 12 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 123</strong><span>商业与行业 · 58 回复 · 12 收藏</span><span class="topic-risk topic-risk-limited">信息不足</span><span class="topic-risk topic-risk-disputed">有争议</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -252,11 +252,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231677" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">8</span><span class="topic-title">新电视买回来了，但快被现在的“套娃会员”逼疯了！影视会员、体育会员就算了，现在连看个电视直播都要单独开会员，真的是吃相太难看</span></span>
-<span class="topic-summary-meta"><strong>综合分 121</strong><span>生活与消费 · 问与答 · 39 回复 · 21 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 121</strong><span>生活与消费 · 39 回复 · 21 收藏</span><span class="topic-risk topic-risk-disputed">有争议</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -288,11 +288,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231680" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">9</span><span class="topic-title">中登新买了个电视，各位有什么好玩的电视 APP？</span></span>
-<span class="topic-summary-meta"><strong>综合分 110</strong><span>生活与消费 · 智能家电 · 35 回复 · 10 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 110</strong><span>生活与消费 · 35 回复 · 10 收藏</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -320,11 +320,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231628" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">10</span><span class="topic-title">macos 上容器运行时推荐用哪个呢？</span></span>
-<span class="topic-summary-meta"><strong>综合分 106</strong><span>工具与项目 · 问与答 · 28 回复 · 9 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 106</strong><span>工具与项目 · 28 回复 · 9 收藏</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -352,11 +352,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231654" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">11</span><span class="topic-title">深圳租房经历</span></span>
-<span class="topic-summary-meta"><strong>综合分 105</strong><span>经验与教程 · 租房 · 30 回复 · 8 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 105</strong><span>经验与教程 · 30 回复 · 8 收藏</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -384,11 +384,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231811" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">12</span><span class="topic-title">程序员尝试小红书博主一年总结</span></span>
-<span class="topic-summary-meta"><strong>综合分 99</strong><span>经验与教程 · 程序员 · 34 回复 · 15 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 99</strong><span>经验与教程 · 34 回复 · 15 收藏</span><span class="topic-risk topic-risk-disputed">有争议</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -420,11 +420,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231610" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">13</span><span class="topic-title">有没有推荐的车载香氛,香片,香包之类的？</span></span>
-<span class="topic-summary-meta"><strong>综合分 97</strong><span>生活与消费 · 生活 · 29 回复 · 7 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 97</strong><span>生活与消费 · 29 回复 · 7 收藏</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -452,11 +452,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231781" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">14</span><span class="topic-title">codex 被封号了， 1 个苹果账号可以绑多个 openai 吗？不想切苹果账号注册新的。</span></span>
-<span class="topic-summary-meta"><strong>综合分 95</strong><span>经验与教程 · OpenAI · 15 回复</span></span>
+<span class="topic-summary-meta"><strong>综合分 95</strong><span>经验与教程 · 15 回复</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -484,11 +484,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231672" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">15</span><span class="topic-title">有什么双肩包请推荐一个</span></span>
-<span class="topic-summary-meta"><strong>综合分 93</strong><span>生活与消费 · 生活 · 28 回复 · 9 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 93</strong><span>生活与消费 · 28 回复 · 9 收藏</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -516,11 +516,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231837" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">16</span><span class="topic-title">iOS 26.6 WLOC 改定位还有效吗？</span></span>
-<span class="topic-summary-meta"><strong>综合分 89</strong><span>经验与教程 · iOS · 14 回复 · 3 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 89</strong><span>经验与教程 · 14 回复 · 3 收藏</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -548,11 +548,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231818" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">17</span><span class="topic-title">试着把写了 N 年的私人日记喂给 ai...</span></span>
-<span class="topic-summary-meta"><strong>综合分 88</strong><span>AI与开发 · 分享发现 · 18 回复 · 1 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 88</strong><span>AI与开发 · 18 回复 · 1 收藏</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -580,11 +580,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231819" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">18</span><span class="topic-title">入门 3d 打印前调研</span></span>
-<span class="topic-summary-meta"><strong>综合分 88</strong><span>经验与教程 · 问与答 · 13 回复 · 2 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 88</strong><span>经验与教程 · 13 回复 · 2 收藏</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -612,11 +612,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231608" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">19</span><span class="topic-title">国家超算平台新出的 Token Plan 怎么样？ 对比 opencode go 如何？</span></span>
-<span class="topic-summary-meta"><strong>综合分 88</strong><span>工具与项目 · 问与答 · 18 回复 · 1 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 88</strong><span>工具与项目 · 18 回复 · 1 收藏</span><span class="topic-risk topic-risk-disputed">有争议</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -648,11 +648,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231801" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">20</span><span class="topic-title">请问 claude 能注册吗</span></span>
-<span class="topic-summary-meta"><strong>综合分 87</strong><span>AI与开发 · Claude · 2 回复</span></span>
+<span class="topic-summary-meta"><strong>综合分 87</strong><span>AI与开发 · 2 回复</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -680,11 +680,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231845" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">21</span><span class="topic-title">用起来比较舒服的 Linux 桌面 Niri+DankMaterialShell</span></span>
-<span class="topic-summary-meta"><strong>综合分 86</strong><span>工具与项目 · Linux · 11 回复 · 1 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 86</strong><span>工具与项目 · 11 回复 · 1 收藏</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -712,11 +712,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231772" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">22</span><span class="topic-title">关于发现 NAS 好像不是自己理想中的照片备份方案，现在想改成移动硬盘，有搞头吗？</span></span>
-<span class="topic-summary-meta"><strong>综合分 85</strong><span>经验与教程 · NAS · 20 回复 · 2 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 85</strong><span>经验与教程 · 20 回复 · 2 收藏</span><span class="topic-risk topic-risk-disputed">有争议</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -748,11 +748,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231813" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">23</span><span class="topic-title">kimi k3 不怎么适合业务开发啊, 太慢了. 接入了 superpowers 更是慢上加慢!简单 crud 页面动辄也是 30 分钟起步.</span></span>
-<span class="topic-summary-meta"><strong>综合分 84</strong><span>AI与开发 · 问与答 · 9 回复</span></span>
+<span class="topic-summary-meta"><strong>综合分 84</strong><span>AI与开发 · 9 回复</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -780,11 +780,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231719" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">24</span><span class="topic-title">有没有广州老铁推荐一下附近的宝藏小店</span></span>
-<span class="topic-summary-meta"><strong>综合分 84</strong><span>生活与消费 · 广州 · 14 回复 · 2 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 84</strong><span>生活与消费 · 14 回复 · 2 收藏</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -812,11 +812,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231802" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">25</span><span class="topic-title">关于我用 deepseek -v4-flash 画了几张图...</span></span>
-<span class="topic-summary-meta"><strong>综合分 83</strong><span>经验与教程 · 分享发现 · 11 回复 · 6 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 83</strong><span>经验与教程 · 11 回复 · 6 收藏</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -844,11 +844,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231761" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">26</span><span class="topic-title">用 Rust 从零写了个跨平台文件管理器 tessoa， UI 全自绘，现在开放内测！</span></span>
-<span class="topic-summary-meta"><strong>综合分 82</strong><span>工具与项目 · 分享创造 · 12 回复 · 9 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 82</strong><span>工具与项目 · 12 回复 · 9 收藏</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -876,11 +876,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231606" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">27</span><span class="topic-title">分享一个还在 RC 阶段的项目：把 C 编译成不依赖 cgo 的 Go package</span></span>
-<span class="topic-summary-meta"><strong>综合分 82</strong><span>工具与项目 · Go 编程语言 · 7 回复 · 7 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 82</strong><span>工具与项目 · 7 回复 · 7 收藏</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -908,11 +908,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231773" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">28</span><span class="topic-title">泰国已去已回，随意记录些印象深刻的点</span></span>
-<span class="topic-summary-meta"><strong>综合分 81</strong><span>经验与教程 · 旅行 · 6 回复 · 5 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 81</strong><span>经验与教程 · 6 回复 · 5 收藏</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -940,11 +940,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231778" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">29</span><span class="topic-title">Immich 有什么替代品吗？</span></span>
-<span class="topic-summary-meta"><strong>综合分 80</strong><span>工具与项目 · 程序员 · 8 回复</span></span>
+<span class="topic-summary-meta"><strong>综合分 80</strong><span>工具与项目 · 8 回复</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -971,11 +971,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231702" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">30</span><span class="topic-title">当 agent 说&quot;我做完了&quot; —— 四个从翻车里长出来的 Claude Code skill</span></span>
-<span class="topic-summary-meta"><strong>综合分 80</strong><span>AI与开发 · 人工智能 · 0 回复 · 1 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 80</strong><span>AI与开发 · 0 回复 · 1 收藏</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -1001,11 +1001,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231774" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">31</span><span class="topic-title">大佬们求教 iPhone 有安全稳定微信双开的方案吗</span></span>
-<span class="topic-summary-meta"><strong>综合分 78</strong><span>经验与教程 · 问与答 · 8 回复</span></span>
+<span class="topic-summary-meta"><strong>综合分 78</strong><span>经验与教程 · 8 回复</span><span class="topic-risk topic-risk-disputed">有争议</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -1037,11 +1037,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231835" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">32</span><span class="topic-title">用了半天 gpt5.6-luna-max，感觉效果也还可以</span></span>
-<span class="topic-summary-meta"><strong>综合分 77</strong><span>AI与开发 · 程序员 · 12 回复</span></span>
+<span class="topic-summary-meta"><strong>综合分 77</strong><span>AI与开发 · 12 回复</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -1069,11 +1069,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231589" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">33</span><span class="topic-title">一个人搞了个浏览器插件,量很小但很稳,聊聊为什么我不打算做大</span></span>
-<span class="topic-summary-meta"><strong>综合分 77</strong><span>经验与教程 · 分享创造 · 12 回复 · 3 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 77</strong><span>经验与教程 · 12 回复 · 3 收藏</span><span class="topic-risk topic-risk-disputed">有争议</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -1105,11 +1105,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231747" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">34</span><span class="topic-title">非技术人员、普通用户推荐用什么 AI？千问 or 智谱 or 豆包 or KIMI？</span></span>
-<span class="topic-summary-meta"><strong>综合分 76</strong><span>经验与教程 · 问与答 · 11 回复</span></span>
+<span class="topic-summary-meta"><strong>综合分 76</strong><span>经验与教程 · 11 回复</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -1137,11 +1137,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231721" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">35</span><span class="topic-title">openai 的 cache 是咋计算的呀？ input_tokens=cache_write_tokens+3？</span></span>
-<span class="topic-summary-meta"><strong>综合分 71</strong><span>AI与开发 · OpenAI · 6 回复</span></span>
+<span class="topic-summary-meta"><strong>综合分 71</strong><span>AI与开发 · 6 回复</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -1167,11 +1167,11 @@ data_url: "/data/2026-08-03.json"
 
 </details>
 
-<details class="topic-card" markdown="1">
+<details class="topic-card" data-topic-id="1231657" markdown="1">
 <summary>
 <span class="topic-summary-main">
 <span class="topic-heading"><span class="topic-rank">36</span><span class="topic-title">做了一个 macOS 环形应用切换器，现在支持 Microsoft Surface Dial</span></span>
-<span class="topic-summary-meta"><strong>综合分 70</strong><span>工具与项目 · 分享创造 · 5 回复 · 3 收藏</span></span>
+<span class="topic-summary-meta"><strong>综合分 70</strong><span>工具与项目 · 5 回复 · 3 收藏</span><span class="topic-read-state">已读</span></span>
 </span>
 <span class="topic-toggle" aria-hidden="true"></span>
 </summary>
@@ -1198,11 +1198,3 @@ data_url: "/data/2026-08-03.json"
 </details>
 
 </details>
-
-## 报告说明
-
-- 抓取时间：2026-08-04 17:13:12（Asia/Shanghai）
-- 时间范围：2026-08-03 00:00:00 到次日 00:00:00（Asia/Shanghai）
-- 内容处理：抓取标题、正文与回复，排除二手交易和推广后，由 deepseek-v4-flash 对每个主题独立提取、评分和校验。
-- 筛选结果：昨日 276 个主题，过滤 54 个，分析 222 个，下载 1946 条回复，保留 36 个高价值主题。
-- 运行质量：扫描 276 个 id，读取 276 个主题详情，0 个空洞或失败 id；重试耗尽后跳过的临时 API 错误：0；回复抓取失败 0 个，分析成功 / 失败 222 / 0。

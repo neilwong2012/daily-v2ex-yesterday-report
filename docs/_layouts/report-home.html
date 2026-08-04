@@ -17,6 +17,7 @@
         --accent: #2563eb;
         --danger: #b42318;
         --content-width: 800px;
+        --shell-width: 1060px;
       }
       * { box-sizing: border-box; }
       html { scroll-behavior: smooth; }
@@ -35,16 +36,14 @@
       a:hover { text-decoration: underline; }
       .site-header { border-bottom: 1px solid var(--line); }
       .site-header-inner,
-      .page {
-        width: min(calc(100% - 40px), var(--content-width));
+      .page-shell {
+        width: min(calc(100% - 40px), var(--shell-width));
         margin: 0 auto;
       }
       .site-header-inner {
         min-height: 58px;
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        gap: 24px;
       }
       .brand {
         color: var(--ink);
@@ -52,15 +51,15 @@
         font-weight: 720;
         letter-spacing: .01em;
       }
-      .nav {
-        display: flex;
-        align-items: center;
-        gap: 18px;
-        font-size: 14px;
+      .page-shell {
+        display: grid;
+        grid-template-columns: minmax(0, var(--content-width)) 180px;
+        align-items: start;
+        gap: 64px;
+        padding: 48px 0 72px;
       }
-      .nav a { color: var(--muted); }
-      .page { padding: 64px 0 72px; }
-      .report-header { margin-bottom: 50px; }
+      .content-column { min-width: 0; }
+      .report-header { margin-bottom: 38px; }
       .kicker {
         margin: 0 0 13px;
         color: var(--muted);
@@ -70,7 +69,7 @@
       .report-header h1 {
         margin: 0;
         max-width: 720px;
-        font-size: clamp(34px, 7vw, 52px);
+        font-size: clamp(32px, 5vw, 44px);
         line-height: 1.13;
         letter-spacing: -.035em;
       }
@@ -203,6 +202,36 @@
         color: var(--ink);
         font-variant-numeric: tabular-nums;
       }
+      .topic-risk,
+      .topic-read-state {
+        padding: 1px 6px;
+        border-radius: 999px;
+        font-size: 12px;
+        font-weight: 650;
+        line-height: 1.5;
+      }
+      .topic-risk-verify {
+        background: #fff7ed;
+        color: #9a3412;
+      }
+      .topic-risk-disputed {
+        background: #fef2f2;
+        color: #b42318;
+      }
+      .topic-risk-limited {
+        background: var(--soft);
+        color: #525252;
+      }
+      .topic-read-state {
+        display: none;
+        background: var(--soft);
+        color: var(--muted);
+      }
+      .topic-card.is-read .topic-title {
+        color: #525252;
+        font-weight: 650;
+      }
+      .topic-card.is-read .topic-read-state { display: inline-block; }
       .topic-toggle {
         width: 20px;
         flex: 0 0 20px;
@@ -237,42 +266,80 @@
       }
       .analysis-evidence[open] summary { margin-bottom: 10px; }
       .analysis-evidence p:last-child { margin-bottom: 0; }
-      .archive {
-        margin-top: 72px;
-        padding-top: 24px;
-        border-top: 1px solid var(--line);
+      .date-sidebar {
+        position: sticky;
+        top: 26px;
+        max-height: calc(100vh - 52px);
+        overflow: auto;
+        scrollbar-width: thin;
       }
-      .archive-head {
-        display: flex;
-        align-items: baseline;
-        justify-content: space-between;
-        gap: 18px;
-        margin-bottom: 14px;
-      }
-      .archive h2 {
-        margin: 0;
-        font-size: 16px;
-      }
-      .archive-source { color: var(--muted); font-size: 13px; }
-      .archive-list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px 16px;
-      }
-      .archive-item {
+      .date-sidebar h2 {
+        margin: 0 0 16px;
         color: var(--muted);
-        font-size: 14px;
+        font-size: 13px;
+        font-weight: 650;
+        letter-spacing: .08em;
+      }
+      .date-month {
+        margin: 18px 0 7px;
+        color: #a3a3a3;
+        font-size: 12px;
         font-variant-numeric: tabular-nums;
+      }
+      .date-month:first-of-type { margin-top: 0; }
+      .date-list { display: grid; gap: 2px; }
+      .date-link {
+        display: block;
+        padding: 6px 9px;
+        border-radius: 6px;
+        color: var(--muted);
+        font-size: 13px;
+        font-variant-numeric: tabular-nums;
+      }
+      .date-link:hover {
+        background: var(--soft);
+        color: var(--ink);
+        text-decoration: none;
+      }
+      .date-link.is-current {
+        background: var(--soft);
+        color: var(--ink);
+        font-weight: 700;
+      }
+      .mobile-date-jump { display: none; }
+      @media (max-width: 980px) {
+        .site-header-inner,
+        .page-shell { width: min(calc(100% - 40px), var(--content-width)); }
+        .page-shell { display: block; }
+        .date-sidebar { display: none; }
+        .mobile-date-jump {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          margin-bottom: 28px;
+          color: var(--muted);
+          font-size: 13px;
+        }
+        .mobile-date-jump select {
+          min-width: 0;
+          max-width: 190px;
+          padding: 7px 30px 7px 10px;
+          border: 1px solid var(--line);
+          border-radius: 7px;
+          background: var(--bg);
+          color: var(--ink);
+          font: inherit;
+        }
       }
       @media (max-width: 640px) {
         body { font-size: 16px; line-height: 1.75; }
         .site-header-inner,
-        .page { width: min(calc(100% - 32px), var(--content-width)); }
+        .page-shell { width: min(calc(100% - 32px), var(--content-width)); }
         .site-header-inner { min-height: 52px; }
-        .nav { gap: 14px; }
-        .page { padding: 40px 0 52px; }
-        .report-header { margin-bottom: 38px; }
-        .report-header h1 { font-size: 36px; }
+        .page-shell { padding: 30px 0 52px; }
+        .mobile-date-jump { margin-bottom: 24px; }
+        .report-header { margin-bottom: 32px; }
+        .report-header h1 { font-size: 32px; }
         .metrics { margin-top: 18px; }
         .report h2 { margin-top: 48px; font-size: 24px; }
         .topic-card > summary { align-items: flex-start; gap: 10px; padding: 18px 0; }
@@ -284,7 +351,6 @@
         .topic-card > ul,
         .topic-card > ol,
         .topic-card > .analysis-evidence { margin-left: 0; margin-right: 0; }
-        .archive { margin-top: 56px; }
       }
     </style>
   </head>
@@ -292,42 +358,99 @@
     <header class="site-header">
       <div class="site-header-inner">
         <a class="brand" href="{{ '/' | relative_url }}">V2EX 每日报告</a>
-        <nav class="nav" aria-label="主导航">
-          <a href="#archive">归档</a>
-          <a href="https://github.com/neilwong2012/daily-v2ex-yesterday-report">源码</a>
-        </nav>
       </div>
     </header>
 
-    <main class="page">
-      <header class="report-header">
-        <p class="kicker">{{ page.target_date }} · 昨日内容精选</p>
-        <h1>{{ page.hero_title | default: page.title }}</h1>
-        <ul class="metrics" aria-label="报告概览">
-          <li><strong>{{ page.count_all | default: 0 }}</strong> 个新主题</li>
-          <li><strong>{{ page.count_included | default: 0 }}</strong> 个已分析</li>
-          <li><strong>{{ page.count_valuable | default: page.count_high_signal | default: 0 }}</strong> 条值得读</li>
-        </ul>
-        {% if page.status == 'blocked' %}
-          <p class="blocked-note">本期报告生成受阻，正文保留诊断信息供排查。</p>
-        {% endif %}
-      </header>
-
-      <article class="report">
-        {{ content }}
-      </article>
-
-      <footer class="archive" id="archive">
-        <div class="archive-head">
-          <h2>最近报告</h2>
-          <a class="archive-source" href="{{ page.data_url | relative_url }}">查看原始数据</a>
+    <main class="page-shell">
+      <div class="content-column">
+        <div class="mobile-date-jump">
+          <label for="report-date-select">切换日期</label>
+          <select id="report-date-select" aria-label="选择报告日期">
+            {% for post in site.posts %}
+              <option value="{{ post.url | relative_url }}"{% if post.target_date == page.target_date %} selected{% endif %}>{{ post.target_date | default: post.date | date: "%Y-%m-%d" }}</option>
+            {% endfor %}
+          </select>
         </div>
-        <nav class="archive-list" aria-label="最近报告">
-          {% for post in site.posts limit: 10 %}
-            <a class="archive-item" href="{{ post.url | relative_url }}">{{ post.target_date | default: post.date | date: "%Y-%m-%d" }}</a>
-          {% endfor %}
-        </nav>
-      </footer>
+
+        <header class="report-header">
+          <p class="kicker">{{ page.target_date }} · 昨日内容精选</p>
+          <h1>{{ page.hero_title | default: page.title }}</h1>
+          <ul class="metrics" aria-label="报告概览">
+            <li><strong>{{ page.count_valuable | default: page.count_high_signal | default: 0 }}</strong> 条值得读</li>
+            <li>来自 <strong>{{ page.count_included | default: 0 }}</strong> 个候选主题</li>
+          </ul>
+          {% if page.status == 'blocked' %}
+            <p class="blocked-note">本期报告生成受阻，正文保留诊断信息供排查。</p>
+          {% endif %}
+        </header>
+
+        <article class="report">
+          {{ content }}
+        </article>
+      </div>
+
+      <aside class="date-sidebar" aria-label="按日期查看报告">
+        <h2>报告日期</h2>
+        {% assign current_month = '' %}
+        {% for post in site.posts %}
+          {% assign post_month = post.target_date | slice: 0, 7 %}
+          {% if post_month != current_month %}
+            {% if current_month != '' %}</nav>{% endif %}
+            <p class="date-month">{{ post_month }}</p>
+            <nav class="date-list" aria-label="{{ post_month }} 报告">
+            {% assign current_month = post_month %}
+          {% endif %}
+          <a class="date-link{% if post.target_date == page.target_date %} is-current{% endif %}" href="{{ post.url | relative_url }}"{% if post.target_date == page.target_date %} aria-current="page"{% endif %}>{{ post.target_date | default: post.date | date: "%Y-%m-%d" }}</a>
+          {% if forloop.last %}</nav>{% endif %}
+        {% endfor %}
+      </aside>
     </main>
+
+    <script>
+      (() => {
+        const select = document.getElementById('report-date-select');
+        select?.addEventListener('change', () => {
+          if (select.value) window.location.href = select.value;
+        });
+
+        // Older generated reports may still contain this now-retired section.
+        const report = document.querySelector('.report');
+        const heading = Array.from(report?.querySelectorAll('h2') || [])
+          .find((item) => item.textContent.trim() === '报告说明');
+        if (heading) {
+          let sibling = heading.nextElementSibling;
+          while (sibling && sibling.tagName !== 'H2') {
+            const next = sibling.nextElementSibling;
+            sibling.remove();
+            sibling = next;
+          }
+          heading.remove();
+        }
+
+        const readStorageKey = 'v2ex-report-read-topics-v1';
+        let readTopicIds = new Set();
+        try {
+          const storedIds = JSON.parse(localStorage.getItem(readStorageKey) || '[]');
+          if (Array.isArray(storedIds)) readTopicIds = new Set(storedIds.map(String));
+        } catch (_) {
+          readTopicIds = new Set();
+        }
+
+        document.querySelectorAll('.topic-card[data-topic-id]').forEach((card) => {
+          const topicId = card.dataset.topicId;
+          if (readTopicIds.has(topicId)) card.classList.add('is-read');
+          card.addEventListener('toggle', () => {
+            if (!card.open || readTopicIds.has(topicId)) return;
+            readTopicIds.add(topicId);
+            card.classList.add('is-read');
+            try {
+              localStorage.setItem(readStorageKey, JSON.stringify(Array.from(readTopicIds)));
+            } catch (_) {
+              // Reading remains available even when browser storage is disabled.
+            }
+          });
+        });
+      })();
+    </script>
   </body>
 </html>

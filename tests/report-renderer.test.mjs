@@ -47,6 +47,7 @@ test('renders every valuable topic once as a collapsed title and sorts by value 
   assert.equal((report.match(/https:\/\/www\.v2ex\.com\/t\/7/g) || []).length, 1);
   assert.match(report, /主题 1 的旧版核心信息/);
   assert.doesNotMatch(report, /主要趋势|工具 \/ 项目|回复里的有效信息/);
+  assert.doesNotMatch(report, /## 报告说明/);
 });
 
 test('renders comprehensive extraction and collapses scoring evidence', () => {
@@ -80,13 +81,17 @@ test('renders comprehensive extraction and collapses scoring evidence', () => {
       credibility: 5,
     },
     evidence_reply_ids: [456],
-    risk_flags: ['无'],
+    risk_flags: ['事实待核验', '争议性'],
   };
 
   const report = renderValueReport(payloadWith([item]));
 
   assert.match(report, /推荐理由：/);
   assert.match(report, /<span class="topic-title">综合分析后的信息型标题<\/span>/);
+  assert.match(report, /data-topic-id="123"/);
+  assert.match(report, /topic-risk-verify">待核验/);
+  assert.match(report, /topic-risk-disputed">有争议/);
+  assert.match(report, /class="topic-read-state">已读/);
   assert.match(report, /原标题：.*综合分析主题/);
   assert.match(report, /评论共识/);
   assert.match(report, /不同意见/);

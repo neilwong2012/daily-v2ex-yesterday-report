@@ -148,9 +148,9 @@ test('retries a 522 response, records it, and continues the topic scan', async (
     error: 'ApiError: 522 topics/2: | status=522 | endpoint=topics/2',
   });
   const report = await fs.readFile(path.join(tempDir, 'v2ex_2026-08-03_report.md'), 'utf8');
-  assert.match(report, /重试耗尽后跳过的临时 API 错误：1/);
   assert.match(report, /## 值得读的内容/);
   assert.match(report, /包含可以复用的测试经验/);
+  assert.doesNotMatch(report, /报告说明|重试耗尽后跳过的临时 API 错误/);
   const replyArchive = JSON.parse(await fs.readFile(path.join(tempDir, 'v2ex_yesterday_data/replies_2026-08-03.json'), 'utf8'));
   assert.equal(replyArchive.topics.length, 1);
 });

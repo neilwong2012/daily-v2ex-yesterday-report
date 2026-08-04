@@ -25,6 +25,12 @@ test('report home keeps the page content-first', async () => {
   assert.match(layout, /count_valuable/);
   assert.match(layout, /\.topic-card > summary/);
   assert.match(layout, /\.topic-title/);
+  assert.match(layout, /class="date-sidebar"/);
+  assert.match(layout, /id="report-date-select"/);
+  assert.match(layout, /\.topic-card\.is-read/);
+  assert.match(layout, /\.topic-risk-verify/);
+  assert.match(layout, /localStorage\.setItem\(readStorageKey/);
+  assert.doesNotMatch(layout, /class="archive"|href="#archive"/);
   assert.doesNotMatch(layout, /summary-panel|trend-list|topic-list|阅读全文/);
 });
 
