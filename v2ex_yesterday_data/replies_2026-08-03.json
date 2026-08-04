@@ -1,6 +1,6 @@
 {
   "targetDate": "2026-08-03",
-  "generatedAt": "2026-08-04 17:06:53",
+  "generatedAt": "2026-08-04 21:13:21",
   "topics": [
     {
       "topic": {
@@ -37,7 +37,7 @@
           "header": "一些不适合出现在首页上的信息，请发布到这里。如果你要给另外一位会员留言，也可以使用这个节点 @ 对方用户名。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/bac9/162b/364_xxlarge.png?m=1609134868",
-          "topics": 11514,
+          "topics": 11515,
           "created": 1301201691,
           "last_modified": 1609134868
         },
@@ -80,7 +80,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -123,7 +123,7 @@
           "header": "分享你看到的好玩的，有信息量的，欢迎从这里获取灵感。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c74d/97b0/16_xxxlarge.png?m=1727584731",
-          "topics": 46811,
+          "topics": 46814,
           "created": 1272218320,
           "last_modified": 1727584731
         },
@@ -331,7 +331,7 @@
             "url": "https://www.v2ex.com/member/Livid",
             "avatar": "https://cdn.v2ex.com/avatar/c4ca/4238/1_xxxlarge.png?m=1785398719",
             "created": 1272203146,
-            "pro": 1785834008
+            "pro": 1785848686
           }
         }
       ]
@@ -371,7 +371,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -422,10 +422,10 @@
         "content_rendered": "<p>分享一个不算成功但也没死的项目。是个 Chrome 插件,功能很单一:帮人自动整理浏览器里开着的几十个标签页,按域名和最近使用时间分组,一键收起。做了快两年,现在日活大概 1200 左右,付费用户 300 出头,一次性买断 29 元,没有订阅,月收入基本在 2000-3000 波动,谈不上暴富但覆盖了我自己的服务器和 API 成本还有富余。</p>\n<p>这个东西完全是自己用出来的。之前开了太多标签页,电脑经常卡死,写了个脚本自己用了半年,后来想着顺手发到 Chrome 商店,没做任何推广,靠商店自然搜索流量涨起来的。上线第一年基本没管它,直到有次看后台发现日活涨到了大几百,才认真做了付费墙。</p>\n<p>说实话这个项目的数据放在 V2EX 不算亮眼,但我想聊的是另一件事:我刻意没有把它做大。有段时间用户反馈很多想要的功能,比如同步、团队协作、AI 自动分类,如果都做进去,理论上确实能冲一波付费转化。但算了笔账,这些功能要么涉及后端存储成本陡增,要么要维护多端同步,一个人根本忙不过来,一旦做大了反而可能因为服务不稳定被骂,得不偿失。</p>\n<p>所以现在的策略就是保持功能极简,一次性付费,没有服务器依赖用户数据本地存储,几乎零维护成本。这两年里我真正花在这个项目上的时间加起来可能不到一个月,剩下时间都在做本职工作或者别的尝试。</p>\n<p>写这个帖子是想问问大家:独立开发是不是一定要追求\"做大\"才算成功?像我这种刻意控制规模、换取低维护成本和自由时间的做法,有没有其他人也在这么干?挺想听听不同的思路。</p>\n",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231589",
-        "replies": 12,
+        "replies": 14,
         "stars": 3,
         "thanks": 0,
-        "last_reply_by": "kylehuangyu",
+        "last_reply_by": "xiaohongt3",
         "created": 1785695661,
         "last_modified": 1785695661,
         "last_touched": 1785751648,
@@ -449,7 +449,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -659,6 +659,40 @@
             "created": 1584591385,
             "pro": 0
           }
+        },
+        {
+          "id": 17938058,
+          "content": "@zhangxiaoming 买断是对单个用户而言的，不是说项目停止销售了。\r\n\r\n我卖的是\"一次性获取永久使用权\"，但插件还在 Chrome 商店持续被新用户搜到、买入，所以月收入 = 这个月新增购买的人数 × 29 ，跟老用户没关系，老用户确实一分钱不用再交。\r\n\r\n打个比方就跟卖断货的实体商品差不多：你买一次这个东西是买断的，但店铺还在接待新客人，店铺流水不等于要从你身上收费。",
+          "content_rendered": "@<a href=\"/member/zhangxiaoming\">zhangxiaoming</a> 买断是对单个用户而言的，不是说项目停止销售了。<br /><br />我卖的是\"一次性获取永久使用权\"，但插件还在 Chrome 商店持续被新用户搜到、买入，所以月收入 = 这个月新增购买的人数 × 29 ，跟老用户没关系，老用户确实一分钱不用再交。<br /><br />打个比方就跟卖断货的实体商品差不多：你买一次这个东西是买断的，但店铺还在接待新客人，店铺流水不等于要从你身上收费。",
+          "created": 1785847922,
+          "member": {
+            "id": 762698,
+            "username": "xiaohongt3",
+            "bio": null,
+            "website": null,
+            "github": null,
+            "url": "https://www.v2ex.com/member/xiaohongt3",
+            "avatar": "https://cdn.v2ex.com/gravatar/6487bc98a2d4b8cbe3e806499341e2f0?s=73&d=retro",
+            "created": 1755182912,
+            "pro": 0
+          }
+        },
+        {
+          "id": 17938059,
+          "content": "@way2explore2 买断是对单个用户而言的，不是说项目停止销售了。\r\n\r\n我卖的是\"一次性获取永久使用权\"，但插件还在 Chrome 商店持续被新用户搜到、买入，所以月收入 = 这个月新增购买的人数 × 29 ，跟老用户没关系，老用户确实一分钱不用再交。\r\n\r\n打个比方就跟卖断货的实体商品差不多：你买一次这个东西是买断的，但店铺还在接待新客人，店铺流水不等于要从你身上收费。",
+          "content_rendered": "@<a href=\"/member/way2explore2\">way2explore2</a> 买断是对单个用户而言的，不是说项目停止销售了。<br /><br />我卖的是\"一次性获取永久使用权\"，但插件还在 Chrome 商店持续被新用户搜到、买入，所以月收入 = 这个月新增购买的人数 × 29 ，跟老用户没关系，老用户确实一分钱不用再交。<br /><br />打个比方就跟卖断货的实体商品差不多：你买一次这个东西是买断的，但店铺还在接待新客人，店铺流水不等于要从你身上收费。",
+          "created": 1785847958,
+          "member": {
+            "id": 762698,
+            "username": "xiaohongt3",
+            "bio": null,
+            "website": null,
+            "github": null,
+            "url": "https://www.v2ex.com/member/xiaohongt3",
+            "avatar": "https://cdn.v2ex.com/gravatar/6487bc98a2d4b8cbe3e806499341e2f0?s=73&d=retro",
+            "created": 1755182912,
+            "pro": 0
+          }
         }
       ]
     },
@@ -697,7 +731,7 @@
           "header": "分享你看到的好玩的，有信息量的，欢迎从这里获取灵感。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c74d/97b0/16_xxxlarge.png?m=1727584731",
-          "topics": 46811,
+          "topics": 46814,
           "created": 1272218320,
           "last_modified": 1727584731
         },
@@ -775,7 +809,7 @@
           "header": "关于 OpenAI 旗下产品 GPT，DALL·E，和 ChatGPT 的讨论。请不要在 V2EX 的回复中粘贴复制来自 AI 生成的文本。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/fd2c/5e46/1135_xxxlarge.png?m=1751736785",
-          "topics": 4431,
+          "topics": 4432,
           "created": 1670310820,
           "last_modified": 1751736785
         },
@@ -1040,7 +1074,7 @@
           "header": "While code monkeys are not eating bananas, they're coding.",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/94f6/d7e0/300_xxxlarge.png?m=1733731195",
-          "topics": 72506,
+          "topics": 72512,
           "created": 1293396163,
           "last_modified": 1733731195
         },
@@ -1083,7 +1117,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -1290,7 +1324,7 @@
           "header": "这里，我们聊聊那些工作中遇到的开心和不开心的事。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/4ea0/6fbc/770_xxxlarge.png?m=1768280127",
-          "topics": 24008,
+          "topics": 24009,
           "created": 1393052966,
           "last_modified": 1768280127
         },
@@ -1655,13 +1689,13 @@
         "content_rendered": "这周抽键盘迈从 Ace 68 V2 ；鼠标迈从 A7 V3 PRO+<br />大笑脸开户，最近新增了很多新的低门槛免 5 券商，股票，etf 全网超低费率，欢迎来开！开户和推荐朋友都有红包！<br />⚠️回帖即可参与抽奖！<br /><a target=\"_blank\" href=\"/i/p96eAHV9l.jpeg\" rel=\"nofollow noopener\" target=\"_blank\" title=\"在新窗口打开图片 p96eAHV9l.jpeg\"><img src=\"//i.v2ex.co/p96eAHV9l.jpeg\" class=\"embedded_image\"></a><br />⚠️大笑脸低佣开户推荐：<br />YH 证券：ETF 万 0.5 免 5 [etf 费率最低，适合 etf ，打新，纳指，宽基，LOF 套利，逆回购 1 折，新手必备]<br />GF 证券：ETF 万 0.5 免 5 [ETF 费率低]<br />GD 证券：万 1 免 5  [低门槛股票 etf 双免 5]<br />DB 证券：万 0.741 免 5 [国企券商，股票 etf 费率都很低]<br />GT*证券：万 0.8  免 5 [头部龙头券商，费率最优惠，大客户专享，综合费率最低]<br />GX 证券：万 0.851 免 5 [头部龙头券商，综合费率也很低]<br /><br />⚠️大笑脸联系方式和最新具体券商表格清单，随时更新 <a target=\"_blank\" href=\"http://www.daxiaolian.com\" rel=\"nofollow noopener\">www.daxiaolian.com</a><br />备用链接 <a target=\"_blank\" href=\"https://shimo.im/docs/rp3OMVG1KaCV6Lkm\" rel=\"nofollow noopener\">https://shimo.im/docs/rp3OMVG1KaCV6Lkm</a><br />备用联系方式 Z2FveWEyNTAw<br />ZHhnODg0NA==",
         "syntax": 0,
         "url": "https://www.v2ex.com/t/1231596",
-        "replies": 168,
+        "replies": 171,
         "stars": 0,
         "thanks": 0,
-        "last_reply_by": "Grocker",
+        "last_reply_by": "futuan",
         "created": 1785716744,
         "last_modified": 1785716744,
-        "last_touched": 1785838972,
+        "last_touched": 1785839062,
         "member": {
           "id": 335324,
           "username": "daxiaolian",
@@ -1671,7 +1705,7 @@
           "url": "https://www.v2ex.com/member/daxiaolian",
           "avatar": "https://cdn.v2ex.com/avatar/b892/efa1/335324_xxxlarge.png?m=1768177920",
           "created": 1532421573,
-          "pro": 1785834052
+          "pro": 1785847516
         },
         "node": {
           "id": 864,
@@ -1682,7 +1716,7 @@
           "header": "来自厂商的推广活动类主题，会被归类到这个节点。希望有情怀的产商们在发布推广内容时，主动选择发布到本节点下。点击 <a href=\"/help/node\">这里</a> 阅读 V2EX 的节点使用指南。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/1fc2/1400/864_xxxlarge.png?m=1778522847",
-          "topics": 13234,
+          "topics": 13238,
           "created": 1438866283,
           "last_modified": 1778522847
         },
@@ -1737,7 +1771,7 @@
             "url": "https://www.v2ex.com/member/daxiaolian",
             "avatar": "https://cdn.v2ex.com/avatar/b892/efa1/335324_xxxlarge.png?m=1768177920",
             "created": 1532421573,
-            "pro": 1785834052
+            "pro": 1785847516
           }
         },
         {
@@ -1754,7 +1788,7 @@
             "url": "https://www.v2ex.com/member/daxiaolian",
             "avatar": "https://cdn.v2ex.com/avatar/b892/efa1/335324_xxxlarge.png?m=1768177920",
             "created": 1532421573,
-            "pro": 1785834052
+            "pro": 1785847516
           }
         },
         {
@@ -1771,7 +1805,7 @@
             "url": "https://www.v2ex.com/member/daxiaolian",
             "avatar": "https://cdn.v2ex.com/avatar/b892/efa1/335324_xxxlarge.png?m=1768177920",
             "created": 1532421573,
-            "pro": 1785834052
+            "pro": 1785847516
           }
         },
         {
@@ -2195,7 +2229,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -2565,7 +2599,7 @@
           "header": "生活中的技术讨论",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/6e27/13a6/557_xxxlarge.png?m=1747623425",
-          "topics": 11388,
+          "topics": 11391,
           "created": 1337512494,
           "last_modified": 1747623425
         },
@@ -3341,7 +3375,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -3409,13 +3443,13 @@
         "content_rendered": "<p>5459 元入手，整半年 5000 元出（平均每月折损 76.5 元）。</p>\n<p>除了超薄，其他体验都是缺点：</p>\n<ul>\n<li>续航：出门不带充电宝等于宣判死刑</li>\n<li>发热：发热严重，降频掉帧导致卡顿</li>\n<li>充电：速度超慢，放在 2026 年真垃圾</li>\n<li>摄像头：没微距，日常极不方便</li>\n<li>单扬声器：勉强能接受，但户外微信语音体验很差</li>\n<li>手感：不带壳超级滑，极容易掉落</li>\n</ul>\n<p>Air 的销量已经说明了一切。以后不会再轻易尝试这种为了轻薄而牺牲功能的产品了。</p>\n<p>买 iPhone ，还是老老实实选择基础款或者 Pro 系列，体验更均衡，也更符合日常使用需求。</p>\n",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231604",
-        "replies": 92,
+        "replies": 94,
         "stars": 7,
         "thanks": 0,
-        "last_reply_by": "omz",
+        "last_reply_by": "gigishy",
         "created": 1785719070,
         "last_modified": 1785719070,
-        "last_touched": 1785794889,
+        "last_touched": 1785802089,
         "member": {
           "id": 664401,
           "username": "omz",
@@ -3828,7 +3862,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -4163,7 +4197,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -4897,7 +4931,7 @@
           "header": "生活中的技术讨论",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/6e27/13a6/557_xxxlarge.png?m=1747623425",
-          "topics": 11388,
+          "topics": 11391,
           "created": 1337512494,
           "last_modified": 1747623425
         },
@@ -4935,7 +4969,7 @@
             "url": "https://www.v2ex.com/member/Nasdaq",
             "avatar": "https://cdn.v2ex.com/avatar/6159/9999/582231_xxxlarge.png?m=1754617848",
             "created": 1653028486,
-            "pro": 1785833046
+            "pro": 1785841685
           }
         },
         {
@@ -5281,7 +5315,7 @@
           "header": "生活中的技术讨论",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/6e27/13a6/557_xxxlarge.png?m=1747623425",
-          "topics": 11388,
+          "topics": 11391,
           "created": 1337512494,
           "last_modified": 1747623425
         },
@@ -5665,7 +5699,7 @@
           "header": "分享你看到的好玩的，有信息量的，欢迎从这里获取灵感。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c74d/97b0/16_xxxlarge.png?m=1727584731",
-          "topics": 46811,
+          "topics": 46814,
           "created": 1272218320,
           "last_modified": 1727584731
         },
@@ -6064,7 +6098,7 @@
           "header": "While code monkeys are not eating bananas, they're coding.",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/94f6/d7e0/300_xxxlarge.png?m=1733731195",
-          "topics": 72506,
+          "topics": 72512,
           "created": 1293396163,
           "last_modified": 1733731195
         },
@@ -6254,7 +6288,7 @@
           "header": "来自厂商的推广活动类主题，会被归类到这个节点。希望有情怀的产商们在发布推广内容时，主动选择发布到本节点下。点击 <a href=\"/help/node\">这里</a> 阅读 V2EX 的节点使用指南。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/1fc2/1400/864_xxxlarge.png?m=1778522847",
-          "topics": 13234,
+          "topics": 13238,
           "created": 1438866283,
           "last_modified": 1778522847
         },
@@ -6612,7 +6646,7 @@
           "header": "一些不适合出现在首页上的信息，请发布到这里。如果你要给另外一位会员留言，也可以使用这个节点 @ 对方用户名。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/bac9/162b/364_xxlarge.png?m=1609134868",
-          "topics": 11514,
+          "topics": 11515,
           "created": 1301201691,
           "last_modified": 1609134868
         },
@@ -6633,7 +6667,7 @@
             "url": "https://www.v2ex.com/member/Livid",
             "avatar": "https://cdn.v2ex.com/avatar/c4ca/4238/1_xxxlarge.png?m=1785398719",
             "created": 1272203146,
-            "pro": 1785834008
+            "pro": 1785848686
           }
         }
       ]
@@ -6734,7 +6768,7 @@
           "header": "关于 OpenAI 旗下产品 GPT，DALL·E，和 ChatGPT 的讨论。请不要在 V2EX 的回复中粘贴复制来自 AI 生成的文本。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/fd2c/5e46/1135_xxxlarge.png?m=1751736785",
-          "topics": 4431,
+          "topics": 4432,
           "created": 1670310820,
           "last_modified": 1751736785
         },
@@ -7101,7 +7135,7 @@
           "header": "来自厂商的推广活动类主题，会被归类到这个节点。希望有情怀的产商们在发布推广内容时，主动选择发布到本节点下。点击 <a href=\"/help/node\">这里</a> 阅读 V2EX 的节点使用指南。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/1fc2/1400/864_xxxlarge.png?m=1778522847",
-          "topics": 13234,
+          "topics": 13238,
           "created": 1438866283,
           "last_modified": 1778522847
         },
@@ -7485,7 +7519,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -7614,10 +7648,10 @@
         "content_rendered": "",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231622",
-        "replies": 15,
+        "replies": 17,
         "stars": 0,
         "thanks": 0,
-        "last_reply_by": "19cm",
+        "last_reply_by": "Mitt",
         "created": 1785721286,
         "last_modified": 1785721286,
         "last_touched": 1785663686,
@@ -7902,6 +7936,40 @@
             "created": 1607352828,
             "pro": 0
           }
+        },
+        {
+          "id": 17937796,
+          "content": "@19cm #8 这个我倒没遇到 我遇到的是上传图片的时候访达的左侧边栏会挡住最左侧那一列图片 调整窗口大小也不行",
+          "content_rendered": "@<a href=\"/member/19cm\">19cm</a> #8 这个我倒没遇到 我遇到的是上传图片的时候访达的左侧边栏会挡住最左侧那一列图片 调整窗口大小也不行",
+          "created": 1785840030,
+          "member": {
+            "id": 60432,
+            "username": "snsn",
+            "bio": "",
+            "website": "",
+            "github": null,
+            "url": "https://www.v2ex.com/member/snsn",
+            "avatar": "https://cdn.v2ex.com/gravatar/50a3182309fae9fcb1e48ef70b427103?s=73&d=retro",
+            "created": 1397583006,
+            "pro": 0
+          }
+        },
+        {
+          "id": 17937826,
+          "content": "@wu67 #4 还是有的，上次不是刚有人遇到 APFS 有严重 bug 数据全丢的",
+          "content_rendered": "@<a href=\"/member/wu67\">wu67</a> #4 还是有的，上次不是刚有人遇到 APFS 有严重 bug 数据全丢的",
+          "created": 1785840560,
+          "member": {
+            "id": 156455,
+            "username": "Mitt",
+            "bio": "",
+            "website": "",
+            "github": "",
+            "url": "https://www.v2ex.com/member/Mitt",
+            "avatar": "https://cdn.v2ex.com/gravatar/a3bd4f1b01c0bf5b71c30d90a9449056?s=73&d=retro",
+            "created": 1453424152,
+            "pro": 0
+          }
         }
       ]
     },
@@ -7940,7 +8008,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -7991,7 +8059,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -8034,7 +8102,7 @@
           "header": "来自厂商的推广活动类主题，会被归类到这个节点。希望有情怀的产商们在发布推广内容时，主动选择发布到本节点下。点击 <a href=\"/help/node\">这里</a> 阅读 V2EX 的节点使用指南。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/1fc2/1400/864_xxxlarge.png?m=1778522847",
-          "topics": 13234,
+          "topics": 13238,
           "created": 1438866283,
           "last_modified": 1778522847
         },
@@ -8077,7 +8145,7 @@
           "header": "生活中的技术讨论",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/6e27/13a6/557_xxxlarge.png?m=1747623425",
-          "topics": 11388,
+          "topics": 11391,
           "created": 1337512494,
           "last_modified": 1747623425
         },
@@ -8208,7 +8276,7 @@
             "url": "https://www.v2ex.com/member/Nasdaq",
             "avatar": "https://cdn.v2ex.com/avatar/6159/9999/582231_xxxlarge.png?m=1754617848",
             "created": 1653028486,
-            "pro": 1785833046
+            "pro": 1785841685
           }
         },
         {
@@ -8442,13 +8510,13 @@
         "content_rendered": "<p>最近在玩币安的 meme 币，亏了上千 U ，目前参与一个叫 seedcoin 的 meme 币，口号做币圈第一个植物类的币，我被洗脑，买了几百 u ，快进前 20 了。</p>\n<p>meme 币本身没有价值，全靠击鼓传花，我也来自费发空投，玩的人多了，币上涨了，我也就赚了。</p>\n<p>大家评论留下 evm 钱包地址就是：0x 开头那种，我空投 300 到 700 个随机的币，现在不值钱，才一两毛，本身币就值 4 万 u ，如果运气好做到 4 百万 u 市值，空投够大家吃顿猪脚饭。</p>\n<p>PS： 限前 100 评论</p>\n<p>如想了解的，可以币安扫码加群，还可以每天领 1000 个空投，是群主他们搞的活动，但是需要币安广场发帖才行。</p>\n<p><a href=\"https://i.v2ex.co/rO03H8Vk.jpeg\" rel=\"nofollow\">https://i.v2ex.co/rO03H8Vk.jpeg</a></p>\n",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231627",
-        "replies": 96,
+        "replies": 97,
         "stars": 1,
         "thanks": 0,
-        "last_reply_by": "iamsanwen",
+        "last_reply_by": "lzxz1234",
         "created": 1785721505,
         "last_modified": 1785721505,
-        "last_touched": 1785805200,
+        "last_touched": 1785808800,
         "member": {
           "id": 769954,
           "username": "iamsanwen",
@@ -8882,7 +8950,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -9266,7 +9334,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -9480,7 +9548,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -9753,7 +9821,7 @@
           "header": "来自厂商的推广活动类主题，会被归类到这个节点。希望有情怀的产商们在发布推广内容时，主动选择发布到本节点下。点击 <a href=\"/help/node\">这里</a> 阅读 V2EX 的节点使用指南。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/1fc2/1400/864_xxxlarge.png?m=1778522847",
-          "topics": 13234,
+          "topics": 13238,
           "created": 1438866283,
           "last_modified": 1778522847
         },
@@ -9796,7 +9864,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -9839,7 +9907,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -9882,7 +9950,7 @@
           "header": "来自厂商的推广活动类主题，会被归类到这个节点。希望有情怀的产商们在发布推广内容时，主动选择发布到本节点下。点击 <a href=\"/help/node\">这里</a> 阅读 V2EX 的节点使用指南。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/1fc2/1400/864_xxxlarge.png?m=1778522847",
-          "topics": 13234,
+          "topics": 13238,
           "created": 1438866283,
           "last_modified": 1778522847
         },
@@ -10274,7 +10342,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -10445,7 +10513,7 @@
           "header": "来自厂商的推广活动类主题，会被归类到这个节点。希望有情怀的产商们在发布推广内容时，主动选择发布到本节点下。点击 <a href=\"/help/node\">这里</a> 阅读 V2EX 的节点使用指南。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/1fc2/1400/864_xxxlarge.png?m=1778522847",
-          "topics": 13234,
+          "topics": 13238,
           "created": 1438866283,
           "last_modified": 1778522847
         },
@@ -10565,7 +10633,7 @@
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231637",
         "replies": 68,
-        "stars": 0,
+        "stars": 1,
         "thanks": 0,
         "last_reply_by": "lihanfeifan",
         "created": 1785722744,
@@ -10591,7 +10659,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -10983,7 +11051,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -11095,7 +11163,7 @@
           "header": "来自厂商的推广活动类主题，会被归类到这个节点。希望有情怀的产商们在发布推广内容时，主动选择发布到本节点下。点击 <a href=\"/help/node\">这里</a> 阅读 V2EX 的节点使用指南。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/1fc2/1400/864_xxxlarge.png?m=1778522847",
-          "topics": 13234,
+          "topics": 13238,
           "created": 1438866283,
           "last_modified": 1778522847
         },
@@ -11285,7 +11353,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -11652,7 +11720,7 @@
           "header": "While code monkeys are not eating bananas, they're coding.",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/94f6/d7e0/300_xxxlarge.png?m=1733731195",
-          "topics": 72506,
+          "topics": 72512,
           "created": 1293396163,
           "last_modified": 1733731195
         },
@@ -11806,7 +11874,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -12217,7 +12285,7 @@
           "header": "这里，我们聊聊那些工作中遇到的开心和不开心的事。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/4ea0/6fbc/770_xxxlarge.png?m=1768280127",
-          "topics": 24008,
+          "topics": 24009,
           "created": 1393052966,
           "last_modified": 1768280127
         },
@@ -12609,7 +12677,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -12695,7 +12763,7 @@
         "syntax": 0,
         "url": "https://www.v2ex.com/t/1231647",
         "replies": 85,
-        "stars": 4,
+        "stars": 5,
         "thanks": 0,
         "last_reply_by": "Doloroso",
         "created": 1785723772,
@@ -12721,7 +12789,7 @@
           "header": "生活中的技术讨论",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/6e27/13a6/557_xxxlarge.png?m=1747623425",
-          "topics": 11388,
+          "topics": 11391,
           "created": 1337512494,
           "last_modified": 1747623425
         },
@@ -12750,7 +12818,7 @@
             "url": "https://www.v2ex.com/member/yidinghe",
             "avatar": "https://cdn.v2ex.com/avatar/5987/bc50/78391_large.png?m=1782750130",
             "created": 1414140665,
-            "pro": 1785834100
+            "pro": 1785842686
           }
         },
         {
@@ -13113,7 +13181,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -13301,7 +13369,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -13764,13 +13832,13 @@
         "content_rendered": "老哥们求助一下。<br />亲妹妹今年考上了华南农业大学，过几天办升学宴，作为哥哥想送个礼物，但是不知道送啥好。<br />想要实用一点的，又有点纪念意义的<br />大家当年升学或者送过别人什么觉得不错的？求推荐，感谢！",
         "syntax": 0,
         "url": "https://www.v2ex.com/t/1231653",
-        "replies": 105,
+        "replies": 106,
         "stars": 2,
         "thanks": 0,
-        "last_reply_by": "prosgtsr",
+        "last_reply_by": "Cu635",
         "created": 1785724684,
         "last_modified": 1785730753,
-        "last_touched": 1785783966,
+        "last_touched": 1785787566,
         "member": {
           "id": 411308,
           "username": "wansan109",
@@ -13791,7 +13859,7 @@
           "header": "生活中的技术讨论",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/6e27/13a6/557_xxxlarge.png?m=1747623425",
-          "topics": 11388,
+          "topics": 11391,
           "created": 1337512494,
           "last_modified": 1747623425
         },
@@ -13863,7 +13931,7 @@
             "url": "https://www.v2ex.com/member/Nasdaq",
             "avatar": "https://cdn.v2ex.com/avatar/6159/9999/582231_xxxlarge.png?m=1754617848",
             "created": 1653028486,
-            "pro": 1785833046
+            "pro": 1785841685
           }
         },
         {
@@ -14559,7 +14627,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -14726,7 +14794,7 @@
             "url": "https://www.v2ex.com/member/Nasdaq",
             "avatar": "https://cdn.v2ex.com/avatar/6159/9999/582231_xxxlarge.png?m=1754617848",
             "created": 1653028486,
-            "pro": 1785833046
+            "pro": 1785841685
           }
         },
         {
@@ -15021,7 +15089,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -15150,7 +15218,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -15245,7 +15313,7 @@
           "header": "分享你看到的好玩的，有信息量的，欢迎从这里获取灵感。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c74d/97b0/16_xxxlarge.png?m=1727584731",
-          "topics": 46811,
+          "topics": 46814,
           "created": 1272218320,
           "last_modified": 1727584731
         },
@@ -15288,7 +15356,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -15349,7 +15417,7 @@
           "header": "来自厂商的推广活动类主题，会被归类到这个节点。希望有情怀的产商们在发布推广内容时，主动选择发布到本节点下。点击 <a href=\"/help/node\">这里</a> 阅读 V2EX 的节点使用指南。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/1fc2/1400/864_xxxlarge.png?m=1778522847",
-          "topics": 13234,
+          "topics": 13238,
           "created": 1438866283,
           "last_modified": 1778522847
         },
@@ -15392,7 +15460,7 @@
           "header": "做有趣的有意义的事情。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/17e6/2166/43_xxxlarge.png?m=1768280099",
-          "topics": 60604,
+          "topics": 60606,
           "created": 1272273894,
           "last_modified": 1768280099
         },
@@ -15470,7 +15538,7 @@
           "header": "来自厂商的推广活动类主题，会被归类到这个节点。希望有情怀的产商们在发布推广内容时，主动选择发布到本节点下。点击 <a href=\"/help/node\">这里</a> 阅读 V2EX 的节点使用指南。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/1fc2/1400/864_xxxlarge.png?m=1778522847",
-          "topics": 13234,
+          "topics": 13238,
           "created": 1438866283,
           "last_modified": 1778522847
         },
@@ -15531,7 +15599,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -15643,7 +15711,7 @@
           "header": "While code monkeys are not eating bananas, they're coding.",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/94f6/d7e0/300_xxxlarge.png?m=1733731195",
-          "topics": 72506,
+          "topics": 72512,
           "created": 1293396163,
           "last_modified": 1733731195
         },
@@ -15908,7 +15976,7 @@
           "header": "关于 OpenAI 旗下产品 GPT，DALL·E，和 ChatGPT 的讨论。请不要在 V2EX 的回复中粘贴复制来自 AI 生成的文本。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/fd2c/5e46/1135_xxxlarge.png?m=1751736785",
-          "topics": 4431,
+          "topics": 4432,
           "created": 1670310820,
           "last_modified": 1751736785
         },
@@ -16072,7 +16140,7 @@
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231668",
         "replies": 16,
-        "stars": 1,
+        "stars": 2,
         "thanks": 0,
         "last_reply_by": "Unitent",
         "created": 1785726083,
@@ -16098,7 +16166,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -16414,7 +16482,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -16798,7 +16866,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -16859,7 +16927,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -16954,7 +17022,7 @@
           "header": "生活中的技术讨论",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/6e27/13a6/557_xxxlarge.png?m=1747623425",
-          "topics": 11388,
+          "topics": 11391,
           "created": 1337512494,
           "last_modified": 1747623425
         },
@@ -17060,7 +17128,7 @@
             "url": "https://www.v2ex.com/member/darksword21",
             "avatar": "https://cdn.v2ex.com/avatar/eb20/d71c/380437_large.png?m=1608826215",
             "created": 1548567996,
-            "pro": 1785826519
+            "pro": 1785847244
           }
         },
         {
@@ -17338,7 +17406,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -17354,13 +17422,13 @@
         "content_rendered": "<p>先说预算，预算 1w-2w 。</p>\n",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231674",
-        "replies": 154,
-        "stars": 18,
+        "replies": 156,
+        "stars": 19,
         "thanks": 0,
-        "last_reply_by": "littlefishzzz",
+        "last_reply_by": "xiangxiangxiang",
         "created": 1785726821,
         "last_modified": 1785730722,
-        "last_touched": 1785815627,
+        "last_touched": 1785822827,
         "member": {
           "id": 646576,
           "username": "JShen",
@@ -17381,7 +17449,7 @@
           "header": "生活中的技术讨论",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/6e27/13a6/557_xxxlarge.png?m=1747623425",
-          "topics": 11388,
+          "topics": 11391,
           "created": 1337512494,
           "last_modified": 1747623425
         },
@@ -17765,7 +17833,7 @@
           "header": "While code monkeys are not eating bananas, they're coding.",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/94f6/d7e0/300_xxxlarge.png?m=1733731195",
-          "topics": 72506,
+          "topics": 72512,
           "created": 1293396163,
           "last_modified": 1733731195
         },
@@ -18149,7 +18217,7 @@
           "header": "While code monkeys are not eating bananas, they're coding.",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/94f6/d7e0/300_xxxlarge.png?m=1733731195",
-          "topics": 72506,
+          "topics": 72512,
           "created": 1293396163,
           "last_modified": 1733731195
         },
@@ -18295,7 +18363,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -18679,7 +18747,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -19185,7 +19253,7 @@
           "header": "来自厂商的推广活动类主题，会被归类到这个节点。希望有情怀的产商们在发布推广内容时，主动选择发布到本节点下。点击 <a href=\"/help/node\">这里</a> 阅读 V2EX 的节点使用指南。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/1fc2/1400/864_xxxlarge.png?m=1778522847",
-          "topics": 13234,
+          "topics": 13238,
           "created": 1438866283,
           "last_modified": 1778522847
         },
@@ -20004,7 +20072,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -20125,7 +20193,7 @@
           "header": "做有趣的有意义的事情。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/17e6/2166/43_xxxlarge.png?m=1768280099",
-          "topics": 60604,
+          "topics": 60606,
           "created": 1272273894,
           "last_modified": 1768280099
         },
@@ -20141,13 +20209,13 @@
         "content_rendered": "<p>最近想看一些美剧，顺便练英语，最好能切换纯英文字幕。\n想问一下大家平时都用什么平台或者网站看？免费的优先，付费但价格不高的也可以接受，最好资源比较全、播放稳定。\n主要是想看《摩登家庭》（ Modern Family ）\n有推荐的话麻烦分享一下，谢谢。</p>\n",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231687",
-        "replies": 10,
+        "replies": 11,
         "stars": 1,
         "thanks": 0,
-        "last_reply_by": "zachary99",
+        "last_reply_by": "Hugehard",
         "created": 1785727708,
         "last_modified": 1785727708,
-        "last_touched": 1785751702,
+        "last_touched": 1785755302,
         "member": {
           "id": 808673,
           "username": "Monanalms",
@@ -20344,6 +20412,23 @@
             "created": 1644761334,
             "pro": 0
           }
+        },
+        {
+          "id": 17937556,
+          "content": "pt 站",
+          "content_rendered": "pt 站",
+          "created": 1785836422,
+          "member": {
+            "id": 334075,
+            "username": "Hugehard",
+            "bio": null,
+            "website": null,
+            "github": null,
+            "url": "https://www.v2ex.com/member/Hugehard",
+            "avatar": "https://cdn.v2ex.com/avatar/966f/5b12/334075_large.png?m=1749773948",
+            "created": 1532347394,
+            "pro": 0
+          }
         }
       ]
     },
@@ -20382,7 +20467,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -20460,7 +20545,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -20606,7 +20691,7 @@
           "header": "来自厂商的推广活动类主题，会被归类到这个节点。希望有情怀的产商们在发布推广内容时，主动选择发布到本节点下。点击 <a href=\"/help/node\">这里</a> 阅读 V2EX 的节点使用指南。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/1fc2/1400/864_xxxlarge.png?m=1778522847",
-          "topics": 13234,
+          "topics": 13238,
           "created": 1438866283,
           "last_modified": 1778522847
         },
@@ -20649,7 +20734,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -20692,7 +20777,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -20753,7 +20838,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -20865,7 +20950,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -20908,7 +20993,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -21047,7 +21132,7 @@
           "header": "While code monkeys are not eating bananas, they're coding.",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/94f6/d7e0/300_xxxlarge.png?m=1733731195",
-          "topics": 72506,
+          "topics": 72512,
           "created": 1293396163,
           "last_modified": 1733731195
         },
@@ -21108,7 +21193,7 @@
           "header": "来自厂商的推广活动类主题，会被归类到这个节点。希望有情怀的产商们在发布推广内容时，主动选择发布到本节点下。点击 <a href=\"/help/node\">这里</a> 阅读 V2EX 的节点使用指南。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/1fc2/1400/864_xxxlarge.png?m=1778522847",
-          "topics": 13234,
+          "topics": 13238,
           "created": 1438866283,
           "last_modified": 1778522847
         },
@@ -21186,7 +21271,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -21349,7 +21434,7 @@
           "header": "来自厂商的推广活动类主题，会被归类到这个节点。希望有情怀的产商们在发布推广内容时，主动选择发布到本节点下。点击 <a href=\"/help/node\">这里</a> 阅读 V2EX 的节点使用指南。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/1fc2/1400/864_xxxlarge.png?m=1778522847",
-          "topics": 13234,
+          "topics": 13238,
           "created": 1438866283,
           "last_modified": 1778522847
         },
@@ -21392,7 +21477,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -21513,7 +21598,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -21693,7 +21778,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -21992,7 +22077,7 @@
           "header": "While code monkeys are not eating bananas, they're coding.",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/94f6/d7e0/300_xxxlarge.png?m=1733731195",
-          "topics": 72506,
+          "topics": 72512,
           "created": 1293396163,
           "last_modified": 1733731195
         },
@@ -22009,7 +22094,7 @@
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231706",
         "replies": 2,
-        "stars": 5,
+        "stars": 6,
         "thanks": 0,
         "last_reply_by": "bbdoger",
         "created": 1785732024,
@@ -22035,7 +22120,7 @@
           "header": "关于 OpenAI 旗下产品 GPT，DALL·E，和 ChatGPT 的讨论。请不要在 V2EX 的回复中粘贴复制来自 AI 生成的文本。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/fd2c/5e46/1135_xxxlarge.png?m=1751736785",
-          "topics": 4431,
+          "topics": 4432,
           "created": 1670310820,
           "last_modified": 1751736785
         },
@@ -22113,7 +22198,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -22156,7 +22241,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -22234,7 +22319,7 @@
           "header": "分享你看到的好玩的，有信息量的，欢迎从这里获取灵感。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c74d/97b0/16_xxxlarge.png?m=1727584731",
-          "topics": 46811,
+          "topics": 46814,
           "created": 1272218320,
           "last_modified": 1727584731
         },
@@ -22618,7 +22703,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -22690,7 +22775,7 @@
             "url": "https://www.v2ex.com/member/Nasdaq",
             "avatar": "https://cdn.v2ex.com/avatar/6159/9999/582231_xxxlarge.png?m=1754617848",
             "created": 1653028486,
-            "pro": 1785833046
+            "pro": 1785841685
           }
         },
         {
@@ -22911,7 +22996,7 @@
             "url": "https://www.v2ex.com/member/yidinghe",
             "avatar": "https://cdn.v2ex.com/avatar/5987/bc50/78391_large.png?m=1782750130",
             "created": 1414140665,
-            "pro": 1785834100
+            "pro": 1785842686
           }
         },
         {
@@ -23114,7 +23199,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -23226,7 +23311,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -23269,7 +23354,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -23312,7 +23397,7 @@
           "header": "做有趣的有意义的事情。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/17e6/2166/43_xxxlarge.png?m=1768280099",
-          "topics": 60604,
+          "topics": 60606,
           "created": 1272273894,
           "last_modified": 1768280099
         },
@@ -23355,7 +23440,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -23398,7 +23483,7 @@
           "header": "While code monkeys are not eating bananas, they're coding.",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/94f6/d7e0/300_xxxlarge.png?m=1733731195",
-          "topics": 72506,
+          "topics": 72512,
           "created": 1293396163,
           "last_modified": 1733731195
         },
@@ -23766,7 +23851,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -24099,7 +24184,7 @@
           "header": "关于 OpenAI 旗下产品 GPT，DALL·E，和 ChatGPT 的讨论。请不要在 V2EX 的回复中粘贴复制来自 AI 生成的文本。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/fd2c/5e46/1135_xxxlarge.png?m=1751736785",
-          "topics": 4431,
+          "topics": 4432,
           "created": 1670310820,
           "last_modified": 1751736785
         },
@@ -24245,7 +24330,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -24357,7 +24442,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -24459,13 +24544,13 @@
         "content_rendered": "<p>各位看管有什么可以推荐的吗？，目前使用的是 justmysocket 的服务。</p>\n",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231724",
-        "replies": 9,
+        "replies": 10,
         "stars": 1,
         "thanks": 0,
-        "last_reply_by": "AlohaV2",
+        "last_reply_by": "takanoter",
         "created": 1785736578,
         "last_modified": 1785736578,
-        "last_touched": 1785743285,
+        "last_touched": 1785769547,
         "member": {
           "id": 776322,
           "username": "hnhertt",
@@ -24643,6 +24728,23 @@
             "url": "https://www.v2ex.com/member/AlohaV2",
             "avatar": "https://cdn.v2ex.com/avatar/e8c4/cb10/380494_large.png?m=1781252209",
             "created": 1548594661,
+            "pro": 0
+          }
+        },
+        {
+          "id": 17938069,
+          "content": "xmlv.cc 推荐个稳定好用",
+          "content_rendered": "<a target=\"_blank\" href=\"http://xmlv.cc\" rel=\"nofollow noopener\">xmlv.cc</a> 推荐个稳定好用",
+          "created": 1785848334,
+          "member": {
+            "id": 53546,
+            "username": "takanoter",
+            "bio": "",
+            "website": "",
+            "github": "",
+            "url": "https://www.v2ex.com/member/takanoter",
+            "avatar": "https://cdn.v2ex.com/avatar/2660/795d/53546_large.png?m=1782916656",
+            "created": 1388998716,
             "pro": 0
           }
         }
@@ -24846,7 +24948,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -24889,7 +24991,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -24950,7 +25052,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -25019,7 +25121,7 @@
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231729",
         "replies": 56,
-        "stars": 19,
+        "stars": 20,
         "thanks": 0,
         "last_reply_by": "kevan",
         "created": 1785737231,
@@ -25045,7 +25147,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -25429,7 +25531,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -25514,13 +25616,13 @@
         "content_rendered": "bbs1org 8.0 焕然登场。优化到仅 100 多 KB ！一个极简 PHP 论坛。<br /><br />仓库地址：<br /><a target=\"_blank\" href=\"https://github.com/bbs1org/bbs1org\" rel=\"nofollow noopener\">https://github.com/bbs1org/bbs1org</a><br /><br />可选功能全部以插件的形式提供，由用户自由选择搭配！",
         "syntax": 0,
         "url": "https://www.v2ex.com/t/1231731",
-        "replies": 71,
-        "stars": 56,
+        "replies": 74,
+        "stars": 57,
         "thanks": 4,
         "last_reply_by": "lilililili2020",
         "created": 1785737772,
         "last_modified": 1785737772,
-        "last_touched": 1785815193,
+        "last_touched": 1785818793,
         "member": {
           "id": 498229,
           "username": "lilililili2020",
@@ -25906,13 +26008,13 @@
         "content_rendered": "竹知了<br />起源于隋唐<br />兴于两宋<br />亡于鸿蒙 7 年<br /><br />哇哇哇哇<br /><br /><a target=\"_blank\" href=\"https://zhuzhiliao.imsai.cc/\" rel=\"nofollow noopener\">https://zhuzhiliao.imsai.cc/</a>",
         "syntax": 0,
         "url": "https://www.v2ex.com/t/1231732",
-        "replies": 164,
-        "stars": 58,
+        "replies": 168,
+        "stars": 60,
         "thanks": 25,
-        "last_reply_by": "Nolink",
+        "last_reply_by": "dxatgp02",
         "created": 1785737802,
         "last_modified": 1785737802,
-        "last_touched": 1785823437,
+        "last_touched": 1785844844,
         "member": {
           "id": 610586,
           "username": "3499",
@@ -25933,7 +26035,7 @@
           "header": "分享你看到的好玩的，有信息量的，欢迎从这里获取灵感。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c74d/97b0/16_xxxlarge.png?m=1727584731",
-          "topics": 46811,
+          "topics": 46814,
           "created": 1272218320,
           "last_modified": 1727584731
         },
@@ -26395,7 +26497,7 @@
           "header": "生活中的技术讨论",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/6e27/13a6/557_xxxlarge.png?m=1747623425",
-          "topics": 11388,
+          "topics": 11391,
           "created": 1337512494,
           "last_modified": 1747623425
         },
@@ -26473,7 +26575,7 @@
           "header": "来自厂商的推广活动类主题，会被归类到这个节点。希望有情怀的产商们在发布推广内容时，主动选择发布到本节点下。点击 <a href=\"/help/node\">这里</a> 阅读 V2EX 的节点使用指南。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/1fc2/1400/864_xxxlarge.png?m=1778522847",
-          "topics": 13234,
+          "topics": 13238,
           "created": 1438866283,
           "last_modified": 1778522847
         },
@@ -26516,7 +26618,7 @@
           "header": "生活中的技术讨论",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/6e27/13a6/557_xxxlarge.png?m=1747623425",
-          "topics": 11388,
+          "topics": 11391,
           "created": 1337512494,
           "last_modified": 1747623425
         },
@@ -26645,7 +26747,7 @@
           "header": "分享你看到的好玩的，有信息量的，欢迎从这里获取灵感。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c74d/97b0/16_xxxlarge.png?m=1727584731",
-          "topics": 46811,
+          "topics": 46814,
           "created": 1272218320,
           "last_modified": 1727584731
         },
@@ -26800,7 +26902,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -26843,7 +26945,7 @@
           "header": "来自厂商的推广活动类主题，会被归类到这个节点。希望有情怀的产商们在发布推广内容时，主动选择发布到本节点下。点击 <a href=\"/help/node\">这里</a> 阅读 V2EX 的节点使用指南。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/1fc2/1400/864_xxxlarge.png?m=1778522847",
-          "topics": 13234,
+          "topics": 13238,
           "created": 1438866283,
           "last_modified": 1778522847
         },
@@ -26886,7 +26988,7 @@
           "header": "来自厂商的推广活动类主题，会被归类到这个节点。希望有情怀的产商们在发布推广内容时，主动选择发布到本节点下。点击 <a href=\"/help/node\">这里</a> 阅读 V2EX 的节点使用指南。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/1fc2/1400/864_xxxlarge.png?m=1778522847",
-          "topics": 13234,
+          "topics": 13238,
           "created": 1438866283,
           "last_modified": 1778522847
         },
@@ -26929,7 +27031,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -26945,10 +27047,10 @@
         "content_rendered": "<p>绿地球</p>\n<p>MjUyNDI2NzQ=</p>\n",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231743",
-        "replies": 0,
+        "replies": 1,
         "stars": 0,
         "thanks": 0,
-        "last_reply_by": "",
+        "last_reply_by": "leeosx",
         "created": 1785738567,
         "last_modified": 1785738567,
         "last_touched": 1785738567,
@@ -26972,13 +27074,31 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
         "supplements": []
       },
-      "replies": []
+      "replies": [
+        {
+          "id": 17938026,
+          "content": "还没收全，顶一下。有卖的么？",
+          "content_rendered": "还没收全，顶一下。有卖的么？",
+          "created": 1785846895,
+          "member": {
+            "id": 71729,
+            "username": "leeosx",
+            "bio": null,
+            "website": null,
+            "github": null,
+            "url": "https://www.v2ex.com/member/leeosx",
+            "avatar": "https://cdn.v2ex.com/gravatar/ce100d88a5ec85ace698a9c591954b11?s=73&d=retro",
+            "created": 1408764865,
+            "pro": 0
+          }
+        }
+      ]
     },
     {
       "topic": {
@@ -26989,7 +27109,7 @@
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231744",
         "replies": 56,
-        "stars": 15,
+        "stars": 16,
         "thanks": 0,
         "last_reply_by": "AtlantaANiu",
         "created": 1785738633,
@@ -27015,7 +27135,7 @@
           "header": "While code monkeys are not eating bananas, they're coding.",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/94f6/d7e0/300_xxxlarge.png?m=1733731195",
-          "topics": 72506,
+          "topics": 72512,
           "created": 1293396163,
           "last_modified": 1733731195
         },
@@ -27373,7 +27493,7 @@
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231745",
         "replies": 316,
-        "stars": 13,
+        "stars": 15,
         "thanks": 0,
         "last_reply_by": "ala2008",
         "created": 1785738725,
@@ -27399,7 +27519,7 @@
           "header": "生活中的技术讨论",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/6e27/13a6/557_xxxlarge.png?m=1747623425",
-          "topics": 11388,
+          "topics": 11391,
           "created": 1337512494,
           "last_modified": 1747623425
         },
@@ -27756,13 +27876,13 @@
         "content_rendered": "<p>年经贴，新款发布之前总是纠结到底是买最新还是买旧，18 涨价势在必行，涨价之后性价比大打折扣，纠结</p>\n",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231746",
-        "replies": 35,
+        "replies": 36,
         "stars": 0,
         "thanks": 0,
-        "last_reply_by": "KingW777",
+        "last_reply_by": "gigishy",
         "created": 1785738729,
         "last_modified": 1785738729,
-        "last_touched": 1785790233,
+        "last_touched": 1785793833,
         "member": {
           "id": 509144,
           "username": "MichelleV2",
@@ -28175,7 +28295,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -28569,7 +28689,7 @@
           "header": "While code monkeys are not eating bananas, they're coding.",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/94f6/d7e0/300_xxxlarge.png?m=1733731195",
-          "topics": 72506,
+          "topics": 72512,
           "created": 1293396163,
           "last_modified": 1733731195
         },
@@ -28953,7 +29073,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -29022,7 +29142,7 @@
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231751",
         "replies": 51,
-        "stars": 9,
+        "stars": 10,
         "thanks": 0,
         "last_reply_by": "sh537612856486",
         "created": 1785739618,
@@ -29048,7 +29168,7 @@
           "header": "While code monkeys are not eating bananas, they're coding.",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/94f6/d7e0/300_xxxlarge.png?m=1733731195",
-          "topics": 72506,
+          "topics": 72512,
           "created": 1293396163,
           "last_modified": 1733731195
         },
@@ -29406,7 +29526,7 @@
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231752",
         "replies": 58,
-        "stars": 12,
+        "stars": 14,
         "thanks": 0,
         "last_reply_by": "r00tt",
         "created": 1785739736,
@@ -29432,7 +29552,7 @@
           "header": "While code monkeys are not eating bananas, they're coding.",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/94f6/d7e0/300_xxxlarge.png?m=1733731195",
-          "topics": 72506,
+          "topics": 72512,
           "created": 1293396163,
           "last_modified": 1733731195
         },
@@ -29824,7 +29944,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -29943,13 +30063,13 @@
         "content_rendered": "到现在没有收到任何邮件，去后台查看也是正常的，可能因为日常都是关机状态的缘故。<br /><br />刚整体搜了下，看到很多人说开 WiFi Calling 保号，但也有人开了之后被封了，我这种状况还需要开吗？<br /><br />后续怎么做有大佬推荐下吗？",
         "syntax": 0,
         "url": "https://www.v2ex.com/t/1231754",
-        "replies": 27,
+        "replies": 28,
         "stars": 2,
         "thanks": 0,
-        "last_reply_by": "kangkag0231",
+        "last_reply_by": "salor",
         "created": 1785740216,
         "last_modified": 1785740216,
-        "last_touched": 1785784925,
+        "last_touched": 1785788525,
         "member": {
           "id": 423391,
           "username": "Loxon",
@@ -29970,7 +30090,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -29991,7 +30111,7 @@
             "url": "https://www.v2ex.com/member/bearbest",
             "avatar": "https://cdn.v2ex.com/avatar/01d9/815f/731383_xxxlarge.png?m=1784259514",
             "created": 1737125319,
-            "pro": 1785771337
+            "pro": 1785836056
           }
         },
         {
@@ -30354,7 +30474,7 @@
           "header": "这里，我们聊聊那些工作中遇到的开心和不开心的事。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/4ea0/6fbc/770_xxxlarge.png?m=1768280127",
-          "topics": 24008,
+          "topics": 24009,
           "created": 1393052966,
           "last_modified": 1768280127
         },
@@ -30738,7 +30858,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -30840,13 +30960,13 @@
         "content_rendered": "<p>今天看到 tokenplan 新上了 DeepSeek v4 flash 0731 ，（我也不知道之前为什么下掉 Flash ），想试试看是不是划算，找了半天没找到模型消耗的对比</p>\n<p>我也就是想找到大概用哪个模型模型便宜，是 v4 flash 还是优惠中的 qwen-3.8max preview</p>\n<p>发了工单问客服，客服又把文档发了一遍</p>\n<p>您好，Token Plan 采用统一 Credit 抵扣机制，覆盖不同模型、不同工具。系统会根据模型档位、上下文长度、输入/输出 token 数、是否使用 Harness 工具（如联网搜索、代码解释等）综合计算 Credit 消耗，因此不同类型的调用消耗差异较大。具体的用量以实际产生的 Credits 消耗量为准。</p>\n<p>各位大佬有大概清楚的吗？ 也不用多精确，看个大概就行。</p>\n",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231757",
-        "replies": 29,
+        "replies": 30,
         "stars": 1,
         "thanks": 0,
-        "last_reply_by": "gux928",
+        "last_reply_by": "lijun721",
         "created": 1785740785,
         "last_modified": 1785740785,
-        "last_touched": 1785786985,
+        "last_touched": 1785790585,
         "member": {
           "id": 122630,
           "username": "gux928",
@@ -30867,7 +30987,7 @@
           "header": "While code monkeys are not eating bananas, they're coding.",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/94f6/d7e0/300_xxxlarge.png?m=1733731195",
-          "topics": 72506,
+          "topics": 72512,
           "created": 1293396163,
           "last_modified": 1733731195
         },
@@ -31345,7 +31465,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -31430,13 +31550,13 @@
         "content_rendered": "<p>自己的软件，以后会收费，现在在内测中！！！</p>\n<p>Windows 上一直用 File Pilot ，mac 上用 QSpace ，两个都好用，但各自只有一个平台，来回换机器换习惯这件事忍了几年。中间用过一段 yazi ，终端里挺爽，但要预览、要拖文件的时候还是得开回 Finder 。</p>\n<p>所以自己写了一个，Rust 开发，没有 Electron 没有 WebView ，Qt 和 GTK 也没用。单个可执行文件，解压就能跑，Windows / macOS / Linux 平台均可！</p>\n<p><img alt=\"拖页签分屏\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://image-1257198410.cos.na-siliconvalley.myqcloud.com/image/02-%E6%8B%96%E9%A1%B5%E7%AD%BE%E5%88%86%E5%B1%8F.gif\"/></p>\n<p><img alt=\"标签与框选\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://image-1257198410.cos.na-siliconvalley.myqcloud.com/image/06-%E6%A0%87%E7%AD%BE%E4%B8%8E%E6%A1%86%E9%80%89.gif\"/></p>\n<p><img alt=\"四种视图\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://image-1257198410.cos.na-siliconvalley.myqcloud.com/image/04-%E5%9B%9B%E7%A7%8D%E8%A7%86%E5%9B%BE.gif\"/></p>\n<hr/>\n<p>功能就不一条条列了，官网上都有： <a href=\"https://tessoa.com\" rel=\"nofollow\">https://tessoa.com</a></p>\n<hr/>\n<p>价格现在还没定，想先让人用起来，看哪些功能真有人使用、哪些是我自己一厢情愿做出来的，然后再决定卖多少钱、怎么卖。这也是招内测的主要原因。</p>\n<p>问卷两分钟： <a href=\"https://tally.so/r/LZNdey\" rel=\"nofollow\">https://tally.so/r/LZNdey</a>\n激活码发邮箱。</p>\n<p>懒得填表的直接去官网下免费版，下载就能用~</p>\n",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231761",
-        "replies": 12,
+        "replies": 16,
         "stars": 9,
         "thanks": 0,
-        "last_reply_by": "ronman",
+        "last_reply_by": "hustfox",
         "created": 1785741183,
         "last_modified": 1785741183,
-        "last_touched": 1785833541,
+        "last_touched": 1785845414,
         "member": {
           "id": 631540,
           "username": "iceAD",
@@ -31446,7 +31566,7 @@
           "url": "https://www.v2ex.com/member/iceAD",
           "avatar": "https://cdn.v2ex.com/avatar/c34d/d65f/631540_xxxlarge.png?m=1785741499",
           "created": 1685332285,
-          "pro": 1785833889
+          "pro": 1785848335
         },
         "node": {
           "id": 17,
@@ -31457,7 +31577,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -31503,7 +31623,7 @@
             "url": "https://www.v2ex.com/member/iceAD",
             "avatar": "https://cdn.v2ex.com/avatar/c34d/d65f/631540_xxxlarge.png?m=1785741499",
             "created": 1685332285,
-            "pro": 1785833889
+            "pro": 1785848335
           }
         },
         {
@@ -31537,7 +31657,7 @@
             "url": "https://www.v2ex.com/member/iceAD",
             "avatar": "https://cdn.v2ex.com/avatar/c34d/d65f/631540_xxxlarge.png?m=1785741499",
             "created": 1685332285,
-            "pro": 1785833889
+            "pro": 1785848335
           }
         },
         {
@@ -31588,7 +31708,7 @@
             "url": "https://www.v2ex.com/member/iceAD",
             "avatar": "https://cdn.v2ex.com/avatar/c34d/d65f/631540_xxxlarge.png?m=1785741499",
             "created": 1685332285,
-            "pro": 1785833889
+            "pro": 1785848335
           }
         },
         {
@@ -31605,7 +31725,7 @@
             "url": "https://www.v2ex.com/member/iceAD",
             "avatar": "https://cdn.v2ex.com/avatar/c34d/d65f/631540_xxxlarge.png?m=1785741499",
             "created": 1685332285,
-            "pro": 1785833889
+            "pro": 1785848335
           }
         },
         {
@@ -31656,7 +31776,7 @@
             "url": "https://www.v2ex.com/member/iceAD",
             "avatar": "https://cdn.v2ex.com/avatar/c34d/d65f/631540_xxxlarge.png?m=1785741499",
             "created": 1685332285,
-            "pro": 1785833889
+            "pro": 1785848335
           }
         },
         {
@@ -31675,6 +31795,74 @@
             "created": 1492959068,
             "pro": 0
           }
+        },
+        {
+          "id": 17937436,
+          "content": "分栏显示的时候，在对应栏中全选，应该选中该栏的所有项目，而不应该是当前 tab 页的所有项目",
+          "content_rendered": "分栏显示的时候，在对应栏中全选，应该选中该栏的所有项目，而不应该是当前 tab 页的所有项目",
+          "created": 1785834939,
+          "member": {
+            "id": 187515,
+            "username": "hustfox",
+            "bio": null,
+            "website": null,
+            "github": null,
+            "url": "https://www.v2ex.com/member/hustfox",
+            "avatar": "https://cdn.v2ex.com/gravatar/3965513fa29e16f4ff6597876304bb5b?s=73&d=retro",
+            "created": 1471479832,
+            "pro": 0
+          }
+        },
+        {
+          "id": 17937464,
+          "content": "@hustfox 感谢反馈！确实是个交互细节，会在下个版本处理！",
+          "content_rendered": "@<a href=\"/member/hustfox\">hustfox</a> 感谢反馈！确实是个交互细节，会在下个版本处理！",
+          "created": 1785835402,
+          "member": {
+            "id": 631540,
+            "username": "iceAD",
+            "bio": null,
+            "website": null,
+            "github": null,
+            "url": "https://www.v2ex.com/member/iceAD",
+            "avatar": "https://cdn.v2ex.com/avatar/c34d/d65f/631540_xxxlarge.png?m=1785741499",
+            "created": 1685332285,
+            "pro": 1785848335
+          }
+        },
+        {
+          "id": 17937985,
+          "content": "还是分栏模式下，Ctrl+F ，过滤不了文件了",
+          "content_rendered": "还是分栏模式下，Ctrl+F ，过滤不了文件了",
+          "created": 1785845181,
+          "member": {
+            "id": 187515,
+            "username": "hustfox",
+            "bio": null,
+            "website": null,
+            "github": null,
+            "url": "https://www.v2ex.com/member/hustfox",
+            "avatar": "https://cdn.v2ex.com/gravatar/3965513fa29e16f4ff6597876304bb5b?s=73&d=retro",
+            "created": 1471479832,
+            "pro": 0
+          }
+        },
+        {
+          "id": 17937990,
+          "content": "![PixPin_2026-08-04_20-09-04.png]( https://share-text.org/api/imgUrlV2?text=share-text-uploads/2026-8-4/2c77a46b-44b7-4321-819a-2a0785879b7f-PixPin_2026-08-04_20-09-04.png)\r\n\r\n这里是否应该过滤下，一堆重复的历史",
+          "content_rendered": "![PixPin_2026-08-04_20-09-04.png]( <a target=\"_blank\" href=\"https://share-text.org/api/imgUrlV2?text=share-text-uploads/2026-8-4/2c77a46b-44b7-4321-819a-2a0785879b7f-PixPin_2026-08-04_20-09-04.png\" rel=\"nofollow noopener\">https://share-text.org/api/imgUrlV2?text=share-text-uploads/2026-8-4/2c77a46b-44b7-4321-819a-2a0785879b7f-PixPin_2026-08-04_20-09-04.png</a>)<br /><br />这里是否应该过滤下，一堆重复的历史",
+          "created": 1785845414,
+          "member": {
+            "id": 187515,
+            "username": "hustfox",
+            "bio": null,
+            "website": null,
+            "github": null,
+            "url": "https://www.v2ex.com/member/hustfox",
+            "avatar": "https://cdn.v2ex.com/gravatar/3965513fa29e16f4ff6597876304bb5b?s=73&d=retro",
+            "created": 1471479832,
+            "pro": 0
+          }
         }
       ]
     },
@@ -31687,7 +31875,7 @@
         "syntax": 0,
         "url": "https://www.v2ex.com/t/1231762",
         "replies": 17,
-        "stars": 0,
+        "stars": 1,
         "thanks": 0,
         "last_reply_by": "William337",
         "created": 1785741759,
@@ -31713,7 +31901,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -32192,7 +32380,7 @@
           "header": "关于 OpenAI 旗下产品 GPT，DALL·E，和 ChatGPT 的讨论。请不要在 V2EX 的回复中粘贴复制来自 AI 生成的文本。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/fd2c/5e46/1135_xxxlarge.png?m=1751736785",
-          "topics": 4431,
+          "topics": 4432,
           "created": 1670310820,
           "last_modified": 1751736785
         },
@@ -32355,13 +32543,13 @@
         "content_rendered": "<p>问过朋友，他家两个小孩都是喝的美素力金装。网络上搜索很多推荐德爱白金这个品牌</p>\n",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231766",
-        "replies": 71,
-        "stars": 13,
+        "replies": 72,
+        "stars": 17,
         "thanks": 0,
-        "last_reply_by": "hidemyself",
+        "last_reply_by": "littleWinter",
         "created": 1785742331,
         "last_modified": 1785742331,
-        "last_touched": 1785833897,
+        "last_touched": 1785835523,
         "member": {
           "id": 681589,
           "username": "zz19",
@@ -32382,7 +32570,7 @@
           "header": "生活中的技术讨论",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/6e27/13a6/557_xxxlarge.png?m=1747623425",
-          "topics": 11388,
+          "topics": 11391,
           "created": 1337512494,
           "last_modified": 1747623425
         },
@@ -32739,13 +32927,13 @@
         "content_rendered": "<p>浙江联通之前 500 兆新装是 360 元一年加 100 元安装费，移动记得是 600 元两年，现在都涨价成了 720 元一年 1440 元两年，安装费照收不误，直接涨价 100%可还行，移动即便是 300 兆的套餐也涨到了 480 元一年，一天一块钱的时代彻底结束了，并且一点风声都没有，不像流量卡还提前几天公告。</p>\n",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231767",
-        "replies": 60,
+        "replies": 63,
         "stars": 4,
         "thanks": 0,
-        "last_reply_by": "dizhang",
+        "last_reply_by": "amarantin1",
         "created": 1785742674,
         "last_modified": 1785742674,
-        "last_touched": 1785833461,
+        "last_touched": 1785839753,
         "member": {
           "id": 538706,
           "username": "bzkmsjy",
@@ -32766,7 +32954,7 @@
           "header": "网速很重要。比快更快。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/a3c6/5c29/108_xxxlarge.png?m=1691642161",
-          "topics": 18927,
+          "topics": 18928,
           "created": 1279569655,
           "last_modified": 1691642161
         },
@@ -33150,7 +33338,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -33288,7 +33476,7 @@
           "header": "分享你看到的好玩的，有信息量的，欢迎从这里获取灵感。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c74d/97b0/16_xxxlarge.png?m=1727584731",
-          "topics": 46811,
+          "topics": 46814,
           "created": 1272218320,
           "last_modified": 1727584731
         },
@@ -33638,7 +33826,7 @@
           "header": "一些不适合出现在首页上的信息，请发布到这里。如果你要给另外一位会员留言，也可以使用这个节点 @ 对方用户名。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/bac9/162b/364_xxlarge.png?m=1609134868",
-          "topics": 11514,
+          "topics": 11515,
           "created": 1301201691,
           "last_modified": 1609134868
         },
@@ -34211,7 +34399,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -34391,7 +34579,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -34546,7 +34734,7 @@
           "header": "生活中的技术讨论",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/6e27/13a6/557_xxxlarge.png?m=1747623425",
-          "topics": 11388,
+          "topics": 11391,
           "created": 1337512494,
           "last_modified": 1747623425
         },
@@ -34930,7 +35118,7 @@
           "header": "While code monkeys are not eating bananas, they're coding.",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/94f6/d7e0/300_xxxlarge.png?m=1733731195",
-          "topics": 72506,
+          "topics": 72512,
           "created": 1293396163,
           "last_modified": 1733731195
         },
@@ -35182,7 +35370,7 @@
             "url": "https://www.v2ex.com/member/bearbest",
             "avatar": "https://cdn.v2ex.com/avatar/01d9/815f/731383_xxxlarge.png?m=1784259514",
             "created": 1737125319,
-            "pro": 1785771337
+            "pro": 1785836056
           }
         },
         {
@@ -35341,7 +35529,7 @@
           "header": "这个节点的建立，是为了将所有拼车类信息进行归类。V2EX 不鼓励拼车，请自行鉴别。如果发生争议，管理员不会参与这个节点里的信息的对错判断。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/8248/a99e/1140_xxxlarge.png?m=1760740143",
-          "topics": 3892,
+          "topics": 3893,
           "created": 1700043203,
           "last_modified": 1760740143
         },
@@ -35384,7 +35572,7 @@
           "header": "关于 OpenAI 旗下产品 GPT，DALL·E，和 ChatGPT 的讨论。请不要在 V2EX 的回复中粘贴复制来自 AI 生成的文本。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/fd2c/5e46/1135_xxxlarge.png?m=1751736785",
-          "topics": 4431,
+          "topics": 4432,
           "created": 1670310820,
           "last_modified": 1751736785
         },
@@ -35656,13 +35844,13 @@
         "content_rendered": "v:MTMwNTExMDI1MjA=",
         "syntax": 0,
         "url": "https://www.v2ex.com/t/1231782",
-        "replies": 7,
+        "replies": 8,
         "stars": 0,
         "thanks": 0,
-        "last_reply_by": "shenershuai",
+        "last_reply_by": "bbzz123",
         "created": 1785744727,
         "last_modified": 1785744727,
-        "last_touched": 1785761365,
+        "last_touched": 1785764965,
         "member": {
           "id": 186809,
           "username": "iOSwang",
@@ -35683,7 +35871,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -35808,6 +35996,23 @@
             "created": 1725272820,
             "pro": 0
           }
+        },
+        {
+          "id": 17938034,
+          "content": "有一个闲置的",
+          "content_rendered": "有一个闲置的",
+          "created": 1785847203,
+          "member": {
+            "id": 276019,
+            "username": "bbzz123",
+            "bio": null,
+            "website": null,
+            "github": null,
+            "url": "https://www.v2ex.com/member/bbzz123",
+            "avatar": "https://cdn.v2ex.com/gravatar/fd9a76e7e907b40fdc8954a6c1270d51?s=73&d=retro",
+            "created": 1513837038,
+            "pro": 0
+          }
         }
       ]
     },
@@ -35846,7 +36051,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -35907,7 +36112,7 @@
           "header": "所有调查类的主题请发布到这里",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/258b/e18e/579_large.png?m=1643940835",
-          "topics": 4643,
+          "topics": 4644,
           "created": 1339389421,
           "last_modified": 1643940835
         },
@@ -35950,7 +36155,7 @@
           "header": "来自厂商的推广活动类主题，会被归类到这个节点。希望有情怀的产商们在发布推广内容时，主动选择发布到本节点下。点击 <a href=\"/help/node\">这里</a> 阅读 V2EX 的节点使用指南。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/1fc2/1400/864_xxxlarge.png?m=1778522847",
-          "topics": 13234,
+          "topics": 13238,
           "created": 1438866283,
           "last_modified": 1778522847
         },
@@ -35993,7 +36198,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -36189,13 +36394,13 @@
         "content_rendered": "<p>大家好，我是之前在字节的开发 Alex 。</p>\n<p>主要做稳定 GPT 5.6 中转，目前有三种通道：</p>\n<p><a href=\"https://shenwenai.com\" rel=\"nofollow\">https://shenwenai.com</a></p>\n<ul>\n<li>0.09x 低价通道：价格优先，Plus 号池，0.09x 倍率，不保稳定性。</li>\n<li>0.33x 稳定通道：自己海外信用卡建立的 Pro 号池，0.33x 倍率。</li>\n<li>⭐️ 智能通道：预设走 0.09x 通道，失败自动切 0.33x ，尽可能省钱不中断。</li>\n</ul>\n<p>目前用户数已经破 1000 位，稳定且基本没出过啥大问题</p>\n<ul>\n<li>注册可领 1 刀</li>\n<li>评论 uuid 或 email ，我帮你充值到 5 刀 ( <a href=\"https://shenwenai.com/account/usage\" rel=\"nofollow\">https://shenwenai.com/account/usage</a> 这复制)。</li>\n<li>微信 1 群已满，加入微信 2 群可领到 10 刀</li>\n</ul>\n<p><img alt=\"image\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://shenwenai-assets.oss-cn-hongkong.aliyuncs.com/IMG_6553.JPG?x-oss-process=image/resize,w_400\"/></p>\n",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231788",
-        "replies": 49,
+        "replies": 54,
         "stars": 1,
         "thanks": 0,
-        "last_reply_by": "fywsky",
+        "last_reply_by": "echo1937",
         "created": 1785745830,
         "last_modified": 1785745830,
-        "last_touched": 1785834080,
+        "last_touched": 1785847850,
         "member": {
           "id": 825399,
           "username": "alexissde",
@@ -36205,7 +36410,7 @@
           "url": "https://www.v2ex.com/member/alexissde",
           "avatar": "https://cdn.v2ex.com/avatar/c092/555b/825399_xxxlarge.png?m=1785401945",
           "created": 1782677448,
-          "pro": 1785834216
+          "pro": 1785843133
         },
         "node": {
           "id": 864,
@@ -36216,7 +36421,7 @@
           "header": "来自厂商的推广活动类主题，会被归类到这个节点。希望有情怀的产商们在发布推广内容时，主动选择发布到本节点下。点击 <a href=\"/help/node\">这里</a> 阅读 V2EX 的节点使用指南。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/1fc2/1400/864_xxxlarge.png?m=1778522847",
-          "topics": 13234,
+          "topics": 13238,
           "created": 1438866283,
           "last_modified": 1778522847
         },
@@ -36305,7 +36510,7 @@
             "url": "https://www.v2ex.com/member/alexissde",
             "avatar": "https://cdn.v2ex.com/avatar/c092/555b/825399_xxxlarge.png?m=1785401945",
             "created": 1782677448,
-            "pro": 1785834216
+            "pro": 1785843133
           }
         },
         {
@@ -36407,7 +36612,7 @@
             "url": "https://www.v2ex.com/member/alexissde",
             "avatar": "https://cdn.v2ex.com/avatar/c092/555b/825399_xxxlarge.png?m=1785401945",
             "created": 1782677448,
-            "pro": 1785834216
+            "pro": 1785843133
           }
         },
         {
@@ -36600,7 +36805,7 @@
           "header": "所有调查类的主题请发布到这里",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/258b/e18e/579_large.png?m=1643940835",
-          "topics": 4643,
+          "topics": 4644,
           "created": 1339389421,
           "last_modified": 1643940835
         },
@@ -36651,13 +36856,13 @@
         "content_rendered": "<p>我刷到挺多帖子，都在开发 coding agent ，然后用它来自我迭代的。</p>\n",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231790",
-        "replies": 23,
+        "replies": 24,
         "stars": 2,
         "thanks": 0,
-        "last_reply_by": "fiveStarLaoliang",
+        "last_reply_by": "poxiaohy",
         "created": 1785746674,
         "last_modified": 1785746674,
-        "last_touched": 1785791439,
+        "last_touched": 1785795039,
         "member": {
           "id": 439279,
           "username": "kongkongye",
@@ -36678,7 +36883,7 @@
           "header": "While code monkeys are not eating bananas, they're coding.",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/94f6/d7e0/300_xxxlarge.png?m=1733731195",
-          "topics": 72506,
+          "topics": 72512,
           "created": 1293396163,
           "last_modified": 1733731195
         },
@@ -36699,7 +36904,7 @@
             "url": "https://www.v2ex.com/member/yidinghe",
             "avatar": "https://cdn.v2ex.com/avatar/5987/bc50/78391_large.png?m=1782750130",
             "created": 1414140665,
-            "pro": 1785834100
+            "pro": 1785842686
           }
         },
         {
@@ -37062,7 +37267,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -37140,7 +37345,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -37218,7 +37423,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -37330,13 +37535,13 @@
         "content_rendered": "本来想投投看结果都没啥反馈。<br />再等等到 10 月看看吧。。。",
         "syntax": 0,
         "url": "https://www.v2ex.com/t/1231795",
-        "replies": 10,
+        "replies": 12,
         "stars": 1,
         "thanks": 0,
-        "last_reply_by": "junkdude",
+        "last_reply_by": "bgm004",
         "created": 1785747720,
         "last_modified": 1785812430,
-        "last_touched": 1785769691,
+        "last_touched": 1785773291,
         "member": {
           "id": 432051,
           "username": "kasusa",
@@ -37357,7 +37562,7 @@
           "header": "这里，我们聊聊那些工作中遇到的开心和不开心的事。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/4ea0/6fbc/770_xxxlarge.png?m=1768280127",
-          "topics": 24008,
+          "topics": 24009,
           "created": 1393052966,
           "last_modified": 1768280127
         },
@@ -37533,6 +37738,40 @@
             "created": 1665464375,
             "pro": 0
           }
+        },
+        {
+          "id": 17937507,
+          "content": "@bgm004 我 18 年毕业转行的时候，培训班老师就是这么说的，看来不假啊",
+          "content_rendered": "@<a href=\"/member/bgm004\">bgm004</a> 我 18 年毕业转行的时候，培训班老师就是这么说的，看来不假啊",
+          "created": 1785835876,
+          "member": {
+            "id": 369856,
+            "username": "la2la",
+            "bio": "",
+            "website": "",
+            "github": "",
+            "url": "https://www.v2ex.com/member/la2la",
+            "avatar": "https://cdn.v2ex.com/avatar/7019/d39f/369856_large.png?m=1771901036",
+            "created": 1544593964,
+            "pro": 0
+          }
+        },
+        {
+          "id": 17937712,
+          "content": "@la2la 去年我这除了短期都是几个月没有上线的，选择那些短期都没有上线了",
+          "content_rendered": "@<a href=\"/member/la2la\">la2la</a> 去年我这除了短期都是几个月没有上线的，选择那些短期都没有上线了",
+          "created": 1785838295,
+          "member": {
+            "id": 364273,
+            "username": "bgm004",
+            "bio": "",
+            "website": "crosschannel.cc",
+            "github": null,
+            "url": "https://www.v2ex.com/member/bgm004",
+            "avatar": "https://cdn.v2ex.com/avatar/56f7/577e/364273_xxxlarge.png?m=1718931843",
+            "created": 1542634980,
+            "pro": 0
+          }
         }
       ]
     },
@@ -37544,10 +37783,10 @@
         "content_rendered": "<p>wx：d2JpbmcteHU=</p>\n",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231796",
-        "replies": 1,
+        "replies": 2,
         "stars": 1,
         "thanks": 0,
-        "last_reply_by": "gxy2825",
+        "last_reply_by": "benson458",
         "created": 1785747735,
         "last_modified": 1785747735,
         "last_touched": 1785753301,
@@ -37571,7 +37810,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -37602,6 +37841,23 @@
             "created": 1615724214,
             "pro": 0
           }
+        },
+        {
+          "id": 17937914,
+          "content": "@gxy2825 可以的，就是这个来的。\r\n\r\n可以先加，这周因为已经预约了，我下周要约的时候找你",
+          "content_rendered": "@<a href=\"/member/gxy2825\">gxy2825</a> 可以的，就是这个来的。<br /><br />可以先加，这周因为已经预约了，我下周要约的时候找你",
+          "created": 1785842887,
+          "member": {
+            "id": 133254,
+            "username": "benson458",
+            "bio": "",
+            "website": "",
+            "github": "",
+            "url": "https://www.v2ex.com/member/benson458",
+            "avatar": "https://cdn.v2ex.com/avatar/1b0e/4571/133254_xlarge.png?m=1761809559",
+            "created": 1439740043,
+            "pro": 0
+          }
         }
       ]
     },
@@ -37613,13 +37869,13 @@
         "content_rendered": "从 Mac App Store 迁移的版本，更新后提示要重新买才让用，现在变成试用了，这也太恶心了吧？？？<br />现在更新给打 7 折，还要 70 。<br />太离谱了，当初付费买断的 App ，现在要继续用还要付费。<br />就算这次付费 70 ，那明年出个 PopClip2 是不是又要重新付钱了。",
         "syntax": 0,
         "url": "https://www.v2ex.com/t/1231797",
-        "replies": 18,
+        "replies": 21,
         "stars": 3,
         "thanks": 0,
-        "last_reply_by": "Julaoshi",
+        "last_reply_by": "imhuhe",
         "created": 1785747747,
         "last_modified": 1785747919,
-        "last_touched": 1785778261,
+        "last_touched": 1785789061,
         "member": {
           "id": 240626,
           "username": "eriko",
@@ -37952,6 +38208,40 @@
             "created": 1632304079,
             "pro": 0
           }
+        },
+        {
+          "id": 17937543,
+          "content": "如果只是使用 popclip 在网页划词翻译的话,可以试试我的一个插件.https://chromewebstore.google.com/detail/translate-with-bob/oaknpfbbebnpkhfnckphnenmhnnmaifj\r\n我 mac 买了 bob 翻译,好像很多人搭配 popclip 实现划词翻译.但是但是我感觉 popclip 太贵了,然后就做了一个功能,在网页上划词调用 bob 翻译软件.\r\n项目源代码 https://github.com/LLP2333/TranslateWithBob",
+          "content_rendered": "如果只是使用 popclip 在网页划词翻译的话,可以试试我的一个插件.https://<a target=\"_blank\" href=\"http://chromewebstore.google.com/detail/translate-with-bob/oaknpfbbebnpkhfnckphnenmhnnmaifj\" rel=\"nofollow noopener\">chromewebstore.google.com/detail/translate-with-bob/oaknpfbbebnpkhfnckphnenmhnnmaifj</a><br />我 mac 买了 bob 翻译,好像很多人搭配 popclip 实现划词翻译.但是但是我感觉 popclip 太贵了,然后就做了一个功能,在网页上划词调用 bob 翻译软件.<br />项目源代码 <a target=\"_blank\" href=\"https://github.com/LLP2333/TranslateWithBob\" rel=\"nofollow noopener\">https://github.com/LLP2333/TranslateWithBob</a>",
+          "created": 1785836271,
+          "member": {
+            "id": 552965,
+            "username": "NASK",
+            "bio": "2333",
+            "website": "",
+            "github": "",
+            "url": "https://www.v2ex.com/member/NASK",
+            "avatar": "https://cdn.v2ex.com/avatar/818a/0e79/552965_xxxlarge.png?m=1741341291",
+            "created": 1628506588,
+            "pro": 0
+          }
+        },
+        {
+          "id": 17937645,
+          "content": "我好像买的兑换码，更新后继续用",
+          "content_rendered": "我好像买的兑换码，更新后继续用",
+          "created": 1785837469,
+          "member": {
+            "id": 67737,
+            "username": "Ccf",
+            "bio": "",
+            "website": "",
+            "github": null,
+            "url": "https://www.v2ex.com/member/Ccf",
+            "avatar": "https://cdn.v2ex.com/avatar/c451/40ec/67737_xxxlarge.png?m=1705713886",
+            "created": 1405132374,
+            "pro": 0
+          }
         }
       ]
     },
@@ -37990,7 +38280,7 @@
           "header": "来自厂商的推广活动类主题，会被归类到这个节点。希望有情怀的产商们在发布推广内容时，主动选择发布到本节点下。点击 <a href=\"/help/node\">这里</a> 阅读 V2EX 的节点使用指南。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/1fc2/1400/864_xxxlarge.png?m=1778522847",
-          "topics": 13234,
+          "topics": 13238,
           "created": 1438866283,
           "last_modified": 1778522847
         },
@@ -38306,7 +38596,7 @@
           "header": "做有趣的有意义的事情。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/17e6/2166/43_xxxlarge.png?m=1768280099",
-          "topics": 60604,
+          "topics": 60606,
           "created": 1272273894,
           "last_modified": 1768280099
         },
@@ -38556,7 +38846,7 @@
           "header": "分享你看到的好玩的，有信息量的，欢迎从这里获取灵感。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c74d/97b0/16_xxxlarge.png?m=1727584731",
-          "topics": 46811,
+          "topics": 46814,
           "created": 1272218320,
           "last_modified": 1727584731
         },
@@ -38865,7 +39155,7 @@
           "header": "来自厂商的推广活动类主题，会被归类到这个节点。希望有情怀的产商们在发布推广内容时，主动选择发布到本节点下。点击 <a href=\"/help/node\">这里</a> 阅读 V2EX 的节点使用指南。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/1fc2/1400/864_xxxlarge.png?m=1778522847",
-          "topics": 13234,
+          "topics": 13238,
           "created": 1438866283,
           "last_modified": 1778522847
         },
@@ -38977,7 +39267,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -39038,7 +39328,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -39116,7 +39406,7 @@
           "header": "做有趣的有意义的事情。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/17e6/2166/43_xxxlarge.png?m=1768280099",
-          "topics": 60604,
+          "topics": 60606,
           "created": 1272273894,
           "last_modified": 1768280099
         },
@@ -39132,13 +39422,13 @@
         "content_rendered": "<p>先介绍下背景，农村家庭，父母 55 岁+，无固定工作，在城市打工，母亲月入 3k ，父亲不固定，焊工，常年跟工程队，一个月一万多，但没活的时候就只能在家里呆着，没有收入，平均下来一年七八万吧。总的来说家庭条件很差。我 30 岁，未婚，妹妹 19 岁，刚高中毕业。</p>\n<p>12 年的时候父亲出了场车祸，很严重，人差点没了的那种，死里逃生，后休养了五六年，性情大变。妹妹的童年里，爸妈经常吵架，所以就有点抑郁，在学校学不进去，经常要请假回家，高二因成绩太差，她决定考单招，她是自己在家学的，报的网课，但自控能力较差，今年 4 月考试，满分 750 ，考了 364 分。我给她报的志愿，最终被一所沧州民办大专录取，专业是化工自动化技术，学费是 1.5w/年。但是她的目标是想考个公办大专的兽医类专业，未来想去当一名宠物医生，但这需要五六百分。</p>\n<p>现在处于一个关键节点，就是我妹妹要不要继续读书了。</p>\n<p>现在有三个选择：</p>\n<ol>\n<li>\n继续读大专，然后考虑专升本，但是不喜欢的专业，就业好像不太好，不适合女生<ol>\n<li>优点：3 年后获取大专学历，有应届生身份</li>\n<li>缺点：成本大概是 10w 块</li>\n</ol>\n</li>\n<li>\n复读一年，考兽医类专业<ol>\n<li>优点：有机会考上喜欢的专业</li>\n<li>缺点：1 年的时间成本</li>\n</ol>\n</li>\n<li>\n直接辍学，不读了，出去打工<ol>\n<li>优点：省钱</li>\n<li>缺点：失去未来的可能性</li>\n</ol>\n</li>\n</ol>\n<p>我对当前的社会发展比较悲观，学历贬值，感觉花 3 年时间和 10w 块换一张民办大专的学历一点用没有，可能还给自己穿上了长衫。了解到唯一的机会就是应届生身份可以走三支一扶和西部计划，但好像近些年竞争也很激烈了。我担心她 3 年毕业后，或者再过 2 年专升本后，当时应届毕业生更多，竞争更激烈，花这些钱和时间不值。甚至我觉得这 10w 省下来以后给她改善生活或者结婚时做陪嫁都比现在打水漂强。上初中的时候就成绩不行，花了 3w 块择校费，高中每年又是 2w 块择校费。可能我想的比较多，家里条件不好，心疼爸妈攒下来这点钱供她读书也不容易。我算低端的小镇做题家，靠自己考了双非的本硕，23 年毕业，算是吃到了计算机专业时代红利的尾巴，更感到早点进入社会反而也有好处，越晚进社会竞争越激烈。现在父母年龄大了，对妹妹的事情也是犹豫不决，这种抉择就落到了我的身上。我的想法是觉得对她来说，读书真不是一条适合她走的路，哪怕把这 3 ～ 5 年时间省下来，多出去试试错，也比浪费在学校里强。但也在另一方面，需要舍弃她未来更好发展的机会。</p>\n<p>恳请 V 友们帮忙分析分析，每一条评论都会看，谢谢大家。</p>\n",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231808",
-        "replies": 129,
-        "stars": 10,
+        "replies": 134,
+        "stars": 11,
         "thanks": 0,
-        "last_reply_by": "Leon6868",
+        "last_reply_by": "salor",
         "created": 1785749371,
         "last_modified": 1785749371,
-        "last_touched": 1785834115,
+        "last_touched": 1785838936,
         "member": {
           "id": 553697,
           "username": "wtcs",
@@ -39159,7 +39449,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -39594,7 +39884,7 @@
           "header": "While code monkeys are not eating bananas, they're coding.",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/94f6/d7e0/300_xxxlarge.png?m=1733731195",
-          "topics": 72506,
+          "topics": 72512,
           "created": 1293396163,
           "last_modified": 1733731195
         },
@@ -39663,7 +39953,7 @@
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231811",
         "replies": 34,
-        "stars": 15,
+        "stars": 16,
         "thanks": 2,
         "last_reply_by": "jtam",
         "created": 1785750344,
@@ -39689,7 +39979,7 @@
           "header": "While code monkeys are not eating bananas, they're coding.",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/94f6/d7e0/300_xxxlarge.png?m=1733731195",
-          "topics": 72506,
+          "topics": 72512,
           "created": 1293396163,
           "last_modified": 1733731195
         },
@@ -40073,7 +40363,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -40134,7 +40424,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -40331,7 +40621,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -40347,13 +40637,13 @@
         "content_rendered": "<p>访问方式（终端）：\nssh -F NUL -o PreferredAuthentications=password -o PubkeyAuthentication=no <a href=\"mailto:guest@47.107.180.19\">guest@47.107.180.19</a> -p 2222</p>\n<p>guest 的密码是：guest123\n大家用访客登录只能看，要注册用户才能发帖，新建节点要联系我，哈哈哈</p>\n",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231815",
-        "replies": 10,
+        "replies": 11,
         "stars": 5,
         "thanks": 0,
-        "last_reply_by": "conglovely",
+        "last_reply_by": "jemyzhang",
         "created": 1785751855,
         "last_modified": 1785751855,
-        "last_touched": 1785787145,
+        "last_touched": 1785790745,
         "member": {
           "id": 673712,
           "username": "mqx",
@@ -40374,7 +40664,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -40550,6 +40840,23 @@
             "created": 1363661395,
             "pro": 0
           }
+        },
+        {
+          "id": 17937654,
+          "content": "梦回 20 多年前各大校园 bbs ，水木，小百合，饮水思源，手速快的飞起",
+          "content_rendered": "梦回 20 多年前各大校园 bbs ，水木，小百合，饮水思源，手速快的飞起",
+          "created": 1785837593,
+          "member": {
+            "id": 48437,
+            "username": "jemyzhang",
+            "bio": "",
+            "website": "",
+            "github": "",
+            "url": "https://www.v2ex.com/member/jemyzhang",
+            "avatar": "https://cdn.v2ex.com/avatar/6948/fe29/48437_large.png?m=1634210394",
+            "created": 1383282984,
+            "pro": 0
+          }
         }
       ]
     },
@@ -40561,13 +40868,13 @@
         "content_rendered": "<h2>背景</h2>\n<p>6.1 开始，在小红书公开记录我构建“海斗宝贝”这个小程序的历程。这个小程序主要是我手动收集并整理各种海克斯大乱斗玩法的工具，一方面平时自己用，另一方面想看看小程序广告收益有多少</p>\n<p>就在 7.31 日，我在小红书刷到了一个叫“海斗宝箱”的账号，发现他的笔记图片风格和我的很像。再仔细一看，他也有个小程序。这还没完，小程序的布局、玩法内容都被他像素级复制。除了首页以外，其余页面基本只有颜色样式的差异。</p>\n<p>他不仅抄袭小红书、小程序布局，还把小程序中我手动整理的玩法内容，原封不动的给抄走了，包括标题、玩法文案等数据信息，真的让我绷不住了</p>\n<p>为了防止打草惊蛇，在收集好相关证据后，我才和这个人沟通。顺便提一句，这个人在小红书有两个账号，一个叫 Edison ，一个叫海斗宝箱。</p>\n<pre><code>这里先把抄袭者信息贴出来：小程序：海斗宝箱 小红书账号:海斗宝箱（ 49993021031 ）、Edison （ 184708081 ）\n</code></pre>\n<h2>沟通</h2>\n<p>没想到这个人异常强势，给我都整愣了 3 秒。然后他开始了骚操作：</p>\n<ul>\n<li>先让我准备坐牢，理由是我使用官方素材通过广告盈利。我当然也没惯着，直接发了一篇笔记来回应他</li>\n<li>然后开始抄袭我举报他抄袭的笔记，反过来说我在抄袭他</li>\n<li>满嘴谎言。在他的笔记评论区说他很早就开始做，用户把他的小程序注册信息截图发上去（注册日期：7 月 23 日），他就开始删评论</li>\n<li>他在自己的评论区说他很早就注册好了相关名称的商标，包括海斗宝贝、海斗宝箱以及其他名称。但是我去商标平台上查询，一个都没查到！</li>\n<li>接着，他把 Edison 这个账号的主页清空了，因为这个账号以前有他的一些生活笔记，估计是害怕被人肉到。而且这两个账号以前是有互相引流的，现在也把关联信息取消了</li>\n<li>现在已经把我设置为不可见，直接跟我来了一个位面隔离。目前还在他自己的评论区，继续蒙骗他的账号粉丝，怂恿他们举报我～</li>\n</ul>\n<h2>最后</h2>\n<ul>\n<li>本来不想和这种人纠缠的，但想到 2 个月以来的成果竟被这种人以这种方式 copy ，真的越想越气</li>\n<li>相关的记录，我都发在小红书笔记上了，想吃🍉的朋友可以去看看</li>\n<li>周一遇到这种事，发出来权当一乐。如果你有空，可以在微信小程序平台和小红书帮我举报，先谢谢啦～</li>\n<li>想起之前的一句话，ai 时代如果代码是唯一的护城河，那相当于在裸奔 - 诚不欺我</li>\n</ul>\n<p><img alt=\"初步沟通\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/OrBBMnT.jpeg\"/>\n初步沟通</p>\n<p><img alt=\"玩法库\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/qX0S8Fl.jpeg\"/>\n小程序-玩法库</p>\n<p><img alt=\"资料库\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/vpliQ9d.jpeg\"/><br/>\n小程序-资料库</p>\n<p><img alt=\"我的\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/3d3Xav6.jpeg\"/>\n小程序-我的</p>\n<p><img alt=\"控评论\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/jkl3TQP.png\"/>\n小红书控评论（现在这条评论已经看不到了）</p>\n<p><img alt=\"他的小程序注册信息\" class=\"embedded_image\" loading=\"lazy\" referrerpolicy=\"no-referrer\" rel=\"noreferrer\" src=\"https://i.imgur.com/XhyEybx.png\"/>\n他的小程序注册信息</p>\n",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231816",
-        "replies": 10,
+        "replies": 11,
         "stars": 1,
         "thanks": 0,
-        "last_reply_by": "lockerhyz",
+        "last_reply_by": "Fish1024",
         "created": 1785751943,
         "last_modified": 1785751943,
-        "last_touched": 1785769686,
+        "last_touched": 1785773286,
         "member": {
           "id": 235416,
           "username": "lockerhyz",
@@ -40588,7 +40895,7 @@
           "header": "分享你看到的好玩的，有信息量的，欢迎从这里获取灵感。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c74d/97b0/16_xxxlarge.png?m=1727584731",
-          "topics": 46811,
+          "topics": 46814,
           "created": 1272218320,
           "last_modified": 1727584731
         },
@@ -40764,6 +41071,23 @@
             "created": 1497404668,
             "pro": 0
           }
+        },
+        {
+          "id": 17937584,
+          "content": "弯道超车",
+          "content_rendered": "弯道超车",
+          "created": 1785836775,
+          "member": {
+            "id": 653965,
+            "username": "Fish1024",
+            "bio": "",
+            "website": "",
+            "github": null,
+            "url": "https://www.v2ex.com/member/Fish1024",
+            "avatar": "https://cdn.v2ex.com/avatar/4943/a6bc/653965_xxxlarge.png?m=1751025674",
+            "created": 1696864038,
+            "pro": 0
+          }
         }
       ]
     },
@@ -40802,7 +41126,7 @@
           "header": "While code monkeys are not eating bananas, they're coding.",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/94f6/d7e0/300_xxxlarge.png?m=1733731195",
-          "topics": 72506,
+          "topics": 72512,
           "created": 1293396163,
           "last_modified": 1733731195
         },
@@ -40818,13 +41142,13 @@
         "content_rendered": "从小就有写日记的习惯，不过以前都是在本子上写，18 年左右开始转战线上，到今天陆续写了小几十万字，今天尝试把这些东西通通喂给 ai ，让它总结我的性格、习惯、优缺点以及判断未来的发展，说实话，震惊到我了，活了三十几岁第一次发现有“人”这样深刻地洞察并了解我，并且给出的建议和分析判断以及远超我身边所有人的高度了。说实话这一刻的感觉是震撼、惊呆、感动与感谢...... <br /><br />现在很感谢自己坚持了写日记的这个习惯，因为人多数时候都是社会性动物，多数时间都在不自觉地扮演，而非真实，只有私密的日记里的心里话和思考，才是最真实的自己。",
         "syntax": 0,
         "url": "https://www.v2ex.com/t/1231818",
-        "replies": 18,
+        "replies": 20,
         "stars": 1,
         "thanks": 1,
         "last_reply_by": "finalcut",
         "created": 1785753110,
         "last_modified": 1785753110,
-        "last_touched": 1785772529,
+        "last_touched": 1785776129,
         "member": {
           "id": 667288,
           "username": "finalcut",
@@ -40845,7 +41169,7 @@
           "header": "分享你看到的好玩的，有信息量的，欢迎从这里获取灵感。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c74d/97b0/16_xxxlarge.png?m=1727584731",
-          "topics": 46811,
+          "topics": 46814,
           "created": 1272218320,
           "last_modified": 1727584731
         },
@@ -41157,6 +41481,40 @@
             "created": 1702706371,
             "pro": 0
           }
+        },
+        {
+          "id": 17937424,
+          "content": "@finalcut 我就是举一个极端的例子。 \r\n日记里的自己和真实的自己是有严重偏差的，就算你坦荡面对自己的内心，也不能记下别人眼里的你。\r\n每个观众都有自己的哈姆雷特吧…… 不过日记太多了，让 ai 找找以前的回忆，还是非常有用的",
+          "content_rendered": "@<a href=\"/member/finalcut\">finalcut</a> 我就是举一个极端的例子。 <br />日记里的自己和真实的自己是有严重偏差的，就算你坦荡面对自己的内心，也不能记下别人眼里的你。<br />每个观众都有自己的哈姆雷特吧…… 不过日记太多了，让 ai 找找以前的回忆，还是非常有用的",
+          "created": 1785834834,
+          "member": {
+            "id": 507787,
+            "username": "nsjs",
+            "bio": null,
+            "website": null,
+            "github": null,
+            "url": "https://www.v2ex.com/member/nsjs",
+            "avatar": "https://cdn.v2ex.com/gravatar/950278cf5f637f3f0ddc116601e93969?s=73&d=retro",
+            "created": 1599901648,
+            "pro": 0
+          }
+        },
+        {
+          "id": 17937521,
+          "content": "@nsjs 哦，ok ，不过我觉得那太过极端了，照你这么说这个世界上就没有绝对真实，那么私人日记（前提是自己知道这份日记只会写给自己永远不会公布）恰恰是最接近真实的方式～",
+          "content_rendered": "@<a href=\"/member/nsjs\">nsjs</a> 哦，ok ，不过我觉得那太过极端了，照你这么说这个世界上就没有绝对真实，那么私人日记（前提是自己知道这份日记只会写给自己永远不会公布）恰恰是最接近真实的方式～",
+          "created": 1785835990,
+          "member": {
+            "id": 667288,
+            "username": "finalcut",
+            "bio": "",
+            "website": "",
+            "github": null,
+            "url": "https://www.v2ex.com/member/finalcut",
+            "avatar": "https://cdn.v2ex.com/avatar/44f2/a34f/667288_xxxlarge.png?m=1783243103",
+            "created": 1702706371,
+            "pro": 0
+          }
         }
       ]
     },
@@ -41195,7 +41553,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -41216,7 +41574,7 @@
             "url": "https://www.v2ex.com/member/NullIsLife",
             "avatar": "https://cdn.v2ex.com/avatar/aaa7/6d64/784915_xxxlarge.png?m=1773044406",
             "created": 1768791497,
-            "pro": 1785808538
+            "pro": 1785848796
           }
         },
         {
@@ -41433,13 +41791,13 @@
         "content_rendered": "<p>跨境需求首选\n想听听各位评价</p>\n",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231820",
-        "replies": 1,
+        "replies": 3,
         "stars": 0,
         "thanks": 0,
         "last_reply_by": "Kinnice",
         "created": 1785753510,
         "last_modified": 1785753510,
-        "last_touched": 1785760973,
+        "last_touched": 1785764573,
         "member": {
           "id": 833530,
           "username": "yiqianwan2001",
@@ -41460,7 +41818,7 @@
           "header": "分享你看到的好玩的，有信息量的，欢迎从这里获取灵感。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c74d/97b0/16_xxxlarge.png?m=1727584731",
-          "topics": 46811,
+          "topics": 46814,
           "created": 1272218320,
           "last_modified": 1727584731
         },
@@ -41472,6 +41830,40 @@
           "content": "火山 2000M + IX HK",
           "content_rendered": "火山 2000M + IX HK",
           "created": 1785826564,
+          "member": {
+            "id": 189378,
+            "username": "Kinnice",
+            "bio": "biu!",
+            "website": "",
+            "github": "",
+            "url": "https://www.v2ex.com/member/Kinnice",
+            "avatar": "https://cdn.v2ex.com/avatar/4cee/b9bb/189378_xlarge.png?m=1753970238",
+            "created": 1472525734,
+            "pro": 0
+          }
+        },
+        {
+          "id": 17937433,
+          "content": "@Kinnice BGP ？",
+          "content_rendered": "@<a href=\"/member/Kinnice\">Kinnice</a> BGP ？",
+          "created": 1785834930,
+          "member": {
+            "id": 833530,
+            "username": "yiqianwan2001",
+            "bio": null,
+            "website": null,
+            "github": null,
+            "url": "https://www.v2ex.com/member/yiqianwan2001",
+            "avatar": "https://cdn.v2ex.com/gravatar/1fa79b0e9a5ec5c8bbf1e5bfde3977e4?s=73&d=retro",
+            "created": 1785313318,
+            "pro": 0
+          }
+        },
+        {
+          "id": 17937561,
+          "content": "@yiqianwan2001 包的",
+          "content_rendered": "@<a href=\"/member/yiqianwan2001\">yiqianwan2001</a> 包的",
+          "created": 1785836505,
           "member": {
             "id": 189378,
             "username": "Kinnice",
@@ -41564,7 +41956,7 @@
           "header": "While code monkeys are not eating bananas, they're coding.",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/94f6/d7e0/300_xxxlarge.png?m=1733731195",
-          "topics": 72506,
+          "topics": 72512,
           "created": 1293396163,
           "last_modified": 1733731195
         },
@@ -41668,7 +42060,7 @@
           "header": "做有趣的有意义的事情。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/17e6/2166/43_xxxlarge.png?m=1768280099",
-          "topics": 60604,
+          "topics": 60606,
           "created": 1272273894,
           "last_modified": 1768280099
         },
@@ -41788,13 +42180,13 @@
         "content_rendered": "<p>由于女朋友想一起玩 steam 游戏， 收两个手柄， 坐标成都  绿泡泡  cnlsc3pvem96bw==</p>\n",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231827",
-        "replies": 2,
+        "replies": 3,
         "stars": 0,
         "thanks": 0,
-        "last_reply_by": "jsomin",
+        "last_reply_by": "touzi",
         "created": 1785756376,
         "last_modified": 1785756405,
-        "last_touched": 1785764471,
+        "last_touched": 1785768071,
         "member": {
           "id": 656247,
           "username": "richeliue",
@@ -41815,7 +42207,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -41855,6 +42247,23 @@
             "created": 1642388224,
             "pro": 0
           }
+        },
+        {
+          "id": 17938053,
+          "content": "有一个",
+          "content_rendered": "有一个",
+          "created": 1785847819,
+          "member": {
+            "id": 50942,
+            "username": "touzi",
+            "bio": "窝在西城的开发者.",
+            "website": "",
+            "github": "",
+            "url": "https://www.v2ex.com/member/touzi",
+            "avatar": "https://cdn.v2ex.com/avatar/662d/cfb6/50942_large.png?m=1754636285",
+            "created": 1385786884,
+            "pro": 1785752342
+          }
         }
       ]
     },
@@ -41893,7 +42302,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -41936,7 +42345,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -42022,7 +42431,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -42043,7 +42452,7 @@
             "url": "https://www.v2ex.com/member/yidinghe",
             "avatar": "https://cdn.v2ex.com/avatar/5987/bc50/78391_large.png?m=1782750130",
             "created": 1414140665,
-            "pro": 1785834100
+            "pro": 1785842686
           }
         },
         {
@@ -42077,7 +42486,7 @@
             "url": "https://www.v2ex.com/member/yidinghe",
             "avatar": "https://cdn.v2ex.com/avatar/5987/bc50/78391_large.png?m=1782750130",
             "created": 1414140665,
-            "pro": 1785834100
+            "pro": 1785842686
           }
         },
         {
@@ -42134,7 +42543,7 @@
           "header": "While code monkeys are not eating bananas, they're coding.",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/94f6/d7e0/300_xxxlarge.png?m=1733731195",
-          "topics": 72506,
+          "topics": 72512,
           "created": 1293396163,
           "last_modified": 1733731195
         },
@@ -42177,7 +42586,7 @@
           "header": "生活中的技术讨论",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/6e27/13a6/557_xxxlarge.png?m=1747623425",
-          "topics": 11388,
+          "topics": 11391,
           "created": 1337512494,
           "last_modified": 1747623425
         },
@@ -42194,7 +42603,7 @@
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231833",
         "replies": 24,
-        "stars": 2,
+        "stars": 3,
         "thanks": 0,
         "last_reply_by": "fengfisher3",
         "created": 1785758994,
@@ -42220,7 +42629,7 @@
           "header": "这里，我们聊聊那些工作中遇到的开心和不开心的事。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/4ea0/6fbc/770_xxxlarge.png?m=1768280127",
-          "topics": 24008,
+          "topics": 24009,
           "created": 1393052966,
           "last_modified": 1768280127
         },
@@ -42647,7 +43056,7 @@
           "header": "While code monkeys are not eating bananas, they're coding.",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/94f6/d7e0/300_xxxlarge.png?m=1733731195",
-          "topics": 72506,
+          "topics": 72512,
           "created": 1293396163,
           "last_modified": 1733731195
         },
@@ -42868,13 +43277,13 @@
         "content_rendered": "",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231836",
-        "replies": 21,
+        "replies": 28,
         "stars": 0,
         "thanks": 0,
-        "last_reply_by": "rsyjjsn",
+        "last_reply_by": "jinhao7773",
         "created": 1785761152,
         "last_modified": 1785761152,
-        "last_touched": 1785825887,
+        "last_touched": 1785847618,
         "member": {
           "id": 377628,
           "username": "liquan12wjwnss",
@@ -43561,7 +43970,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -43707,7 +44116,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -43768,7 +44177,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -43846,7 +44255,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -43940,13 +44349,13 @@
         "content_rendered": "<p>只怪自己手贱, 按照 workbuddy 的教程进行更新导致板砖</p>\n",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231843",
-        "replies": 6,
+        "replies": 7,
         "stars": 0,
         "thanks": 0,
-        "last_reply_by": "jimyan",
+        "last_reply_by": "AeroZen",
         "created": 1785763170,
         "last_modified": 1785763170,
-        "last_touched": 1785777802,
+        "last_touched": 1785781402,
         "member": {
           "id": 151345,
           "username": "jimyan",
@@ -43967,7 +44376,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -44073,6 +44482,23 @@
             "url": "https://www.v2ex.com/member/jimyan",
             "avatar": "https://cdn.v2ex.com/gravatar/c6f98f8b5e3c0d94c92e9bf9aa9d579d?s=73&d=retro",
             "created": 1450135095,
+            "pro": 0
+          }
+        },
+        {
+          "id": 17938077,
+          "content": "@jimyan 出不？收了",
+          "content_rendered": "@<a href=\"/member/jimyan\">jimyan</a> 出不？收了",
+          "created": 1785848574,
+          "member": {
+            "id": 59494,
+            "username": "AeroZen",
+            "bio": "",
+            "website": "",
+            "github": null,
+            "url": "https://www.v2ex.com/member/AeroZen",
+            "avatar": "https://cdn.v2ex.com/gravatar/2d43350884d8983286e83532914f9ef9?s=73&d=retro",
+            "created": 1396343531,
             "pro": 0
           }
         }
@@ -44490,7 +44916,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -44512,7 +44938,7 @@
         "last_reply_by": "PIVI7",
         "created": 1785765433,
         "last_modified": 1785765433,
-        "last_touched": 1785765433,
+        "last_touched": 1785838335,
         "member": {
           "id": 424515,
           "username": "PIVI7",
@@ -44533,7 +44959,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -44628,13 +45054,13 @@
         "content_rendered": "<p>感觉 AI 竞赛会出现这种情况，感觉可能已经存在了</p>\n",
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231849",
-        "replies": 13,
+        "replies": 14,
         "stars": 0,
         "thanks": 0,
-        "last_reply_by": "xz410236056",
+        "last_reply_by": "r6cb",
         "created": 1785766042,
         "last_modified": 1785766042,
-        "last_touched": 1785790838,
+        "last_touched": 1785794438,
         "member": {
           "id": 643288,
           "username": "jojow",
@@ -44655,7 +45081,7 @@
           "header": "分享你看到的好玩的，有信息量的，欢迎从这里获取灵感。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c74d/97b0/16_xxxlarge.png?m=1727584731",
-          "topics": 46811,
+          "topics": 46814,
           "created": 1272218320,
           "last_modified": 1727584731
         },
@@ -44882,6 +45308,23 @@
             "created": 1453190451,
             "pro": 0
           }
+        },
+        {
+          "id": 17938062,
+          "content": "你凭什么认为 Claude 和 GPT 的成本比 deepseek 高？",
+          "content_rendered": "你凭什么认为 Claude 和 GPT 的成本比 deepseek 高？",
+          "created": 1785848058,
+          "member": {
+            "id": 373219,
+            "username": "r6cb",
+            "bio": "",
+            "website": "",
+            "github": "",
+            "url": "https://www.v2ex.com/member/r6cb",
+            "avatar": "https://cdn.v2ex.com/avatar/8f8c/3ea1/373219_xxxlarge.png?m=1747188505",
+            "created": 1545875029,
+            "pro": 0
+          }
         }
       ]
     },
@@ -44920,7 +45363,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -44963,7 +45406,7 @@
           "header": "关于 OpenAI 旗下产品 GPT，DALL·E，和 ChatGPT 的讨论。请不要在 V2EX 的回复中粘贴复制来自 AI 生成的文本。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/fd2c/5e46/1135_xxxlarge.png?m=1751736785",
-          "topics": 4431,
+          "topics": 4432,
           "created": 1670310820,
           "last_modified": 1751736785
         },
@@ -45041,7 +45484,7 @@
           "header": "来自厂商的推广活动类主题，会被归类到这个节点。希望有情怀的产商们在发布推广内容时，主动选择发布到本节点下。点击 <a href=\"/help/node\">这里</a> 阅读 V2EX 的节点使用指南。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/1fc2/1400/864_xxxlarge.png?m=1778522847",
-          "topics": 13234,
+          "topics": 13238,
           "created": 1438866283,
           "last_modified": 1778522847
         },
@@ -45102,7 +45545,7 @@
           "header": "<!--\r\n一个更好的世界需要你持续地提出好问题。\r\n-->",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c20a/d4d7/12_xxxlarge.png?m=1777132346",
-          "topics": 240468,
+          "topics": 240469,
           "created": 1272211864,
           "last_modified": 1777132346
         },
@@ -45119,7 +45562,7 @@
         "syntax": 1,
         "url": "https://www.v2ex.com/t/1231854",
         "replies": 0,
-        "stars": 0,
+        "stars": 1,
         "thanks": 0,
         "last_reply_by": "",
         "created": 1785768268,
@@ -45145,7 +45588,7 @@
           "header": "分享你看到的好玩的，有信息量的，欢迎从这里获取灵感。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/c74d/97b0/16_xxxlarge.png?m=1727584731",
-          "topics": 46811,
+          "topics": 46814,
           "created": 1272218320,
           "last_modified": 1727584731
         },
@@ -45188,7 +45631,7 @@
           "header": "为自己的闲置物品找到更好的主人。",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/14bf/a6bb/69_large.png?m=1753756656",
-          "topics": 146865,
+          "topics": 146870,
           "created": 1272889154,
           "last_modified": 1753756656
         },
@@ -45343,7 +45786,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },
@@ -45404,7 +45847,7 @@
           "header": "欢迎你在这里发布自己的最新作品！",
           "footer": "",
           "avatar": "https://cdn.v2ex.com/navatar/70ef/df2e/17_xxxlarge.png?m=1660301119",
-          "topics": 35264,
+          "topics": 35273,
           "created": 1272218337,
           "last_modified": 1660301119
         },

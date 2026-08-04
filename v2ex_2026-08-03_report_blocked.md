@@ -1,15 +1,16 @@
 # V2EX 2026-08-03 昨日新帖报告（阻塞）
 
-抓取时间：2026-08-04 08:58:46（Asia/Shanghai）  
+抓取时间：2026-08-04 21:49:47（Asia/Shanghai）  
 时间口径：2026-08-03 00:00:00 到次日 00:00:00（Asia/Shanghai）  
-状态：API 抓取失败，未生成有效分析报告。
+状态：数据抓取或 DeepSeek 分析失败，未生成有效分析报告。
 
 ## 阻塞原因
 
 - V2EX_TOKEN：已检测到
+- DEEPSEEK_API_KEY：已检测到
 - 代理环境：未检测到
 - 是否已尝试代理：否
-- 具体错误：ApiError: 522 topics/1231832: | status=522 | endpoint=topics/1231832
+- 具体错误：Error: DeepSeek analysis success ratio 84/188 is below 0.8
 
 ## 需要修复
 
