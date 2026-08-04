@@ -171,24 +171,15 @@
       .topic-card:last-of-type { border-bottom: 1px solid var(--line); }
       .topic-card > summary {
         display: flex;
-        align-items: center;
-        gap: 18px;
-        padding: 22px 0;
+        align-items: baseline;
+        gap: 12px;
+        padding: 20px 0;
         cursor: pointer;
         list-style: none;
       }
       .topic-card > summary::-webkit-details-marker { display: none; }
       .topic-card > summary:hover .topic-title { color: var(--accent); }
-      .topic-card[open] > summary { padding-bottom: 18px; }
-      .topic-summary-main {
-        min-width: 0;
-        flex: 1;
-      }
-      .topic-heading {
-        display: flex;
-        align-items: baseline;
-        gap: 12px;
-      }
+      .topic-card[open] > summary { padding-bottom: 14px; }
       .topic-rank {
         min-width: 2.2em;
         color: #a3a3a3;
@@ -196,6 +187,8 @@
         font-variant-numeric: tabular-nums;
       }
       .topic-title {
+        min-width: 0;
+        flex: 1;
         color: var(--ink);
         font-size: 19px;
         font-weight: 720;
@@ -203,59 +196,10 @@
         letter-spacing: -.01em;
         transition: color .15s ease;
       }
-      .topic-summary-meta {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 4px 10px;
-        margin: 7px 0 0 3.1em;
-        color: var(--muted);
-        font-size: 13px;
-        line-height: 1.5;
-      }
-      .topic-summary-meta strong {
-        color: var(--ink);
-        font-variant-numeric: tabular-nums;
-      }
-      .topic-risk,
-      .topic-read-state {
-        padding: 1px 6px;
-        border-radius: 999px;
-        font-size: 12px;
-        font-weight: 650;
-        line-height: 1.5;
-      }
-      .topic-risk-verify {
-        background: #fff7ed;
-        color: #9a3412;
-      }
-      .topic-risk-disputed {
-        background: #fef2f2;
-        color: #b42318;
-      }
-      .topic-risk-limited {
-        background: var(--soft);
-        color: #525252;
-      }
-      .topic-read-state {
-        display: none;
-        background: var(--soft);
-        color: var(--muted);
-      }
       .topic-card.is-read .topic-title {
-        color: #525252;
-        font-weight: 650;
+        color: #8a8a8a;
+        font-weight: 620;
       }
-      .topic-card.is-read .topic-read-state { display: inline-block; }
-      .topic-toggle {
-        width: 20px;
-        flex: 0 0 20px;
-        color: var(--muted);
-        font-size: 20px;
-        line-height: 1;
-        text-align: center;
-      }
-      .topic-toggle::before { content: "+"; }
-      .topic-card[open] .topic-toggle::before { content: "−"; }
       .topic-card > .topic-article,
       .topic-card > .topic-source,
       .topic-card > p,
@@ -267,6 +211,11 @@
       }
       .topic-card > p:first-of-type { font-size: 14px; }
       .topic-article {
+        margin-bottom: 0;
+        padding: 22px 24px 6px;
+        border-left: 2px solid #d4d4d4;
+        border-radius: 7px 7px 0 0;
+        background: var(--soft);
         color: #303030;
       }
       .topic-article h3 {
@@ -301,10 +250,13 @@
       }
       .topic-article > :last-child { margin-bottom: 0; }
       .topic-source {
-        margin-top: 26px;
-        margin-bottom: 34px;
-        padding-top: 14px;
+        margin-top: 0;
+        margin-bottom: 28px;
+        padding: 13px 24px 18px;
+        border-left: 2px solid #d4d4d4;
         border-top: 1px solid var(--line);
+        border-radius: 0 0 7px 7px;
+        background: var(--soft);
         color: var(--muted);
         font-size: 14px;
       }
@@ -400,17 +352,17 @@
         .report-header h1 { font-size: 32px; }
         .metrics { margin-top: 18px; }
         .report h2 { margin-top: 48px; font-size: 24px; }
-        .topic-card > summary { align-items: flex-start; gap: 10px; padding: 18px 0; }
-        .topic-heading { gap: 8px; }
+        .topic-card > summary { align-items: baseline; gap: 8px; padding: 17px 0; }
         .topic-rank { min-width: 1.9em; }
         .topic-title { font-size: 17px; line-height: 1.5; }
-        .topic-summary-meta { margin-left: 2.5em; }
         .topic-card > .topic-article,
         .topic-card > .topic-source,
         .topic-card > p,
         .topic-card > ul,
         .topic-card > ol,
         .topic-card > .analysis-evidence { margin-left: 0; margin-right: 0; }
+        .topic-article { padding: 18px 17px 4px; }
+        .topic-source { padding: 12px 17px 16px; }
       }
     </style>
   </head>
