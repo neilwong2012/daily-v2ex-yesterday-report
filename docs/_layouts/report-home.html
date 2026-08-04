@@ -77,24 +77,14 @@
       .content-column { min-width: 0; }
       .report-header { margin-bottom: 30px; }
       .kicker {
-        display: flex;
-        align-items: baseline;
-        justify-content: center;
-        gap: 12px;
         margin: 0;
-        line-height: 1.35;
-      }
-      .kicker-date {
-        color: #8a8a8a;
-        font-size: 17px;
-        font-weight: 450;
-        font-variant-numeric: tabular-nums;
-      }
-      .kicker-label {
-        color: var(--accent);
-        font-size: 24px;
+        color: var(--ink);
+        font-size: 28px;
         font-weight: 700;
-        letter-spacing: -.02em;
+        line-height: 1.35;
+        letter-spacing: -.025em;
+        text-align: center;
+        font-variant-numeric: tabular-nums;
       }
       .blocked-note {
         margin: 22px 0 0;
@@ -416,9 +406,7 @@
         .page-shell { padding: 30px 0 52px; }
         .mobile-date-jump { margin-bottom: 24px; }
         .report-header { margin-bottom: 24px; }
-        .kicker { gap: 9px; }
-        .kicker-date { font-size: 15px; }
-        .kicker-label { font-size: 21px; }
+        .kicker { font-size: 23px; }
         .report h2 { margin-top: 48px; font-size: 24px; }
         .topic-card > summary { align-items: baseline; gap: 8px; padding: 17px 0; }
         .topic-rank { min-width: 1.9em; }
@@ -455,10 +443,7 @@
         </div>
 
         <header class="report-header">
-          <h1 class="kicker">
-            <time class="kicker-date" datetime="{{ page.target_date }}">{{ page.target_date | date: "%Y年%m月%d日" }}</time>
-            <span class="kicker-label">热点内容</span>
-          </h1>
+          <h1 class="kicker"><time datetime="{{ page.target_date }}">{{ page.target_date | date: "%Y年%m月%d日" }}</time>热点内容</h1>
           {% if page.status == 'blocked' %}
             <p class="blocked-note">本期报告生成受阻，正文保留诊断信息供排查。</p>
           {% endif %}
