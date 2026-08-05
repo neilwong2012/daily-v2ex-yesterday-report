@@ -1,6 +1,11 @@
 import fs from 'node:fs/promises';
 
-import { isAnalysisCandidate, MIN_CONTENT_SCORE, replyWeightForCount } from '../lib/deepseek-analysis.mjs';
+import {
+  favoriteWeightForCount,
+  isAnalysisCandidate,
+  MIN_CONTENT_SCORE,
+  replyWeightForCount,
+} from '../lib/deepseek-analysis.mjs';
 import { renderValueReport } from '../lib/report-renderer.mjs';
 
 const timezone = 'Asia/Shanghai';
@@ -22,11 +27,15 @@ const valuableAnalyses = (raw.deepseek?.analyses || [])
     const topic = topicById.get(Number(item.topic_id));
     const contentScore = Number(item.content_score ?? item.value_score ?? 0);
     const replyWeight = replyWeightForCount(topic.replies || 0);
+    const favoriteWeight = favoriteWeightForCount(topic.stars || 0);
+    const engagementWeight = replyWeight + favoriteWeight;
     return {
       ...item,
-      value_score: Math.max(0, contentScore + replyWeight),
+      value_score: Math.max(0, contentScore + engagementWeight),
       content_score: contentScore,
       reply_weight: replyWeight,
+      favorite_weight: favoriteWeight,
+      engagement_weight: engagementWeight,
       topic,
     };
   })

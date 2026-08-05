@@ -344,12 +344,23 @@
         text-decoration-thickness: 1px;
       }
       .topic-source {
-        margin: 0;
-        padding: 0 0 12px;
-        border-bottom: var(--hairline) solid var(--line);
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 16px;
+        margin: 16px 0 0;
+        padding: 12px 0 0;
+        border-top: var(--hairline) solid var(--line);
         background: transparent;
         color: var(--muted);
         font-size: 13px;
+      }
+      .topic-source-link { min-width: 0; }
+      .topic-stats {
+        flex: 0 0 auto;
+        color: var(--faint);
+        font: 500 11px/1.4 var(--font-mono);
+        white-space: nowrap;
       }
       .topic-source a {
         color: #a82a21;
@@ -502,7 +513,7 @@
         .topic-card > .analysis-evidence { margin-left: 0; margin-right: 0; }
         .topic-content { margin-right: 14px; margin-bottom: 18px; }
         .topic-article { padding: 15px 0 3px; }
-        .topic-source { padding-bottom: 10px; }
+        .topic-source { gap: 10px; padding-top: 10px; }
       }
     </style>
   </head>
@@ -590,21 +601,25 @@
         }
 
         document.querySelectorAll('.topic-source').forEach((source) => {
-          const article = source.previousElementSibling;
-          if (article?.classList.contains('topic-article')) {
-            source.parentElement.insertBefore(source, article);
+          const previousArticle = source.previousElementSibling?.classList.contains('topic-article')
+            ? source.previousElementSibling
+            : null;
+          const followingArticle = source.nextElementSibling?.classList.contains('topic-article')
+            ? source.nextElementSibling
+            : null;
+          const article = previousArticle || followingArticle;
+          if (article) {
+            let content = source.parentElement.classList.contains('topic-content')
+              ? source.parentElement
+              : null;
+            if (!content) {
+              content = document.createElement('div');
+              content.className = 'topic-content';
+              source.parentElement.insertBefore(content, followingArticle ? source : article);
+            }
+            content.append(article, source);
           }
-          const followingArticle = source.nextElementSibling;
-          if (
-            followingArticle?.classList.contains('topic-article')
-            && !source.parentElement.classList.contains('topic-content')
-          ) {
-            const content = document.createElement('div');
-            content.className = 'topic-content';
-            source.parentElement.insertBefore(content, source);
-            content.append(source, followingArticle);
-          }
-          const label = source.firstChild;
+          const label = source.querySelector('.topic-source-link')?.firstChild || source.firstChild;
           if (label?.nodeType === Node.TEXT_NODE) {
             label.textContent = label.textContent.replace('原标题：', '原链接：');
           }

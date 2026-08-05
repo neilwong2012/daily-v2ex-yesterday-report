@@ -53,11 +53,11 @@ test('renders every valuable topic once as a collapsed title and sorts by value 
   assert.doesNotMatch(report, /## 报告说明/);
 });
 
-test('renders each analysis as safe Markdown with the original link at the top', () => {
+test('renders each analysis as safe Markdown with source and engagement stats at the bottom', () => {
   const item = {
     topic: {
       id: 123,
-      title: '综合分析主题',
+      title: '综合分析\n主题',
       url: 'https://www.v2ex.com/t/123',
       node: { title: '程序员' },
       replies: 3,
@@ -94,10 +94,10 @@ test('renders each analysis as safe Markdown with the original link at the top',
   assert.match(report, /data-topic-id="123"/);
   assert.match(report, /<div class="topic-content" markdown="1">/);
   assert.match(report, /<div class="topic-article" markdown="1">\s*### 核心内容\s*第一段保留\*\*核心事实\*\*。\s*### 关键要点\s*- 第二段综合评论共识\s*- \[官方文档\]\(https:\/\/example\.com\/docs\)\s*- 危险链接\s*-\s+site\.secret\s*忽略\s*<\/div>/);
-  assert.match(report, /<p class="topic-source">原链接：<a href="https:\/\/www\.v2ex\.com\/t\/123" target="_blank" rel="noopener noreferrer">综合分析主题<\/a><\/p>/);
+  assert.match(report, /<p class="topic-source"><span class="topic-source-link">原链接：<a href="https:\/\/www\.v2ex\.com\/t\/123" target="_blank" rel="noopener noreferrer">综合分析 主题<\/a><\/span><span class="topic-stats">回复 3 · 收藏 8<\/span><\/p>/);
   assert.ok(
-    report.indexOf('<p class="topic-source">原链接：')
-      < report.indexOf('<div class="topic-article" markdown="1">'),
+    report.indexOf('<p class="topic-source">')
+      > report.indexOf('<div class="topic-article" markdown="1">'),
   );
   assert.doesNotMatch(report, /<strong>综合分 \d+|>AI与开发<|3 回复|8 收藏|topic-summary-meta|topic-read-state|topic-toggle|topic-risk/);
   assert.doesNotMatch(report, /javascript:|<script>|\{\{/);

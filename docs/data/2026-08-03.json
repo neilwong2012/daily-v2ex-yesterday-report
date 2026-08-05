@@ -33926,9 +33926,9 @@
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231585,
-        "value_score": 25,
+        "value_score": 38,
         "content_score": 35,
-        "reply_weight": -10,
+        "reply_weight": 0,
         "score_breakdown": {
           "information_density": 10,
           "actionability": 10,
@@ -33949,7 +33949,9 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 3
       },
       {
         "status": "success",
@@ -33986,7 +33988,9 @@
         ],
         "analyzed_reply_count": 9,
         "total_reply_count": 9,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 9
       },
       {
         "status": "success",
@@ -34018,13 +34022,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231589,
-        "value_score": 76,
+        "value_score": 85,
         "content_score": 62,
         "reply_weight": 14,
         "score_breakdown": {
@@ -34053,7 +34059,9 @@
         ],
         "analyzed_reply_count": 14,
         "total_reply_count": 14,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 9,
+        "engagement_weight": 23
       },
       {
         "status": "success",
@@ -34085,13 +34093,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231591,
-        "value_score": 75,
+        "value_score": 78,
         "content_score": 62,
         "reply_weight": 13,
         "score_breakdown": {
@@ -34123,13 +34133,15 @@
         ],
         "analyzed_reply_count": 13,
         "total_reply_count": 13,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 16
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231593,
-        "value_score": 47,
+        "value_score": 50,
         "content_score": 45,
         "reply_weight": 2,
         "score_breakdown": {
@@ -34155,13 +34167,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 5
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231594,
-        "value_score": 72,
+        "value_score": 102,
         "content_score": 67,
         "reply_weight": 5,
         "score_breakdown": {
@@ -34189,13 +34203,15 @@
         ],
         "analyzed_reply_count": 5,
         "total_reply_count": 5,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 30,
+        "engagement_weight": 35
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231595,
-        "value_score": 194,
+        "value_score": 242,
         "content_score": 45,
         "reply_weight": 149,
         "score_breakdown": {
@@ -34223,13 +34239,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 48,
+        "engagement_weight": 197
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231597,
-        "value_score": 40,
+        "value_score": 43,
         "content_score": 35,
         "reply_weight": 5,
         "score_breakdown": {
@@ -34259,13 +34277,15 @@
         ],
         "analyzed_reply_count": 5,
         "total_reply_count": 5,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 8
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231598,
-        "value_score": 56,
+        "value_score": 59,
         "content_score": 55,
         "reply_weight": 1,
         "score_breakdown": {
@@ -34288,7 +34308,9 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 4
       },
       {
         "status": "success",
@@ -34322,7 +34344,9 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 4
       },
       {
         "status": "success",
@@ -34358,13 +34382,15 @@
         ],
         "analyzed_reply_count": 9,
         "total_reply_count": 9,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 9
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231601,
-        "value_score": 90,
+        "value_score": 156,
         "content_score": 45,
         "reply_weight": 45,
         "score_breakdown": {
@@ -34396,13 +34422,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 66,
+        "engagement_weight": 111
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231602,
-        "value_score": 57,
+        "value_score": 69,
         "content_score": 12,
         "reply_weight": 45,
         "score_breakdown": {
@@ -34429,13 +34457,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 12,
+        "engagement_weight": 57
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231603,
-        "value_score": 58,
+        "value_score": 67,
         "content_score": 55,
         "reply_weight": 3,
         "score_breakdown": {
@@ -34462,13 +34492,15 @@
         ],
         "analyzed_reply_count": 3,
         "total_reply_count": 3,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 9,
+        "engagement_weight": 12
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231604,
-        "value_score": 166,
+        "value_score": 190,
         "content_score": 72,
         "reply_weight": 94,
         "score_breakdown": {
@@ -34498,7 +34530,9 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 24,
+        "engagement_weight": 118
       },
       {
         "status": "success",
@@ -34531,13 +34565,15 @@
         ],
         "analyzed_reply_count": 5,
         "total_reply_count": 5,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 5
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231606,
-        "value_score": 85,
+        "value_score": 106,
         "content_score": 78,
         "reply_weight": 7,
         "score_breakdown": {
@@ -34565,13 +34601,15 @@
         ],
         "analyzed_reply_count": 7,
         "total_reply_count": 7,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 21,
+        "engagement_weight": 28
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231608,
-        "value_score": 80,
+        "value_score": 83,
         "content_score": 62,
         "reply_weight": 18,
         "score_breakdown": {
@@ -34600,13 +34638,15 @@
         ],
         "analyzed_reply_count": 18,
         "total_reply_count": 18,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 21
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231609,
-        "value_score": 80,
+        "value_score": 101,
         "content_score": 45,
         "reply_weight": 35,
         "score_breakdown": {
@@ -34637,13 +34677,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 21,
+        "engagement_weight": 56
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231610,
-        "value_score": 91,
+        "value_score": 112,
         "content_score": 62,
         "reply_weight": 29,
         "score_breakdown": {
@@ -34675,13 +34717,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 21,
+        "engagement_weight": 50
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231611,
-        "value_score": 88,
+        "value_score": 106,
         "content_score": 45,
         "reply_weight": 43,
         "score_breakdown": {
@@ -34710,13 +34754,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 18,
+        "engagement_weight": 61
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231612,
-        "value_score": 143,
+        "value_score": 158,
         "content_score": 62,
         "reply_weight": 81,
         "score_breakdown": {
@@ -34746,13 +34792,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 15,
+        "engagement_weight": 96
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231613,
-        "value_score": 47,
+        "value_score": 50,
         "content_score": 45,
         "reply_weight": 2,
         "score_breakdown": {
@@ -34778,7 +34826,9 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 5
       },
       {
         "status": "success",
@@ -34812,7 +34862,9 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 4
       },
       {
         "status": "success",
@@ -34841,7 +34893,9 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 1
       },
       {
         "status": "success",
@@ -34871,7 +34925,9 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 1
       },
       {
         "status": "success",
@@ -34909,13 +34965,15 @@
         ],
         "analyzed_reply_count": 19,
         "total_reply_count": 19,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 19
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231620,
-        "value_score": 61,
+        "value_score": 67,
         "content_score": 58,
         "reply_weight": 3,
         "score_breakdown": {
@@ -34941,7 +34999,9 @@
         ],
         "analyzed_reply_count": 3,
         "total_reply_count": 3,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 6,
+        "engagement_weight": 9
       },
       {
         "status": "success",
@@ -34971,7 +35031,9 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 1
       },
       {
         "status": "success",
@@ -35009,13 +35071,15 @@
         ],
         "analyzed_reply_count": 17,
         "total_reply_count": 17,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 17
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231626,
-        "value_score": 372,
+        "value_score": 438,
         "content_score": 45,
         "reply_weight": 327,
         "score_breakdown": {
@@ -35047,13 +35111,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 66,
+        "engagement_weight": 393
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231627,
-        "value_score": 102,
+        "value_score": 105,
         "content_score": 5,
         "reply_weight": 97,
         "score_breakdown": {
@@ -35087,13 +35153,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 100
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231628,
-        "value_score": 100,
+        "value_score": 127,
         "content_score": 72,
         "reply_weight": 28,
         "score_breakdown": {
@@ -35125,7 +35193,9 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 27,
+        "engagement_weight": 55
       },
       {
         "status": "success",
@@ -35159,13 +35229,15 @@
         ],
         "analyzed_reply_count": 10,
         "total_reply_count": 10,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231637,
-        "value_score": 98,
+        "value_score": 101,
         "content_score": 30,
         "reply_weight": 68,
         "score_breakdown": {
@@ -35193,13 +35265,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 71
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231638,
-        "value_score": 59,
+        "value_score": 65,
         "content_score": 55,
         "reply_weight": 4,
         "score_breakdown": {
@@ -35227,7 +35301,9 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 6,
+        "engagement_weight": 10
       },
       {
         "status": "success",
@@ -35256,13 +35332,15 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 4
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231641,
-        "value_score": 81,
+        "value_score": 102,
         "content_score": 62,
         "reply_weight": 19,
         "score_breakdown": {
@@ -35294,13 +35372,15 @@
         ],
         "analyzed_reply_count": 19,
         "total_reply_count": 19,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 21,
+        "engagement_weight": 40
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231642,
-        "value_score": 51,
+        "value_score": 57,
         "content_score": 45,
         "reply_weight": 6,
         "score_breakdown": {
@@ -35328,13 +35408,15 @@
         ],
         "analyzed_reply_count": 6,
         "total_reply_count": 6,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 6,
+        "engagement_weight": 12
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231643,
-        "value_score": 73,
+        "value_score": 76,
         "content_score": 62,
         "reply_weight": 11,
         "score_breakdown": {
@@ -35363,13 +35445,15 @@
         ],
         "analyzed_reply_count": 11,
         "total_reply_count": 11,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 14
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231644,
-        "value_score": 53,
+        "value_score": 59,
         "content_score": 45,
         "reply_weight": 8,
         "score_breakdown": {
@@ -35399,13 +35483,15 @@
         ],
         "analyzed_reply_count": 8,
         "total_reply_count": 8,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 6,
+        "engagement_weight": 14
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231645,
-        "value_score": 115,
+        "value_score": 166,
         "content_score": 72,
         "reply_weight": 43,
         "score_breakdown": {
@@ -35437,13 +35523,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 51,
+        "engagement_weight": 94
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231647,
-        "value_score": 157,
+        "value_score": 172,
         "content_score": 72,
         "reply_weight": 85,
         "score_breakdown": {
@@ -35475,13 +35563,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 15,
+        "engagement_weight": 100
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231649,
-        "value_score": 38,
+        "value_score": 41,
         "content_score": 35,
         "reply_weight": 3,
         "score_breakdown": {
@@ -35508,7 +35598,9 @@
         ],
         "analyzed_reply_count": 3,
         "total_reply_count": 3,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 6
       },
       {
         "status": "success",
@@ -35539,7 +35631,9 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 2
       },
       {
         "status": "success",
@@ -35568,13 +35662,15 @@
         ],
         "analyzed_reply_count": 3,
         "total_reply_count": 3,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 3
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231652,
-        "value_score": 45,
+        "value_score": 48,
         "content_score": 35,
         "reply_weight": 10,
         "score_breakdown": {
@@ -35601,13 +35697,15 @@
         ],
         "analyzed_reply_count": 10,
         "total_reply_count": 10,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 13
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231653,
-        "value_score": 168,
+        "value_score": 174,
         "content_score": 62,
         "reply_weight": 106,
         "score_breakdown": {
@@ -35636,13 +35734,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 6,
+        "engagement_weight": 112
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231654,
-        "value_score": 102,
+        "value_score": 126,
         "content_score": 72,
         "reply_weight": 30,
         "score_breakdown": {
@@ -35674,13 +35774,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 24,
+        "engagement_weight": 54
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231656,
-        "value_score": 82,
+        "value_score": 94,
         "content_score": 45,
         "reply_weight": 37,
         "score_breakdown": {
@@ -35712,13 +35814,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 12,
+        "engagement_weight": 49
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231657,
-        "value_score": 77,
+        "value_score": 86,
         "content_score": 72,
         "reply_weight": 5,
         "score_breakdown": {
@@ -35746,7 +35850,9 @@
         ],
         "analyzed_reply_count": 5,
         "total_reply_count": 5,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 9,
+        "engagement_weight": 14
       },
       {
         "status": "success",
@@ -35779,7 +35885,9 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 2
       },
       {
         "status": "success",
@@ -35814,7 +35922,9 @@
         ],
         "analyzed_reply_count": 13,
         "total_reply_count": 13,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 13
       },
       {
         "status": "success",
@@ -35848,7 +35958,9 @@
         ],
         "analyzed_reply_count": 5,
         "total_reply_count": 5,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 5
       },
       {
         "status": "success",
@@ -35879,13 +35991,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231668,
-        "value_score": 78,
+        "value_score": 84,
         "content_score": 62,
         "reply_weight": 16,
         "score_breakdown": {
@@ -35916,13 +36030,15 @@
         ],
         "analyzed_reply_count": 16,
         "total_reply_count": 16,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 6,
+        "engagement_weight": 22
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231669,
-        "value_score": 105,
+        "value_score": 132,
         "content_score": 62,
         "reply_weight": 43,
         "score_breakdown": {
@@ -35954,7 +36070,9 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 27,
+        "engagement_weight": 70
       },
       {
         "status": "success",
@@ -35985,13 +36103,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231672,
-        "value_score": 83,
+        "value_score": 110,
         "content_score": 55,
         "reply_weight": 28,
         "score_breakdown": {
@@ -36023,13 +36143,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 27,
+        "engagement_weight": 55
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231674,
-        "value_score": 218,
+        "value_score": 275,
         "content_score": 62,
         "reply_weight": 156,
         "score_breakdown": {
@@ -36058,13 +36180,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 57,
+        "engagement_weight": 213
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231675,
-        "value_score": 87,
+        "value_score": 90,
         "content_score": 62,
         "reply_weight": 25,
         "score_breakdown": {
@@ -36096,7 +36220,9 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 28
       },
       {
         "status": "success",
@@ -36133,13 +36259,15 @@
         ],
         "analyzed_reply_count": 6,
         "total_reply_count": 6,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 6
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231677,
-        "value_score": 111,
+        "value_score": 174,
         "content_score": 72,
         "reply_weight": 39,
         "score_breakdown": {
@@ -36171,7 +36299,9 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 63,
+        "engagement_weight": 102
       },
       {
         "status": "success",
@@ -36202,7 +36332,9 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 1
       },
       {
         "status": "success",
@@ -36233,13 +36365,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231680,
-        "value_score": 97,
+        "value_score": 127,
         "content_score": 62,
         "reply_weight": 35,
         "score_breakdown": {
@@ -36270,13 +36404,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 30,
+        "engagement_weight": 65
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231683,
-        "value_score": 69,
+        "value_score": 78,
         "content_score": 35,
         "reply_weight": 34,
         "score_breakdown": {
@@ -36304,7 +36440,9 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 9,
+        "engagement_weight": 43
       },
       {
         "status": "success",
@@ -36336,13 +36474,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231687,
-        "value_score": 56,
+        "value_score": 59,
         "content_score": 45,
         "reply_weight": 11,
         "score_breakdown": {
@@ -36373,7 +36513,9 @@
         ],
         "analyzed_reply_count": 11,
         "total_reply_count": 11,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 14
       },
       {
         "status": "success",
@@ -36405,13 +36547,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231689,
-        "value_score": 41,
+        "value_score": 53,
         "content_score": 35,
         "reply_weight": 6,
         "score_breakdown": {
@@ -36440,15 +36584,17 @@
         ],
         "analyzed_reply_count": 6,
         "total_reply_count": 6,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 12,
+        "engagement_weight": 18
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231691,
-        "value_score": 68,
+        "value_score": 87,
         "content_score": 78,
-        "reply_weight": -10,
+        "reply_weight": 0,
         "score_breakdown": {
           "information_density": 20,
           "actionability": 20,
@@ -36469,7 +36615,9 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 9,
+        "engagement_weight": 9
       },
       {
         "status": "success",
@@ -36502,15 +36650,17 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 4
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231694,
-        "value_score": 45,
+        "value_score": 58,
         "content_score": 55,
-        "reply_weight": -10,
+        "reply_weight": 0,
         "score_breakdown": {
           "information_density": 15,
           "actionability": 15,
@@ -36531,7 +36681,9 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 3
       },
       {
         "status": "success",
@@ -36563,13 +36715,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231697,
-        "value_score": 79,
+        "value_score": 82,
         "content_score": 78,
         "reply_weight": 1,
         "score_breakdown": {
@@ -36592,7 +36746,9 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 4
       },
       {
         "status": "success",
@@ -36624,15 +36780,17 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231702,
-        "value_score": 68,
+        "value_score": 81,
         "content_score": 78,
-        "reply_weight": -10,
+        "reply_weight": 0,
         "score_breakdown": {
           "information_density": 22,
           "actionability": 20,
@@ -36653,7 +36811,9 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 3
       },
       {
         "status": "success",
@@ -36688,7 +36848,9 @@
         ],
         "analyzed_reply_count": 8,
         "total_reply_count": 8,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 8
       },
       {
         "status": "success",
@@ -36724,13 +36886,15 @@
         ],
         "analyzed_reply_count": 15,
         "total_reply_count": 15,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 15
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231706,
-        "value_score": 37,
+        "value_score": 55,
         "content_score": 35,
         "reply_weight": 2,
         "score_breakdown": {
@@ -36757,15 +36921,17 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 18,
+        "engagement_weight": 20
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231707,
-        "value_score": 25,
+        "value_score": 38,
         "content_score": 35,
-        "reply_weight": -10,
+        "reply_weight": 0,
         "score_breakdown": {
           "information_density": 10,
           "actionability": 10,
@@ -36787,7 +36953,9 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 3
       },
       {
         "status": "success",
@@ -36818,13 +36986,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231709,
-        "value_score": 92,
+        "value_score": 101,
         "content_score": 62,
         "reply_weight": 30,
         "score_breakdown": {
@@ -36855,13 +37025,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 9,
+        "engagement_weight": 39
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231710,
-        "value_score": 78,
+        "value_score": 102,
         "content_score": 35,
         "reply_weight": 43,
         "score_breakdown": {
@@ -36889,7 +37061,9 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 24,
+        "engagement_weight": 67
       },
       {
         "status": "success",
@@ -36922,7 +37096,9 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 4
       },
       {
         "status": "success",
@@ -36956,15 +37132,17 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 4
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231713,
-        "value_score": 52,
+        "value_score": 65,
         "content_score": 62,
-        "reply_weight": -10,
+        "reply_weight": 0,
         "score_breakdown": {
           "information_density": 18,
           "actionability": 15,
@@ -36985,15 +37163,17 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 3
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231718,
-        "value_score": 25,
+        "value_score": 38,
         "content_score": 35,
-        "reply_weight": -10,
+        "reply_weight": 0,
         "score_breakdown": {
           "information_density": 10,
           "actionability": 5,
@@ -37014,13 +37194,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 3
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231719,
-        "value_score": 69,
+        "value_score": 75,
         "content_score": 55,
         "reply_weight": 14,
         "score_breakdown": {
@@ -37052,7 +37234,9 @@
         ],
         "analyzed_reply_count": 14,
         "total_reply_count": 14,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 6,
+        "engagement_weight": 20
       },
       {
         "status": "success",
@@ -37087,7 +37271,9 @@
         ],
         "analyzed_reply_count": 17,
         "total_reply_count": 17,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 17
       },
       {
         "status": "success",
@@ -37119,7 +37305,9 @@
         ],
         "analyzed_reply_count": 6,
         "total_reply_count": 6,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 6
       },
       {
         "status": "success",
@@ -37151,7 +37339,9 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 4
       },
       {
         "status": "success",
@@ -37186,13 +37376,15 @@
         ],
         "analyzed_reply_count": 5,
         "total_reply_count": 5,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 5
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231724,
-        "value_score": 55,
+        "value_score": 58,
         "content_score": 45,
         "reply_weight": 10,
         "score_breakdown": {
@@ -37222,13 +37414,15 @@
         ],
         "analyzed_reply_count": 10,
         "total_reply_count": 10,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 13
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231725,
-        "value_score": 79,
+        "value_score": 82,
         "content_score": 72,
         "reply_weight": 7,
         "score_breakdown": {
@@ -37255,13 +37449,15 @@
         ],
         "analyzed_reply_count": 7,
         "total_reply_count": 7,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 10
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231728,
-        "value_score": 38,
+        "value_score": 44,
         "content_score": 35,
         "reply_weight": 3,
         "score_breakdown": {
@@ -37288,13 +37484,15 @@
         ],
         "analyzed_reply_count": 3,
         "total_reply_count": 3,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 6,
+        "engagement_weight": 9
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231729,
-        "value_score": 111,
+        "value_score": 171,
         "content_score": 55,
         "reply_weight": 56,
         "score_breakdown": {
@@ -37324,7 +37522,9 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 60,
+        "engagement_weight": 116
       },
       {
         "status": "success",
@@ -37357,13 +37557,15 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 4
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231731,
-        "value_score": 136,
+        "value_score": 307,
         "content_score": 62,
         "reply_weight": 74,
         "score_breakdown": {
@@ -37393,13 +37595,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 171,
+        "engagement_weight": 245
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231732,
-        "value_score": 213,
+        "value_score": 393,
         "content_score": 45,
         "reply_weight": 168,
         "score_breakdown": {
@@ -37426,7 +37630,9 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 180,
+        "engagement_weight": 348
       },
       {
         "status": "success",
@@ -37458,7 +37664,9 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 2
       },
       {
         "status": "success",
@@ -37487,7 +37695,9 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 2
       },
       {
         "status": "success",
@@ -37521,13 +37731,15 @@
         ],
         "analyzed_reply_count": 5,
         "total_reply_count": 5,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 5
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231737,
-        "value_score": 66,
+        "value_score": 69,
         "content_score": 62,
         "reply_weight": 4,
         "score_breakdown": {
@@ -37553,15 +37765,17 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 7
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231739,
-        "value_score": 25,
+        "value_score": 38,
         "content_score": 35,
-        "reply_weight": -10,
+        "reply_weight": 0,
         "score_breakdown": {
           "information_density": 10,
           "actionability": 8,
@@ -37582,13 +37796,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 3
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231744,
-        "value_score": 128,
+        "value_score": 176,
         "content_score": 72,
         "reply_weight": 56,
         "score_breakdown": {
@@ -37620,13 +37836,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 48,
+        "engagement_weight": 104
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231745,
-        "value_score": 378,
+        "value_score": 423,
         "content_score": 62,
         "reply_weight": 316,
         "score_breakdown": {
@@ -37655,7 +37873,9 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 45,
+        "engagement_weight": 361
       },
       {
         "status": "success",
@@ -37690,7 +37910,9 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 36
       },
       {
         "status": "success",
@@ -37725,7 +37947,9 @@
         ],
         "analyzed_reply_count": 11,
         "total_reply_count": 11,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 11
       },
       {
         "status": "success",
@@ -37759,13 +37983,15 @@
         ],
         "analyzed_reply_count": 7,
         "total_reply_count": 7,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 7
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231749,
-        "value_score": 65,
+        "value_score": 68,
         "content_score": 45,
         "reply_weight": 20,
         "score_breakdown": {
@@ -37796,7 +38022,9 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 23
       },
       {
         "status": "success",
@@ -37830,13 +38058,15 @@
         ],
         "analyzed_reply_count": 3,
         "total_reply_count": 3,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 3
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231751,
-        "value_score": 106,
+        "value_score": 136,
         "content_score": 55,
         "reply_weight": 51,
         "score_breakdown": {
@@ -37867,13 +38097,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 30,
+        "engagement_weight": 81
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231752,
-        "value_score": 130,
+        "value_score": 172,
         "content_score": 72,
         "reply_weight": 58,
         "score_breakdown": {
@@ -37905,7 +38137,9 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 42,
+        "engagement_weight": 100
       },
       {
         "status": "success",
@@ -37938,13 +38172,15 @@
         ],
         "analyzed_reply_count": 6,
         "total_reply_count": 6,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 6
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231754,
-        "value_score": 83,
+        "value_score": 89,
         "content_score": 55,
         "reply_weight": 28,
         "score_breakdown": {
@@ -37974,7 +38210,9 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 6,
+        "engagement_weight": 34
       },
       {
         "status": "success",
@@ -38007,13 +38245,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 31
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231757,
-        "value_score": 92,
+        "value_score": 95,
         "content_score": 62,
         "reply_weight": 30,
         "score_breakdown": {
@@ -38044,15 +38284,17 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 33
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231758,
-        "value_score": 35,
+        "value_score": 48,
         "content_score": 45,
-        "reply_weight": -10,
+        "reply_weight": 0,
         "score_breakdown": {
           "information_density": 15,
           "actionability": 10,
@@ -38073,7 +38315,9 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 3
       },
       {
         "status": "success",
@@ -38107,13 +38351,15 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 4
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231761,
-        "value_score": 78,
+        "value_score": 105,
         "content_score": 62,
         "reply_weight": 16,
         "score_breakdown": {
@@ -38144,13 +38390,15 @@
         ],
         "analyzed_reply_count": 16,
         "total_reply_count": 16,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 27,
+        "engagement_weight": 43
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231762,
-        "value_score": 79,
+        "value_score": 82,
         "content_score": 62,
         "reply_weight": 17,
         "score_breakdown": {
@@ -38180,7 +38428,9 @@
         ],
         "analyzed_reply_count": 17,
         "total_reply_count": 17,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 20
       },
       {
         "status": "success",
@@ -38217,7 +38467,9 @@
         ],
         "analyzed_reply_count": 6,
         "total_reply_count": 6,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 6
       },
       {
         "status": "success",
@@ -38252,7 +38504,9 @@
         ],
         "analyzed_reply_count": 5,
         "total_reply_count": 5,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 5
       },
       {
         "status": "success",
@@ -38281,13 +38535,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231766,
-        "value_score": 127,
+        "value_score": 178,
         "content_score": 55,
         "reply_weight": 72,
         "score_breakdown": {
@@ -38310,13 +38566,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 51,
+        "engagement_weight": 123
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231767,
-        "value_score": 135,
+        "value_score": 147,
         "content_score": 72,
         "reply_weight": 63,
         "score_breakdown": {
@@ -38345,13 +38603,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 12,
+        "engagement_weight": 75
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231768,
-        "value_score": 65,
+        "value_score": 68,
         "content_score": 62,
         "reply_weight": 3,
         "score_breakdown": {
@@ -38378,7 +38638,9 @@
         ],
         "analyzed_reply_count": 3,
         "total_reply_count": 3,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 6
       },
       {
         "status": "success",
@@ -38413,13 +38675,15 @@
         ],
         "analyzed_reply_count": 18,
         "total_reply_count": 18,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 18
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231772,
-        "value_score": 82,
+        "value_score": 88,
         "content_score": 62,
         "reply_weight": 20,
         "score_breakdown": {
@@ -38448,13 +38712,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 6,
+        "engagement_weight": 26
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231773,
-        "value_score": 78,
+        "value_score": 93,
         "content_score": 72,
         "reply_weight": 6,
         "score_breakdown": {
@@ -38481,7 +38747,9 @@
         ],
         "analyzed_reply_count": 6,
         "total_reply_count": 6,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 15,
+        "engagement_weight": 21
       },
       {
         "status": "success",
@@ -38515,7 +38783,9 @@
         ],
         "analyzed_reply_count": 8,
         "total_reply_count": 8,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 8
       },
       {
         "status": "success",
@@ -38547,13 +38817,15 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 4
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231777,
-        "value_score": 83,
+        "value_score": 92,
         "content_score": 45,
         "reply_weight": 38,
         "score_breakdown": {
@@ -38582,7 +38854,9 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 9,
+        "engagement_weight": 47
       },
       {
         "status": "success",
@@ -38617,7 +38891,9 @@
         ],
         "analyzed_reply_count": 8,
         "total_reply_count": 8,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 8
       },
       {
         "status": "success",
@@ -38650,7 +38926,9 @@
         ],
         "analyzed_reply_count": 11,
         "total_reply_count": 11,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 11
       },
       {
         "status": "success",
@@ -38688,13 +38966,15 @@
         ],
         "analyzed_reply_count": 15,
         "total_reply_count": 15,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 15
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231783,
-        "value_score": 46,
+        "value_score": 55,
         "content_score": 45,
         "reply_weight": 1,
         "score_breakdown": {
@@ -38719,7 +38999,9 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 9,
+        "engagement_weight": 10
       },
       {
         "status": "success",
@@ -38752,7 +39034,9 @@
         ],
         "analyzed_reply_count": 8,
         "total_reply_count": 8,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 8
       },
       {
         "status": "success",
@@ -38784,13 +39068,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231790,
-        "value_score": 86,
+        "value_score": 92,
         "content_score": 62,
         "reply_weight": 24,
         "score_breakdown": {
@@ -38819,7 +39105,9 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 6,
+        "engagement_weight": 30
       },
       {
         "status": "success",
@@ -38851,7 +39139,9 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 2
       },
       {
         "status": "success",
@@ -38883,7 +39173,9 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 2
       },
       {
         "status": "success",
@@ -38915,7 +39207,9 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 2
       },
       {
         "status": "success",
@@ -38946,13 +39240,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231795,
-        "value_score": 47,
+        "value_score": 50,
         "content_score": 35,
         "reply_weight": 12,
         "score_breakdown": {
@@ -38980,13 +39276,15 @@
         ],
         "analyzed_reply_count": 12,
         "total_reply_count": 12,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 15
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231797,
-        "value_score": 93,
+        "value_score": 102,
         "content_score": 72,
         "reply_weight": 21,
         "score_breakdown": {
@@ -39018,13 +39316,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 9,
+        "engagement_weight": 30
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231800,
-        "value_score": 50,
+        "value_score": 53,
         "content_score": 45,
         "reply_weight": 5,
         "score_breakdown": {
@@ -39051,7 +39351,9 @@
         ],
         "analyzed_reply_count": 5,
         "total_reply_count": 5,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 8
       },
       {
         "status": "success",
@@ -39083,13 +39385,15 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231802,
-        "value_score": 83,
+        "value_score": 101,
         "content_score": 72,
         "reply_weight": 11,
         "score_breakdown": {
@@ -39117,7 +39421,9 @@
         ],
         "analyzed_reply_count": 11,
         "total_reply_count": 11,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 18,
+        "engagement_weight": 29
       },
       {
         "status": "success",
@@ -39149,7 +39455,9 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 2
       },
       {
         "status": "success",
@@ -39178,13 +39486,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231808,
-        "value_score": 206,
+        "value_score": 239,
         "content_score": 72,
         "reply_weight": 134,
         "score_breakdown": {
@@ -39215,7 +39525,9 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 33,
+        "engagement_weight": 167
       },
       {
         "status": "success",
@@ -39247,13 +39559,15 @@
         ],
         "analyzed_reply_count": 3,
         "total_reply_count": 3,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 3
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231811,
-        "value_score": 106,
+        "value_score": 157,
         "content_score": 72,
         "reply_weight": 34,
         "score_breakdown": {
@@ -39281,7 +39595,9 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 51,
+        "engagement_weight": 85
       },
       {
         "status": "success",
@@ -39312,7 +39628,9 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 1
       },
       {
         "status": "success",
@@ -39350,13 +39668,15 @@
         ],
         "analyzed_reply_count": 9,
         "total_reply_count": 9,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 9
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231815,
-        "value_score": 46,
+        "value_score": 61,
         "content_score": 35,
         "reply_weight": 11,
         "score_breakdown": {
@@ -39384,13 +39704,15 @@
         ],
         "analyzed_reply_count": 11,
         "total_reply_count": 11,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 15,
+        "engagement_weight": 26
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231816,
-        "value_score": 66,
+        "value_score": 69,
         "content_score": 55,
         "reply_weight": 11,
         "score_breakdown": {
@@ -39419,13 +39741,15 @@
         ],
         "analyzed_reply_count": 11,
         "total_reply_count": 11,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 14
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231818,
-        "value_score": 82,
+        "value_score": 85,
         "content_score": 62,
         "reply_weight": 20,
         "score_breakdown": {
@@ -39454,13 +39778,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 23
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231819,
-        "value_score": 85,
+        "value_score": 91,
         "content_score": 72,
         "reply_weight": 13,
         "score_breakdown": {
@@ -39489,7 +39815,9 @@
         ],
         "analyzed_reply_count": 13,
         "total_reply_count": 13,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 6,
+        "engagement_weight": 19
       },
       {
         "status": "success",
@@ -39522,15 +39850,17 @@
         ],
         "analyzed_reply_count": 3,
         "total_reply_count": 3,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 3
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231822,
-        "value_score": 35,
+        "value_score": 48,
         "content_score": 45,
-        "reply_weight": -10,
+        "reply_weight": 0,
         "score_breakdown": {
           "information_density": 15,
           "actionability": 10,
@@ -39551,7 +39881,9 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 3
       },
       {
         "status": "success",
@@ -39582,15 +39914,17 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231824,
-        "value_score": 20,
+        "value_score": 33,
         "content_score": 30,
-        "reply_weight": -10,
+        "reply_weight": 0,
         "score_breakdown": {
           "information_density": 10,
           "actionability": 5,
@@ -39611,13 +39945,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 3
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231826,
-        "value_score": 56,
+        "value_score": 59,
         "content_score": 55,
         "reply_weight": 1,
         "score_breakdown": {
@@ -39642,13 +39978,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 4
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231830,
-        "value_score": 49,
+        "value_score": 52,
         "content_score": 45,
         "reply_weight": 4,
         "score_breakdown": {
@@ -39675,15 +40013,17 @@
         ],
         "analyzed_reply_count": 4,
         "total_reply_count": 4,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 7
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231832,
-        "value_score": 0,
+        "value_score": 8,
         "content_score": 5,
-        "reply_weight": -10,
+        "reply_weight": 0,
         "score_breakdown": {
           "information_density": 2,
           "actionability": 1,
@@ -39704,13 +40044,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 3
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231833,
-        "value_score": 69,
+        "value_score": 78,
         "content_score": 45,
         "reply_weight": 24,
         "score_breakdown": {
@@ -39741,7 +40083,9 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 9,
+        "engagement_weight": 33
       },
       {
         "status": "success",
@@ -39777,7 +40121,9 @@
         ],
         "analyzed_reply_count": 12,
         "total_reply_count": 12,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 12
       },
       {
         "status": "success",
@@ -39813,13 +40159,15 @@
         ],
         "analyzed_reply_count": 20,
         "total_reply_count": 20,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 29
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231837,
-        "value_score": 86,
+        "value_score": 95,
         "content_score": 72,
         "reply_weight": 14,
         "score_breakdown": {
@@ -39851,7 +40199,9 @@
         ],
         "analyzed_reply_count": 14,
         "total_reply_count": 14,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 9,
+        "engagement_weight": 23
       },
       {
         "status": "success",
@@ -39885,7 +40235,9 @@
         ],
         "analyzed_reply_count": 6,
         "total_reply_count": 6,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 6
       },
       {
         "status": "success",
@@ -39917,7 +40269,9 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 2
       },
       {
         "status": "success",
@@ -39948,7 +40302,9 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 2
       },
       {
         "status": "success",
@@ -39983,13 +40339,15 @@
         ],
         "analyzed_reply_count": 6,
         "total_reply_count": 6,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 6
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231845,
-        "value_score": 73,
+        "value_score": 76,
         "content_score": 62,
         "reply_weight": 11,
         "score_breakdown": {
@@ -40019,15 +40377,17 @@
         ],
         "analyzed_reply_count": 11,
         "total_reply_count": 11,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 14
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231846,
-        "value_score": 35,
+        "value_score": 51,
         "content_score": 45,
-        "reply_weight": -10,
+        "reply_weight": 0,
         "score_breakdown": {
           "information_density": 15,
           "actionability": 15,
@@ -40048,13 +40408,15 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 6,
+        "engagement_weight": 6
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231848,
-        "value_score": 36,
+        "value_score": 39,
         "content_score": 35,
         "reply_weight": 1,
         "score_breakdown": {
@@ -40079,7 +40441,9 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 4
       },
       {
         "status": "success",
@@ -40114,15 +40478,17 @@
         ],
         "analyzed_reply_count": 14,
         "total_reply_count": 14,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 14
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231850,
-        "value_score": 35,
+        "value_score": 48,
         "content_score": 45,
-        "reply_weight": -10,
+        "reply_weight": 0,
         "score_breakdown": {
           "information_density": 15,
           "actionability": 15,
@@ -40144,7 +40510,9 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 3
       },
       {
         "status": "success",
@@ -40176,15 +40544,17 @@
         ],
         "analyzed_reply_count": 2,
         "total_reply_count": 2,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 2
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231854,
-        "value_score": 10,
+        "value_score": 23,
         "content_score": 20,
-        "reply_weight": -10,
+        "reply_weight": 0,
         "score_breakdown": {
           "information_density": 5,
           "actionability": 5,
@@ -40206,7 +40576,9 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 3
       },
       {
         "status": "success",
@@ -40237,13 +40609,15 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 0,
+        "engagement_weight": 1
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231858,
-        "value_score": 56,
+        "value_score": 59,
         "content_score": 55,
         "reply_weight": 1,
         "score_breakdown": {
@@ -40268,15 +40642,17 @@
         ],
         "analyzed_reply_count": 1,
         "total_reply_count": 1,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 3,
+        "engagement_weight": 4
       },
       {
         "status": "success",
         "model": "deepseek-v4-flash",
         "topic_id": 1231859,
-        "value_score": 52,
+        "value_score": 68,
         "content_score": 62,
-        "reply_weight": -10,
+        "reply_weight": 0,
         "score_breakdown": {
           "information_density": 18,
           "actionability": 15,
@@ -40297,7 +40673,9 @@
         ],
         "analyzed_reply_count": 0,
         "total_reply_count": 0,
-        "input_truncated": false
+        "input_truncated": false,
+        "favorite_weight": 6,
+        "engagement_weight": 6
       }
     ]
   },

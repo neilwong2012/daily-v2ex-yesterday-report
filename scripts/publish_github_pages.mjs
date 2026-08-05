@@ -1,7 +1,12 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-import { isAnalysisCandidate, MIN_CONTENT_SCORE, replyWeightForCount } from '../lib/deepseek-analysis.mjs';
+import {
+  favoriteWeightForCount,
+  isAnalysisCandidate,
+  MIN_CONTENT_SCORE,
+  replyWeightForCount,
+} from '../lib/deepseek-analysis.mjs';
 
 const timezone = 'Asia/Shanghai';
 const targetDate = process.env.V2EX_DATE || getShanghaiDateOffset(-1);
@@ -131,17 +136,21 @@ function buildSummary(payload, status) {
   return `昨日主题 ${counts.allCreated ?? 0} 个，过滤 ${counts.excluded ?? 0} 个，DeepSeek 分析 ${counts.analysisSuccess ?? 0} 个，保留高价值内容 ${countValuable(payload)} 个。`;
 }
 
-function withReplyWeight(item, topic) {
-  if (item?.status !== 'success' || item.content_score != null) return item;
+function withEngagementWeight(item, topic) {
+  if (item?.status !== 'success') return item;
   const threshold = Number(process.env.DEEPSEEK_VALUE_THRESHOLD || 70);
-  const contentScore = Number(item.value_score || 0);
+  const contentScore = Number(item.content_score ?? item.value_score ?? 0);
   const replyWeight = replyWeightForCount(topic?.replies || 0);
-  const finalScore = Math.max(0, contentScore + replyWeight);
+  const favoriteWeight = favoriteWeightForCount(topic?.stars || 0);
+  const engagementWeight = replyWeight + favoriteWeight;
+  const finalScore = Math.max(0, contentScore + engagementWeight);
   return {
     ...item,
     value_score: finalScore,
     content_score: contentScore,
     reply_weight: replyWeight,
+    favorite_weight: favoriteWeight,
+    engagement_weight: engagementWeight,
     keep: Boolean(item.keep) && contentScore >= MIN_CONTENT_SCORE && finalScore >= threshold,
   };
 }
@@ -152,7 +161,7 @@ function countValuable(payload) {
     const threshold = Number(process.env.DEEPSEEK_VALUE_THRESHOLD || 70);
     const topicById = new Map((payload.includedTopics || []).map((topic) => [Number(topic.id), topic]));
     return analyses
-      .map((item) => withReplyWeight(item, topicById.get(Number(item.topic_id))))
+      .map((item) => withEngagementWeight(item, topicById.get(Number(item.topic_id))))
       .filter((item) => isAnalysisCandidate(topicById.get(Number(item.topic_id))))
       .filter((item) => item.status === 'success' && item.keep && Number(item.value_score) >= threshold)
       .length;
@@ -164,7 +173,7 @@ function buildPublicPayload(payload) {
   if (!payload?.counts) return payload;
   const topicById = new Map((payload.includedTopics || []).map((topic) => [Number(topic.id), topic]));
   const analyses = Array.isArray(payload.deepseek?.analyses)
-    ? payload.deepseek.analyses.map((item) => withReplyWeight(item, topicById.get(Number(item.topic_id))))
+    ? payload.deepseek.analyses.map((item) => withEngagementWeight(item, topicById.get(Number(item.topic_id))))
     : null;
   return {
     ...payload,

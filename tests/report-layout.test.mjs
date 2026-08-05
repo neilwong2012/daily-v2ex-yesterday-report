@@ -78,8 +78,10 @@ test('report home keeps the page content-first', async () => {
   assert.match(layout, /\.topic-card\[open\] > \.topic-content/);
   assert.match(layout, /localStorage\.setItem\(readStorageKey/);
   assert.match(layout, /replace\('原标题：', '原链接：'\)/);
-  assert.match(layout, /insertBefore\(source, article\)/);
-  assert.match(layout, /content\.append\(source, followingArticle\)/);
+  assert.match(layout, /content\.append\(article, source\)/);
+  assert.match(layout, /source\.querySelector\('\.topic-source-link'\)/);
+  assert.match(layout, /\.topic-source\s*\{[^}]*display: flex[^}]*justify-content: space-between[^}]*border-top:/s);
+  assert.match(layout, /\.topic-stats\s*\{[^}]*font: 500 11px\/1\.4 var\(--font-mono\)[^}]*white-space: nowrap/s);
   assert.match(layout, /document\.querySelectorAll\('\.topic-article a\[href\]'\)/);
   assert.match(layout, /link\.target = '_blank'/);
   assert.match(layout, /link\.rel = 'noopener noreferrer'/);
