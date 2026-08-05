@@ -1,6 +1,6 @@
 ---
 layout: report-home
-title: "V2EX 每日热点"
+title: "V2EX每日热点回顾"
 permalink: /latest/
 status: success
 target_date: 2026-08-04

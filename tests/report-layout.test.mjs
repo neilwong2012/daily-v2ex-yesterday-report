@@ -22,7 +22,7 @@ test('report home keeps the page content-first', async () => {
   );
 
   assert.match(layout, /<article class="report">\s*\{\{ content \}\}/);
-  assert.match(layout, /<span>V2EX 每日热点<\/span>/);
+  assert.match(layout, /<span>V2EX每日热点回顾<\/span>/);
   assert.match(layout, /<h1 class="kicker"><time datetime="\{\{ page\.target_date \}\}">\{\{ page\.target_date \| date: "%Y年%m月%d日" \}\}<\/time>热点内容<\/h1>/);
   assert.match(layout, /\.kicker\s*\{[^}]*color: var\(--ink\)[^}]*font-size: 28px[^}]*font-weight: 700/s);
   assert.doesNotMatch(layout, /kicker-date|kicker-label/);

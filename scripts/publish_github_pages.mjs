@@ -222,7 +222,7 @@ async function main() {
     await fs.writeFile(dataPath, JSON.stringify(publicPayload, null, 2));
   }
 
-  const postTitle = `V2EX 每日热点 · ${targetDate}${status === 'blocked' ? '（阻塞）' : ''}`;
+  const postTitle = `V2EX每日热点回顾 · ${targetDate}${status === 'blocked' ? '（阻塞）' : ''}`;
   const lines = [
     pageFrontMatter({ layout: 'report-post', title: postTitle, status, summary, targetDate, payload }),
     '',
@@ -235,7 +235,7 @@ async function main() {
 
   await fs.writeFile(postPath, post);
   await fs.writeFile(new URL('../docs/index.md', import.meta.url), `${[
-    pageFrontMatter({ layout: 'report-home', title: 'V2EX 每日热点', status, summary, targetDate, payload }),
+    pageFrontMatter({ layout: 'report-home', title: 'V2EX每日热点回顾', status, summary, targetDate, payload }),
     '',
     markdown,
     '',
@@ -243,7 +243,7 @@ async function main() {
   await fs.writeFile(new URL('../docs/latest.md', import.meta.url), `${[
     '---',
     'layout: report-home',
-    'title: "V2EX 每日热点"',
+    'title: "V2EX每日热点回顾"',
     'permalink: /latest/',
     `status: ${status}`,
     `target_date: ${targetDate}`,
