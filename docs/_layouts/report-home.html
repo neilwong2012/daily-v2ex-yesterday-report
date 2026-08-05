@@ -188,6 +188,10 @@
         border-top: 1px solid var(--line);
       }
       .topic-card {
+        --topic-gap: 12px;
+        --topic-inline: 16px;
+        --topic-line-width: 2px;
+        --topic-rank-size: 26px;
         margin: 0 0 10px;
         overflow: clip;
         background: var(--surface);
@@ -195,40 +199,40 @@
       .topic-card > summary {
         display: flex;
         align-items: center;
-        gap: 12px;
+        gap: var(--topic-gap);
         min-height: 62px;
-        padding: 12px 16px;
+        padding: 12px var(--topic-inline);
         cursor: pointer;
         list-style: none;
       }
       .topic-card > summary::-webkit-details-marker { display: none; }
-      .topic-card > summary:hover { background: var(--soft); }
       .topic-card > summary:hover .topic-title { color: var(--accent-strong); }
-      .topic-card[open] > summary {
-        background: var(--soft);
-      }
       .topic-card > summary::after {
         width: 18px;
+        height: 18px;
         flex: 0 0 18px;
         align-self: center;
         margin: 0 0 0 auto;
+        background:
+          linear-gradient(currentColor, currentColor) center / 12px 2px no-repeat,
+          linear-gradient(currentColor, currentColor) center / 2px 12px no-repeat;
         color: var(--accent);
-        content: "+";
-        font: 400 22px/1 var(--font-mono);
+        content: "";
         opacity: .72;
-        text-align: center;
+        transform: rotate(0deg);
       }
       .topic-card > summary:hover::after,
       .topic-card > summary:focus-visible::after,
       .topic-card[open] > summary::after { opacity: 1; }
       .topic-card[open] > summary::after {
-        content: "−";
+        background-size: 12px 2px, 2px 0;
+        transform: rotate(180deg);
       }
       .topic-rank {
         display: grid;
-        width: 26px;
-        height: 26px;
-        flex: 0 0 26px;
+        width: var(--topic-rank-size);
+        height: var(--topic-rank-size);
+        flex: 0 0 var(--topic-rank-size);
         place-items: center;
         color: var(--muted);
         font: 650 12px/1 var(--font-mono);
@@ -259,15 +263,19 @@
       .topic-card > p:first-of-type { font-size: 14px; }
       .topic-content {
         position: relative;
-        margin: 0 18px 20px 54px;
-        padding: 16px 0 0 20px;
+        margin: 0 18px 20px calc(
+          var(--topic-inline) + (var(--topic-rank-size) - var(--topic-line-width)) / 2
+        );
+        padding: 16px 0 0 calc(
+          var(--topic-rank-size) / 2 + var(--topic-gap) + var(--topic-line-width) / 2
+        );
       }
       .topic-content::before {
         position: absolute;
         top: 16px;
         bottom: 0;
         left: 0;
-        width: 2px;
+        width: var(--topic-line-width);
         border-radius: 999px;
         background: var(--accent);
         content: "";
@@ -282,8 +290,8 @@
         position: relative;
         margin: 22px 0 8px;
         color: var(--ink);
-        font: 650 12px/1.45 var(--font-mono);
-        letter-spacing: .08em;
+        font: 700 18px/1.45 var(--font-sans);
+        letter-spacing: -.01em;
       }
       .topic-article h3:first-child { margin-top: 2px; }
       .topic-article p { margin-bottom: 12px; }
@@ -364,7 +372,11 @@
       }
       @media (prefers-reduced-motion: no-preference) {
         .topic-card > summary::after {
-          transition: color 140ms ease, opacity 140ms ease;
+          transition:
+            background-size 180ms cubic-bezier(.2, .8, .2, 1),
+            color 140ms ease,
+            opacity 140ms ease,
+            transform 180ms cubic-bezier(.2, .8, .2, 1);
         }
         .topic-card[open] > .topic-content {
           animation: topic-content-reveal 180ms cubic-bezier(.2, .7, .2, 1) both;
@@ -477,14 +489,18 @@
         .kicker { font-size: 38px; }
         .kicker time { margin-bottom: 13px; }
         .report h2 { margin-top: 48px; font-size: 24px; }
-        .topic-card > summary { min-height: 58px; gap: 9px; padding: 10px 12px; }
-        .topic-rank { width: 24px; height: 24px; flex-basis: 24px; }
+        .topic-card {
+          --topic-gap: 9px;
+          --topic-inline: 12px;
+          --topic-rank-size: 24px;
+        }
+        .topic-card > summary { min-height: 58px; padding-top: 10px; padding-bottom: 10px; }
         .topic-title { font-size: 17px; line-height: 1.45; }
         .topic-card > p,
         .topic-card > ul,
         .topic-card > ol,
         .topic-card > .analysis-evidence { margin-left: 0; margin-right: 0; }
-        .topic-content { margin: 0 14px 18px 42px; padding-left: 16px; }
+        .topic-content { margin-right: 14px; margin-bottom: 18px; }
         .topic-article { padding: 15px 0 3px; }
         .topic-source { padding-bottom: 10px; }
       }
