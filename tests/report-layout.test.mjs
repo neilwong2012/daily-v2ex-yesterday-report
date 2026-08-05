@@ -44,6 +44,10 @@ test('report home keeps the page content-first', async () => {
   assert.match(layout, /\.topic-content::before/);
   assert.match(layout, /\.topic-card > summary:hover::after/);
   assert.match(layout, /\.topic-card\[open\] > summary::after/);
+  assert.match(layout, /content: "\+"/);
+  assert.match(layout, /content: "−"/);
+  assert.doesNotMatch(layout, /border-right: 2px solid var\(--accent\)/);
+  assert.doesNotMatch(layout, /border-bottom: 2px solid var\(--accent\)/);
   assert.match(layout, /--bg: #ffffff/);
   assert.match(layout, /--soft: #f7f7f7/);
   assert.match(layout, /--line: #e0e0e0/);
@@ -51,7 +55,10 @@ test('report home keeps the page content-first', async () => {
   assert.match(layout, /--accent: #e53935/);
   assert.match(layout, /--radius: \.55rem/);
   assert.match(layout, /--font-mono:/);
-  assert.match(layout, /\.topic-card\s*\{[^}]*border: var\(--hairline\) solid var\(--line\)[^}]*border-radius: var\(--radius\)[^}]*background: var\(--surface\)/s);
+  assert.match(layout, /\.topic-card\s*\{[^}]*background: var\(--surface\)/s);
+  assert.doesNotMatch(layout, /\.topic-card\s*\{[^}]*border:/s);
+  assert.doesNotMatch(layout, /\.report-header\s*\{[^}]*border:/s);
+  assert.doesNotMatch(layout, /\.date-sidebar\s*\{[^}]*border:/s);
   assert.doesNotMatch(layout, /box-shadow:/);
   assert.match(layout, /\.topic-article ul li::before/);
   assert.match(layout, /\.mobile-date-jump select\s*\{[^}]*min-height: 44px/s);
@@ -102,9 +109,11 @@ test('site icon uses a left-pointing white mark on hotspot red', async () => {
   assert.doesNotMatch(icon, /#2563eb/);
 });
 
-test('site footer credits the developer without an official-site disclaimer', async () => {
+test('site footer links the repository and carries a concise unofficial notice', async () => {
   const layout = await fs.readFile(new URL('../docs/_layouts/report-home.html', import.meta.url), 'utf8');
-  assert.match(layout, /Developed by/);
   assert.match(layout, /href="https:\/\/github\.com\/neilwong2012\/v2ex\.top"/);
-  assert.doesNotMatch(layout, /并非 V2EX 官方网站/);
+  assert.match(layout, />GitHub · v2ex\.top<\/a>/);
+  assert.match(layout, /<p>非官方 · 热点回顾仅供参考<\/p>/);
+  assert.match(layout, /\.site-footer-inner\s*\{[^}]*display: flex[^}]*justify-content: space-between/s);
+  assert.doesNotMatch(layout, /\.site-footer\s*\{[^}]*border:/s);
 });

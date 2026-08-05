@@ -107,10 +107,7 @@
       .content-column { min-width: 0; }
       .report-header {
         margin-bottom: 12px;
-        padding: 26px 28px 28px;
-        border: var(--hairline) solid var(--line);
-        border-radius: var(--radius);
-        background: var(--surface);
+        padding: 26px 0 28px;
       }
       .kicker {
         margin: 0;
@@ -193,11 +190,8 @@
       .topic-card {
         margin: 0 0 10px;
         overflow: clip;
-        border: var(--hairline) solid var(--line);
-        border-radius: var(--radius);
         background: var(--surface);
       }
-      .topic-card[open] { border-color: var(--accent-line); }
       .topic-card > summary {
         display: flex;
         align-items: center;
@@ -211,37 +205,31 @@
       .topic-card > summary:hover { background: var(--soft); }
       .topic-card > summary:hover .topic-title { color: var(--accent-strong); }
       .topic-card[open] > summary {
-        border-bottom: var(--hairline) solid var(--line);
         background: var(--soft);
       }
       .topic-card > summary::after {
-        width: 9px;
-        height: 9px;
-        flex: 0 0 auto;
+        width: 18px;
+        flex: 0 0 18px;
         align-self: center;
-        margin: 0 3px 0 auto;
-        border-right: 2px solid var(--accent);
-        border-bottom: 2px solid var(--accent);
-        content: "";
-        opacity: .76;
-        transform: translateY(-2px) rotate(45deg);
-        transform-origin: center;
+        margin: 0 0 0 auto;
+        color: var(--accent);
+        content: "+";
+        font: 400 22px/1 var(--font-mono);
+        opacity: .72;
+        text-align: center;
       }
       .topic-card > summary:hover::after,
       .topic-card > summary:focus-visible::after,
       .topic-card[open] > summary::after { opacity: 1; }
       .topic-card[open] > summary::after {
-        transform: translateY(2px) rotate(225deg);
+        content: "−";
       }
       .topic-rank {
         display: grid;
-        width: 32px;
-        height: 32px;
-        flex: 0 0 32px;
+        width: 26px;
+        height: 26px;
+        flex: 0 0 26px;
         place-items: center;
-        border: var(--hairline) solid var(--line);
-        border-radius: var(--radius-xs);
-        background: var(--bg);
         color: var(--muted);
         font: 650 12px/1 var(--font-mono);
         font-variant-numeric: tabular-nums;
@@ -376,7 +364,7 @@
       }
       @media (prefers-reduced-motion: no-preference) {
         .topic-card > summary::after {
-          transition: opacity 140ms ease, transform 220ms cubic-bezier(.2, .7, .2, 1);
+          transition: color 140ms ease, opacity 140ms ease;
         }
         .topic-card[open] > .topic-content {
           animation: topic-content-reveal 180ms cubic-bezier(.2, .7, .2, 1) both;
@@ -402,10 +390,8 @@
         position: sticky;
         top: 80px;
         max-height: calc(100vh - 104px);
-        padding: 14px;
+        padding: 14px 0;
         overflow: auto;
-        border: var(--hairline) solid var(--line);
-        border-radius: var(--radius);
         background: var(--surface);
         scrollbar-width: thin;
       }
@@ -436,15 +422,17 @@
       }
       .mobile-date-jump { display: none; }
       .site-footer {
-        border-top: var(--hairline) solid var(--line);
         color: var(--muted);
         font: 500 11px/1.5 var(--font-mono);
-        text-align: center;
       }
       .site-footer-inner {
         width: min(calc(100% - 40px), var(--shell-width));
         margin: 0 auto;
         padding: 16px 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
       }
       .site-footer p { margin: 0; }
       .site-footer a {
@@ -485,12 +473,12 @@
         .site-header-inner { min-height: 50px; }
         .page-shell { padding: 16px 0 44px; }
         .mobile-date-jump { margin-bottom: 18px; }
-        .report-header { margin-bottom: 10px; padding: 22px 20px 24px; }
+        .report-header { margin-bottom: 10px; padding: 22px 0 24px; }
         .kicker { font-size: 38px; }
         .kicker time { margin-bottom: 13px; }
         .report h2 { margin-top: 48px; font-size: 24px; }
         .topic-card > summary { min-height: 58px; gap: 9px; padding: 10px 12px; }
-        .topic-rank { width: 28px; height: 28px; flex-basis: 28px; }
+        .topic-rank { width: 24px; height: 24px; flex-basis: 24px; }
         .topic-title { font-size: 17px; line-height: 1.45; }
         .topic-card > p,
         .topic-card > ul,
@@ -547,7 +535,8 @@
 
     <footer class="site-footer">
       <div class="site-footer-inner">
-        <p>Developed by <a href="https://github.com/neilwong2012/v2ex.top" target="_blank" rel="noopener noreferrer">neilwong2012</a></p>
+        <a href="https://github.com/neilwong2012/v2ex.top" target="_blank" rel="noopener noreferrer">GitHub · v2ex.top</a>
+        <p>非官方 · 热点回顾仅供参考</p>
       </div>
     </footer>
 
