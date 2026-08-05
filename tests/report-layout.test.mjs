@@ -27,8 +27,7 @@ test('report home keeps the page content-first', async () => {
   assert.match(layout, /\.kicker\s*\{[^}]*color: var\(--ink\)[^}]*font-size: 46px[^}]*font-weight: 450/s);
   assert.doesNotMatch(layout, /kicker-date|kicker-label/);
   assert.match(layout, /\.topic-card > summary/);
-  assert.match(layout, /\.topic-card > summary\s*\{[^}]*display: grid[^}]*grid-template-columns: var\(--topic-rank-size\) minmax\(0, 1fr\) 18px[^}]*align-items: start[^}]*min-height: 62px[^}]*padding: 12px var\(--topic-inline\)/s);
-  assert.doesNotMatch(layout, /\.topic-card > summary\s*\{[^}]*align-items: (?:center|first baseline)/s);
+  assert.match(layout, /\.topic-card > summary\s*\{[^}]*display: flex[^}]*align-items: center[^}]*gap: var\(--topic-gap\)[^}]*min-height: 62px[^}]*padding: 12px var\(--topic-inline\)/s);
   assert.match(layout, /\.topic-title/);
   assert.match(layout, /class="date-sidebar"/);
   assert.match(layout, /<aside class="date-sidebar" aria-label="往期热点">/);
@@ -68,9 +67,12 @@ test('report home keeps the page content-first', async () => {
   assert.doesNotMatch(layout, /\.topic-card\[open\] > summary\s*\{[^}]*background:/s);
   assert.doesNotMatch(layout, /\.topic-card > summary:hover\s*\{[^}]*background:/s);
   assert.doesNotMatch(layout, /box-shadow:/);
-  assert.match(layout, /--topic-inline: 16px/);
+  assert.match(layout, /--topic-inline: 0px/);
   assert.match(layout, /--topic-rank-size: 26px/);
-  assert.match(layout, /margin: 0 18px 20px calc\([\s\S]*var\(--topic-inline\) \+ \(var\(--topic-rank-size\) - var\(--topic-line-width\)\) \/ 2[\s\S]*\)/);
+  assert.match(layout, /\.topic-rank\s*\{[^}]*text-align: left/s);
+  assert.match(layout, /margin: 0 18px 20px var\(--topic-inline\)/);
+  assert.match(layout, /padding: 0 0 0 calc\(var\(--topic-rank-size\) \+ var\(--topic-gap\)\)/);
+  assert.match(layout, /\.topic-content::before\s*\{[^}]*top: 0/s);
   assert.match(layout, /\.topic-article h3\s*\{[^}]*font: 700 18px\/1\.45 var\(--font-sans\)/s);
   assert.match(layout, /\.topic-article ul li::before/);
   assert.match(layout, /\.mobile-date-jump select\s*\{[^}]*min-height: 44px/s);
