@@ -22,7 +22,7 @@ test('report home keeps the page content-first', async () => {
   );
 
   assert.match(layout, /<article class="report">\s*\{\{ content \}\}/);
-  assert.match(layout, /<span>V2EX每日热点回顾<\/span>/);
+  assert.match(layout, /<span>V2EX 每日热点回顾<\/span>/);
   assert.match(layout, /<h1 class="kicker"><time datetime="\{\{ page\.target_date \}\}">\{\{ page\.target_date \| date: "%Y年%m月%d日" \}\}<\/time>热点内容<\/h1>/);
   assert.match(layout, /\.kicker\s*\{[^}]*color: var\(--ink\)[^}]*font-size: 46px[^}]*font-weight: 450/s);
   assert.doesNotMatch(layout, /kicker-date|kicker-label/);
@@ -107,12 +107,15 @@ test('publisher exposes valuable topic count without duplicating report cards', 
 
   assert.match(publisher, /count_valuable:/);
   assert.match(publisher, /function reportUrl\(dateText\)/);
+  assert.match(publisher, /V2EX 每日热点回顾/);
+  assert.doesNotMatch(publisher, /V2EX每日热点回顾/);
   assert.doesNotMatch(publisher, /\/v2ex\/daily-report\//);
   assert.doesNotMatch(publisher, /frontMatterInsights|top_topics:/);
 });
 
 test('report URLs use a date-only permalink', async () => {
   const config = await fs.readFile(new URL('../docs/_config.yml', import.meta.url), 'utf8');
+  assert.match(config, /^title: V2EX 每日热点回顾$/m);
   assert.match(config, /^permalink: \/:year\/:month\/:day\/$/m);
 });
 
@@ -120,6 +123,7 @@ test('site icon uses a left-pointing white mark on hotspot red', async () => {
   const icon = await fs.readFile(new URL('../docs/assets/v2ex-hot-icon.svg', import.meta.url), 'utf8');
   assert.match(icon, /fill="#e53935"/);
   assert.match(icon, /fill="#fff"/);
+  assert.match(icon, /<title id="title">V2EX 每日热点回顾<\/title>/);
   assert.doesNotMatch(icon, /transform="rotate\(/);
   assert.match(icon, /白色朝左箭头/);
   assert.doesNotMatch(icon, /#2563eb/);

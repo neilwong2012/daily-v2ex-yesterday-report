@@ -1,6 +1,6 @@
 ---
 layout: report-post
-title: "V2EX每日热点回顾 · 2026-08-03"
+title: "V2EX 每日热点回顾 · 2026-08-03"
 date: 2026-08-03 08:30:00 +0800
 categories: [v2ex, daily-report]
 status: success
