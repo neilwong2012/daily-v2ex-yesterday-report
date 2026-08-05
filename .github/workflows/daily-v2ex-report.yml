@@ -2,8 +2,8 @@ name: Daily V2EX Yesterday Report
 
 on:
   schedule:
-    # 23:30 UTC = 07:30 Asia/Shanghai. GitHub schedules can be delayed.
-    - cron: "30 23 * * *"
+    # 22:00 UTC = 06:00 Asia/Shanghai. GitHub schedules can be delayed.
+    - cron: "0 22 * * *"
   workflow_dispatch:
     inputs:
       target_date:
