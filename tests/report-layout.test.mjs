@@ -85,9 +85,11 @@ test('report URLs use a date-only permalink', async () => {
   assert.match(config, /^permalink: \/:year\/:month\/:day\/$/m);
 });
 
-test('site icon uses a white mark on hotspot red', async () => {
+test('site icon uses an upward white mark on hotspot red', async () => {
   const icon = await fs.readFile(new URL('../docs/assets/v2ex-hot-icon.svg', import.meta.url), 'utf8');
   assert.match(icon, /fill="#e53935"/);
   assert.match(icon, /fill="#fff"/);
+  assert.match(icon, /transform="rotate\(90 256 256\)"/);
+  assert.match(icon, /白色朝上箭头/);
   assert.doesNotMatch(icon, /#2563eb/);
 });

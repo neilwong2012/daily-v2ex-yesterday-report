@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
   <title id="title">V2EX 每日报告</title>
-  <desc id="desc">热点红圆角方形中的白色朝左箭头</desc>
+  <desc id="desc">热点红圆角方形中的白色朝上箭头</desc>
   <rect width="512" height="512" rx="112" fill="#e53935"/>
-  <path fill="#fff" stroke="#fff" stroke-width="10" stroke-linejoin="round" d="M384 128H203L85 256l118 128h181v-96H213l-42-32 42-32h171Z"/>
+  <path transform="rotate(90 256 256)" fill="#fff" stroke="#fff" stroke-width="10" stroke-linejoin="round" d="M384 128H203L85 256l118 128h181v-96H213l-42-32 42-32h171Z"/>
 </svg>
