@@ -97,6 +97,6 @@ test('site icon uses a left-pointing white mark on hotspot red', async () => {
 test('site footer credits the developer without an official-site disclaimer', async () => {
   const layout = await fs.readFile(new URL('../docs/_layouts/report-home.html', import.meta.url), 'utf8');
   assert.match(layout, /Developed by/);
-  assert.match(layout, /href="https:\/\/github\.com\/neilwong2012\/daily-v2ex-yesterday-report"/);
+  assert.match(layout, /href="https:\/\/github\.com\/neilwong2012\/v2ex\.top"/);
   assert.doesNotMatch(layout, /并非 V2EX 官方网站/);
 });
