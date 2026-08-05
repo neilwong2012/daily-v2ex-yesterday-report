@@ -27,7 +27,8 @@ test('report home keeps the page content-first', async () => {
   assert.match(layout, /\.kicker\s*\{[^}]*color: var\(--ink\)[^}]*font-size: 46px[^}]*font-weight: 450/s);
   assert.doesNotMatch(layout, /kicker-date|kicker-label/);
   assert.match(layout, /\.topic-card > summary/);
-  assert.match(layout, /\.topic-card > summary\s*\{[^}]*display: flex[^}]*align-items: center[^}]*gap: var\(--topic-gap\)[^}]*min-height: 62px[^}]*padding: 12px var\(--topic-inline\)/s);
+  assert.match(layout, /\.topic-card > summary\s*\{[^}]*display: flex[^}]*align-items: center[^}]*gap: var\(--topic-gap\)[^}]*padding: 10px var\(--topic-inline\)/s);
+  assert.doesNotMatch(layout, /\.topic-card > summary\s*\{[^}]*min-height:/s);
   assert.match(layout, /\.topic-title/);
   assert.match(layout, /class="date-sidebar"/);
   assert.match(layout, /<aside class="date-sidebar" aria-label="往期热点">/);
@@ -77,7 +78,6 @@ test('report home keeps the page content-first', async () => {
   assert.match(layout, /\.topic-article ul li::before/);
   assert.match(layout, /\.mobile-date-jump select\s*\{[^}]*min-height: 44px/s);
   assert.match(layout, /\.page-shell\s*\{[^}]*padding: 24px 0 56px/s);
-  assert.match(layout, /\.topic-card > summary\s*\{[^}]*min-height: 58px[^}]*padding-top: 10px[^}]*padding-bottom: 10px/s);
   assert.match(layout, /@keyframes topic-content-reveal/);
   assert.match(layout, /prefers-reduced-motion: no-preference/);
   assert.match(layout, /\.topic-card\[open\] > \.topic-content/);
