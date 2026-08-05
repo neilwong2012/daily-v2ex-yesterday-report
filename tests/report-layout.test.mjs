@@ -27,7 +27,8 @@ test('report home keeps the page content-first', async () => {
   assert.match(layout, /\.kicker\s*\{[^}]*color: var\(--ink\)[^}]*font-size: 46px[^}]*font-weight: 450/s);
   assert.doesNotMatch(layout, /kicker-date|kicker-label/);
   assert.match(layout, /\.topic-card > summary/);
-  assert.match(layout, /\.topic-card > summary\s*\{[^}]*min-height: 62px[^}]*padding: 12px var\(--topic-inline\)/s);
+  assert.match(layout, /\.topic-card > summary\s*\{[^}]*display: grid[^}]*grid-template-columns: var\(--topic-rank-size\) minmax\(0, 1fr\) 18px[^}]*align-items: start[^}]*min-height: 62px[^}]*padding: 12px var\(--topic-inline\)/s);
+  assert.doesNotMatch(layout, /\.topic-card > summary\s*\{[^}]*align-items: (?:center|first baseline)/s);
   assert.match(layout, /\.topic-title/);
   assert.match(layout, /class="date-sidebar"/);
   assert.match(layout, /<aside class="date-sidebar" aria-label="往期热点">/);
@@ -47,6 +48,8 @@ test('report home keeps the page content-first', async () => {
   assert.match(layout, /linear-gradient\(currentColor, currentColor\) center \/ 12px 2px no-repeat/);
   assert.match(layout, /linear-gradient\(currentColor, currentColor\) center \/ 2px 12px no-repeat/);
   assert.match(layout, /background-size: 12px 2px, 2px 0/);
+  assert.match(layout, /\.topic-card > summary::after\s*\{[^}]*opacity: 0/s);
+  assert.match(layout, /\.topic-card:not\(\[open\]\) > summary::after\s*\{ opacity: \.65; \}/);
   assert.match(layout, /background-size 180ms cubic-bezier\(\.2, \.8, \.2, 1\)/);
   assert.match(layout, /transform: rotate\(180deg\)/);
   assert.doesNotMatch(layout, /border-right: 2px solid var\(--accent\)/);
