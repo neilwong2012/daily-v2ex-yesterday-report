@@ -129,9 +129,12 @@ test('site icon uses a left-pointing white mark on hotspot red', async () => {
   assert.doesNotMatch(icon, /#2563eb/);
 });
 
-test('site header carries a subtle unofficial mark without footer content', async () => {
+test('site header aligns the unofficial mark with the sidebar and keeps the footer repository link', async () => {
   const layout = await fs.readFile(new URL('../docs/_layouts/report-home.html', import.meta.url), 'utf8');
   assert.match(layout, /<span class="unofficial-mark">非官方<\/span>/);
-  assert.match(layout, /\.unofficial-mark\s*\{[^}]*margin-left: auto[^}]*color: var\(--faint\)[^}]*font: 500 11px\/1\.4/s);
-  assert.doesNotMatch(layout, /<footer\b|site-footer|GitHub · v2ex\.top|热点回顾仅供参考/);
+  assert.match(layout, /\.site-header-inner\s*\{[^}]*display: grid[^}]*grid-template-columns: minmax\(0, var\(--content-width\)\) 180px[^}]*gap: 48px/s);
+  assert.match(layout, /\.unofficial-mark\s*\{[^}]*justify-self: end[^}]*color: var\(--faint\)[^}]*font: 500 11px\/1\.4/s);
+  assert.match(layout, /href="https:\/\/github\.com\/neilwong2012\/v2ex\.top"/);
+  assert.match(layout, />GitHub · v2ex\.top<\/a>/);
+  assert.doesNotMatch(layout, /热点回顾仅供参考/);
 });

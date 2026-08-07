@@ -78,8 +78,10 @@
       }
       .site-header-inner {
         min-height: 56px;
-        display: flex;
+        display: grid;
+        grid-template-columns: minmax(0, var(--content-width)) 180px;
         align-items: center;
+        gap: 48px;
       }
       .brand {
         display: inline-flex;
@@ -98,7 +100,7 @@
         border-radius: 6px;
       }
       .unofficial-mark {
-        margin-left: auto;
+        justify-self: end;
         color: var(--faint);
         font: 500 11px/1.4 var(--font-sans);
         letter-spacing: .08em;
@@ -447,9 +449,26 @@
         font-weight: 650;
       }
       .mobile-date-jump { display: none; }
+      .site-footer {
+        color: var(--muted);
+        font: 500 11px/1.5 var(--font-mono);
+      }
+      .site-footer-inner {
+        width: min(calc(100% - 40px), var(--shell-width));
+        margin: 0 auto;
+        padding: 16px 0 20px;
+      }
+      .site-footer a {
+        color: inherit;
+        font-weight: 650;
+      }
+      .site-footer a:hover { color: var(--accent); }
       @media (max-width: 980px) {
         .site-header-inner,
-        .page-shell { width: min(calc(100% - 40px), var(--content-width)); }
+        .page-shell,
+        .site-footer-inner { width: min(calc(100% - 40px), var(--content-width)); }
+        .site-header-inner { display: flex; }
+        .unofficial-mark { margin-left: auto; }
         .page-shell { display: block; }
         .date-sidebar { display: none; }
         .mobile-date-jump {
@@ -474,7 +493,8 @@
       }
       @media (max-width: 640px) {
         .site-header-inner,
-        .page-shell { width: min(calc(100% - 32px), var(--content-width)); }
+        .page-shell,
+        .site-footer-inner { width: min(calc(100% - 32px), var(--content-width)); }
         .site-header-inner { min-height: 50px; }
         .unofficial-mark { font-size: 10px; }
         .page-shell { padding: 16px 0 44px; }
@@ -542,6 +562,12 @@
         </nav>
       </aside>
     </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <a href="https://github.com/neilwong2012/v2ex.top" target="_blank" rel="noopener noreferrer">GitHub · v2ex.top</a>
+      </div>
+    </footer>
 
     <script>
       (() => {
