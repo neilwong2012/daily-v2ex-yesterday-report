@@ -35,6 +35,7 @@ test('report home keeps the page content-first', async () => {
   assert.match(layout, /<h2>往期热点<\/h2>/);
   assert.match(layout, /<nav class="date-list" aria-label="日期列表">/);
   assert.match(layout, /id="report-date-select"/);
+  assert.match(layout, /<header class="report-header">\s*<h1 class="kicker">[\s\S]*?<div class="mobile-date-jump">/);
   assert.match(layout, /\.topic-card\.is-read/);
   assert.match(layout, /\.topic-card\.is-read > summary:hover \.topic-title/);
   assert.match(layout, /\.topic-article/);
@@ -77,6 +78,9 @@ test('report home keeps the page content-first', async () => {
   assert.match(layout, /\.topic-article h3\s*\{[^}]*font: 700 18px\/1\.45 var\(--font-sans\)/s);
   assert.match(layout, /\.topic-article ul li::before/);
   assert.match(layout, /\.mobile-date-jump select\s*\{[^}]*min-height: 44px/s);
+  assert.match(layout, /@media \(max-width: 980px\)[\s\S]*?\.report-header\s*\{[^}]*display: grid[^}]*grid-template-columns: minmax\(0, 1fr\) auto[^}]*align-items: end/s);
+  assert.match(layout, /@media \(max-width: 640px\)[\s\S]*?\.report-header\s*\{[^}]*column-gap: 12px[^}]*padding: 14px 0 18px/s);
+  assert.match(layout, /\.mobile-date-jump select \{ width: 136px; \}/);
   assert.match(layout, /\.page-shell\s*\{[^}]*padding: 24px 0 56px/s);
   assert.match(layout, /@keyframes topic-content-reveal/);
   assert.match(layout, /prefers-reduced-motion: no-preference/);

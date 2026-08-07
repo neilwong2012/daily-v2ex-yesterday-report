@@ -471,18 +471,32 @@
         .unofficial-mark { margin-left: auto; }
         .page-shell { display: block; }
         .date-sidebar { display: none; }
+        .report-header {
+          display: grid;
+          grid-template-columns: minmax(0, 1fr) auto;
+          align-items: end;
+          column-gap: 24px;
+        }
+        .kicker {
+          grid-column: 1;
+          grid-row: 1;
+        }
         .mobile-date-jump {
           display: flex;
-          align-items: center;
-          gap: 10px;
-          margin-bottom: 20px;
+          grid-column: 2;
+          grid-row: 1;
+          flex-direction: column;
+          align-items: stretch;
+          gap: 5px;
+          margin: 0;
           color: var(--muted);
           font: 550 12px/1.4 var(--font-mono);
         }
+        .mobile-date-jump label { font-size: 11px; }
         .mobile-date-jump select {
+          width: 152px;
           min-width: 0;
           min-height: 44px;
-          max-width: 190px;
           padding: 9px 30px 9px 10px;
           border: var(--hairline) solid var(--line-strong);
           border-radius: var(--radius-sm);
@@ -490,6 +504,7 @@
           color: var(--ink);
           font: inherit;
         }
+        .blocked-note { grid-column: 1 / -1; }
       }
       @media (max-width: 640px) {
         .site-header-inner,
@@ -497,11 +512,16 @@
         .site-footer-inner { width: min(calc(100% - 32px), var(--content-width)); }
         .site-header-inner { min-height: 50px; }
         .unofficial-mark { font-size: 10px; }
-        .page-shell { padding: 16px 0 44px; }
-        .mobile-date-jump { margin-bottom: 18px; }
-        .report-header { margin-bottom: 10px; padding: 22px 0 24px; }
+        .page-shell { padding: 10px 0 44px; }
+        .report-header {
+          column-gap: 12px;
+          margin-bottom: 6px;
+          padding: 14px 0 18px;
+        }
+        .mobile-date-jump { gap: 4px; }
+        .mobile-date-jump select { width: 136px; }
         .kicker { font-size: 38px; }
-        .kicker time { margin-bottom: 13px; }
+        .kicker time { margin-bottom: 8px; }
         .report h2 { margin-top: 48px; font-size: 24px; }
         .topic-card {
           --topic-gap: 9px;
@@ -516,6 +536,11 @@
         .topic-content { margin-right: 14px; margin-bottom: 18px; }
         .topic-article { padding: 15px 0 3px; }
         .topic-source { gap: 10px; padding-top: 10px; }
+      }
+      @media (max-width: 360px) {
+        .report-header { column-gap: 8px; }
+        .kicker { font-size: 34px; }
+        .mobile-date-jump select { width: 124px; }
       }
     </style>
   </head>
@@ -532,17 +557,16 @@
 
     <main class="page-shell">
       <div class="content-column">
-        <div class="mobile-date-jump">
-          <label for="report-date-select">切换日期</label>
-          <select id="report-date-select" aria-label="选择日期">
-            {% for post in site.posts %}
-              <option value="{{ post.url | relative_url }}"{% if post.target_date == page.target_date %} selected{% endif %}>{{ post.target_date | default: post.date | date: "%Y-%m-%d" }}</option>
-            {% endfor %}
-          </select>
-        </div>
-
         <header class="report-header">
           <h1 class="kicker"><time datetime="{{ page.target_date }}">{{ page.target_date | date: "%Y年%m月%d日" }}</time>热点内容</h1>
+          <div class="mobile-date-jump">
+            <label for="report-date-select">切换日期</label>
+            <select id="report-date-select" aria-label="选择日期">
+              {% for post in site.posts %}
+                <option value="{{ post.url | relative_url }}"{% if post.target_date == page.target_date %} selected{% endif %}>{{ post.target_date | default: post.date | date: "%Y-%m-%d" }}</option>
+              {% endfor %}
+            </select>
+          </div>
           {% if page.status == 'blocked' %}
             <p class="blocked-note">本期报告生成受阻，正文保留诊断信息供排查。</p>
           {% endif %}
