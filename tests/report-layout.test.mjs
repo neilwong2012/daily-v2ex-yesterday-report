@@ -81,7 +81,8 @@ test('report home keeps the page content-first', async () => {
   assert.match(layout, /@media \(max-width: 980px\)[\s\S]*?\.report-header\s*\{[^}]*display: grid[^}]*grid-template-columns: minmax\(0, 1fr\) auto[^}]*align-items: end/s);
   assert.match(layout, /@media \(max-width: 640px\)[\s\S]*?\.report-header\s*\{[^}]*column-gap: 12px[^}]*padding: 14px 0 18px/s);
   assert.match(layout, /\.mobile-date-jump select \{ width: 136px; \}/);
-  assert.match(layout, /\.page-shell\s*\{[^}]*padding: 24px 0 56px/s);
+  assert.match(layout, /\.page-shell\s*\{[^}]*padding: 24px 0 0/s);
+  assert.match(layout, /@media \(max-width: 640px\)[\s\S]*?\.page-shell \{ padding: 10px 0 0; \}/);
   assert.match(layout, /@keyframes topic-content-reveal/);
   assert.match(layout, /prefers-reduced-motion: no-preference/);
   assert.match(layout, /\.topic-card\[open\] > \.topic-content/);
