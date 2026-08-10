@@ -1,27 +1,27 @@
 ---
 layout: report-home
 title: "V2EX 每日热点回顾"
-date: 2026-08-09 08:30:00 +0800
+date: 2026-08-10 08:30:00 +0800
 categories: [v2ex, daily-report]
 status: success
-target_date: 2026-08-09
-generated_at: "2026-08-10 06:41:39"
-summary: "昨日主题 134 个，过滤 50 个，DeepSeek 分析 84 个，保留高价值内容 24 个。"
-count_all: 134
-count_excluded: 50
-count_included: 84
+target_date: 2026-08-10
+generated_at: "2026-08-11 06:51:54"
+summary: "昨日主题 282 个，过滤 116 个，DeepSeek 分析 166 个，保留高价值内容 50 个。"
+count_all: 282
+count_excluded: 116
+count_included: 166
 count_high_signal: 0
-count_valuable: 24
-report_url: "/2026/08/09/"
-data_url: "/data/2026-08-09.json"
+count_valuable: 50
+report_url: "/2026/08/10/"
+data_url: "/data/2026-08-10.json"
 ---
 
-# V2EX 2026-08-09 昨日新帖报告
+# V2EX 2026-08-10 昨日新帖报告
 
-<details class="topic-card" data-topic-id="1233011" markdown="1">
+<details class="topic-card" data-topic-id="1233153" markdown="1">
 <summary>
 <span class="topic-rank">1</span>
-<span class="topic-title">Codex 误删文件事故：WSL 路径与引号转义风险及防护建议</span>
+<span class="topic-title">3D史前动物博物馆：18种动物免费开源，含3D加载优化与AI辅助制作经验</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -29,36 +29,32 @@ data_url: "/data/2026-08-09.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-用户在使用 Codex 时授予 full access 并让其自动执行任务，结果 Codex 通过 WSL 执行 bash 命令时，因引号转义错误导致 `find / -delete` 删除了 C 盘和 D 盘大量文件（约两三百 GB）。事故根源在于 PowerShell 调用原生 exe 时未正确转义内层双引号，导致 `$d` 变量为空，`find` 从根目录遍历并删除。
+作者为女儿制作了一个3D史前动物博物馆，收录18种史前动物，免费开源，无广告。项目初衷是让孩子不怕恐龙，通过去除追逐战斗场景，让动物安静展示。技术上有不少可复用经验：3D模型压缩、按需加载、预取相邻模型、双层缓存、静态首帧、原子切换等，并优化移动端体验。作者还尝试用Blender配合MCP让AI处理骨骼动画，并分享了AI辅助搜索模型的教训：AI摘要不可靠，需人工核对License和质量。
 
 ### 关键要点
-
-- **高危命令**：`find ... -delete` 本身风险极高，应限制或禁止 Agent 直接使用。
-- **WSL 挂载问题**：WSL 默认将固定盘挂载到 `/mnt/c`、`/mnt/d`，`find` 未使用 `-xdev` 时会遍历这些挂载点，扩大删除范围。
-- **转义风险**：PowerShell 拼接 `bash -lc` 时引号转义易出错，建议改用 `wsl.exe --exec bash ...` 或避免跨层调用。
-- **隔离执行**：使用 Codex 的 Windows 原生沙盒（Native Sandbox）或独立虚拟机/容器，避免直接操作宿主机文件。
-- **备份与策略**：开启云备份、使用 Time Machine 等；制定 SOP 如“先移动后删除”或禁止直接删除。
+- 在线体验：https://leon-made-this.work/museum ，GitHub：https://github.com/s010s/prehistoric-animal-museum
+- 技术优化：模型体积压缩、按需加载、预取、缓存、静态首帧、原子切换，并计划将Three.js移出首屏关键路径。
+- AI使用经验：AI能扩大搜索范围，但“什么值得留下”仍需人工判断；License需回到原始页面核对。
+- 部署问题：使用Cloudflare免费方案，无ICP备案，国内访问慢，微信内可能提示。
 
 ### 评论补充
-
-- 有用户建议创建独立 Windows 账户或虚拟机，并提前打快照（如 PVE）。
-- 有用户分享经验：使用 `syncthing` 同步代码，虚拟机炸了可恢复。
-- 有用户指出，即使不开 full access，转义问题也可能难以察觉，因此隔离和备份是必要防线。
-- 有用户提到，Agent 训练数据偏向 Unix 生态，容易优先调用 WSL，需手动指定原生方案。
+- 用户建议增加更多动物，如现代动物或猛兽馆（@dgmgso、@lvsp95）。
+- 有用户建议背景与前景一起旋转以增强效果（@AaronLee01）。
+- 有用户分享类似经历：用AI操作Blender做3D，但效果粗糙，计划尝试现有模型（@WEAlex）。
+- 关于恐龙形象，有评论指出霸王龙可能更像鸡，作者回应化石还原困难（@brant2ai）。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233011" target="_blank" rel="noopener noreferrer">Codex 把我电脑文件都删了</a></span><span class="topic-stats">回复 46 · 收藏 29</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233153" target="_blank" rel="noopener noreferrer">给女儿做了一个 3D 史前动物博物馆，收录 18 种史前动物，免费开源，也分享给 V 友～</a></span><span class="topic-stats">回复 218 · 收藏 207</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233017" markdown="1">
+<details class="topic-card" data-topic-id="1233124" markdown="1">
 <summary>
 <span class="topic-rank">2</span>
-<span class="topic-title">胶囊咖啡与手冲、冻干、挂耳对比及省钱建议</span>
+<span class="topic-title">减肥难度因人而异：体质、食欲与方法的讨论</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -66,33 +62,30 @@ data_url: "/data/2026-08-09.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主从手冲转向胶囊咖啡，主要原因是便捷性，但成本较高。评论中多位用户分享了替代方案和对比经验。
+楼主以自身从145斤减到130斤的经历，认为减肥不难，只需管住嘴迈开腿，并质疑打药（如替尔泊肽）和吸脂的必要性。但评论区普遍反驳，指出减肥难度因人而异，尤其对于易胖体质和食欲旺盛者，控制饮食需要持续对抗强烈的食欲，成本远高于瘦体质者。
 
 ### 关键要点
-- **胶囊咖啡**：方便快捷，但按杯计算成本较高，且部分胶囊品质不佳（焦苦味）。
-- **冻干咖啡**：多位用户推荐，如三顿半，搭配东方树叶和牛奶口感好，便携且便宜。
-- **挂耳咖啡**：香气浓郁，价格便宜，但提神效果可能不如胶囊。
-- **其他选择**：速溶、成品咖啡（如瑞幸、库迪）等，成本更低。
+- 减肥难度与个人体质、饮食习惯和食欲密切相关，不能一概而论。
+- 有用户分享具体方法：不吃零食、每天慢跑20-30分钟、控制高糖水果和碳水摄入。
+- 药物如玛仕度肽可降低食欲，但存在争议，需谨慎对待。
 
 ### 评论补充
-- 有用户指出全自动咖啡机维护麻烦，不适合个人使用。
-- 有用户分享手冲流程仅需不到一分钟，强调可玩性。
-- 部分用户认为胶囊咖啡机水箱难清洗，转而选择其他方式。
-
-综合来看，选择哪种方式取决于对便捷性、成本和口感的权衡。
+- 有用户指出，从小养成的饮食习惯影响减肥难度，改变习惯对很多人来说执行困难。
+- 部分用户认为减肥失败是意志力不足，但更多人强调生理差异和精力限制。
+- 有用户提到爬楼是低成本运动方式。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233017" target="_blank" rel="noopener noreferrer">从手冲党叛变到胶囊党,说说为什么</a></span><span class="topic-stats">回复 68 · 收藏 12</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233124" target="_blank" rel="noopener noreferrer">减肥真的不难啊，为什么要靠打药这种方式呢？</a></span><span class="topic-stats">回复 160 · 收藏 5</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233025" markdown="1">
+<details class="topic-card" data-topic-id="1233123" markdown="1">
 <summary>
 <span class="topic-rank">3</span>
-<span class="topic-title">AI生成代码的Review实践：上下文失忆与对抗式审查</span>
+<span class="topic-title">拖欠工资超3个月如何被迫离职及仲裁维权经验</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -100,32 +93,35 @@ data_url: "/data/2026-08-09.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主分享使用AI生成代码（如Codex）的经验，指出在接手不熟悉的老模块时，AI生成的代码质量急剧下降，出现上下文失忆、风格偏离等问题。通过反思，提出改进方法：明确业务模型、拆分任务、使用对抗式审查等。
+楼主在北京工作多年，公司拖欠3-7月工资，领导口头表示未来可能继续欠薪，建议自行找工作。楼主纠结是否可走被迫离职并获取赔偿。
 
 ### 关键要点
-- **上下文失忆**：长上下文导致AI遗忘AGENTS.md等规范，建议任务完成后开启新上下文，只保留短spec和决策。
-- **代码风格**：AI会模仿现有代码风格，若原代码质量差，AI会学坏。建议人工总结编码偏好，而非依赖AI总结。
-- **技能限制**：过度使用Grill等技能会降低效率，甚至导致AI智商下降，应适度使用。
-- **对抗式审查**：使用不同模型（如Claude Code写、Codex审查）互相审查，或让AI扮演竞争对手模型，提高代码质量。
+- **及时行动**：多数回复强调趁公司还在，尽快仲裁，避免公司跑路导致无法追讨。
+- **被迫离职条件**：拖欠工资超过合理期限可构成被迫离职，但需收集证据（如工资流水、考勤、沟通记录）。
+- **集体维权**：若同事团结，可凑10人左右集体仲裁，流程更快。
+- **其他途径**：举报社保、公积金、税务等问题，可能促使公司协商。
 
 ### 评论补充
-- 有用户建议将Review前移为可执行的验收清单，固定允许修改的文件、不可变接口、必须通过的测试等。
-- 有用户强调人必须真正理解业务，AI只是辅助，不能完全依赖。
-- 有用户分享流程：与AI一起理需求、人机多轮Review、逐步补充rules，AI贡献率可达94%。
-- 有用户指出AI降低了决策间隔但未降低决策成本，需责任转移。
+- 有用户建议咨询AI获取标准流程：收集证据、提交仲裁、找工作。
+- 有用户分享朋友欠薪一年半最终不了了之，强调拖延无益。
+- 有用户提醒注意社保是否全额缴纳，若未缴可举报施压。
+- 有用户指出工程行业欠薪常见，但互联网行业应尽早维权。
+- 有用户建议联合劳动监察举报，或众筹律师走被迫离职仲裁。
+
+**注意**：楼主未录音，需补充证据；公司口头承诺年底好转不可信，应主动维权。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233025" target="_blank" rel="noopener noreferrer">你们都如何 review AI 生成的大量代码，保障功能质量</a></span><span class="topic-stats">回复 25 · 收藏 11</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233123" target="_blank" rel="noopener noreferrer">看了兄弟们的发言，感觉耗着没啥意义了，拖欠工资超过 3 个月了，能不能被迫离职，有类似经验的兄弟们么。。。</a></span><span class="topic-stats">回复 98 · 收藏 21</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233018" markdown="1">
+<details class="topic-card" data-topic-id="1233131" markdown="1">
 <summary>
 <span class="topic-rank">4</span>
-<span class="topic-title">Mac 与 Windows 共用键鼠和显示器的方案汇总</span>
+<span class="topic-title">程序员找965工作的可行路径与经验</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -134,36 +130,37 @@ data_url: "/data/2026-08-09.json"
 
 ### 核心内容
 
-Mac 和 Windows 共用一套键鼠和显示器是可行的，主要有硬件和软件两类方案。硬件方案以 KVM 切换器为主，价格从几十元到数百元不等，但高分辨率下可能不便宜，且部分用户反映体验不如软件方案。软件方案如 Synergy、Barrier、Deskflow 等，通过局域网共享键鼠，支持跨平台，但需要网络稳定。此外，罗技 MX 系列键鼠支持 Flow 功能或设备间切换，部分显示器自带 KVM 功能，也可实现共用。
+楼主4年开发经验，想找965工作。评论中多位程序员分享了实际经验，总结出几条可行路径：
+
+- **选择行业**：传统行业、生物医药、外企、自研产品公司通常加班少，但薪资可能偏低。
+- **明确求职标准**：投简历只投双休，面试时直接询问加班情况，表达不接受加班，但强调需要时能加班。
+- **接受薪资折中**：965工作往往薪资低于同水平996岗位，需权衡。
+- **地域差异**：上海、日本等地965机会更多。
 
 ### 关键要点
 
-- **硬件 KVM**：绿联等品牌有售，但体验参差不齐；显示器自带 KVM 效果较好，如 HKC。
-- **软件方案**：Synergy、Barrier（开源）、Deskflow 等，通过局域网共享，适合多设备。
-- **罗技 Flow**：MX Keys + MX Master 支持跨设备操作，但需软件支持。
-- **远程控制**：UU 远程等工具可在 Mac 上控制 Windows，无需额外键鼠。
-- **三模外设**：支持 2.4G/蓝牙/有线的外设可直接切换设备。
+- 有7年经验者被裁员后坚持不加班，近5年均为965/975双休，薪资范围不高但可接受。
+- 外企岗位一周实际工作不到20小时，薪资30k以上，但需具备竞争力。
+- 小公司+自研项目通常不加班，但需注意公司稳定性。
 
 ### 评论补充
 
-- 有用户使用蓝牙切换多台笔记本，体验良好。
-- 部分用户建议使用两套键盘以区分快捷键，但非必需。
-- 远程桌面全屏后四指滑动切换也很方便。
-
-综合来看，选择方案需考虑预算、分辨率需求和网络环境。软件方案成本低，硬件方案更稳定，显示器自带 KVM 是折中选择。
+- 有评论指出程序员完全不加班几乎不可能，但多数人认为通过筛选可以找到965工作。
+- 部分人选择低薪但轻松的工作，认为健康更重要。
+- 建议面试时表明态度，并展示优秀绩效（如优秀员工）以增加议价能力。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233018" target="_blank" rel="noopener noreferrer">Mac 和 Windows 可以共用一套键鼠吗</a></span><span class="topic-stats">回复 34 · 收藏 8</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233131" target="_blank" rel="noopener noreferrer">程序员怎么才能找到 965 的工作</a></span><span class="topic-stats">回复 108 · 收藏 16</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233062" markdown="1">
+<details class="topic-card" data-topic-id="1233142" markdown="1">
 <summary>
 <span class="topic-rank">5</span>
-<span class="topic-title">日本IT职场路径：从派遣到日企的实战经验</span>
+<span class="topic-title">带父母游北京：跟团渠道与自由行建议</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -171,32 +168,30 @@ Mac 和 Windows 共用一套键鼠和显示器是可行的，主要有硬件和�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者分享了从语言学校到中国派遣公司、美国外包、最终进入日企FinTech的完整职业路径，提供了日本IT就业的实用建议。
+带老人游北京，跟团或自由行各有优劣。多数回复建议优先考虑自由行，因为北京旅游设施成熟，主要难点在于景点预约。跟团并不能免除预约流程，天安门等景点仍需自行登记。
 
 ### 关键要点
-- **语言学校非必需**：若资金充足，可直接从国内工程师切换，但需注意入学周期（1/4/7/10月）。
-- **派遣公司利弊**：工作轻松但成长有限，薪资取决于人头价，建议有追求者远离，或作为跳板。
-- **薪资锚点**：首份工作薪资影响后续谈判和信用建立，需合理设定。
-- **求职渠道**：英文工作死磕LinkedIn，日语工作用BizReach。
-- **日企特点**：日本SaaS市场付费意愿高，小而美企业工作节奏好，但需适应文化差异。
+- **预约是核心**：故宫、天安门等需提前预约，非节假日相对容易，建议根据预约时间安排行程。
+- **跟团渠道**：避免抖音等平台宣传的家庭小团，可选择老牌旅行社的定制小团，价格高但体验好。B站UP主“开元心旅行”提供攻略参考。
+- **自由行+日游**：可结合自由行与当地日游（如bikego），保留自由度。
+- **季节与天气**：夏季炎热拥挤，且北京有红色预警时景区关闭，建议淡季出行。
+- **体力考量**：故宫、长城等景点费腿，老人可适当坐车或缩短行程。
 
 ### 评论补充
-- 日本生活成本高但work-life balance好，假期多，无35岁危机，适合追求生活品质者。
-- 多语言切换会带来人格变化，是真实体验。
-- 作者承认物质水平下降，但认为生活状态更佳。
+有用户指出从中山公园进天安门的方法已过时，需注意信息时效性。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233062" target="_blank" rel="noopener noreferrer">🇯🇵日本职场三步跳--从派遣到日企</a></span><span class="topic-stats">回复 9 · 收藏 10</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233142" target="_blank" rel="noopener noreferrer">想带爸妈去一趟北京，有没有靠谱无套路的跟团渠道</a></span><span class="topic-stats">回复 57 · 收藏 31</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233003" markdown="1">
+<details class="topic-card" data-topic-id="1233146" markdown="1">
 <summary>
 <span class="topic-rank">6</span>
-<span class="topic-title">Claude Code 日耗 68 元：费用对比与省钱方案</span>
+<span class="topic-title">程序员AI订阅月花费调查：从白嫖到200美元</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -204,33 +199,31 @@ Mac 和 Windows 共用一套键鼠和显示器是可行的，主要有硬件和�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-有用户反映 Claude Code 一天花费 68 元，担心成本过高。评论普遍认为，若使用官方 API，这个费用属于正常甚至偏低水平；重度使用一天可达 100 美元以上。相比之下，订阅制（如 Claude Pro）或使用折扣模型更划算。
+该主题调查程序员在AI工具上的月度花费，回复显示费用差异巨大：从0元（白嫖）到每月200美元以上。多数程序员通过订阅ChatGPT、Claude、Cursor等工具，或使用中转站、国产模型（如DeepSeek、Kimi）来控制成本。
 
 ### 关键要点
-
-- **费用对比**：官方 API 按 token 计费，价格昂贵；订阅制通常更便宜，例如 200 美元订阅可跑约 10000 美元 API 的量。
-- **省钱方案**：使用 OpenRouter 上的 GLM-5.2（当前 1 折）或组合 SuperGrok（30 美元/月）+ OpenCode（10 美元/月）等，适合月预算 300-500 元的中等编程强度。
-- **使用技巧**：主会话避免频繁切换模型，否则 KV 缓存失效导致重新计费；Claude Code 对第三方模型默认 256K 上下文，可加 `[1m]` 扩展。
+- **花费范围**：从0元到200美元/月不等，多数在100-300元人民币区间。
+- **主流工具**：ChatGPT（20-200美元/月）、Claude（20-200美元/月）、Cursor（20美元/月）、DeepSeek、Kimi等。
+- **省钱策略**：使用中转站、国产模型、按量付费（如OpenCode Go），或多人共享订阅。
+- **报销情况**：部分公司报销AI费用，个人自费比例较高。
 
 ### 评论补充
-
-- 有用户分享每日用量截图，但未提供具体数据。
-- 部分用户认为模型质量与价格成正比，但 Sonnet 5 和 Opus 5 存在啰嗦、爱跑测试等问题。
-- 注意：OpenRouter 折扣波动大，使用前需确认。
+- 有用户表示“大部分程序员在AI上都是白嫖，反倒是业外人员付费意愿强烈”，反映行业现状。
+- 有用户分享从1月至今花费830多元，6月后每月200-300元，显示费用随使用增加。
+- 非程序员（如视频从业者）订阅Claude Max每月近900元，说明AI工具在跨行业渗透。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233003" target="_blank" rel="noopener noreferrer">Claude Code 一天花了 68 块，正常吗？</a></span><span class="topic-stats">回复 26 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233146" target="_blank" rel="noopener noreferrer">普通程序员用在 AI 方面的费用大概有多少了</a></span><span class="topic-stats">回复 103 · 收藏 8</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233036" markdown="1">
+<details class="topic-card" data-topic-id="1233149" markdown="1">
 <summary>
 <span class="topic-rank">7</span>
-<span class="topic-title">浏览器运行魔兽争霸3：d3d9-webgpu转译实现</span>
+<span class="topic-title">用 Codex 和 Godot 开发小游戏并上架 TapTap 的经验</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -238,32 +231,32 @@ Mac 和 Windows 共用一套键鼠和显示器是可行的，主要有硬件和�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者基于 GitHub v86 项目，实现了在浏览器中运行魔兽争霸 3（Dota1 6.83d）的纯 JavaScript 虚拟机。通过 AI 辅助完成了 d3d9 到 webgpu 的转译，解决了之前 opengl-webgl 转译效率低的问题。游戏运行效果尚可，但动态磁盘从 Cloudflare bucket 加载时会有卡顿。
+作者使用 Codex 和 Godot 引擎开发了一款小游戏，并成功上架 TapTap 创意工坊，登上新品榜。这展示了 AI 辅助游戏开发的可行性，以及个人开发者快速上架小游戏平台的路径。
 
 ### 关键要点
-- 技术方案：基于 v86 的本地 JavaScript 虚拟机，无需后端。
-- 性能优化：d3d9-webgpu 转译，支持 3D 游戏。
-- 可玩性：自带 Dota 地图，极品飞车 9 也能运行。
-- 部署：可自建，参考 GitHub v86 项目。
+- **技术栈**：使用 Godot 引擎，配合 Codex 进行代码生成和美术资源制作。
+- **开发效率**：作者表示晚上睡觉前挂个目标，早上起来游戏已可玩，仅需调整数值和 UI 即可上架。
+- **上架平台**：TapTap 创意工坊是类似微信小程序的平台，个人开发者可以上架，流程方便。
+- **成本**：作者提到消耗约一个 5X 周用量，具体额度未明。
 
 ### 评论补充
-- 操作延迟不明显，但磁盘加载导致卡顿。
-- 支持多开标签页，但需手动获取 IP（ipconfig /release /renew）。
-- 虚拟磁盘大小可调，可容纳更多游戏。
-- 有用户希望支持 Dota2，但未实现。
+- 有用户反馈 Codex 拒绝生成图片，但作者表示其 Codex 可以生成美术资源，可能因账号或设置差异。
+- 另一位用户分享用 Godot 和 Codex 开发三国自走棋游戏，认为无游戏开发经验也能实现想法。
+- 关于后续计划，作者表示会同时尝试测试+广告模式，但不会走版号流程，因为耗时太长。
+- 有评论提到上架难度不高，但具体审核要求未详细说明。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233036" target="_blank" rel="noopener noreferrer">Dota1 6.83d 网页版</a></span><span class="topic-stats">回复 14 · 收藏 5</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233149" target="_blank" rel="noopener noreferrer">我用 Codex 搓了个小游戏，结果上了 taptap 新品榜</a></span><span class="topic-stats">回复 41 · 收藏 23</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233040" markdown="1">
+<details class="topic-card" data-topic-id="1233282" markdown="1">
 <summary>
 <span class="topic-rank">8</span>
-<span class="topic-title">eSIM 推荐：全球流量、保号与接码方案汇总</span>
+<span class="topic-title">喝水都胖是否存在：个人经验与热量摄入之争</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -271,30 +264,30 @@ Mac 和 Windows 共用一套键鼠和显示器是可行的，主要有硬件和�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-本文推荐了多款 eSIM 方案，涵盖保号、流量和接码需求，强调性价比和易用性。作者建议使用实体 eSIM 卡片（如 eSTK Plus，约 130 元）配合读卡器（30 元）管理多个 Profile。
+楼主以个人经历探讨“喝水都胖”是否存在，认为存在易胖体质，并列举了睡眠、压力、肌肉量等因素对体重的影响。评论中主要分歧在于：一方认为热量摄入是唯一决定因素，另一方则强调个体代谢差异。
 
 ### 关键要点
-- **保号方案**：英国 VOXI 首月 10 镑免费码，保号 180 天，之后充值 5 镑可无限续杯；香港 ClubSIM 首年 58 港币，次年 15 港币/年；爱沙尼亚乌龟电信约 30 元永久保号。
-- **流量方案**：BananaSIM 365 天 10GB 全球流量 78 港币，IP 为香港家宽，适合旅游和回国当梯子；LuckySIM 性价比更高，新增 2 年 17 国 24GB 套餐 150 港币。
-- **组合建议**：一张 eSTK 卡写入全球流量 eSIM 和香港 eSIM，即可实现全球通讯接码自由。
+- 楼主注射替尔泊肽6个月减重20斤，停针一个月反弹5斤，认为睡眠不足、压力大、肌肉量减少会导致体重增加。
+- 评论指出中式餐饮热量易超标，建议用精确计量的食物（如麦当劳双吉）做实验验证热量摄入。
+- 有评论认为基础代谢受基因影响，易胖体质存在，但减肥应关注自身。
 
 ### 评论补充
-- 有用户反馈 BananaSIM 在大陆可用且便宜。
-- 评论推荐荷兰 simyo eSIM，首购 5 欧元，每 180 天发短信保号，成本更低。
-- 部分用户关注长期号码用于注册社交媒体，但原帖未提供具体方案。
+- 有用户分享每天跑步6km、控制饮食，一天减重1kg，但被提醒可能纯饿导致。
+- 楼主称与妻子吃同样食物，自己却增重，但对方认为无法定量比较。
+- 关于体重秤读数变化，评论指出可能是秤的误差或姿势不同。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233040" target="_blank" rel="noopener noreferrer">第二版：推荐几个 eSIM，全球流量·便宜保号·接码</a></span><span class="topic-stats">回复 4 · 收藏 6</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233282" target="_blank" rel="noopener noreferrer">探讨一下 [喝水都胖] 到底存不存在</a></span><span class="topic-stats">回复 112 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233029" markdown="1">
+<details class="topic-card" data-topic-id="1233166" markdown="1">
 <summary>
 <span class="topic-rank">9</span>
-<span class="topic-title">AI代问服务兴起：需求本质与商业模式分析</span>
+<span class="topic-title">第一次开高速经验：保持车距、善用导航、智驾辅助</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -302,33 +295,30 @@ Mac 和 Windows 共用一套键鼠和显示器是可行的，主要有硬件和�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-V2EX 用户发现小红书、闲鱼上出现付费 AI 代问服务，引发对需求本质的讨论。多数观点认为这是真实需求，源于部分用户不会清晰提问、不愿订阅高级模型或缺乏访问渠道。
+多数司机认为高速比市区好开，但需注意安全细节。新手建议走中间车道，控制车速，多观察后视镜。
 
 ### 关键要点
-
-- **需求本质**：很多人难以准确表达问题，代问可帮助梳理需求；也有观点认为代问是“甩锅”工具，避免因提问不当导致答案不符。
-- **商业模式**：有用户建议直接提供 API 网页服务，按时间收费（如 1 元 5 分钟、5 元 30 分钟），省去人工代问环节。
-- **市场看法**：部分用户认为代问是“古法中转站”，价格低（1-2 元/次），但利润可观；也有观点认为小红书代问是伪需求，真正需求在于访问渠道。
+- **保持车距**：不仅看前车，还要观察更前方的车辆，遇堵车提前减速，防止追尾。
+- **善用导航**：导航提示限速和路况，遇拥堵提前变道至右侧车道。
+- **智驾辅助**：可用辅助驾驶减轻疲劳，但需保持专注，避免占用最左侧车道。
+- **错过出口**：将错就错，继续前行，不要急刹或变道。
+- **注意刹车**：前方刹车灯亮起时及时减速，弯道可打双闪提醒后车。
 
 ### 评论补充
-
-- 有用户指出代问与网盘代下类似，是服务外包的延伸。
-- 部分评论强调提示词工程是专业能力，代问服务有其价值。
-- 争议点：代问是否只是“梯子”问题，还是真正需要人工辅助。
+有用户分享高速堵车经历，强调匝道口跟车风险；也有建议新手第一次可先走国道适应。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233029" target="_blank" rel="noopener noreferrer">AI 代问？还有这玩意？</a></span><span class="topic-stats">回复 22 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233166" target="_blank" rel="noopener noreferrer">大家第一次开高速什么感觉？最近准备出去自驾一下</a></span><span class="topic-stats">回复 98 · 收藏 6</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233009" markdown="1">
+<details class="topic-card" data-topic-id="1233104" markdown="1">
 <summary>
 <span class="topic-rank">10</span>
-<span class="topic-title">关闭Win11窗口圆角：无需管理员权限的API方案</span>
+<span class="topic-title">中转站注入窃取SSH与API密钥脚本，警惕full access风险</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -336,31 +326,34 @@ V2EX 用户发现小红书、闲鱼上出现付费 AI 代问服务，引发对�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者分享了一个用 Windows API 实现关闭 Win11 窗口圆角的工具，无需修改系统文件或管理员权限，通过注册事件钩子动态禁用圆角。代码仅 41 行，托管在 GitHub。
+
+有用户在使用 AI 中转站 vsllm 时，发现其 full access 模式下被注入恶意脚本，该脚本会窃取 SSH 密钥、API 密钥、云凭证等敏感信息，并上传至钓鱼域名。此事件再次警示：中转站存在严重安全风险，尤其不能开启 full access 或无人值守。
 
 ### 关键要点
-- 原理：使用事件钩子监听窗口创建，调用 `DWMWCP_DONOTROUND` 禁用圆角。
-- 优势：不注入进程、不修改系统文件，避免影响 Windows 更新和 DWM 稳定性。
-- 对比：已有方案（如 Win11DisableRoundedCorners）需管理员权限且修改系统文件，可能导致更新失败或蓝屏。
-- 使用：提供 C++ 源码，另有 Python 版本（按 Esc 退出并还原）。
+
+- 恶意脚本会收集 `~/.ssh/`、`~/.aws/credentials`、`~/.kube/config`、`.env` 文件、Codex 配置等敏感数据。
+- 脚本通过 `curl` 将数据发送至 `https://proxy.jxtech.store/canary`，该域名还关联钓鱼页面 `/verify`。
+- 该站此前已公告过类似注入事件，但问题依旧存在。
+- 评论指出中转站攻击方式多样，可参考 GitHub 项目 `jqknono/how-to-hack-as-model-router`。
 
 ### 评论补充
-- 有用户指出钩子可能消耗资源，作者回应称只监听少量事件，测试无性能问题。
-- 评论中提供了 Python 移植版，但作者指出 AI 生成的代码存在多处错误（如事件常量、参数值错误），经修正后可用。
-- 有用户询问是否支持 gcc 编译，作者未直接回复，但项目为单文件 C++，理论上可用 gcc 编译。
+
+- 多数评论认为中转站“便宜”背后是隐私风险，建议避免使用。
+- 有评论提到 npm 包也曾被植入恶意代码，需警惕供应链攻击。
+- 建议使用官方 API 或国产模型，成本已降低。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233009" target="_blank" rel="noopener noreferrer">关闭 Windows 11 窗口圆角边框（无需修改系统文件/管理员权限）</a></span><span class="topic-stats">回复 9 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233104" target="_blank" rel="noopener noreferrer">家里进鬼了，用 codex 中转站发现被注入一段窃取 ssh、apikey 的脚本！</a></span><span class="topic-stats">回复 36 · 收藏 21</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233013" markdown="1">
+<details class="topic-card" data-topic-id="1233286" markdown="1">
 <summary>
 <span class="topic-rank">11</span>
-<span class="topic-title">TcpTun：解决多设备共享代理与高丢包网络问题的自定义协议</span>
+<span class="topic-title">油车新能源残值大跳水，车主多选择开到报废</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -368,30 +361,30 @@ V2EX 用户发现小红书、闲鱼上出现付费 AI 代问服务，引发对�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者为解决出差时多台电脑共享手机热点代理频繁断链的问题，开发了自定义代理工具 TcpTun。通过 mux 和 socks5/mixed 分享解决了多设备共享问题；借助 AI 实现了 REALITY QUIC，并探索了可恢复逻辑连接（Resumable Logical Stream），支持底层 tcp/quic 切换不断流。针对高丢包环境，研究了 FEC 前向纠错、选择性重传、自适应冗余、分片重组、多路径备用 carrier 及 QUIC 拥塞控制等技术。
+近期汽车贬值严重，多位车主分享实际残值：17年速腾落地15万，24年卖4.1万；20年27万落地的车现估7万；17年荣威落地17万现仅2万；13年福克斯落地15万现约8千；24年领克08落地20万现估12万。新能源车贬值更快，买一年半跌近三分之一。
 
 ### 关键要点
-- 多设备共享代理断链的根源可能是运营商连接数限制，而非单纯热点问题。
-- 自定义协议可降低被封 IP 的风险，但城域网可能对未知协议直接 drop。
-- 正确配置的 vless + reality 同样稳定，自定义协议并非唯一选择。
+- 多数车主选择继续开，认为卖车不划算，如12年卡罗拉、14年马自达CX-5等计划开到报废。
+- 有车主指出10年后橡胶件老化，车基本不值钱，但维护得当仍可正常使用。
+- 部分车主因经济形势推迟换车，如18年现代领动车主决定用15年并更换车膜脚垫。
 
 ### 评论补充
-- 有用户认为 5G 随身 Wi-Fi 是更简单方案，但作者指出易丢失且问题本质是连接数限制。
-- 关于自定义协议安全性存在分歧：有人认为目标小更安全，有人指出未知协议可能被重点关照。
-- 作者表示自定义协议长期稳定，未被封过 IP。
+- 有车主认为换电车未必省钱，若油费保险不高，盲目换车是消费主义。
+- 日系车如马自达在二手市场相对保值，但整体残值仍低。
+- 有新手求购二手特斯拉或练手车，反映市场存在低价需求。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233013" target="_blank" rel="noopener noreferrer">我为什么要写一个自己的代理： TcpTun</a></span><span class="topic-stats">回复 15 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233286" target="_blank" rel="noopener noreferrer">你们的车还能卖多少钱？</a></span><span class="topic-stats">回复 88 · 收藏 7</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233053" markdown="1">
+<details class="topic-card" data-topic-id="1233103" markdown="1">
 <summary>
 <span class="topic-rank">12</span>
-<span class="topic-title">网页版AI对话记录导出方法汇总</span>
+<span class="topic-title">夫妻相处书籍推荐：亲密关系、非暴力沟通等</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -399,30 +392,35 @@ V2EX 用户发现小红书、闲鱼上出现付费 AI 代问服务，引发对�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-用户询问如何导出网页版 AI（如 DeepSeek、Gemini）的对话记录，以便在上下文爆满后继续使用。评论提供了多种方法，包括官方导出功能、第三方工具和替代思路。
+楼主因夫妻争吵频繁、情绪失控而寻求心理学书籍或课程推荐。评论中多位用户推荐了具体书籍，并指出仅靠读书可能不够，需要双方共同努力或寻求专业帮助。
 
 ### 关键要点
-- **官方导出**：DeepSeek 在设置→数据管理→历史对话导出；Gemini 在谷歌账号管理→导出我的活动记录，选择 Gemini 对话记录。
-- **第三方工具**：有用户推荐 GitHub 项目 ophel（https://github.com/urzeye/ophel/blob/main/README_zh-CN.md）和 saveai.net（https://saveai.net/），但需注意插件可能无法导出文件文档。
-- **替代思路**：让 AI 总结旧对话内容后复制到新对话；或使用 API 客户端（如付费 API）来管理上下文。
+- **推荐书籍**：
+  - 《亲密关系》（罗兰·米勒）被多次提及，被认为是经典之作。
+  - 《非暴力沟通》（马歇尔·卢森堡）适合冷静时共同阅读，帮助理解情绪。
+  - 《幸福的婚姻》（约翰·戈特曼）提供具体方法，如心跳过百时暂停沟通。
+  - 《男人来自火星，女人来自金星》和《进化心理学》也被提及，但评价不一。
+- **实用建议**：
+  - 情绪激动时先暂停，如“给我二十分钟”冷静，避免冲突升级。
+  - 有评论认为婚姻幸福取决于双方能力，而非态度，需长期修炼。
 
 ### 评论补充
-- 有用户指出导出后重新喂给新对话会再次占满上下文，建议导出用于备份或交给付费 AI 分析。
-- 分享链接无法直接获取内容，需注意。
-- 付费 API 是最有效但需成本的方法。
+- 部分评论认为读书效果有限，不如实践或寻求心理咨询。
+- 有观点强调“筛选而非改造”，婚前选择更重要。
+- 也有评论指出性别差异，但存在争议。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233053" target="_blank" rel="noopener noreferrer">使用网页版本的 AI，有办法导出对话记录吗？</a></span><span class="topic-stats">回复 17 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233103" target="_blank" rel="noopener noreferrer">有没有关于夫妻该如何相处的好的一些课程或者书籍推荐</a></span><span class="topic-stats">回复 29 · 收藏 13</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233043" markdown="1">
+<details class="topic-card" data-topic-id="1233121" markdown="1">
 <summary>
 <span class="topic-rank">13</span>
-<span class="topic-title">ChatGPT 手机验证：法国 eSIM 与长效接码方案对比</span>
+<span class="topic-title">识别AI生成文本的实用技巧与特征</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -430,32 +428,34 @@ V2EX 用户发现小红书、闲鱼上出现付费 AI 代问服务，引发对�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-用户为通过 ChatGPT 手机验证，花费 100 元购买法国 eSIM，但该号码仅一个月有效期，且需实名登记，后续验证需换号。评论指出此方案性价比低，并提供了多种替代方案。
+
+主题讨论如何识别AI生成的文本，以及为何对AI回复感到不耐烦。评论提供了多种识别方法和特征，具有实用价值。
 
 ### 关键要点
-- **法国 eSIM**：100 元，一个月有效期，需实名，适合短期验证。
-- **长效接码**：如 hero-sms、特定商家提供非一次性号码，价格更低。
-- **美国 Tello eSIM**：100 元可用 3 个月，免实名。
-- **无忧行 App**：美国号码 68 元可用 6 个月。
-- **Skinny 卡**：100 元长期使用，无月租，注册时可能无需手机验证。
+
+- **语言特征**：AI文本常使用特定句式，如“不是…而是…”、“一句话总结”、“拆解”、“底层逻辑”等，且标点符号使用规范，几乎无语法错误。
+- **结构特征**：AI文章标题工整、篇幅长、内容四平八稳，结尾常有总结提升；重点分布均匀，细节过多。
+- **检测工具**：腾讯AI检测网站（https://matrix.tencent.com/ai-detect/）可辅助判断，但需结合人工识别。
+- **经验方法**：多与AI对话培养直觉，熟悉不同AI的口癖；注意视频文案和背景音也常为AI生成。
 
 ### 评论补充
-- 有用户建议使用接码平台，成本不到一罐可乐。
-- 部分用户注册时使用美国家宽 IP，未触发手机验证。
-- 注意：豆包等 AI 可能无法提供合规的海外验证方法，需自行验证。
+
+- 有用户指出，AI文本缺乏人类写作的随意性和错误，如省略、口语化表达。
+- 部分评论认为，AI生成内容虽可能更有价值，但阅读体验差，容易让人出戏。
+- 有观点认为，现阶段90%的超过100字的网络文字可能经过AI处理，识别需结合上下文。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233043" target="_blank" rel="noopener noreferrer">为了通过 ChatGPT 的手机验证，花 100 大洋买了一张法国 eSIM</a></span><span class="topic-stats">回复 19 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233121" target="_blank" rel="noopener noreferrer">你们是怎么一眼看出对方发的是 AI 写的？</a></span><span class="topic-stats">回复 44 · 收藏 4</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1232974" markdown="1">
+<details class="topic-card" data-topic-id="1233300" markdown="1">
 <summary>
 <span class="topic-rank">14</span>
-<span class="topic-title">mira sim 隐私协议质疑：疑似中转站且模型注水</span>
+<span class="topic-title">非技术同事用 Codex 写项目，运维如何低成本部署与更新</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -463,30 +463,31 @@ V2EX 用户发现小红书、闲鱼上出现付费 AI 代问服务，引发对�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-主题质疑 mira sim 的隐私协议，作者称在主贴下提出质疑被删评论，怀疑其数据贩卖。评论进一步揭露该服务疑似 AI 中转站，存在模型注水、数据泄露风险。
+楼主作为运维，需要部署非技术同事用 Codex 生成的内部项目，面临更新频繁、黑盒、沟通成本高的问题。评论提供了多种解决方案，核心思路是：**让同事自己负责部署，或通过标准化流程降低运维负担**。
 
 ### 关键要点
-- **疑似中转站**：评论指出 mira sim 是国人开的中转站，前期打着福利旗号，后期可能收费并筛选用户。
-- **模型注水**：有用户打假称其提供的模型为注水模型，实际能力存疑。
-- **数据泄露风险**：用户测试发现，将本地 Claude API 设置为中转站的 Grok 后，中转站能看到使用记录，时间完全吻合，证实数据经过中转。
-- **操作建议**：谨慎使用此类免费服务，避免将敏感 API 密钥或数据暴露给不可信的中转站。
+- **标准化部署模板**：定义统一的 Docker Compose 规范（如 env、port、volume），写成 Skill 让同事的 AI 遵循，不达标则拒绝（@FrankAdler）。
+- **隔离环境**：为每个项目开独立 Docker 容器或服务器，让同事自行 SSH 更新，避免影响主环境（@383394544、@fish2050）。
+- **引入 CICD**：使用 Gitea Actions、Jenkins 或云效等，代码推送后自动构建部署，减少手动操作（@OutOfMemery、@kekxv、@goodryb）。
+- **平台化方案**：若规模大，可搭建内部基建平台，自动分配 namespace、资源限制和凭证，配合 Skill 实现自助部署（@dummyx）。
 
 ### 评论补充
-- 有用户指出该工具可代理本地 Codex/Claude，但设置中可改为走其中转，或配置空白给 Codex CC，但使用中遇到 429 错误。
-- 部分用户认为这是“天才”玩法，但风险明显，需自行权衡。
+- 有观点认为 Docker Compose 本身已足够简单，黑盒无需过度管理（@r6cb）。
+- 也有建议直接让 AI 自己部署，或提供控制面板（@riscv、@darkengine）。
+- 关键共识：**流程规范化比技术选型更重要**，即使项目不成熟，也应建立 Git 仓库和 CICD 流程（@lujiaosama）。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1232974" target="_blank" rel="noopener noreferrer">别急着 羊毛了，先看看 mirasim 的隐私协议</a></span><span class="topic-stats">回复 13 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233300" target="_blank" rel="noopener noreferrer">非技术同事用 Codex 写的项目，怎么部署才能不折腾运维？</a></span><span class="topic-stats">回复 40 · 收藏 4</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233027" markdown="1">
+<details class="topic-card" data-topic-id="1233151" markdown="1">
 <summary>
 <span class="topic-rank">15</span>
-<span class="topic-title">小游戏耗电发热：挖矿还是优化问题？</span>
+<span class="topic-title">完全AI编码大项目：边界与测试是关键，但后期维护风险高</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -494,30 +495,31 @@ V2EX 用户发现小红书、闲鱼上出现付费 AI 代问服务，引发对�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-用户反映在 B 站 App 玩解谜小游戏时手机发热、耗电快（70%电量3小时耗尽），怀疑是否在挖矿。多数回复认为挖矿可能性极低，更可能是游戏优化差、内存泄漏或引擎问题。
+关于从0到上线的大项目完全使用AI编码（vibe coding）的可行性，讨论呈现两极观点。支持者认为在微服务抽象和DevOps完善的前提下，AI编码可以安全高效；反对者指出大项目后期调试和修复成本高，且AI产生的bug可能难以人工解决。
 
 ### 关键要点
-- 手机算力挖矿收益低，不足以覆盖成本，且主流币种多为 PoS，PoW 币手机挖矿无利可图。
-- 耗电发热更可能源于代码缺陷（如死循环、内存泄漏）、引擎效率低或高频全屏重绘。
-- 类似问题在微信、淘宝等小程序中普遍存在，不仅限于 B 站。
+- **边界与测试**：做好边界和测试，AI编码与手动开发差异不大，有开发者表示已一年未手写代码。
+- **项目规模与周期**：大项目（20+开发人员，开发2年以上）从0到上线通常需一年以上，而vibe coding流行不足一年，因此完全AI开发的大项目尚少。
+- **风险与责任**：AI生成的bug后期可能无人能修，且上线出问题责任归属模糊，有团队因此拒绝纯vibe开发。
+- **实际案例**：有公司管理层要求100% AI Coding（SDD），已运行大半年；字节跳动等大厂已大量使用AI写代码。
 
 ### 评论补充
-- 有用户指出可能被用作 PCDN 节点共享网络，但未证实。
-- 建议检测耗电应用或提供链接供测试，但未给出具体工具。
-- 老手机电池老化也会加剧耗电。
+- 有观点认为AI编码效率高，节省的时间可用于迭代修bug，但反驳称人写的bug人能改，AI的bug后期可能无人能解。
+- 部分开发者认为V站程序员水平未必高于AI模型，质疑“AI bug难修”的说法。
+- 有评论指出“vibe和表演各占一半”，暗示实际应用中存在夸大成分。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233027" target="_blank" rel="noopener noreferrer">某些小游戏是不是在挖矿？</a></span><span class="topic-stats">回复 15 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233151" target="_blank" rel="noopener noreferrer">现在大家的公司有从 0 到上线的大项目完全&quot;vibe coding&quot;的吗？</a></span><span class="topic-stats">回复 43 · 收藏 6</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233021" markdown="1">
+<details class="topic-card" data-topic-id="1233175" markdown="1">
 <summary>
 <span class="topic-rank">16</span>
-<span class="topic-title">iOS 油猴脚本工具对比：Stay 与 Tampermonkey 选择建议</span>
+<span class="topic-title">广东联通IPv6入站异常：端口检测通但5G无法访问</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -525,33 +527,31 @@ V2EX 用户发现小红书、闲鱼上出现付费 AI 代问服务，引发对�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-iOS 上 Safari 对油猴脚本支持不佳，用户反映 Stay 脚本失效、静默更新失败。评论指出可能是 GM API 变化导致非 Tampermonkey 插件挂掉，换用 Tampermonkey 后问题解决。
+广东联通用户反映IPv6公网入站异常：能获取IPv6地址，端口检测工具显示端口开放，但通过移动/联通5G网络无法访问家中服务（如RustDesk、nginx反代、WebDAV）。抓包显示SYN能到达主路由，但SYN-ACK回包被运营商丢弃，导致连接失败。
 
 ### 关键要点
-
-- **Stay 问题**：脚本失效、静默更新失败，且越来越臃肿。
-- **Tampermonkey 优势**：更新频繁（三周前更新），兼容性好，能运行 Stay 挂掉的脚本。
-- **替代方案**：Edge 支持扩展，Gear Browser 和 Orion 浏览器支持油猴，可尝试。
-- **排查建议**：查看 console 是否有 GM_valve 相关报错，可能是 API 变化导致。
+- 现象：IPv4公网被收回后，IPv6所有端口入站失败，但出站正常。
+- 排查：光猫桥接、路由器防火墙已设为低，端口检测工具（如port.tools）显示端口通，但5G网络无法连接。
+- 可能原因：运营商侧NAT或防火墙限制，类似middle NAT或NAT4；光猫默认阻止入站也可能相关。
+- 部分用户反馈深圳联通无此问题，佛山联通4年前可申请公网IPv4，但现在师傅表示无法开通。
 
 ### 评论补充
-
-- 有用户表示换用 Tampermonkey 后体验良好。
-- 部分用户认为 Safari 脚本效果普遍不佳，建议换浏览器。
+- 有用户建议检查光猫IPv6防火墙设置，但楼主表示光猫未改动且桥接。
+- 有用户提到部分IP无法访问IPv6服务，可能是运营商间路由问题。
+- 楼主尝试RouterOS和VyOS均无效，问题疑似运营商侧。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233021" target="_blank" rel="noopener noreferrer">iOS 上买了 stay 还有必要买 tampermonkey 吗？</a></span><span class="topic-stats">回复 17 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233175" target="_blank" rel="noopener noreferrer">广东联通 IPv6 所有端口都被封了</a></span><span class="topic-stats">回复 41 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1232979" markdown="1">
+<details class="topic-card" data-topic-id="1233225" markdown="1">
 <summary>
 <span class="topic-rank">17</span>
-<span class="topic-title">ChatGPT 长任务中断的解决方案：/goal 模式与定时任务</span>
+<span class="topic-title">双非应届后端秋招薪资参考与方向建议</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -559,30 +559,31 @@ iOS 上 Safari 对油猴脚本支持不佳，用户反映 Stay 脚本失效、�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-用户反映 ChatGPT 会话最长约 100 分钟即中断，即使注入提示词也无法持续。评论中多位用户提出使用 `/goal` 模式可显著延长运行时间，有用户称连续运行 8 小时、近两天甚至 8 天。另有用户建议通过桌面应用的 Scheduled 功能设置定时任务，每 5 分钟检测会话是否运行，若停止则自动发送指令继续。
+楼主为江苏大学软件工程双非本应届生，后端方向，秋招中已获苏州某传统互联网（to B，国资委金融平台）转正 offer，薪资 8-9k，965 强度，工作内容以 CRUD 和优化为主。楼主期望 12-14k，对当前 offer 有落差，询问合理薪资范围及职业方向。
 
 ### 关键要点
-- **/goal 模式**：在提示词中强调“不要偷懒，不要提前终止，必须完成”，可让任务持续数小时至数天。
-- **定时任务**：利用 Scheduled 每 5 分钟检查会话状态，自动恢复中断的任务。
-- **会话切换**：有用户通过新建会话并告知“运行至少 8 小时”来延长测试时间。
+- **薪资参考**：多位回复给出不同城市和学历的参考：二线城市 6-8k 常见，苏州 8-9k 属正常；北上广深杭中厂可达 12k 以上，但校招门槛提高，多要求双一流或 92；有公司报价普通本科 16w、重点 20w、硕士 25w（需注意行业和岗位差异）。
+- **方向建议**：有回复建议考虑物联网、消费电子、制造业等业务对口方向，认为跳槽时业务对口比薪资更重要；不推荐面向老板的 AI 方向，认为价值不稳定。
+- **心态调整**：有回复认为该 offer 在同学中已属较好，强调好公司好领导比多几 k 更重要。
 
 ### 评论补充
-- 部分用户对 `/goal` 模式的效果表示认可，但未提供具体配置细节。
-- 定时任务方案依赖桌面应用，且需注意检测逻辑的准确性。
-- 有用户指出默认定时任务可能使用低阶模型，需手动指定模型。
+- 大厂校招对双非本算法要求高，楼主自认机会不大，考虑社招攒经验再冲，但需注意业务对口。
+- 有回复指出当前市场环境下，中厂校招门槛提高，需理性评估自身竞争力。
+
+＞ 注：薪资数据来自个人经验，行业、城市、岗位差异大，仅供参考。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1232979" target="_blank" rel="noopener noreferrer">发现 chatGpt 最长只能工作一个半小时，有没有点子解决？</a></span><span class="topic-stats">回复 8 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233225" target="_blank" rel="noopener noreferrer">求教， 27 应届生第一份工作多少就差不多了，后端，江苏大学软件工程（双非本）</a></span><span class="topic-stats">回复 50 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1232996" markdown="1">
+<details class="topic-card" data-topic-id="1233154" markdown="1">
 <summary>
 <span class="topic-rank">18</span>
-<span class="topic-title">卖旧 MacBook Air 平台对比：闲鱼价高但费心，官方回收省事</span>
+<span class="topic-title">防晒衣为何比防晒霜更受欢迎：物理防晒优势解析</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -590,31 +591,34 @@ iOS 上 Safari 对油猴脚本支持不佳，用户反映 Stay 脚本失效、�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-出售旧款 MacBook Air（如 2018 款）时，不同平台价格与体验差异明显。综合讨论，闲鱼个人交易价格最高，但需耗费大量精力应对砍价和交易风险；爱回收、转转等平台估价看似高但实际扣款多；苹果官方回收价格虽低但流程简单，只要设备正常即按预估价格回收。
+
+关于为何很多人选择防晒衣而非防晒霜，评论中给出了多个实用理由：物理防晒效果优于化学防晒，防晒衣能有效阻挡紫外线并隔热，且更耐用、成本更低。
 
 ### 关键要点
-- **闲鱼**：价格最高，但需面交并注意手续费（如支付宝当面转账可避免），且可能遇到大量砍价者。
-- **爱回收/转转**：线上估价高但线下检测扣款多，如屏幕胶条脱胶可能被压价至两三百元。
-- **苹果官方回收**：价格固定（如 850 元现金或 1000 元抵扣），不检查电池容量，只要设备正常即按预估价格，适合追求省心。
-- **其他渠道**：线下手机店可能比爱回收价高，但需自行比较。
+
+- **防晒效果**：物理遮挡（防晒衣、帽子）直接阻挡紫外线，效果优于防晒霜，且不受涂抹不均、出汗稀释等影响。
+- **舒适性**：优质防晒衣轻薄透气，在烈日下反而能隔热，比裸露皮肤更凉快（类似中东长袍原理）。
+- **便利与成本**：防晒霜需定时补涂，且肤感黏腻；防晒衣一次穿着即可，长期使用成本更低。
+- **适用场景**：户外活动（如钓鱼、骑车）时，防晒衣能全面防护，且可配合防晒霜使用。
 
 ### 评论补充
-- 若回收价仅几百元，可考虑拆机卖零件（如硬盘、屏幕），但需注意 Mac 硬盘多为焊死。
-- 有用户提醒，转转寄给富士康回收可能存在坑，需谨慎。
-- 对于低配旧款，性能已落后，建议优先考虑省心渠道。
+
+- 有用户提到防晒霜主要防紫外线，但无法隔热，而防晒衣能同时隔绝红外线，保持体温。
+- 部分评论指出防晒衣在室内空调房也可保暖，实用性高。
+- 有用户询问防晒衣品牌推荐，但未获具体答复。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1232996" target="_blank" rel="noopener noreferrer">现在卖 MacBook Air ,哪个平台比较推荐，手里 18 款 air 要出了</a></span><span class="topic-stats">回复 13 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233154" target="_blank" rel="noopener noreferrer">防晒为啥不涂防晒霜要穿防晒衣，不热吗</a></span><span class="topic-stats">回复 47 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1232984" markdown="1">
+<details class="topic-card" data-topic-id="1233206" markdown="1">
 <summary>
 <span class="topic-rank">19</span>
-<span class="topic-title">阿里云CDN被解析到广电IP导致海外无法访问的排查与解决</span>
+<span class="topic-title">电动车事故全责赔偿处理流程与注意事项</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -622,33 +626,31 @@ iOS 上 Safari 对油猴脚本支持不佳，用户反映 Stay 脚本失效、�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-有用户反映，使用日本DNS解析时，阿里云CDN域名（如 tb.ele.me）常被解析到鹏博士、东方有线等广电系IP，这些IP在境内三大运营商网络下可能正常，但从海外访问时经常无法连接。
+楼主骑电动车全责撞伤外卖员，对方后续住院并索赔。核心争议在于赔偿范围：楼主只愿赔脚部相关费用，不认可住院费用。评论共识：全责方需赔偿合理医疗费、误工费等，但可拒绝无关检查或过度治疗。
 
 ### 关键要点
-
-- **现象**：海外DNS解析阿里CDN域名时，可能返回广电系IP，导致海外访问失败。
-- **原因推测**：广电系与主流IDC存在内网缓存，可能影响解析结果；也可能是服务商有意限制海外访问。
-- **解决方案**：将DNS更换为阿里DoH，或使用AdGuard Home、dnsmasq等工具对阿里CDN域名进行分流解析，可解决就近解析问题。
+- **责任认定**：全责情况下，对方医保和保险不适用，需自行赔偿。
+- **赔偿范围**：包括与事故直接相关的医疗费、误工费（按工资流水计算）、营养费等；无关检查或过度治疗可拒赔。
+- **处理策略**：可先估算合理金额报给对方，若对方不接受，可等其起诉，法院通常调解解决。
+- **法律咨询**：可拨打12348法律援助热线咨询具体问题。
 
 ### 评论补充
-
-- 有用户反馈广电卡解析到外省铁通段，丢包严重，换用阿里DoH后恢复正常。
-- 提交工单时，阿里云要求网站所有方账号才有权限，普通用户无法直接处理。
-- 客服之间互相推诿，建议用户自行调整DNS设置。
+- 有案例显示，通过平台保险（如美团）可获赔，个人赔偿部分较少。
+- 有建议称，若对方索赔过高，可暂时不理，对方可能主动降低要求。
+- 注意保留责任认定书和所有票据，作为证据。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1232984" target="_blank" rel="noopener noreferrer">最近阿里系所属云服务经常被解析到鹏博士、东方有线之类的无法访问的 ip 地址上</a></span><span class="topic-stats">回复 10 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233206" target="_blank" rel="noopener noreferrer">有没有经历过电动车事故的，来问下怎么处理</a></span><span class="topic-stats">回复 26 · 收藏 6</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233010" markdown="1">
+<details class="topic-card" data-topic-id="1233208" markdown="1">
 <summary>
 <span class="topic-rank">20</span>
-<span class="topic-title">芯片涨价下 2.5G/1G 软路由选购建议</span>
+<span class="topic-title">阿里百炼个人版 token plan 体验：额度消耗快、规则不透明</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -656,30 +658,31 @@ iOS 上 Safari 对油猴脚本支持不佳，用户反映 Stay 脚本失效、�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-在芯片、内存和硬盘涨价的背景下，用户寻求千兆宽带（可能升级 2.5G）的软路由推荐，主要用于科学上网，已有独立 NAS。讨论聚焦于性价比方案，强调 AES 指令集对跑满千兆的重要性。
+用户购买阿里百炼个人版 token plan 后，反馈存在额度消耗快、规则不透明、不支持退款等问题。具体包括：139 元周限制 10000 credit 的套餐，实际使用 4-5 天即用完；8 月 3 日额度重置后，在未通知的情况下将预览版 qwen3.8max 切换为正式版，导致单次功能实现消耗周额度 50% 以上且结果错误；8 月 10 日应重置额度却推迟至 8 月 12 日。用户认为阿里百炼存在宰客行为，且不支持退款，霸王条款。
 
 ### 关键要点
-- **预算与性能平衡**：N100 准系统价格已涨至 500-600 元甚至更高，部分用户认为性价比下降。
-- **低成本替代**：闲鱼瘦客户机约 100 元，配 DDR3 内存，CPU 支持 AES 即可满足科学上网需求。
-- **硬件限制**：J1900/J1800 的 SATA 总线仅支持 SATA2.0（3Gbps），可能影响存储性能。
-- **价格争议**：有用户对比发现 N100 准系统价格未涨，但内存和硬盘涨幅明显；也有用户认为全线涨价。
+- 阿里百炼 token plan 额度消耗快，预览版切换正式版后消耗显著增加，但能力未提升。
+- 额度重置时间不固定，规则不透明，用户无法预估实际用量。
+- 不支持退款，用户购买后难以维权。
+- 多位用户反馈类似问题，如 199 元套餐一天用完、半小时消耗 50% 额度等。
 
 ### 评论补充
-- 有用户出售 J1900（4 口千兆，400 元）和 N6005（4 口 2.5G，1200 元）作为参考。
-- 部分用户强调内存涨价是主要成本因素，建议关注内存价格走势。
+- 有用户建议选择 DeepSeek 等按 token 计费、用量透明的服务。
+- 部分用户认为国内 AI 订阅普遍存在用量不透明的问题，购买前需谨慎。
+- 有用户对比 ChatGPT Plus 也有类似额度消耗快的情况，但认为国外服务更受信任。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233010" target="_blank" rel="noopener noreferrer">芯片大涨价的情况下，当下 2.5G / 1G 最划算的软路由求推荐</a></span><span class="topic-stats">回复 9 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233208" target="_blank" rel="noopener noreferrer">阿里百炼个人版 token plan，玩不起就不要搞 token plan</a></span><span class="topic-stats">回复 44 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233087" markdown="1">
+<details class="topic-card" data-topic-id="1233177" markdown="1">
 <summary>
 <span class="topic-rank">21</span>
-<span class="topic-title">徕芬电动牙刷9.9元刷头停产，用户反馈质量与售后问题</span>
+<span class="topic-title">减脂增肌实操：热量缺口、力量训练与饮食建议</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -687,34 +690,31 @@ iOS 上 Safari 对油猴脚本支持不佳，用户反映 Stay 脚本失效、�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-有用户反映徕芬电动牙刷宣传的 9.9 元刷头已停产，目前官方渠道难以购买，替代刷头均价二三十元，引发对品牌信任的质疑。多位用户证实类似情况，并反馈牙刷本身存在电池寿命短、返修等问题。
+作者分享了一年半减脂增肌的实践经验：通过制造热量缺口（每日约500-600大卡）结合力量训练，成功减重20kg且保持肌肉量。强调明确目标、长期坚持，并区分减重与减脂的不同路线。
 
 ### 关键要点
-
-- 9.9 元基础款刷头已停产，官方渠道无货，第三方或拼多多可买到旧款，均价 7-8 元。
-- 多用户反映牙刷使用一年左右出现充不进电，需返修换电池。
-- 部分用户认为刷头质量不如飞利浦，但价格仍具优势。
-- 徕芬吹风机口碑较好，被认为值得购买。
+- **减重**：控制饮食，制造热量缺口，戒零食饮料，可加有氧。
+- **减脂**：热量缺口下保证蛋白质和干净碳水，每周3-4次高强度力量训练，体脂降至23-25%后减少有氧。
+- **新手建议**：找私教或健身搭子，先学动作，不必追求发力感。
+- **饮食误区**：花生等坚果热量高，需控制；蛋白质摄入要充足（可参考2倍体重克数）。
 
 ### 评论补充
-
-- 有用户囤货刷头，平均 8 元一个，建议消耗品可考虑平替。
-- 有用户提到牙刷可能打牙齿、遇水误触等使用问题。
-- 事件在多个平台引发讨论，关注品牌后续处理。
+- 有用户通过干净饮食（西兰花、鸡胸肉）两个月减重6kg，印证饮食控制的重要性。
+- 讨论指出基础代谢个体差异，但热量缺口仍是核心。
+- 作者回应：力量训练不会轻易练成“大块头”，增肌比减脂更难。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233087" target="_blank" rel="noopener noreferrer">徕芬也是割韭菜的</a></span><span class="topic-stats">回复 11 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233177" target="_blank" rel="noopener noreferrer">「找到狡猾的猪腰」说什么易胖体质的就是狡猾的猪妖，一口没少吃还想瘦吗朋友？违反科学规律的事情让你发现了</a></span><span class="topic-stats">回复 29 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233020" markdown="1">
+<details class="topic-card" data-topic-id="1233101" markdown="1">
 <summary>
 <span class="topic-rank">22</span>
-<span class="topic-title">VidServe：将电脑视频目录变为局域网视频网站</span>
+<span class="topic-title">AI生成代码后测试岗位价值：仍不可或缺且更重要</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -722,29 +722,33 @@ iOS 上 Safari 对油猴脚本支持不佳，用户反映 Stay 脚本失效、�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者开发了 VidServe 工具，可将电脑上的视频目录一键变为局域网视频网站，手机、平板等设备通过浏览器即可观看，无需安装额外应用，并自动生成播放列表。
+
+主题讨论AI生成代码后测试岗位是否还有存在意义。多数回复认为测试岗位不仅有意义，反而更重要。原因包括：AI生成代码存在逻辑问题、自动化测试框架效果不佳、AI无法处理需要视觉判断的测试、以及AI生成代码质量参差不齐，需要人工审查和测试来把控质量。
 
 ### 关键要点
-- 使用简单：选择视频目录，点击启动即可。
-- 支持 HTTP Range 分段传输，实测 2 小时视频可正常拖动进度条。
-- 外挂字幕（如 SRT）暂不支持，作者计划后续添加，需转换为 WebVTT 格式。
+
+- **测试岗位价值提升**：AI生成代码后，测试岗位的重要性增加，工作量可能更高，因为需要验证AI输出的正确性。
+- **AI测试局限性**：当前AI测试工具效果有限，无法替代人工测试，尤其对于需要视觉判断的场景。
+- **自动化测试趋势**：传统重复性测试可自动化，测试团队转向维护自动化测试框架和结果分析。
 
 ### 评论补充
-- 有用户建议支持外挂字幕和优化进度条，作者回应已计划实现字幕功能。
-- 有用户提出可用 SMB 共享替代，作者认为 VidServe 更简单且兼容性更好。
+
+- 有评论指出，AI生成代码可能让开发人员对代码理解不足，测试成为最后的质量防线。
+- 部分用户认为AI测试是“脱裤子放屁”，仍需人力把控。
+- 也有观点认为，测试岗位的职责可能从手动测试转向自动化测试的搭建与监控。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233020" target="_blank" rel="noopener noreferrer">[首发] VidServe 一键将电脑上的视频目录变为局域网视频网站，手机电脑都能看</a></span><span class="topic-stats">回复 4 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233101" target="_blank" rel="noopener noreferrer">ai 生成代码后，测试岗位还有存在意义吗</a></span><span class="topic-stats">回复 34 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233028" markdown="1">
+<details class="topic-card" data-topic-id="1233127" markdown="1">
 <summary>
 <span class="topic-rank">23</span>
-<span class="topic-title">DeepSeek 招聘游戏开发：行业影响与引擎竞争分析</span>
+<span class="topic-title">国企外包全额社保导致降薪：机制与应对</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -752,30 +756,30 @@ iOS 上 Safari 对油猴脚本支持不佳，用户反映 Stay 脚本失效、�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-DeepSeek 招聘游戏开发方向人才，引发对游戏开发行业变革的讨论。评论指出，DeepSeek 可能进入游戏工具链领域，对 Unity 等商业引擎构成竞争，并可能推动开源引擎（如 Godot）的采用。
+国企外包要求全额缴纳社保，但外包公司通常按人头核定总成本，不会额外承担增加的费用，而是通过降薪或裁员将成本转嫁给员工。多位用户反映实际到手工资减少近三分之一，甚至出现倒欠情况。
 
 ### 关键要点
-- **行业影响**：DeepSeek 的入局可能打破 Unity 等引擎的垄断，降低开发者的引擎成本。
-- **技术方向**：招聘可能聚焦于 AI Agent 在游戏开发中的应用，如自动化场景搭建和数据分析。
-- **潜在风险**：有评论担忧 DeepSeek 可能沦为“工具和数据”角色，处于游戏开发鄙视链底层。
+- **成本转嫁机制**：外包公司按人头核定金额，社保增加部分从员工薪资中扣除，等同降薪。
+- **实际影响**：有用户应发9000+，扣完五险一金到手仅6000；上海最低工资案例中，合法缴纳后可能倒欠。
+- **公积金与社保区别**：公积金可提取属福利，社保不可提取，因此全额社保对员工并非利好。
 
 ### 评论补充
-- 有观点认为，DeepSeek 可能成为跨引擎的 AI 伙伴，为所有开发者提供支持，实现双赢。
-- 也有评论指出，Unity 等引擎商可能转向按 token 收费的 AI 服务，改变现有商业模式。
-- 部分开发者认为，AI 辅助能减轻 3D 场景搭建等苦力活，是积极信号。
+- 有用户指出，若公司承担其应缴部分则属好事，但现实中多由员工承担。
+- 应对方式包括团结一致拒绝签字、仲裁或诉讼，但耗时半年且结果不确定。
+- 部分用户认为这暴露了社保的税性质，引发争议。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233028" target="_blank" rel="noopener noreferrer">Deepseek 招游戏开发, 游戏开发方向”和“Web 3D 与渲染方向</a></span><span class="topic-stats">回复 6 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233127" target="_blank" rel="noopener noreferrer">现在国企外包也要求全额社保，让外包降薪</a></span><span class="topic-stats">回复 26 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233006" markdown="1">
+<details class="topic-card" data-topic-id="1233311" markdown="1">
 <summary>
 <span class="topic-rank">24</span>
-<span class="topic-title">屏幕出现横线：保修、排线清理与换屏经验</span>
+<span class="topic-title">克服对用户付费的愧疚感：重新认识价值与反馈循环</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -783,22 +787,869 @@ DeepSeek 招聘游戏开发方向人才，引发对游戏开发行业变革的�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-屏幕出现横线通常是硬件问题，软件无法修复。处理优先级：先确认是否在保修期内，在保优先走售后；过保可尝试重新插拔屏幕排线，并用橡皮擦清洁金属触点，若氧化或生锈需先清理。
+楼主开发了多个 App 和网站，有自然流量和付费订阅，但感到愧疚，认为功能简单、用 AI 也能做，担心用户吃亏。评论普遍指出这是典型的**冒充者综合征（Imposter Syndrome）**，并提供了多种克服方法。
 
 ### 关键要点
-- **保修期**：笔记本一般两年，显示器一般三年，先查是否过保。
-- **排线问题**：物理老化或接触不良导致，插拔和清洁可能暂时缓解。
-- **维修方案**：排线问题可维修，严重则需换屏；也可外接显示器使用。
-- **售后注意**：有用户反映华硕售后体验差，维修点远、需自付运费，但维修速度快。
+- **价值本质**：用户付费购买的是省时和便利，而非技术复杂度。即使功能简单，能解决真实需求就有价值。
+- **市场认可**：用户自愿付费和好评是对产品的直接肯定，应尊重用户的选择。
+- **区分“简单”与“容易”**：对开发者容易的事，对非技术用户可能是门槛。
+- **反馈循环**：将愧疚转化为改进动力，优先响应用户反馈，跑通“用户反馈-迭代-续费”的循环。
 
 ### 评论补充
-- 有用户遇到类似问题，刚过保出现，屏幕发热后横线减少，降低刷新率也有缓解。
-- 换屏成本不高，多数屏幕通用，找专业维修师傅可解决。
-- 有用户因售后问题拉黑品牌，提醒购买时考虑售后。
+- 有评论者表示自己软件月订阅收入过万，认为用户付费是因为产品价值大于价格，涨价也合理。
+- 部分评论认为这种愧疚是好事，能保持对客户的敬畏，避免产品变垃圾。
+- 也有评论提醒，交易完成即两清，无需持续补偿，应把精力放在用户反馈上。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233006" target="_blank" rel="noopener noreferrer">屏幕下方出现很多的横线，还有办法抢救一下么？</a></span><span class="topic-stats">回复 8 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233311" target="_blank" rel="noopener noreferrer">怎么克服对为自己产品付费订阅用户感到愧疚的心理？</a></span><span class="topic-stats">回复 23 · 收藏 1</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233263" markdown="1">
+<summary>
+<span class="topic-rank">25</span>
+<span class="topic-title">强迫症治疗经验：药物控制与行为改善</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+楼主描述家人（41岁女性）患有严重强迫症，症状包括每次洗手1-2小时、外出回家后扔掉所有衣物、认为外界物品不干净。曾就医服药（左洛复）有所好转，停药后加重。
+
+### 关键要点
+- **药物治疗有效但需持续**：多位患者反馈，药物（如盐酸帕罗西汀、马来酸氟伏沙明片、兰释）能控制症状，但停药易复发，需遵医嘱长期服药。
+- **心理治疗与意志力效果有限**：有患者尝试心理咨询、意志对抗，认为无效，最终回归药物治疗。
+- **行为改善建议**：忙碌、专注、多社交可减轻症状；闲下来易加重。有建议尝试脱敏疗法（如去乡下居住）、劳动或徒步等，但缺乏医学证据。
+- **严重程度判断**：楼主描述的症状（洗手1-2小时、扔衣服）属于重度，评论普遍建议尽快就医，而非仅靠自我调节。
+
+### 评论补充
+- 有患者分享自身中度强迫症经历：服药后思维症状改善，但行为上仍存在怕脏、反复检查，影响较小。
+- 有评论指出强迫症带来的焦虑感常被误解，严重时痛苦巨大。
+- 部分评论建议“问问AI”或“学经济学原理”，但无实质帮助，不推荐。
+
+**结论**：强迫症需专业医疗干预，药物是主要控制手段，行为调整可作为辅助，但严重症状必须持续就医。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233263" target="_blank" rel="noopener noreferrer">强迫症怎么治疗，有人有心得吗？</a></span><span class="topic-stats">回复 23 · 收藏 4</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233164" markdown="1">
+<summary>
+<span class="topic-rank">26</span>
+<span class="topic-title">新车转向异响处理经验：换件与补偿谈判</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+新车一周出现转向异响，疑似下摆臂问题，车主寻求处理经验。评论中提供了多种可能原因和应对建议。
+
+### 关键要点
+- 异响可能原因：阿克曼角现象（低温下正常）、轮胎卡石子、安全带卡扣敲击、下摆臂问题等。
+- 处理建议：先到售后检查，确认具体原因；若需更换下摆臂，注意四轮定位，避免后续轮胎偏磨。
+- 补偿谈判：新车大件更换，可尝试争取保养或积分补偿，但退换车可能性低，需理性预期。
+
+### 评论补充
+- 有用户反映理想 L6 也有类似问题，但未处理；早期 Model Y 免费更换后解决。
+- 部分评论建议“七天无理由退换”，但被指不现实，汽车退换条件严格。
+- 维修后需关注四轮定位，防止轮胎偏磨。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233164" target="_blank" rel="noopener noreferrer">新车一周转向异响，疑似下摆臂，求处理经验</a></span><span class="topic-stats">回复 35 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233302" markdown="1">
+<summary>
+<span class="topic-rank">27</span>
+<span class="topic-title">小米电视展示机是否值得购买：价格、寿命与风险分析</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+小米电视展示机（如 S Pro MiniLED 26 款）通常以六折出售，但实际比大促仅便宜 600-700 元。展示机每天播放约 12 小时，已使用数千小时，屏幕寿命损耗明显。有用户以 75 寸国补后 3144 元购入展示机，认为性价比高，但需注意质保可能缩短。
+
+### 关键要点
+
+- **价格对比**：展示机六折价（如 65 寸 3000 元）相比大促仅省 600-700 元，折扣力度有限。
+- **寿命损耗**：按每天 4 小时使用计算，展示机已消耗约 25% 寿命，折价仅 12.5%，不划算。
+- **购买建议**：多数回复不建议购买，推荐同价位雷鸟/TCL 新机；若购买需确认质保刷新和坏点情况。
+
+### 评论补充
+
+- 有用户成功以低价购入展示机（75 寸 3144 元），使用体验良好，无坏点。
+- 展示机好货常被店员内部消化，普通消费者难遇优质货源。
+- 部分用户认为电视使用频率低，展示机寿命影响可接受，但需权衡价格。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233302" target="_blank" rel="noopener noreferrer">v 佬们，小米电视展示机能不能购买？</a></span><span class="topic-stats">回复 34 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233320" markdown="1">
+<summary>
+<span class="topic-rank">28</span>
+<span class="topic-title">机场收款方为国内公司：四方支付与空壳公司运作解析</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+机场（代理）收款方显示为国内公司，通常并非直接经营，而是通过**四方支付**或**空壳公司**代收。这类公司多为个体工商户或空壳，可能通过收购、借用或盗用资料开户，收款后转给实际运营者。
+
+### 关键要点
+- 收款方常为五金店、牛肉店等无关商户，属于灰黑产业常规操作。
+- 四方支付公司（如易支付、虎皮椒）提供代收服务，但存在跑路风险。
+- 用户支付时可能面临资金安全和隐私风险，实名信息可能泄露。
+
+### 评论补充
+- 有用户表示使用四年，收款方为五金店，说明该模式较为普遍。
+- 部分四方支付公司不稳定，经常跑路，选择时需谨慎。
+- 具体内幕通常不对外共享，但可推断存在合作代收或盗用资料开户。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233320" target="_blank" rel="noopener noreferrer">梯子机场都支持支付宝、微信支付，收款方都是注册国内的公司，这合理么，不怕翻车么？还是说有专门的经营许可特权？有知道其中门道的么？</a></span><span class="topic-stats">回复 18 · 收藏 4</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233230" markdown="1">
+<summary>
+<span class="topic-rank">29</span>
+<span class="topic-title">露营观星拍流星雨：残幅相机与装备实用建议</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+主题围绕英仙座流星雨期间的露营观星与星空摄影，作者为新手，已有残幅相机、超广角镜头、三脚架等装备。评论提供了针对性的实操建议，强调天气、对焦、装备局限和拍摄技巧。
+
+### 关键要点
+- **天气与时机**：天气是首要因素，需提前查看云图和流星雨极大值时间；无月晴朗天气（农历月末月初）最佳。
+- **对焦与参数**：手动对焦无限远后往回拉一点；用300法则（如20mm镜头曝光不超过15秒）；先用高ISO试拍确认对焦，再开始间隔拍摄。
+- **装备局限**：运动相机基本无用，只能拍火流星；残幅相机会使焦距乘以1.5或1.6倍，广角效果减弱，建议换全画幅。
+- **辅助工具**：使用Star Walk等App确定方位；快门线或相机原厂App遥控；可用“假电池”连接充电宝供电。
+- **拍摄环境**：尽量全黑场景，关闭相机显示屏（如A7C内折）；注意风对三脚架的影响，需加固。
+
+### 评论补充
+- 露营方面，天气好时选择固定安全位置即可，天气不好则不建议出行。
+- 后期合成可用AI工具（如Codex）辅助，但需注意准确性。
+- 头灯在黑暗环境中必备，运气也是成功因素之一。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233230" target="_blank" rel="noopener noreferrer">有没有户外和摄影大佬, 请教下露营和星空拍摄相关</a></span><span class="topic-stats">回复 4 · 收藏 4</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233219" markdown="1">
+<summary>
+<span class="topic-rank">30</span>
+<span class="topic-title">V2EX 社区看板：观察用户、帖子与评论统计</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者基于 oldshensheep 的 v2ex_scrapy 项目，用 GPT 开发了 V2EX 社区看板（在线链接：https://v2ex.taifua.com/，GitHub：https://github.com/taifuer/v2ex_scrapy），提供社区概览、讨论演变、成员与互动三个模块，可观察帖子、评论、成员数量及互动指标的长期变化，支持月度和年度切片。
+
+### 关键要点
+- **社区概览**：展示帖子、评论、成员与互动规模的长期趋势，支持月度/年度数据切片。
+- **讨论演变**：从话题、标题关键词和节点三个维度追踪热点，支持趋势、关联结构和代表帖子查看。
+- **成员与互动**：展示活跃成员参与变化及收藏、感谢、回复、点击等反馈数据。
+- **数据洞察**：活跃时段数据显示发帖和评论主要集中在工作日，周末较少，可用于优化推广时间。
+
+### 评论补充
+有用户建议链接到官方 V2EX，作者表示感谢；另有用户质疑监控意图，作者澄清并非监控。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233219" target="_blank" rel="noopener noreferrer">做了一个 V2EX 社区看板，可以观察用户/帖子/评论等统计数据与变化</a></span><span class="topic-stats">回复 4 · 收藏 7</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233192" markdown="1">
+<summary>
+<span class="topic-rank">31</span>
+<span class="topic-title">打游戏音响选购：推荐漫步者，FPS仍需耳机</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+楼主因长期佩戴廉价耳机导致耳部不适，想改用桌面音响。综合回复，打游戏是否适合音响取决于游戏类型：**FPS等需要听声辨位的游戏，音响无法替代耳机**，建议继续使用带麦耳机；而单机游戏、观影等场景，音响体验更佳。
+
+### 关键要点
+- **品牌推荐**：多数回复推荐**漫步者**，性价比高且质量稳定，如 R201T（带独立低音炮）、R1000、R1700 等；也有推荐创新 Pebble v2、水月雨 mm3a，但创新和惠威质量不稳定。
+- **类型选择**：横条一体式不如分离式（左右声道）效果好，建议选带独立低音炮的条形箱或 2.0 音箱。
+- **麦克风问题**：音响外置麦克风易产生回音，若需语音，建议搭配耳机或选择带麦的桌面音箱。
+- **扰民问题**：凌晨打游戏建议使用耳机，避免影响他人。
+
+### 评论补充
+- 有用户分享使用漫步者监听音箱加支架抬高至耳平，效果不错。
+- 有用户提到低配 5.1 音响可作“物理外挂”，但需空间和折腾。
+- 部分用户认为音响定位不如耳机，但观影和大型游戏效果更好。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233192" target="_blank" rel="noopener noreferrer">佬们，打游戏音响设备怎么挑？</a></span><span class="topic-stats">回复 21 · 收藏 1</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233232" markdown="1">
+<summary>
+<span class="topic-rank">32</span>
+<span class="topic-title">《龙餐厅》观后感：反战题材，沈腾转型，适合中学生以上</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+电影《龙餐厅》由文牧野执导、沈腾主演，表面是喜剧，实为反战片。观众普遍反映前半段有喜剧元素，后半段沉重压抑，甚至有人生理不适。影片以第三方底层视角展现战争，不同于常见反战片，获得较高评价。
+
+### 关键要点
+- 导演文牧野（《我不是药神》导演），沈腾转型之作，演技获认可。
+- 题材为中东战争背景，有血腥镜头，不适合小孩观看，中学生以上较合适。
+- 猫眼曾误标喜剧，现已修改，建议提前了解题材。
+- 豆瓣预测开分8分以上，有票补19.9元，性价比高。
+
+### 评论补充
+- 有观众对比同题材《用武之地》，认为本片更优秀，沈腾的喜感增强了共情。
+- 部分评论指出影片对战争的多角度刻画，引发对战争责任的思考。
+- 有投资者提到相关公司股票涨停，但需注意风险。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233232" target="_blank" rel="noopener noreferrer">有没有看到龙餐厅的兄弟，想问下大家的感想</a></span><span class="topic-stats">回复 19 · 收藏 1</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233330" markdown="1">
+<summary>
+<span class="topic-rank">33</span>
+<span class="topic-title">国内AI编程套餐频繁限流，用户如何避坑与选择</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+近期国内AI编程套餐（如讯飞、阿里百炼、火山）频繁出现限流、服务中断等问题，用户购买后无法正常使用，引发广泛吐槽。有用户反映，讯飞上周五开始拉闸限电，模型繁忙，工单被直接标记完成，仅提供退款。
+
+### 关键要点
+- 国内套餐普遍存在限流、缓存不命中价格高等问题，有用户称价格比官网贵十倍，视为欺诈。
+- 部分用户推荐国外服务如 opencode go 套餐，认为其透明、少429、价格低；也有用户认为国外 codex 更划算。
+- 火山引擎9.9元/月套餐被部分用户认为性价比尚可，但额度少。
+- 有观点认为国内厂商因算力受限或商业模式问题，将coding plan视为低优先级服务。
+
+### 评论补充
+- 有用户指出国内厂商可能因硬件禁运导致算力不足，只能硬上。
+- 也有用户认为这是产品经理决策失误，或厂商觉得定价便宜想涨价。
+- 建议用户谨慎购买国内长期套餐，可先试用或选择按量付费。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233330" target="_blank" rel="noopener noreferrer">coding plan 频繁出事，用户变成韭菜，到底意欲何为</a></span><span class="topic-stats">回复 18 · 收藏 1</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233270" markdown="1">
+<summary>
+<span class="topic-rank">34</span>
+<span class="topic-title">AI 提升研发效率的真实边界：编码之外才是瓶颈</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+关于 AI 对研发效率的提升，讨论呈现明显分歧：编码环节效率提升巨大，但整体研发流程中编码占比很小，因此实际提升有限。
+
+### 关键要点
+
+- **编码效率提升显著**：有开发者表示“一行代码都不用手写”，小工作室从 20-30 人接 10 个项目缩减到 3 人加 5 个 Claude 账号同时做 20 个项目，但多为维护和改 bug。
+- **非编码环节是瓶颈**：大厂流程冗长，跨部门协调、审批、需求沟通占据 90% 时间，AI 只加速了编码部分。
+- **AI 使用方式影响效率**：Vibe Coding 维护成本高，建议先完善设计细节，用 SDD/TDD 约束 AI，设计 rule/skill 提升效率。
+- **工时评估失效**：传统基于人/月的报价方式不再适用，但尚无新实践。
+
+### 评论补充
+
+- 架构和思路仍存于开发者脑中，代码只是实现手段，AI 加速了实现。
+- 个人开发者或全栈开发者受益最大，而复杂协作场景提升有限。
+- 核心业务代码仍需逐行审查，AI 输出质量需人工把关。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233270" target="_blank" rel="noopener noreferrer">AI 对研发效率提升到底有多大？</a></span><span class="topic-stats">回复 11 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233307" markdown="1">
+<summary>
+<span class="topic-rank">35</span>
+<span class="topic-title">35岁考公与FIRE的财务对比：考公更优但难度被低估</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+楼主35岁，非程序员，二线城市月薪到手2万，面临FIRE与考公的选择。通过详细财务测算，认为考公更优：FIRE方案（再干3年+22年零工）60岁积蓄81万，而考公方案（年到手8万，干到60岁）积蓄140万，且社保有保障。但评论普遍质疑考公可行性，指出竞争激烈、运气成分高，且楼主已接近年龄限制。
+
+### 关键要点
+- 财务测算：考公方案60岁积蓄140万，高于FIRE的81万，且社保更稳定。
+- 考公难度：评论强调税务等岗位竞争激烈，有人连考四五年未上岸，笔试通过率约1%，主观题和面试增加不确定性。
+- 年龄限制：部分岗位放宽至38岁，但机会有限，需尽早尝试。
+
+### 评论补充
+- 多数评论认为考公并非选择题，很多人没有选择余地，建议先报名试水。
+- 有评论提醒体制内人际关系复杂，需具备斗争能力，否则可能度日如年。
+- 楼主自述考试是特长，但担心申论，且承认运气成分高。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233307" target="_blank" rel="noopener noreferrer">fire？ or 考公？ 整体算下来，还是考公比较好</a></span><span class="topic-stats">回复 14 · 收藏 2</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233113" markdown="1">
+<summary>
+<span class="topic-rank">36</span>
+<span class="topic-title">MarkCardStudio：本地 Markdown 转卡片开源工具</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+MarkCardStudio 是一款基于 Tauri 2 + Rust 的本地 Markdown 转卡片工具，支持 Windows、macOS 等多端，已开源。它解决了在线转换工具无法处理本地图片路径的问题，所有处理均在本地完成，无隐私泄露风险。
+
+### 关键要点
+
+- 预设小红书 3:4、抖音 9:16、微博 6:7、通用 1:1 画布，支持自定义分辨率与长宽比。
+- 内置 16 套设计主题，支持 Highlight.js 代码高亮、KaTeX 数学公式、Mermaid 流程图和 Callout 警告框。
+- 项目地址：https://github.com/pangxiaobin/MarkCardStudio ，介绍页：https://markcard.woollypix.cn/ 。
+
+### 评论补充
+
+- 有用户反馈 Windows 下使用方便，但自定义样式不够自由，因为打包成单文件，不便修改主题 CSS。
+- 作者回应称代码开源，欢迎提交 PR 改进。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233113" target="_blank" rel="noopener noreferrer">一个本地的 markdown 转 card 的应用， Tauri2 开发 支持多端，已开源</a></span><span class="topic-stats">回复 3 · 收藏 5</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233352" markdown="1">
+<summary>
+<span class="topic-rank">37</span>
+<span class="topic-title">Dell U2725QE 雷电4显示器体验：一线连MacBook，PDD约3700元</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+用户分享 Dell U2725QE 雷电4显示器的使用体验：通过一根雷电4线连接 MacBook Pro，即可实现充电、视频传输和扩展USB/Type-C接口，解决了蓝牙鼠标漂移问题，并可连接手机。该显示器支持140W充电，价格在拼多多百亿补贴约3700元，京东约4500元。
+
+### 关键要点
+- **型号与价格**：Dell U2725QE，PDD约3700元，京东约4500元，用户称PDD安全下车。
+- **功能亮点**：雷电4一线通，支持140W充电，扩展多个接口，可外接鼠标接收器。
+- **购买建议**：评论建议购买Dell延保（2年延保总计5年），保修期内换货爽快。
+
+### 评论补充
+- Dell显示器支持DDC/CI，可通过软件调节亮度对比度，部分型号提供校色文件。
+- 联想27寸显示器也有类似功能，附带音箱、网卡和红外面部识别。
+- 有评论指出U系列底部有磁吸口可加装扬声器，但办公屏基本无HDR（亮度约500-600nits）。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233352" target="_blank" rel="noopener noreferrer">dell 的外接显示器雷电 4 接口，真的是太爽了</a></span><span class="topic-stats">回复 11 · 收藏 2</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233158" markdown="1">
+<summary>
+<span class="topic-rank">38</span>
+<span class="topic-title">阿里百炼放弃Coding Plan，转向Token Plan引发用户不满</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+阿里百炼已放弃 Coding Plan 套餐，客服建议用户购买 Token Plan 体验。用户反馈 Token Plan 存在价格不透明、消耗快、重置规则不明确等问题，且 Qwen 3.8 未提供 Plus 版本，导致 Coding Plan 无法使用新模型。
+
+### 关键要点
+- 阿里百炼不再更新 Coding Plan，转向 Token Plan，但未公布各模型对应的积分消耗表。
+- 用户反映 Token Plan 消耗快，例如一个小需求用光七天额度，且重置时间不重置。
+- 多家厂商的 Coding Plan 因成本问题纷纷调整或取消，如 GitHub Copilot 也调整了套餐。
+- 用户转向 DeepSeek API、Kimi、Codex Plus 等替代方案，认为价格更透明。
+
+### 评论补充
+- 有用户认为 Qwen 3.8 Max 能力不稳定，性价比不如 DeepSeek V4 Flash。
+- 部分用户指出 DeepSeek V4 Flash 缺乏识图能力，影响 UI 还原场景。
+- 评论普遍认为 Coding Plan 模式已难以为继，企业需盈利，未来可能继续涨价或降额。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233158" target="_blank" rel="noopener noreferrer">阿里百炼已放弃 Coding Plan 套餐</a></span><span class="topic-stats">回复 17 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233249" markdown="1">
+<summary>
+<span class="topic-rank">39</span>
+<span class="topic-title">Zacp：将任意 ACP 协议 CLI Agent 转为 Web 可视化界面</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+作者开源了 Zacp，一个用 Golang 编写的工具，可将支持 ACP 协议的 CLI Agent 接入 Web 界面，实现可视化访问。已测试兼容 Codex cli、Reasonix cli、Grok Build、Pi Agent、Omp、Qoder、Jcode 等。
+
+### 关键要点
+
+- **核心功能**：提供 Web 聊天界面，支持多会话、多 Agent 切换、流式输出、WebSocket 实时通信、权限确认、并行任务（最多 3 个）、空闲回收、热管理、数据持久化（SQLite）、单文件发布、登录保护、文件管理、Git 面板、深色/浅色主题。
+- **适用场景**：适合经常使用 CLI Agent 但需要可视化界面、跨平台访问、多 Agent 并行工作的用户；不适合偏好纯 CLI、无需多 Agent 切换或需要浏览器/电脑操控等高级能力的用户。
+- **安装使用**：提供 macOS、Linux、Windows 一键安装脚本，启动命令为 `zacp`。
+
+### 评论补充
+
+评论确认项目为开源，GitHub 地址在帖子顶部。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233249" target="_blank" rel="noopener noreferrer">告别 TUI，将任意 CLI Agent 进行 Web 可视化访问</a></span><span class="topic-stats">回复 2 · 收藏 5</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233315" markdown="1">
+<summary>
+<span class="topic-rank">40</span>
+<span class="topic-title">实时双语字幕工具：麦克风拾音、双语对照、自动纪要</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者因英语听力有限，开发了实时双语字幕工具 BiCaption，用于会议场景。工具通过麦克风拾音，不依赖会议软件 API，支持中英、日英等语言对，延迟 2~4 秒，提供双语对照字幕、会后纪要生成（PDF/Markdown/SRT）等功能。免费版每月 2 小时，注册即可用。
+
+### 关键要点
+- **双语对照**：原文与翻译同屏显示，便于理解与学习。
+- **麦克风方案**：兼容线上线下会议，但嘈杂环境识别质量下降。
+- **大模型翻译**：处理口语较好，但偶尔出错，可手动修改纪要。
+- **试用方式**：无需注册可试 120 秒，注册后每月 2 小时免费。
+
+### 评论补充
+- 有用户指出麦克风方案在戴耳机时可能收不到远端声音，建议关闭回声消除或使用虚拟声卡。
+- 导出 SRT 时建议中英分文件，便于剪辑软件使用。
+- 有用户建议直接用豆包等工具听译，但未提供具体对比。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233315" target="_blank" rel="noopener noreferrer">和国外同事开会，一半听得懂一半听不懂，于是做了个实时双语字幕工具</a></span><span class="topic-stats">回复 3 · 收藏 4</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233198" markdown="1">
+<summary>
+<span class="topic-rank">41</span>
+<span class="topic-title">Fiddler Classic 商用限制后的替代工具推荐</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+Fiddler Classic 不再允许商用，开发者需要寻找替代抓包工具。评论中推荐了多个工具，各有特点。
+
+### 关键要点
+- **whistle**：轻量，但拷贝二进制和解析 protobuf 不便。
+- **HTTP Toolkit**：界面友好，适合日常调试。
+- **Reqable**：现代化，多人推荐，但商用许可需自行确认。
+- **mitmweb**：可自定义脚本，但界面简陋。
+- **自研工具**：基于 mitmweb 的 relaycraft.dev 和 relaycore.dev，支持可视化管理和 TUI，但用户量少。
+
+### 评论补充
+- 有用户提到 Reqable 确实不错，现代化新软件。
+- 自研工具作者表示其工具比 whistle 好用，但能力受限于 mitmweb。
+
+建议根据需求选择：若需 protobuf 解析，可考虑 mitmweb 或自研工具；若注重界面，Reqable 或 HTTP Toolkit 更合适。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233198" target="_blank" rel="noopener noreferrer">fiddler classic 不让商用了，有啥好替代吗</a></span><span class="topic-stats">回复 8 · 收藏 2</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233288" markdown="1">
+<summary>
+<span class="topic-rank">42</span>
+<span class="topic-title">AI 读取文档受阻：飞书文档需登录，如何转为 Markdown</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+用户尝试使用 Seedance 2.5 时，发现其使用手册托管在飞书文档（Lark）上，AI 无法直接访问，因为需要登录且页面为动态渲染。用户花费 2 小时研究转换方案，最终通过让 GPT 生成完整项目，下载运行后成功转为 Markdown。
+
+### 关键要点
+
+- 飞书/语雀等文档平台对 AI 不友好：访客模式可人工查看，但 AI 常被拦截，原因可能是防爬虫机制或动态渲染。
+- 解决方案：使用浏览器插件（可能报错）、GitHub 开源项目（依赖环境）、或让 AI 生成转换工具。
+- 火山方舟官方文档提供 Markdown 格式，但需人工复制；AI 无法直接获取动态渲染页面内容。
+
+### 评论补充
+
+- 有用户指出火山方舟文档有 Markdown 版本，但需登录态。
+- 建议使用 `claude --chrome` 或 CDP/Playwright 等工具模拟真人访问，绕过拦截。
+- 飞书提供 `lark-cli` 供 AI 使用，但可能仍需登录。
+- 有用户将 Markdown 文档放在 GitHub 上，便于 AI 访问。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233288" target="_blank" rel="noopener noreferrer">简要吐槽 ai 的文档都不是 ai 友好的</a></span><span class="topic-stats">回复 11 · 收藏 1</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233308" markdown="1">
+<summary>
+<span class="topic-rank">43</span>
+<span class="topic-title">macOS 桌面歌词工具 Lyrics Plus 开源，支持 Apple Music 和 Spotify</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者因在 macOS 上找不到类似 Windows QQ 音乐的双排竖向歌词工具，开发了 Lyrics Plus 并开源。该工具支持 Apple Music 和 Spotify 的歌词同步，提供多种布局（双排、竖排、横排）、背景样式（透明、纯色、玻璃）、翻译/音译/逐词卡拉 OK 效果，以及本地 LRC 导入、离线缓存、多显示器、置顶、鼠标穿透和全局快捷键等功能。免费无广告，支持 macOS 13+，兼容 Apple Silicon 和 Intel Mac。
+
+### 关键要点
+- 下载与源码：GitHub Releases 和仓库（见原帖链接）。
+- 技术实现：目前通过 AppleScript 适配播放器，通用播放器支持仍在研究中。
+- 对比现有方案：作者参考了 lyricX，但 lyricX 不支持播放停止后自动退出，作者希望改进。
+
+### 评论补充
+- 用户 ffalex 提到 lyricX 有 fork 维护，但本地播放器不支持随应用自动启动和退出。
+- 作者回应会考虑支持 Petrichor 播放器，并研究通用适配。
+- 评论者期待作者实现自动启停功能，并希望完成后通知。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233308" target="_blank" rel="noopener noreferrer">给自己做了一个 macOS 桌面歌词工具，支持 Apple Music 和 Spotify，顺手开源了</a></span><span class="topic-stats">回复 5 · 收藏 3</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233306" markdown="1">
+<summary>
+<span class="topic-rank">44</span>
+<span class="topic-title">开发被迫直接对接用户需求变更，如何应对与自保</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+在草台班子或管理缺位的团队中，开发常被推去直接对接用户，面临需求随意变更、同事挖坑等问题。应对策略包括：明确自身权限、保留沟通记录、避免独自决策，以及必要时考虑离职。
+
+### 关键要点
+- **明确权限**：确认自己是否有权决定需求做不做，避免背锅。
+- **保留证据**：所有沟通和变更留痕，便于甩锅。
+- **只对接不决策**：记录用户需求，汇报领导后再反馈，让用户直接找领导。
+- **评估环境**：若长期如此且无改善，考虑跳槽。
+
+### 评论补充
+有用户分享类似经历，称在外包公司一人承担多个项目，精力被大量消耗。也有建议利用机会转型为客户经理或单干，但需考虑平台依赖。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233306" target="_blank" rel="noopener noreferrer">领导不管事怎么办？把所有问题都扔给我，让我和用户对接，很痛苦</a></span><span class="topic-stats">回复 11 · 收藏 1</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233341" markdown="1">
+<summary>
+<span class="topic-rank">45</span>
+<span class="topic-title">DeepSeek 会话离线备份工具 dskeeper 使用指南</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+作者开发了开源工具 `deepseek-keeper`（dskeeper），用于离线备份和浏览 DeepSeek 网页版历史会话。该工具可将会话导出为 Markdown 文件，便于迁移到 Obsidian/Notion 等笔记工具，并支持后续用 LLM 二次提炼。
+
+### 关键要点
+
+- 安装：`pip install deepseek-keeper` 或 `uv tool add deepseek-keeper`
+- 导出数据：在 DeepSeek 网页端设置 → 数据管理 → 导出所有历史对话，得到 zip 文件
+- 导入：`dskeeper import ~/Downloads/deepseek_data.zip`
+- 浏览：终端用 `dskeeper list` / `dskeeper stats`，浏览器用 `dskeeper serve`
+- 项目地址：https://github.com/urumchi/deepseek-keeper
+
+### 评论补充
+
+- 有用户询问处理几百兆历史会话时是否会卡顿，作者未回复，性能表现待验证。
+- 作者对比了其他平台：ChatGPT 导出邮件延迟一周未收到，Gemini 导出任务结果为空，豆包不支持批量导出，凸显 DeepSeek 的开放性。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233341" target="_blank" rel="noopener noreferrer">离线浏览 DeepSeek 会话</a></span><span class="topic-stats">回复 3 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233245" markdown="1">
+<summary>
+<span class="topic-rank">46</span>
+<span class="topic-title">台式机开机自检灯红红红绿并反复重启的排查思路</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+楼主自组台式机长期开机后无法启动，症状为开机时 CPU/DRAM/GPU/BOOT 灯依次红红红绿，风扇转动，随后短暂重复并伴随短促蜂鸣。可能诱因包括空调滴水导致插板短路，或踢到机箱。
+
+### 关键要点
+- **优先查阅主板说明书**：自检灯和蜂鸣声对应特定故障，是排查起点。
+- **常见操作**：重新插拔内存条、显卡、硬盘等易松动部件，用橡皮擦清洁金手指；扣 BIOS 电池放电。
+- **最小系统法**：仅保留主板、CPU、内存，拔掉硬盘、显卡等外设，尝试进入 BIOS。
+- **替换测试**：若无备用硬件，可尝试更换电源线或电源。
+
+### 评论补充
+- 多位用户反馈类似故障多由内存条松动或氧化导致，重插或擦拭可解决。
+- 有案例显示硬盘接口问题（直连 CPU 的接口）会导致无法开机，更换插口或移除故障盘可点亮。
+- 若上述方法无效，可能为主板或 CPU 损坏，需送修或更换。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233245" target="_blank" rel="noopener noreferrer">台式机突然无法开机，主板除 BOOT 外都亮红灯？求排查思路</a></span><span class="topic-stats">回复 10 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233213" markdown="1">
+<summary>
+<span class="topic-rank">47</span>
+<span class="topic-title">非码农在 Windows 上用 AI 配置软路由的可行方案</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+主题讨论非码农在 Windows 上使用 AI 配置软路由和编写规则脚本的可行方法。核心建议是：优先使用纯网页聊天引导可视化设置，避免直接让 AI 全权操作；若使用 Agent 客户端，需谨慎授权，并建议在独立管理员账户下操作，以防网络中断或配置事故。
+
+### 关键要点
+
+- **网页聊天最安全**：整理需求后让 AI 逐步指导，无需安装和脚本，但过程繁琐。
+- **Agent 客户端可选**：如 opencode、workbuddy 等，搭配 DeepSeek API 成本低，但需注意授权和网络中断风险。
+- **成本参考**：使用 DeepSeek 等 API，配置软路由可能仅需 1 元左右。
+- **安全建议**：不要完全托管权限，避免事故后难以复原。
+
+### 评论补充
+
+- 有用户推荐 workbuddy 转接 DeepSeek，体验较好。
+- 有用户建议使用免费模型（如 hy3）或 ChatGPT 搭配 DeepSeek。
+- 需明确“规则脚本”具体指 Clash 规则还是路由表等，以便针对性配置。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233213" target="_blank" rel="noopener noreferrer">非码农如何在 Windows 上选择 Ai 帮忙配置软路由，写规则脚本呢？</a></span><span class="topic-stats">回复 10 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233287" markdown="1">
+<summary>
+<span class="topic-rank">48</span>
+<span class="topic-title">iPhone 17 Pro 购买时机与内存需求分析</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+楼主手持 iPhone 13，因杀后台、续航差考虑换机，纠结现在买 17 Pro 还是等 18 Pro。主要需求是 12G 内存和长焦，预算有限，追求性价比。
+
+### 关键要点
+- **内存**：18 标准版可能仍为 9G 内存，12G 下放无望，因此 17 Pro 是当前唯一选择。
+- **价格趋势**：多数回复认为 18 发布后 17 系列不会大幅降价，反而可能因 18 涨价而跟涨；二手市场已开始涨价。
+- **购买建议**：若急需换机，建议趁早入手 17 Pro；若不急，可等 18 发布后观察，但降价空间有限。
+- **替代方案**：有用户建议先换官方电池撑到 2027 年底，等端侧 AI 成熟后再换新机。
+
+### 评论补充
+- 有用户指出 18 标准版为 9G 内存，印证 12G 下放无望。
+- 二手市场已涨价，国补退坡可能影响后续价格。
+- 部分用户认为 18 Pro 涨价幅度大，17 Pro 可能跟涨。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233287" target="_blank" rel="noopener noreferrer">现在这个时间收/买 17pro 512 还是等等看？理性讨论。</a></span><span class="topic-stats">回复 10 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233316" markdown="1">
+<summary>
+<span class="topic-rank">49</span>
+<span class="topic-title">Mac Mini 光纤 HDMI 直连电视替代 NAS 与 Apple TV 的实践</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+作者分享用 Mac Mini 通过光纤 HDMI 线直连电视，替代 NAS + Apple TV 的方案。装修时预埋 10 米光纤 HDMI，从电脑桌连到电视柜，Mac Mini 接 4K 显示器，拓展坞连电视，开启屏幕复制即可双屏显示。键鼠用手机局域网 APP 模拟触摸板和键盘，操作效率高。片源直接用浏览器看 B 站、抖音，磁力和网盘资源用 115 和夸克软件播放，无需网盘挂载。
+
+### 关键要点
+- 光纤 HDMI 线长距离传输稳定，支持 4K 双屏复制。
+- 手机 APP 可替代体感鼠标，操作效率优于 Apple TV 遥控器。
+- 浏览器直接看视频，省去第三方反代和网盘挂载的麻烦。
+- 缺点：无杜比视界，不支持 CEC，锁屏后电视延迟息屏。
+
+### 评论补充
+- 有用户指出 Mac 播放 DV 格式没问题，取决于电视支持。
+- 评论提到老笔记本接电视也可行，但家人使用困难，尤其老人不会操作。
+- 有用户推荐付费 B 站客户端 Cheers，但近期播放不稳定。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233316" target="_blank" rel="noopener noreferrer">Mac Mini HDMI 直连电视，几乎代替了 Nas+Apple TV</a></span><span class="topic-stats">回复 8 · 收藏 0</span></p>
+
+</div>
+
+</details>
+
+<details class="topic-card" data-topic-id="1233233" markdown="1">
+<summary>
+<span class="topic-rank">50</span>
+<span class="topic-title">macOS 用户 Windows 快捷键映射方案：AHK 脚本与 Keychron 配置</span>
+</summary>
+
+<div class="topic-content" markdown="1">
+
+<div class="topic-article" markdown="1">
+
+### 核心内容
+
+作者分享了一套自用一年多的 AutoHotkey (AHK) 脚本，用于在 Windows 上模拟 macOS 快捷键，解决多台 JIS 布局 Windows 笔记本与 Mac 键盘习惯冲突的问题。核心思路是：
+
+- 使用布局接近 Mac 的键盘（如 Keychron B1 Pro），并物理交换左侧 Ctrl 和 Alt。
+- 通过 AHK 脚本实现常用 macOS 快捷键映射，覆盖 99% 使用场景。
+
+### 关键要点
+
+- **脚本地址**：Gist 链接（见原文），已用 GPT 整理代码结构并补全注释，便于按需修改。
+- **硬件前提**：键盘需左侧无 Fn 键，且支持交换 Ctrl/Alt（Keychron 可用 Launcher 改，其他键盘可尝试注册表或 PowerToys）。
+- **实用映射**：鼠标中键模拟四指上滑；资源管理器中 Enter 重命名文件；单独按 Ctrl 不聚焦菜单栏；解决 Teams 快速切换应用卡死问题（疑似 SendInput 过快）。
+- **注意事项**：脚本包含个人习惯设定，需自行调整；作者仅在配置相近的三台工作机上测试。
+
+### 评论补充
+
+评论推荐了 [Kinto.sh](https://kinto.sh/) 作为替代方案，作者表示会参考其代码。
+
+</div>
+
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233233" target="_blank" rel="noopener noreferrer">给用惯了 macOS 快捷键但又必须重度使用 Windows 的朋友分享自己在用的快捷键映射方案</a></span><span class="topic-stats">回复 2 · 收藏 2</span></p>
 
 </div>
 
