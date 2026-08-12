@@ -1,27 +1,27 @@
 ---
 layout: report-home
 title: "V2EX 每日热点回顾"
-date: 2026-08-11 08:30:00 +0800
+date: 2026-08-12 08:30:00 +0800
 categories: [v2ex, daily-report]
 status: success
-target_date: 2026-08-11
-generated_at: "2026-08-12 06:57:15"
-summary: "昨日主题 293 个，过滤 105 个，DeepSeek 分析 188 个，保留高价值内容 56 个。"
-count_all: 293
-count_excluded: 105
-count_included: 188
+target_date: 2026-08-12
+generated_at: "2026-08-13 06:55:49"
+summary: "昨日主题 261 个，过滤 78 个，DeepSeek 分析 183 个，保留高价值内容 50 个。"
+count_all: 261
+count_excluded: 78
+count_included: 183
 count_high_signal: 0
-count_valuable: 56
-report_url: "/2026/08/11/"
-data_url: "/data/2026-08-11.json"
+count_valuable: 50
+report_url: "/2026/08/12/"
+data_url: "/data/2026-08-12.json"
 ---
 
-# V2EX 2026-08-11 昨日新帖报告
+# V2EX 2026-08-12 昨日新帖报告
 
-<details class="topic-card" data-topic-id="1233470" markdown="1">
+<details class="topic-card" data-topic-id="1233726" markdown="1">
 <summary>
 <span class="topic-rank">1</span>
-<span class="topic-title">电梯低频噪音维权全记录：从自写监控到法院诉讼</span>
+<span class="topic-title">底层人难以完成原始资本积累的多重原因讨论</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -29,31 +29,31 @@ data_url: "/data/2026-08-11.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主因卧室电梯低频噪音困扰近一年，从程序员视角自写监控程序定位声源，历经物业、12345、市监局、社区协调无果，自费CMA检测后起诉开发商与物业，目前进入司法鉴定阶段。
+主题讨论底层人为何难以完成原始资本积累，主帖观察到农村出身者收入增加后倾向于消费（换手机、买车、买房），质疑这是否阻碍积累。评论从多角度反驳或补充，形成对消费与积累关系的深入探讨。
 
 ### 关键要点
-- **自建监控**：用麦克风+程序记录噪音时间、频率，结合楼道观察锁定电梯运行关联，但未校准，不能替代专业检测。
-- **检测差异**：电梯年检合格≠卧室噪声达标；检测地点（机房/轿厢 vs 卧室）直接影响结果。
-- **维权成本**：已花费500元诊断+4600元CMA检测，司法鉴定报价1.5万元，且法院曾误将申请人写错。
-- **证据留存**：每次沟通留文字记录，保存工单、视频、聊天记录，投诉时明确要求“夜间、卧室、结构传播”检测。
+- **消费并非主因**：多数评论指出，手机、车、房属于刚需或提升幸福感，并非过度消费；不消费也未必能积累资本（如回复 17964185、17964232）。
+- **资本积累的本质**：原始积累依赖剥削或掠夺，普通工人靠攒钱难以实现；存款会被通胀稀释，越存越穷（回复 17964212、17964227）。
+- **缺乏生产资料与认知**：底层人接触不到生产资料，投资风险高，缺乏引导和试错机会（回复 17964227、17964397）。
+- **工资决定论**：工资水平接近生活底线时，除非极度压缩生活标准，否则难以储蓄（回复 17964249）。
 
 ### 评论补充
-- 有用户建议媒体曝光，称网信办监测到舆情后当天上门处理（@Laobai）。
-- 有用户分享类似经历，维保只解决电梯运行问题，不处理噪音（@MokeSher）。
-- 楼主回应：问题可能是导轨/导靴撞击经支架传递，非共振；有维权群可分享资料。
+- 有评论指出，过早购买大件破坏现金流，忽略复利（回复 17964328）。
+- 也有观点认为，消费是目标驱动的正常行为，不应被苛责（回复 17964364）。
+- 个别案例显示，即使节俭攒钱，若无投资渠道，效果有限（回复 17964397）。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233470" target="_blank" rel="noopener noreferrer">被电梯低频噪音折腾近一年，我从写程序定位一路走到了法院</a></span><span class="topic-stats">回复 109 · 收藏 55</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233726" target="_blank" rel="noopener noreferrer">底层人为什么完不成原始资本积累？</a></span><span class="topic-stats">回复 171 · 收藏 47</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233438" markdown="1">
+<details class="topic-card" data-topic-id="1233790" markdown="1">
 <summary>
 <span class="topic-rank">2</span>
-<span class="topic-title">易胖体质有科学依据：遗传与个体差异影响肥胖</span>
+<span class="topic-title">广东中山单身程序员被父母逼买房：家底100万，90万房产是否该入手？</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -61,30 +61,31 @@ data_url: "/data/2026-08-11.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主针对减肥话题中常见的“能量守恒”简单论调，引用多篇权威论文论证“易胖体质”（肥胖易感性）的存在，强调个体差异和遗传因素在肥胖中的作用。
+楼主在广东中山工作5年，存款50万，月消费1k，理财月入1-3k，公积金2k。父母愿出50万资助买房，但社保不足，老家无退路。看中90万房产，纠结是否掏空家底购买。
 
 ### 关键要点
-- 遗传对肥胖影响显著：双生子研究显示 BMI 遗传率约 61%，腰围遗传率约 75%。
-- 能量消耗存在个体差异：不同人脂肪储存量差异可达约 10 倍，过度喂养实验中体重增加因人而异。
-- 中国官方共识：超半数成年人和约 20% 学龄儿童超重或肥胖，遗传被列为重要因素。
+- **财务现状**：个人存款50万，父母存款50万，合计100万；月消费低，理财收益可覆盖部分月供。
+- **购房成本**：目标房总价约90万，首付可凑60万（各出30万），贷款30万，公积金+理财可覆盖月供。
+- **风险考量**：掏空家底后抗风险能力为零，父母退休后医疗养老无保障；房价仍有下跌可能。
 
 ### 评论补充
-- 有评论指出，控制摄入仍是减肥核心，易胖体质不改变“摄入小于消耗”的基本原则。
-- 部分评论认为楼主可能为肥胖找借口，但多数认可遗传因素的存在。
-- 楼主分享个人经历：曾通过控制饮食和药物（替尔泊肽）减重，强调科学方法的重要性。
+- **支持购买**：若确定定居中山，可买；首付不必全用父母钱，留10万应急；公积金贷款压力小。
+- **反对购买**：单身且工作不稳定，买房限制发展；现金在手随时可买，不必急于一时。
+- **折中方案**：若为父母买，可考虑50万左右低价房；若为自己买，则需谨慎。
+- **关键问题**：需明确买房目的（自住还是给父母），以及未来工作地点是否稳定。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233438" target="_blank" rel="noopener noreferrer">在“减肥”这个话题下刷“能量守恒”的人，可能要刷新一下认知了</a></span><span class="topic-stats">回复 196 · 收藏 10</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233790" target="_blank" rel="noopener noreferrer">父母一直逼我买房怎么办</a></span><span class="topic-stats">回复 142 · 收藏 17</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233505" markdown="1">
+<details class="topic-card" data-topic-id="1233735" markdown="1">
 <summary>
 <span class="topic-rank">3</span>
-<span class="topic-title">从100kg到70kg：生活化减脂与个人形象改造全记录</span>
+<span class="topic-title">MacBook Pro M1 Pro 五年后仍能打：用户反馈与升级建议</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -92,31 +93,37 @@ data_url: "/data/2026-08-11.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者分享了自己从100kg减至70kg的完整经历，强调生活化减脂和长期主义，反对普通人滥用减肥药。核心观点是：减肥的底层逻辑是改变生活方式，而非单纯降体重。
+
+V2EX 用户讨论 MacBook Pro M1 Pro（2021 年 10 月发售）在五年后的使用体验，普遍认为其性能依然强劲，但内存和存储成为主要瓶颈。
 
 ### 关键要点
-- **饮食方案**：工作日外食为主，早餐鸡蛋+玉米+蛋白粉，午餐沙县鸭腿饭/鸡腿饭（不淋汁），晚餐盒马沙拉+蛋白粉+馒头；周末可吃火锅等，但优先低脂肉类。
-- **运动安排**：采用五分化训练，每周五次，参考抖音博主“大志真的很努力”的跟练计划；改为晨练后精神状态更好。
-- **作息管理**：早睡早起，六点起床训练，十点前睡觉，避免熬夜。
-- **形象改造**：发型、皮肤（医院治疗痘痘）、穿搭（线下试衣）等细节。
+
+- **性能持久**：多位用户表示 M1 Pro 在日常开发、编译等场景下依然流畅，甚至优于部分新台式机（如 12 代 i7 编译项目快 3 倍）。
+- **内存限制**：16GB 版本在运行本地小模型或多任务时内存不足，32GB 版本更从容。
+- **存储不足**：512GB 常需清理，建议至少 1TB。
+- **系统升级谨慎**：部分用户因担心卡顿而停留在旧系统，导致新应用无法使用。
+- **价格影响**：近期二手涨价，部分用户推迟换机计划。
 
 ### 评论补充
-- 有评论指出自律应从微习惯开始，避免目标过多导致破罐破摔。
-- 作者回应找到女友的关键在于每周外出、培养摄影和摩托等爱好。
-- 关于滚针去痘印，作者确认用于色素痘印，但需配合涂抹产品。
+
+- 有用户提到 M1 芯片接双 4K 显示器时温度可达 80 度，散热一般。
+- 对比 M2，部分用户认为 M1 更值，后悔升级。
+- 电池续航是短板，拔电后不足 1 小时。
+
+综合来看，M1 Pro 仍适合开发等场景，但建议选择 32GB 内存和 1TB 以上存储，并谨慎升级系统。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233505" target="_blank" rel="noopener noreferrer">重生之从牡丹去春熙路做手工到找到一个爱自己的女朋友，从减肥开始！</a></span><span class="topic-stats">回复 85 · 收藏 31</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233735" target="_blank" rel="noopener noreferrer">闲聊，感觉 MacbookPro M1Pro 还是很能打，这都过去 5 年了</a></span><span class="topic-stats">回复 128 · 收藏 4</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233414" markdown="1">
+<details class="topic-card" data-topic-id="1233743" markdown="1">
 <summary>
 <span class="topic-rank">4</span>
-<span class="topic-title">35岁后健身经验：力量训练与坚持的收益</span>
+<span class="topic-title">国内低风险理财方式讨论：美元定存与结构性存款的局限</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -124,30 +131,29 @@ data_url: "/data/2026-08-11.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-主题讨论35岁后开始健身的动机与效果，评论中多位用户分享了个人锻炼经历和健康改善数据，提供了可参考的健身方法与注意事项。
+楼主寻求国内低风险高收益理财方式，但评论普遍指出风险与收益成正比，不存在绝对低风险高收益的产品。主要讨论集中在美元定存和结构性存款。
 
 ### 关键要点
-- **健康改善实例**：有用户通过跑步消除脂肪肝，尿酸从700降至430，体重从168斤减至140斤；另有用户跑步两年、健身半年后，三高指标恢复正常。
-- **训练方法建议**：多数人推荐力量训练与有氧结合，强调力量训练的重要性，如三分化训练（胸背腿轮换）可改善体态，即使体重不变也能减少小肚子。
-- **坚持与恢复**：锻炼需长期坚持，同时注意休息，过度训练可能降低免疫力；有用户因节食快速减重导致皮肤松弛，后通过力量训练增肌改善。
+- **美元定存**：年利率约3.5%，但受汇率影响大。有用户实测：去年9月买入2038美元，现为2097美元，但换回人民币仍亏损；另有用户指出美元汇率从7.3跌至6.74，跌幅约8%，汇兑损失抵消收益。
+- **结构性存款**：利息已降至1.几，不到2%，吸引力有限。
+- **风险提示**：有评论提醒，若有人承诺低风险高收益，可能是骗局，如P2P暴雷案例。
 
 ### 评论补充
-- 有用户分享从183斤减至140斤再增肌至170斤的经历，强调力量训练对体型塑造的作用。
-- 半月板损伤用户通过一年臀腿训练恢复臀围，说明针对性训练对康复有效。
-- 部分用户提到健身房年卡使用率低，提醒健身需自律。
+- 有用户建议通过支付宝高端俱乐部购买QDII-FOF（如华泰安锐1号），但门槛高，且需注意风险。
+- 多数评论认为，低风险高收益不可兼得，需根据自身情况权衡。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233414" target="_blank" rel="noopener noreferrer">中登有多少在健身的...</a></span><span class="topic-stats">回复 127 · 收藏 19</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233743" target="_blank" rel="noopener noreferrer">在国内有哪些风险相对比较低、收益相对比较高的理财方式？</a></span><span class="topic-stats">回复 43 · 收藏 18</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233521" markdown="1">
+<details class="topic-card" data-topic-id="1233755" markdown="1">
 <summary>
 <span class="topic-rank">5</span>
-<span class="topic-title">阿里云OSS误删数据恢复经验与备份教训</span>
+<span class="topic-title">AI时代技术人员的学习意义与方法</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -156,32 +162,33 @@ data_url: "/data/2026-08-11.json"
 
 ### 核心内容
 
-主题涉及阿里云 OSS 数据被误删的紧急处理与恢复可能性。发帖者同事误将存放客户合同附件和收款截图的 OSS Bucket 当作代码部署盘清空，阿里云工程师表示无法恢复。
+在 AI 时代，技术人员的学习意义并未消失，而是发生了转变。核心观点是：学习是为了更好地使用 AI，并对其产出负责。
 
 ### 关键要点
 
-- **恢复可能性**：若删除后未对磁盘进行写入操作，可尝试复制云硬盘后使用数据恢复软件扫描，有概率找回部分数据（如评论 #17961232 的经验）。
-- **OSS 特定情况**：发帖者确认是 OSS Bucket，未开启版本控制（因开启 HDFS 服务受限），删除后恢复难度极大，需联系阿里云进一步确认。
-- **备份教训**：重要数据应定期本地备份（如每周），云服务应开启快照或版本控制，避免单点风险。
+- **学习内容变化**：从死记硬背细节转向理解基本原理和架构，以便与 AI 深度对话、提出精准问题。
+- **AI 使用需要技术栈说明**：明确技术栈和版本（如 folly v1.23 + grpc v2.1）能显著提升 AI 产出质量，仅描述业务需求可能导致结果偏差。
+- **学习提升判断力**：学习让你有能力评估 AI 方案的可靠性，尤其在关键场景（如高并发）中，最终责任仍由人承担。
+- **学习与 AI 不冲突**：类比专业赛车手与普通司机，学习是增强自身能力，AI 是工具，两者正交。
 
 ### 评论补充
 
-- 评论指出权限管理不当是根源，应收回不必要权限，删除操作需二次确认（#17961163）。
-- 有用户分享类似误操作云硬盘后通过云服务商找回大部分数据的经历（#17961232）。
-- 多数评论认为若无备份，恢复无望，需做好最坏打算。
+- 有观点认为，学习是为了“反驳 AI”或“读懂 AI 的废话”，即识别 AI 输出中的错误和隐藏问题。
+- 也有开发者指出，AI 可以让你跳过“理解”直接“实现”，但某些场景仍需深入理解，否则项目会变成黑盒，缺乏安全感。
+- 学习方式可以“不求甚解”，但核心是保持对技术本质的把握，以便在需要时深入。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233521" target="_blank" rel="noopener noreferrer">死了，客户的数据被删光了</a></span><span class="topic-stats">回复 127 · 收藏 13</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233755" target="_blank" rel="noopener noreferrer">在现在 AI 时代，技术人员所谓的“学习”，究竟是在学什么？还有没有学习的意义？</a></span><span class="topic-stats">回复 44 · 收藏 9</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233411" markdown="1">
+<details class="topic-card" data-topic-id="1233729" markdown="1">
 <summary>
 <span class="topic-rank">6</span>
-<span class="topic-title">健身友好食物推荐：高蛋白、低升糖与调味技巧</span>
+<span class="topic-title">基础款是否性价比最高？多案例讨论与选购建议</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -189,32 +196,32 @@ data_url: "/data/2026-08-11.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-主题讨论健身友好的食物，评论提供了大量具体可执行的推荐，涵盖蛋白质、碳水、脂肪和调味品。
+主题讨论“基础款是否性价比最高”，多数回复认为并非绝对，性价比取决于个人需求和使用场景。
 
 ### 关键要点
-- **蛋白质来源**：鸡胸肉、去皮鸡腿、牛腱、虾、鱼类（三文鱼）、水煮蛋。有用户每天水煮400克鸡胸肉，搭配辣椒面或海盐胡椒调味。
-- **碳水选择**：燕麦麸皮、山姆高纤快熟燕麦片（含奇亚籽、亚麻籽，降低升糖系数）、糙米、玉米、红薯、贝贝南瓜、紫薯。
-- **脂肪与纤维**：坚果（优选巴旦木）、西兰花、绿叶蔬菜。
-- **补剂**：甘氨酸镁、肌酸、谷氨酰胺，有用户每天100分钟有氧+90分钟力训，感觉不疲惫。
-- **调味技巧**：贵州木姜子糊辣椒、六婆、翠宏、单山蘸水，可改善无调味蛋白质的口感。
+- **基础款并非总是最优**：如汽车基础款可能缺少关键配置（自动挡、气囊），加一点钱可显著提升体验；手机内存不足（4GB）影响使用。
+- **次顶配常被认为性价比更高**：多位用户指出“比基础款高一档”往往体验提升明显而价格增幅可控。
+- **高频使用物品值得买更好**：耳机、手机等日常用品，基础款可能影响幸福感。
+- **价格歧视策略**：基础款有时是锚点，用于衬托更高配置的性价比。
 
 ### 评论补充
-- 有用户分享减脂增肌成果：从75kg减至60kg，体脂稳定在14%，解锁宽距引体向上，卧推50kg做组，目标9月初实现。
-- 推荐麦当劳双吉牛堡、板烧双蛋、老乡鸡、沙县小吃、跷脚牛肉等便捷选择。
-- 注意控制量，搭配食用。
+- 迪士尼普通票排队时间长，VIP票体验远超价格差；九寨沟VIP门票价格不到普通票两倍，体验提升巨大。
+- 高铁基础款为二等座（无座与二等座同价），商务座体验差异显著。
+- 药店2元维生素片与高价保健品成分相似，基础款性价比高。
+- 建议：钱多买顶配，钱紧选基础款上一档，若仍贵则换品牌。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233411" target="_blank" rel="noopener noreferrer">大家一起分享下对健身友好的食物</a></span><span class="topic-stats">回复 40 · 收藏 37</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233729" target="_blank" rel="noopener noreferrer">生活中任何商品买基础款性价比最高，对吧？</a></span><span class="topic-stats">回复 60 · 收藏 8</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233435" markdown="1">
+<details class="topic-card" data-topic-id="1233750" markdown="1">
 <summary>
 <span class="topic-rank">7</span>
-<span class="topic-title">从赚5万到亏6万：杠杆ETF投资教训与止盈止损纪律</span>
+<span class="topic-title">运营商云服务器与大厂云对比：带宽、BGP与备案经验</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -222,31 +229,35 @@ data_url: "/data/2026-08-11.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主分享投资南方两倍做多海力士（杠杆ETF）从盈利96%到亏损割肉的经历，总结三大错误：不设止盈止损、下跌中加仓、融资加杠杆。评论补充了杠杆ETF不适合长拿、仓位控制、交易纪律等经验。
+
+用户考虑从大厂云迁移到运营商云（如移动云、天翼云）以节省带宽成本，但实际体验和网络质量存在差异。
 
 ### 关键要点
-- **止盈止损纪律**：设定目标后严格执行，贪婪导致利润回吐（如从96%收益跌至亏损）。
-- **杠杆ETF风险**：杠杆ETF不适合长期持有，正股可能反弹但杠杆产品可能归零。
-- **仓位管理**：空仓轻仓应是常态，重仓猛干风险高；买入卖出后观察验证。
-- **人性弱点**：卖飞比亏钱更难受，但纪律比情绪重要。
+
+- **带宽价格**：大厂云带宽较贵（如10M固定带宽年费约6000元），运营商云官网价格看似更低，但实际可能不便宜，且存在跨网限速问题。
+- **网络线路**：大厂云通常提供BGP多线接入，电信、联通、移动用户均能获得较好速度；运营商云多为单线，跨网访问可能慢，需提工单优化。
+- **服务质量**：运营商云（国企）流程繁琐，试用申请慢，但备案方便；大厂云有SLA保障，故障赔偿明确。
+- **成本优化**：若仅需展示型应用，可考虑按流量计费或托管至运营商机房，年成本可降至几百元。
 
 ### 评论补充
-- 有评论者分享同样操作但通过及时止损和抄底盈利21万港币，说明纪律和时机的重要性。
-- 建议顶部大阴线不修复先减半仓，控制仓位，多看少动。
-- 有观点认为亏损经历无参考价值，核心是控制欲望，但多数认同止损止盈的必要性。
+
+- 有用户使用移动云数月，除便宜外无其他优点，电信网络访问可能慢。
+- 大厂BGP因直接与集团谈判，网络优先级高，质量优于运营商单线。
+- 运营商不同部门KPI导致自家带宽也需付费，且质量不如公有云。
+- 备案方面，域名备案后即可使用CDN，与服务器所在云无关。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233435" target="_blank" rel="noopener noreferrer">聊聊我从赚 5 万到亏 6 万的的经历</a></span><span class="topic-stats">回复 63 · 收藏 23</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233750" target="_blank" rel="noopener noreferrer">换运营商云服务器好吗？</a></span><span class="topic-stats">回复 37 · 收藏 6</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233472" markdown="1">
+<details class="topic-card" data-topic-id="1233718" markdown="1">
 <summary>
 <span class="topic-rank">8</span>
-<span class="topic-title">家庭资产配置实践：国债纳指黄金红利均分年化11%</span>
+<span class="topic-title">Linux 版 Codex 发布：安装与使用要点</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -254,32 +265,31 @@ data_url: "/data/2026-08-11.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主分享管理全家资产3年的经验：23年说服妻子投入嫁妆，最初计划全仓四大行吃股息，但24年涨幅超预期，25年打破纪律卖出。之后转向大类资产配置，将资金均分于国债、纳指、黄金、红利，每年再平衡。自建工具回测显示年化11%，最大回撤30%。
+OpenAI 发布了 Linux 版 Codex（桌面客户端），用户可通过官网下载。评论确认该版本已可用，并提供了在 WSL 中的安装和配置方法。
 
 ### 关键要点
-- 配置组合：国债、纳指、黄金、红利各25%，每年再平衡。
-- 国债作为蓄水池：盈利时加仓，亏损时提取资金。
-- 纳指是主要收益来源，但当前溢价高，不建议建仓。
-- 回测增加中证1000后年化9%，回撤30%，变化不大。
-- 卖出银行股后，雪球组合至今收益4%，加股息约10%，与当前配置相当。
+- 下载地址：https://openai.com/zh-Hans-CN/codex/（需 Linux 访问）。
+- WSL Ubuntu 安装步骤：下载 deb 包后执行 `sudo apt --fix-broken install chatgpt_amd64.deb`，重启 WSL 后启动。
+- 中文乱码解决：安装 `fonts-noto-cjk` 并刷新字体缓存。
+- 代理问题：Linux 版需在 shell 中设置 `http_proxy`、`https_proxy` 等环境变量，否则界面白屏。
 
 ### 评论补充
-- 有用户建议配置微盘基金（如南方中证2000），但楼主认为时间太短，且配置复杂，倾向简单持有ETF。
-- 评论认可大类资产配置思路，认为适合当前市场。
-- 楼主推荐相关播客：投资ABC、起朱楼宴宾客、财自由、常青藤投资。
+- 桌面版功能强于 CLI：支持长会话搜索、review 窗口、computer use、定时任务、Chat/Work/Codex 模式，且与网页端同步。
+- Arch 用户可通过 AUR 安装。
+- 部分用户反馈缺少控制任意应用的功能。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233472" target="_blank" rel="noopener noreferrer">管理全家资产 3 年，收益率看起来还可以</a></span><span class="topic-stats">回复 18 · 收藏 20</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233718" target="_blank" rel="noopener noreferrer">Linux 版的 Codex 来了</a></span><span class="topic-stats">回复 37 · 收藏 6</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233593" markdown="1">
+<details class="topic-card" data-topic-id="1233770" markdown="1">
 <summary>
 <span class="topic-rank">9</span>
-<span class="topic-title">从157.3kg减到67.5kg：大体重减肥的阶段性经验</span>
+<span class="topic-title">环卫工收入差异：从月入千元到百元，外包与地区差异是主因</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -287,32 +297,30 @@ data_url: "/data/2026-08-11.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主分享从157.3kg减到67.5kg的个人经验，强调大体重减肥应分阶段进行，核心是调整饮食而非极端节食或过早运动。
+主题围绕环卫工收入展开，反驳“环卫工月入1.2万”的片面报道，指出实际收入因地区、外包层级差异巨大。评论中多位用户提供了具体案例：江浙沪某城市垃圾站管理员月薪1400元，街道外包后劳务公司压价；农村环卫工日薪5元或月薪500-700元；也有处理垃圾桶的岗位月入7000元。
 
 ### 关键要点
-- **前期不急于运动**：大体重时跑步易伤膝盖，先从饮食入手。
-- **逐步减少高油高糖食物**：不彻底戒断，让口味自然变化。
-- **学会估算热量**：不必精确称重，但需了解常见食物的热量水平。
-- **正常摄入碳水**：不戒碳水，注重蛋白质和整体营养均衡。
-- **运动作为辅助**：体重下降后再加入低冲击运动，避免“运动后奖励”的误区。
+- **收入差异显著**：城市正规环卫工可能月入数千，但农村或外包岗位低至数百元，甚至日薪5元。
+- **外包是压价主因**：街道外包给劳务公司，层层转包导致实际到手工资远低于岗位预算。
+- **老年劳动力竞争**：低薪岗位仍有大量老年人抢着干，部分通过捡废品补贴收入。
 
 ### 评论补充
-- 有评论质疑数据真实性，楼主回应称体重单位确为kg，并附对比图。
-- 网友讨论“猪瘾”概念，认为控制食欲类似戒瘾，需平衡心理健康与身体健康。
-- 部分用户分享类似经历，强调坚持和习惯养成的重要性。
+- 有评论指出，非互联网行业老板对底层员工月付200元红包，半年结一次款，且不签合同，反映底层劳动权益保障缺失。
+- 网友分享2009年钢琴厂打工月薪800元，全年无休，说明低薪现象长期存在。
+- 部分评论认为网络言论需理性看待，避免因片面信息焦虑。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233593" target="_blank" rel="noopener noreferrer">我从 157.3kg 减到 67.5kg，减肥其实就是戒🐷瘾，看站里好多减肥的帖子有感</a></span><span class="topic-stats">回复 48 · 收藏 6</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233770" target="_blank" rel="noopener noreferrer">作为真正的底层蝼蚁，我想说，今天的环卫工不是人人都拿 1.2w，甚至有的 1000 都没有</a></span><span class="topic-stats">回复 50 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233489" markdown="1">
+<details class="topic-card" data-topic-id="1233747" markdown="1">
 <summary>
 <span class="topic-rank">10</span>
-<span class="topic-title">长沙AI提效工程师：内部贡献难获认可，如何破局</span>
+<span class="topic-title">呼伦贝尔中秋7日游：行程、住宿与避坑指南</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -320,31 +328,32 @@ data_url: "/data/2026-08-11.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主在长沙一家数百人公司，利用业余时间搭建内部 MCP 平台、Skill 平台，接入内部系统，为研发设计 AI 工作流并输出文档，但领导层不重视，调薪无望，外部机会也少。评论指出核心问题：公司只看结果和收益，内部提效若无直接降本增效或创收，难以获得认可；AI 能力本身无壁垒，关键是解决业务痛点。
+中秋去呼伦贝尔看秋景，草已黄但秋色正浓，适合自驾或包车。行程建议以海拉尔为起点，串联莫尔格勒河、额尔古纳湿地、卡线、室韦、黑山头、满洲里、呼伦湖和阿尔山。注意节假日机票住宿贵，可考虑年假错峰。
 
 ### 关键要点
-- **公司视角**：AI 投入需带来可量化的收益（降本、增效、创收），否则视为成本。
-- **个人策略**：应聚焦业务痛点，将 AI 成果与公司利润挂钩，而非单纯展示技术。
-- **职场现实**：内部提效工作常被视为分内职责，领导可能将功劳归己，需注意向上管理。
-- **长沙环境**：产业发展有限，外部机会少，需考虑内部突破或异地机会。
+- **路线推荐**：海拉尔→莫尔格勒河→额尔古纳→室韦→卡线→黑山头→满洲里→呼伦湖→阿尔山，7天可走完。
+- **自驾提示**：沿331国道国界线，路况一般，有坑，避免开太快，不要当头车。
+- **住宿策略**：有车可不住景区内，阿尔山住伊尔施镇更便宜，景区内住天池镇。
+- **预约与门票**：莫尔格勒河小程序免费预约，可自驾进入；未约上可花100元购“牧户游”进入，勿信拉客200元。阿尔山自驾需预约，关注公众号。
+- **装备与季节**：中秋冷，带厚衣服；草原草已黄，大兴安岭秋景更佳，有无人机拍林海更出片。
 
 ### 评论补充
-- 有评论指出，同事可能反感过度分享，影响团队氛围，需注意沟通方式。
-- 有用户提到，类似做法在互联网公司更受重视，传统公司则不然。
-- 有评论建议，若领导不认可，可考虑跳槽至重视 AI 的公司，或转向对外工具开发。
+- 有站友分享去年9月下旬行程文档（飞书链接），推荐哈克崖山、根白线、卡线、额尔古纳湿地、黑山头，认为莫尔格勒河此时不如夏天，可放弃。
+- 部分区域信号差，住宿条件有限，需心理准备。
+- 若时间紧，可考虑只走阿尔山到室韦一线，但7天会赶。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233489" target="_blank" rel="noopener noreferrer">感觉长沙几乎没有岗位了啊</a></span><span class="topic-stats">回复 50 · 收藏 9</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233747" target="_blank" rel="noopener noreferrer">想在中秋节的时候去呼伦贝尔玩 7 天，站友有什么推荐的行程吗？</a></span><span class="topic-stats">回复 16 · 收藏 6</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233477" markdown="1">
+<details class="topic-card" data-topic-id="1233855" markdown="1">
 <summary>
 <span class="topic-rank">11</span>
-<span class="topic-title">上海9929 ECMP低延迟路径：GOST MTCP启动预热方案</span>
+<span class="topic-title">合规高收益理财五条境外路径与风险提示</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -352,31 +361,35 @@ data_url: "/data/2026-08-11.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-针对上海联通9929宽带存在多条4837/9929混合ECMP导致TCP连接RTT波动（快路约33ms，慢路约51ms）的问题，作者提出利用GOST MTCP多路复用特性，在启动阶段通过预热脚本选出低延迟外层TCP并长期复用，避免运行期频繁抽路。
+作者指出境内高收益理财稀缺，十年期国债利率三倍（约5.15%）以上即高风险。合规境外理财有五条路径：
+
+1. **QDII场外基金**：无溢价但限额严重，存在申赎限制和政策解散风险。
+2. **QDII场内ETF**：不限额但溢价高，有政策管制风险。
+3. **港股通**：不限额但有门槛、汇率差、税高；可考虑汇丰、星展、华侨银行替代美元理财。
+4. **跨境理财南向通**：300万额度，需大湾区户籍或社保，产品如易方达纳斯达克基金（管理费0.9%）和美元存款（3个月4%）。
+5. **外资行类ELN理财**：资金不出境，挂钩股票，上涨赚息，下跌被迫接盘，适合大资金。
 
 ### 关键要点
-- **原理**：MTCP将多个逻辑stream复用同一条外层TCP，使ECMP抽路影响从每次连接收敛为仅建立时一次。
-- **配置**：给出前置和远端GOST的MTCP配置，含mux缓冲区参数（如maxStreamBuffer 4MiB）和keepalive设置。
-- **预热脚本**：`mtcp-prewarm.sh`通过`ss -tin`读取minrtt判断快慢路，慢路则`ss -K`踢掉并重连，连续两次确认快路后退出；严格单连接模式，多连接时报错不自动清理。
-- **集成**：提供systemd服务示例，用`ExecStartPost`在启动后自动预热，并加`|| true`避免预热失败导致重启循环。
+- 境内无高收益低风险产品，需通过境外渠道。
+- 黄金、中期国债（5-10年）、低波红利ETF可作为替代。
+- 收益率与主权债券利率挂钩，过高即高风险。
 
 ### 评论补充
-- 有用户指出9929到日本软银等线路也存在类似延迟波动，印证问题普遍性。
-- 评论建议可魔改GOST或重写以提升效率，但作者方案已可复用。
-- 北京联通有每月50元的AS9929叠加包，可作参照测试。
+- 作者拒绝宽基指数（如沪深300），认为不符合国情。
+- 评论指出红利低波ETF可能不分红，需区分红利ETF。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233477" target="_blank" rel="noopener noreferrer">上海 9929 优选低延迟路径： GOST MTCP + ECMP 启动预热</a></span><span class="topic-stats">回复 9 · 收藏 14</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233855" target="_blank" rel="noopener noreferrer">总结下合规的高收益理财路子</a></span><span class="topic-stats">回复 5 · 收藏 9</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233419" markdown="1">
+<details class="topic-card" data-topic-id="1233768" markdown="1">
 <summary>
 <span class="topic-rank">12</span>
-<span class="topic-title">AI中转站低价内幕：掺水、bug号与黑卡号池</span>
+<span class="topic-title">多模型 CLI 选择：Claude Code、Codex、OpenCode 等方案对比</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -384,34 +397,32 @@ data_url: "/data/2026-08-11.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-AI 中转站以极低倍率（如 0.1x）提供 ChatGPT Pro 等套餐，看似亏本，实则通过非正规渠道获利。主帖计算显示，按正价订阅成本，保本倍率远高于实际售价，因此盈利必然依赖其他手段。
+用户询问在拥有多家模型 API 时如何选择 Agent/CLI 工具。主流方案包括：使用各家官方 CLI（如 Claude Code、Codex、QCoder）并手动切换；使用 OpenCode 等统一接入；或使用 Claude Code + cc-switch 等切换工具。评论中推荐了多种工具和集成方式。
 
 ### 关键要点
-
-- **低价来源**：大量使用 bug 号、试用号、黑卡黑冲账号，成本极低，甚至几毛钱一个。
-- **掺水现象**：部分中转站用国产模型（如豆包）冒充 GPT，或通过提示词伪装；官方故障时中转站仍可用，暗示非官方渠道。
-- **稳定性差**：低倍率分组常不稳定，需开高倍率（如 18x）才能使用，且可能随时失效。
-- **盈利模式**：除卖额度外，还可能通过注入工具窃取 API key 获利。
+- **Claude Code + cc-switch**：多位用户作为主力方案，cc-switch 用于切换不同模型。
+- **OpenCode / Pi / OMP**：支持接入多家模型，Pi 可配合 subagent 使用。
+- **Grok Build**：可全接入，无需 cc-switch，但部分用户未使用过。
+- **Cursor + Cursor 助手**：适合 API + key 用户，有用户认为 Codex + Cursor 配合效果最好。
+- **其他方案**：cliproxyapi 集成接口（但存在封号风险）、支持 ACP 协议的 CLI（如 v2ex.com/t/1233249 提到的工具）。
 
 ### 评论补充
-
-- 有评论指出，中转站利用账号重置和月限机制，将额度登完即弃，甚至小时抛。
-- 近期 L 站等社区出现中转站集体暴雷事件，提醒用户谨慎选择。
-- 有用户分享相关分析文章（vectoral.com/blog/token-relay-market），可参考。
+- 有用户建议让 Claude Code 自己调用其他 agents，减少手动切换。
+- 有观点认为日常使用无需大统一，新建 session 时 handoff 提示词即可。
+- 移动端需求可考虑 ZCode 或 Oriveo 等客户端。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233419" target="_blank" rel="noopener noreferrer">算了一笔账， AI 中转站有那么赚钱吗？</a></span><span class="topic-stats">回复 46 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233768" target="_blank" rel="noopener noreferrer">手持多家模型，怎么选 Agent/Cli</a></span><span class="topic-stats">回复 20 · 收藏 9</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233447" markdown="1">
+<details class="topic-card" data-topic-id="1233868" markdown="1">
 <summary>
 <span class="topic-rank">13</span>
-<span class="topic-title">PC 鼠标丢帧排查：回报率、静电、LOD 等可能原因</span>
+<span class="topic-title">Codex 雷达月度复盘：分布式评测与未来计划</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -419,33 +430,33 @@ AI 中转站以极低倍率（如 0.1x）提供 ChatGPT Pro 等套餐，看似�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主遇到鼠标丢帧问题：正常移动时突然卡住约 0.2 秒，断断续续，换过鼠标、系统从 Win10 升到 Win11 均未解决。评论中提供了多种排查方向，但楼主尚未确认具体原因。
+
+作者运营 Codex 雷达站（codexradar.com）已近一个月，该站通过 SWE 基准测试持续监测 OpenAI 模型智商，月活达 40 万，收到约 12 万美元的 token 捐赠。项目源于对 tibo 重置概率的分析，后扩展至模型降智监测。
 
 ### 关键要点
-- **回报率过高**：有用户反馈 4K/8K 回报率可能导致卡顿，调低可解决；楼主当前 1000Hz，可尝试降至 500Hz。
-- **静电问题**：笔记本用户通过关机长按电源键释放静电解决，楼主主机在地毯上，可能缺乏地线。
-- **LOD 设置**：鼠标垫不平整时，调整鼠标的抬升距离（LOD）可能改善。
-- **其他因素**：USB 接口、接触不良、CPU 瞬时高占用、SSD 卡顿、远程控制软件驱动（如向日葵）等也可能导致类似问题。
+
+- 使用多个 20x 账号每日运行 SWE 评测，拒绝中转 token 以保证数据准确性。
+- 分布式雷达站允许用户贡献 token 参与具体题目评测，提升实时性。
+- 未来计划设计更贴合实际工程应用的测试集，并引入前端工程能力测试（如庞贝副本拼图测试）。
 
 ### 评论补充
-- 有用户提到蓝牙鼠标待机后恢复会卡顿，但楼主为有线鼠标。
-- 建议查看系统日志报错，或更换硬盘重装系统进行排除。
-- 部分用户表示调低回报率后问题解决，但楼主尚未验证。
 
-＞ 注意：以上均为网友经验，楼主问题未最终解决，建议按优先级尝试：调低回报率、检查静电与地线、调整 LOD、排查软件驱动。
+- 用户普遍反馈网站实用，每日使用。
+- 有评论指出代码实现能力与真实应用体感存在差异，尤其 luna max 和 xhigh 模型。
+- 作者回应称正在探索视觉理解等新评测维度，并欢迎用户交流建议。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233447" target="_blank" rel="noopener noreferrer">求助 PC 鼠标丢帧问题，困扰了几个月了</a></span><span class="topic-stats">回复 55 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233868" target="_blank" rel="noopener noreferrer">Codex 雷达上线一段时间了,做个月度复盘</a></span><span class="topic-stats">回复 25 · 收藏 7</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233557" markdown="1">
+<details class="topic-card" data-topic-id="1233772" markdown="1">
 <summary>
 <span class="topic-rank">14</span>
-<span class="topic-title">影院特效厅选择与观影团参与指南</span>
+<span class="topic-title">写强类型数据库选 Go 还是 Rust：社区观点与建议</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -453,32 +464,36 @@ AI 中转站以极低倍率（如 0.1x）提供 ChatGPT Pro 等套餐，看似�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-本文分享了影院观影的实用经验，涵盖暑期档影片、特效厅选择、座位挑选及观影团参与方式。作者偏好 IMAX，并给出选择优先级：IMAX GT ＞ 二代激光 ＞ 三代激光 ＞ 氙灯，同时提醒注意画幅（如 1.43、1.85、2.39）对特制影片的影响。杜比影院需认准“杜比影院”字样（非仅杜比全景声），名单可通过“Dolby One”小程序查询。其他特效厅如 CINITY LED 性价比尚可，但多数噱头大于实际。座位建议选择中后排中间，避免按摩椅位置。
+楼主计划用 Go 或 Rust 编写强类型关系型数据库，因优化 DSL 接近数据库实现。社区讨论聚焦语言选择，主要观点如下：
+
+- **Rust 适合高性能数据库**：多位用户认为数据库需高并发低延迟，含 GC 的语言（如 Go）会导致周期性停顿，不适合。Rust 性能上限高，但需正确心智模型，否则可能适得其反。
+- **Go 更易上手**：楼主熟悉 Go，且 Go 对开发者友好，AI 时代审代码更轻松。有用户建议练手用 Go，生产用 Rust。
+- **C# 作为替代**：有用户推荐 C#，认为其有 GC 便于快速迭代，后期可用特性优化性能，上限接近无 GC 语言。
+- **混合架构**：建议执行引擎用 Go，存储引擎用 Rust。
+- **项目命名**：原项目名 xdb 与多个项目重名，已改为 NetbaDB，但被指出谐音不佳。
 
 ### 关键要点
-- **IMAX 选择**：优先 IMAX GT 和激光厅，画幅匹配很重要，如《奥德赛》适合 70mm 或 IMAX GT。
-- **杜比影院**：认准“杜比影院”认证，全国数量少，票价高，但画质音效佳。
-- **观影团**：可获更低票价、周边、更好观影环境，但需遵守规则（禁屏摄、喧哗）。
-- **实用工具**：影院特效厅查询网站 cinema.gaoliang.me，文章参考 sspai.com/post/112380。
+- 若追求极致性能，优先 Rust；若注重开发效率和可维护性，选 Go。
+- 数据库开发中，GC 延迟是重要考量，无 GC 语言更受青睐。
+- 项目命名需避免重名和负面谐音，如 NetbaDB 被调侃为 "net bad db"。
 
 ### 评论补充
-- 有用户反映 IMAX 音量过大（《奥德赛》达 100-110 分贝），建议注意听力保护。
-- 部分 IMAX 影厅音响维护不佳，可能未全效开启。
-- 北京影博可看 1.43:1 画幅，但票难抢。
-- 观影团适合固定 IP 粉丝，体验更佳。
+- 有用户提供类似项目参考：https://github.com/t8y2/dbx （但被指为客户端）。
+- 有用户建议用 AI 生成两个 demo 对比 benchmark，以数据决策。
+- 部分用户提及 Zig 作为备选，但未深入讨论。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233557" target="_blank" rel="noopener noreferrer">聊聊电影、影院及观影团</a></span><span class="topic-stats">回复 20 · 收藏 6</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233772" target="_blank" rel="noopener noreferrer">我准备写一个强类型关系型数据库，是应该用 go 还是 rust?</a></span><span class="topic-stats">回复 37 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233439" markdown="1">
+<details class="topic-card" data-topic-id="1233767" markdown="1">
 <summary>
 <span class="topic-rank">15</span>
-<span class="topic-title">联通来电要求移机并威胁断网，如何核实与应对</span>
+<span class="topic-title">逻辑谬误清单与实战局限：逻辑无法打败情绪</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -486,31 +501,30 @@ AI 中转站以极低倍率（如 0.1x）提供 ChatGPT Pro 等套餐，看似�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-用户接到自称联通合作网点人员的私人电话，要求提供验证码办理移机，否则断网。对方发送工作群截图，显示因线路扩容需将用户移机，若不配合则断网。用户质疑真实性，发帖求助。
+楼主分享学习逻辑学的体会，列举了12种常见逻辑谬误（如以偏概全、因果谬误、幸存者偏差、诉诸权威、稻草人等），并指出缺乏逻辑会导致辨别事实与观点能力下降、认知封闭、自负、控制欲强等问题。评论补充了实战中的关键局限：逻辑无法打败情绪，网络辩论常陷入“杠精”循环，且中文词汇模糊增加逻辑论证难度。
 
 ### 关键要点
-- **核实身份**：不要直接提供验证码，应主动拨打 10010 客服确认事件真实性，或前往营业厅办理。
-- **运营商无权随意断网**：用户无义务配合移机，若被断网可投诉至 10015 或工信部。
-- **移机影响**：移机可能影响老合同权益，需谨慎。
-- **防诈骗**：私人号码来电索要验证码属高风险行为，类似诈骗话术常见。
+- 常见谬误包括：以偏概全、因果谬误、幸存者偏差、相关性当因果、非此即彼、从众、诉诸权威、人身攻击、偷换概念、稻草人、举证责任倒置、样本偏差。
+- 逻辑学价值在于改变底层认知，但需与心理学结合，否则易被归类为抬杠。
+- 网络辩论往往情绪大于逻辑，投入产出比低，关注现实生活更有效。
 
 ### 评论补充
-- 有用户反映联通外包人员可能为业绩私自操作，需警惕。
-- 建议保留通话录音，若发生未授权开通业务可索赔。
-- 多数评论认为配合办理需先通过官方渠道确认，避免直接提供验证码。
+- 有评论指出“两套标准”现象，如用简单归因解释复杂问题。
+- 多数评论认同：逻辑在亲密关系、商业场景（如中医、养生）中常被搁置，理性沟通有现实限制。
+- 部分评论认为，中文词汇模糊性使得精准逻辑论证困难。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233439" target="_blank" rel="noopener noreferrer">联通的人打电话来让我移机，不然就给我断网？</a></span><span class="topic-stats">回复 39 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233767" target="_blank" rel="noopener noreferrer">你能发现生活中的逻辑谬误吗？——简谈工作生活中逻辑的重要性</a></span><span class="topic-stats">回复 27 · 收藏 5</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233456" markdown="1">
+<details class="topic-card" data-topic-id="1233856" markdown="1">
 <summary>
 <span class="topic-rank">16</span>
-<span class="topic-title">GPT Pro 被路由到 mini 模型的排查与解决经验</span>
+<span class="topic-title">医学新生笔记本选购：16G+1T 与购买渠道建议</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -518,33 +532,31 @@ AI 中转站以极低倍率（如 0.1x）提供 ChatGPT Pro 等套餐，看似�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-用户反映 GPT Pro 订阅（GPT5.6Pro）在网页和手机端均被路由到 5.5mini，即使切换 IP 也无效。评论中多位用户遇到类似问题，并提供了排查和解决经验。
+楼主为即将就读宁波大学医学专业的女儿选购笔记本，预算约5000元，原选京东第三方店铺的16G+512G机型。评论共识：医学专业对电脑需求不大，16G内存足够，但建议硬盘选1T；购买渠道优先京东自营或拼多多国补，避免京东第三方。
 
 ### 关键要点
-- **IP 与风控**：频繁切换 IP 或使用高风险节点会触发风控，导致路由到 mini 模型。建议使用家宽 IP，并保持单一干净 IP，避免频繁切换。
-- **缓存与重登**：清除浏览器缓存和 Cookie 后重新登录，有时可恢复，但近期效果不佳。
-- **客服反馈**：联系 OpenAI 客服反馈问题，有用户反馈后得到解决。
-- **用量限制**：Pro 订阅可能有每周用量限制，超过后自动降级到 mini，需等待重置。
-- **手机 APP**：手机 APP 风控较宽松，可尝试在 APP 上询问当前模型，或作为备用入口。
+- **配置建议**：16G+1T 性价比更高，比16+512贵约千元；核显可满足网游和独立游戏。
+- **购买渠道**：京东第三方无自营售后，不如拼多多；拼多多国补价通常更低，可关注v3会员优惠。
+- **购买时机**：不必急于购买，可等开学后需求明确再买，京东次日达。
+- **系统选择**：医学软件兼容性未知，建议Windows而非Mac。
 
 ### 评论补充
-- 有用户指出，批评模型回答错误后，它会重新认真思考并恢复正常。
-- 部分用户认为这是 OpenAI 有意为之，降低 Pro 模型使用成本。
-- 有用户建议远程回家用电脑，避免在公司不干净 IP 上使用。
-- 注意：IP 干净也不一定有效，风控机制复杂。
+- 有用户推荐联想小新16 GT Pro（Ultra5-225h+32G+1TB）约5200元，但当前价格已上涨。
+- 部分用户建议让女儿自己选择或直接给预算，但楼主认为女儿是电脑小白，需代劳。
+- 有评论提醒注意京东自营标记，避免第三方店铺风险。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233456" target="_blank" rel="noopener noreferrer">GPT5.6Pro 一直被路由到 5.5mini</a></span><span class="topic-stats">回复 45 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233856" target="_blank" rel="noopener noreferrer">给娃选笔记本，求各位大佬看看</a></span><span class="topic-stats">回复 40 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233441" markdown="1">
+<details class="topic-card" data-topic-id="1233828" markdown="1">
 <summary>
 <span class="topic-rank">17</span>
-<span class="topic-title">Flutter 嵌入 Go 服务端：无服务端照片同步应用架构与踩坑</span>
+<span class="topic-title">100人公司网络架构规划：网关位置与设备选型建议</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -552,34 +564,32 @@ AI 中转站以极低倍率（如 0.1x）提供 ChatGPT Pro 等套餐，看似�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者分享了将 Go 服务器嵌入 Flutter App 的架构设计，用于实现无服务端的照片同步应用（Pho）。核心思路是：UI 用 Flutter，重逻辑用 Go 编译成原生库，通过 gRPC 控制、HTTP 传输文件。
+针对100人左右公司的网络规划，多位运维经验者建议简化架构，明确分层。核心观点是：出口设备只做出口，VLAN网关尽量下沉到核心交换机或三层设备，避免在出口路由器上承载过多三层功能。
 
 ### 关键要点
-- **架构**：Flutter 通过平台通道启动内嵌 Go server，自动扫描 127.0.0.1 空闲端口，gRPC 处理 15 个 RPC 控制面，HTTP 处理文件流，支持断点续传和自定义头。
-- **存储抽象**：定义 `StorageDrive` 接口（Upload/Download/Delete/Range 等），统一 SMB/WebDAV/NFS/百度网盘，热切换后端。
-- **无数据库**：文件系统即数据库，按 `YYYY/MM/DD/{timestamp}_{name}` 组织，缩略图镜像目录，增量对比通过目录遍历。
-- **加密方案**：从 AES-128-CFB 升级到 AES-256-GCM，支持随机读和 HTTP Range 拖动进度条。
-- **踩坑记录**：gomobile 不支持 Windows，需用 CGo c-shared；`flutter run` 不会自动重建 AAR，需构建脚本强制顺序；protoc 插件版本需锁 21.x；iOS 后台同步用 BGProcessingTask 拉起 headless FlutterEngine。
+- **网关位置**：办公、虚拟机、服务器等大数据量网段的网关放在核心交换机上；其他网段可放在防火墙上。出口路由器（如iKuai）只做NAT、多线和静态路由。
+- **设备选型**：有用户建议更换iKuai为锐捷路由器（如NBR6205-E）或支持多WAN的商用路由器，核心交换机建议使用三层交换机并支持OSPF。
+- **拓扑简化**：尽量简化为“接入-核心-出口”结构，防火墙可旁挂或透明模式，避免串联造成性能瓶颈。
+- **VLAN划分**：100人规模建议划分4个C段给办公和无线，服务器单独1个C段，通过VLAN隔离。
 
 ### 评论补充
-- 有用户询问为何不用 Rust，作者回应 Go 生态更成熟，开发效率高。
-- 用户反馈同步速度问题：SMB 仅 10MB/s，SFTP 50MB/s，难以跑满千兆，作者未直接回应。
-- 有用户建议用端口 0 让系统分配或 Unix socket，作者未回复。
-
-项目开源（GPL-3.0），GitHub: github.com/fregie/pho，iOS 版 App Store 可搜 "Pho"。
+- 有用户指出方案B（所有VLAN网关放在iKuai）不合理，方案A（网关放在三层防火墙）可优化。
+- 有观点认为小公司网络瓶颈常在带宽而非设备，建议关注多线接入和带宽分配。
+- 若现有网络不影响办公，有用户建议“多一事不如少一事”，避免过度改造。
+- 具体配置示例：核心交换机下接POE交换机接AP，服务器段单独接交换机，打印机直连核心。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233441" target="_blank" rel="noopener noreferrer">我把 Go 服务器塞进了 Flutter App：一个无服务端照片同步应用的架构分享</a></span><span class="topic-stats">回复 12 · 收藏 6</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233828" target="_blank" rel="noopener noreferrer">100 人左右的小规模公司网络架构怎么规划更合适。</a></span><span class="topic-stats">回复 14 · 收藏 5</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233458" markdown="1">
+<details class="topic-card" data-topic-id="1233780" markdown="1">
 <summary>
 <span class="topic-rank">18</span>
-<span class="topic-title">Rust 社区 LLM 政策解读：文档手写与代码限制的争议</span>
+<span class="topic-title">MacBook Pro 贴纸与保护壳：经验与建议</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -587,30 +597,31 @@ AI 中转站以极低倍率（如 0.1x）提供 ChatGPT Pro 等套餐，看似�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成的代码进入核心需满足严格条件（如不得修改核心代码、需维护者 review）。该政策引发社区讨论，多数开发者表示理解和支持，认为这是对项目质量的必要保障。
+关于 MacBook Pro 是否套壳或贴膜，用户主要担心贴纸留痕、壳损伤机身和散热问题。多数回复建议裸机使用，认为 M 系列散热无压力，且壳的卡扣可能损伤屏幕边缘防震胶。若想贴贴纸，可先贴整面 A 面贴膜再贴贴纸，便于撕除不留印。
 
 ### 关键要点
-- **政策要点**：文档禁止 LLM 直接生成；LLM 代码贡献需人工严格审查，且作者需充分理解修改。
-- **支持理由**：编译器等底层项目容错率低，AI 生成代码易引入难以察觉的 bug；AI 生成的文档常质量低劣，且大量低质量 PR 增加维护负担。
-- **AI 的合理定位**：可用于代码测试、边界条件构造、辅助理解，而非直接生成提交内容。
+- **裸机派**：多位用户表示 MBP 耐用，不贴膜不带壳，外接显示器使用可保持完好。
+- **贴纸风险**：劣质贴纸撕下会留印，影响二手价格；贴纸处金属氧化可能不均匀。
+- **套壳问题**：incase 等品牌尺寸好但偏贵，卡扣久用易坏，可能卡到屏幕防震胶。
+- **替代方案**：先贴整面贴膜再贴贴纸，或使用透明膜保护。
 
 ### 评论补充
-- 有评论指出，政策并非完全禁止 AI，而是强调 PR 作者的责任心，类似高质量 PR 的既有要求。
-- 部分开发者认为，AI 生成的 PR 往往缺乏后续维护，且难以审查，因此严格限制是合理的。
-- 也有观点建议官方提供 skill 规范 AI 生成，而非一刀切拒绝。
+- 有用户提到贴纸清理不干净，需谨慎。
+- 散热方面，M 系列芯片发热低，壳影响不大。
+- 若经常移动或担心磕碰，可考虑套壳，但需注意卡扣质量。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233458" target="_blank" rel="noopener noreferrer">看完了 Rust 开源社区新出的 LLM 政策，感觉差不多是接近 AI Ban 了</a></span><span class="topic-stats">回复 24 · 收藏 5</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233780" target="_blank" rel="noopener noreferrer">你们的 MBP 套壳么？</a></span><span class="topic-stats">回复 33 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233556" markdown="1">
+<details class="topic-card" data-topic-id="1233820" markdown="1">
 <summary>
 <span class="topic-rank">19</span>
-<span class="topic-title">AI 辅助下程序员差距是缩小还是拉大？多数观点认为拉大</span>
+<span class="topic-title">Cursor 中 Grok 4.5 实测水平：速度优势明显，复杂任务不如 GPT-5.6</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -618,31 +629,34 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-关于 AI 辅助对程序员能力差距的影响，讨论中多数观点认为差距被拉大，但具体机制有分歧。核心共识是：AI 是能力放大器，强者更强，弱者可能获得下限提升但绝对差距扩大。
+
+Cursor 内置的 Grok 4.5 在编程任务中表现中上，速度是其最大优势，但复杂任务处理能力不及 GPT-5.6 等顶级模型。多位用户实测对比了 Grok 4.5、Composer 2.5、GLM 5.2 等模型。
 
 ### 关键要点
-- **技术能力差距缩短，生产能力差距拉大**：AI 提高了下限，但上限未动；架构、可维护性、系统风险等生产能力差距反而扩大。
-- **判断标准变化**：编程能力权重下降，逻辑、业务和语言能力成为新关键。
-- **兜底能力决定效率**：人类负责给 AI 兜底，兜底能力越强，AI 产出质量越高。
-- **实际案例**：有开发者用 AI 一个月完成同事拖了两年的项目，消耗十几亿 token；也有同事用 AI 做出半成品 TOTP 功能。
+
+- **速度**：Grok 4.5 速度极快，有用户称比 Composer 2.5 快十倍以上，适合简单任务和快速迭代。
+- **能力对比**：多数用户认为 Grok 4.5 强于 Composer 2.5，与 GLM 5.2 相当或略强，但弱于 GPT-5.6。前端任务表现突出，复杂任务需配合其他模型。
+- **上下文限制**：Cursor 中 Grok 4.5 上下文仅 256k，而 Grok Build 有 500k，影响复杂任务处理。
+- **使用建议**：简单任务、修 bug 用 Grok 4.5；复杂设计用 Claude 或 GPT-5.6；GLM 5.2 适合中等任务。
 
 ### 评论补充
-- 有观点认为差距拉大是因为 AI 让混子同事敢于接困难任务，结果更丢人。
-- 也有人指出，单纯程序员间差距不变，跨界者（如产品经理）可能用 AI 冲击行业。
-- 极端观点认为 AI 可能最终超越人类专家，但当前仍依赖人类兜底。
+
+- 有用户反馈 Grok 4.5 在简单功能上反复出错，需灌输常识，稳定性不如 GPT-5.6 和 GLM 5.2。
+- 印度区订阅 Grok 曾低至 17 元/月，但已涨价，现可通过 Google Play 付款获取优惠。
+- 部分用户认为 Grok 4.5 写代码“很蠢”，但拆分任务后可用。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233556" target="_blank" rel="noopener noreferrer">你们觉得有 AI 辅助以后，不同水平的程序员的差距是被缩小了还是拉大了？</a></span><span class="topic-stats">回复 29 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233820" target="_blank" rel="noopener noreferrer">谁知道 Cursor 里面的 Grok 4.5 大概是什么水平？</a></span><span class="topic-stats">回复 28 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233485" markdown="1">
+<details class="topic-card" data-topic-id="1233928" markdown="1">
 <summary>
 <span class="topic-rank">20</span>
-<span class="topic-title">腰肌劳损短期复发风险与护理建议：需排查腰椎问题</span>
+<span class="topic-title">2025年Linux发行版推荐：Arch、Debian、Ubuntu等对比</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -650,31 +664,32 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-腰肌劳损短期复发风险较高，但需先排除器质性病变。多位用户建议拍核磁或CT排查腰椎间盘突出，因为症状相似且年轻也可能患病。急性期后肌肉脆弱，弯腰或打喷嚏可能诱发复发，保暖和避免拉伸是护理关键。
+该主题讨论在AI时代推荐的Linux发行版，评论中提供了多种选择及理由。主要推荐包括Arch Linux、Debian、Ubuntu、Fedora、Mint等，各有优缺点。
 
 ### 关键要点
-- **就医检查**：若症状持续或严重，建议拍核磁/CT，排除腰突等器质性病变。
-- **急性期护理**：保暖（尤其避免空调直吹）、减少腰部活动、贴膏药热敷，不要急于拉伸。
-- **长期预防**：学习标准坐姿，锻炼核心肌群，避免久坐，注意睡眠充足。
-- **康复锻炼**：可参考开源项目（如exercises-dataset）针对肌肉松解和强化，但需在医生指导下进行。
+- **Arch Linux**：适合追求最新软件和自定义的用户，搭配KDE或GNOME体验良好，但需要一定动手能力。
+- **Debian**：稳定且软件包丰富，Debian 13和sid版本均可用，适合长期使用。
+- **Ubuntu**：国内软件适配最好，多数开发工具优先支持deb包，适合不想折腾的用户。
+- **Fedora**：较新，但部分软件需自行转换rpm包。
+- **Linux Mint**：基于Ubuntu，桌面稳定，适合新手。
 
 ### 评论补充
-- 有用户分享自己因锻炼代偿导致腰突，强调检查重要性。
-- 部分人认为医生作用有限，需主动锻炼；也有人建议使用电按摩仪缓解疼痛。
-- 多数共识：腰肌劳损难以彻底治愈，重在保养和预防。
+- 有用户分享使用Debian sid配合AI解决引导、生物认证、休眠等问题，强调AI在解决Linux桌面问题上的帮助。
+- 部分用户提到SteamOS（基于Arch）日常可用，支持WPS等办公软件。
+- 多数评论认为选择发行版取决于个人需求，如稳定性、软件更新速度、硬件支持等。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233485" target="_blank" rel="noopener noreferrer">腰肌劳损会不会短期再复发</a></span><span class="topic-stats">回复 22 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233928" target="_blank" rel="noopener noreferrer">看到 AI 让 Linux 变得真正可用了帖子，想问下现在最推荐的是 Linux 发行版是哪个呢</a></span><span class="topic-stats">回复 29 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233590" markdown="1">
+<details class="topic-card" data-topic-id="1233905" markdown="1">
 <summary>
 <span class="topic-rank">21</span>
-<span class="topic-title">Windows 桌面图标排序问题及规避方法</span>
+<span class="topic-title">Cursor 内置 Grok 4.5 使用体验：额度、速度与智能水平</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -683,32 +698,36 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 
 ### 核心内容
 
-用户反馈 Windows 10/11 桌面图标排序存在长期未修复的 bug：删除图标后补位会打乱顺序，高分辨率缩放时拖动位置错位，分辨率或图标大小改变时图标乱飞。对比 Win7 的稳定表现，该问题自 Win8.1/10 引入，至今未解决。
+主题讨论 Cursor 内置 Grok 4.5（high 模式）的实际使用体验，认为其被低估。主要观点包括：
+
+- **额度消耗**：Grok 4.5 在 Cursor 中作为第一消耗模型，使用 auto 模式时额度远超 20 美元，有用户称可达 1000 美元水平，但另一用户指出实际约 400 美元。
+- **速度优势**：相比 Sonnet 5 high 和 Kimi K3 max 动辄 3-10 分钟的检索时间，Grok 4.5 通常在 1 分钟内完成，输出速度也不逊色。
+- **智能水平**：在 Cursor 仅支持 256k 上下文的情况下，用户认为其表现不输其他 1M 上下文的模型。
 
 ### 关键要点
 
-- 问题表现：删除图标后补位需手动逐列拖动，且顺序易乱；高 DPI 缩放时拖动位置不准确。
-- 规避方法：开启“自动排列图标”后，拖动间隔白线可交换位置；不开启时需隔一个图标拖动。
-- 替代方案：减少桌面图标使用，通过开始菜单、任务栏固定、Win+E 等启动程序。
+- **性价比**：多位用户认为 20 美元/月的 Cursor Pro 值得，尤其适合深度编码用户；但也有用户表示 opencode 的 DeepSeek-V4-Flash 已够用。
+- **降智问题**：有用户反映模型刚发布时好用，但随后出现降智，需关注当前状态。
+- **计费 bug**：有用户提到 Cursor 计费系统可能存在 bug，高强度使用后额度百分比仍为 20%。
 
 ### 评论补充
 
-- 有用户指出资源管理器易崩溃，可能与内存占用或软件冲突有关。
-- 部分用户选择桌面不放图标或仅保留回收站，以规避问题。
-- 有用户提到 Windows 窗口系统是“屎山”，修复易引发新问题，解释了微软不修复的可能原因。
+- 有用户对比其他工具，如 Codex 额度重置快，而 Grok 4.5 在 Cursor 中额度充足且限流少。
+- 部分用户认为 Grok 4.5 对前端/UI 细节调整稍弱，期待 4.6 版本。
+- 有用户提到 Grok 4.5 在 Factory Droid 会员中也是综合速度与质量的最优解。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233590" target="_blank" rel="noopener noreferrer">十几年了，微软还是没修复资源管理器图标排列的问题</a></span><span class="topic-stats">回复 31 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233905" target="_blank" rel="noopener noreferrer">cursor grok 4.5 被严重低估了</a></span><span class="topic-stats">回复 29 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233639" markdown="1">
+<details class="topic-card" data-topic-id="1233802" markdown="1">
 <summary>
 <span class="topic-rank">22</span>
-<span class="topic-title">GiffGaff封号退款成功经验：重新绑定付款卡并联系客服</span>
+<span class="topic-title">外包社保全额缴纳但公司部分从工资扣，如何应对</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -716,34 +735,30 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-有用户分享 GiffGaff 封号后成功退款的经验：在号码已转出（如通过 PAC 码转至 voxi）的情况下，重新绑定原付款卡，并通过官方 ask agent 页面提交退款申请，5 分钟内获得处理，退款金额约 £10，到账需 5 个工作日。
+近期多家外包公司统一调整社保缴纳基数，要求按全额工资缴纳，但超出原基数的部分（含公司应承担部分）全部从员工工资中扣除，导致到手工资大幅减少。有员工反映扣款高达7000元，且公司话术委婉，仅称“到手会少一些”。
 
 ### 关键要点
-
-- 退款前提：号码已成功转出（如使用 PAC 码），而非单纯封号。
-- 操作步骤：重新绑定付款卡 → 访问 support2.giffgaff.com/app/ask → 选择 Account details, settings and features - Cancelling my account → 提交模板邮件。
-- 模板要点：说明账号终止、号码转出日期、请求退还剩余余额，并确认付款卡已验证。
-- 有用户反馈 3 分钟即收到退款确认邮件。
+- **合规性**：公司转嫁社保成本不合法，但公司可通过降薪等方式合法达到类似目的，维权难度大。
+- **应对策略**：不签字、不同意，若直接扣款可保留证据，离职后申请仲裁或投诉；注意社保欠缴有追诉时效。
+- **行业现状**：不止外包，其他行业也在调整，广州、北京等地均有类似情况，部分公司降低公积金比例或基数以应对。
 
 ### 评论补充
-
-- 部分用户表示已放弃余额，但此方法可能适用于已转出号码的情况。
-- 有传闻称 GiffGaff 已恢复部分封禁账号，但尚未确认。
-- 建议多次尝试，有用户表示会持续发送申请。
+- 有评论指出，公司可能通过调整薪资结构（如奖金津贴）来合法扣款，维权困难。
+- 有用户建议尝试协商N+1离职，离职后再仲裁五险一金。
+- 有评论提到，企业主从去年开始被约谈，计划裁员、降薪或转外包，宏观上倒逼企业转型，但个人利益受损。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233639" target="_blank" rel="noopener noreferrer">gg 卡退款了</a></span><span class="topic-stats">回复 12 · 收藏 8</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233802" target="_blank" rel="noopener noreferrer">外包说社保要全额缴纳了，但公司和个人的部分都从工资里扣</a></span><span class="topic-stats">回复 24 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233600" markdown="1">
+<details class="topic-card" data-topic-id="1233719" markdown="1">
 <summary>
 <span class="topic-rank">23</span>
-<span class="topic-title">Fedora Server 搭建 NAS 的完整实践与踩坑记录</span>
+<span class="topic-title">AI 提升生产力为何未改变国内软件付费困境</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -751,31 +766,34 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者详细记录了使用 Fedora Server 搭建 NAS 的完整方案，包括存储哲学、硬件配置、服务架构和故障排查。核心观点是：NAS 方案无优劣，只有适配，作者选择 Fedora Server 是因为其内核更新快、Podman 顺手、SELinux 默认 Enforcing 提供安全隔离。
+
+主题讨论 AI 发展迅速，但国内硬核软件市场依然面临付费模式不清晰、对终端客户连哄带骗、VIP 仍弹广告等问题。多数评论认为这些困境与 AI 无关，而是商业模式和社会习惯所致。
 
 ### 关键要点
-- **存储策略**：四块数据盘单盘直挂 XFS，无 RAID；独一无二的数据用 RAR 分卷+par2+网盘三层备份，可再下载的内容只留索引（每日扫描生成 EFU 和 Tree 文件）。
-- **服务架构**：14 个容器（Podman rootless 为主），包括 Syncthing、qBittorrent、OpenList、Scrutiny 等；远程访问通过 Xray 隧道+frp，零端口暴露。
-- **故障排查**：WD 14T 盘休眠唤醒错误计数增长，用 openSeaChest 禁用 EPC 解决；6.0Gbps 链路错误通过 libata.force=3.0G 限速解决；Scrutiny 重复告警确认为历史日志，非新故障。
-- **安全实践**：SELinux Enforcing 实测可拦截路径穿越攻击；容器 rootless 运行，敏感目录不挂载；备份使用官方 GUI 客户端避免账号风险。
+
+- **AI 的局限**：AI 主要提升开发效率，但无法解决商务、付费意愿和商业模式问题（评论 17964127、17964294、17964748）。
+- **市场原因**：用户付费意愿低、盗版泛滥、维权成本高、消费习惯偏好免费（评论 17964379、17964402、17964657）。
+- **供需关系**：AI 降低开发成本，导致供给过剩，形成买方市场（评论 17964432、17965127）。
+- **数据参考**：2024 年 App Store 数字消费美国 530 亿美元，中国大陆 230 亿美元，差距并非数量级（评论 17965458）。
 
 ### 评论补充
-- 有评论指出该方案对小白门槛高，普通用户难以驾驭。
-- 另一评论反馈 Fedora 桌面版 SELinux 配置复杂，容易劝退，建议谨慎选择。
-- 还有评论认为 Fedora 更新频繁，服务器需要不定期大型更新，可能不适合追求稳定的用户。
+
+- 有观点认为国内软件困境源于“流量经济学”和垄断打击不力（评论 17964294、17964173）。
+- 部分评论指出用户习惯用隐私换便利，且社会保障不足影响消费意愿（评论 17964586、17964657）。
+- 少数评论认为问题本质是人均收入低或思维模式差异（评论 17964402、17966652）。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233600" target="_blank" rel="noopener noreferrer">我为什么用 Fedora Server 做 NAS 系统</a></span><span class="topic-stats">回复 3 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233719" target="_blank" rel="noopener noreferrer">我们有了这么多好用的 ai，然后依然没有硬核软件市场。</a></span><span class="topic-stats">回复 30 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233436" markdown="1">
+<details class="topic-card" data-topic-id="1233804" markdown="1">
 <summary>
 <span class="topic-rank">24</span>
-<span class="topic-title">Claude 文本水印技术原理及对国内使用的影响讨论</span>
+<span class="topic-title">计算器 7.3+25% 结果歧义：数学与设计逻辑差异</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -783,30 +801,33 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-主题讨论 Claude 模型在所有文本中嵌入不可见数字水印的技术原理及其对国内用户的影响。评论中多位用户解释了水印的可能实现方式，并探讨了去除水印的可行性与实际影响。
+
+主题讨论计算器输入 `7.3 + 25%` 得到 9.125 而非 7.55 的现象。核心在于百分比运算的语义歧义：数学上 `25%` 通常视为 0.25，结果为 7.55；但许多计算器将 `+25%` 解释为 `7.3 * (1 + 25%)`，即增加当前值的 25%，结果为 9.125。
 
 ### 关键要点
-- **水印原理**：水印可能通过调整 token 概率分布实现，而非简单的不可见字符。例如，根据前 10 个 token 生成伪随机数，影响采样过程，使生成文本具有统计特征，可被检测。
-- **去除难度**：若为不可见字符，去除简单；但基于概率分布的水印难以去除，因为改变文本会破坏统计特征。
-- **国内影响**：多数评论认为对国内使用影响不大，因为用户可改用其他模型（如 Codex）或通过本地模型二次处理来规避。
+
+- **数学定义**：`25%` 等于 0.25，因此 `7.3 + 25%` 按常规数学应为 7.55。
+- **计算器设计**：部分计算器为方便小费、折扣等场景，将 `+25%` 视为 `原值 * (1 + 25%)`，导致结果不同。
+- **使用建议**：为避免歧义，建议使用支持括号的计算器或明确表达式，如 `7.3 * (1 + 25%)`。
 
 ### 评论补充
-- 有用户指出，欧盟协议下的模型可能也带有水印，但 Grok 未签署。
-- 部分用户认为水印是 SaaS 模式的必然局限，接受即可。
-- 有用户尝试用零宽空格测试，但未验证是否有效。
+
+- 有评论指出这是定义问题而非计算错误，取决于使用场景（如小费计算）。
+- 部分用户认为应坚持数学定义，但多数认同计算器设计逻辑的合理性。
+- 建议在专业计算中避免依赖简洁计算器，改用 Python 等工具确保准确性。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233436" target="_blank" rel="noopener noreferrer">Claude 模型现在将在所有文本中嵌入不可见的数字水印，这对国内使用会带来什么负面影响吗？</a></span><span class="topic-stats">回复 28 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233804" target="_blank" rel="noopener noreferrer">7.3 + 25% 等于 7.55 还是 9.125？</a></span><span class="topic-stats">回复 27 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233659" markdown="1">
+<details class="topic-card" data-topic-id="1233910" markdown="1">
 <summary>
 <span class="topic-rank">25</span>
-<span class="topic-title">从100kg到65kg的减肥经验：饮食控制与运动方法</span>
+<span class="topic-title">试用期被裁赔偿0.5N是否合法及应对建议</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -814,32 +835,29 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者分享了自己从100kg减至65kg的亲身经历，强调减肥核心是能量守恒：控制饮食+适量运动。阶段一（7-12月）通过回家做饭（大量蔬菜+两个鸡腿+小碗米饭）和每日快走1-2小时，从100kg减至80kg；阶段二（3-5月）通过跑步机爬坡（Apple Watch目标600大卡）和严格饮食（早餐鸡蛋+脱脂牛奶+燕麦，午餐蔬菜+去皮鸡腿+红薯+核桃，晚餐类似），从85kg减至70kg；阶段三（5-6月）仅控制饮食，体重降至65kg。作者指出复重源于放纵饮食，只要不偷吃就不会反弹。
+楼主入职3个月，处于三年合同半年试用期，因公司人员缩减被裁，公司提供0.5N赔偿并工作两周，询问是否合法。多数回复认为合法且可接受，因为试用期裁员赔偿通常较低，仲裁成本高且收益有限。
 
 ### 关键要点
-- 饮食顺序：先蔬菜、再肉、最后碳水，可减少饥饿感。
-- 水煮菜需加坚果等油脂，避免过度拒绝油脂。
-- 每餐保证碳水摄入，稳定情绪，易于坚持。
-- 平台期无需调整，体重不掉时围度在变，坚持一周即可。
-- 控制盐糖油摄入，避免身体储水。
+- **合法性**：试用期裁员赔偿0.5N在实务中常见，法律未强制规定具体数额，但若公司无法证明员工不胜任，可能需支付更高赔偿。
+- **仲裁收益**：即使仲裁胜诉，通常也只能获得1N赔偿，与0.5N差距不大，且耗时耗力。
+- **建议**：接受赔偿并尽快寻找新工作，避免内耗；若公司存在大规模裁员应届生情况，可考虑集体维权。
 
 ### 评论补充
-- 有评论指出走路热量消耗不低且易坚持（如刷抖音）。
-- 有评论强调个体差异（如胰岛素抵抗），但作者认为控制摄入必然有效。
-- 部分评论认为减肥本质是制造热量缺口，方法因人而异。
+- 有用户指出试用期裁员不给赔偿也常见，但属于不正常现象。
+- 部分用户建议协商后立即走人，拿钱找下家，比拖延更划算。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233659" target="_blank" rel="noopener noreferrer">其实减肥真的没有那么难，能量守恒是肯定的</a></span><span class="topic-stats">回复 28 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233910" target="_blank" rel="noopener noreferrer">试用期被裁给 0.5N，可以接受吗？</a></span><span class="topic-stats">回复 26 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233564" markdown="1">
+<details class="topic-card" data-topic-id="1233947" markdown="1">
 <summary>
 <span class="topic-rank">26</span>
-<span class="topic-title">运营商默认开通国际拦截致海外来电被屏蔽，工信部投诉获赔</span>
+<span class="topic-title">浏览器本地运行45M参数Agent插件：离线免API Key</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -847,30 +865,29 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者因运营商默认开通国际语音拦截服务，导致海外银行来电无法接通，可能影响信用卡审批。通过客服投诉和工信部申诉，最终获得全额补偿。
+作者开发了一款 Chrome 扩展，将 45M 参数的 Cactus Compute Needle 2 模型编译为 WASM 并打包进插件，实现完全离线的浏览器内 Agent。该插件支持自然语言控制浏览器，内置 18 个工具（读页面、点击、填表、标签页管理、书签、下载、截图、通知、HTTP、自定义脚本），每次工具调用带置信度评分，形成最多 8 步的 agent 循环。模型权重约 13MB，运行时内存约 28MB，纯 vanilla JS，MV3 side panel，无构建步骤，解压即用。
 
 ### 关键要点
-- 运营商在变更套餐时，系统界面默认勾选国际语音拦截，用户未同意即被开通。
-- 客服最初不承认责任，仅愿赔付30元话费；作者拒绝后向工信部投诉。
-- 工信部投诉后，运营商次日主动联系，最终赔付作者要求的金额，48小时内到账。
-- 作者提醒：海外银行可能因无法联系而关户，需留意手机是否被默认拦截境外来电。
+- 安装方式：下载 zip 后拖拽到 chrome://extensions/ 或手动解压加载。
+- 开源地址：https://github.com/beancookie/chrome-needle
+- 下载链接：https://github.com/beancookie/chrome-needle/releases/latest/download/chrome-needle.zip
+- 模型仅支持英文，适合对本地 AI 感兴趣的开发者试用。
 
 ### 评论补充
-- 有用户表示工信部投诉很有效，误开通套餐后投诉即退款。
-- 作者补充：投诉时只需文字描述，无需提交材料，但可保留通话录音备用。
+作者补充了两种安装方式：一键拖拽安装和手动解压安装，均需开启开发者模式。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233564" target="_blank" rel="noopener noreferrer">记录一次成功维权</a></span><span class="topic-stats">回复 6 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233947" target="_blank" rel="noopener noreferrer">在浏览器里跑本地大模型，我写了个 45M 参数的 Agent 插件（离线 / 免 API Key）</a></span><span class="topic-stats">回复 1 · 收藏 6</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233507" markdown="1">
+<details class="topic-card" data-topic-id="1233731" markdown="1">
 <summary>
 <span class="topic-rank">27</span>
-<span class="topic-title">免费汇率 API：稳定运行2年，每月500万次请求</span>
+<span class="topic-title">火山云 Agent Plan 缓存不优惠，长对话计费陷阱需警惕</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -878,28 +895,33 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者分享了一个免费汇率 API，已稳定运行 2 年，每月处理约 500 万次请求，承诺免费维护 10 年。该 API 无需注册或 API Key，直接 GET 请求即可使用，支持 170+ 币种，包括法币、加密货币和贵金属，汇率每小时更新，无强制限流。
+
+有用户反馈，火山云的 Agent Plan / Coding Plan 对长对话上下文缓存命中**没有优惠**，每轮对话都会对历史上下文全量计费。例如，一个 1M 上下文的会话，若进行 100 轮对话，实际 token 消耗可能达到 100M，远超预期。这与 DeepSeek 官方计费方式不同，用户不应再用 Agent Plan 的公式推算用量。
 
 ### 关键要点
-- 接口地址：`https://api.exchangerate.fun/latest`，可用 `base` 参数指定基准货币（如 `?base=CNY`）。
-- 返回 JSON 数据，包含时间戳、基准货币和汇率字典。
-- 项目在 GitHub 开源（MIT 协议），提供 JavaScript、Python、Go、PHP 调用示例。
+
+- 火山云长对话缓存不优惠，每轮全量计费，token 消耗随轮次线性增长。
+- 该计费方式适合输出极长但对话轮次少的场景（如文稿写作），不适合多轮交互。
+- 评论指出，企业级套餐价格更高（火山约翻三倍，腾讯企业比个人贵 7 倍），且存在并发限制（如火山 TTS 仅 10 并发）。
 
 ### 评论补充
-评论仅表达感谢和支持，无额外技术信息。
+
+- 有用户建议公司大规模使用应选择企业级套餐，但价格昂贵。
+- 部分用户认为火山云存在隐性收费，建议避开或使用 API（API 有优惠）。
+- 评论提到火山和百炼都较坑，需谨慎选择。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233507" target="_blank" rel="noopener noreferrer">分享一个免费汇率 API：已经稳定运行 2 年（每月 500 万次请求）</a></span><span class="topic-stats">回复 4 · 收藏 10</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233731" target="_blank" rel="noopener noreferrer">火山云 agent plan/coding plan 缓存命中无优惠</a></span><span class="topic-stats">回复 16 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233408" markdown="1">
+<details class="topic-card" data-topic-id="1233740" markdown="1">
 <summary>
 <span class="topic-rank">28</span>
-<span class="topic-title">《欢迎来龙餐馆》观影参考：非喜剧，战争题材，与《我不是药神》同导演</span>
+<span class="topic-title">Codex 周卡 reset 机会过期作废，需手动使用</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -907,31 +929,30 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-电影《欢迎来龙餐馆》并非喜剧，而是以伊拉克战争为背景的战争题材影片，由《我不是药神》导演执导，原定主演徐峥，后由沈腾出演。观众普遍反映影片前半段有笑料，但整体压抑，真实展现战乱中平民的悲惨生活，如孩子背炸弹、炮弹突袭等场景。
+OpenAI Codex 的周卡 reset 机会不会自动使用，到期未用将直接作废。多位用户确认此规则，并提醒 reset 时间精确到小时分钟，且按 GMT+8 时区计算。
 
 ### 关键要点
-- 影片类型：非喜剧，战争题材，避免被沈腾和剪辑误导。
-- 导演与《我不是药神》相同，剧情脉络类似：欠债缺钱→铤而走险→风光无限→最后一无所获。
-- 观影建议：值得一看，但需备纸巾，不适合只想看爽片的观众。
-- 票房表现：相关公司股票涨停，但口碑需自行判断。
+- **reset 机会过期作废**：不使用不会自动消耗，到期即失效。
+- **时间精确**：reset 截止时间精确到小时分钟，如“8/13 GMT+8 01:26 到期”。
+- **避免浪费**：建议在到期前手动使用，或借助工具自动执行。
 
 ### 评论补充
-- 有观众指出猫眼分类未标注喜剧，但工会购票显示为喜剧，导致部分观众带娃观影后感到意外。
-- 沈腾的表演风格与徐峥不同，部分观众认为徐峥更适合该角色。
-- 影片未过度升华，真实感强，但战乱场景可能令人压抑。
+- 有用户分享自动使用工具：[codex-quota-keeper](https://github.com/jimyag/codex-quota-keeper)，可设置定时任务自动点击。
+- 部分用户反馈曾遇到自动使用的情况，但多数认为那是巧合（如卡到期与重置同时发生）。
+- 注意 reset 机会并非所有用户都有，部分用户表示从未收到。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233408" target="_blank" rel="noopener noreferrer">欢迎来龙餐馆，本来以为是个喜剧，看完没那么舒服啊。</a></span><span class="topic-stats">回复 32 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233740" target="_blank" rel="noopener noreferrer">8/12 的 reset 机会，不使用是直接作废吗？</a></span><span class="topic-stats">回复 24 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233494" markdown="1">
+<details class="topic-card" data-topic-id="1233810" markdown="1">
 <summary>
 <span class="topic-rank">29</span>
-<span class="topic-title">godot-skill：让 AI Agent 正确操作 Godot 工程结构的开源项目</span>
+<span class="topic-title">1年减55斤经验：有氧+高蛋白饮食，能量守恒是关键</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -939,31 +960,32 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-[godot-skill](https://github.com/haxqer/godot-skill) 是一个开源项目，旨在解决 AI Agent（如 Claude Code、Codex）编写 Godot 项目时因工程结构复杂而失败的问题。作者指出，AI 写 GDScript 容易，但手写 `.tscn`/`.tres` 等资源文件常导致 UID 或 ext_resource 引用错误，且无法自动验证。该 skill 通过脚本操作工程，而非猜测格式。
+作者分享一年减重55斤（170斤至115斤，现维持120斤）的亲身经历，强调减肥的核心是能量守恒：每日500大卡缺口，每周约减0.5kg脂肪。主要方法为高强度有氧（每日爬楼梯300层）配合高蛋白饮食，后期严格控制每日摄入1200大卡，并记录体重数据。
 
 ### 关键要点
-
-- **功能覆盖**：场景编辑、TileSet/TileMapLayer 绘制、AnimationPlayer 关键帧、烘焙碰撞与导航网格、headless 调试、GUT/GdUnit4 测试、多平台导出等。
-- **安装方式**：从源码拷贝 `skill/godot/` 或解压 `dist/godot.zip` 到 skills 目录，Claude Code 和 Codex 可直接加载。
-- **兼容性**：针对 Godot 4.7 设计，兼容 4.x。
+- **热量概念**：1kg脂肪需7700大卡缺口；基础代谢1500-2000大卡，步行1公里约消耗70大卡。
+- **饮食控制**：便利店快餐起步800大卡，2斤酱香饼约250大卡/100g，需警惕高热量食物。
+- **运动策略**：有氧为主，无需健身房；无氧减脂慢，不适合减肥初期。
+- **局部减脂不存在**：脂肪全身同步减少，警惕宣称减肚子的教程。
+- **体脂秤使用**：八电极体脂秤用于看趋势，与健身房设备误差在1%以内。
 
 ### 评论补充
-
-作者基于该 skill 开发了示例游戏 [idle-battle](https://github.com/haxqer/idle-battle)，并修复了评论者反馈的天梯 bug，部署更新链接为 https://haxqer.github.io/idle-battle/。
+- 体脂秤的电阻测量法存在误差，但用于趋势观察足够。
+- 肌肉具有记忆效应，减肥期间掉肌肉可通过后期锻炼恢复，但增肌需无氧训练。
+- 作者回应：目前腹部仍有顽固脂肪，正在尝试增肌减脂平衡。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233494" target="_blank" rel="noopener noreferrer">分享一个开源项目 godot-skill：让 Claude Code / Codex 真正会写 Godot 项目</a></span><span class="topic-stats">回复 4 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233810" target="_blank" rel="noopener noreferrer">[附图表] 1 年减肥 55 斤, 减肥的确很难, 物理学大厦依然稳固. 我想跟大家分享一些肺腑之言.</a></span><span class="topic-stats">回复 7 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233469" markdown="1">
+<details class="topic-card" data-topic-id="1233909" markdown="1">
 <summary>
 <span class="topic-rank">30</span>
-<span class="topic-title">群晖NAS断电后无法启动：重做引导盘与数据恢复指南</span>
+<span class="topic-title">微信支付调试未报备被定性事故：开发前需确认环境与报备</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -971,31 +993,30 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-群晖 NAS 断电后无法启动，报错 `Starting kernel with USB boot`，经排查为引导 U 盘损坏。黑群晖系统数据存储在硬盘上，引导盘损坏不影响数据，重做引导盘即可恢复。
+开发者在对接微信支付时，因使用生产环境进行多次一分钱测试支付和退款，未提前向甲方报备，被定性为事故。主要风险是触发微信支付风控，可能导致商户号被封，以及财务对账困难。
 
 ### 关键要点
-- **引导盘损坏是常见故障**：断电可能导致 U 盘引导损坏，重新制作引导盘即可，无需担心数据丢失。
-- **版本选择**：建议使用相同大版本（如 7.x），小版本可不同；直接使用 7.2 可支持第三方市场。
-- **数据安全**：硬盘数据不会因重做引导而丢失，除非 RAID0 或硬盘同时损坏。
-- **恢复方法**：重做引导盘后，若无法启动，可将硬盘接入新黑群晖或白群晖读取数据。
+- **风险**：生产环境反复测试易触发风控，严重时封禁商户号。
+- **教训**：开发前应确认账号类型（测试/生产），并明确是否需要报备。
+- **建议**：优先使用沙盒环境（如支付宝沙箱），但微信沙盒体验差；若必须用生产环境，应提前与甲方沟通并控制测试次数。
 
 ### 评论补充
-- 有用户建议使用 UPS 防止断电损坏，但需注意 UPS 自燃风险（风险较小）。
-- 白群晖无引导 U 盘，故障处理需联系客服；黑群晖可自行重做引导。
-- 重做引导后，若目录结构变化，可能需要整理硬盘目录。
+- 有评论指出微信支付沙盒环境实用性差，但合规考虑仍需使用。
+- 部分观点认为甲方无测试环境、对接流程不规范，但责任仍由开发方承担。
+- 公司应沉淀开发规范，避免类似问题。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233469" target="_blank" rel="noopener noreferrer">群晖 NAS 断电后无法启动，怎么办？</a></span><span class="topic-stats">回复 17 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233909" target="_blank" rel="noopener noreferrer">财务小白不懂，聊聊今天开发遇到的糟心事</a></span><span class="topic-stats">回复 16 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233424" markdown="1">
+<details class="topic-card" data-topic-id="1233832" markdown="1">
 <summary>
 <span class="topic-rank">31</span>
-<span class="topic-title">AI 降低重构成本后，复杂业务该先做再改还是先想清楚？</span>
+<span class="topic-title">土耳其 oyunfor 购买礼品卡 VISA 付款失败原因与替代方案</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1003,33 +1024,30 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-主题讨论 AI 降低开发与重构成本后，复杂业务系统（如 ERP、CRM、审批、财务）是否应从“先想清楚再开发”转向“先做一版再迭代”。作者观察到，AI 让需求未明确时先出代码成为常态，但复杂系统一旦数据库、接口、权限和流程定型，后期重构成本极高，且已出现业务节点反复修改导致代码难以维护的案例。
+用户反映在土耳其 oyunfor 购买 App Store 礼品卡时，招行 VISA 卡付款失败，报错提示联系银行，但银行确认卡正常。多位用户反馈类似问题，主要原因是 oyunfor 对非 3DS 认证的卡限制严格，招行 VISA 近期无法支付。
 
 ### 关键要点
-
-- **立场分歧**：开发方倾向先明确需求以减少返工，产品/运营方追求快速上线试错，两者利益不同导致冲突。
-- **风险提示**：需求不清晰时写出的代码后期不可控；若想依赖 AI 重构，必须先补全自动化测试，否则重构无法进行。
-- **现状观察**：AI 确实降低了修改成本，但可能导致需求侧变懒，将需求分析问题转嫁给“未来”或开发。
-- **替代思路**：与其让 AI 替需求“敲定”，不如让产品用 AI 快速敲定需求；未来软件形态可能转向“用完即弃”，按需生成新功能。
+- **失败原因**：多数指向 3DS 认证问题，需使用支持 3DS 的卡（如建行卡）或尝试银联支付。
+- **替代方案**：可尝试其他银行 VISA、银联卡，或使用币安支付、闲鱼代购（注意手续费）。
+- **风险提示**：土耳其 ATM 曾出现扣款未出钞情况，建议录屏保留证据。
 
 ### 评论补充
-
-- 有评论指出，该现象与 AI 无关，无 AI 时也存在“先做再优化”，但作者回应称，AI 使多部门复杂业务从“先拉齐再开发”变成“先分别满足、后翻库表拉齐”，导致小公司也频繁出现迭代过快问题。
-- 部分评论认为这是“敏捷偷懒”或“草台班子”的体现，建议留存证据以便甩锅。
+- 有用户推荐 mtcgame.com 作为替代购买渠道，但需确认商品可用性。
+- 部分用户表示 oyunfor 支付不稳定，同一张卡可能时好时坏。
+- 建议联系银行确认是否支持 3DS，或直接换卡支付。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233424" target="_blank" rel="noopener noreferrer">“没事，后面让 AI 重构”——这到底是敏捷开发，还是偷懒？</a></span><span class="topic-stats">回复 19 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233832" target="_blank" rel="noopener noreferrer">在土耳其 oyunfor 购买 appstore 礼品卡 VISA 付款失败，大家有没有遇到呢？</a></span><span class="topic-stats">回复 18 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233605" markdown="1">
+<details class="topic-card" data-topic-id="1233713" markdown="1">
 <summary>
 <span class="topic-rank">32</span>
-<span class="topic-title">迟到扣款争议：弹性打卡惯例与公司制度冲突</span>
+<span class="topic-title">微信关怀模式可朗读文字，解决不识字家人看消息问题</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1037,32 +1055,31 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主因长期弹性打卡（9:30后上班、19:00后下班）未被扣款，但上月突然被扣950元（19次迟到，每次50元）。争议焦点在于：公司考勤制度是否允许弹性打卡，以及惯例能否作为抗辩理由。
+楼主母亲不识字但会用微信，常收到文字消息无法阅读和回复。多位用户提供了微信内置的解决方案，其中**关怀模式**（微信设置-通用-关怀模式）支持点击文字朗读，可满足看消息需求；另有用户提到长按消息选择“从当前听”也可朗读。回复方面，微信本身支持语音发送和语音转文字，但自动转文字功能未找到。
 
 ### 关键要点
-- 公司上班时间8:30-17:30，新疆分公司9:30-18:30，楼主长期9:47打卡、19:00下班，近一年未被扣款。
-- 上月突然按迟到扣款，每次50元，共19次，合计950元。
-- 公司有每月两次漏打卡免扣机会，楼主已使用。
+- 开启微信**关怀模式**：我-设置-通用-关怀模式，点击文字即可朗读。
+- 长按消息选择“从当前听”也可朗读文字。
+- 回复可通过发送语音或语音转文字实现。
+- 系统无障碍功能（如读屏）也可朗读屏幕内容。
 
 ### 评论补充
-- 多数建议先与HR或工资条发放人沟通，确认扣款计算方式，可能为计算错误。
-- 有评论指出，惯例不等于制度，若公司制度未明确允许弹性打卡，HR可主张“以前未发现，现在追扣”。
-- 有HR案例：员工长期迟到，上级要求按制度倒查，最终补齐所有扣款，甚至可能面临辞退。
-- 部分评论提醒，频繁迟到可能构成严重违纪，公司可无责辞退，扣款反而是小事。
-- 建议先查阅员工手册或考勤制度，确认是否有弹性打卡规定，再决定是否理论。
+- 有用户反馈关怀模式对老人友好，实际可用。
+- 部分用户提到语音自动转文字功能不存在，需手动操作。
+- 有建议直接告知好友改用语音沟通，但非根本方案。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233605" target="_blank" rel="noopener noreferrer">上个月迟到被扣了 950</a></span><span class="topic-stats">回复 25 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233713" target="_blank" rel="noopener noreferrer">V 友们，不知道有没有这样的工具，可以帮助不会识字的家人使用微信的。</a></span><span class="topic-stats">回复 19 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233491" markdown="1">
+<details class="topic-card" data-topic-id="1233887" markdown="1">
 <summary>
 <span class="topic-rank">33</span>
-<span class="topic-title">热量缺口估算误差大，应关注长期趋势而非每日精确值</span>
+<span class="topic-title">天气预报应用推荐：彩云、Windy 等相对准确</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1070,31 +1087,31 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-主帖讨论热量缺口计算的误差问题。由于基础代谢和运动消耗依赖公式或设备估算，外卖热量难以精确，每日缺口估算误差可能抵消300-500大卡的缺口。评论共识是：非专业人士无需精细量化，应关注长期趋势（如两三周体重移动平均），短期波动（水肿、糖原、便秘）是噪音。
+用户寻求三天内较准的天气预报应用。评论指出天气预报普遍存在局限，但推荐了相对准确的应用。
 
 ### 关键要点
-- **误差是系统性偏差**：饮食模式固定时，估算误差不改变趋势方向，只影响落点早晚（@wesker1999）。
-- **拉长周期**：以周或月为单位评估，而非每日精确计算（@brom111、@arischow）。
-- **调整饮食结构**：提高膳食纤维、低GI食物比例，降低碳水，减少高油高糖（@QingXuJiaZhi、@liaanj）。
-- **精确计算需备餐**：若想严格计算，需用食物秤和食谱，外卖难以实现（@jamme）。
+- **彩云天气**：被多次提及，相对准确，但高级功能需付费。
+- **Windy**：提供多种天气模型，可自行分析，但不同模型结论可能不同。
+- **My Weather**：被提及为较准之一。
+- **MSN 天气**：可精准到分钟级降雨预报。
 
 ### 评论补充
-- 每月一次放纵餐可防心态崩溃（@Tiger1994）。
-- 每周150分钟有氧可确保缺口（@tf2）。
-- 外卖热量高，一顿轻松1000大卡（@wuqiangroy）。
+- 国内气象数据源唯一，各应用基于同一数据源，差异在算法模型。
+- 三天预报准确率有限，台风等极端天气预报常不一致。
+- 中国气象局项目指标显示，山洪预警命中率仅 30% 左右，反映预报难度。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233491" target="_blank" rel="noopener noreferrer">热量缺口计算</a></span><span class="topic-stats">回复 21 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233887" target="_blank" rel="noopener noreferrer">有没有什么特别准的天气预报的应用吗 ？</a></span><span class="topic-stats">回复 12 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233561" markdown="1">
+<details class="topic-card" data-topic-id="1233942" markdown="1">
 <summary>
 <span class="topic-rank">34</span>
-<span class="topic-title">图片直传对象存储的压缩与CDN流量优化实践</span>
+<span class="topic-title">电信手机卡开热点科学上网慢的排查与原因分析</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1102,31 +1119,32 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-针对图片直传对象存储后原图过大、CDN流量浪费的问题，社区给出了多种实践方案。核心结论是：**优先在客户端压缩**，并利用对象存储的图片处理功能动态生成缩略图，同时通过签名URL限制上传大小。
+用户反映电信手机卡开热点给电脑使用时，科学上网速度极慢，而联通卡正常。尝试了iPhone热点和随身WiFi，效果相同，排除设备因素。手机直连科学上网正常，说明问题出在热点链路或运营商线路。
 
 ### 关键要点
-- **客户端压缩**：前端压缩后再上传，可减少传输和存储压力，避免大图直接入库。
-- **对象存储图片处理**：OSS、Cloudflare R2等支持动态图片处理（如格式转换、尺寸裁剪），展示时按需生成缩略图，节省流量并提升加载速度。
-- **限制上传大小**：签发上传URL时设置最大体积，防止超大原图（如几百MB）上传。
-- **直传与服务器中转权衡**：直传OSS入站流量免费，但无法压缩；经服务器压缩后走内网入OSS可控制质量，但需考虑服务器带宽和压力。
+- **跨运营商线路优化**：科学上网服务商可能只优化了联通线路，电信用户跨运营商访问会变慢（如CMI线路仅针对移动优化）。
+- **4G网络限制**：电信4G本身速度可能不佳，尤其在高峰时段，用户拥挤导致国际出口拥堵。
+- **节点配置一致性**：确保电脑和手机使用完全相同的节点配置，避免因配置差异导致速度差异。
 
 ### 评论补充
-- 有用户提醒注意“图种”风险，即恶意用户将图片作为免费存储载体，因此压缩和限制大小是必要的。
-- 实际案例：某用户上传几百MB原图被推至首页，引发故障，凸显前端压缩和限制的重要性。
-- 对于高并发场景，直传OSS更稳妥，但需配合客户端压缩和参数化访问。
+- 有用户建议尝试更换科学工具，因为不同工具对运营商优化不同。
+- 可尝试在手机上开启SOCKS服务器，电脑通过该代理连接，或调整TCP timestamp设置。
+- 部分用户认为电信国际出口不如联通，但需注意网通与联通的历史区别。
+
+**结论**：电信手机卡热点科学上网慢可能由跨运营商线路优化不足、4G网络拥堵或节点配置问题导致。建议尝试更换科学工具、使用相同节点配置，或考虑使用联通卡。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233561" target="_blank" rel="noopener noreferrer">你们会压缩用户或编辑上传的图片？</a></span><span class="topic-stats">回复 14 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233942" target="_blank" rel="noopener noreferrer">电信手机卡开热点给电脑，非常“不科学”</a></span><span class="topic-stats">回复 15 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233637" markdown="1">
+<details class="topic-card" data-topic-id="1233912" markdown="1">
 <summary>
 <span class="topic-rank">35</span>
-<span class="topic-title">自建 DeepSeek-V4-Flash API 定价与部署经验</span>
+<span class="topic-title">AI 辅助解决 Linux 桌面硬件与软件适配问题</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1134,30 +1152,31 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主与朋友集资购买两台 DGX Spark 部署 DeepSeek-V4-Flash-0731 自用，闲置算力可提供 API 给身边人包月使用。参考 NVIDIA 论坛配置，效果良好，聚合输出可达 200 tok/s。
+作者分享使用 AI 工具（如 opencode 搭配免费模型）解决 Linux 桌面环境（DE）中常见硬件和软件适配问题的经验。例如，在 Surface Pro 5 上通过 linux-surface 项目解决驱动问题，并利用 AI 修复了 Surface 笔识别、屏幕旋转、电源键休眠等小问题。此外，还通过 AI 修改开源 PDF 软件 okular 以适配手写笔，耗时约一小时。
 
 ### 关键要点
-- 定价参考：官方价格约 699-799 元/月，但评论建议按官方七成定价，并计入电费、宽带成本。
-- 技术方案：可用 vLLM 作为上游，通过 newapi 或 sub2api 实现用户管理和计费，无需自写。
-- 性能注意：跨机通信可能较慢，需压测 RPM/TPM，避免 agent 调用时撑不住。
+- **AI 辅助调试**：使用 AI 生成修复方案，无需深入底层知识即可解决兼容性问题。
+- **开源软件可定制**：借助 AI 修改开源软件（如 okular）以满足特定需求。
+- **社区项目价值**：linux-surface 等项目提供了关键驱动支持。
 
 ### 评论补充
-- 有观点认为 20 美元/月较合理，过高有割韭菜之嫌。
-- 建议针对 24 小时高负载用户低价出售。
-- 需考虑官方定价竞争，除非有特殊优势。
+- 有用户推荐免费 PDF 软件 crpdf（GitHub 链接），可作为替代方案。
+- 部分用户反馈 Linux 桌面仍存在割裂问题，如 Wayland 小问题、软件依赖冲突等。
+- 有用户分享借助 AI 实现生物认证、休眠修复等高级配置，但指出 keyring 解锁问题仍待解决。
+- 也有用户认为 Linux 本身易用，AI 只是锦上添花。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233637" target="_blank" rel="noopener noreferrer">自建 DeepSeek-V4-Flash API 定价问题</a></span><span class="topic-stats">回复 11 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233912" target="_blank" rel="noopener noreferrer">AI 让 Linux 变得真正可用了</a></span><span class="topic-stats">回复 15 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233454" markdown="1">
+<details class="topic-card" data-topic-id="1233827" markdown="1">
 <summary>
 <span class="topic-rank">36</span>
-<span class="topic-title">用MCTS与图搜索构建杀戮尖塔AI Agent的实践</span>
+<span class="topic-title">M1 Pro 发热：清灰换硅脂与 macOS 版本影响实测</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1165,30 +1184,30 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者分享了开发杀戮尖塔AI Agent的经验，通过将问题分解，实现了稳定的构筑和战斗决策，能稳定打到Act3并偶尔通关。
+M1 Pro 用户反映近期发热严重，可能原因包括积灰、硅脂老化或 macOS 版本问题。多位用户实测表明，清灰换硅脂可显著降温：有用户待机从 80-90°C 降至 50-60°C。但也有用户拆机发现灰尘很少，认为发热主因是 macOS 26 系统问题，降级后恢复正常。
 
 ### 关键要点
-- **架构设计**：战斗决策使用MCTS，卡牌构筑使用图搜索，其他决策由LLM兜底，避免了全量上下文导致的推理随机性。
-- **工具推荐**：使用CommunicationMod导出游戏状态为JSON，StS2有现成的MCP可用。
-- **成本控制**：使用deepseek v4 flash和GPT luna，单局游戏成本很低。
+- **清灰换硅脂**：若待机温度高，可拆机清灰并更换硅脂，能有效降温。
+- **系统版本影响**：macOS 26 被多名用户反馈发热、卡顿，降级至 macOS 15 后体验改善；macOS 27 评价较好。
+- **温度检测**：使用 stats 工具查看待机温度，若持续偏高，清灰可能有效。
 
 ### 评论补充
-- 有用户询问上下文接入工具，作者回复了具体工具和搜索方法。
-- 有用户提到类似项目Neuro-sama，作者认为需要公司运营，不适合独立开发者。
-- 有用户对AI的选牌策略提出质疑，作者解释AI优先选择AOE卡以应对前期战斗。
+- 有用户提到 FileVault 加密可能影响性能，但争议较大。
+- 部分用户认为 M1 Pro 运行 macOS 26 吃力，建议降级。
+- 拆机难度不大，可自行清理，但需注意保修。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233454" target="_blank" rel="noopener noreferrer">有时候自己在加班，看着另一边 agent 在打着游戏，恍如隔世</a></span><span class="topic-stats">回复 9 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233827" target="_blank" rel="noopener noreferrer">MacbookPro M1Pro 是不是要清灰了？</a></span><span class="topic-stats">回复 17 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233434" markdown="1">
+<details class="topic-card" data-topic-id="1233760" markdown="1">
 <summary>
 <span class="topic-rank">37</span>
-<span class="topic-title">Codex 配额重置时间查询网站汇总及实测说明</span>
+<span class="topic-title">用代码实时生成60种昆虫3D图鉴：零模型文件，参数化形态</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1196,34 +1215,29 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-用户询问如何获知 OpenAI Codex 配额重置的预计时间，评论提供了多个第三方查询网站，并讨论了重置机制的实际触发条件。
+作者分享了一个开源的3D昆虫图鉴项目，通过TypeScript在浏览器中实时计算几何体，实现60种昆虫的3D展示，仓库中没有任何模型文件或贴图。项目采用参数化形态描述，将昆虫分为头、胸、腹三段，附肢分节，翅面由翅脉支撑，每个物种只需一份尺寸与配色描述即可生成。
 
 ### 关键要点
-- 可参考的查询网站：
-  - https://www.willcodexquotareset.com/
-  - https://codexreset.gitcdn.top/
-  - https://divin.cc/
-  - https://codex-reset.com/zh/（支持中文）
-  - https://codex-resets.com/（支持邮箱订阅）
-- 有用户实测指出，重置并非固定按每百万用户或 bug 触发，而是由 OpenAI 员工 Tibo 手动控制，上述网站仅供参考。
-- 另有评论补充：达到一千万用户后，每百万用户重置的规则已停止。
+- 单个物种三角面数1.4万~3.6万，构建耗时30~90ms，首屏JS gzip约424KB，按需分包加载。
+- 表面微观结构（如刻点、复眼）由程序贴图运行时生成，讲解时3D镜头自动移动。
+- 代价是写实度不如三维扫描，但零资产依赖、可扩展性强。
+- 讲解文案由AI撰写，未经专业核校，不宜作为引用资料。
 
 ### 评论补充
-- 部分评论认为这些网站“图一乐”，实际重置时间难以预测。
-- 邮箱订阅功能可避免频繁手动查看。
+有用户询问如何描述形态，作者未直接回复，但项目本身提供了参数化描述的方法。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233434" target="_blank" rel="noopener noreferrer">在哪可以知道 Codex 重置的估计时间</a></span><span class="topic-stats">回复 9 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233760" target="_blank" rel="noopener noreferrer">用代码实时生成 60 种昆虫的 3D 图鉴，仓库里没有一个模型文件</a></span><span class="topic-stats">回复 1 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233442" markdown="1">
+<details class="topic-card" data-topic-id="1233696" markdown="1">
 <summary>
 <span class="topic-rank">38</span>
-<span class="topic-title">iPhone 12 Pro Max 是否升级 iOS 26：多数建议不升</span>
+<span class="topic-title">GitHub 新仓库版本号定义：SemVer 与 1.0 的实践共识</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1231,30 +1245,30 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-针对 iPhone 12 Pro Max 是否升级 iOS 26 的问题，多数回复建议不要升级，主要原因是设备较老，升级后可能出现卡顿、耗电快、后台被杀等问题。有用户反馈 iPad 9 升级 iOS 26 后卡顿严重，甚至壁纸加载不出；iPhone 17 Pro 用户也遇到连接 AirPods 和 CarPlay 问题。
+关于 GitHub 新仓库如何定义版本号，讨论形成共识：版本号定义没有强制标准，但推荐遵循语义化版本（SemVer）。1.0 版本通常代表 API 稳定性的承诺，0.x 表示可随意变更。个人项目可自由定义，团队协作项目应遵循 SemVer 以减少冲突。
 
 ### 关键要点
-- **不建议升级**：多数用户认为 iOS 26 优化差，尤其对老设备不友好，建议等待 iOS 27 正式版。
-- **保持原版本**：有观点认为 iPhone 出厂版本最流畅，不升级可保持性能。
-- **屏蔽更新**：可安装 tvOS 描述文件屏蔽系统更新提示。
-- **例外情况**：少数用户表示 12 Pro Max 一路升级使用正常，但属于个例。
+- **SemVer 是主流约定**：多位用户推荐使用 [Semantic Versioning](http://semver.org/lang/zh-CN/)，并强调 1.0 之前（0.x）表示 API 可随意更改，1.0 是对兼容性的承诺。
+- **1.0 的判定**：当项目已有大量用户依赖且需考虑兼容性时，应升到 1.0；若频繁不兼容改动则保持 0.x。
+- **个人 vs 团队**：个人项目版本号可随意（如 r1、日期），团队项目应遵循 SemVer，避免补丁号滥用导致 CI 混乱。
+- **版本号递增是底线**：唯一共识是版本号应递增，release note 比版本号本身更重要。
 
 ### 评论补充
-- 有用户提到若设备出厂即 iOS 26，可考虑升级到 26.6 或 27 以改善续航。
-- 二手 12 Pro Max 价格参考：转转约 2000 元。
+- 有用户指出公司级开源项目（如 Facebook）因用户量大而发版谨慎，个人项目无需承担社会责任。
+- 实际案例：有团队在重大不兼容迭代后仍只递增补丁号（v1.0.1 到 v1.0.89），导致 CI 维护困难，强调规则执行的重要性。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233442" target="_blank" rel="noopener noreferrer">iPhone 升级 ios26</a></span><span class="topic-stats">回复 20 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233696" target="_blank" rel="noopener noreferrer">github 新仓库你如何定义版本？</a></span><span class="topic-stats">回复 16 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233429" markdown="1">
+<details class="topic-card" data-topic-id="1233889" markdown="1">
 <summary>
 <span class="topic-rank">39</span>
-<span class="topic-title">PON专线与真专线的区别及选择建议</span>
+<span class="topic-title">HollyMusic：面向家庭的洛雪音乐 PWA 播放器</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1262,33 +1276,30 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-深圳移动推出的“到企 PON 专线宽带”并非传统意义上的专线，本质上是带有固定公网 IP 的 PON 宽带，与家宽差别不大。多位用户指出，PON 接入方式本身不构成专线，除非运营商提供独享带宽和 SLA 保障。
+作者开源了 HollyMusic，一个面向家庭的在线听歌服务，定位为洛雪音乐的 PWA 客户端。它解决 iOS 无洛雪客户端、不想安装多个 App、老人孩子操作复杂、换机重配等痛点，通过浏览器访问并添加到主屏幕即可使用，支持手机、平板、电脑，音源依赖洛雪生态，自身少存储。
 
 ### 关键要点
-
-- **PON 专线特点**：提供固定公网 IP，适合需要对外提供服务的中小企业，价格比大厂专线便宜。
-- **真专线标准**：移动的 PTN、联通电信的 IPRAN 才是真专线，通常拉专用光缆，有 SLA 保障。
-- **选择建议**：如果仅需公网 IP，PON 专线可满足；若对稳定性、带宽保障有高要求，应选择真专线。
+- 项目地址：https://github.com/redcatH/HollyMusic
+- 核心特性：PWA 免安装、跨平台、家庭共享、依赖洛雪音源。
+- 部署后需进入 admin 重置密码，但存在提交后提示未登录的问题（评论反馈）。
 
 ### 评论补充
-
-- 有用户提到上海电信提供“智能专线”，PON 链路上独享，但线路满时需升级 OTN。
-- 关于安全性，有讨论指出 PON 下行可能被监听，上行泄露程度取决于分光器，但实际风险未明确。
-- 有用户分享联通专线也采用 PON 接入，但通过独立光缆和法兰盒连接，说明接入方式并非绝对标准。
+- 有用户反馈部署后重置密码流程有 bug，提示未登录。
+- 评论推荐了类似项目 songloft（https://github.com/songloft-org/songloft），并指出其有内存泄漏问题（Docker 运行一段时间占用 1G+ 内存）。
+- 有用户分享了一个更完善的方案：后端 songloft + iOS 音流 APP + 洛雪音源，支持导入 QQ 音乐歌单、歌词封面同步，增量导入方便。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233429" target="_blank" rel="noopener noreferrer">深圳（广东）移动到企的 pon 专线宽带，是正儿八经的专线吗</a></span><span class="topic-stats">回复 10 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233889" target="_blank" rel="noopener noreferrer">开源分享 HollyMusic，家庭适用的在线听歌服务， star 可否？</a></span><span class="topic-stats">回复 6 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233426" markdown="1">
+<details class="topic-card" data-topic-id="1233824" markdown="1">
 <summary>
 <span class="topic-rank">40</span>
-<span class="topic-title">提前还房贷6万省息6万：等额本息缩期策略与个税抵扣权衡</span>
+<span class="topic-title">小团队共享AI账号：海外VPS搭建代理方案与工具推荐</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1296,30 +1307,32 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主商贷100万、利率3.0%、等额本息已还2年，计划提前还款6万并选择月供不变、缩短年限，AI测算可节省利息约6万。评论普遍确认：等额本息前期利息占比高，越早提前还、缩短年限越省利息；提前还款还的是本金，缩短占用资金时间自然减少利息。
+主题讨论为小团队共享 AI 账号（如 Pro X20）搭建海外 VPS 代理的可行方案。评论提供了两种主流架构：
+
+1. **海外 VPS 自建 VPN + 境内 CPA 代理**：在海外 VPS 上搭建 VPN（如订阅），境内服务器部署 CLIProxyAPI（CPA），通过 VPN 代理到国外，团队使用 CPA 的 key 访问。此方案便于监控用量，且有配套插件。
+2. **sub2api 方案**：在公司内网服务器搭建 sub2api 并配置代理，但仅限内网使用，若部署在海外服务器可能访问受限。
 
 ### 关键要点
-- **提前还款策略**：等额本金比等额本息更省利息，但前期压力大；提前还款选缩短年限比减少月供更划算。
-- **实际案例**：有用户19年贷123万，23年提前还70万，省息60万；另有用户商贷70多万已还至剩7万。
-- **个税抵扣**：保留少量房贷月供可抵扣个税，如每月还款300多元，不建议全部还清。
-- **预约排队**：提前还款需预约，曾出现排队半年情况，反映银行资金回收意愿。
+- **工具推荐**：CLIProxyAPI（CPA）作为代理转换工具，GitHub 地址：https://github.com/router-for-me/CLIProxyAPI；配套监控插件：CPA-Manager-Plus（https://github.com/seakee/CPA-Manager-Plus）和 cpa-usage-keeper（https://github.com/Willxup/cpa-usage-keeper）。
+- **VPS 选择**：有用户推荐 netcup，也有建议从国内服务商购买境外 VPS（如淘宝），价格便宜但稳定性需自行评估。
+- **架构建议**：海外 VPS 负责网络出口，境内 CPA 负责 API 转换和团队访问，可结合监控插件实现用量管理。
 
 ### 评论补充
-- 有观点认为经济下行期资金更值钱，提前还款的收益需结合通胀和投资机会成本考虑。
-- 部分用户因加名或学区名额等特殊需求选择一次性还清，牺牲个税抵扣。
+- 有用户指出 CPA 比 sub2api 更简洁易用，但 sub2api 适合内网环境。
+- 部分评论强调稳定性风险，建议选择信誉较好的服务商，并做好备份方案。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233426" target="_blank" rel="noopener noreferrer">大家有不定期提前还部分房贷嘛？提前还 6w，利息竟然可以省 6w 左右？</a></span><span class="topic-stats">回复 16 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233824" target="_blank" rel="noopener noreferrer">海外 VPS 我挑花了眼， 求搭建小团队 AI 聚合代理的购买建议</a></span><span class="topic-stats">回复 8 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233576" markdown="1">
+<details class="topic-card" data-topic-id="1233929" markdown="1">
 <summary>
 <span class="topic-rank">41</span>
-<span class="topic-title">亚马逊礼品卡风控严格：日亚美亚秒封账号的处理经验</span>
+<span class="topic-title">LocalSend CLI 容器化部署：NAS 常驻自动接收文件</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1327,29 +1340,32 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-用户使用招行 Visa 卡在美亚和日亚购买 Apple Store 礼品卡，均被秒封账号。日亚先小额测试成功，次日购买大额即被封。评论指出亚马逊礼品卡是电诈重灾区，风控严格，即使日本本地用户一天购买大额也会触发自动退款。
+作者将 LocalSend 官方 CLI（v1.18.0）容器化，部署在 NAS 上作为常驻文件接收端。通过 host 网络直通 UDP 组播，实现设备发现；一次配对后自动接收文件并落盘。配置和身份持久化，支持自动更新。
 
 ### 关键要点
-- 避免通过亚马逊购买礼品卡，可直接在 Apple 官网购买（https://www.apple.com/shop/gift-cards）或使用支付宝的 PockytShop。
-- 日亚对 IP 敏感，机场 IP 易被封；自建梯子、全新邮箱、信用卡和地址可降低关联风险。
-- 解封需提供地址证明，若有亚马逊设备序列号或购买过实物，可联系客服提高成功率。
-- 日亚中文客服权限低，日文客服权限高但语言沟通困难。
+- 使用 podman 容器，需 host 网络模式以支持 UDP 组播发现。
+- 首次配对需 `podman attach` 挂上 TUI，按 P 键授权，之后自动接收。
+- 文件保存路径由 `.env` 中的 `LOCALSEND_DESTINATION` 指定。
+- 配置、身份和配对列表持久化挂载，alias 可自定义设备名。
+- 通过 `build.sh` 自动检查更新并重建容器，可配置定时器。
 
 ### 评论补充
-有用户建议直接使用招行全币种 Visa 卡购买美区礼品卡，但未验证。整体来看，亚马逊礼品卡风控严格，建议优先选择官方渠道。
+有用户认为该方案适合单向保存场景，且隐私性好。
+
+项目地址：https://github.com/100pangci/localsend-cli-container
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233576" target="_blank" rel="noopener noreferrer">亚马逊审核这么严格吗，日亚和美亚用 visa 招行卡购买 apple store 礼品卡，都被秒封了怎么处理？</a></span><span class="topic-stats">回复 15 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233929" target="_blank" rel="noopener noreferrer">我把最近发布的 localsend CLI 做成了容器</a></span><span class="topic-stats">回复 1 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233394" markdown="1">
+<details class="topic-card" data-topic-id="1233692" markdown="1">
 <summary>
 <span class="topic-rank">42</span>
-<span class="topic-title">DeepSeek V4与GLM5.2优惠渠道对比：opencode go与官方API</span>
+<span class="topic-title">美国汇丰全球杀原因及券商出入金实操经验</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1357,33 +1373,31 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-主题讨论 DeepSeek V4 和 GLM5.2 的优惠渠道及性能对比。用户关注官方渠道与第三方订阅（如 opencode go）的性价比和是否降智。
+美国汇丰对账户审核严格，容易"全球杀"（关户），主要因为反洗钱合规压力大，且后疫情时期收缩零售业务，仅保留高净值跨国客户。若资金来源为内地，可能被限制用于投资，甚至触发视频确认。
 
 ### 关键要点
-
-- **DeepSeek V4 Flash 优惠渠道**：opencode go 提供 5 美元月租，可用 60-120 美元 API 额度，但部分用户反映降智和速度慢，官方 API 速度快但回复较短。
-- **GLM5.2 渠道**：最便宜为 ollama 订阅，官方套餐中转 20/100M 不区分输入输出，但工作日下午高峰三倍消耗。
-- **性能对比**：多数用户认为两者智力水平相近，但 GLM5.2 长任务更强，V4 Flash 思考上下文更长且价格更低。
+- **关户原因**：资金未带来收益且增加风险；汇丰曾因反洗钱不力被罚十几亿美元，因此风控严格。
+- **资金来源限制**：美国汇丰明确要求不能用大陆资金进行投资，否则可能被关户。
+- **实操经验**：有用户用美国汇丰做券商出入金和美区订阅，使用全球转账（自己账户间）3年多正常，但需注意资金来源。
+- **替代方案**：可用香港银行卡直接入金美国券商，单次手续费约30美元，避免美国汇丰风险。
 
 ### 评论补充
-
-- 有用户用 GLM5.2 审查 DeepSeek 代码，因 GLM 曾引入严重 bug。
-- 商汤免费版 V4 Flash 被认为比官方更有人感，回复更长。
-- opencode go 是否自建模型存在争议，部分用户未感觉降智。
+- 有用户建议不要用美国汇丰做券商出入金，改用其他方式。
+- 有用户尝试从内地→香港汇丰→美国汇丰规避，但不确定是否可行，汇丰可能追溯资金来源。
+- 远程工作者用港卡收海外工资，可避免资金来源问题。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233394" target="_blank" rel="noopener noreferrer">现在 Deepseek V4 和 GLM5.2 有没有比较优惠且不降智的渠道？</a></span><span class="topic-stats">回复 8 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233692" target="_blank" rel="noopener noreferrer">美国汇丰为什么很容易全球杀? 有办过的来说说吗</a></span><span class="topic-stats">回复 10 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233406" markdown="1">
+<details class="topic-card" data-topic-id="1233927" markdown="1">
 <summary>
 <span class="topic-rank">43</span>
-<span class="topic-title">Web SSH 连接工具推荐：浏览器直连服务器救火方案</span>
+<span class="topic-title">捡到钱包如何找失主：多渠道尝试与有效方法</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1391,36 +1405,33 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-用户希望无需安装客户端，通过浏览器直接 SSH 连接服务器执行命令。评论指出，由于浏览器无法直接访问 SSH 端口，必须通过中转或代理实现。
+楼主在北京捡到钱包，内含身份证、学生证、银行卡等，失主为北理工计院博士。楼主尝试脉脉、邮箱、QQ群均未果，遂发帖求助。
 
 ### 关键要点
-- **浏览器限制**：浏览器没有 socket 权限，无法直接 SSH，需要中转服务。
-- **可行方案**：
-  - **Cloudflare Zero Trust**：通过 Cloudflare 隧道提供 Web SSH。
-  - **CloudSSH**：基于 Cloudflare Workers 的免费 Web SSH 终端。
-  - **Chrome Secure Shell**：谷歌浏览器插件，可连接 SSH。
-  - **Cockpit**：服务器自带 Web 管理界面，支持终端。
-  - **宝塔面板**：提供 HTTP 管理，但需安装。
-- **自建中转**：需在服务器部署如 cloudflared 等工具，并确保外网可访问。
+- **最有效途径**：直接交到派出所或联系学校保卫处，由官方渠道转交，省时省力。
+- **社交媒体**：发抖音、小红书，直接写出失主姓名和身份证信息，通常一天内可找到。
+- **联系学校**：打电话到学校相关部门，留下联系方式，由校方通知失主。
+- **其他方法**：联系当地交通广播、网格员，或通过身份证信息尝试开户获取电话。
 
 ### 评论补充
-- 有用户推荐 EasyNode，但需打洞或中转。
-- 有观点认为“省流：做不到，得中转”，强调必须依赖中转。
-- 有用户建议使用 Cockpit，认为比宝塔更官方。
-- 有用户提供 web.gm.cn 链接，但未验证。
+- 有评论建议直接发快递到系里，但楼主指出无电话可能丢件。
+- 楼主反馈脉脉加人需会员，成本高，已放弃。
+- 有评论提醒可尝试社工，但需注意隐私和法律风险。
+
+综上，捡到钱包找失主，优先选择官方渠道（派出所、学校保卫处），其次利用社交媒体扩散，效率较高。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233406" target="_blank" rel="noopener noreferrer">有没有 wasm 的 web 的 ssh 连接工具，方便随时连接服务器救火？</a></span><span class="topic-stats">回复 14 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233927" target="_blank" rel="noopener noreferrer">捡到了一个钱包，怎么找失主--北京/北理工-计院博士/李*庆</a></span><span class="topic-stats">回复 12 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233431" markdown="1">
+<details class="topic-card" data-topic-id="1233689" markdown="1">
 <summary>
 <span class="topic-rank">44</span>
-<span class="topic-title">Codex 重置不延后时间：用户实测与建模分析</span>
+<span class="topic-title">Loopmark：让 Agent 安全接收密钥的开源 Skill</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1428,33 +1439,30 @@ Rust 官方近期发布 LLM 使用政策，要求文档必须手写，LLM 生成
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-OpenAI Codex 的用量重置机制引发争议：重置时不会将到期时间顺延，导致部分用户实际可用额度减少。有用户通过建模证明存在大量亏损，也有观点认为这是额外赠送额度，不应视为损失。
+作者开发了开源 Agent Skill Loopmark，用于安全地向 Agent 提供 API Token 等敏感信息。其流程为：Agent 生成表单链接，用户在浏览器填写，普通信息直接复制回对话，密钥在浏览器加密后由 Agent 下载解密到本地临时 .env 文件。加密采用混合方案：会话用随机 session code 派生的对称密钥，密钥字段用 ECDH 与 AES-GCM。云端仅存密文，私钥保存在 Agent 本地。支持托管或自部署到 Cloudflare（Worker + R2）。
 
 ### 关键要点
-
-- 重置不延后到期时间，对集中使用额度的用户影响较大，可能打乱工作计划。
-- 有用户因频繁重置改变工作方法，如规划长任务文档，重置后集中执行。
-- 社区已有建模分析（linux.do 帖子）证明存在亏损情况，但需登录查看。
+- 安装：`npx skills add andiedie/loopmark`
+- 项目开源，MIT License，GitHub: https://github.com/Andiedie/loopmark
+- 自部署文档：https://github.com/Andiedie/loopmark#self-hosting-on-cloudflare
 
 ### 评论补充
-
-- 部分用户遇到重置次数查询异常，提示“无法加载用量重置次数”。
-- 有用户认为这是“表演性重置”，实际收益有限。
-- 极端情况下，几天未用满额度，重置反而将到期时间推后，无实际好处。
+- 有用户认为直接编辑本地 .env 或使用记事本更简单，作者回应称远程 SSH 场景下需要跨设备填写，故设计此方案。
+- 评论建议使用系统钥匙串（如 `ssh-add`）、Bitwarden CLI 或 1Password CLI 作为替代。
+- 有用户指出模型可能绕过限制读取密钥，建议开发与生产环境使用不同密钥，或用独立用户并限制 .env 读取权限。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233431" target="_blank" rel="noopener noreferrer">如果 codex 重置 不会把时间往后延 我觉得是最好的！</a></span><span class="topic-stats">回复 17 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233689" target="_blank" rel="noopener noreferrer">我做了一个让 Agent 更安全地接收密钥的 Skill</a></span><span class="topic-stats">回复 9 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233451" markdown="1">
+<details class="topic-card" data-topic-id="1233819" markdown="1">
 <summary>
 <span class="topic-rank">45</span>
-<span class="topic-title">送礼价格一致还是效用一致？看场景变通</span>
+<span class="topic-title">cc-view：Claude Code 任务完成自动通知的开源工具</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1462,31 +1470,33 @@ OpenAI Codex 的用量重置机制引发争议：重置时不会将到期时间�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-给不同晚辈送升学礼，面临价格一致与效用一致的权衡。今年电脑涨价，若按价格一致，性能缩水；若按效用一致，成本上升。评论普遍认为应结合场景变通：
+
+作者开发了开源工具 **cc-view**，用于解决同时运行多个 Claude Code 会话时，需要频繁切换终端检查状态的问题。该工具将主动查看变为被动通知：当任务完成、等待权限或输入时，会弹出系统通知；菜单栏图标实时显示等待和工作的会话数；支持 ⌥Space 命令面板快速跳转终端标签；常驻面板可贴桌面并闪动提醒。此外还提供 token 统计功能。
 
 ### 关键要点
-- **价格一致更稳妥**：多数人认为别人可能不懂效用但一定懂价格，价格一致可避免厚此薄彼之嫌。
-- **黄金等投资品例外**：黄金有投资属性，价格波动大，按同克重更合理，本质等于送现金。
-- **可考虑现金红包**：直接送红包，让受礼者自行购买，避免比较。
-- **根据关系亲疏调整**：出力多的多回报，不必强求一致。
+
+- 技术栈：Tauri 2 (Rust) + Vue 3，MIT 开源，GitHub 和 Gitee 双源更新。
+- 下载与演示：GitHub Releases 提供下载，README 含 GIF 演示。
+- 适用场景：多会话并行时，避免遗漏权限确认或任务完成。
 
 ### 评论补充
-- 有评论指出，若惯例是送“当年主流笔记本”，主动改变可能引发争议，不改变则无人不满。
-- 建议买价格略涨但性能稍降的机型，并明说行情，或直接送 MacBook Air 等价格稳定产品。
-- 黄金与笔记本不同，黄金易变现，可等同现金，因此按价格送更合适。
+
+- 有评论指出类似工具如 herdr 等 multiplexer 可能更通用，作者回应会尝试，并提到 Otty 存在状态不准的问题。
+- 有用户询问与 Claude Code 内置 hook 提醒的差异，作者未直接回复。
+- 部分评论偏离主题，讨论帖子字体格式。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233451" target="_blank" rel="noopener noreferrer">[讨论] 给相关的不同人赠送礼品，应该保持价格一致，还是效用一致？</a></span><span class="topic-stats">回复 16 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233819" target="_blank" rel="noopener noreferrer">CC View — 开着多个 Claude Code 去干别的，任务完了自动通知你</a></span><span class="topic-stats">回复 6 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233437" markdown="1">
+<details class="topic-card" data-topic-id="1233838" markdown="1">
 <summary>
 <span class="topic-rank">46</span>
-<span class="topic-title">iOS 按 App 分流 WiFi 与蜂窝网络的可行方案</span>
+<span class="topic-title">当前面试考察重点：学历、项目匹配、算法与AI使用能力</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1494,31 +1504,31 @@ OpenAI Codex 的用量重置机制引发争议：重置时不会将到期时间�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-用户希望 iOS 设备连接 WiFi 时，特定 App 走蜂窝流量，以避免公司路由记录。评论中提供了多种方案，但各有局限。
+楼主4年未换工作，对当前面试考察重点存疑，引用文章称LeetCode权重下降、短期实操测试成主流，但评论显示实际情况更复杂。
 
 ### 关键要点
-- **快捷指令自动化**：通过自动化触发，在打开/关闭特定 App 时切换 WiFi，但存在滞后性和不稳定性（评论 #12）。
-- **代理工具分流**：Surge、小火箭等支持按域名或规则分流，但 iOS 版 Surge 不支持按进程名（PROCESS-NAME）分流，仅 Mac 版支持（评论 #5、#6、#9、#13）。
-- **系统限制**：国行 iOS 只能限制 App 使用蜂窝数据（即仅 WiFi），不能反向设置仅蜂窝（评论 #7、#8）。
-- **越狱方案**：越狱后可实现真正的按 App 分流（评论 #11）。
+- **学历与项目匹配**：社招主要看业务方向匹配程度，以及个人解决问题的能力。
+- **算法能力**：算法题仍占一定比重，但更侧重思维考察而非死记硬背。
+- **AI使用能力**：面试中通常禁用AI，但会考察AI/搜索引擎的使用能力，AI辅助开发能力成为加分项。
+- **沟通与工作状态**：沟通能力、工作状态、过往技术细节也是重要考察点。
 
 ### 评论补充
-- 有开发者证书的用户可自建按 App 分流的代理（评论 #4）。
-- 无越狱时，需通过抓包或现成规则按域名、UA 等大致分流（评论 #10、#11）。
-- 快捷指令方案有用户反馈不稳定，但银行 App 场景可用（评论 #12、#14）。
+- 有评论指出“有没有真的做过，踩过坑”是时间积累，AI无法替代。
+- 编码能力逐渐弱化，但并非完全消失，面试官会从简历细节提问。
+- 部分公司仍重视算法，但整体趋势是更看重实际经验和思维。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233437" target="_blank" rel="noopener noreferrer">iOS 上有没有办法连接 WiFi 的时候让特定 app 走手机流量？</a></span><span class="topic-stats">回复 15 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233838" target="_blank" rel="noopener noreferrer">现在面试的场景下更看重的是什么。</a></span><span class="topic-stats">回复 7 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233401" markdown="1">
+<details class="topic-card" data-topic-id="1233779" markdown="1">
 <summary>
 <span class="topic-rank">47</span>
-<span class="topic-title">花云机场流量查询与订阅限制的现状及替代方案</span>
+<span class="topic-title">Office 卡顿排查：关闭硬件加速、加载项与网络限制</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1526,31 +1536,31 @@ OpenAI Codex 的用量重置机制引发争议：重置时不会将到期时间�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-用户询问花云机场如何实时获取流量额度，但发现该机场没有提供便捷的 API 或订阅 header 信息，且订阅地址需手动开启并 10 分钟自动关闭，导致每次查看流量需登录网站并过 CF 检测。评论中多位用户反映花云机场近期频繁抽风，节点全断需重新拉取订阅，且订阅更新限制多（不能开代理、需直连、客户端兼容性差），体验恶化。有用户指出其他机场如 jms 提供专门 API，glados 在订阅响应 header 中直接包含 `subscription-userinfo`，而花云没有。
+用户反映 Office 365 打开 Word/Excel 卡顿，考虑换用 WPS 或 LibreOffice。评论显示卡顿并非普遍现象，可能与硬件、加载项或网络有关。
 
 ### 关键要点
-- 花云机场无便捷流量查询接口，订阅地址需手动开启且 10 分钟过期。
-- 替代方案：可参考其他机场的做法，如 jms 的 API 或 glados 的 header 信息。
-- 花云近期稳定性差，频繁断连，需重新拉取订阅，且订阅更新限制多。
-- 用户普遍表示到期不续费，转向其他机场。
+- **硬件与版本**：Office 2021 专业版在普通文件下流畅，除非打开几百 MB 大文件；老旧电脑或内存不足可能导致卡顿。
+- **关闭硬件加速**：在 Office 设置中关闭显卡硬件加速可缓解卡顿。
+- **禁用加载项**：如安装 Office Plus 等加载项，可尝试禁用。
+- **网络因素**：Office 会定期发送心跳包，网络不通时可能阻塞操作；可通过防火墙或路由器屏蔽相关域名（如 office.com、office365.com）改善内网卡顿。
 
 ### 评论补充
-- 有用户建议用 AI 模拟登录获取流量信息，但被质疑为推广贴。
-- 花云对非白名单域名的非浏览器访问会拦截证书验证，影响基础功能。
-- 部分用户认为花云曾物美价廉，但用户增多后体验下降。
+- 有用户反馈 WPS 反而更卡，Office 流畅，说明体验因人而异。
+- 在 Windows 上，Office 通常比其他办公套件资源效率更高。
+- 若使用 Mac，旧版 Office 可能卡，Office 365 表现更好。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233401" target="_blank" rel="noopener noreferrer">花云机场怎么实时获取流量额度信息？</a></span><span class="topic-stats">回复 14 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233779" target="_blank" rel="noopener noreferrer">你们用微软 office 打开文档不卡吗？</a></span><span class="topic-stats">回复 9 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233599" markdown="1">
+<details class="topic-card" data-topic-id="1233882" markdown="1">
 <summary>
 <span class="topic-rank">48</span>
-<span class="topic-title">30岁后毛孔粗大：医美与日常护理经验</span>
+<span class="topic-title">ChatGPT 推出付费重置功能：Plus 8 美元，Pro 5x 用户更划算</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1558,35 +1568,30 @@ OpenAI Codex 的用量重置机制引发争议：重置时不会将到期时间�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-30岁后皮肤毛孔粗大是常见现象，多位用户确认其与年龄增长相关，且基本不可逆。讨论中提供了多种应对方法，从日常护理到医美手段，各有优劣。
+OpenAI 为 ChatGPT 订阅用户推出付费重置功能，Plus 用户每次重置需 8 美元，Pro 5x 用户可通过重置获得更多用量。该功能引发用户对定价策略的讨论。
 
 ### 关键要点
-
-- **医美手段**：黄金微针、点阵激光、刷酸等被提及。点阵激光效果显著但痛苦且恢复期长（1-2个月），需多次治疗，费用数百至千元不等；黄金微针昂贵且疼痛。
-- **日常护理**：使用洗面奶、保湿产品可延缓恶化，但无法缩小毛孔。有用户尝试刷酸，但可能使斑点更明显。
-- **其他方法**：皮肤滚针（0.5mm）价格低廉，可自行操作，但需注意卫生。
+- **定价**：Plan $20，Reset for $8（来自 Reddit 链接）。
+- **性价比分析**：Pro 5x 与 Plus 差价 80 美元，相当于可重置 10 次；按需重置比直接购买 5x 更灵活。
+- **定价策略**：5x 与 20x 差价 100 美元，用量差 4 倍；若 5x 重置 3 次即可达到 20x 用量，但价格低于 200 美元，因此付费重置可能限制次数或递增价格，以保护高端套餐。
 
 ### 评论补充
-
-- 毛孔粗大不仅限于脸部，手背也可能出现。
-- 年轻时长痘挤压可能留下痘坑，加剧毛孔问题。
-- 有用户建议“少照镜子”以缓解焦虑，但非实质解决方案。
-
-总体而言，毛孔粗大难以逆转，医美是主要改善手段，但需权衡成本与恢复期；日常护理只能控制不再扩大。
+- 有用户认为这是“阳谋”，先培养免费重置习惯再收费。
+- 部分用户认为性价比不高，但 Pro 20x 用户可能受益。
+- 有建议推出 token 转让功能，可能催生黄牛市场。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233599" target="_blank" rel="noopener noreferrer">中老登如何解决脸部毛孔粗大的问题的？（不确定是不是毛孔粗大）</a></span><span class="topic-stats">回复 11 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233882" target="_blank" rel="noopener noreferrer">马上就有付费重置咯！</a></span><span class="topic-stats">回复 9 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233585" markdown="1">
+<details class="topic-card" data-topic-id="1233741" markdown="1">
 <summary>
 <span class="topic-rank">49</span>
-<span class="topic-title">开源鼠标跟随小黄狗组件 Gaze-Dog，可独立集成</span>
+<span class="topic-title">AI 多人协作编码的规范与工作流问题及解决思路</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1594,31 +1599,33 @@ OpenAI Codex 的用量重置机制引发争议：重置时不会将到期时间�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者分享了一个通过 AI 复刻的鼠标跟随小黄狗网页效果，并开源了代码，方便集成到自己的网站。预览地址和仓库地址均已提供。
+
+主题讨论 AI 编码在多人协作时遇到的规范、思路不一致以及代码归属记忆问题。作者提出通过前期评审、代码 review 以及结合 git 保留 AI 上下文等思路。
 
 ### 关键要点
-- 项目名称：Gaze-Dog，基于 AI 复刻，可独立集成。
-- 预览地址：https://mr-xue.github.io/Gaze-Dog/
-- 仓库地址：https://github.com/Mr-xue/Gaze-Dog
-- 效果：小狗的眼睛会跟随鼠标移动，在手机端可跟踪转动方向。
+
+- 采用 **SDD（Specification-Driven Development）** 工具如 **openspec**，将任务拆分到每人独立，减少协作冲突。
+- 若不想 review 代码，需同步维护文档并进行 git 管理。
+- 让 agent 使用项目级 git 提交身份，通过 git 历史追溯代码作者。
+- 使用多会话、不同模型二次检查优化，弥补 AI 生成代码的审查不足。
 
 ### 评论补充
-- 有用户反馈无法访问预览地址，但随后确认是自己的问题。
-- 有用户提到类似功能（如 codex 宠物、自写 app 宠物）也支持鼠标跟随，说明该交互模式已有先例。
-- 有用户质疑集成到网站的实际作用，作者未回应，但作为趣味性组件，可增加页面互动性。
+
+- 有评论指出真人手写代码也存在类似问题，AI 只是加剧了规模。
+- 建议保留一人主导，其余预算投入 AI，但需注意风险。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233585" target="_blank" rel="noopener noreferrer">twitter 上看到一网站挺有意思的效果，注视鼠标的小黄狗，复刻了下便于集成到自己网站</a></span><span class="topic-stats">回复 7 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233741" target="_blank" rel="noopener noreferrer">AI 多人协作的时候遇到的一些“问题”</a></span><span class="topic-stats">回复 6 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1233380" markdown="1">
+<details class="topic-card" data-topic-id="1233690" markdown="1">
 <summary>
 <span class="topic-rank">50</span>
-<span class="topic-title">自学DevOps无项目经验求职困境与实战建议</span>
+<span class="topic-title">HowToWhistle：实时音高反馈的吹口哨练习网站</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1626,210 +1633,21 @@ OpenAI Codex 的用量重置机制引发争议：重置时不会将到期时间�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主自学K8s、AWS、Terraform、CICD等技能，英语流利，但无生产环境项目经验，投递上千份简历，多次面试后因技术栈不匹配或缺乏实战被拒，陷入求职困境。
+作者开发了吹口哨练习网站 HowToWhistle（https://howtowhistle.org/），核心功能是利用浏览器麦克风实时检测音高，显示与目标音的偏差，类似 KTV 评分。
 
 ### 关键要点
-- 自学技能与生产环境实战存在差距，面试官更看重实际解决问题的能力。
-- 简历中强调自学技能可能被视为缺乏经验，需谨慎表述。
-- 多次面试失败后，外包公司可能将候选人拉黑，影响后续推荐。
+- 实时音高反馈：显示当前音高及偏高/偏低。
+- 渐进式练习：从单音长音到音阶、旋律。
+- 纯前端实现，声音不上传，无需注册。
 
 ### 评论补充
-- 有评论建议考取相关证书增加竞争力。
-- 资深从业者指出实战中会遇到文档过时、IAM权限复杂等问题，强调解决实际问题的能力比纸上经验更重要。
-- 建议将简历中的纸上部分去掉，突出实际解决问题的能力。
+- 有用户反馈在手机上吹奏时每个音符低半个调，可能受设备或吹奏方式影响。
+- 作者提到因版权问题无法加入经典曲目。
+- 有用户想实现类似功能（哼唱转五线谱），作者建议用 AI 实现。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233380" target="_blank" rel="noopener noreferrer">devops 没有项目经验，是否是致命的</a></span><span class="topic-stats">回复 13 · 收藏 0</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1233512" markdown="1">
-<summary>
-<span class="topic-rank">51</span>
-<span class="topic-title">Realm 内网穿透访问 NAS：双 NAT4 实测 1 秒打洞成功</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者推荐使用 hysteria 大佬的 Realm 方案实现无公网 IP 访问家中 NAS。该方案基于 UDP 打洞，server 端无需公网，client 通过 realm 与 server 建立内网穿透。作者实测在双 NAT4 环境下 1 秒穿透成功，并强调 hy2 的 Brutal 流控在跨网跨国丢包时效果显著，访问 NAS 稳定流畅。
-
-### 关键要点
-- 方案：Realm（基于 hysteria 协议），无需公网 IP，通过 UDP 打洞实现 P2P 连接。
-- 实测：双 NAT4 下 1 秒穿透成功，但若 NAT4 为随机端口类型可能失败。
-- 流控：hy2 的 Brutal 流控对高丢包网络（如跨国）优化明显。
-- 替代方案：若无公网且不打洞，可考虑 IPv6 或向日葵等 P2P+中转方案。
-
-### 评论补充
-- 有用户指出双 NAT4 打洞成功可能意味着实际并非双侧 NAT4，因为运营商入户通常为 NAT1，内网设置可能导致检测为 NAT4。
-- 有用户提到 UDP 协议可能容易被 QoS 或封锁。
-- 有用户推荐使用 tunnels 作为替代工具。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233512" target="_blank" rel="noopener noreferrer">推荐一个无需公网访问家里 NAS 的方式</a></span><span class="topic-stats">回复 9 · 收藏 1</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1233490" markdown="1">
-<summary>
-<span class="topic-rank">52</span>
-<span class="topic-title">OpenCode Go 订阅 DeepSeek Flash 上下文窗口问题及解决</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-用户反馈 OpenCode Go 订阅的 DeepSeek Flash V4 模型上下文窗口异常，约 160K 即超限，而预期应为 1M。经排查，问题源于 IDE 未开启 Max 模式，开启后解决。
-
-### 关键要点
-- **上下文限制**：OpenCode Go 付费版 DeepSeek Flash V4 支持 1M 上下文，免费版仅约 200K。
-- **常见误区**：订阅时需选择正确的模型 ID（如 `DeepSeek V4 Flash (2x usage) OpenCode Go max`），避免误用免费版。
-- **解决步骤**：检查 IDE 设置，确保启用 Max 模式。
-
-### 评论补充
-- 有用户表示正常使用可达 1M，但部分模型容量可能较小。
-- 若允许路由回中国，付费版可享受原版容量。
-- 超限现象可能因模型选择错误或未开启 Max 导致。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233490" target="_blank" rel="noopener noreferrer">opencode go 上下文</a></span><span class="topic-stats">回复 11 · 收藏 0</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1233430" markdown="1">
-<summary>
-<span class="topic-rank">53</span>
-<span class="topic-title">4年接单经历：学生单市场变化与AI应用</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者分享了2022年至2025年期间在闲鱼和小红书接单的经历，主要面向学生群体，涉及程序、作业和留学毕设等。随着AI工具（如GPT、Cursor、Augment）的发展，接单效率大幅提升，但市场也发生变化：国内学生单预算低、要求高，海外学生单利润较高但需处理AI痕迹。作者强调客户资源比技术更重要，并指出接单是主动劳动，非长久之计。
-
-### 关键要点
-- **收入变化**：从2022年3单赚600元，到2023年月入1万，2024年月入2-3万，2025年高峰期月入2-4万。
-- **平台策略**：闲鱼初期有效，后期需付费推广；小红书流量精准，但留学行业受打击后需转型。
-- **AI应用**：使用AI工具快速完成订单，但需去除AI痕迹以应对检测。
-- **中介模式**：尝试派单给他人，但写手质量参差，最终放弃。
-
-### 评论补充
-有用户询问学生单是否主要做程序，作者回复最初是程序，后来扩展至其他专业，实际由AI完成。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233430" target="_blank" rel="noopener noreferrer">分享一下这 4 年来的接单记录</a></span><span class="topic-stats">回复 2 · 收藏 3</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1233547" markdown="1">
-<summary>
-<span class="topic-rank">54</span>
-<span class="topic-title">Vibe Coding 代码 Review 流程与工具分享</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-
-主题讨论在 Vibe Coding 场景下如何高效 Review AI 生成的代码并反馈给 AI。作者分享了自己的流程：AI 执行任务时，在旁边记录下一步需求（用便签或文本文件），完成后 review 代码，发现问题先修复，再发送下一步 prompt。但记录方式不顺手，希望有工具能直接在代码位置添加 comment，自动关联文件和行号，支持类型标签（如 issue/question/improve），并能一键导出给 AI。
-
-### 关键要点
-
-- 作者推荐工具 **tuicr**（https://github.com/agavra/tuicr），支持 diff review、行级 comment、导出 Markdown，但主要基于 Git diff，对全新功能开发不够方便，且在 WSL 中剪贴板支持有问题。
-- 评论推荐 **diff.rxt.io**（https://diff.rxt.io/），功能与 tuicr 类似，基于 git commit diff 添加 comment。
-- 有用户采用 **GitHub PR 工作流**：PR 上自动运行与开发不同的 model review workflow，人工再大致过一遍，但人工审查越来越少。
-- 部分用户选择**不看代码**：先聊需求，让 AI 写，然后通过测试用例验证；或把需求写清楚，验证需求是否完成。
-
-### 评论补充
-
-- 评论中有人表示“基本不看代码”，将代码视为黑盒，更注重需求明确和测试验证。
-- 作者对 diff.rxt.io 的评价是“看起来不错”，但功能与 tuicr 类似。
-
-整体来看，Vibe Coding 的代码审查趋势是减少人工逐行审查，转向更高层次的验证和自动化工具辅助。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233547" target="_blank" rel="noopener noreferrer">大家在 Vibe Coding 时是如何 Review AI 生成的代码并反馈给 AI 的？</a></span><span class="topic-stats">回复 6 · 收藏 1</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1233449" markdown="1">
-<summary>
-<span class="topic-rank">55</span>
-<span class="topic-title">OpenAI Pro 6个月领取及绑卡问题：U卡可用，申请渠道分享</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-主题涉及通过开源项目申请获得 OpenAI Pro 6个月试用，以及绑卡时 Visa 卡绑定失败的问题。作者通过开源项目申请成功，但绑卡遇到困难，评论区提供了解决方案。
-
-### 关键要点
-- **申请渠道**：通过 OpenAI 官方表单申请，地址为 `https://openai.com/zh-Hans-CN/form/codex-for-oss/`，项目为 `https://github.com/leookun/cursor-byok/`，约3天后收到回复邮件。
-- **绑卡问题**：Visa 卡绑定失败，可能是卡 bin 限制。建议尝试 U 卡（如 Gate 的 U 卡）或新加坡卡。
-- **申请技巧**：表单内容可用 GPT 生成，提高通过率。
-
-### 评论补充
-- 有用户询问申请方式，作者回复了具体渠道。
-- 评论指出卡 bin 限制多，U 卡并非全部可用，新加坡卡可能可行。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233449" target="_blank" rel="noopener noreferrer">获得了 OpeaAI 的 6 个月的 Pro，领取需要绑卡， visa 绑定不上去，问一下大佬怎么搞</a></span><span class="topic-stats">回复 5 · 收藏 1</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1233621" markdown="1">
-<summary>
-<span class="topic-rank">56</span>
-<span class="topic-title">Codex 中文教程站上线，含安装配置与常见问题</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-站长自建 Codex 中文教程站 CodexGuide，旨在解决中文入门资料分散、新手易卡在安装配置的问题。站点覆盖 Windows/WSL 安装、基础使用、常见问题与案例，并已开源（GitHub 仓库）。
-
-### 关键要点
-- 教程站地址：https://codexguide.io ，开源仓库：https://github.com/awefoundry/codex-handbook
-- 内容持续更新，计划跟进官方新功能并补充实际案例
-- 评论建议：首页可优化视觉；每页标注对应 CLI 版本和日期，避免因参数变动导致报错难查
-
-### 评论补充
-- 有用户指出 Windows 下代理配置易踩坑：npm 使用自身 config 的 proxy，而 CLI 依赖 HTTPS_PROXY 等环境变量，系统代理不会自动赋值，需写入用户级环境变量，建议教程单独说明
-- 有用户建议关注官方更新，及时同步新功能
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233621" target="_blank" rel="noopener noreferrer">整了个 Codex 中文教程站，求各位佬帮忙挑挑毛病</a></span><span class="topic-stats">回复 5 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1233690" target="_blank" rel="noopener noreferrer">HowToWhistle：像唱 KTV 一样练习吹口哨</a></span><span class="topic-stats">回复 9 · 收藏 0</span></p>
 
 </div>
 
