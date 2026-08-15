@@ -1,27 +1,27 @@
 ---
 layout: report-home
 title: "V2EX 每日热点回顾"
-date: 2026-08-14 08:30:00 +0800
+date: 2026-08-15 08:30:00 +0800
 categories: [v2ex, daily-report]
 status: success
-target_date: 2026-08-14
-generated_at: "2026-08-15 06:36:33"
-summary: "昨日主题 262 个，过滤 80 个，DeepSeek 分析 182 个，保留高价值内容 38 个。"
-count_all: 262
-count_excluded: 80
-count_included: 182
+target_date: 2026-08-15
+generated_at: "2026-08-16 06:32:49"
+summary: "昨日主题 175 个，过滤 70 个，DeepSeek 分析 105 个，保留高价值内容 28 个。"
+count_all: 175
+count_excluded: 70
+count_included: 105
 count_high_signal: 0
-count_valuable: 38
-report_url: "/2026/08/14/"
-data_url: "/data/2026-08-14.json"
+count_valuable: 28
+report_url: "/2026/08/15/"
+data_url: "/data/2026-08-15.json"
 ---
 
-# V2EX 2026-08-14 昨日新帖报告
+# V2EX 2026-08-15 昨日新帖报告
 
-<details class="topic-card" data-topic-id="1234248" markdown="1">
+<details class="topic-card" data-topic-id="1234521" markdown="1">
 <summary>
 <span class="topic-rank">1</span>
-<span class="topic-title">体位性低血压与排尿性晕厥：症状、检查与预防</span>
+<span class="topic-title">V2EX 提供 DeepSeek API：配置方法与使用条件</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -29,30 +29,31 @@ data_url: "/data/2026-08-14.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主描述夜间起身排尿时突然晕倒，短暂意识丧失，醒来后发现自己躺在地上，手机掉入马桶。多位网友指出这可能是**体位性低血压**或**排尿性晕厥**，属于常见现象，但需排除严重疾病。
+V2EX 官方提供 DeepSeek 模型 API，可在 DeepSeek Harness 中配置使用。具体配置：Base URL 为 `https://edge.v2ex.com/chat/v1`，模型名为 `coder-ds4-0731`，API token 可在 `https://edge.v2ex.com/settings/tokens` 获取。用量规则见 `https://edge.v2ex.com/help/quota`。
 
 ### 关键要点
-- **常见原因**：体位性低血压（从躺卧突然站起导致脑供血不足）、排尿性晕厥（排尿时迷走神经兴奋引起血压下降）。
-- **建议检查**：脑部CT、颈动脉超声、心脏彩超等，以排除烟雾病、颈动脉狭窄、脑梗等严重问题。
-- **预防措施**：起身时动作缓慢，排尿时尽量坐着，避免憋尿过久。
+- 使用条件：需满足以下之一：持有 50 银币、持有 10000 $V2EX、或曾付费支持 V2EX。
+- 实测速度接近 2 万 tokens/秒（用户反馈）。
+- 部分用户遇到访问问题，可能与代理设置有关：系统代理模式超时，虚拟网卡模式可用；也有用户反馈 TUN 模式不可用。
 
 ### 评论补充
-- 有网友分享类似经历，多与疲劳、睡眠不足、饮酒有关，休息后好转。
-- 部分人建议增加运动改善心血管功能，也有网友提到需关注心理压力导致的躯体化症状。
-- 若反复发作或伴随其他症状，务必就医全面检查。
+- 有用户反馈 npx 安装方式无法使用，但未提供具体错误。
+- 有用户遇到模型返回空内容（`model returned a completed response with no content`）。
+- 有用户询问是否支持 effort 参数，未获官方回复。
+- 有用户询问模型是否为量化版本，未获明确答复。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234248" target="_blank" rel="noopener noreferrer">脑供血不足晕倒</a></span><span class="topic-stats">回复 97 · 收藏 17</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234521" target="_blank" rel="noopener noreferrer">在 DeepSeek Harness 里使用 V2EX 提供的 deepseek-v4-flash:0731</a></span><span class="topic-stats">回复 72 · 收藏 71</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234254" markdown="1">
+<details class="topic-card" data-topic-id="1234526" markdown="1">
 <summary>
 <span class="topic-rank">2</span>
-<span class="topic-title">公司20-40人本地部署开源模型的硬件配置与成本</span>
+<span class="topic-title">欠薪仲裁全流程：从立案到强制执行的经验与风险</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -60,30 +61,31 @@ data_url: "/data/2026-08-14.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主询问公司内部为20-40人部署开源模型（用于文档处理和简单编程）所需的硬件配置。评论普遍认为，本地部署成本高昂，且需考虑并发和上下文长度。
+楼主分享从公司欠薪到仲裁胜诉并拿回全部欠款的全过程，强调坚持法律途径的重要性。关键节点包括：2025年9月提交被迫解除劳动关系通知书并立案，2026年3月开庭调解，4-8月分期收款，最终结清。
 
 ### 关键要点
-- **硬件需求**：多数建议需要多张高端显卡，如4张RTX 5090或RTX Pro 6000，甚至10张以上；也有提到DGX Spark或H20等服务器方案。
-- **模型选择**：推荐部署DeepSeek-V4-Flash等低资源需求模型，但效果好的模型（如Qwen3.6-35B）资源需求低但成功率低。
-- **成本考量**：本地部署需承担高额硬件和电费，若保密要求不严，购买云服务可能更划算。
+- **流程**：欠薪被迫解除劳动关系通知书 → 劳动仲裁立案 → 开庭调解 → 强制执行（如不履行）。
+- **策略**：收集公司资产证据，威胁申请强制执行和股东实缴责任，利用股东身份（如大学老师）施压。
+- **时间**：从立案到结清约一年，仲裁立案排队时间较长（朝阳区约5个月）。
 
 ### 评论补充
-- 有评论指出，Agent工具上下文大，prefill阶段耗时，需更多资源。
-- 提供VRAM计算器链接（https://apxml.com/zh/tools/vram-calculator）供参考。
-- 部分用户认为本地部署不划算，除非有严格保密需求。
+- 有用户分享类似经历：不接受调解，仲裁缺席判决后申请强制执行，最终全款到账。
+- 另一用户提醒风险：公司可能转移法人股东、使用职业背债人，导致执行困难；律师质量参差不齐，需自行核对法条。
+- 有评论指出，股东出资加速到期等新规可能有助于追索，但实务中财产保全和追加股东操作复杂，需专业支持。
+- 部分评论认为，耗时一年才拿回欠薪，反映维权成本高，但坚持仍是有效途径。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234254" target="_blank" rel="noopener noreferrer">公司本地部署开源模型</a></span><span class="topic-stats">回复 54 · 收藏 11</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234526" target="_blank" rel="noopener noreferrer">仲裁胜利-记一次不太艰辛的仲裁之路</a></span><span class="topic-stats">回复 29 · 收藏 19</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234259" markdown="1">
+<details class="topic-card" data-topic-id="1234656" markdown="1">
 <summary>
 <span class="topic-rank">3</span>
-<span class="topic-title">缓存命中率作为 agent 性能指标的局限与成本影响</span>
+<span class="topic-title">35TB数据从UGOS迁移到飞牛NAS的完整实战记录</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -91,34 +93,33 @@ data_url: "/data/2026-08-14.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-主题讨论缓存命中率作为 agent 性能评估参数的合理性。作者认为缓存命中率与任务场景、输入变化、服务端 harness 设计强相关，多轮对话中命中率必然趋向 100%，因此不能直接反映 agent 能力。评论中多数人同意这一观点，但强调缓存命中率直接影响 API 成本，对价格敏感用户很重要。
+作者详细记录了将35TB数据从绿联UGOS系统迁移到飞牛(FnOS)的全过程，包括数据中转、系统重装、应用恢复等关键步骤，并提供了可复用的脚本和方案。
 
 ### 关键要点
-
-- 缓存命中率受任务复杂度、输入动态性、服务端缓存策略影响，简单任务和长对话自然命中率高。
-- 主流 harness 通过稳定前缀（如 system prompt 前置）提高命中率，但动态内容（如时间戳）会破坏缓存。
-- 缓存命中率决定结算单价，影响完成任务的成本，因此用户和厂商都关注。
-- 评估 agent 应更看重模型能力、推理能力和任务执行正确率，而非单纯命中率。
+- **数据中转**：租赁雷电磁盘阵列（48T，7天1540元）作为中转，使用rsync并发推送，34小时完成迁出。
+- **rsync静态编译**：针对UGOS缺少libc的问题，使用AI辅助编译静态rsync，参考[rsync-static](https://github.com/jbruechert/rsync-static)。
+- **回迁方案**：大文件用飞牛Web上传，小文件（10万+）用NFSv3+rsync，避免SMB审计日志刷屏。
+- **目录重整**：迁移时统一媒体目录结构，避免Docker bind mount导致的原地读写问题。
+- **应用恢复**：用docker inspect导出配置，AI生成compose文件，快速重建服务。
 
 ### 评论补充
-
-- 有评论指出，agent 场景中历史记录是缓存大头，命中率直接影响成本，用户会用脚投票。
-- 有人提到不同工具（如 opencode 和 claude code）在相同任务下命中率不同，优化缓存是实际需求。
-- 也有观点认为，缓存命中率优化是基本开发思维，但不应作为唯一评价标准。
+- 有评论质疑飞牛的安全性，作者回应称已评估并修复，且飞牛可虚拟机体验。
+- 关于带宽，作者表示50Mbps上行足够亲友串流，且A类NAT限制了做种。
+- 部分评论建议直接购买群晖等成品，但作者认为折腾过程有学习价值。
+- 有评论提醒Raid5风险，作者未直接回应。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234259" target="_blank" rel="noopener noreferrer">不明白为什么很多人用「缓存命中率」作为 agent 的性能评估参数</a></span><span class="topic-stats">回复 48 · 收藏 11</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234656" target="_blank" rel="noopener noreferrer">我如何在 AI 帮助下， 7 天带着 35TB 数据逃离某联系统</a></span><span class="topic-stats">回复 17 · 收藏 17</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234376" markdown="1">
+<details class="topic-card" data-topic-id="1234535" markdown="1">
 <summary>
 <span class="topic-rank">4</span>
-<span class="topic-title">去AI味skill推荐与替代方案：设计稿先行、避免模板化</span>
+<span class="topic-title">浏览器插件一键执行网页命令的可行性与安全风险讨论</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -126,33 +127,30 @@ data_url: "/data/2026-08-14.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-主题讨论如何去除 AI 生成内容（尤其是设计稿和文案）的“AI 味”。多数回复认为单纯依赖 skill 效果有限，更有效的方法是改变工作流和内容策略。
+楼主提出一个浏览器插件点子：识别网页中的终端命令并提供一键执行，省去复制粘贴步骤。但讨论迅速聚焦于安全性和技术可行性。
 
 ### 关键要点
-
-- **skill 推荐**：有用户推荐 `impeccable`、`killaislop.com`（yetone 大神作品）、`Open Design`（附带去 AI 味 Prompt），以及自制的 `say-it-pro`（用于文案和文档，GitHub 链接见评论）。
-- **替代方案**：多位用户建议先用 AI 生成设计稿（如 Claude Design、ASCII 布局 + Google Stitch），人工微调后再转代码，避免直接让 AI 写最终代码。
-- **内容去味**：针对小红书等平台，避免统一模板和结构，从具体细节切入，篇幅格式不统一，降低 CTA 频率，以“真实使用记录”代替营销通稿。
+- **安全风险**：多位用户指出，一键执行网页命令可能扩大风险，因为用户无法确认命令内容是否被篡改，例如可能包含 `rm -rf /` 等危险指令。
+- **技术限制**：浏览器插件（尤其 MV3）权限受限，无法直接执行终端命令，必须搭配本地服务（local server），且可能需要 Accessibility 和 Full Disk 权限，属于高风险权限组合。
+- **改进建议**：有用户建议集成 agent 评估命令风险，或结合 annotate 功能；也有用户认为开源工具无法解决命令本身的风险。
 
 ### 评论补充
-
-- 有用户指出，过度要求 AI 会导致“推理”模式，产生死板感；提供合理模仿对象可能激发“直觉”产生更好内容。
-- 也有观点认为，最终仍需加入个人想法，否则“非 AI 味”无从谈起。
-- 注意：有评论提醒，去 AI 味 skill 可能带来新的“模板味”，需谨慎使用。
+- 有用户指出类似想法已有帖子讨论（如 v2ex.com/t/1124681），可参考。
+- 多数用户表示不敢使用此类工具，但认可作为个人项目尝试的价值。
+- 楼主最终表示理性讨论后决定放弃该点子，转向其他项目。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234376" target="_blank" rel="noopener noreferrer">大家有推荐的去 AI 味 skill 吗</a></span><span class="topic-stats">回复 24 · 收藏 20</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234535" target="_blank" rel="noopener noreferrer">突然灵光一个点子，想做一款浏览器插件，本来可以立即 Coding，但止住了，各位一起讨论讨论引发的一些想法</a></span><span class="topic-stats">回复 78 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234240" markdown="1">
+<details class="topic-card" data-topic-id="1234587" markdown="1">
 <summary>
 <span class="topic-rank">5</span>
-<span class="topic-title">业余自学系统编程的弯路与建议：从工作需求出发</span>
+<span class="topic-title">千兆宽带测速工具实测：speedtest.im、全球网测等可用</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -160,31 +158,31 @@ data_url: "/data/2026-08-14.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主分享业余自学系统编程（如 xv6 labs、解释器）的弯路：项目周期长、易疲劳、职业帮助有限，陷入半年挣扎期。评论普遍建议：从实际工作需求出发学习，而非折腾 demo 项目；将系统编程视为业余爱好，降低功利心；业务推动技术，避免因果倒置。
+楼主在浙江使用千兆宽带，发现常见测速工具（speedtest.cn、speedtest.net、TP-Link 路由器自带测速）均被限速或只能找到单一测速点，无法测出真实带宽。经网友推荐，实测多款工具，其中 **speedtest.im** 表现最佳，可跑出 925 Mbps（接近千兆设备上限），而中科大测速网、腾讯网络测速小程序等仍被限速至 300-600 Mbps。
 
 ### 关键要点
-- **学习方向**：从工作需求出发，做能切中痛点的项目，而非练手小项目。
-- **心态调整**：若工作与系统无关，可将系统编程当兴趣爱好，如钓鱼摄影，不计较得失。
-- **时间管理**：精力有限，工作占据精力时需收缩其他兴趣，避免过度投入。
-- **职业转型**：年龄较大时转型难度高，可考虑独当一面搭建系统，或接受作为爱好。
+- **speedtest.im**：浙江联通实测下载 1193.76 Mbps，楼主实测 925 Mbps，推荐优先使用。
+- **全球网测 App**（中国信通院）：可测上限，适合验证宽带峰值。
+- **其他可用工具**：中科大测速网（约 300 Mbps）、腾讯网络测速小程序（约 300 Mbps）、浙大测速（650 Mbps，但为校园网）、fast.com、Cloudflare 测速（h3.speed.cloudflare.com）、Fastly 测速（v6.fastly-debug.com）等。
+- **注意**：WiFi5 设备跑千兆有瓶颈，实测约 700 Mbps，建议使用有线或 WiFi6 测试。
 
 ### 评论补充
-- 有评论指出可能为 ADHD，建议审视真实兴趣。
-- 有评论分享自身放弃转行硬件的经历，强调评估投入产出比。
-- 有评论建议先定义“系统”概念，避免目标模糊。
+- 有网友指出，除下载大文件外，100M 与 1000M 宽带体验差距不大，且多数服务器不会提供千兆带宽。
+- 部分测速工具（如花瓣测速）已限制非华为手机使用，需寻找替代方案。
+- 广东移动官方测速点（http://120.198.253.58:5080/）可尝试，但需填写手机号。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234240" target="_blank" rel="noopener noreferrer">感觉自己在工作之余的学习中走了弯路，和大家分享一下</a></span><span class="topic-stats">回复 39 · 收藏 13</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234587" target="_blank" rel="noopener noreferrer">现在宽带测速用什么工具或者网站？</a></span><span class="topic-stats">回复 17 · 收藏 13</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234278" markdown="1">
+<details class="topic-card" data-topic-id="1234543" markdown="1">
 <summary>
 <span class="topic-rank">6</span>
-<span class="topic-title">Gemini 地区限制排查：IP 风控与账号区域识别</span>
+<span class="topic-title">独立开发者宣传与抄袭悖论：用户来源与应对策略</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -192,31 +190,33 @@ data_url: "/data/2026-08-14.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-近期部分用户反映 Gemini 及 Antigravity 出现地区限制，即使使用美国 IP 也无法访问。经排查，主要原因是 Google 的 IP 风控变严格，可能将代理 IP 识别为中国，或账号区域被错误调整。
+
+独立开发者常面临宣传与抄袭的悖论：不宣传没用户，宣传可能被模仿。但评论指出，真正赚钱的项目并非不宣传，而是通过精准渠道获取用户，且抄袭并非致命威胁。
 
 ### 关键要点
-- **IP 风控**：自建美区 IP 可能仍被识别为中国，换用更干净的 IP 或自建节点可解决。
-- **账号区域**：登录后查看 Google 服务条款中的 Country version，若显示中国，可尝试申诉改回美国。
-- **客户端差异**：Antigravity 和 IDE 可能可用，但 Gemini 客户端或网页版不可用，需分别排查。
-- **临时现象**：部分用户反映过一会刷新即可恢复，可能为临时风控。
+
+- **用户来源**：主要来自私域传播、SEO/ASO 精准流量、垂直社区推广，以及针对国外用户（如不做中文版）减少国内抄袭。
+- **应对抄袭**：产品核心竞争力在于长期维护、细节和用户习惯，而非单纯功能；抄袭者难以复制完整体验。
+- **策略建议**：与有销售能力的人合作做 B 端；快速迭代跑赢抄袭者；关注小众垂直市场。
 
 ### 评论补充
-- 有用户反馈 3.7 flash 模型不可用，但 3.6 正常；也有用户表示 3.7 可用，情况不一。
-- 使用 aistudio.google.com 时，换用日本 IP 可能有效，但今日彻底无法访问。
-- 申诉后几小时可恢复美国区域，但需确认账号区域设置。
+
+- 有开发者表示产品未推广也能实现旅居自由，但公开产品与收入可能意味着开始割韭菜。
+- 有观点认为，中国网民基数大，只要产品有用，获取 1%-5% 用户即可盈利，不赚钱需反思产品价值。
+- 也有评论强调，AI 降低了模仿成本，悖论可能加剧，但不可复制的数据或技术可构成壁垒。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234278" target="_blank" rel="noopener noreferrer">Gemini 被送回来了？</a></span><span class="topic-stats">回复 38 · 收藏 13</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234543" target="_blank" rel="noopener noreferrer">发现一个独立开发者的悖论</a></span><span class="topic-stats">回复 20 · 收藏 12</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234363" markdown="1">
+<details class="topic-card" data-topic-id="1234528" markdown="1">
 <summary>
 <span class="topic-rank">7</span>
-<span class="topic-title">个体装修工讨薪难：可行维权路径与预防措施</span>
+<span class="topic-title">个人开发AI工具性价比对比：Codex vs Claude Code</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -224,30 +224,34 @@ data_url: "/data/2026-08-14.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主父亲是山西四五线城市的个体装修工人，常通过熟人介绍接活，无书面合同，遭遇私人包工头或业主拖欠尾款，金额从几百到几千元。劳动局以个人纠纷为由不予受理，建议走法院，但诉讼周期长、成本高，老人难以应对，形成维权死局。
+
+个人开发 app 或小游戏时，AI 编程工具的选择主要围绕 **Codex** 和 **Claude Code** 展开。多数用户认为 **Codex 性价比更高**，尤其是 200 美元套餐（约 20x Pro）提供大量 token，适合高频使用。但需注意额度可能被调整，有用户反映缩水。
 
 ### 关键要点
-- **维权路径**：有证据（如微信聊天记录、转账记录）可尝试法院诉讼。无需律师，可通过法院诉讼小程序线上提交材料，线下递交纸质材料，被告缺席可缺席判决，胜诉后申请执行。但执行成功率不高，有统计称超50%执行不到钱。
-- **预防措施**：接活前评估对方人品，尽量签订书面合同或保留微信聊天记录；采用阶段付款（如442模式），干一个阶段验收结款，不结款不继续；价格合理，避免过低。
-- **现实困境**：多层转包导致拖欠常态化，熟人关系影响结款优先级；个人势单力薄，司法途径耗时耗力，劳动局推诿。
+
+- **Codex**：性价比突出，200 美元套餐约 40 亿 token（有争议，实际可能 20-60 亿），适合 CRUD 类开发；但额度可能缩水，且存在封号风险（相对较低）。
+- **Claude Code**：适合复杂算法、大型项目或反编译场景，但价格较高（20x 套餐），且可能误封正常用户。
+- **低成本方案**：DeepSeek V4 Flash 搭配 TRAE 或 opencode，几乎免费，适合需求低或预算有限的开发者。
+- **组合策略**：部分用户以 Claude 为主力、Codex 备用，或 Codex 搭配 DeepSeek 以平衡成本与性能。
 
 ### 评论补充
-- 有评论建议去对方家里或单位堵人，但楼主表示对方常无固定工作单位，且自己不在老家，难以实施。
-- 有评论提到可尝试抖音维权、舆论造势，但未提供具体操作细节。
-- 有评论分享自身经历，说明即使给钱爽快也可能遇到拖延，提醒控制损失。
+
+- 有用户提到可通过中转站降低成本，但需注意合规性。
+- 对于额度不足的情况，可考虑短租或拼车，但需谨慎。
+- 实际选择应结合个人需求，建议从低成本方案开始尝试。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234363" target="_blank" rel="noopener noreferrer">求助大佬们有没有什么高招，为什么农民个体要帐这么难！</a></span><span class="topic-stats">回复 64 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234528" target="_blank" rel="noopener noreferrer">个人开发，选哪个性价比更高？</a></span><span class="topic-stats">回复 24 · 收藏 6</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234264" markdown="1">
+<details class="topic-card" data-topic-id="1234583" markdown="1">
 <summary>
 <span class="topic-rank">8</span>
-<span class="topic-title">deepseek-harness 初体验：性能、插件生态与使用建议</span>
+<span class="topic-title">基于链路质量的故障切换方案：SD-WAN、脚本与动态路由</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -255,36 +259,31 @@ data_url: "/data/2026-08-14.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-deepseek-harness 是 DeepSeek 推出的开源 AI 编程工具，目前处于 0.1 版本，GitHub star 已超 60K。用户反馈其运行速度明显快于 codex，输出质量与 codex 相当，且采用插件化架构，支持通过插件扩展功能（如 TUI、三维可视化等）。
+楼主希望实现基于链路质量（如丢包率、延迟）的自动故障切换，而非仅断线切换。评论提供了多种方案，从商业产品到开源工具，以及自建脚本。
 
 ### 关键要点
-
-- **性能优势**：在相同模型下，deepseek-harness 比 codex 更快，且内存占用更优（codex 存在内存泄露问题）。
-- **插件生态**：插件化设计是核心亮点，社区已出现 TUI 等插件，未来可能形成丰富生态。
-- **使用方式**：目前以 Web 版为主，可通过 SDK 集成，也可用 podman 容器运行。
-- **模型依赖**：工具上限取决于模型，搭配 MiMo-V2.5-Pro-Ultraspeed 等模型体验更佳。
-- **成本提醒**：使用 DeepSeek 官方 API 时，17 号涨价后成本会显著增加。
+- **商业方案**：FortiGate 的 SD-WAN 可满足需求（评论多次提及）；华为的 NQA 与静态路由联动、Smart Policy Routing 也能实现秒级切换。
+- **开源/自建**：使用 FRRouting 可做断线切换；Babel 动态路由协议适合非专业用户；easytier 实现了类 OSPF 的轻量方案。
+- **脚本方案**：在 OpenWrt 上写脚本定期检测链路质量，动态调整路由 metric 或优先级，可避免依赖动态路由协议。
+- **检测难点**：主动 ping 无法反映真实负载下的质量；被动检测 TCP 指标受加密趋势影响；iperf 测试最准确但占用带宽。
 
 ### 评论补充
-
-- 有用户认为 Web 版对一般用户不友好，但支持者认为 AI agent 弱 UI 是趋势，Web 是合理选择。
-- 部分用户认为当前版本仍简陋，需折腾，生产环境建议等 1.0 或 0.5 版本。
-- 有对比测试显示，在绘制拓扑图等任务上 deepseek-harness 优于 Claude Code。
-- 也有用户持保留态度，认为其被过度吹捧，与 pi 等工具相比并无绝对优势。
+- 有评论提到 mptcp 可尝试但公网效果不佳。
+- 有观点认为这是路由选路的基本功能，但实际实现需考虑链路质量检测的准确性。
+- 切换后 NAT 表可能需要重建，需注意。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234264" target="_blank" rel="noopener noreferrer">deepseek-harness 初体验，讨论下呢</a></span><span class="topic-stats">回复 51 · 收藏 7</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234583" target="_blank" rel="noopener noreferrer">有什么路由器/协议/方案能做到基于链路质量的故障切换</a></span><span class="topic-stats">回复 14 · 收藏 4</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234453" markdown="1">
+<details class="topic-card" data-topic-id="1234561" markdown="1">
 <summary>
 <span class="topic-rank">9</span>
-<span class="topic-title">被裁员后主张2N补偿的仲裁经验与风险提示</span>
+<span class="topic-title">GitHub 账号被封原因分析与解封经验</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -292,33 +291,30 @@ deepseek-harness 是 DeepSeek 推出的开源 AI 编程工具，目前处于 0.1
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主因公司裁员（涉及140人）被单方解除劳动合同，公司只愿给N补偿，楼主主张2N未果，准备申请劳动仲裁。评论中多位有仲裁经验的用户分享了关键信息：
-
-- **2N的可行性**：2N通常只能通过仲裁获得，协商阶段很难谈成。北京地区仲裁支持2N的概率较高，有用户成功获得20个月赔偿；但其他城市（如上海、杭州）可能较难。
-- **风险提示**：公司可能通过做账转移资产，即使胜诉也可能执行不到钱；裁员人数多时，后续公司可能无力支付，建议尽早仲裁。
-- **证据准备**：打卡记录、钉钉聊天截图、银行流水等是有效证据，但需确保能证明无违规违纪。
+用户使用十几年的 GitHub 主账号被封，可能原因包括：长期订阅 Copilot 后取消、多年前认证教育账号、使用香港/日本/新加坡等 IP、以及购买并使用多个日抛 Copilot 账号。评论指出 GitHub 服务条款可能禁止一人多账号，尤其是使用小号运行 Actions 或共享 IP 可能触发封禁。
 
 ### 关键要点
-- 协商阶段可争取N+1、N+2甚至更高，但2N基本需仲裁。
-- 仲裁结果受地域影响大，北京相对有利。
-- 若公司经营困难，需权衡时间成本与执行风险。
+- **封号可能原因**：多账号关联（日抛号）、IP 频繁变动、教育优惠滥用、Copilot 订阅异常。
+- **解封途径**：提交工单申诉，有用户分享成功解封经验（见评论链接）。
+- **风险提示**：使用非官方渠道购买 Copilot 或创建多个账号可能违反条款，导致主号连坐。
 
 ### 评论补充
-- 有用户提醒：若年限不长，接受N可能更稳妥，避免后续连N都拿不到。
-- 联合其他被裁员工集体仲裁可能增加谈判筹码，但需注意人多后执行难度。
+- 有用户因 Actions 使用 SSH 被封，工单无法解封。
+- 有用户因购买淘宝 Copilot 被封，提供相关帖子链接。
+- 有用户分享解封心得文章：https://wcowin.work/develop/GitHub-unblocked/
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234453" target="_blank" rel="noopener noreferrer">没想到我也走到了仲裁的道路上</a></span><span class="topic-stats">回复 48 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234561" target="_blank" rel="noopener noreferrer">用了十几年的 github 号被封了</a></span><span class="topic-stats">回复 30 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234285" markdown="1">
+<details class="topic-card" data-topic-id="1234574" markdown="1">
 <summary>
 <span class="topic-rank">10</span>
-<span class="topic-title">婚纱照选择避坑指南：影楼 vs 工作室，如何省钱又满意</span>
+<span class="topic-title">OpenCode 消息ID时间戳截断致两年后轮转故障，官方已修复</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -326,32 +322,31 @@ deepseek-harness 是 DeepSeek 推出的开源 AI 编程工具，目前处于 0.1
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-婚纱照选择需平衡预算、效果和实际使用价值。多数已婚人士反馈婚纱照最终吃灰，建议理性消费，避免过度投入。
+OpenCode 存在一个因消息 ID 时间戳截断导致的严重 bug：其消息 ID 生成器将时间戳截断为 48 位，最多只能存储约 795 天（约两年），导致在特定时间点（如 2025 年 8 月 14 日 19:19）发生轮转，新生成的 message ID 反而小于旧 ID，使得 `message.latest()` 无法获取最新消息，造成对话不回复。该问题影响线上业务和本地开发，且若任务在循环中会无限重试，耗尽 token 额度。官方已在 1.18.15 版本修复，但未发布更新通知。
 
 ### 关键要点
-- **选择工作室而非传统影楼**：多位用户推荐工作室，认为出片质量更高，影楼拍摄效果差。
-- **套餐策略**：购买多场景、多原片套餐，但少买精修和相册；务必拿到 raw 原片，可淘宝找人修图或使用 AI 处理。
-- **警惕加价套路**：选片时影楼会诱导加精修、加相册页数，坚持不加，加片价格足以在外面重做相册。
-- **实物产品**：大相框易视觉疲劳，不建议购买；相册易积灰，可考虑电子版。
-- **拍摄准备**：注意防晒、带零食，室外拍摄一天可能掉 1-2 斤体重。
+- **根因**：`Buffer.alloc(6)` 只存储时间戳的 48 位，导致 ID 在约 795 天后轮转。
+- **影响**：新消息无法被正确获取，对话中断；循环任务可能无限重试，消耗 token。
+- **修复**：官方在 1.18.15 版本修复，用户可更新或使用 `/new` 临时解决。
+- **预防**：使用开源工具时需关注 ID 生成逻辑，可定期 review 或使用 AI 辅助排查。
 
 ### 评论补充
-- 有用户建议拍两张自拍交给 AI，省下钱去旅游，但需考虑伴侣意愿。
-- 婚纱可在婚礼当天租用，但租金不便宜；可买二手用完再卖。新郎西装建议线下定做，合身且价格合理。
-- 有用户提到专业团队（如新疆旅拍）需等一年以上，但效果优于影楼。
+- 有用户反映 OpenCode 质量一般，存在多个 bug，建议使用替代品如 `pi`。
+- 楼主表示内部维护 fork 提前修复部分 bug，但此次仍受影响。
+- 有评论指出其他工具如 Codex 也有类似问题（磁盘耗尽、图片复制），选择工具需权衡。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234285" target="_blank" rel="noopener noreferrer">婚纱照选择</a></span><span class="topic-stats">回复 47 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234574" target="_blank" rel="noopener noreferrer">[吐槽] OpenCode 惊现 两年虫 大 bug，线上业务几千个会话在同一时间一起炸了...</a></span><span class="topic-stats">回复 16 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234293" markdown="1">
+<details class="topic-card" data-topic-id="1234524" markdown="1">
 <summary>
 <span class="topic-rank">11</span>
-<span class="topic-title">AI 依赖导致员工停止思考的职场现象与反思</span>
+<span class="topic-title">dsh 若为个人开发者作品，评价会如何？</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -360,35 +355,33 @@ deepseek-harness 是 DeepSeek 推出的开源 AI 编程工具，目前处于 0.1
 
 ### 核心内容
 
-主题讨论 AI 工具在职场中导致部分员工停止主动思考的现象。楼主列举两个同事案例：一是同事用 AI 回复问题，缺乏自主分析；二是开发智能体时不懂缓存 token 原理，依赖 AI 设计代码，导致上线后 token 费用过高。
+主题围绕一个思想实验：如果 dsh（DeepSeek 的 Agent 工具）不是打着 DeepSeek 旗号，而是个人开发者推出，会如何被评价。讨论揭示了品牌背书对产品认知的巨大影响。
 
 ### 关键要点
 
-- **现象普遍**：多位用户反映类似情况，如新员工直接让 AI 猜业务、开发用 AI 生成文档但关键信息缺失、用 AI 回复与 DBA 争论等。
-- **核心问题**：AI 生成内容可能不完整或错误，但使用者缺乏判断力，盲目信任，导致对接效率低下。
-- **应对建议**：
-  - 使用 AI 时应保持批判性，验证结果，尤其是关键协议、代码逻辑等。
-  - 将思考重点放在如何更好地利用 AI，而非完全依赖。
-  - 对于 AI 生成内容，需人工 review 关键部分。
+- **品牌效应显著**：多数回复认为，若无 DeepSeek 背书，dsh 可能无人问津，或仅在小圈子内传播。有观点指出，社区中类似项目（如 pi）已发展良好，优秀部分可能被吸收。
+- **技术价值独立**：有评论指出，dsh 伴随发布了一篇 88 页的形式化证明论文（《A Programming Paradigm for Spatiotemporal Composability》），若个人开发者能提供同样严谨的理论支撑，也可能出圈。
+- **舆论惯性**：有观点认为，产品评价存在“正向循环”和“死亡螺旋”，品牌口碑一旦形成，很难扭转；个人开发者需靠决定性优势才能突破。
+- **实际体验**：有用户表示，无论谁开发，目前 dsh 没有独特功能或优势，且用 TypeScript 开发，体积可能较大，不如 C/Rust 轻量。
 
 ### 评论补充
 
-- 有用户指出，这类现象背后是公司治理问题，AI 只是背锅。
-- 也有观点认为，AI 节省了回答他人问题的时间，但深度研究仍需自己追问和验证。
-- 部分用户认为，不思考的人以前就不思考，AI 只是放大了这一现象。
+- 有评论指出，dsh 是 DeepSeek 新模型的重要训练工具，相当于官方 harness 骨架，个人开发者难以提供同等背书。
+- 有观点认为，标题“打着旗号”有暗示性，影响客观评价；若单纯讨论技术架构可能更受欢迎。
+- 有用户提到，热度来得快去得也快，跟风 Star 不等于实际使用。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234293" target="_blank" rel="noopener noreferrer">AI 开始让人停止思考</a></span><span class="topic-stats">回复 30 · 收藏 7</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234524" target="_blank" rel="noopener noreferrer">做一个思想实验，如果 dsh 没有打着 deepseek 的旗号</a></span><span class="topic-stats">回复 29 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234290" markdown="1">
+<details class="topic-card" data-topic-id="1234598" markdown="1">
 <summary>
 <span class="topic-rank">12</span>
-<span class="topic-title">Pixel9 Pro 频繁重启问题及解决建议</span>
+<span class="topic-title">OpenAI 付费重置机制：立即重置并推迟自然重置日期</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -396,30 +389,31 @@ deepseek-harness 是 DeepSeek 推出的开源 AI 编程工具，目前处于 0.1
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-用户购买 Pixel9 Pro 作为备用机，发现系统 Android 17 下频繁重启（3 小时多次），影响 Shizuku 和 IMS 使用。评论中多位用户反馈不同型号（6、7、8、9）表现不一，多数稳定，但部分用户遇到类似问题。
+OpenAI 的付费重置功能是立即生效的，购买后马上重置额度，而不是提供一张可留待以后使用的“重置卡”。用户 geese1028 亲测确认，购买后立即重置，且下次自然重置日期会相应推迟（例如原本 20 日重置，购买后变为 22 日）。
 
 ### 关键要点
-- **重启问题**：部分 Pixel 9 系列用户遇到频繁重启，可能与硬件或系统有关。
-- **可能原因**：评论提到国内网络、运营商 VoLTE 支持、以及翻新机风险。
-- **解决建议**：安装 GrapheneOS 可改善稳定性；联系售后检测；使用 Carrier IMS 重新注册；固定 LTE 避免信号问题。
+- **立即重置**：付费后额度立刻恢复，无需等待。
+- **推迟自然重置**：付费重置会将下次自然重置日期顺延，相当于“还债”而非“预支”。
+- **价格参考**：5x 订阅重置费用为 40 美元（另加税 4 美元），20x 为 80 美元。
+- **性价比分析**：以 20 美元 Plus 订阅为例，平均每周额度成本约 4 美元，而官方重置需 8 美元，价格翻倍；且因推迟重置，实际成本更高。
 
 ### 评论补充
-- 有用户指出频繁重启可能是个体硬件问题或翻新机，建议退货。
-- 部分用户反映 Pixel 在国内运营商 VoLTE 支持不佳，需 adb 开启。
-- 有用户分享购买渠道售后体验，可尝试联系解决。
+- 有用户指出，付费重置会吞掉原本剩余的重置等待时间，导致实际损失半周用量，因此不划算。
+- 部分用户建议直接升级到更高档位（如 20x Pro）或购买美区订阅以避免降智问题。
+- 有用户认为当前定价下重置不合算，不如新开一个订阅。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234290" target="_blank" rel="noopener noreferrer">入了 Pixel9 Pro 做备用机，说说简单的体验和感受</a></span><span class="topic-stats">回复 29 · 收藏 5</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234598" target="_blank" rel="noopener noreferrer">Open AI 的付费重置功能是立即重置，不是重置卡 T_T</a></span><span class="topic-stats">回复 19 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234396" markdown="1">
+<details class="topic-card" data-topic-id="1234557" markdown="1">
 <summary>
 <span class="topic-rank">13</span>
-<span class="topic-title">DeepSeek Harness 内测体验：插件生态与命令行支持</span>
+<span class="topic-title">西安电信疑似限速原因及投诉经验</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -427,31 +421,33 @@ deepseek-harness 是 DeepSeek 推出的开源 AI 编程工具，目前处于 0.1
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主参与了 DeepSeek Harness（DSH）的内测，并撰写了体验文章。DSH 是一个以插件为核心的 AI Agent 框架，目前生态发展迅速，已有第三方开发的桌面端、手机端和 TUI 插件。官方暂不打算推出官方插件市场，但社区已自发建立插件市场（如 dshfind.com）。
+
+用户反映西安电信宽带疑似被限速，上传速度被锁至 2Mbps，但测速网站（如花瓣、Speedtest）可跑满，怀疑运营商针对特定协议或流量特征限速。用户已尝试工信部申诉、通管局信访，均转至省申诉处理中心，运营商不承认限速。
 
 ### 关键要点
-- DSH 支持插件扩展，已有 TUI 插件（如 dsh-cc-tui）和多个第三方客户端。
-- 官方不计划做官方插件市场，社区已建立第三方插件市场。
-- 与 PI 相比，DSH 针对 DeepSeek 模型优化，可能成为适配度最高的 harness 底座。
-- 有观点担忧插件机制可能导致权限逃逸风险，类似直接给 AI SSH 权限。
+
+- 限速特征：P2P 上传流量大（月上传 40-50GB）后触发，但其他用户月上传 1TB 未受限，说明可能并非单纯流量阈值。
+- 投诉路径：工信部申诉、通管局信访均转省申诉处理中心，效果有限；建议直接向更高层级投诉，有成功案例（如什么值得买、恩山论坛）。
+- 测速争议：运营商只认 PDA 测速，可能对测速网站白名单，用户可用云服务器 iperf3 测试验证。
 
 ### 评论补充
-- 有用户认为 DSH 并未锁定厂商，默认支持多个第三方提供商。
-- 楼主认为 DSH 目前性能不如预期，但仍在训练阶段，未来可能更强。
-- 社区活跃度高，插件数量增长迅速，但官方插件市场缺失可能带来审核问题。
+
+- 有用户认为运营商不会因正常上传限速，可能是光猫问题，更换光猫后恢复正常。
+- 有用户建议检查光猫或尝试更换，也有建议用 BGP 服务器中转规避。
+- 部分用户认为运营商能精准识别协议限速，投诉难度较大。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234396" target="_blank" rel="noopener noreferrer">参与了 Deepseek Harness 的内测，写了一篇参与体验，欢迎讨论</a></span><span class="topic-stats">回复 21 · 收藏 7</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234557" target="_blank" rel="noopener noreferrer">西安电信疑似拉入“白名单”限速原因思考</a></span><span class="topic-stats">回复 25 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234407" markdown="1">
+<details class="topic-card" data-topic-id="1234569" markdown="1">
 <summary>
 <span class="topic-rank">14</span>
-<span class="topic-title">国内可用的开发模型推荐与性价比对比</span>
+<span class="topic-title">罗技静音鼠标缩水，国产平替与换微动方案</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -459,33 +455,31 @@ deepseek-harness 是 DeepSeek 推出的开源 AI 编程工具，目前处于 0.1
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-用户因 GPT-5.6 的 bug 和 token 消耗问题，考虑转向国内模型。评论中多位开发者分享了实际使用体验和性价比对比。
+楼主反映罗技 M590 停产后，后续款 M650 按键削减（仅剩侧键，中键左右拨动取消），且品控下降（长按左键中断）。寻求支持分应用自定义四个扩展按键的静音鼠标平替。
 
 ### 关键要点
-- **DeepSeek v4 Pro**：长任务缓存命中率高，连续一小时消耗约 3 元，性价比突出，适合重度使用。
-- **DeepSeek v4 Flash**：正式版可用，适合自己参与编码的场景；若只写需求和技术架构，可考虑更强模型。
-- **Kimi**：综合体验好，但部分模型不支持多模态，需搭配其他工具。
-- **GLM 5.2**：能力不错但涨价且不支持多模态，性价比下降。
-- **Grok 4.6 high**：60 美元额度可重度使用，能力尚可，但需注意客户端选择。
-- **其他**：MiniMax、混元、小米等也有用户推荐，但评价不一。
+- **换微动方案**：多位用户推荐自行更换静音微动（成本十几元），或寄修店铺代换，可保留原有模具和扩展键。
+- **国产平替**：红龙 G57、拼多多 Master3s 等被提及，但需注意扩展键支持。
+- **二手 M590**：有用户囤积二手 M590（约 60 元），通过换微动和换板子延长寿命。
+- **驱动问题**：罗技驱动被吐槽内存泄漏、崩溃，国产鼠标多支持网页驱动，且蓝牙模式可调 DPI。
 
 ### 评论补充
-- 有用户指出 DeepSeek 新价格已在官网公布，涨价幅度约 5 倍而非 10 倍（[链接](https://api-docs.deepseek.com/zh-cn/quick_start/pricing/)）。
-- 部分用户认为 GPT-5.6 的问题可能源于需求不清晰或 harness 配置不当，而非模型本身缺陷。
-- 有用户推荐使用 opencode go 等工具配合国内模型，以降低成本。
+- 罗技办公级鼠标竞争力下降，高端游戏鼠标仍有卖点。
+- 有用户推荐罗技 GPW5（电磁微动，可完全静音），但价格较高。
+- 部分用户对罗技品牌持负面态度，建议转向国产。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234407" target="_blank" rel="noopener noreferrer">目前国内价格合适,能用的开发模型有哪些.</a></span><span class="topic-stats">回复 21 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234569" target="_blank" rel="noopener noreferrer">罗技的静音鼠标怎么越做越差了？有国产平替吗？</a></span><span class="topic-stats">回复 21 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234289" markdown="1">
+<details class="topic-card" data-topic-id="1234682" markdown="1">
 <summary>
 <span class="topic-rank">15</span>
-<span class="topic-title">酵母蛋白粉选购经验：口感、价格与飞粉问题</span>
+<span class="topic-title">Agent联网搜索实现方式：第三方API、爬虫与Playwright</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -493,31 +487,29 @@ deepseek-harness 是 DeepSeek 推出的开源 AI 编程工具，目前处于 0.1
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-乳清蛋白粉涨价后，用户转向酵母蛋白粉。多位用户分享了实际体验：口感类似绿豆冰沙，但普遍存在飞粉问题；价格远低于乳清，如赛霸5磅不到乳清一半。
+关于 Agent 联网搜索的实现方式，讨论指出主流模型厂（如 DeepSeek）通常接入第三方搜索 API（如博查 Bocha AI），国外常用 Brave 和 DuckDuckGo。小公司可购买接口，大公司自建爬虫。
 
 ### 关键要点
-- **价格对比**：乳清蛋白粉从298涨至429元，酵母蛋白粉百元左右（如BD/D牌99元4磅、119元5磅），最贵199元5磅。
-- **口感与缺点**：推荐绿豆味（如怡可纳、赛霸），但飞粉严重，部分产品含代糖偏甜。
-- **健康提示**：肾功能有问题者不宜食用，因嘌呤含量高。
-- **选购建议**：百元级脂肪含量8-10g/100g，150元以上可能勾兑其他蛋白以达国标。
+- **第三方搜索 MCP**：国内云厂商提供，国外可选 Brave 和 DuckDuckGo。
+- **具体案例**：DeepSeek 的联网搜索由博查 AI 提供 API 支持。
+- **自建方案**：可用 Python 实现 DuckDuckGo 搜索，配合 Playwright 处理无法直接访问的网页。
+- **开源参考**：可参考 pi-web-access 插件（GitHub 链接）。
 
 ### 评论补充
-- 有用户因乳糖不耐受仍选分离乳清，但价格更高。
-- 部分用户反馈赛霸飞粉严重，甚至丢弃；也有用户认为价格优势可接受缺点。
-- 关注博主“大雷的食品科普日常”整合乳清渠道，可留意后续价格。
+有用户提到 OpenCode 中 DSv4F 会手动构造搜索 URL 获取 Google/Bing 结果作为 fallback。另有观点认为大公司因有训练数据，通常自建搜索接口。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234289" target="_blank" rel="noopener noreferrer">酵母蛋白粉</a></span><span class="topic-stats">回复 18 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234682" target="_blank" rel="noopener noreferrer">[讨论] 各种 agent 的联网搜索都是怎么实现的？</a></span><span class="topic-stats">回复 8 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234346" markdown="1">
+<details class="topic-card" data-topic-id="1234632" markdown="1">
 <summary>
 <span class="topic-rank">16</span>
-<span class="topic-title">支付宝iOS碰一下支付流程变化及安卓极速模式设置</span>
+<span class="topic-title">X/Twitter 广告拉黑脚本：关键词匹配自动静音</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -525,29 +517,30 @@ deepseek-harness 是 DeepSeek 推出的开源 AI 编程工具，目前处于 0.1
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-支付宝 iOS 的“碰一下”支付流程近期发生变化：此前进入支付宝 App 后碰一下即可直接完成支付，现在需要跳转页面后手动点击确认支付。多位用户确认该改动已持续数月，且 iOS 端没有像安卓那样的“极速模式”开关来恢复免密支付。
+作者分享了一个用于 X/Twitter 的浏览器端脚本，通过关键词匹配自动静音广告账号。脚本原理是遍历推文文本和用户名，匹配预设正则表达式，然后模拟点击菜单中的“Mute”选项。支持手动触发（Alt+Shift+K）和自动定时检查（每5秒）。
 
 ### 关键要点
-- **iOS 变化**：碰一下后需额外点击一次确认，影响 711、全家等小型连锁商超，大型收银机连接场景可能不受影响。
-- **安卓差异**：安卓版在收款码展示页的三个点菜单中可设置“极速模式”，支持小额免密，iOS 版虽有“极速付款”设置但未明确关联碰一下。
-- **风险提示**：有用户因流程变化导致误以为支付成功而“逃单”，需注意确认支付结果。
+- 脚本使用正则匹配广告常用语，如“只入身体不入生活”、“体制内老师”等，并自动静音相关账号。
+- 提供两种触发方式：手动快捷键和自动轮询。
+- 评论中提供了替代方案：X 官方支持屏蔽关键词（https://x.com/settings/muted_keywords），以及开源项目 make-x-great-again（https://github.com/foru17/make-x-great-again）。
 
 ### 评论补充
-- 有用户推测支付宝收紧商家权限，类似静态收款码需手动输入金额，但未获官方证实。
-- 部分用户反馈 iOS 端可能仍在灰度测试，不同版本表现不一。
+- 有用户指出官方设置即可实现类似功能，但需确认是否支持评论区屏蔽。
+- 有用户建议举报广告账号，但未提供具体方法。
+- 脚本依赖 DOM 结构和菜单文本，可能随 X 界面更新失效。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234346" target="_blank" rel="noopener noreferrer">支付宝 iOS 碰一下的支付流程改变了</a></span><span class="topic-stats">回复 35 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234632" target="_blank" rel="noopener noreferrer">分享一个极简 twitter/x 广告拉黑脚本</a></span><span class="topic-stats">回复 5 · 收藏 6</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234459" markdown="1">
+<details class="topic-card" data-topic-id="1234604" markdown="1">
 <summary>
 <span class="topic-rank">17</span>
-<span class="topic-title">Gemini 提示地区不支持？多为代理 IP 问题，可申请换区</span>
+<span class="topic-title">小学学历开发者“班级宠物园”月入40万：需求驱动的低成本产品</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -555,30 +548,35 @@ deepseek-harness 是 DeepSeek 推出的开源 AI 编程工具，目前处于 0.1
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-用户续费 Gemini Pro 后账号提示“不支持所在地区”，怀疑被封。多数回复指出这并非封号，而是代理 IP 被谷歌标记为中国地区所致。
+
+一个自称小学学历的开发者独立开发“班级宠物园”网站，据称30天收入40万元。该产品面向小学班级管理，通过虚拟宠物激励学生，售价约10元一个激活码。开发者表示成本极低，仅需服务器和AI编程费用。
 
 ### 关键要点
-- **原因**：机场 IP 被谷歌标记为中国，导致账号被连带标记，登录后触发地区限制。
-- **检测方法**：用干净浏览器环境测试 IP，在谷歌搜索有 AI 回复则正常，否则 IP 被拉黑。
-- **解决方法**：更换干净 IP（如自建节点）使用一段时间，然后通过[谷歌国家关联表单](https://policies.google.com/country-association-form?source=policies-site)申请更改地区。
-- **注意事项**：避免使用机场 IP 登录谷歌，因为只要有人授权地理位置，IP 就可能被标记。
+
+- 产品定位精准：满足小学老师管理学生的需求，有老师实际购买使用。
+- 成本结构：主要成本为服务器和AI编程工具，开发门槛低。
+- 成功因素：抓住需求（2分实力）加上运气（8分），需求挖掘是关键。
+- 开源替代：已有类似开源项目（GitHub），可快速复制。
 
 ### 评论补充
-- 有用户表示换自建节点后问题解决，也有用户通过申请换区成功。
-- 部分用户认为谷歌不会轻易封号，最多取消订阅，退款可能性存在但需联系客服。
+
+- 有用户证实学校老师购买使用，但仅限12年级小学生。
+- 有评论指出，若有教育局关系，推广会更容易。
+- 开源项目链接：https://github.com/prompteric/class-pet-garden
+- 视频采访链接：https://www.youtube.com/watch?v=jdE_ujwZGvA
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234459" target="_blank" rel="noopener noreferrer">大冤种！刚全额续费 Gemini Pro，给我账号封了！</a></span><span class="topic-stats">回复 26 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234604" target="_blank" rel="noopener noreferrer">小学生开发“班级宠物园”，一个月爆卖 40 万🔥</a></span><span class="topic-stats">回复 10 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234327" markdown="1">
+<details class="topic-card" data-topic-id="1234572" markdown="1">
 <summary>
 <span class="topic-rank">18</span>
-<span class="topic-title">88vip 附带夸克会员需频繁验证，购买需谨慎</span>
+<span class="topic-title">Omarchy Quattro 发布，附 Clash TUI 定制工具 omash</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -586,30 +584,33 @@ deepseek-harness 是 DeepSeek 推出的开源 AI 编程工具，目前处于 0.1
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-有用户反映购买 88vip 附带的夸克会员后，每月需验证一次，且联系卖家困难，提醒购买需谨慎。评论中多位用户证实类似问题，并解释原因：该权益绑定在卖家的淘宝账号上，需定期配合验证。
+
+Omarchy Quattro 正式发布，作者分享了为其定制的 Clash TUI 工具 omash。omash 基于 Clash Verge Rev 的 Rust 代码开发，仅提供 TUI，不依赖 Webview，并针对 Omarchy 做了适配。
 
 ### 关键要点
-- 购买他人 88vip 夸克会员可能每月触发验证，需联系卖家配合，存在失联风险。
-- 自己开通 88vip 并绑定本人手机号，验证频率较低，更稳定。
-- 88vip 整体性价比高，可转卖视频会员等回本，但需注意权益绑定问题。
+
+- **功能特性**：自动跟随 Omarchy 主题，实时更新；Mihomo 由 systemd 用户服务托管，关闭 TUI 后代理继续运行；支持订阅、节点选择、延迟测试、连接管理和日志查看；支持 Rule、Global、Direct 模式；支持系统代理、局域网、IPv6、配置增强及定时更新；附带 Shell 状态栏插件，可切换模式和节点。
+- **安装方式**：提供一键安装脚本 `curl -fsSL https://raw.githubusercontent.com/ourongxing/omash/main/scripts/install | bash`，也支持源码构建（需 Rust 环境）。
+- **使用说明**：运行 `omash` 首次启动自动生成配置和 API 密钥，无需手动配置。
+- **项目地址**：https://github.com/ourongxing/omash
 
 ### 评论补充
-- 有用户表示自己开通两年仅遇一次验证，而购买他人权益则频繁掉线。
-- 有猜测称夸克可能读取本地手机号，与绑定号码不一致时触发风控。
-- 部分用户反映即使自己开通也可能偶尔验证，但相对省心。
+
+- 有用户提到基于 sing-box API 的 TUI 也很不错，认为 sing-box 更轻量，且支持 Naive Proxy。
+- 作者表示尚未使用过 sing-box，对两者区别感兴趣。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234327" target="_blank" rel="noopener noreferrer">购买 88vip 带的夸克会员要慎重，基本上一个月要验证一次</a></span><span class="topic-stats">回复 31 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234572" target="_blank" rel="noopener noreferrer">Omarchy Quattro 正式版发布了，顺便分享自己给 Quattro 定制的 Clash TUI</a></span><span class="topic-stats">回复 3 · 收藏 5</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234253" markdown="1">
+<details class="topic-card" data-topic-id="1234643" markdown="1">
 <summary>
 <span class="topic-rank">19</span>
-<span class="topic-title">独立开发接单技巧：报价、定金与交付留一手</span>
+<span class="topic-title">LocalClash：简化 OpenClash 配置的 LuCI 与 Agent 方案</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -617,31 +618,32 @@ deepseek-harness 是 DeepSeek 推出的开源 AI 编程工具，目前处于 0.1
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者分享独立开发接单经验，强调客户只关心能否赚钱或省事，而非技术细节。建议报价时预留砍价空间，如心理价3000报5000，成交4000双方满意。必须收取定金，交付时保留源码和密码直至尾款结清。
+作者开发了 LocalClash，旨在简化 OpenClash 的配置流程，面向不想深入研究 Mihomo 配置的用户。项目包含两个部分：
+
+- **localclash-luci**：一个 LuCI 界面，用户可通过 OpenWrt 后台安装 .ipk 或 .apk 包，然后只需填写订阅地址即可自动完成核心安装、配置生成、启动 Mihomo 并接管网络。核心操作仅需关注下载、安装、订阅、启动四步。
+
+- **localClash MCP + Skill**：提供 Agent 接口，允许通过自然语言管理个性化路由。例如，用户可告诉 Codex 期望的路由结果，Agent 会检查规则命中、寻找合适规则包，经用户选择后建立持久化策略，并完成配置测试、热重载和状态验证。
 
 ### 关键要点
-- **报价策略**：报高价可筛选优质客户，避免低价后无法加价。
-- **定金底线**：不给定金不动手，降低风险。
-- **交付控制**：尾款未清前不交付源码、数据库和管理后台密码。
+- 项目地址：https://github.com/qoli/localclash-luci 和 https://github.com/qoli/localClash
+- 实际案例见 https://x.com/llqoli/status/2061852586895106104
+- 适合希望简化 OpenClash 配置的用户，尤其是小白用户。
 
 ### 评论补充
-- 有评论质疑真实性，称"鉴定为假"，但未提供具体依据。
-- 提醒企业级需求可能涉及法律纠纷，尤其是层层转包的情况。
-- 建议物色靠谱的接盘团队，避免转包风险。
-- 部分评论认为作者频繁发帖有骗铜币之嫌，需谨慎参考。
+有评论提及“nikki”可能作为类似替代品，但未提供更多细节。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234253" target="_blank" rel="noopener noreferrer">独立开发接单上瘾~~~</a></span><span class="topic-stats">回复 10 · 收藏 7</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234643" target="_blank" rel="noopener noreferrer">我又做了一個 OpenClash 的替代品 · LocalClash</a></span><span class="topic-stats">回复 1 · 收藏 5</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234321" markdown="1">
+<details class="topic-card" data-topic-id="1234560" markdown="1">
 <summary>
 <span class="topic-rank">20</span>
-<span class="topic-title">AI 时代软件架构：从 App-centric 到 Agent-centric 与 Domain Harness</span>
+<span class="topic-title">开源轻量网页翻译扩展 MiraTranslator：支持YouTube双语字幕与多引擎</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -649,34 +651,31 @@ deepseek-harness 是 DeepSeek 推出的开源 AI 编程工具，目前处于 0.1
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-作者提出 AI 时代软件的核心变化是复杂性从人转移到 Agent Runtime 和 Harness。传统软件通过抽象层（GUI、低代码）降低使用门槛，但复杂性并未消失，只是重新表达。AI 则让用户停留在目标层，由 Agent 负责拆解和执行。
+作者发布了一款纯原生 JS 的轻量网页翻译扩展 MiraTranslator，核心代码约 300KB，无悬浮球，点击图标即可开关翻译。支持移动端 Firefox 和 Edge Android，内置 Google/Bing 翻译无需配置，也可接入 OpenAI、Claude、Gemini、DeepL 等，支持本地 Ollama。特色功能包括 YouTube 双语字幕、生词本同步（WebDAV/Google Drive/OneDrive）、区域划选翻译等。源码采用 AGPL-3.0 协议。
 
 ### 关键要点
-
-- **架构变化**：软件从 App-centric 走向 Agent-centric + Capability-centric，传统 BFF 演变为动态的 Goal-driven Runtime，即“Backend for Goal”。
-- **Harness 概念**：仅提供 API 不够，Agent 需要完整的运行环境（Harness），包含 State、Observation、Action、Evaluation、Recovery 等组件。Coding Agent 之所以发展快，是因为软件开发已有成熟的 Harness（如 shell、git、compiler、test）。
-- **领域 Harness**：未来各领域（电商、机器人、教育等）都需要构建自己的 Domain Harness，解决状态、动作、验证等通用问题。
-- **Computer Use 定位**：让 AI 模拟人操作 GUI 只是过渡方案，类似 Legacy Compatibility Layer，真正 AI Native 应让软件为 AI 重新设计。
+- **轻量设计**：无悬浮球，不占用右键菜单，点击图标即可翻译整个网页。
+- **多引擎支持**：默认内置 Google/Bing，可免费使用 Google AI Studio 或 Groq 的免费 Key。
+- **YouTube 双语字幕**：适配原生播放器，支持导出字幕。
+- **生词同步**：划词加入生词本，支持 WebDAV/Google Drive/OneDrive 加密同步。
 
 ### 评论补充
-
-- 有评论认为 AI 时代交互将主要依赖语音和视觉，触觉操控效率低（@ronman）。
-- 也有观点认为 AI 软件仍应由人设计，强调人的主导性（@GeruzoniAnsasu）。
-- 部分评论建议用小型模型专注行业需求（@naixiangapp），但未展开。
+- 用户反馈：全页翻译功能入口不明显，点击图标无反应，作者回应将改进按钮设计。
+- 有用户偏好无按钮设计，希望鼠标悬停段落按快捷键翻译，作者表示会考虑。
+- 作者确认翻译设置和开关在 popup 页面，并支持跨设备同步。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234321" target="_blank" rel="noopener noreferrer">AI 时代的软件应该是怎么样的？</a></span><span class="topic-stats">回复 5 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234560" target="_blank" rel="noopener noreferrer">[开源] 做了一个纯原生 JS 的轻量网页翻译扩展，支持 YouTube 双语字幕</a></span><span class="topic-stats">回复 8 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234309" markdown="1">
+<details class="topic-card" data-topic-id="1234612" markdown="1">
 <summary>
 <span class="topic-rank">21</span>
-<span class="topic-title">新加坡 starryblu 虚拟卡开放申请：支持微信支付、订阅 AI</span>
+<span class="topic-title">公益网站可查手机WebView内核版本与安全风险</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -684,31 +683,31 @@ deepseek-harness 是 DeepSeek 推出的开源 AI 编程工具，目前处于 0.1
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-新加坡虚拟卡服务 starryblu 近期开放申请，支持免费开卡、护照 KYC、绑定国内手机号，并可通过微信扫码支付。用户反馈可尝试用于订阅 ChatGPT 等 AI 服务，但实际兼容性待验证。
+作者开发了一个公益网站（ismybrowsersafe.org），用于检测手机自带 WebView 或系统浏览器的内核版本，并对照公开安全公告（NVD、Chrome/Firefox 安全公告、CISA KEV）展示安全风险。该网站无需安装，不利用漏洞，旨在提醒用户关注国产手机 WebView 内核老旧带来的安全隐患。
 
 ### 关键要点
-- 免费开卡，无需预存资金即可申请 KYC（对比部分平台需先转 10U）。
-- 支持护照 KYC，国区 App Store 可下载，港区亦可。
-- 充值方式包括 Swift 转账至 OCBC、Wise 或香港银行。
-- 若排队未开通，可联系人工客服催办。
+- 很多 App 使用系统 WebView，而非独立浏览器，国产手机内核常停留在老版本 Chromium。
+- 网站可显示当前内核版本，并对照 CVE 列出可能受影响的漏洞及厂商修复情况。
+- 系统浏览器可能伪装成 Chrome，网站不会提供 Google 下载链接，而是建议系统更新或联系售后。
+- 有谷歌服务的安卓机，WebView 可自动更新。
 
 ### 评论补充
-- 有用户反映免费虚拟卡无法用于 ChatGPT，需进一步测试。
-- KYC 需护照实拍，不能调用相册。
-- 有评论指出该公司背后为中国人在新加坡开设的分公司，需注意风险。
+- 有用户指出网站显示的“最新稳定版”可能不准确，作者回应将按实际可更新到的最高版本计算。
+- 有评论质疑网站对 Firefox 内核的漏洞匹配存在误差，作者解释因无法获取补丁号，可能将已修复的 CVE 误判为仍受影响。
+- 部分用户认为目标用户可能看不懂网站，作者回应核心是让用户判断浏览器是否安全并更新。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234309" target="_blank" rel="noopener noreferrer">新加坡的 starryblu 可以用了，听说可以订阅 AI，微信支付</a></span><span class="topic-stats">回复 17 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234612" target="_blank" rel="noopener noreferrer">做了个公益网站：看看你手机自带 WebView / 系统浏览器有多旧</a></span><span class="topic-stats">回复 11 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234247" markdown="1">
+<details class="topic-card" data-topic-id="1234675" markdown="1">
 <summary>
 <span class="topic-rank">22</span>
-<span class="topic-title">代理工具导致微信语音延迟的排查与解决</span>
+<span class="topic-title">Microsoft 账号频繁异地登录请求的应对方法</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -717,34 +716,33 @@ deepseek-harness 是 DeepSeek 推出的开源 AI 编程工具，目前处于 0.1
 
 ### 核心内容
 
-后台常驻 Quantumult X / Shadowrocket 等代理工具时，微信语音接通后延迟 5-6 秒，多数情况是分流规则配置不当所致。
+多位用户反映 Microsoft 账号频繁收到来自世界各地的异地登录请求，即使开启两步验证并修改密码后仍持续发生。该现象已持续多年，并非个例。
 
 ### 关键要点
 
-- **先确认问题来源**：将代理切换为直连，若延迟消失，则问题确由代理引起。
-- **排查规则**：将微信相关连接设为直连，或逐步调整分流规则，找出影响微信的规则并修正。
-- **检查 UDP 连通性**：语音通话依赖 UDP，需确保代理配置支持 UDP 转发。
-- **简化规则**：避免使用过于复杂的分流规则，可手动将腾讯、阿里系应用设为直连。
-- **利用 AI 辅助**：将分流规则和问题描述提供给 AI（如 GPT），可生成更优配置。
+- 开启两步验证（如 Microsoft Authenticator）可有效拦截未授权登录，但无法阻止尝试。
+- 修改密码不能阻止攻击尝试，因为攻击者可能使用撞库或泄露的凭据。
+- 建议启用**无密码账户**（如 Windows Hello 或 Authenticator 无密码登录），可显著减少此类请求。
+- 可增加备用邮箱并关闭原邮箱的登录方式，降低风险。
+- 注意：有用户反馈异地登录可能导致 XGP 等订阅被恶意使用，需留意账户活动。
 
 ### 评论补充
 
-- 有用户常年开启代理未遇问题，也有用户建议按需开启以省电。
-- 部分用户反馈同样问题，但未提供解决方案。
-- 建议查看日志，定位具体 URL 规则，并考虑添加 DNS 复写。
+- 多数用户表示此类请求频繁且多在凌晨，但均被拦截，无需过度担忧。
+- 有用户建议直接忽略，因为两步验证已提供足够保护。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234247" target="_blank" rel="noopener noreferrer">请教：后台挂着 Quantumult X / Shadowrocket 等工具时，微信语音接通延迟 5-6 秒怎么破？</a></span><span class="topic-stats">回复 20 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234675" target="_blank" rel="noopener noreferrer">Microsoft 账号最近老是异地请求登录</a></span><span class="topic-stats">回复 10 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234295" markdown="1">
+<details class="topic-card" data-topic-id="1234552" markdown="1">
 <summary>
 <span class="topic-rank">23</span>
-<span class="topic-title">被裁员后1-2月内应做的操作指南</span>
+<span class="topic-title">AI Harness 选择：多模型接入单一 Harness 还是各配各家？</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -752,29 +750,33 @@ deepseek-harness 是 DeepSeek 推出的开源 AI 编程工具，目前处于 0.1
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-被裁员后，在公司的最后1-2个月内，应优先处理法律权益和职业规划。
+
+主题讨论 AI 开发中 harness（代理框架）与模型的选择策略：是每个模型搭配专属 harness（如 deepseek+dsh、kimi+kimicode），还是用一个 harness 接入多个模型（如 codex+GPT/DS/Kimi/GLM）。
 
 ### 关键要点
-- **保留证据**：保存所有打卡、加班、请假、报销等记录，为谈判赔偿做准备。
-- **谈判赔偿**：N+1是底线，2N是上限，尽量争取更高；不要签署任何自离文件。
-- **工作交接**：正常交接，不接新需求，按时打卡。
-- **规划下一步**：若继续工作，更新简历并寻求内推；若想休息，可申请失业补助（自动交医保，社保需自行处理）。
+
+- **Harness 与 IDE 不同**：不同 harness 的提示词和流转逻辑差异大，相同输入和模型下结果可能不同（QS0x01）。
+- **常见实践**：有用户将模型接入常用 agent，如 Claude Code 处理复杂任务、OpenCode 处理简单任务（QS0x01）；也有用户倾向自家 harness+model 组合（yty2012g）。
+- **选择标准**：优先能解决问题的方案，其次考虑价格和用户体验（1601224968）。
 
 ### 评论补充
-有用户建议先休息两周再找工作，避免焦虑；也有用户提醒离职原因要写“公司辞退”，以便领取失业保险。
+
+- 有观点认为 agent 做得好可抹平大模型差距，仅剩知识库规模差异（yidinghe）。
+- 类比硬件与软件，认为 MxN 组合是常态，但未来可能出现软硬一体方案（xue777hua）。
+- 部分用户认为正经干活只用 Claude Code 搭配各种模型（zisen）。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234295" target="_blank" rel="noopener noreferrer">被裁员了下一步应该怎么操作</a></span><span class="topic-stats">回复 10 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234552" target="_blank" rel="noopener noreferrer">讨论点不一样的,你更倾向于使用不同 ai 使用各种不同的 harness, 还是一个 harness 接入不同 ai?为什么?</a></span><span class="topic-stats">回复 9 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234367" markdown="1">
+<details class="topic-card" data-topic-id="1234674" markdown="1">
 <summary>
 <span class="topic-rank">24</span>
-<span class="topic-title">快递查询API推荐：低用量方案对比</span>
+<span class="topic-title">DeepSeek Harness 本地部署指南：Mac 上从零启动到文件任务</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -782,32 +784,29 @@ deepseek-harness 是 DeepSeek 推出的开源 AI 编程工具，目前处于 0.1
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-用户需要为小工具接入快递查询API，主要用于EMS签收时间查询，年查询量约2000-3000次。当前使用的apispace流量包为88元/年1万次，无按量付费，希望寻找更便宜且适合低用量的方案。
+本文提供在 Mac 上部署 DeepSeek Harness 的完整步骤，包括环境准备、API Key 创建、启动 Web UI、配置权限与工作区、验证对话及提交文件任务。
 
 ### 关键要点
-- **阿里云市场**：有快递查询API，但同样无按量计费，适合有一定量需求的用户。
-- **17track.net**：提供国际快递查询，可能支持按量或免费额度，适合国际件。
-- **快递100**：按量计费，约0.0943元/单，3500单330元，有效期730天，但需企业账号才能调用API。
-- **小小API**：提供2000次约10元的套餐，适合低用量用户，链接为 https://xxapi.cn/doc/express。
-- **其他**：jumdata等平台也有相关服务，但未提供具体价格。
+- 启动命令：`npx @deepseek-ai/dsh web`，默认地址 `http://127.0.0.1:3080`。
+- 权限等级：`Read Only`（只读）、`Workspace Write`（推荐，可写工作区）、`Full access`（高风险）。
+- 安全提醒：API Key 仅显示一次，切勿泄露；工作区避免使用家目录或重要仓库。
+- 验证方法：发送“你好”确认连通，文件任务后人工检查返回路径。
 
 ### 评论补充
-- 有评论建议考虑集成下发快递业务，但用户暂无此需求。
-- 用户反馈快递100需企业账号，个人开发者可能受限。
-- 部分推荐未提供详细价格，需自行核实。
+评论询问插件推荐和易用性，但主帖未涉及，无法提供具体信息。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234367" target="_blank" rel="noopener noreferrer">求推荐快递查询 API 接口</a></span><span class="topic-stats">回复 14 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234674" target="_blank" rel="noopener noreferrer">DeepSeek Harness 部署指南</a></span><span class="topic-stats">回复 2 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234456" markdown="1">
+<details class="topic-card" data-topic-id="1234622" markdown="1">
 <summary>
 <span class="topic-rank">25</span>
-<span class="topic-title">MacBook 鼠标兼容性：国产小众鼠标易出问题，罗技等大牌更稳</span>
+<span class="topic-title">桌面充选购建议：避开小电拼，推荐酷态科、绿联等</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -815,34 +814,32 @@ deepseek-harness 是 DeepSeek 推出的开源 AI 编程工具，目前处于 0.1
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-用户分享在 MacBook 上使用鼠标的兼容性经验：漫步者 HECATE G3M PRO 在 Windows 下正常，但在 Mac 上蓝牙回报率骤降（20-30Hz），2.4G 接收器也经常失效，需拔插转接头。换用旧罗技 M590 后，蓝牙和 2.4G 均稳定，回报率可达 120Hz。
+楼主反馈制糖工厂小电拼 2 在使用不到一年内出现死机、升级失败、发热等问题，并怀疑其导致 iPhone 电池健康度快速下降（从每年掉 1-3% 到一年掉 11%）。跳闸后设备烧毁，京东全额退款，但过保后官方不负责。因此楼主寻求替代方案，考虑桌面充或多口充电头。
 
 ### 关键要点
-
-- **问题根源**：部分国产小众鼠标缺乏 Mac 驱动或兼容性差，官方论坛 2023 年已反馈但未修复。
-- **解决方案**：优先选择知名品牌（如罗技）或有 Mac 驱动的鼠标；2.4G 接收器比蓝牙更稳定，但需注意转接头质量。
-- **干扰因素**：2.4G 频段易受路由器、微波炉等干扰，可用频谱分析仪检测；USB-C 转接头 EMI 过大也可能导致丢帧。
+- 小电拼存在质量与售后问题，有用户反映过保后仅提供 9 折券，且网上有起火案例，建议谨慎购买。
+- 评论推荐酷态科 30 号桌面充、绿联 160W 充电头等，支持 PD3.1，适合 MacBook Pro（最高 140W）。
+- 有用户提醒 Anker 桌面充无接地，充 MacBook 时可能有漏电感，建议选择带接地的产品。
+- 部分用户认为桌面充品类“智商税”，普通多口充电头可能更实用。
 
 ### 评论补充
+- 有用户使用 ldnio 120W 3C3B 三年，但单口最高仅 65W，不适合高功率需求。
+- 小电拼被指为“营销鼻祖”，曾发生安全事故但无后续。
 
-- 有用户推荐 ATK、迈从等游戏鼠标，免驱动且 2.4G 稳定。
-- 也有用户提到 Acer 静音鼠标蓝牙会干扰耳机，需用 2.4G。
-- 部分用户认为回报率 1000Hz 以上才跟手，但实际受显示器刷新率限制。
-- 罗技 Master 3S 等高端鼠标也有回报率限制，但稳定性较好。
+综合来看，若需高功率桌面充，可考虑酷态科、绿联等大厂产品，并注意接地与售后政策。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234456" target="_blank" rel="noopener noreferrer">使用 macbook 的话尽量使用知名品牌的无线鼠标吧</a></span><span class="topic-stats">回复 15 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234622" target="_blank" rel="noopener noreferrer">现在桌面充选择什么比较合适？（附加吐槽下制糖工厂小电拼）</a></span><span class="topic-stats">回复 8 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234306" markdown="1">
+<details class="topic-card" data-topic-id="1234554" markdown="1">
 <summary>
 <span class="topic-rank">26</span>
-<span class="topic-title">中转站避雷经验：充值前先小额测试并确认退款政策</span>
+<span class="topic-title">招商 Visa 全币种卡可绑 Google Play 订阅 Gemini</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -850,31 +847,30 @@ deepseek-harness 是 DeepSeek 推出的开源 AI 编程工具，目前处于 0.1
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主分享使用 AI 中转站（如 Claude Code 等）的踩坑经验，提醒用户注意风险。主要涉及两家：opusrelay.com 和 cun.ai（含 wintoken）。楼主称 opusrelay 充值 100 元后出现“掺水”（回复质量下降），客服拉黑；cun.ai 充值两个 9.9 美元后 API 故障导致 token 浪费，客服推诿。但 cun.ai 官方（zjason）在评论区反驳，称已补偿并退款，双方各执一词。
+用户因 Google Photos 存储空间不足，考虑订阅 Gemini 并绑定 Google Play，询问招商银行 Visa 全币种国际信用卡是否适用。
 
 ### 关键要点
-- 充值前先小额测试（如 10 元），避免大额充值。
-- 充值后先联系客服测试退款，能退款的相对可靠。
-- 注意中转站可能“掺水”或故障，导致 token 浪费。
-- 有用户反映其他中转站（如 gpt2share、xcode.best）也存在问题。
+- 招商 Visa 全币种卡可绑定 Google Play，用于订阅 Gemini 和 ChatGPT。
+- 申请下卡较快，有身份证即可，部分网点可能较严。
+- 替代方案：招商蓝色万事达借记卡有固定返现，但需先转账消费。
+- 订阅时建议选择价格较低的区。
 
 ### 评论补充
-- 有用户指出中转站盈利模式可能涉及收费+卖数据，不掺水难盈利。
-- 部分用户表示自己搭建中转站自用，不对外推广。
-- 关于 cun.ai 的争议，官方提供了补偿和退款截图，但楼主仍保留意见。
+- 有用户推荐 AI Plus 方案，提供 400G 空间并包含 Gemini。
+- 万事达曾发生全球宕机，Visa 相对稳定。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234306" target="_blank" rel="noopener noreferrer">中转站排雷，个人已经被坑，经验分享</a></span><span class="topic-stats">回复 20 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234554" target="_blank" rel="noopener noreferrer">新手的第一张信用卡求推荐 &amp; Google 会员订阅问题</a></span><span class="topic-stats">回复 7 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234263" markdown="1">
+<details class="topic-card" data-topic-id="1234615" markdown="1">
 <summary>
 <span class="topic-rank">27</span>
-<span class="topic-title">刮刮乐中奖率真相：返奖率低于50%，整本购买更亏</span>
+<span class="topic-title">亚太便宜VPS推荐：联通线路可选阿里云、AWS Lightsail等</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -882,34 +878,29 @@ deepseek-harness 是 DeepSeek 推出的开源 AI 编程工具，目前处于 0.1
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-刮刮乐是一种负期望的彩票游戏，多位用户分享经验表明，无论单张还是整本购买，长期来看返奖率普遍低于50%。有用户实测整本500元成本仅刮出270元，净亏230元；另有用户指出整本中奖金额通常不到售价一半。
+楼主寻求香港或台湾的便宜VPS，用于海外网站加速，带宽为联通1000M企宽。评论指出亚太优化线路价格较高，但联通线路相对友好。
 
 ### 关键要点
-
-- **返奖率低**：多数用户反馈回本率在40%-60%之间，长期购买资金必然归零。
-- **整本购买不划算**：整本购买中奖率并不更高，反而因成本集中导致亏损更明显。
-- **中奖规律**：有用户观察到中奖票分布有规律（如隔两三张必中），但老板可能利用此规律控制顾客中奖概率。
-- **购买建议**：只刮新开的本，避免刮已刮过半的本，因为大奖可能已被刮走。
+- 推荐阿里云香港或AWS新加坡（Lightsail）作为联通线路的选择。
+- 可关注akile交易市场的低价机，或vmiss等商家（需在NS上收）。
+- 亚太线路价格普遍较高，稳定性和性价比需权衡。
 
 ### 评论补充
-
-- 有用户提供在线刮刮乐模拟器链接（https://gua.shadiao.pro/），可低成本体验。
-- 推荐Steam游戏《刮刮乐》作为替代，满足娱乐需求。
-- 有用户质疑老板控制中奖概率的说法，认为老板无法准确知道每张票的来源。
+- 有用户提到“快乐机”概念，联通虽不如移动多，但优于电信。
+- 部分用户认为最终可能回归美西，稳定优先。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234263" target="_blank" rel="noopener noreferrer">有人一起来玩刮刮乐吗</a></span><span class="topic-stats">回复 23 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234615" target="_blank" rel="noopener noreferrer">帮忙推荐亚太地区的便宜 VPS</a></span><span class="topic-stats">回复 10 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1234326" markdown="1">
+<details class="topic-card" data-topic-id="1234661" markdown="1">
 <summary>
 <span class="topic-rank">28</span>
-<span class="topic-title">4年全栈工程师求职：技术栈、项目与薪资期望</span>
+<span class="topic-title">Gemini 3.7 发布后 Antigravity 连不上：IP 被送中及应对</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -917,343 +908,21 @@ deepseek-harness 是 DeepSeek 推出的开源 AI 编程工具，目前处于 0.1
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-该主题为一位4年经验的全栈工程师（偏前端）的求职帖，作者自述建筑学背景自学入行，技术面覆盖Web/桌面/移动端，涉及中后台、GUI框架、协同文档、低代码、Agent聊天及出海应用等。开源方面有Dioxus attributes PR及多个自维护项目。求职偏好年轻化创业团队，不限于技术栈，关注Agent产品，期望薪资18-24k，可接受远程、成都、杭州、上海、深圳。
+用户反馈 Antigravity 桌面端和 CLI 在 Gemini 3.7 发布后无法连接 Gemini 模型，但 Claude 模型正常，网页版和 App 可用，换节点无效。评论指出这是 Google 风控升级，大量机房 IP 被标记为中国 IP（“送中”），导致连接失败。
 
 ### 关键要点
-- 技术栈：工作用TypeScript、React/Next/Angular/Vue、C#/.NET Core；开源用Rust、Python、Go。
-- 简历已脱敏，附有个人项目页面。
-- 评论中有人建议投递上海大型外企外包的AI Agent岗位，认为4-5年经验可拿20-25k，双休不加班。
+- **现象**：Antigravity 桌面端/CLI 连不上 Gemini，但 Claude 可用；网页版和 App 正常。
+- **原因**：Google 更新 IP 库，将常用机房 IP 判定为中国 IP，触发风控。
+- **应对**：更换干净节点（如韩国节点）可能恢复；使用反代（如 cliproxy）也可解决。
+- **注意**：即使当前可用，若 IP 段被标记，后续仍可能被送中。
 
 ### 评论补充
-- 作者分享UI设计经验：无系统学习，靠多看多抄，参考海外创意站如Dribbble、Pinterest、awwwards，或让AI根据风格词推荐参考网站。
-- 有评论指出简历经AI处理，有主题但略显杂乱，难以快速抓住能力重点；作者回应认为能说明项目内容即可。
+- 有用户在国内测试所有节点均失败，出国后即可使用，说明 IP 地理位置是关键。
+- 部分用户确认被标记后，即使换节点也可能无效，需等待或使用更干净的 IP。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234326" target="_blank" rel="noopener noreferrer">[求职] - 全栈工程师(偏前端) - 4 年</a></span><span class="topic-stats">回复 10 · 收藏 4</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1234438" markdown="1">
-<summary>
-<span class="topic-rank">29</span>
-<span class="topic-title">Cloudflare 部署 Next.js 遇 CPU 限制的排查与解决</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者在 Cloudflare 免费版部署一个简单导航站，反复遇到 CPU 限制问题，通过逐步排查最终解决。关键结论：免费版 Worker 有 CPU 时间限制，SSR 框架（如 Next.js）在冷启动时可能因加载过重模块而超限。
-
-### 关键要点
-- 免费版 Cloudflare Worker 有 CPU 时间限制，见官方文档：https://developers.cloudflare.com/workers/platform/limits/#cpu-time
-- 使用 Next.js 服务端模式（OpenNext）容易触发 CPU 限制，切换 React Router 7 后仍存在。
-- 优化数据库查询、引入缓存、自定义 edge cache 可缓解，但首页仍偶发。
-- 最终方案：定时任务生成静态缓存 + 全站 CDN 缓存 5 分钟，避免 SSR 触发。
-- 根本原因：SSR 壳加载了过重的共享模块（如 Mantine、Lingui、React 19），即使页面逻辑简单，冷启动时求值超时。
-
-### 评论补充
-- 有用户使用 Astro 和 TanStack 基本未遇到 CPU 限制，推荐尝试。
-- 作者反思后采用自定义 Worker 缓存 + 全站 CDN，避免 SSR，彻底解决问题。
-- 提示：免费版限制是主要原因，但框架选择影响显著。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234438" target="_blank" rel="noopener noreferrer">Cloudflare 前端 NEXT.JS 还是 REMIX 还是 ASTRO</a></span><span class="topic-stats">回复 8 · 收藏 1</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1234336" markdown="1">
-<summary>
-<span class="topic-rank">30</span>
-<span class="topic-title">Google 检测策略变化导致 Gemini 和 YouTube 不可用的原因与解决</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-用户反映 Gemini 提示地区不可用，YouTube 提示 Premium 会员部分不可用，但其他墙外网站正常。评论指出这通常是代理 IP 被 Google 标记（俗称“送中”），导致部分服务受限。
-
-### 关键要点
-- **原因**：IP 被 Google 检测为高风险或数据中心 IP，触发地区限制。
-- **解决**：更换纯净 IP、自建节点、使用落地机或 DNS 解锁（如 https://dns.akile.ai）。
-- **其他**：禁用 Chrome 的 QUIC 协议可能改善 UDP 质量不佳的问题。
-
-### 评论补充
-- 有用户表示更换节点后恢复正常，确认是 IP 问题。
-- 部分用户建议使用落地机避免 IP 泄露。
-- 注意：开启定位可能连累同 IP 段用户被标记。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234336" target="_blank" rel="noopener noreferrer">google 是改了什么检测策略了吗， gemini 和 youtube 都有点问题</a></span><span class="topic-stats">回复 13 · 收藏 2</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1234400" markdown="1">
-<summary>
-<span class="topic-rank">31</span>
-<span class="topic-title">GLM-5.3 实际体验：速度慢、不稳定，部分用户反馈可用</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-
-GLM-5.3 发布后，多位用户反馈官方服务速度慢且不稳定。有用户遇到 `Error: glm-5.3[1M] is temporarily unavailable (timed out)`，Pro 用户称“能不用就不用”，Max 用户表示高峰期卡顿但保障尚可。也有用户认为速度尚可，如 V2 Pro 用户使用 ZCode 体验良好，Max 用户测得 85 tps。
-
-### 关键要点
-
-- **速度与稳定性**：多数反馈为慢、超时，部分时段可用；Max 有高峰期保障。
-- **订阅建议**：有用户因涨价和额度减少而退订，建议谨慎订阅。
-- **替代方案**：用户提到 DeepSeek、Grok、Codex 等作为替代。
-
-### 评论补充
-
-- 有用户称 GLM-5.2 智力水平一般，但普通任务完成不错；5.3 可能更好。
-- 官方 API 模型清单尚未更新，但切换后提示 5.3。
-- 部分用户认为智谱营销强，实际体验与宣传有差距。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234400" target="_blank" rel="noopener noreferrer">GLM5.3 来了，有真实订阅智谱官网的小伙伴吗，速度怎么样</a></span><span class="topic-stats">回复 18 · 收藏 0</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1234270" markdown="1">
-<summary>
-<span class="topic-rank">32</span>
-<span class="topic-title">抖音视频链接返回不同CDN域名及403问题解析</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-
-主题讨论抖音视频链接解析时返回不同CDN域名（ixigua.com vs 365yg.com）及403访问失败的问题。评论指出，不同接口路径获取的无水印地址可能使用不同CDN，且CDN地址有访问过期时间，Token过期后访问会返回403。
-
-### 关键要点
-
-- 抖音视频、音频分别返回，不同接口可能返回不同CDN域名，如ixigua.com和365yg.com。
-- CDN地址具有时效性，过期后访问会403，属于正常现象。
-- 如需持久化访问，可使用永久地址：`https://www.douyin.com/aweme/v1/play/?video_id=...&ratio=720p&line=0`（抖音渠道）或`https://api-play.amemv.com/aweme/v1/play/?video_id=...`（西瓜视频渠道）。
-- 永久地址需单独在浏览器打开，直接点击会因Referer校验返回403。
-
-### 评论补充
-
-- 有用户提到可尝试第三方无水印下载工具，但未提供具体细节。
-- 评论者ihmily分享了多年经验，指出不同端（H5、APP、PC）使用不同接口，建议参考。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234270" target="_blank" rel="noopener noreferrer">哪个大佬谁爬过抖音的视频连接？</a></span><span class="topic-stats">回复 6 · 收藏 4</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1234371" markdown="1">
-<summary>
-<span class="topic-rank">33</span>
-<span class="topic-title">ReadAware：开源跨平台电子书阅读器，支持插件与本地优先</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-
-开发者分享了其开源电子书阅读器 ReadAware，定位为 agent-first reader，但 Agent 不替用户读书，而是作为伴读，理解上下文，按需提供帮助。项目支持 EPUB、MOBI、PDF 等格式，覆盖 macOS、Windows、Linux 和 Android，采用 local-first 设计，数据默认保存在本地。
-
-### 关键要点
-
-- **插件系统**：可扩展词典、主题、朗读声音、feeds、commands，并为 Agent 增加工具，用户需求可通过插件实现。
-- **Agent 理念**：强调人在读书，Agent 安静伴读，不主动打扰，可查询、执行小任务。
-- **本地优先**：书籍、进度、笔记等默认本地存储，无需依赖 SaaS。
-- **当前限制**：原生不支持笔记导出，无 iOS 版本（Apple Developer 审核中），缺少查找/搜索功能。
-
-### 评论补充
-
-- 用户反馈菜单栏呼出不便，开发者回应空格键可快速打开，并计划优化鼠标悬停显示。
-- 有用户询问笔记导出，开发者确认后续将支持。
-- 有用户提到类似项目 readest，但未深入对比。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234371" target="_blank" rel="noopener noreferrer">优雅的跨平台电子书阅读器，可拓展 + 自进化 Agent</a></span><span class="topic-stats">回复 8 · 收藏 3</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1234271" markdown="1">
-<summary>
-<span class="topic-rank">34</span>
-<span class="topic-title">UU远程控制macOS：解决⌘+Q关闭远程App问题</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-
-UU远程控制macOS时，按⌘+Q会关闭UU本身而非远程桌面上的App，原因是系统快捷键被本地拦截。
-
-### 关键要点
-
-- 在UU远控的浮窗中，进入**外设 → 键盘 → 键盘快捷键**，开启**发送系统快捷键到被控端**。
-- 开启后，在远控屏幕上操作时⌘+Q会作用于被控端，不会关闭UU；移出焦点窗口则失效。
-- 不建议修改系统快捷键设置，可能导致⌘+Q无响应。
-
-### 评论补充
-
-- 有用户反馈UU快捷键整体难用，切换窗口、输入法等存在兼容问题。
-- 设置入口较深，需在非全屏状态点击控制中心或浮窗查找。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234271" target="_blank" rel="noopener noreferrer">UU 远程有办法用 ⌘+Q 关闭远程桌面上的 App 吗？</a></span><span class="topic-stats">回复 6 · 收藏 3</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1234397" markdown="1">
-<summary>
-<span class="topic-rank">35</span>
-<span class="topic-title">herdr iOS 客户端 Heeler：SSH 连接、推送与文件传输</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者开发了 Heeler，一个原生的 herdr iOS 客户端，用于在手机上管理 herdr agent。它通过 SSH 连接，无需额外 daemon，支持查看 agent 状态、回复消息、Attach 操作 TUI，以及通过 SFTP 上传文件。配对时运行 herdr plugin，手机扫描二维码即可，SSH 私钥保存在 Keychain。支持 Jump Host 和 Tailscale，推送走 APNs。
-
-### 关键要点
-- 安装：`herdr plugin install ZingerLittleBee/Heeler/plugin --ref main --yes`，然后 `herdr plugin action invoke heeler.pair`。
-- 要求：iOS 18+，herdr 0.7.5+，目前 pre-alpha，无 Android。
-- 开源：AGPL，GitHub 链接见原文。
-
-### 评论补充
-- 有用户建议做成对话式交互，作者表示更喜欢终端 UI，已放弃该方向。
-- 有用户分享替代方案：通过 ChatGPT Remote 和 herdr skill 实现手机操控，适用于无法 SSH 直连或网络卡顿的场景。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234397" target="_blank" rel="noopener noreferrer">[开源][iOS] 给 herdr 做了个手机端</a></span><span class="topic-stats">回复 6 · 收藏 3</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1234256" markdown="1">
-<summary>
-<span class="topic-rank">36</span>
-<span class="topic-title">Mac 上 Command+C 偶尔失灵？可能是 Popclip 等增强软件导致</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-Mac 内置键盘上 Command+C 偶尔失灵，常见原因可能是第三方系统增强软件干扰，尤其是 Popclip。多位用户反馈删除或调整 Popclip 后问题解决，但也有用户未安装此类软件仍遇到问题，说明可能还有其他因素。
-
-### 关键要点
-- **Popclip 是主要嫌疑**：多位用户确认 Popclip 会导致复制失灵，删除后恢复正常。
-- **其他剪贴板或划词软件**：剪贴板管理工具、翻译软件的划词功能也可能影响复制。
-- **临时解决方法**：等待 Popclip 按钮出现后再按 Command+C，或连按多次复制键。
-- **系统版本差异**：macOS 13.7 等版本也可能存在此问题，与软件无关。
-
-### 评论补充
-- 有用户反映在 PowerPoint 和 Excel 中复制失灵，可能与 Office 软件自身有关。
-- 部分用户遇到选中文本后自动复制到剪贴板的异常，原因不明。
-- 建议排查已安装的增强型软件，并尝试禁用或卸载以定位问题。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234256" target="_blank" rel="noopener noreferrer">Mac 组合键 Command+C，你们会偶尔失灵吗？</a></span><span class="topic-stats">回复 14 · 收藏 0</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1234239" markdown="1">
-<summary>
-<span class="topic-rank">37</span>
-<span class="topic-title">DeepSeek Harness 功能架构与插件生态详解</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-DeepSeek Harness (dsh) 是一个以“一切皆插件”为设计理念的 AI Agent 框架，其核心架构分为四层：地基层、执行层、编排层和接入层。地基层采用 Cordis 插件化内核，通过 Profile/Bundle/Patch 机制在启动时叠加插件树，并支持 `--dump-config` 打印配置。执行层提供 24 个内置工具包，包括文件系统、Shell、PTY 和代码执行，并支持 bwrap、Landlock、Seatbelt 和 Windows ACL 四种沙箱后端。编排层包含子代理、上下文管理、目标/计划/工作流和后台作业。接入层支持 DeepSeek 原生和 pi-ai 双模型适配器，并提供 TS/Python SDK、ACP、MCP（仅客户端）等接口。
-
-### 关键要点
-- **能力接缝**：每个能力拆分为 Definition、Provider、Consumer 三角色，确保可替换性，例如切换远程沙箱只需更换两个 Provider。
-- **事件溯源日志**：所有模型可见信息必须落日志，支持 fork、resume 和 UI 回放。
-- **自指扩展**：模型可通过 `cordis_*` 工具在运行时挂载/卸载插件，实现自我修改。
-- **生态现状**：awesome-dsh-plugins 收录 288 个仓库，但 65% 证据不足，运行级实测 5 个样本全部失败，收录不等于兼容。
-
-### 评论补充
-评论指出该帖可能为 AI 生成，但作者回应称内容经过校对，旨在总结开源项目功能。管理员表示将处理疑似批量盗号账号。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234239" target="_blank" rel="noopener noreferrer">DeepSeek Harness 的 feature list</a></span><span class="topic-stats">回复 4 · 收藏 0</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1234243" markdown="1">
-<summary>
-<span class="topic-rank">38</span>
-<span class="topic-title">Gemini 3.7 Flash 发布：编程能力提升，每月更新</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-Google 发布 Gemini 3.7 Flash，延续每月更新节奏。用户反馈显示，该模型在编程能力上有显著提升，速度与 3.6 保持一致，但性能更强且更省 token，有用户从 DeepSeek V4 Flash 全面转向使用。
-
-### 关键要点
-- **更新频率**：Google 确认 Flash 系列将每月更新一次。
-- **性能表现**：编程能力提升，速度不变，token 消耗降低。
-- **使用体验**：业余开发者认为足以用于 Android 开发；有用户认为比 DeepSeek V4 Flash 更快。
-- **获取方式**：部分用户需手动更新应用才能看到新模型。
-
-### 评论补充
-- 有用户表示已从 DeepSeek V4 Flash 转向 Gemini 3.7 Flash，看重其速度与质量。
-- 更新后需在应用中手动选择新模型。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234243" target="_blank" rel="noopener noreferrer">gemini 又出 3.7flash 了</a></span><span class="topic-stats">回复 7 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1234661" target="_blank" rel="noopener noreferrer">自从 Gemini3.7 发布后，我 Antigravity 就连不上了～</a></span><span class="topic-stats">回复 8 · 收藏 0</span></p>
 
 </div>
 
