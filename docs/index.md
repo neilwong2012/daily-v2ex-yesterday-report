@@ -1,27 +1,27 @@
 ---
 layout: report-home
 title: "V2EX 每日热点回顾"
-date: 2026-08-27 08:30:00 +0800
+date: 2026-08-28 08:30:00 +0800
 categories: [v2ex, daily-report]
 status: success
-target_date: 2026-08-27
-generated_at: "2026-08-28 14:08:58"
-summary: "昨日主题 248 个，过滤 80 个，DeepSeek 分析 168 个，保留高价值内容 51 个。"
-count_all: 248
-count_excluded: 80
-count_included: 168
+target_date: 2026-08-28
+generated_at: "2026-08-29 11:41:51"
+summary: "昨日主题 246 个，过滤 86 个，DeepSeek 分析 160 个，保留高价值内容 42 个。"
+count_all: 246
+count_excluded: 86
+count_included: 160
 count_high_signal: 0
-count_valuable: 51
-report_url: "/2026/08/27/"
-data_url: "/data/2026-08-27.json"
+count_valuable: 42
+report_url: "/2026/08/28/"
+data_url: "/data/2026-08-28.json"
 ---
 
-# V2EX 2026-08-27 昨日新帖报告
+# V2EX 2026-08-28 昨日新帖报告
 
-<details class="topic-card" data-topic-id="1237509" markdown="1">
+<details class="topic-card" data-topic-id="1237785" markdown="1">
 <summary>
 <span class="topic-rank">1</span>
-<span class="topic-title">新歌不如老歌？代际审美与音乐产业变迁分析</span>
+<span class="topic-title">自媒体半年全网百万粉：B站签约收益与平台对比经验</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -29,34 +29,30 @@ data_url: "/data/2026-08-27.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-关于“新歌是否不如老歌”的讨论，主帖与评论共同指向：这既是代际审美差异，也是音乐产业变迁的结果。
+作者分享半年从0到全网百万粉丝（抖音30w、B站50w、小红书8w、快手7w）的经历，强调爆火难以持续，平台流量倾斜新赛道。目前签约B站独家，收益大头来自B站商单（占总收入70%），签约后万播约40-50元，月播放100w可获4000元签约激励（有上限），加上创作激励和广告，月入稳定万元。
 
 ### 关键要点
-
-- **产业机制变化**：过去唱片公司承担“屎里淘金”的筛选功能，如今音乐平台缺乏类似把关，导致听众需自行筛选，优质新歌被淹没。
-- **创作空间受限**：传统芭乐旋律已被大量使用，新歌探索新风格导致听感不适；同时抖音化趋势下，追求单段好听而非整曲完整的作品增多。
-- **传播渠道分化**：优质新歌仍存在，但多在小众渠道（如 hopico、阿张 rayzhang 频道），难以成为大众流行。
-- **代际差异**：不同年代的人对歌词、旋律、节奏的偏好不同，如有人重词、有人重曲，审美固化是正常现象。
+- **平台差异**：抖音粉丝含金量低，流量完全平台分配；B站粉丝相对有用，基础播放有保障，对创作者较友好（如低门槛带货、任务奖励）。
+- **变现建议**：靠播放收入极不稳定，需有稳定变现渠道（如商单）；小红书知识赛道难变现，除非卖课。
+- **内容策略**：紧跟时事，结合个人经历与AI生成文案，保持好奇心寻找话题。
 
 ### 评论补充
-
-- 有评论指出“老歌”时间跨度大，与“新歌”不对等，老歌阵营自然积累更多好歌。
-- 部分用户推荐具体新歌（如许嵩《安泊猜想》、艾志恒《英雄》），说明新歌中仍有佳作。
-- 有观点认为说唱发展较好，因其门槛低、下沉市场大，而其他类型相对乏力。
+- 有评论指出短视频与长视频粉丝含金量约10:1，放弃其他平台是明智选择。
+- 关于是否全职做自媒体，作者回应：若收入稳定可考虑，但播放收入不稳定，需谨慎。
+- 有评论认为人文社科是长期生意，无弯道超车。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237509" target="_blank" rel="noopener noreferrer">到底是现在的新歌不好听了,还是我们落伍了?</a></span><span class="topic-stats">回复 142 · 收藏 25</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237785" target="_blank" rel="noopener noreferrer">经验分享：做自媒体半年全网百万粉丝，经历爆火到数据下滑~到现在签约 B 站吃低保了</a></span><span class="topic-stats">回复 29 · 收藏 38</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237605" markdown="1">
+<details class="topic-card" data-topic-id="1237777" markdown="1">
 <summary>
 <span class="topic-rank">2</span>
-<span class="topic-title">30万左右纯电SUV推荐：Model Y、理想i6、小米YU7等对比</span>
+<span class="topic-title">用 PI 开发客服 Agent 的开源项目推荐与架构建议</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -64,31 +60,34 @@ data_url: "/data/2026-08-27.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主从高尔夫1.4T换购30万左右纯电SUV，要求操控跟手、对油车转电车的女生友好，不考虑智驾。评论区推荐多款车型，并给出价格参考。
+楼主想基于 PI 开发客服 Agent，寻找现成的 Chat UI 开源项目。评论指出 PI 本质是本地桌面 Agent，适合与本地环境交互，而客服是服务端 Agent，两者定位不同。多数建议转向服务端框架，如 LangGraph.js、Mastra、Dify 等。
 
 ### 关键要点
-- **热门推荐**：特斯拉Model Y（26.35万起）、理想i6（24.96万起）、小米YU7（23.35万起）、小鹏G9L（25.9万起）、极氪7X/8X、宝马iX3（9月可试驾）。
-- **操控取向**：Model Y车主称操控好；轿车如Model 3、极氪007GT更跟手；小米SU7 Max、极氪001被点名。
-- **油车过渡**：多数电车舒适模式适合油车用户，包括特斯拉。
-- **电池提醒**：有评论强调选车需研究电池，二线电池品牌（如中创新航）有暴雷风险。
+- **PI 定位**：PI 是本地 Agent，并发能力弱，不适合直接做客服；若仅用其 HTTP client 封装，并发取决于 provider。
+- **推荐方案**：
+  - 服务端框架：LangGraph.js / LangGraph、Mastra、Eino。
+  - 快速搭建：Dify（功能全但口碑两极）、Vercel AI SDK + 自研前端。
+  - 知识库：腾讯 WeKnora。
+- **架构建议**：异步处理（先返回，后 webhook 回调），用 traceid/sessionid 追踪，QPS 高时加消息队列和集群。
+- **难点**：知识库整理、业务系统对接、售前主动客服的主动性比售后更难。
 
 ### 评论补充
-- 理想i6被多次推荐，但有人质疑其操控性。
-- 宝马iX3外观（大鼻孔）存在争议。
-- 建议按销量选择，理想i6、YU7/GT等为热门选项。
+- 有用户用 pi-agent-core 和 pi-ai 自建业务 Agent，效果不错但缺观测性。
+- 有实际项目采用 Vercel AI SDK + Dify 知识库，支持 ReAct 和接口操作。
+- 有用户提醒 OpenClaw 有较多 bug。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237605" target="_blank" rel="noopener noreferrer">2026 年 30w 左右电车选择</a></span><span class="topic-stats">回复 167 · 收藏 9</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237777" target="_blank" rel="noopener noreferrer">要用 PI 开发一个客服 agent, 有推荐的开源项目参考下吧</a></span><span class="topic-stats">回复 35 · 收藏 26</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237641" markdown="1">
+<details class="topic-card" data-topic-id="1237823" markdown="1">
 <summary>
 <span class="topic-rank">3</span>
-<span class="topic-title">Mac 内存 24G 够用吗？用户真实使用反馈汇总</span>
+<span class="topic-title">离线音乐库下载渠道汇总：PT、工具与网站</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -96,31 +95,31 @@ data_url: "/data/2026-08-27.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-关于 Mac 24G 内存是否够用，用户反馈不一。多数用户认为 24G 足够日常使用，但开发、多任务或 AI 场景下可能不足。有用户表示 16G 后悔，24G 大概率不会；也有用户买了 48G 仍觉得不够。内存价格波动影响购买决策，涨价前推荐更大内存。
+楼主想建立离线音乐库，询问下载渠道。回复提供了多种方法，包括从 YouTube 提取音频、使用开源工具 musicdl、访问 hifiti.com 和 xiageba.liumingye.cn 等网站，以及通过 PT 站获取音乐资源。
 
 ### 关键要点
-- **日常使用**：24G 足够，如 M2 Air 24G 用户表示够用。
-- **开发场景**：后端/全栈开发或多 agent 协作时，内存多多益善。
-- **价格因素**：内存涨价前建议买大，现在按需购买。
-- **实际占用**：日常游戏约 20G，全栈开发不超过 32G，跑 AI 可能超 40G。
+- **PT 站**：有用户提到 PT 站有 JC 音乐大包，接近 1TB，覆盖多年前的歌曲，但获取 PT 账号是门槛。
+- **开源工具**：推荐 GitHub 上的 musicdl 项目，可批量下载音乐。
+- **网站资源**：hifiti.com 和 xiageba.liumingye.cn 提供音乐下载，其中 hifiti.com 有 VIP 服务。
+- **其他方法**：从 YouTube 下载音频、使用 soulseek 等 P2P 软件。
 
 ### 评论补充
-- 有用户 48G 仍不够用，附截图。
-- 16G 用户后悔，建议至少 32G。
-- 部分用户认为瓶颈不在内存，而在其他硬件。
+- 有用户分享了自己部署 ro-music 并导入洛雪音乐源的经验，支持 API 调用，可自动化下载。
+- 有用户提到 PT 站邀请码难以获取，且存在风险，需谨慎。
+- 部分网站可能涉及版权问题，使用时需注意法律风险。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237641" target="_blank" rel="noopener noreferrer">有买了 24g 内存后悔的吗</a></span><span class="topic-stats">回复 127 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237823" target="_blank" rel="noopener noreferrer">请问各位的音乐文件都是哪里下载的? 想搞个离线音乐库</a></span><span class="topic-stats">回复 16 · 收藏 29</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237618" markdown="1">
+<details class="topic-card" data-topic-id="1237896" markdown="1">
 <summary>
 <span class="topic-rank">4</span>
-<span class="topic-title">6岁猫咪换主粮：多品牌推荐与皇家、弗列加特等经验</span>
+<span class="topic-title">Pi 使用姿势与插件推荐：从 TUI 到 GUI 的实践</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -128,30 +127,33 @@ data_url: "/data/2026-08-27.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主为6岁猫咪寻找主粮推荐，多位用户分享了自家猫咪的长期食用经验。皇家猫粮获得较多好评，有用户表示三只猫从小到大只吃皇家，年纪最大的活到16岁半；也有用户因猫咪胰腺炎换皇家后一年多未复发。弗列加特被提及作为替代选择，因皇家近期涨价。其他推荐包括渴望、爱肯拿、冠能、蓝氏、网易严选等。
+
+主题围绕 AI 编程工具 Pi 的使用经验展开，楼主从 codex 迁移至 Pi，认可其迅速、精准、简洁、可控的特点，但苦于 TUI 输入不便，常借助 VS Code 编辑。评论中多位用户分享了替代方案与插件推荐。
 
 ### 关键要点
-- **皇家**：适合老年猫，有用户反馈控制脂肪有效，但近期价格上涨。
-- **弗列加特**：作为皇家涨价后的替代，与barf混喂。
-- **试吃装**：建议先购买试吃装，避免浪费。
-- **混粮注意**：有用户提醒避免混粮，因部分品牌曾出现问题导致猫咪后肢瘫痪。
+
+- **GUI 替代**：推荐 **orca** 作为 Web 端，**thinkrail**（JB 开源）界面精致，**Paseo** 支持 Pi 并集成多模型（如 Claude Code、GPT、Gemini）。
+- **插件与自定义**：常用插件包括 **Ponytail**（开发与 review 表现好）、**web-access**、**multi-skills**；有用户建议不依赖 npm 自行编写插件，或使用 **Magic-Context** 提取记忆避免信息丢失。
+- **工作流建议**：避免重型 GUI，以 Pi 或 dsh 等强自定义工具为底层核心，配合 VS Code 或 orca 作为 IDE，便于迁移。
 
 ### 评论补充
-- 有用户分享混粮经验：主粮+其他品牌混合，猫咪健康。
-- 部分用户强调选择正规渠道，避免假货。
+
+- 部分用户转向 **dsh**，认为其插件定义自由，但存在性能 bug，且生态热度不及 Pi。
+- 有用户通过 **cliproxyapi** 切换模型，或利用 **Pi** 调用 **antigravity** 实现多模型并行。
+- 轻量使用建议：仅安装页面边距调整和折叠工具输出等少量插件。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237618" target="_blank" rel="noopener noreferrer">准备给家里小猫换猫粮，大家有没有推荐</a></span><span class="topic-stats">回复 70 · 收藏 10</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237896" target="_blank" rel="noopener noreferrer">想看看各位使用 Pi 的姿势</a></span><span class="topic-stats">回复 31 · 收藏 20</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237500" markdown="1">
+<details class="topic-card" data-topic-id="1237798" markdown="1">
 <summary>
 <span class="topic-rank">5</span>
-<span class="topic-title">AI 提效大赛案例灵感：知识库、Agent 接入与避坑建议</span>
+<span class="topic-title">更换物联网燃气表：潜在风险与应对建议</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -159,31 +161,33 @@ data_url: "/data/2026-08-27.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主所在公司举办 AI 提效大赛，要求每组提交案例，Java 开发常规内容难以通过初审，寻求灵感。评论中提供了多个可落地的方向，并包含重要避坑建议。
+
+更换物联网燃气表是燃气公司的统一行动，用户通常没有选择权，但需了解潜在影响。
 
 ### 关键要点
-- **知识库方向**：将代码库构建为业务知识库，比 PRD 更准确，可用于内部提效。有评论者按业务域生成代码层级连接，数据查询效果最佳。
-- **Agent 接入**：有公司计划将所有业务系统接入 Agent，作为大赛案例具有较高评分潜力。
-- **具体工具**：可参考 Spring AI 的 Agentic Patterns（如 task subagents）和 Claude Code 等，服务端可结合 Spring AI 实现。
-- **避坑建议**：不要做得太好，以免引发同事敌视；可针对钉钉等现有工具的不足用 AI 优化，实用为主。
+
+- **更换强制性与条件**：燃气表有10年强制报废规定，到期必须更换；未到期可暂缓，但部分地区不换可能被停气。
+- **费用与计量变化**：新表计量更精确，部分用户反映用气量增加、费用上升；新表多为预付费模式，需提前充值。
+- **潜在风险**：有用户担心新表计量误差偏大（标准允许±3%），或燃气公司调整气源导致热值变化；但物联网部分仅用于远程抄表，计量部分有强制标准。
+- **便利性提升**：支持线上缴费、NFC卡充值，减少入户抄表打扰。
 
 ### 评论补充
-- 有评论指出此类比赛可能是老板套取实践经验的套路，可坦诚不会。
-- 也有观点认为应关注大老板关心的业务痛点，而非技术炫技。
-- 部分回复提供外部链接（如 ccw-explorer），但内容未验证，需谨慎参考。
+
+- 有用户实测换表后费用明显增加，但缺乏系统证据。
+- 建议：若旧表未到期可暂缓更换；换表后注意核对账单，如有异常可申请送检。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237500" target="_blank" rel="noopener noreferrer">公司搞 AI 案例大赛，有什么灵感嘛兄弟们</a></span><span class="topic-stats">回复 56 · 收藏 14</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237798" target="_blank" rel="noopener noreferrer">兄弟们，燃气要来换物联网燃气表，有没有坑？</a></span><span class="topic-stats">回复 82 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237607" markdown="1">
+<details class="topic-card" data-topic-id="1237986" markdown="1">
 <summary>
 <span class="topic-rank">6</span>
-<span class="topic-title">3.5 年前端降薪 22% 的 offer 该不该去：求职现状与决策参考</span>
+<span class="topic-title">开源数据库客户端 DataZen：Workflow 与 Dashboard 功能解析</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -191,31 +195,35 @@ data_url: "/data/2026-08-27.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主 3.5 年前端，被裁后求职半个月仅获一个 offer：小公司（100 余人，03 年成立，ToG 业务，电信参股 45%），综合补贴后降薪 22%。优点：早九晚五、加班少、当月 25 号发薪、无绩效压力；缺点：试用期 6 个月（前 3 个月八折）、一年后才有 5 天年假、需自带电脑（补贴含电脑/通勤/餐补）。楼主纠结是否入职，并感叹前端就业环境恶化。
+作者因公司合规限制无法使用 Navicat，转而开发了开源数据库客户端 DataZen（Tauri + Rust + React，支持 macOS/Windows/Linux）。项目主打两个自用痛点：跨库多表查询的 Workflow 功能（用 YAML 串联多步查询，上一步结果传给下一步，可连接不同库）和运营看板 Dashboard（保存常用 SQL 和图表，定时刷新）。此外还包含 SQL 编辑器、Schema 树、SSH 隧道、AI 辅助（自然语言生成 SQL、错误诊断、EXPLAIN 分析）、图表导出、MCP 支持等。
 
 ### 关键要点
-- **求职现状**：纯前端岗位减少，竞争激烈，半个月仅一个面试机会，行情比去年差。
-- **offer 风险**：评论指出 ToG 小公司可能实际加班多（"很少加班"不可全信），且工作体验可能不如外包。
-- **决策建议**：多数评论建议"骑驴找马"，先入职保底，同时继续投递；若经济压力不大，可再找 1-2 个月。
-- **转行思考**：楼主考虑转行，但自认除代码外无其他技能；有评论建议转向 agent 等新兴方向（如 3 年前端转 agent 涨薪 40%）。
+- **Workflow**：解决跨库无法 JOIN 的问题，通过 YAML 串联多步查询，减少复制粘贴。
+- **Dashboard**：将常用 SQL 和图表保存为看板，定时刷新，便于快速汇报。
+- **技术栈**：Tauri + Rust + React，支持 PostgreSQL、MySQL、SQLite、Redis 等，可通过 Driver 扩展。
+- **AI 集成**：支持 OpenAI、Anthropic、DeepSeek 及自定义接口，但作者强调 AI 不能碰生产数据以防泄露。
+- **开源**：GPLv3 协议，本地优先，无需注册，凭据本地加密存储。
 
 ### 评论补充
-- 有评论提醒：降薪入职易后悔，口头承诺的加班情况需谨慎。
-- 有评论指出：100 人公司不算太小，但小组仅 3-4 人，需独立负责项目。
-- 部分评论认为：若经济压力大，先入职是合理选择；否则可继续寻找更合适机会。
+- 有用户指出类似需求可用 n8n 搭配数据面板实现，或直接用 AI 写 Python 脚本。
+- 作者回应开发过程使用 Cursor，但强调代码质量和架构可扩展性，并认为 AI 浪潮下老程序员仍有优势。
+- 关于数据安全，评论建议在数据库前加脱敏 proxy，并指出若人员可直连数据库，敏感数据风险依然存在。
+- 部分评论质疑项目是否纯 AI 生成，作者承认使用 AI 辅助，但强调自己把控架构。
+
+项目地址：https://github.com/flyxl/datazen （仅作信息参考，未验证）
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237607" target="_blank" rel="noopener noreferrer">3.5 年前端找工作半个月，只有一个 offer，降薪 22%在考虑要不要去</a></span><span class="topic-stats">回复 76 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237986" target="_blank" rel="noopener noreferrer">公司不让装 Navicat 了，就自己写了一个数据库客户端</a></span><span class="topic-stats">回复 23 · 收藏 15</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237554" markdown="1">
+<details class="topic-card" data-topic-id="1237872" markdown="1">
 <summary>
 <span class="topic-rank">7</span>
-<span class="topic-title">自己申请软著和商标的完整经验与避坑指南</span>
+<span class="topic-title">AI 时代低端程序员的价值与转型路径</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -223,30 +231,33 @@ data_url: "/data/2026-08-27.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者分享了自己申请软件著作权（软著）和商标的亲身经历，包括流程、费用、常见问题及应对策略。
+楼主有 10 年 PHP 后端经验，因 AI 辅助编程能力大幅提升，但担心自身价值被替代。他观察到 AI 让非程序员也能开发应用，导致程序员溢价降低，接单市场报价混乱且不被尊重。评论中多位用户认为纯编程能力将被 AI 压平，但产品、业务、判断力等软技能仍是护城河。
 
 ### 关键要点
-- **软著申请**：官方免费，自己申请约1-3个月（被退回2次则3个月）。常见补正原因：标题带版本号、源代码文件选错。建议先上传前后60页版本，不通过再试完整版。
-- **商标注册**：官方费用270元，第三方平台通常300元（可能更低）。自己申请需注意：查重时按分类、全部分类、拆分词多次查询；小众词通过率看运气，可能第二年通过；大众词汇可能无法注册。
-- **费用对比**：软著代申请约150元，商标代申请约200-300元。若急需可找代理，不急需可自己申请。
+- **AI 降低编程门槛**：楼主用 AI 从后端扩展到全栈，开发了多个 app 和小程序，但认为这加剧了竞争。
+- **转型方向**：多位用户建议转向产品、商务、销售或全干工程师（自己对接业务、设计、开发、测试）。
+- **认知与判断力**：有评论指出 AI 产出质量依赖认知，认知差的人用 AI 代码质量差、难维护；未来瓶颈是“做什么”而非“怎么做”。
+- **行业现实**：PHP 岗位减少，学历和背景竞争加剧，大厂硕士也面临失业，需接受现实并思考退路。
 
 ### 评论补充
-- 软著审核时间不稳定，有6月申请8月通过，也有4月申请仍在排队的。
-- 商标可通过阿里云申请，查重时绿色可注册，文字不超过6个中文，有用户1月申请25个全过。
-- 商标通过率不高，有用户申请十多个仅过几个。
+- 有用户分享用 AI 设计硬件 PCB 的案例，说明 AI 可拓展到其他领域。
+- 关于接单，有评论认为流量和营销比技术更重要。
+- 有观点提醒，涉及金钱交易的项目仍需谨慎，AI 可能隐藏逻辑漏洞。
+
+结论：程序员不会消失，但角色将转变为产品经理、创业者或 AI 调度者，核心价值在于判断力、业务理解和持续学习。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237554" target="_blank" rel="noopener noreferrer">讲下我自己申请软著和商标的经历</a></span><span class="topic-stats">回复 8 · 收藏 20</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237872" target="_blank" rel="noopener noreferrer">对前景很焦虑，低端程序员还有存在的必要吗？</a></span><span class="topic-stats">回复 28 · 收藏 9</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237542" markdown="1">
+<details class="topic-card" data-topic-id="1237761" markdown="1">
 <summary>
 <span class="topic-rank">8</span>
-<span class="topic-title">佳明运动手表选购：飞8降价与飞9发布后的购买建议</span>
+<span class="topic-title">摩托车行车记录仪选购：运动相机与专用记录仪对比</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -254,32 +265,30 @@ data_url: "/data/2026-08-27.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主纠结佳明飞8降价后是否值得入手，以及飞9 Pro发布后是否该等待。评论提供了多款型号的使用体验和购买建议。
+楼主骑摩托通勤，因被别车想装行车记录仪。评论中主要分为两派：推荐运动相机（如大疆、影石）和推荐专用摩托车记录仪（如骑技、HFK、艾尔优）。
 
 ### 关键要点
-- **飞8价格**：8月初曾降至4999元，现回升至6000多元，用户认为4999元是较好入手价。
-- **飞9 Pro**：刚发布，预售中，但用户担心后续降价，建议观望。
-- **屏幕选择**：多位用户推荐MIP屏（如飞7 Pro、飞8、飞9 Pro），续航更好；AMOLED屏（如本能3代）被部分用户后悔。
-- **旧款够用**：飞7、255等旧款用户表示日常运动完全够用，不必追新。
-- **价格坚挺**：佳明产品价格控制严格，降价幅度有限，飞8降价主要因飞9发布。
+- **运动相机**：大疆 Osmo Action、影石 insta360 X3/X5/X6 等，画质好、防抖强，但需手动开关、充电麻烦、易被偷，适合可玩性高的用户。
+- **专用记录仪**：如骑技、HFK、艾尔优，前后双摄、通电即用，几百元，但画质一般。
+- **低成本方案**：用闲置手机装 Droid Dashcam 等 App 当记录仪，或购买后视镜式记录仪。
 
 ### 评论补充
-- 有用户指出佳明新功能仅限新款，硬件支持但软件限制，吃相难看。
-- 255用户反馈App难用且连接不稳定，不建议购买。
-- 部分用户转向手机同品牌穿戴设备或小米手环，追求轻巧和体验。
+- 有用户指出运动相机和记录仪用途不同，建议优先记录仪。
+- 全景相机（如 insta360）记录信息更全，后期可操作性强。
+- 固定车头需注意防盗，建议随身携带。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237542" target="_blank" rel="noopener noreferrer">佳明运动手表怎么选，求推荐</a></span><span class="topic-stats">回复 61 · 收藏 5</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237761" target="_blank" rel="noopener noreferrer">骑行行车记录仪推荐</a></span><span class="topic-stats">回复 28 · 收藏 9</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237700" markdown="1">
+<details class="topic-card" data-topic-id="1237787" markdown="1">
 <summary>
 <span class="topic-rank">9</span>
-<span class="topic-title">全额社保公积金由员工承担80%的应对与风险分析</span>
+<span class="topic-title">同质性网络与虚假共识效应在V站的体现</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -287,29 +296,31 @@ data_url: "/data/2026-08-27.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主反映公司实行全额缴纳社保公积金，超出部分需员工承担80%，导致工资从2万降至税前1.1万。评论指出这是外包公司常见做法，且公司要求签署调薪协议，可能涉及违法降薪。
+主题引用阮一峰周刊介绍的同质性网络概念，探讨V站是否属于此类网络。同质性网络指用户倾向于遇到相似的人，导致边缘观点聚集，并可能产生虚假共识效应，即少数派误以为自己的观点是主流。
 
 ### 关键要点
-- **法律风险**：全额缴纳社保是法定义务，但要求员工承担公司应缴部分可能违法，劳动仲裁存在不确定性，公司可能以“降薪”为由抗辩。
-- **实际影响**：工资降低影响现金流，但公积金账户资金增加，且超出部分免个税，长期看有储蓄效果；但劳动合同工资降低会影响未来N+1补偿基数。
-- **应对策略**：评论建议要么接受（视为强制储蓄），要么离职；若想维权，需收集证据，但可能面临就业风险。
+- 同质性网络会扭曲对观点分布的认知，加剧少数派观点的坚信，并可能引发被社会排斥感。
+- V站用户观点分裂，并非完全同质，存在不同立场（如对墙的态度）。
+- 有观点认为同质性并非网络特有，而是社交的必然结果。
 
 ### 评论补充
-- 有评论分析政策背景，认为社保补缴是财政缺口下的趋势，员工议价能力弱，建议从老板利益角度谈判（如举报偷税漏税）或考虑体制内/出境等路径。
-- 其他用户分享类似经历，指出社保基数逐月提高，个人负担增加，提醒经济下行期应增加储蓄。
+- 多数评论认为V站并非严重同质化，而是存在观点对立，如"翻墙出来给墙唱赞歌"的争议。
+- 有用户指出V站同质性体现在程序员逻辑思维，但社会认知可能停留在高中生水平。
+- 有评论提到20%用户贡献80%言论，导致对整体用户的画像偏差。
+- 部分评论认为平台通过拉黑、点赞机制加剧个人账号的同质化。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237700" target="_blank" rel="noopener noreferrer">公司要实行全额缴纳社保公积金，超出部分要 2、8 分，我要承担 80%。工资只能到手一半</a></span><span class="topic-stats">回复 50 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237787" target="_blank" rel="noopener noreferrer">今天看到阮一峰科技周刊介绍的一个概念，突然想到了 V 站是不是就是这样的同质性网络？</a></span><span class="topic-stats">回复 44 · 收藏 6</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237723" markdown="1">
+<details class="topic-card" data-topic-id="1237786" markdown="1">
 <summary>
 <span class="topic-rank">10</span>
-<span class="topic-title">免费AI模型API汇总：Empero、AIHubMix、TokenHarbor等</span>
+<span class="topic-title">上海联通移动宽带对比：公网IP、限速与稳定性</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -317,33 +328,31 @@ data_url: "/data/2026-08-27.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-该主题汇总了多个提供免费AI模型API的服务，包括Empero、AIHubMix、Cline、TokenHarbor、TokenRouter和B.AI，并提供了接入方式、限制和注意事项。
+上海地区宽带选择，综合用户反馈：追求网络质量选联通，图便宜选移动，不差钱且重稳定选电信。联通公网 IP 获取容易，但服务较差；移动便宜大碗，但高峰期链路劣化；电信贵且国际出口拥堵。
 
 ### 关键要点
-- **Empero**：提供GLM-5.3-flash、Qwen3.8-flash等模型，Base URL为`https://free.empero.org/v1`，Key可随便填，但注意prompt和回复会被记录用于训练，且忙时易503。
-- **AIHubMix**：免费提供Coding GLM 5.3，限制为5次/分钟、500次/天、每天100万token，需注册获取Key。
-- **Cline**：登录即可使用GLM-5.3/Flash，适合直接写代码，不适合自建gateway。
-- **TokenHarbor**：Qwen3.8-27B有免费档，GLM-5.3-Flash标价约$0.15/M input，新用户通常有额度。
-- **TokenRouter**：Qwen 3.8 Max免费且额度大，但可能随时消失。
-- **B.AI**：GLM-5.3-Flash在8/27-9/2限时免费，OpenAI兼容，适合接入Cursor/Claude Code。
+- **公网 IP**：联通可获取公网 IP（可能为黑 IP 需自行拨回），移动部分地区可给公网，电信多为大内网 IP。
+- **限速**：电信限速可用 fakehttp 破解，联通限速一刀切至 10M，移动每月 1T 上传限制。
+- **稳定性**：电信稳定性好但贵，联通性价比高但服务差，移动晚间 18-24 点劣化。
+- **出口带宽**：联通 AS4837 优于移动 AS9808，高峰期拥堵较少。
 
 ### 评论补充
-有用户反馈Empero的GLM-5.3模型自称4.6，但随后表示已解决，可能为版本显示问题。
-
-注意：免费服务可能随时变更，使用前请核实最新状态。
+- 上海联通路由特殊（AS17621 常绕路），与南京电信类似。
+- 小区用户数影响体验，超售严重，建议避开用户最多的运营商。
+- 有用户反馈移动经常断网，联通体验尚可。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237723" target="_blank" rel="noopener noreferrer">免费模型汇总</a></span><span class="topic-stats">回复 2 · 收藏 18</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237786" target="_blank" rel="noopener noreferrer">上海地区安装联通宽带还是移动宽带，有两种都试过的吗，对比下来哪个更好？</a></span><span class="topic-stats">回复 48 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237670" markdown="1">
+<details class="topic-card" data-topic-id="1237810" markdown="1">
 <summary>
 <span class="topic-rank">11</span>
-<span class="topic-title">Luna Max 实际体验：便宜但慢，适合明确指令下的编码执行</span>
+<span class="topic-title">大股东撤资欠薪，应尽快找工作并考虑仲裁</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -351,34 +360,30 @@ data_url: "/data/2026-08-27.json"
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-V2EX 用户对 Luna Max 评价高主要因为**价格极低**（约 0.2 美元，低于 DeepSeek V4 Flash 的 0.44 美元），且性能与 DeepSeek V4 Flash 相当。但普遍反馈**速度慢**，尤其是思考时间长，实际生成速度约 40-50 tokens/s。
+公司大股东撤资导致资金链断裂，领导通知未来3个月可能无法发工资。多数评论建议立即开始找工作，同时不要主动辞职，以便在被裁或被迫离职时争取赔偿。
 
 ### 关键要点
-
-- **定位**：适合作为执行任务的 worker，需提供详细明确的 spec，不适合自主规划。
-- **工作流**：常见用法是 Sol 规划 + Luna Max 执行，并用 Sol 复核代码。
-- **对比**：同级对比对象为 DeepSeek V4 Flash、GLM 5.3 Flash、Gemini 3.7 Flash，Luna Max 表现最好且最便宜，但最慢。
-- **代码质量**：在指令明确时，代码质量可靠，有用户用于 20 万行商业项目，未发现更多 bug。
+- **尽快投简历面试**：大股东撤资通常意味着公司前景堪忧，拖延只会增加损失。
+- **骑驴找马**：在找到新工作前不要主动辞职，保持在职状态。
+- **考虑劳动仲裁**：若工资被拖欠，可在首次实质性少发工资后被迫离职并申请仲裁，维护权益。
 
 ### 评论补充
-
-- 有用户反馈 Luna Max 比 Terra 更稳定，Terra 在 xhigh 思考级别易出问题。
-- 慢主要源于思考级别高导致 token 消耗多，而非单纯 TPS 低。
-- 部分用户认为“只有便宜”是优点，但多数认可其性价比。
+- 有用户分享经历：前公司长期延迟发工资，最终破产，员工被欠薪数万至十几万，执行困难。
+- 建议“一边苟着等被裁拿赔偿，一边找工作”，或“在职仲裁”。
+- 有观点认为老板说3个月没把握找到资方，公司很难缓过来。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237670" target="_blank" rel="noopener noreferrer">Luna Max 有这么强吗？</a></span><span class="topic-stats">回复 26 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237810" target="_blank" rel="noopener noreferrer">公司大股东撤资了，发不出工资了，领导昨天开会，说未来 3 个月都可能发不了工资，该何去何从？</a></span><span class="topic-stats">回复 33 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237719" markdown="1">
+<details class="topic-card" data-topic-id="1237775" markdown="1">
 <summary>
 <span class="topic-rank">12</span>
-<span class="topic-title">移动固网用户多的原因：低价融合与地区差异</span>
+<span class="topic-title">OPC中转站转型社区化AI资源托管平台的可行性讨论</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -386,32 +391,31 @@ V2EX 用户对 Luna Max 评价高主要因为**价格极低**（约 0.2 美元�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-移动固网用户规模庞大，主要源于低价策略和手机业务绑定。多数用户反馈移动宽带价格极低，甚至免费或低至每月10-15元，且与手机套餐融合，降低了使用门槛。
+楼主辞职开OPC公司做中转站，第二天发帖探讨转型方向。评论指出市场已卷，普通中转站只能拼价格，且存在法律风险（收款和服务器在海外也可能被抓）和账号封号问题（需二开能力）。楼主计划转型为社区化AI资源托管平台，提供两种服务：第三方车主发车（平台提供管理功能，封号风险车主自担）和平台自营月租（透明池）。评论反馈：拼账号已有封号风险；token置换模式有现成项目（如tokenswitch.org）但使用率低；有评论认为所有拼车和token交换平台都做不成，因为存在滥用风险（如用20x做渗透逆向）。
 
 ### 关键要点
-- **价格优势**：移动宽带常以免费或低价（如15元/月千兆）提供，电信和联通价格相对较高。
-- **融合套餐**：移动利用手机用户基数，通过绑定宽带赠送或低价套餐吸引用户，电信也通过融合套餐推广移动业务。
-- **质量地区差异**：移动网络质量并非普遍最差，在江浙沪、北上广深等发达地区表现良好，部分用户反馈体验不输电信，甚至访问B站等更顺畅。
-- **互联互通问题**：移动与电信、联通互访存在瓶颈，但扩容需多方合作，非单方可解决。
+- 普通中转站竞争激烈，需差异化转型。
+- 法律风险难以规避，做大后可能被抓。
+- 账号封号问题需技术能力，开源软件无法解决。
+- 社区化平台需解决信任和滥用问题。
 
 ### 评论补充
-- 有用户从电信携转至移动，获得终身五折优惠，信号和宽带体验均满意。
-- 上海移动IPv6跨境表现不错，直连Hugging Face下载可达60MB/s以上。
-- 部分用户指出移动国际线路并非总是第二，走非香港方向可能较差。
-- 移动宽带在部分地区提供公网IPv4（如NAT1），但需自行穿透。
+- 有评论提到token置换项目tokenswitch.org，但24小时使用量仅几十亿，成熟度不足。
+- 有评论认为拼车和token交换平台难以成功，因为用户可能滥用账号导致封号。
+- 有评论建议平台做好验真处理，随机随时检查。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237719" target="_blank" rel="noopener noreferrer">有個問題，為什麼移動固網用戶很多？</a></span><span class="topic-stats">回复 36 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237775" target="_blank" rel="noopener noreferrer">辞职开 OPC 公司做中转站的第二天</a></span><span class="topic-stats">回复 25 · 收藏 8</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237550" markdown="1">
+<details class="topic-card" data-topic-id="1237756" markdown="1">
 <summary>
 <span class="topic-rank">13</span>
-<span class="topic-title">AI 时代，博客阅读与写作的现状与选择</span>
+<span class="topic-title">失业设计师0基础Vibe Code建站：两周上线60分网站获客</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -419,34 +423,33 @@ V2EX 用户对 Luna Max 评价高主要因为**价格极低**（约 0.2 美元�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-在 AI 辅助开发日益普及的背景下，用户对博客的阅读与写作习惯产生了分化。多数回复者表示仍会阅读博客，尤其偏好个人博客和 RSS 订阅，并强调真人写作的价值；部分人则转向 AI 问答，认为博客内容质量下降，营销号和 AI 文案泛滥。
+作者是11年平面设计师，因健康问题反思电商创业，决定重操旧业，用0代码基础Vibe Code两周内搭建个人工作室网站。他强调“60分上线”优于“90分未上线”，设计应服务商业目的，而非追求完美。
 
 ### 关键要点
-
-- **阅读习惯**：多数人仍看博客，常用 RSS 订阅个人博客，如 `codedump.info`、`catcoding.me`、`matklad.github.io` 等。
-- **内容偏好**：明确排斥 AI 生成内容，认为博客是“非 AI 内容的净土”，只愿看真人写的文章。
-- **写作态度**：部分人坚持自己写博客，甚至用 AI 优化样式，但内容保持原创。
-- **不看的原因**：认为博客质量下降，或觉得 AI 问答更高效，无需再看博客。
+- **Vibe Code效率**：0基础用AI两周完成网站，替代传统需多人协作的流程，成本大幅降低。
+- **AI的局限**：AI提供“平均答案”，难以创新，但作为辅助工具能提升个人产能。
+- **商业优先**：设计需理解商业、用户和问题，而非仅追求美观。
+- **健康与工作平衡**：拒绝被平台绑架，调整发货和回复时间，保障健康。
 
 ### 评论补充
-
-- 有用户指出博客生态“劣币驱逐良币”，营销号和 AI 文案增多。
-- 少数人转向特定平台（如 Seeking Alpha）或完全放弃博客。
-- 总体共识：博客仍有价值，但需筛选优质来源，AI 内容降低了可信度。
+- 网友建议购买域名，避免腾讯云安全警告和长链接（FstarKing）。
+- 指出网站“AI味”重，建议参考motionsites.ai提升设计感（Clannad0708）。
+- 产品图不够高级，影响整体调性，可考虑专业摄影（finalcut）。
+- 网站曾打不开，需优化部署（Unitent）。
+- 建议去掉“抠图”服务，避免降低技术评估预期（qiaobeier）。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237550" target="_blank" rel="noopener noreferrer">AI 时代，大家还看博客吗？</a></span><span class="topic-stats">回复 24 · 收藏 6</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237756" target="_blank" rel="noopener noreferrer">失业设计师， 0 基础 Vibe Code 了一个人工作室网站</a></span><span class="topic-stats">回复 9 · 收藏 9</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237637" markdown="1">
+<details class="topic-card" data-topic-id="1237843" markdown="1">
 <summary>
 <span class="topic-rank">14</span>
-<span class="topic-title">AI 开发代码量膨胀与质量焦虑：20 万行项目的反思</span>
+<span class="topic-title">香港购买RTX 4090显卡的渠道、税费与替代方案</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -454,33 +457,31 @@ V2EX 用户对 Luna Max 评价高主要因为**价格极低**（约 0.2 美元�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主使用 AI 工具（如 Codex、WorkBuddy）开发一个数据治理工具，代码量达 20 万行，但缺乏人工测试和整体把控，导致对软件质量产生迷茫。评论中多位开发者分享了类似经历，并给出建议。
+楼主计划赴港购买RTX 4090 24G显卡用于本地跑大模型，但评论指出该方案存在性价比和合规风险。
 
 ### 关键要点
-- **代码量膨胀是普遍现象**：多位开发者表示 AI 时代代码行数快速增长，如 AndroMeld 达 60 万行，一个 app 项目 15 万行，非互联网公司流程平台前端 67 万行、后端 30 万行。
-- **质量焦虑源于失控感**：有评论指出，缺乏阶段性人工复测和体验，导致对产品成长不清晰，如同“孩子一口气长到 18 岁”。
-- **建议**：
-  - 找资深程序员做 code review，把关质量。
-  - 在编码前做好项目结构和系统设计，提高可复用性，减少返工。
-  - 使用工具如 `scc` 统计代码行数，`grill-me` 开源 skill 帮助规划。
-  - 心态上要接受“测试用例跑通就是好代码”，放下对控制的执念。
+- **购买渠道**：可通过 price.com.hk 查找，集中在深水埗电脑城，建议现金或FPS转账以避免手续费。
+- **税费风险**：显卡价值超1.2万人民币，入境大概率需补税，且体积大难以藏匿。
+- **显存局限**：24G显存跑Qwen 3.8 27B等模型仍显不足，有用户建议考虑32G或48G魔改版。
+- **替代方案**：云GPU（如AutoDL 5090约2元/小时）或二手Mac Studio（M1 Pro 32G约3千多）可能更划算。
 
 ### 评论补充
-- 有评论质疑 20 万行代码的合理性，对比 Nginx（25 万行）、Redis（27 万行），但楼主回应称工具软件与业务系统不同，其交付项目仅 Java 后端就有 114 万行。
-- 部分开发者认为 AI 开发更适合 toB 场景，且责任认定和权限安全是重要顾虑。
+- 有用户指出4090已非新卡，价格不划算。
+- 部分用户认为本地部署不如订阅API或云服务。
+- 楼主回应称已尝试Mac方案，但需兼顾视频处理与CRM查询。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237637" target="_blank" rel="noopener noreferrer">AI 开发开始陷入迷惘中</a></span><span class="topic-stats">回复 33 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237843" target="_blank" rel="noopener noreferrer">实在顶不住了,准备去香港买个 rtx 4090/24G 显卡</a></span><span class="topic-stats">回复 39 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237672" markdown="1">
+<details class="topic-card" data-topic-id="1237842" markdown="1">
 <summary>
 <span class="topic-rank">15</span>
-<span class="topic-title">多账号切换使用 OpenAI Plus 的封号风险与经验</span>
+<span class="topic-title">VibeCoding 复刻金山打字通《生死时速》打字游戏</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -488,31 +489,33 @@ V2EX 用户对 Luna Max 评价高主要因为**价格极低**（约 0.2 美元�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-用户考虑用 3-5 个菲区 Plus 账号切换使用以降低成本，但担心封号风险。评论中有人指出 Plus 有 5 小时额度限制，切换账号可能很快耗尽额度，体验差；也有人表示自己曾用 6-7 个 Plus 账号切换，后来升级到 20x 才够用，暗示多账号切换可行但可能麻烦。
+作者用 Codex 通过 VibeCoding 方式复刻了金山打字通经典打字游戏《生死时速》，提供在线试玩和开源代码。游戏核心是打字速度决定角色移动速度，警察抓小偷的玩法。
 
 ### 关键要点
-- **成本对比**：菲区 Plus 约 98 元/月，20x 约 980 元/月，多账号切换可节省约 490 元。
-- **风险提示**：低价区加反代易封号，且 Plus 有 5 小时额度限制，切换可能影响使用。
-- **工具推荐**：有评论提供 GitHub 工具（https://github.com/jlcodes99/cockpit-tools）可登录多个账号。
-- **开通教程**：用户分享 U 卡开通流程：使用 Plasma One，需纯净 IP、国外账单地址（如招行改香港）、大陆身份证，通过欧易买 U 充值。
+- 在线试玩：https://typingchase.com
+- GitHub 仓库：https://github.com/CH0918/typing-game
+- 目前为单机版，作者表示若有人玩可考虑做联机 PK 版本
+- 游戏文章内容可自定义，可用 AI 生成无标点文章
 
 ### 评论补充
-- 有用户提到多账号切换需要手机激活，2-3 个号不现实。
-- 有用户建议拼车或开车，但存在翻车风险。
-- 有用户询问 U 卡开通教程，楼主已提供详细步骤。
+- 有用户反馈难度问题：标点符号和空格过多，影响输入速度，作者已调整空格显示，但标点仍可去除
+- 有用户建议加入代码片段（如 `public class void getUserById`）作为练习内容
+- 有用户分享童年玩法：修改文章文件为单一字母，利用警察回头秒抓的 bug
+- 有用户提到类似想法：用 Vibe Coding 做拼音汉字配对游戏，用于儿童启蒙
+- 作者回应：使用 Codex 生成图片素材增强视觉效果，游戏化学习有助于形成肌肉记忆
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237672" target="_blank" rel="noopener noreferrer">20x 太贵且用不完，想开通 3-5 个 plus 切换用，是否有封号风险？</a></span><span class="topic-stats">回复 40 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237842" target="_blank" rel="noopener noreferrer">VibeCoding 金山打字通的《生死时速》这款打字小游戏</a></span><span class="topic-stats">回复 32 · 收藏 4</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237519" markdown="1">
+<details class="topic-card" data-topic-id="1237750" markdown="1">
 <summary>
 <span class="topic-rank">16</span>
-<span class="topic-title">GLM-5.3-Flash与qwen3.8-flash价格对比及缓存成本分析</span>
+<span class="topic-title">V2EX 新增 glm-5.3-flash 模型支持及配置方法</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -520,30 +523,31 @@ V2EX 用户对 Luna Max 评价高主要因为**价格极低**（约 0.2 美元�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-近期发布的两款高性价比 flash 模型：GLM-5.3-Flash 和 qwen3.8-flash，价格亲民但各有特点。GLM-5.3-Flash 原价输入 0.8 元/百万 tokens，输出 2.8 元，缓存命中 0.23 元，限时五折但请求量过大导致不可用。qwen3.8-flash 输入 1 元，输出 3 元，缓存命中 0.1 元。
+V2EX 宣布新增支持 glm-5.3-flash 模型（即 Ox Alpha），可通过其 OpenAI 兼容 API 使用。若已配置 DeepSeek Harness，只需在模型列表中添加 glm-5.3-flash 即可切换。同时支持在 OpenCode、Pi、Claude Code 等环境中配置，相关配置文档和用量规则已提供链接。
 
 ### 关键要点
-- **缓存价格是关键**：高缓存命中率下，缓存单价影响总费用。示例：600M 输入、6M 输出、95% 命中率，GLM 总费用 171.9 元，qwen 仅 105 元。
-- **性能与速度**：GLM 思考速度慢，qwen 资源紧张，DeepSeek-flash 被部分用户认为更强。
-- **价格对比**：qwen3.8-flash 与 deepseek-v4-flash 闲时价格相近，但上班族无法利用闲时。
+- 新增模型：glm-5.3-flash（Ox Alpha），通过 V2EX 的 OpenAI 兼容 API 提供。
+- 配置方式：在 DeepSeek Harness 的 Add Custom Provider 中直接填写即可；其他环境配置见文档。
+- 用量限制：窗口期从 300W 降至 100W，且窗口期为 5 小时，用户反馈使用不便。
 
 ### 评论补充
-- 有用户指出 GLM 全线涨价后推出廉价模型，存在市场策略。
-- 部分用户推荐 Gemini 3.7 Flash 配合订阅，成本更低。
-- 有用户分享购买 Google Pro 账号的渠道，但存在封号风险。
+- 有用户反映窗口期缩短至 5 小时，影响使用体验，建议改为天或周。
+- 缓存命中率未暴露，消耗速度较快。
+- 在 Codex 或 CPA 中调用时可能出现上游错误，站长建议使用 DeepSeek Harness 配置。
+- 有用户成功在 Pi 中让模型编写显示 V2EX AI Usage 的插件。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237519" target="_blank" rel="noopener noreferrer">（2026-08-27）最近集中发布的高性价比 flash 模型</a></span><span class="topic-stats">回复 24 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237750" target="_blank" rel="noopener noreferrer">新增模型支持 glm-5.3-flash</a></span><span class="topic-stats">回复 13 · 收藏 10</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237678" markdown="1">
+<details class="topic-card" data-topic-id="1237868" markdown="1">
 <summary>
 <span class="topic-rank">17</span>
-<span class="topic-title">烟台威海国庆游：景点、美食与避坑指南</span>
+<span class="topic-title">Codex 桌面客户端各平台离线安装包官方直链汇总</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -551,30 +555,33 @@ V2EX 用户对 Luna Max 评价高主要因为**价格极低**（约 0.2 美元�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-国庆假期去烟台和威海游玩，综合本地人和游客经验，推荐景点、美食及注意事项。
+
+作者因 Windows 更新 Codex 桌面客户端时遇到需开启更新服务、安装应用商店及网络问题，整理了官方 CDN 的离线安装包直链，覆盖 Windows、macOS 和 Linux 各架构。
 
 ### 关键要点
-- **景点推荐**：烟台养马岛（水漂亮，但今年汽车、电瓶车、自行车均限行，只能徒步或坐公交，需提前规划）；长岛需关注天气，大风停航可能被困；威海刘公岛可步行绕岛，不建议坐观光车；孤独的鲸适合日落时观赏。
-- **美食推荐**：牟平烧烤（百盛、老任、同裕等）值得一试；海肠捞饭（旺角小渔村）价格88-138元，量大，正宗应鲜滑脆爽，有腥味则不正宗；海鲜火锅和烧烤（如烟台开发区小韩火锅）受欢迎。
-- **避坑提示**：远离特定口音的商家；谨慎选择低价“海景房”，低于七八百可能看不到海；海肠捞饭可能宰客，注意选择；国庆人流量大，烟台市区拥堵，建议自驾或错峰。
+
+- **Windows**：x64 为 `ChatGPT-x64.msix`，arm64 为 `ChatGPT-arm64.msix`，均位于 `persistent.oaistatic.com/codex-app-prod/`。
+- **macOS**：Intel 为 `ChatGPT-latest-x64.dmg`；Apple Silicon 需通过 `appcast.xml` 获取最新地址。
+- **Linux**：提供 deb 和 rpm 格式，区分 x86_64 与 arm64，路径含 `latest/`。
+- 所有链接均为官方 CDN，可通过数字签名验证，且官方 GitHub 仓库中多次引用该域名。
 
 ### 评论补充
-- 有用户强烈建议“别去看那条破船”，可能指某景点不值。
-- 本地人提醒：养马岛限行后体验下降，更推荐威海。
-- 住宿可考虑离开市中心，去区县或大镇，性价比更高。
+
+- 有用户误以为链接非官方，经作者说明后确认是官方 CDN，并提醒可验证签名。
+- 自带检查更新可能走微软商店，但作者因使用 Win10 LTSC 无商店且网络慢，故选择离线包。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237678" target="_blank" rel="noopener noreferrer">国庆去烟台和威海游玩，有哪些推荐和注意事项</a></span><span class="topic-stats">回复 22 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237868" target="_blank" rel="noopener noreferrer">codex 最新安装包下载</a></span><span class="topic-stats">回复 11 · 收藏 5</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237561" markdown="1">
+<details class="topic-card" data-topic-id="1237831" markdown="1">
 <summary>
 <span class="topic-rank">18</span>
-<span class="topic-title">BN C2C 出金业务风险分析：警惕帮信罪与风控</span>
+<span class="topic-title">免费推送API方案汇总：微信接收SIM卡短信</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -582,34 +589,32 @@ V2EX 用户对 Luna Max 评价高主要因为**价格极低**（约 0.2 美元�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-主题讨论在币安（BN）做 C2C 商家，通过稳定收 U 的路子赚取买卖差价，但核心风险在于资金安全和法律合规。多数回复指出，C2C 出金极易涉及黑钱，可能导致银行卡冻结，甚至触犯帮信罪（帮助信息网络犯罪活动罪），无论是否知情。
+楼主购买SIM接收器硬件，希望将短信内容推送到微信，寻求免费公众API方案。评论提供了多种免费推送渠道，包括企业微信、Server酱、PushPlus等，并讨论了具体配置方法。
 
 ### 关键要点
-
-- **法律风险**：无法判断对方资金来源，一旦涉及黑钱，可能面临银行卡冻结和刑事风险（帮信罪）。
-- **风控问题**：频繁大额转账容易触发银行风控，即使亲属转账也可能被限制。
-- **操作模式**：作者计划在 BN 只买不卖，通过其他渠道卖出赚差价，但最终提现仍可能涉及风险。
-- **建议**：有回复建议线下现金交易，或需有当地警方关系，否则风险极高。
+- **企业微信自建应用**：创建应用后发送应用消息，微信可接收，免费且稳定。
+- **企业微信群机器人**：创建群聊并添加机器人，通过POST请求发送消息，适合个人使用。
+- **Server酱**：通过URL即可推送消息到微信公众号，简单易用。
+- **PushPlus**：提供免费推送服务，支持微信接收。
+- **变通方案**：绑定QQ邮箱，通过邮件推送实现微信提醒。
 
 ### 评论补充
-
-- 有用户指出，U 商已被重点关注，风险加剧。
-- 部分回复认为纯买风险相对较低，但提现环节仍可能被风控。
-- 整体共识：非专业人士兼职做此业务风险大，需谨慎评估。
+- 有用户推荐开源软件SmsForwarder，可转发短信到其他设备。
+- 有用户询问企业微信群机器人添加方法，其他用户指出需在“消息推送”中添加，若无权限可查阅文档。
+- 楼主确认硬件为“WIFI短信盒子”，可在小红书搜索获取。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237561" target="_blank" rel="noopener noreferrer">想在 BN 搞一个 C2C 商家，因为有个稳定收 U 的路子，想搞专门出金业务，主打一个安全，不会冻结自己卡啥的，有佬们熟悉这块吗，想问问可有搞头？</a></span><span class="topic-stats">回复 27 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237831" target="_blank" rel="noopener noreferrer">有无免费公众浩 api 推送推荐</a></span><span class="topic-stats">回复 14 · 收藏 4</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237736" markdown="1">
+<details class="topic-card" data-topic-id="1237904" markdown="1">
 <summary>
 <span class="topic-rank">19</span>
-<span class="topic-title">AI 对就业岗位的影响：减少还是增加？</span>
+<span class="topic-title">微信小店购物退款难：净重9斤芒果到货仅7.5斤，平台多次关闭退款单</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -618,33 +623,34 @@ V2EX 用户对 Luna Max 评价高主要因为**价格极低**（约 0.2 美元�
 
 ### 核心内容
 
-主题讨论 AI 是否会像前几次工业革命一样最终增加岗位，还是打破历史规律导致岗位减少。主帖引用多项研究（如 David Autor 的论文）指出 AI 产业吸纳力弱，可能挤压中产阶级岗位，形成沙漏型就业结构。
+用户通过微信视频号直播购买芒果，商品标注净重9斤，到货连包装仅7.5斤，明显缺斤少两。申请退货退款后，商家和平台多次关闭退款单，即使提供称重照片、订单截图等证据，平台仍在商家未提供证据的情况下关闭退款，仅补偿5元代金券。用户多次申诉无果，人工客服敷衍了事。
 
 ### 关键要点
 
-- 历史工业革命虽替代传统岗位，但通过产业链创造新岗位，总体岗位未减。
-- AI 产业高度集中，直接创造岗位有限，且大模型接管通用认知任务，提高中端岗位门槛。
-- 评论中两种观点：一种认为岗位不会减少，而是任务重新分配，从业者转向协调者角色；另一种认为岗位将减少，技术只放大资本力量。
+- 微信小店（视频号直播购物）售后体验差，平台偏向商家，退款流程不透明。
+- 用户提供了实际称重照片、订单截图、商家评论截图等证据，但平台仍关闭退款单。
+- 平台补偿5元代金券，用户认为缺乏诚意，且无法有效申诉。
 
 ### 评论补充
 
-- 有评论指出 AI 影响是渐进的，岗位变化先于消失，程序员并未消失，只是工作方式改变。
-- 有观点认为 AI 降低门槛，增加岗位数量，但专业技能溢价消失，类似自媒体行业。
-- 反对者认为总需求有限，AI 降低复制难度，最终利好资本和顶尖工程师。
-- 有评论强调市场与需求创造岗位，而非技术本身。
+- 有评论指出，小体量平台（如小红书电商、B站直播购物）普遍偏向商家，类似问题频发。
+- 拼多多、京东、淘宝等成熟平台对消费者保护更完善，投诉处理更高效。
+- 腾讯电商业务（如51buy）历史表现不佳，客服缺失是长期问题。
+
+建议消费者优先选择成熟电商平台，避免在微信小店等新兴渠道购买生鲜等易缺斤少两的商品。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237736" target="_blank" rel="noopener noreferrer">AI 会带来更多的岗位吗？</a></span><span class="topic-stats">回复 20 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237904" target="_blank" rel="noopener noreferrer">微信购物退款难：净重 9 斤芒果到货连包装仅 7.5 斤，商家和平台客服均不处理</a></span><span class="topic-stats">回复 32 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237513" markdown="1">
+<details class="topic-card" data-topic-id="1237966" markdown="1">
 <summary>
 <span class="topic-rank">20</span>
-<span class="topic-title">独立游戏《小无人机突突突》上架Steam，Demo免费试玩</span>
+<span class="topic-title">同事不回消息影响工作，如何有效应对与沟通</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -652,35 +658,30 @@ V2EX 用户对 Luna Max 评价高主要因为**价格极低**（约 0.2 美元�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-开发者 phoenixlzx 在 V2EX 分享其独立游戏《小无人机突突突》（Little Drone TuTuTu），已上架 Steam 并开放免费 Demo。游戏为双摇杆/键鼠操控的弹幕射击，支持 Windows/Linux 掌机，国区定价 24 元。Demo 包含前 5 关、部分敌机和升级物品，进度可继承至正式版。
+职场新人遇到同事 A 长期不回消息、不读消息，影响工作对接。A 与组长关系较好，但并非内向。问题核心在于如何在不激化矛盾的前提下推进工作。
 
 ### 关键要点
-
-- 游戏本体约 1GB，适配 Steam Deck 等掌机，适合碎片时间游玩。
-- Demo 免费，含前 5 关和大部分升级，解锁进度保留至完整版。
-- 正式版将增加更多场景，并包含蜂群单位（如 RC Microbot 和 Pin Point），支持自动重组队形。
-- 开发者透露未来可能支持 macOS，但需先购置 Mac 设备。
+- **及时向组长汇报工作进度**：不要评价 A 的动机，只陈述事实，如“项目卡在等待 A 回复”。
+- **改变沟通方式**：私聊不回可尝试打电话、直接去工位、拉群 @ 或拉上领导在群里沟通。
+- **避免内耗**：不要纠结对方态度，把问题上升给上级，做到自己该做的。
 
 ### 评论补充
-
-- 有用户询问蜂群模式，开发者确认存在，但当前 AI 为中心化处理，支持自动队形、攻防和索敌逻辑。
-- 关于场景单一，开发者承认设计能力有限，正式版计划增加场景。
-- 有用户建议加入手势控制（类似《安德的游戏》），开发者未明确回应。
-- 开发者表示正式版预计未来几个月内发布，欢迎加入愿望单。
+- 有评论建议“转移矛盾”，不要直接指责 A，而是询问组长是否给 A 布置了过多任务。
+- 也有观点认为“如实汇报工作”即可，不要替 A 找理由。
+- 多数共识：对事不对人，保留沟通记录，必要时升级问题。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237513" target="_blank" rel="noopener noreferrer">小无人机突突突：简单爽快、打爆一切！独立游戏即将推出</a></span><span class="topic-stats">回复 21 · 收藏 4</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237966" target="_blank" rel="noopener noreferrer">职场新人处理同事关系请教</a></span><span class="topic-stats">回复 25 · 收藏 2</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237532" markdown="1">
+<details class="topic-card" data-topic-id="1237975" markdown="1">
 <summary>
 <span class="topic-rank">21</span>
-<span class="topic-title">火车票购买方案：官方候补与第三方工具对比</span>
+<span class="topic-title">Win11 KB5120998 更新致鼠标指针变大、壁纸变黑及修复方法</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -688,29 +689,30 @@ V2EX 用户对 Luna Max 评价高主要因为**价格极低**（约 0.2 美元�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-针对长途火车票购买难的问题，评论共识是：**12306 官方候补是最可靠的方式**，但热门车次候补成功率低。第三方工具如智行、飞猪、携程可自动规划中转方案（包括买长乘短、上车补票等），但可能收取服务费（携程约 10-20 元），且存在支付风险（如智行曾导致票过期）。分流抢票软件（如 bypass）可辅助放票时抢票，但需会员费（约 20 元/年），且风控严格可能封号。
+Windows 11 更新 KB5120998 被多名用户报告引发鼠标指针变大和桌面壁纸变黑的问题。该更新可能通过自动更新推送，部分用户重启后即遇到问题。
 
 ### 关键要点
-- **官方候补**：优先使用 12306 候补，但热门区段成功率低。
-- **第三方工具**：智行、飞猪、携程可自动规划中转，注意服务费和支付风险。
-- **买长乘短**：多买几站或买短乘长，增加预算提高成功率。
-- **分流抢票**：bypass 等软件可辅助，但需会员且可能触发风控。
+- 受影响用户可尝试卸载 KB5120998 更新来恢复，或使用 GitHub 上的修复脚本（https://github.com/Arcadeq/windows-cursor-scheme-fix）。
+- 壁纸变黑可通过重新设置桌面图片临时解决，但鼠标指针问题较难处理。
+- 建议通过组策略延迟质量更新 15-30 天，功能更新延迟 180 天，以避免此类问题。
 
 ### 评论补充
-有用户提到黄牛渠道成功率较高，但需提供身份证且手续费高。另有建议考虑飞机作为替代。
+- 多位用户确认遇到相同问题，卸载更新后恢复正常。
+- 有用户指出该更新可能是 Preview 更新，不会自动安装，但仍有用户通过自动更新收到。
+- 部分用户未遇到问题，可能与语言、时区或硬件差异有关。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237532" target="_blank" rel="noopener noreferrer">求 v 友推荐一下火车票购买的一个方案/软件</a></span><span class="topic-stats">回复 23 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237975" target="_blank" rel="noopener noreferrer">今天 Win11 更新 KB5120998 会引起鼠标指针变大和壁纸变黑</a></span><span class="topic-stats">回复 20 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237551" markdown="1">
+<details class="topic-card" data-topic-id="1237844" markdown="1">
 <summary>
 <span class="topic-rank">22</span>
-<span class="topic-title">多条宽带利用方案：分流、下载与合租</span>
+<span class="topic-title">AI 时代本地软件破解与生存：词典类应用何去何从</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -718,33 +720,33 @@ V2EX 用户对 Luna Max 评价高主要因为**价格极低**（约 0.2 美元�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主有多余移动宽带，寻求利用方案。评论提供多种思路：
+
+主题围绕 AI 时代本地软件（如有道/欧陆词典）的破解与生存展开。讨论指出，AI 降低了逆向工程门槛，但破解并非万能，且本地软件仍有其价值。
 
 ### 关键要点
-- **简单分流**：使用 TP-Link 商用路由器，后台预设按 IP 运营商自动分流，操作简单，抢票场景有效（回复 #2）。
-- **下载提速**：双千兆联通+电信，PT 下载按 IP 分流，速度可达 180MB/s（回复 #3）。
-- **按用途分配**：移动给手机 WiFi，电脑走联通，避免 DNS 分流难题（回复 #6）。
-- **上传备份**：用移动宽带上传网盘，不怕限速（回复 #12）。
-- **合租变现**：向邻居合租宽带，每户收 150-200 元，互为备份，收益用于买设备（回复 #8）。
+
+- **破解难度分化**：简单软件易被 AI 破解，但带虚拟化保护的软件破解成功率极低（评论 #18027886）。
+- **本地软件优势**：本地词典查词速度快，适合断网环境，AI 翻译虽有准确性但延迟明显（评论 #18028267）。
+- **行业趋势**：工具类 App 在 AI 普及下可能被替代，如扫描王等（评论 #18027532）。
 
 ### 评论补充
-- 分流需注意 DNS 问题，建议用运营商 DNS 或策略路由（回复 #6、#14）。
-- 国外线路分流：亚太走移动，欧美走联通，可省钱（回复 #10）。
-- 风险提示：出租宽带可能有帮信风险（回复 #18）。
-- 若无需求，建议直接退订或关机省电（回复 #12、#17）。
+
+- 有观点认为 AI 破解并非易事，且安全对齐会拒绝此类请求（评论 #18027508）。
+- 讨论指出，破解后缺乏持续维护，用户未必能真正受益（评论 #18027623）。
+- 部分评论认为，本地软件若被淘汰也无需怜悯，技术迭代是常态（评论 #18027595）。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237551" target="_blank" rel="noopener noreferrer">家里多条宽带一般都是怎么利用的</a></span><span class="topic-stats">回复 26 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237844" target="_blank" rel="noopener noreferrer">AI 时代破解这么容易，那像有道/欧陆词典之类的软件怎么办？逻辑功能都是本地运行的，不需要服务器</a></span><span class="topic-stats">回复 25 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237669" markdown="1">
+<details class="topic-card" data-topic-id="1237885" markdown="1">
 <summary>
 <span class="topic-rank">23</span>
-<span class="topic-title">PC微信Hook逆向实践：工具、风险与封号警示</span>
+<span class="topic-title">GPT Plus 订阅调整后使用策略与模型选择经验</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -752,30 +754,29 @@ V2EX 用户对 Luna Max 评价高主要因为**价格极低**（约 0.2 美元�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者分享了针对 PC 微信 3.9.12.56 版本的 Hook 逆向成果，实现了消息接收、图片解密、语音落盘和消息发送，并开源了项目（GitHub 链接）。评论中多位用户提醒该操作存在封号风险，作者表示目前未被封，但其他用户反馈可能被风控标记。
+近期 GPT Plus 订阅调整后，用户普遍反映额度消耗加快，尤其是使用 Sol 模型时，一个任务可能耗尽 5 小时额度。有用户表示评审一个任务消耗 50% 额度，两个任务即被中断。
 
 ### 关键要点
-- 工具链：x64dbg 动态调试，IDA 或 Ghidra 静态分析，逆向目标为 WeChatWin.dll。
-- 前置知识：常用汇编指令（mov、call、jmp、push）和调用约定。
-- 风险提示：DLL 注入易被检测，可能导致封号或设备被标记，建议使用小号。
+- **模型选择**：日常开发建议使用 Luna xhigh fast，质量与速度均衡；Sol 防御性编程思维重，不适合日常开发。
+- **任务分配**：可用 Sol High 制定计划，Luna max 实现，再让 Sol High review，以节省额度。
+- **文档处理**：文档缓存命中率低，耗额度，建议换用其他模型处理。
+- **订阅建议**：Plus 本不适合重度开发，常规任务可考虑 Terra 或 Luna。
 
 ### 评论补充
-- 有用户建议 hook Mac 版微信以降低风险。
-- 有用户反馈在相同电脑上多次扫码登录后触发安全保护，提示可能被风控。
-- 作者建议遇到问题可咨询 AI 辅助学习。
+有用户提到可通过多账号负载均衡（如 CPA）缓解额度限制。国内订阅支付可用虚拟卡，但部分用户仍遇到绑定困难。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237669" target="_blank" rel="noopener noreferrer">最近研究了一下 pc 微信 hook，分享下成果</a></span><span class="topic-stats">回复 17 · 收藏 5</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237885" target="_blank" rel="noopener noreferrer">gpt plus 订阅这波调整五小时，是真不可用了吧？</a></span><span class="topic-stats">回复 24 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237688" markdown="1">
+<details class="topic-card" data-topic-id="1237834" markdown="1">
 <summary>
 <span class="topic-rank">24</span>
-<span class="topic-title">eBPF 流量工具 Netra 更新：新增 DPI 深度检测与 Kafka 写入优化</span>
+<span class="topic-title">国内 Qoder、CodeBuddy、Trae CN 企业版对比与成本分析</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -783,30 +784,32 @@ V2EX 用户对 Luna Max 评价高主要因为**价格极低**（约 0.2 美元�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者更新了开源的 eBPF 流量采集工具 Netra，新增 DPI 深度检测和 Kafka 写入优化。DPI 功能通过抓取每条流最早的几个包，在用户态进行协议特征匹配，支持 TLS、SSH、FTP、SMTP、POP3、IMAP、MySQL、PostgreSQL、MongoDB、Redis、RDP、VNC、AMQP、gRPC 等十几种协议，不再依赖 IANA 端口映射。Kafka 写入优化支持将全量数据推送至队列，可对接 Grafana 自定义出图。项目已在 20Gbps/百万 pps 的生产环境运行一周，稳定性良好。
+楼主团队目前使用 Cursor 企业版，人均月成本接近 2000 美元，希望在国内替代品（Qoder、CodeBuddy、Trae CN）中选择企业版。评论中多位用户分享了实际使用体验和成本信息。
 
 ### 关键要点
-- DPI 识别基于真实流量内容，而非端口映射，提高准确性。
-- 支持协议广泛，覆盖常见数据库、远程桌面和消息队列。
-- 生产环境验证：20Gbps 吞吐、百万 pps 下稳定运行。
-- 代码开源：https://github.com/xxddpac/netra
+- **Qoder**：被多位用户认为最强，但消耗量大、烧钱；背靠阿里，服务器负载能力强。企业版不支持自定义模型，个人版自定义模型仅限国内官方渠道。
+- **CodeBuddy**：有用户回归 CodeBuddy + 自定义模型（如 gpt-5.6-sol），但被吐槽问题多、难用。
+- **Trae CN**：有用户认为 GLM5.3-flash 性价比最高，但国际版奖励金缩水，pro 90 美元仅送不到 20 美元。
+- **注意**：这些工具区分国内和国际版，数据不互通，价格和模型不同。
 
 ### 评论补充
-- 有用户提到 DuckDB 缺少 pure Go 库，可能影响相关集成。
-- 另一用户分享了类似 DPI 实现经验：使用 Rust 和 XDP 在 eBPF 内直接处理流量，支持 QUIC，但遇到 HTTP over DNS 和 SNI 加密的挑战，采用阻断 DNS 服务的方式应对。
+- 有用户建议考虑 Zcode 或 Kimi-code，但服务器负载能力不如 Qoder。
+- 有用户提到 Codex 有 20x 3 个月的活动，可作为备选。
+- 有用户指出 Qoder 的“极致”模型疑似 Opus，但未官方确认，且国内版没有该模型。
+- 有用户认为 Cursor 自家模型更便宜，可降低费用。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237688" target="_blank" rel="noopener noreferrer">eBPF 流量工具更新，加了 DPI 深度检测</a></span><span class="topic-stats">回复 3 · 收藏 6</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237834" target="_blank" rel="noopener noreferrer">国内的 Qoder、CodeBuddy、Trae CN 哪个好用点</a></span><span class="topic-stats">回复 22 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237712" markdown="1">
+<details class="topic-card" data-topic-id="1237928" markdown="1">
 <summary>
 <span class="topic-rank">25</span>
-<span class="topic-title">独立开发App服务端部署方案：Cloudflare可行性与替代选择</span>
+<span class="topic-title">Rust+GPUI 实现的本地 HTTP 客户端：Postman GPUI 首个版本发布</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -814,40 +817,30 @@ V2EX 用户对 Luna Max 评价高主要因为**价格极低**（约 0.2 美元�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-独立开发 App 服务端部署，海外市场可考虑 Cloudflare，但需注意其免费版限制。多位开发者分享实际方案：
-
-- **Cloudflare 可行**：有用户表示整个服务端都放在 Cloudflare 上，称其为“神”；也有用户仅用其做 CDN，质疑免费版能否部署服务端。
-- **替代方案**：
-  - **Supabase**：适合小用户量，方便快捷。
-  - **自建服务器 + Cloudflare Tunnel**：将服务部署在自己的服务器，通过 Tunnel 转发接口。
-  - **Netcup + Cloudflare**：低成本 VPS 搭配 CDN。
-  - **OVH、HostHatch**：价格不贵。
-  - **家庭服务器 + IPv6 DDNS + 阿里云 ESA**：个人使用效果好。
+作者用 Rust 和 GPUI 开发了一个跨平台原生 HTTP 客户端 Postman GPUI，定位为 Postman 的轻量替代品，强调无需账号登录、本地存储和低资源占用。首个版本已支持常用请求方法、认证、多种 Body 格式、文件上传、重定向、响应解压、多标签页和本地历史（SQLite 存储，凭据和 Cookie 落盘前移除）。
 
 ### 关键要点
-
-- Cloudflare 免费版可能无法直接部署服务端，需确认具体限制。
-- 自建服务器时，可用 Cloudflare Tunnel 隐藏真实 IP。
-- 避免使用 unicloud+阿里云，有用户反映成本上涨多倍。
+- 支持 GET/POST/PUT/PATCH/DELETE/HEAD/OPTIONS，以及 Basic、Bearer、Cookie 认证。
+- 支持 JSON、Raw、URL-encoded、Multipart 及文件上传。
+- 历史记录保存在本地 SQLite，取消或失败的请求不写入。
+- 提供 macOS、Windows、Linux 安装包，MIT 协议。
 
 ### 评论补充
-
-- 有用户将服务端部署在客户端，仅做数据收集，适合特定场景。
-- 选择方案时需考虑用户量、成本和技术栈。
+- 评论指出已有类似开源项目如 Bruno、Yaak、crRequest，功能可能更成熟。
+- 有用户质疑 GPUI 生态和性能优势，认为编译产物大、内存占用不低；作者回应称跨平台和原生是优势，生态需时间积累。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237712" target="_blank" rel="noopener noreferrer">大家独立开发的 App 服务端都部署在哪里</a></span><span class="topic-stats">回复 13 · 收藏 5</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237928" target="_blank" rel="noopener noreferrer">第一个版本勉强可用的 Postman 替代品，跨平台、GPUI、占用少、不需要账号登录</a></span><span class="topic-stats">回复 10 · 收藏 5</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237636" markdown="1">
+<details class="topic-card" data-topic-id="1237788" markdown="1">
 <summary>
 <span class="topic-rank">26</span>
-<span class="topic-title">小米智能存储上架电商平台，4TB 2699 元起</span>
+<span class="topic-title">公司电脑装IP-guard导致微信无法传文件的应对方法</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -855,30 +848,30 @@ V2EX 用户对 Luna Max 评价高主要因为**价格极低**（约 0.2 美元�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-小米智能存储（NAS）正式在京东和拼多多上架，无需抢购。4TB 版京东 2699 元起，拼多多 V3 会员 2499 元起，相比众筹价仅上涨约 200 元。8TB 版缺货，16TB 版拼多多售价 5199 元。
+公司电脑安装 IP-guard 后，微信传文件被限制（文件拖入即消失），这是该软件的外发管控功能。用户需明确公司意图：若微信为必要办公工具，应通过正规渠道申请权限或让 IT 协助；若公司禁止微信传文件，则不应尝试绕过，以免违规。
 
 ### 关键要点
-- 配置：双盘位，提供 4TB（2TB×2）、8TB（4TB×2）、16TB（8TB×2）版本，另可自行搭配硬盘，最大支持 60TB（30TB×2）。
-- 价格对比：有用户指出 4TB 红盘京东约 1500 元，因此 2699 元的价格并非“买硬盘送机器”，性价比一般。
-- 系统风险：评论普遍担忧系统稳定性，数据安全是最大顾虑；有用户反馈系统未对接云服务，相册云瘦身后的压缩图片会被备份到 NAS，存在备份逻辑问题。
+- **正规途径**：向 IT 或领导反馈，申请解密或权限；或要求搭建局域网共享、NAS 等替代方案。
+- **替代方案**：使用邮件、公司内部系统；或使用网页版微信传文件（若未被限制）。
+- **风险提示**：IP-guard 可能支持录屏和审计，绕过限制可能被记录，需谨慎。
 
 ### 评论补充
-- 有用户认为小米产品保修期后易出故障，但官方提供 3 年质保加 1 年延保。
-- 部分用户建议等待固件移植（如 DS223）以提升可玩性，或继续使用自组 x86 机器。
-- 总体来看，当前功能不全，适合尝鲜，不适合作为唯一数据存储方案。
+- 有用户建议使用光学文件传输工具（如 decimen.app），通过二维码传输，不依赖网络，但需注意合规风险。
+- 在国企等场景，若多数人受影响，可推动公司统一解决方案，如改用邮件。
+- 核心原则：不要冒险绕过管控，优先走正规流程。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237636" target="_blank" rel="noopener noreferrer">小米智能存储正式上架京东和拼多多，不用抢了，随便买</a></span><span class="topic-stats">回复 25 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237788" target="_blank" rel="noopener noreferrer">公司电脑安装了 IP-guard 导致微信没法传文件了</a></span><span class="topic-stats">回复 21 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237502" markdown="1">
+<details class="topic-card" data-topic-id="1237839" markdown="1">
 <summary>
 <span class="topic-rank">27</span>
-<span class="topic-title">编程模型选择与推理强度配置经验</span>
+<span class="topic-title">Go 后台接入 SSO 后本地用户表应保留为映射层</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -887,33 +880,34 @@ V2EX 用户对 Luna Max 评价高主要因为**价格极低**（约 0.2 美元�
 
 ### 核心内容
 
-关于编程时如何选择模型和推理强度，社区经验表明没有统一答案，需根据任务、成本和质量权衡。
+Go 后台接入公司 SSO、CAS、LDAP 或企业微信后，本地用户表应保留，但角色从身份主系统退化为映射层。认证交给外部系统，本地保留角色、菜单、按钮、接口权限、数据范围和操作日志。原因是 SSO 不理解业务动作（如导出订单、批量删除），硬塞进统一权限中心会变成黑盒。
 
 ### 关键要点
 
-- **方法论**：用时间、成本、质量三个维度评估，时间是平均完成任务所需时间而非TPS，成本包括plan quota或API价格。
-- **推理强度**：旗舰模型（如Sol、Opus）最高档思考强度适合科研，编程使用会过度思考且价格翻倍；次旗舰和国产模型可用最高档。
-- **模型选择**：日常开发可用量大管饱的模型（如Composer 2.5、Luna），疑难问题再升级到GPT-5.6 Sol等。
-- **缓存注意**：同一会话切换模型会导致KV缓存失效，重新读取走非缓存价格，因此尽量不切换或直接用高配。
+- 保留本地用户表，通过映射表关联外部账号：`provider`、`external_subject`、`local_user_id`、`tenant/org`。
+- 首次登录创建映射，后续同步禁用、离职、部门调整等字段。
+- 不要直接用外部账号 ID 作为本地 user_id，避免切换 CAS 到企业微信时权限表、日志和历史数据出问题。
+- 权限控制建议留在本地系统，SSO 仅作为认证渠道；若权限也由三方控制，本地表可用缓存替代。
 
 ### 评论补充
 
-- 有用户推荐参考DeepSwe或AA的帕累托前沿选择模型和强度。
-- 实际业务调用LLM时，追求及格线+低成本，如用doubao-seed-2.0-mini/lite做图像识别。
-- 有用户分享用Codex跑实现、Claude Code跑难活，并开发了本地macOS工作台管理多个CLI（GitHub链接）。
+- 有观点认为公司应完善 IAM 中的 RBAC，避免各系统各自为政。
+- 参考 OAuth2 第三方登录模式：SSO 登录后根据 OpenID 新增/绑定/解绑用户。
+- 保留本地用户表可避免 SSO 故障时系统完全不可用。
+- 若权限由三方控制，本地用户表意义不大，缓存即可。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237502" target="_blank" rel="noopener noreferrer">如何最大化 coding 时所选的模型</a></span><span class="topic-stats">回复 11 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237839" target="_blank" rel="noopener noreferrer">Go 后台接入 SSO 后，本地用户表应该怎么退？</a></span><span class="topic-stats">回复 5 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237586" markdown="1">
+<details class="topic-card" data-topic-id="1237760" markdown="1">
 <summary>
 <span class="topic-rank">28</span>
-<span class="topic-title">游戏商品通知推送方案：QQ邮箱多账户发送与微信小程序订阅</span>
+<span class="topic-title">HelloGitHub 第125期：40个开源项目精选</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -921,30 +915,29 @@ V2EX 用户对 Luna Max 评价高主要因为**价格极低**（约 0.2 美元�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者分享了为游戏商品刷新通知用户时，发送大量通知的实践经验。重点比较了邮件、ntfy、微信小程序和Server酱等方案，并给出了可操作的选型建议。
+HelloGitHub 第 125 期发布了 40 个开源项目，涵盖 C、C#、C++、Go、Java、JavaScript、Kotlin、Python、Rust、Swift 等语言，以及 AI 和工具类项目。
 
 ### 关键要点
-- **邮件发送限制**：自建邮局受云厂商限制（如腾讯云禁止25端口直发，需PTR解析），且易进垃圾箱；付费邮件服务成本高。
-- **多账户发送**：采用3个QQ邮箱+2个163邮箱，但163限流严重，QQ邮箱限制较少，以6秒一封的频率稳定运行数月。
-- **微信小程序**：个人开发者无法申请服务号，但可通过订阅消息（用户一次性最多订阅3个模板消息，次数永久有效）实现通知，鼓励用户多次订阅积累次数。
-- **ntfy与Server酱**：ntfy在国内推送不稳定，受手机厂商杀后台影响；Server酱可作为替代方案。
+- **AI 项目**：airllm 仅需 4GB 显存即可运行 70B 大模型；deepseek-harness 是 DeepSeek 官方开源的智能体框架；pipecat 用于构建实时语音 AI 智能体。
+- **开发工具**：dbmate 是轻量级数据库迁移工具，支持多种数据库；devpod 基于 DevContainer 标准创建一致的开发环境；oh-my-pi 将 IDE 能力接入终端编程智能体。
+- **效率工具**：DeskBox 是 Windows 桌面整理工具；Crisp 是免费的 macOS 外接显示器管理工具；MacPacker 无需解压即可查看压缩包内容。
+- **有趣项目**：RetroArch 一站式复古游戏模拟器；prehistoric-animal-museum 是儿童 3D 史前动物博物馆；bee-write-back 用树莓派自制数字打字机。
 
 ### 评论补充
-- 有用户反馈MIUI 14下ntfy推送及时，但作者指出一加和小米杀后台严重，可参考dontkillmyapp.com。
-- 关于Telegram通知强的原因，作者认为Android需保持后台或VPN，否则收不到。
+有用户表示打算尝试 DeskBox，此前使用过 fences 和腾讯桌面。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237586" target="_blank" rel="noopener noreferrer">分享下我发送大量通知的过程</a></span><span class="topic-stats">回复 7 · 收藏 6</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237760" target="_blank" rel="noopener noreferrer">《HelloGitHub》第 125 期</a></span><span class="topic-stats">回复 2 · 收藏 4</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237647" markdown="1">
+<details class="topic-card" data-topic-id="1237940" markdown="1">
 <summary>
 <span class="topic-rank">29</span>
-<span class="topic-title">kkRepo 1.0.0 发布：开源 Nexus 替代方案，支持 R/CRAN 与 Go Hosted</span>
+<span class="topic-title">Kimi K3 vs Ollama Pro 实测：容量与速度对比</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -952,37 +945,34 @@ V2EX 用户对 Luna Max 评价高主要因为**价格极低**（约 0.2 美元�
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-kkRepo 1.0.0 正式发布，这是一款社区驱动、完全开源的自托管制品仓库，旨在替代 Sonatype Nexus Community Edition。它兼容 Nexus 的客户端协议、权限模型和 URL 布局，并提供从 Nexus 迁移仓库、制品、用户和权限的能力。
+
+主题对 Kimi K3 与 Ollama Pro 的 K3 模型进行了控制变量实测，对比月费、容量和速度。实测显示：Kimi 月容量比 Ollama 多约 13.7%，但 Ollama 平均快约 3.6 倍。若项目不超过 256K，Kimi 的 k3-256k 理论月容量约为 Ollama 的 2.27 倍（按官方半费率推算）。
 
 ### 关键要点
-- **新增 R/CRAN 仓库**：支持 hosted、proxy 和 group 三种类型，自动生成 PACKAGES.gz，支持 Cleanup Policy 和安全扫描，已用 R 4.5/4.6 验证。
-- **Go Hosted 仓库**：可托管企业内部 Go Module，支持 .mod/.info/.zip 原子发布，以及 DENY/ALLOW_ONCE/ALLOW 写入策略。
-- **多套 UI 主题**：内置 6 种主题，支持实时预览和数据库持久化，多副本一致。
-- **PyPI Proxy 增强**：新增 Remote Index Path，可代理 PyTorch 等非标准索引路径。
-- **兼容性修复**：修复 Maven metadata 重建、MySQL 搜索 stopword 等问题。
+
+- **容量优先选 Kimi**：普通 K3 月容量约多 13.7%，k3-256k 理论月容量约为 Ollama 的 2.27 倍。
+- **速度优先选 Ollama**：平均延迟 3.54 秒 vs Kimi 的 12.85 秒，快约 3.6 倍。
+- **Ollama 优势**：模型多，年付约 200 美元，但为动态额度，按 GPU 使用计费，可能变化。
+- **Kimi 注意**：工作日高峰期额度使用很慢；k3-256k 并非半费率，而是超过 256K 时费率更高。
 
 ### 评论补充
-作者回应称，开源该项目源于解决自身公司问题，发现纯开源方案稀缺，开源两个月后已有上市公司在生产环境替换 Nexus，Docker 镜像下载超 1.5k，并开通了捐赠渠道以促进项目持续发展。
 
-### 快速体验
-使用 Docker Compose 快速启动：
-```bash
-curl -fsSL https://raw.githubusercontent.com/klboke/kkrepo/main/scripts/quickstart.sh | bash
-```
-生产环境建议使用独立数据库和对象存储，并替换默认加密密钥。
+- 有用户建议 Ollama 使用 GLM 模型更值，又快又满血。
+- 评论指出实测中 k3-256k 并非半费率，而是超过 256K 时费率更高，需注意。
+- 有用户询问输出 token 量，但原帖未提供，估算价值有限。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237647" target="_blank" rel="noopener noreferrer">纯开源 Nexus 替代方案 kkRepo 1.0.0 正式发布，新增 R/CRAN、Go Hosted 和多套 UI 主题</a></span><span class="topic-stats">回复 2 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237940" target="_blank" rel="noopener noreferrer">Kimi ¥199 vs Ollama Pro： K3 额度实测</a></span><span class="topic-stats">回复 7 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237659" markdown="1">
+<details class="topic-card" data-topic-id="1237898" markdown="1">
 <summary>
 <span class="topic-rank">30</span>
-<span class="topic-title">美区Apple礼品卡未到账：原因与处理建议</span>
+<span class="topic-title">Claude 封号原因与规避经验汇总</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -990,31 +980,32 @@ curl -fsSL https://raw.githubusercontent.com/klboke/kkrepo/main/scripts/quicksta
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-用户购买美区Apple礼品卡时因邮箱拼写错误（gmail误为gamil）导致未收到卡密，多次联系客服仍未解决。评论提供了多种处理建议和替代购买渠道。
+用户询问如何避免 Claude 封号，回复中缺乏确定方法，但提供了大量实际封号案例和部分稳定使用经验。
 
 ### 关键要点
-- **原因**：邮箱拼写错误导致卡密无法送达，且该域名可能不存在。
-- **处理建议**：联系客服要求退款（卡未使用有退款机会）；检查Gmail全局搜索关键词“sent you an Apple Gift Card”。
-- **替代渠道**：支付宝惠出境（部分用户反馈已下架）、美亚（5分钟到1小时交付）、pockyt平台（https://shop.pockyt.io/index）。
-- **风险提示**：闲鱼购买礼品卡有封号风险，有用户反馈使用后账号被封。
+- **稳定使用案例**：有用户使用美区订阅、搬瓦工机房 IP 长期稳定；也有用户通过 iOS 订阅、自用多个账号保持稳定。
+- **封号案例**：一位用户详细列举了 7 个账号的封号经历，涉及不同注册方式、IP、设备、订阅等，均未能避免封号，甚至包括使用家宽、指纹浏览器、英语交流等。
+- **经验建议**：有用户建议使用 Google 邮箱、Apple/Google 付款、避免低质量 IP；有用户认为 Pro 订阅比 Max 更安全；还有用户提到企业套餐可能更不易封号。
 
 ### 评论补充
-- 有用户建议下次复制邮箱而非手打，避免错误。
-- 部分用户反馈近期购买12小时内到账，但支付ChatGPT时可能遇到问题。
-- 有GitHub项目（https://github.com/kihj23/alipay-apple-gift-card）可能提供支付宝购买入口。
+- 有用户指出避免封号的方法属于信息差，难以公开。
+- 部分用户认为时区、浏览器语言等设置影响不大。
+- 有用户分享通过找人脸验证后稳定使用数月的经验，但强调新号人脸验证更严格。
+
+总体而言，Claude 封号机制复杂，没有可靠规避方法，用户需自行权衡风险。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237659" target="_blank" rel="noopener noreferrer">上周五美区买了个 apple 礼品卡，到现在也没收到</a></span><span class="topic-stats">回复 20 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237898" target="_blank" rel="noopener noreferrer">兄弟们有知道 Claude 怎么避免封号吗？</a></span><span class="topic-stats">回复 19 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237617" markdown="1">
+<details class="topic-card" data-topic-id="1237847" markdown="1">
 <summary>
 <span class="topic-rank">31</span>
-<span class="topic-title">量化数据契约：字段定义、血缘追踪与校验实践</span>
+<span class="topic-title">AI视频一键生成平台可行性：成本高、质量不足，需人工介入</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1022,30 +1013,31 @@ curl -fsSL https://raw.githubusercontent.com/klboke/kkrepo/main/scripts/quicksta
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-量化项目常以 `pd.read_csv("bars.csv")` 开始，但数据来源、时间戳语义、复权状态、最新 bar 是否收盘等问题若未定义，后续因子与回测都建立在不可靠输入上。作者提出在行情接入层与研究层之间建立**数据契约**，明确字段含义、时间解释、可计算记录与追溯方式。
+楼主设想构建AI视频一键生成平台，通过模型扩充剧本、分镜、定妆等，利用k8s并行处理，覆盖真人、漫剧、广告等类型。但评论普遍反映当前AI视频生成成本高、质量不足，难以商用。
 
 ### 关键要点
-- **保留核心字段**：`symbol`、`bar_timestamp_utc`、`interval`、OHLC、`volume/turnover`、`source`、`source_trace`、`raw_payload_sha256`、`ingested_at_utc`、`is_final`。
-- **分层隔离**：供应商适配层只负责请求与解析；标准化层负责转换与校验；研究层只依赖稳定契约，不接触供应商字段。
-- **血缘与审计**：原始响应先落盘并计算 SHA256，每次获取生成唯一 `trace`，便于倒查异常信号。
-- **校验隔离**：检查时间戳单调、OHLC 自洽、非负成交量等，失败则隔离而非静默修复。
-- **最新 bar 处理**：默认将最新 bar 标记为 `is_final=False`，防止未收盘数据进入回测。
+- **成本高昂**：抽卡式生成，30秒视频可能花费几十元且废片率高（如即梦平台）。
+- **质量不足**：模型难以自动生成可发布的商用长片段，需大量人工介入和二次剪辑。
+- **市场现实**：实际流程需反复修改、发布，可能限流，盈利困难。
+- **技术趋势**：底层模型迭代快，平台层工程创新易被上游抹平，需持续资本投入。
 
 ### 评论补充
-暂无有效评论。
+- 有从业者表示已搁置类似项目，等待成本下降。
+- 字节官方已有AI短剧平台“小云雀”，可参考。
+- 建议若年轻可尝试以增加对AI工作流的理解，但需谨慎投入。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237617" target="_blank" rel="noopener noreferrer">先定义数据契约，再谈策略</a></span><span class="topic-stats">回复 0 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237847" target="_blank" rel="noopener noreferrer">AI 视频一键生成平台有没有搞头</a></span><span class="topic-stats">回复 15 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237653" markdown="1">
+<details class="topic-card" data-topic-id="1237820" markdown="1">
 <summary>
 <span class="topic-rank">32</span>
-<span class="topic-title">Quantumult X 去广告分流项目：一键导入每日更新</span>
+<span class="topic-title">AI Agent开发语言选择：Python与TypeScript为主流</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1053,30 +1045,29 @@ curl -fsSL https://raw.githubusercontent.com/klboke/kkrepo/main/scripts/quicksta
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者分享自用的 Quantumult X 去广告与分流配置项目，支持批量订阅、自定义规则、每日自动同步，并通过 GitHub Actions 一键部署。覆盖微博、知乎、小红书、B 站、贴吧、菜鸟及常见网页广告。
+关于AI全栈与Agent开发的语言选择，多数回复认为语言本身已不重要，关键在于架构能力和业务理解。但若必须选择，Python和TypeScript是主流。
 
 ### 关键要点
-- 直接导入配置：在 QX 中「配置文件」→「下载配置」，粘贴 `https://raw.githubusercontent.com/suversal/qx-config-sync/main/MyQuantumultX_Local.conf`。
-- 项目地址：`https://github.com/suversal/qx-config-sync`，含图文教程。
-- 导入前备份现有配置；部分去广告规则需开启 MitM；项目不提供代理节点。
-- 目前仅支持 Quantumult X，小火箭规则待整理。
+- **主流框架语言**：LangChain系列（LangChain、LangGraph、DeepAgent）基于Python；Vercel的Agent工具链基于TypeScript；Spring AI基于Java；ADK基于Go。
+- **开源Agent项目**：opencode、dsh、pi等热门项目多为TypeScript实现，Rust/TS社区增速快。
+- **学习建议**：入门者推荐Python或TypeScript，但应避免局限于单一语言，注重全局视野和架构能力。
 
 ### 评论补充
-- 有用户询问小火箭规则，作者回应将整理，可去除大部分常用软件开屏广告。
-- 评论指出项目基于墨鱼底包，缝合 ddgksf2013 和 kelee 规则，作者确认底包为墨鱼，并做了删减和自定义。
+- 有观点认为，既然AI能解决语法问题，语言选择更应服务于业务和架构需求。
+- 可参考langpulse.top等数据源观察开源社区趋势。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237653" target="_blank" rel="noopener noreferrer">[分享] 分享一个自用的 Quantumult X 去广告 &amp; 分流项目：一键导入，每日更新</a></span><span class="topic-stats">回复 4 · 收藏 6</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237820" target="_blank" rel="noopener noreferrer">转 AI 全栈 + Agent 开发到底应该主学哪个语言？</a></span><span class="topic-stats">回复 9 · 收藏 3</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237516" markdown="1">
+<details class="topic-card" data-topic-id="1237865" markdown="1">
 <summary>
 <span class="topic-rank">33</span>
-<span class="topic-title">Codex 5小时限额提前启动的可行方法</span>
+<span class="topic-title">上海电信精准限速实测：IPv6与SFTP受限，VPN受影响</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1084,30 +1075,30 @@ curl -fsSL https://raw.githubusercontent.com/klboke/kkrepo/main/scripts/quicksta
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-用户询问如何提前启动 Codex 的 5 小时限额，以便在重置前多用一个时段。评论提供了多种可行方案，其中利用 ChatGPT 工作模式创建定时任务的方法已被验证有效。
+上海电信对上行流量实施精准限速，用户实测发现：测速站点和IPv4 iperf3打流正常，但IPv6 iperf3被限制在21Mbps且不稳定；自建IP高位端口HTTP上传不受限，但SFTP和VPN等非白名单协议被严格限速；常用网盘白名单内最高80+兆；fakehttp已失效。
 
 ### 关键要点
-- **工作模式定时任务**：在 ChatGPT 网页版的工作模式中，让 AI 创建定时任务（如每天 6 点发送“你好”），可触发 Codex 额度提前启动。评论者 pocketmiddle 确认已成功操作。
-- **具体指令示例**：发送“每天在 6 点 00 11 点 01 16 点 02 21 点 03 的时候发一句你好”，AI 会创建 4 个定时任务。
-- **其他工具**：有第三方工具如 https://5h.linkai.work/zh-cn/ 可尝试，但未经验证。
+- 限速针对特定协议和IP版本，IPv6和SFTP受限严重，HTTP上传不受影响。
+- 常用网盘在白名单内，但速度上限约80Mbps。
+- 电信精准限速对普通用户影响较小，但办公VPN等非白名单应用会受影响。
 
 ### 评论补充
-- 有用户提到 Claude 也有类似机制，但未提供细节。
-- 部分评论质疑如此极限使用是否必要，但楼主表示长任务需求时会被 5 小时限制卡住。
-- 注意：公司电脑需关机，因此云端定时任务方案更适用。
+- 有用户建议将VPN域名前缀改为speedtest.net尝试绕过，但作者表示使用奇安信零信任无法配置。
+- 其他用户反馈自建IP高位端口HTTP上传也被限速5Mbps，BT限速10Mbps，情况不一。
+- 上海联通用户连续两月上传超1T后被限速至10Mbps，所有协议均受限。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237516" target="_blank" rel="noopener noreferrer">codex 提前启动问题</a></span><span class="topic-stats">回复 13 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237865" target="_blank" rel="noopener noreferrer">关于上海电信限速的观察</a></span><span class="topic-stats">回复 5 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237696" markdown="1">
+<details class="topic-card" data-topic-id="1237892" markdown="1">
 <summary>
 <span class="topic-rank">34</span>
-<span class="topic-title">独立开发者推广踩坑：送码策略与渠道选择经验</span>
+<span class="topic-title">KaaS：先编译再检索的无 embedding 开源知识库</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1115,30 +1106,30 @@ curl -fsSL https://raw.githubusercontent.com/klboke/kkrepo/main/scripts/quicksta
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-独立开发者分享 macOS 图片压缩工具推广经历：Product Hunt 等平台按拉票排名效果有限；V2EX 送码引流效果平平，且一次送 500 个永久版导致后续营销受限。目前收益为零，提出关于竞品、平台价值、学习推广和心态调整的疑问。
+KaaS 是一个开源知识库系统，采用“先编译再检索”的架构，摒弃了传统的 embedding 和向量检索。它先用 LLM 将散乱文档编译成结构化的 Markdown Wiki，再通过 LLM 直接翻阅目录选择相关文章进行回答。
 
 ### 关键要点
-- **送码策略**：避免一次送大量永久版，建议送 1 年或 3 个月，保留后续营销空间。
-- **用户质量**：送码拉来的用户往往不认真使用、不反馈，价值低；有开发者表示不再在 V2EX 送码。
-- **推广渠道**：可尝试小红书、Reddit 相关版块、YouTube 视频、国外社交媒体等。
-- **产品策略**：先免费积累用户，留反馈入口，自然发酵后迭代；推广后开新项目，不死磕单一产品。
+- **架构**：三层：React 前端、Go 后端、Python AI 引擎，存储默认 SQLite，无向量库依赖。
+- **检索流程**：读取 master-index.md 目录，LLM 选择相关路径，读取全文（截断 12,000 字符）作为上下文。
+- **编译流水线**：Extract → Classify → Write → Index，重点解决去噪和去重。
+- **MCP 集成**：提供 ask 工具，支持 Claude Code、Codex 等 agent 查询。
+- **部署**：docker compose 或 CLI 一键启动，可对接任意 OpenAI-compatible 端点，支持全本地运行。
 
 ### 评论补充
-- 有开发者认为 V2EX 送码效果不错，但需控制数量，且写作功底影响帖子热度。
-- 建议推广后不要过度投入，多尝试不同赛道，等待自然增长。
+评论中提出性能疑问（是否巨慢）、架构图绘制工具，以及是否有 benchmark 证明优势。作者未在回复中回应，但正文承认存在“body-depth 召回”缺口，可能遗漏标题摘要未体现的相关内容。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237696" target="_blank" rel="noopener noreferrer">送码涨了曝光，但把自己后路堵死了——独立开发者推广踩坑实录，来讨教几个问题</a></span><span class="topic-stats">回复 11 · 收藏 3</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237892" target="_blank" rel="noopener noreferrer">先编译再检索：一个不用 embedding 的开源知识库</a></span><span class="topic-stats">回复 3 · 收藏 5</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237523" markdown="1">
+<details class="topic-card" data-topic-id="1237984" markdown="1">
 <summary>
 <span class="topic-rank">35</span>
-<span class="topic-title">将Web搜索与图片理解路由到不同模型的网关方案</span>
+<span class="topic-title">SD2小电视固件：显示DeepSeek和OpenCode Go额度</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1146,36 +1137,30 @@ curl -fsSL https://raw.githubusercontent.com/klboke/kkrepo/main/scripts/quicksta
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-用户希望在使用第三方模型（如火山引擎的 deepseek-v4-flash）时，将 web search 和图片理解请求路由到原生支持这些能力的官方模型（如 DeepSeek 官方）。评论中提出了多种实现思路：
-
-- **MCP 方案**：通过 MCP 将搜索和识图暴露为工具，但部分第三方模型上传图片即报错，且 Claude Code 子代理不认自定义搜索 MCP。
-- **中转站方案**：自建中转站，将文字请求与 web search 路由到不同模型。已有用户实践，但需选择支持文字、web search、图片的库。
-- **Response 协议网关**：DeepSeek 官方支持 response 协议的 websearch，可搭建支持该协议的网关（如 opencodex），将 websearch 请求路由到自己的搜索服务，再整合返回。
-- **代理 fallback**：用户已实现代理，当火山 v4 flash 报错 web search 未开通时，fallback 到 DeepSeek 官方 v4 进行搜索。
+作者分享了为SD2小电视（ESP8266 + 1.3寸ST7789屏幕）编写的两个固件，用于直接显示DeepSeek和OpenCode Go的API余额/额度。固件通过设备直接请求官方接口，无需电脑常驻程序，开机连WiFi后自动刷新。
 
 ### 关键要点
-- 核心难点在于模型对图片输入和工具调用的兼容性，以及不同 agent（如 Claude Code）对自定义工具的限制。
-- 可行方案包括：自建中转站、使用支持 response 协议的网关、代理 fallback。
-- 有用户提到使用 pi 将识图和搜索作为一等公民工具，但需更换 agent。
+- **DeepSeek余额显示器**：请求 `https://api.deepseek.com/user/balance`，显示总余额、充值余额和赠送余额，底部带更新时间。
+- **OpenCode Go额度显示器**：请求 `https://opencode.ai/zen/go/v1/usage`，显示5小时/周/月三档额度的剩余百分比、进度条和重置时间。
+- **硬件与烧录**：主控ESP8266（ESP-12E/F），屏幕ST7789 240×240 SPI，使用PlatformIO，需 `git clone --recursive`，配置 `config.h` 后 `pio run -t upload`。
+- **功能亮点**：默认60秒刷新，夜间自动休眠（00:00-07:00），公共逻辑抽成 `sd2-common` 子模块。
 
 ### 评论补充
-- 有用户推荐使用 anysearch+exa+tavily 调度，但未提供细节。
-- 评论指出 DeepSeek 官方模型自带 web search 和图像识别，可直接使用。
-
-总体而言，该主题提供了多种路由方案的思路，但缺乏具体实现细节和对比，可复用性中等。
+- 有用户表示想制作Codex版本，因为五小时限制很折磨人。
+- 有评论指出1.3寸屏幕可能是SD1，作者确认SD2应为1.54寸。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237523" target="_blank" rel="noopener noreferrer">web search 和 图片理解</a></span><span class="topic-stats">回复 17 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237984" target="_blank" rel="noopener noreferrer">SD2 小电视桌搭：直接显示 DeepSeek 和 OpenCode Go 额度</a></span><span class="topic-stats">回复 3 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237548" markdown="1">
+<details class="topic-card" data-topic-id="1237871" markdown="1">
 <summary>
 <span class="topic-rank">36</span>
-<span class="topic-title">5G信号满格却卡顿断网？切换4G可解决及原因分析</span>
+<span class="topic-title">深圳宽带选择：电信、联通、移动套餐对比与建议</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1183,37 +1168,31 @@ curl -fsSL https://raw.githubusercontent.com/klboke/kkrepo/main/scripts/quicksta
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-
-用户反映移动5G信号满格但经常卡顿、断网，关闭5G改用4G后问题解决。多位用户反馈类似情况，尤其在人多区域或特定地点（如公司）。
+楼主在深圳宝安区，需要办理宽带，主要用途为普通上网、刷视频、玩单机游戏和 LOL 大乱斗，无 NAS 和公网 IP 需求。现有电信手机卡，但融合套餐价格较高，因此询问联通和移动的宽带价格与体验。
 
 ### 关键要点
-
-- **现象**：5G信号满格但实际网速慢、断流，切换4G后恢复正常。
-- **可能原因**：
-  - 运营商基站策略或QCI优先级低（如低价套餐用户）。
-  - 5G与5G-A频繁切换导致断流。
-  - 附近用户大流量占用资源。
-  - 接入低频点（如移动N28）性能差。
-- **解决方案**：手动切换至4G，多数用户表示4G足够日常使用，刷视频、看直播不卡。
+- **价格参考**：有用户提到杭州移动 49 元融合套餐含 1000M 宽带和流量卡；深圳电信有 800 元/年 200M 单宽带（免安装费），电信官网 139 元/月 300M；移动有 1 元/天（约 30 元/月）的宽带，无需办电话卡。
+- **运营商选择**：多数评论认为联通性价比高，移动便宜但游戏体验可能不佳；电信价格较高但稳定。
+- **游戏体验**：有用户反馈移动玩 LOL 即使开加速器也可能随机丢包，团战卡顿；联通和电信更适合游戏。
+- **办理渠道**：可通过淘宝、小红书等渠道寻找优惠套餐，但需确认小区是否支持，深圳不同小区套餐可能不同。
 
 ### 评论补充
-
-- 有用户长期使用4G，认为5G提升不明显。
-- 部分用户怀疑与双卡或手机型号有关，但楼主为小米手机，排除iPhone特定问题。
-- 低价大流量套餐可能被限制接入优先级，影响体验。
+- 有用户建议尝试“异地宽带”，利用外地手机号办理，但需自行搜索具体方法。
+- 移动宽带晚高峰稳定性尚可，有用户用于代理服务延迟低，但游戏场景需谨慎。
+- 综合建议：若预算有限且不常玩竞技游戏，可选移动或联通；若重视游戏体验，优先电信或联通。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237548" target="_blank" rel="noopener noreferrer">移动 5G 信号明明显示满格。但是就是卡，经常断网提示无网络</a></span><span class="topic-stats">回复 18 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237871" target="_blank" rel="noopener noreferrer">佬们，求深圳宽带方案推荐</a></span><span class="topic-stats">回复 11 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237739" markdown="1">
+<details class="topic-card" data-topic-id="1237821" markdown="1">
 <summary>
 <span class="topic-rank">37</span>
-<span class="topic-title">Apple Vision Pro 办公体验：重量、清晰度与购买建议</span>
+<span class="topic-title">上海骑电轻摩无驾照风险与牌照选择</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1221,31 +1200,29 @@ curl -fsSL https://raw.githubusercontent.com/klboke/kkrepo/main/scripts/quicksta
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-用户因肩周炎想躺着用 Apple Vision Pro 办公，但多位用户反馈该设备不适合此场景。主要问题包括：重量大且重心靠前，躺着戴会压迫面部；手势操作在躺姿下更累；清晰度虽为 VR/AR 设备中最高（PPD 34），但仍不如 4K 显示器。
+在上海骑电轻摩（如极核 ez3/ez3i）无驾照，风险极高，尤其高峰期路口警察多。关键取决于牌照：**电动车牌+无驾照**通常没事；**无牌+无驾照**会扣车；**摩托车牌+无驾照**可能扣车并拘留。
 
 ### 关键要点
-- **重量与舒适度**：设备较重，重心靠前，能接受者可戴 1-2 小时，不能接受者 10 分钟就想摘下。
-- **清晰度**：PPD 34 相当于 50 厘米视距的 27 英寸 1080p 显示器，办公清晰度有限。
-- **购买建议**：多位用户建议先租赁体验，避免高价买入后吃灰或亏损转卖。
+- 有汽车驾照但无摩托车驾照，属准驾不符，最低扣 9 分，最高罚 2000 元并拘留 15 天。
+- 无驾照驾驶摩托车属无证驾驶，同样可能拘留；驾驶无牌车辆罪加一等。
+- 套牌风险大，警察一眼能识别超标电动车，后果严重。
+- 有评论认为上海 95% 电动车超标，但挂电动车牌超速与挂摩托车牌无驾照性质不同。
 
 ### 评论补充
-- 有用户首发溢价 5000 元购买，仅用 1 小时，亏 5000 元卖出。
-- 作为虚拟 Mac 显示器效果不错，但需鼠标键盘时无法完全躺平。
-- 躺在床上看剧体验极佳，但办公场景需谨慎。
-- 肩周炎问题更应通过调整桌椅高度或运动改善，而非依赖头显。
+部分网友建议避开核心区域、戴头盔不闯红灯可降低风险，但多数认为不值得冒险。考取驾照是根本解决方案。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237739" target="_blank" rel="noopener noreferrer">想买 Apple Vision Pro 了，求打醒</a></span><span class="topic-stats">回复 18 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237821" target="_blank" rel="noopener noreferrer">搁上海骑电轻摩 没驾照</a></span><span class="topic-stats">回复 14 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237718" markdown="1">
+<details class="topic-card" data-topic-id="1237976" markdown="1">
 <summary>
 <span class="topic-rank">38</span>
-<span class="topic-title">县城大面积自建房出租与出售的可行性分析</span>
+<span class="topic-title">V2EX 抽奖工具：基于 drand 的可验证随机抽奖</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1253,32 +1230,31 @@ curl -fsSL https://raw.githubusercontent.com/klboke/kkrepo/main/scripts/quicksta
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主面临家庭经济压力，想处理云南小县城一套大面积自建房（四层、10室、占地357平，靠近学校）。家人反对出售和分租，导致资产闲置。评论提供了多种处理思路和现实考量。
+作者开发了一个 V2EX 抽奖工具，利用 drand 网络提供可验证的随机性，解决社区抽奖的信任问题。工具开源在 GitHub，并提供在线体验。
 
 ### 关键要点
-- **出售**：报价约80万，但税费等成本可能达20万，实际到手有限；家人情感上难以接受。
-- **出租**：整租可降低管理成本，但大面积整租难度大；分租（按房间或一层）管理成本高，且可能带来麻烦。
-- **替代方案**：可考虑租给托管机构（如教培、托管班），或改造为民宿（需政府支持）。
-- **位置关键**：靠近学校是优势，但家长和学生不愿多走路，位置差异影响出租效果。
+- 使用方式：输入主题 ID、中奖人数、开奖时间，即可生成抽奖链接。
+- 随机性来源：采用 drand quicknet 的 BLS 签名，确保结果不可预测且可验证。
+- 公平性保障：通过 HMAC-SHA-256 对候选人评分，取前 N 名，并公开中间哈希供验证。
+- 快照完整性：截止后自动刷新回复列表，避免时钟偏差或缓存问题。
 
 ### 评论补充
-- 有评论指出，分租需考虑管理成本和风险，整租更优；若可商用（如商旅），范围可扩大。
-- 有评论建议，若现金流紧张，应果断出售，解决眼前问题。
-- 有评论提醒，本地人文可能影响出租方式，父母不愿分租可能因了解当地情况。
-- 有评论建议，可租给二道贩子做分租或民宿，但需注意管理。
+作者补充了详细的工作流程：创建者配置规则，程序编码到 URL 的 `#draw=` 部分；截止前只显示倒计时；截止后获取 drand 信标并验证签名；读取全部回复并过滤；最终公开哈希和验证文件。
+
+该工具为 V2EX 抽奖提供了一种透明、可验证的解决方案，适合社区活动组织者使用。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237718" target="_blank" rel="noopener noreferrer">划拨性质的房子是否真的没不掉了？家里已经到了非常困难的程度，算是和各位抱怨抱怨也问问建议吧。</a></span><span class="topic-stats">回复 15 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237976" target="_blank" rel="noopener noreferrer">苦于 v2 没有好用的抽奖方式，自己 vibe 了一个简单好用的</a></span><span class="topic-stats">回复 1 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237698" markdown="1">
+<details class="topic-card" data-topic-id="1237754" markdown="1">
 <summary>
 <span class="topic-rank">39</span>
-<span class="topic-title">壁挂新风机选购与使用体验：风量、噪音与温度考量</span>
+<span class="topic-title">医保目录调整致部分药品报销受限，如何应对？</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1286,32 +1262,32 @@ curl -fsSL https://raw.githubusercontent.com/klboke/kkrepo/main/scripts/quicksta
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-楼主考虑安装壁挂新风机以应对铁路与高架旁的灰尘和噪音，目标完全不开窗。评论中多位用户分享了实际使用经验，提供了选购和使用的关键考量。
+
+楼主因他克莫司滴眼液原研药昂贵，使用中眼药（浓度减半、价格减半）且医保曾报销一半，但现仅限角膜炎等特定疾病报销，面临自费压力。评论中多位用户反映类似经历，医保目录和报销政策确实动态调整。
 
 ### 关键要点
-- **风量选择**：新风量宜大不宜小，实际动态环境下（人员呼吸、宠物等）刚够的指标不够用，建议留足余量，一台不够可装两台。
-- **温度影响**：北方地区24小时开启时，需注意冬夏温度补偿，可考虑带热交换功能的机型，否则需额外耗能。
-- **噪音问题**：风量越大低频噪音越强，需确认家人能否适应，否则难以长期开启。
-- **滤芯成本**：初滤可自行清洗，中效和高效滤芯更换周期较长，整体使用成本已降低。
-- **辅助设备**：新风机与空气净化器不冲突，可搭配使用；部分机型可抵消夏季臭氧。
+
+- 医保目录每年更新，药品报销范围可能收紧，如地塞米松从报销变自费（22年几元，23年100多元）。
+- 部分药品如非那雄胺（治脱发）已退出医保，洗牙、验孕棒等也受影响。
+- 医院医保接口更新滞后也可能导致报销状态变化。
 
 ### 评论补充
-- 有用户使用mate新风通过推拉窗进风，避免打孔，效果尚可。
-- 土豆Pro用户表示与米家联动，人不在家时周期性通风，完全不开窗，体验良好。
-- 关于多房间通风，评论指出只要进风量足够，室内门窗密封性不强，空气会自动流通，监测仪位置会影响自动运行逻辑。
+
+- 有用户拔智齿和近视眼手术检查费用从不可报销变为可报销，说明政策也有放宽情况。
+- 建议关注医保目录更新，及时查询最新报销范围，必要时与医院或医保部门确认。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237698" target="_blank" rel="noopener noreferrer">又想装壁挂新风机了，有装的来说说体验。</a></span><span class="topic-stats">回复 5 · 收藏 1</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237754" target="_blank" rel="noopener noreferrer">你们有遇到, 原来医保能报销, 后面不能报销的情况吗？</a></span><span class="topic-stats">回复 10 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237621" markdown="1">
+<details class="topic-card" data-topic-id="1237768" markdown="1">
 <summary>
 <span class="topic-rank">40</span>
-<span class="topic-title">不懂代码者用AI开发小程序：从Taro到原生的踩坑与规范</span>
+<span class="topic-title">Vultr Block Storage 意外扣费致停机 12 小时：个人站长避坑与替代方案</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1319,29 +1295,34 @@ curl -fsSL https://raw.githubusercontent.com/klboke/kkrepo/main/scripts/quicksta
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者裸辞旅居三年，不会代码，利用AI（Codex及编程Agent）开发了微信小程序「住下来-城市旅居指南」，收录80座城市、上百项生活指标。文章记录了开发过程中的关键决策与踩坑，强调产品逻辑优先、AI约束规范的重要性。
+
+用户反映 Vultr 账户莫名出现 Block Storage 并扣费 50 美元（服务器仅 30 美元），发现后删除但导致网站停机 12 小时。用户质疑资源创建与扣费机制，并寻求替代方案。
 
 ### 关键要点
-- **三次推倒重来**：从Web工具站到小程序，放弃Taro改纯原生，解决微信分包2MB限制和内存飙升问题。
-- **指挥AI的方法**：建立Design Tokens锁定视觉规范，禁止营销大词，要求文案说人话，数据驱动不手写特例。
-- **人定标准，AI落地**：将旅居体感转化为算法权重，如短租看重租房容易度、物价医疗，长住才看学位就业。
-- **善用Agent Skills**：微信开发者工具允许AI直接操作编译、调试，作者负责真机体验反馈。
+
+- **扣费机制**：Block Storage 在账单生成前一刻被创建，直接预扣余额，缺乏预警。
+- **停机原因**：账户余额被扣导致服务中断，用户未主动创建该资源。
+- **替代推荐**：评论提及 DigitalOcean 支持支付宝，但用户注册时付款失败；OVH 被推荐但需自行验证。
+- **风险提示**：有用户因 Vultr TOS 将 VM 内容用于 AI 训练而弃用；线路质量被指较差，且用户遇到莫名重启。
 
 ### 评论补充
-评论指出该产品用户小众、使用频率低，可能难以持续运营，需用爱发电。
+
+- 有用户建议使用 VISA/万事达卡扩大选择范围，但需注意地址验证问题。
+- 评论指出 Vultr 对大型项目尚可，但需关注维护通知。
+- 提醒谨慎对待第三方推荐的低价商家，可能存在风险。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237621" target="_blank" rel="noopener noreferrer">裸辞旅居 3 年，不会代码的我用 AI 手搓了一款小程序</a></span><span class="topic-stats">回复 2 · 收藏 0</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237768" target="_blank" rel="noopener noreferrer">Vultr 到底哪里好用？一次 Block Storage 扣费直接让我站停了 12 小时</a></span><span class="topic-stats">回复 13 · 收藏 0</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237611" markdown="1">
+<details class="topic-card" data-topic-id="1237767" markdown="1">
 <summary>
 <span class="topic-rank">41</span>
-<span class="topic-title">利用定时任务优化 ChatGPT 5小时额度刷新时间</span>
+<span class="topic-title">Win11 ChatGPT 客户端更换家目录的可行方法</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1349,31 +1330,30 @@ curl -fsSL https://raw.githubusercontent.com/klboke/kkrepo/main/scripts/quicksta
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者针对 ChatGPT Plus 恢复 5 小时滚动额度限制的问题，开发了一个小工具，通过自动创建定时任务，在最佳时间点触发对话，以充分利用额度。工具根据上下班时间计算刷新点，例如 9:00-18:00 上班，若 6:00 先触发一次，刷新点会提前至 11:00 和 16:00，避免下班后等待刷新。
+Win11 上的 ChatGPT（Codex）客户端是 UWP 应用，无法直接设置环境变量，默认扫描 C 盘用户目录（如 OneDrive 和 home），且安装 Node.js 时无权限，需借助 WSL。
 
 ### 关键要点
-- 工具提供可视化界面，可微调触发时间，避开午休等时段。
-- 支持生成脚本或提示词，用于快速创建定时任务。
-- 对于 ChatGPT 用户，可直接在 Chat GPT Work 中创建定时任务，无需本地配置。
-- 注意：周额度固定，但自动刷新可避免因错过刷新点而浪费每日可用额度。
+- 使用 **Junction**（目录联接）将 `%USERPROFILE%\.codex` 指向其他盘符，实现路径重定向。
+- 检查用户目录下是否存在 `.git`，可能影响扫描行为。
+- 在 `config.toml` 中设置权限：用户 profile 设为 `deny`，资料目录 `read-only`，项目目录 `write`，限制扫描范围。
+- 可参考将 `.codex` 文件夹复制到其他盘并创建快捷方式的方法（类似谷歌应用的处理）。
 
 ### 评论补充
-- 有用户指出可用 crontab 实现，作者回应工具旨在简化步骤并提供可视化。
-- 有用户质疑“白嫖”说法，作者解释是避免额度浪费。
-- 有用户分享将提示词改为东京时区的经验，作者提示工具会根据浏览器时区调整，可能存在 bug。
+- 用户反馈即使指定项目目录，Agent 仍可能扫描 C 盘，且不会主动告知，需通过检查其查询脚本发现。
+- 使用 `AGENTS.md` 文件可约束扫描行为。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237611" target="_blank" rel="noopener noreferrer">摸了个 Codex/Cluade 5 小时限制的解决方案</a></span><span class="topic-stats">回复 11 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237767" target="_blank" rel="noopener noreferrer">win11 的 chatgpt 客户端怎么更换家目录？</a></span><span class="topic-stats">回复 4 · 收藏 1</span></p>
 
 </div>
 
 </details>
 
-<details class="topic-card" data-topic-id="1237708" markdown="1">
+<details class="topic-card" data-topic-id="1237920" markdown="1">
 <summary>
 <span class="topic-rank">42</span>
-<span class="topic-title">AI 提交开源 PR 的教训：避免把推理成本转嫁给维护者</span>
+<span class="topic-title">同薪不同职级入职选择：高级别更优的考量</span>
 </summary>
 
 <div class="topic-content" markdown="1">
@@ -1381,306 +1361,24 @@ curl -fsSL https://raw.githubusercontent.com/klboke/kkrepo/main/scripts/quicksta
 <div class="topic-article" markdown="1">
 
 ### 核心内容
-作者分享了一次使用 AI 提交开源 PR 的失败经历，最终通过抓取进程 dump 定位到根因并完成修复。核心教训是：提交者必须对证据、范围和最终交付负责，不能把 AI 未完成的推理成本转嫁给维护者。
+在相同工作内容和薪资下，选择低级别还是高级别入职，多数回复倾向于高级别，但需结合具体情境。
 
 ### 关键要点
-- **问题根因**：当输入不足 9 字节无法解析 FLV header 时，旧代码未检查 `IsCompleted`，导致无限同步循环，任务无法退出。
-- **修复方案**：在循环前检查 `result.IsCompleted` 并退出，增加空 Pipe 测试，最终 PR 仅 18 行新增。
-- **流程建议**：先收集证据（日志、dump），验证诊断版本，再定位根因，最后做最小修复；PR 不是探索草稿箱。
-- **模型分工**：快速模型用于搜索和机械修改，强推理模型用于分析 dump 和因果收敛；任何解释都不能替代证据。
+- **裁员风险**：高级别在同级别中薪资偏低，裁员压力相对较小；低级别薪资接近上限，可能成为裁员目标。
+- **涨薪空间**：若年终不涨职级，低级别薪资接近区间上限，涨薪空间有限；高级别处于区间低点，有更大上调空间。若年终涨职级，高级别以新职级区间最低点为底线，更具优势。
+- **职业发展**：高级别通常拥有更多权限、信息和 scope，掌握主动权，利于后续跳槽。
+- **绩效风险**：高级别可能面临更高绩效期望，若项目不佳，年终奖可能受影响（如 @cgpiao 所述）。
 
 ### 评论补充
-评论普遍批评文章冗长、AI 味重，并指出应使用更强模型（如 Sol）而非 Luna。作者回应承认错误，并强调偶现问题难以复现，最终靠 dump 才定位问题。
+- @r6cb 指出高级别裁员压力小，因为同级别中薪资较低。
+- @ttoh 详细分析了涨薪机制，强调高级别在调薪中的优势。
+- @Hstar 认为高级别带来更多主动权。
+- @sai190209 和 @uds9u32br 均支持高级别，利于跳槽。
+- @cgpiao 提醒需考虑项目投入和年终奖标准，高级别若无好项目可能奖金不佳。
 
 </div>
 
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237708" target="_blank" rel="noopener noreferrer">我把一个开源 PR 全权交给 AI 后，差点把维护者变成免费 Reviewer</a></span><span class="topic-stats">回复 6 · 收藏 0</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1237697" markdown="1">
-<summary>
-<span class="topic-rank">43</span>
-<span class="topic-title">clash-rs 集成 eBPF 实现动态直连绕过</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者在 Rust 代理 clash-rs 中集成了 eBPF 入站，参考 dae 和 honk 实现类似 tun 的透明代理，替代传统 nftables/iptables 转发规则。核心机制是劫持 DNS 请求，对域名预选路，直连流量将解析出的 IP 动态下发到 eBPF map，后续该 IP 的流量直接在内核层放行，无需预置大量大陆 IP 规则，同时解决部分国外可直连网站无法被固定绕过规则覆盖的问题。
-
-### 关键要点
-- 配置项包括 `enable`、`lan-interface`、`wan-interface`、`tproxy-port`、`auto-direct-offload`、`bypass-dscps`、`bypass-fwmarks` 等。
-- 需注意 `bypass-dst-ips` 必须包含内网网段（如 `192.168.0.0/16`），否则可能影响局域网访问。
-- eBPF 模式对内核模块有要求，建议先安装 dae 以自动安装依赖，推荐 immoralwrt 25.12 版。
-- 路由器上调试时切勿开启插件开机自启，以免配置错误导致无法访问路由器。
-
-### 评论补充
-暂无评论。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237697" target="_blank" rel="noopener noreferrer">在 clash 里加入了一点 dae 的成分</a></span><span class="topic-stats">回复 0 · 收藏 2</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1237625" markdown="1">
-<summary>
-<span class="topic-rank">44</span>
-<span class="topic-title">自媒体破局：快速测试赛道与深耕方向的选择</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-
-做自媒体遇到反复推翻自己、看不到反馈的困境时，多位用户建议通过快速测试和赛道选择来破局。
-
-### 关键要点
-
-- **快速测试**：一周发三个同一赛道不同风格的视频，分析数据，不行下周换赛道，以数据驱动迭代。
-- **参考同行**：找感兴趣的赛道，研究竞争对手的选题和钩子，结合自身思考，避免闭门造车。
-- **赛道深耕**：不要为短期流量牺牲长期收益，锁定一个赛道持续输出，才能吸引广告商。
-- **评估产率**：正式发布前先累积一定数量稿件，为账号定调，避免写稿焦虑。
-
-### 评论补充
-
-- 有用户建议先随意试水，从数据较好的内容中提炼共性，不必急于投入。
-- 也有观点认为“非正常人才能做起来”，暗示需要独特视角或坚持。
-- 若对作品有信心，可考虑购买官方推广，但需谨慎评估。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237625" target="_blank" rel="noopener noreferrer">做自媒体好难？一直在推翻自己的状态？如何破局</a></span><span class="topic-stats">回复 11 · 收藏 1</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1237737" markdown="1">
-<summary>
-<span class="topic-rank">45</span>
-<span class="topic-title">DMIT 对 Cogent 154 段 IP 每月加收 1 美元租金补贴</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-DMIT 宣布自 2026 年 12 月 1 日起，对保留 154 开头的 Cogent IP 地址收取租金补贴费，每个 IPv4 每月 1 美元，年付账单将增加 12 美元。原因是这批 IP 并非 DMIT 自有，而是租用 Cogent 的，此前费用由 DMIT 承担，现转嫁给用户。
-
-### 关键要点
-- 收费对象：154 开头的 Cogent IP，每个每月 1 美元，年付账单增加 12 美元。
-- 替代方案：用户可免费更换为 DMIT 自管的新 IP，但新 IP 质量参差，部分被识别为巴西。
-- 用户反馈：154 段 IP 质量较好，常被识别为 ISP/住宅，适合代理和过 Cloudflare；但部分用户遭遇 IP 被墙。
-
-### 评论补充
-- 有用户指出亚马逊早已有类似收费，并非 DMIT 首创。
-- 部分用户表示新 IP 定位在巴西，影响使用体验。
-- 有用户建议直接更换 IP，但多数用户倾向于保留现有 IP 并支付费用。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237737" target="_blank" rel="noopener noreferrer">dmit 的 ip 要收费了</a></span><span class="topic-stats">回复 11 · 收藏 1</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1237544" markdown="1">
-<summary>
-<span class="topic-rank">46</span>
-<span class="topic-title">如何利用公司GPT账号剩余Token：CPA转换与本地代理方案</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-主题讨论如何消耗公司订阅的GPT账号中老板账号用不完的Token。回复提供了几种可行方案，包括使用CPA转换、本地代理工具等。
-
-### 关键要点
-- **CPA转换**：通过CPA将账号Token导出并转给其他Agent使用（如knightdf所述）。
-- **本地代理**：使用`cliproxyapi`起本地服务代理，支持多账号自动切换（FawkesV提供）。
-- **工具推荐**：`cockpit-tools`可导出Codex登录文件，导入后本机使用（imnpc提供）。
-- **其他方法**：绑定谷歌邮箱切换登录（cheese），或升级到Premium（xubeiyou）。
-
-### 评论补充
-- 有用户提醒搭建中转站有风险，subapi可能被封，建议谨慎。
-- 部分方案需要自行配置本地API和密钥，有一定技术门槛。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237544" target="_blank" rel="noopener noreferrer">公司订阅的 gpt，老板的那个账号总是用不完，怎么把他账号的 token 用掉？</a></span><span class="topic-stats">回复 7 · 收藏 2</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1237582" markdown="1">
-<summary>
-<span class="topic-rank">47</span>
-<span class="topic-title">AI 时代底层开发者的经验壁垒与转型思考</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-
-主题讨论 AI 对开发者经验积累的影响。作者担心 AI 使以往通过源码和踩坑积累的经验壁垒失效，但评论指出底层开发（如指令集、寄存器、ABI、C/C++）的坑 AI 难以掌握，经验门槛仍在。
-
-### 关键要点
-
-- **AI 改变工作重心**：从编码转向框架和模块设计，降低重复工作量。
-- **经验壁垒的争议**：有人认为技术迭代本就快，看重积累是不愿学习；有人强调底层经验难以被 AI 替代。
-- **判断力是关键**：会技术的人用 AI 更好，因为能判断对错、拆解架构；经验壁垒若转化为判断力，则能借 AI 提升价值。
-- **行业变化**：AI 提效是好事，但变化过快可能导致社会矛盾，岗位消失与新增并存。
-
-### 评论补充
-
-- 底层开发与硬件相关的坑 AI 不了解，经验门槛长期存在，工作难找可能因市场蛋糕变小。
-- AI 被视为“执行力平权”，类似知识平权后的新阶段。
-- 建议将 AI 视为助理，专注于最有价值的设计与判断工作。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237582" target="_blank" rel="noopener noreferrer">聊聊你们对 Ai 的态度?</a></span><span class="topic-stats">回复 8 · 收藏 1</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1237657" markdown="1">
-<summary>
-<span class="topic-rank">48</span>
-<span class="topic-title">FDE岗位值不值得去？业内观点与风险分析</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-FDE（Field Digital Engineer）岗位通常指驻场工程师，负责在客户现场部署和调试AI产品或服务。是否值得申请，取决于个人职业轨迹和公司背景。
-
-### 关键要点
-- **岗位性质**：多数观点认为FDE类似驻场外包，但头部大厂从业者强调其手握行业know-how和工程技术经验，复利效果好。
-- **选择标准**：若职业转型逻辑通顺，且公司背靠优秀基模（如头部大厂），值得考虑；否则可能是坑。
-- **风险提示**：需警惕技术能力不足的同事，以及岗位生命周期可能较短，需做好转型计划。
-
-### 评论补充
-- 有用户分享部署工程师的负面案例，提醒注意团队水平。
-- 建议明确服务对象：内部流程尚可，去外部公司需谨慎。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237657" target="_blank" rel="noopener noreferrer">FDE 岗位，有懂的大佬吗，有申请的必要吗？</a></span><span class="topic-stats">回复 11 · 收藏 0</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1237714" markdown="1">
-<summary>
-<span class="topic-rank">49</span>
-<span class="topic-title">开源通用文件查看器：Tauri+自研SDK，支持3D/CAD/点云</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者开源了一个基于 Tauri 2 的通用文件查看器，旨在解决多格式文件预览问题。工具支持图片、PDF、PPTX、Markdown、表格、3D 模型（glb/gltf/fbx/obj/stl/ifc）、CAD（dwg/dxf）、点云（pcd/ply/las）以及压缩包预览和代码高亮，全部本地处理，MIT 协议。
-
-### 关键要点
-- 技术栈：Tauri 2 桌面壳 + 自研文件查看 SDK，支持跨平台（macOS 测试较多，Windows/Linux 待验证）。
-- 已知限制：部分格式兼容性待完善（如某些 dwg），尚未发布正式 release，需自行编译。
-- 项目地址：https://github.com/blendviewer/vision-scope-desktop ，在线预览：https://vision-scope.blendviewer.com/
-
-### 评论补充
-- 有用户建议集成 binwalk 以识别未知二进制文件，作者可考虑扩展。
-- 有用户提到 Windows 下可用 PowerToys 实现类似预览，并建议接入系统预览窗口（如 macOS 空格预览或 Windows 资源管理器预览）。
-
-该项目对需要处理多格式文件的用户具有实用价值，但当前处于早期阶段，建议关注后续 release。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237714" target="_blank" rel="noopener noreferrer">开源一个通用文件查看器， Tauri + 自研 SDK，想听听大家意见</a></span><span class="topic-stats">回复 2 · 收藏 3</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1237658" markdown="1">
-<summary>
-<span class="topic-rank">50</span>
-<span class="topic-title">IPinfo mmdb 转换脚本：解决 MaxMind 免费库归属地不准问题</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者分享了一个自动化转换脚本，将 IPinfo 官方数据转换为标准 Country.mmdb 格式，以解决 MaxMind 免费库在规则分流中常见的 IP 归属地污染问题（如 HK/CN 识别错误）。IPinfo 免费数据准确率更高，但其原始 mmdb 文件较大且不兼容常见软件，因此作者提供了转换后的持续更新下载链接。
-
-### 关键要点
-- **问题**：MaxMind 免费库存在 IP 归属地误判，导致规则分流漂移。
-- **方案**：使用 IPinfo 数据，通过脚本转换为标准 Country.mmdb。
-- **使用**：直接替换客户端原有 GeoIP 规则库链接即可。
-- **项目地址**：https://github.com/codexss/ipinfo.mmdb
-
-### 评论补充
-暂无评论。
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237658" target="_blank" rel="noopener noreferrer">MaxMind 免费库太拉跨，分享一个自己转的 IPinfo mmdb 库</a></span><span class="topic-stats">回复 0 · 收藏 3</span></p>
-
-</div>
-
-</details>
-
-<details class="topic-card" data-topic-id="1237652" markdown="1">
-<summary>
-<span class="topic-rank">51</span>
-<span class="topic-title">开源Agent协作平台AgentConnect：接入IM与GitHub</span>
-</summary>
-
-<div class="topic-content" markdown="1">
-
-<div class="topic-article" markdown="1">
-
-### 核心内容
-作者团队开源了 AgentConnect，一个将 Claude Code、Codex 等 ACP 兼容 Agent 接入团队常用 IM（Slack、Telegram、Discord）和 GitHub/GitLab 的协作平台。核心思路是复用团队现有工具，让 Agent 直接参与日常流程，如事故处理、代码审查、定时任务等。
-
-### 关键要点
-- 支持多 Agent 并行，每个 Agent 可独立配置角色、模型、工作区、MCP、Skills 和沙箱策略。
-- 集成方式多样：聊天、GitHub/GitLab code review、webhook、定时任务。
-- 细粒度权限控制，可跟随 GitHub/Slack 权限。
-- 开源协议 Apache 2.0，支持 Docker Compose 和 Kubernetes 部署，Agent 运行在自有环境。
-
-### 评论补充
-作者补充了实际场景：Slack 中事故处理时 support-agent 自动转给 payments-agent，全程在同一线程；PR 上 review-bot 自动留 review 和 inline 评论；控制台可配置 Agent 同时接入 Slack 频道和 GitHub 仓库。
-
-项目地址：https://github.com/agentconnect-md/agentconnect （文档：https://docs.agentconnect.md）
-
-</div>
-
-<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237652" target="_blank" rel="noopener noreferrer">写了个开源的 Agent 协作平台，把 Claude Code / Codex 接进团队常用的 IM 和 GitHub</a></span><span class="topic-stats">回复 2 · 收藏 2</span></p>
+<p class="topic-source"><span class="topic-source-link">原链接：<a href="https://www.v2ex.com/t/1237920" target="_blank" rel="noopener noreferrer">如果入职一家公司，同样工作内容和薪资的情况下，是选择低级别还是高级别入职比较好</a></span><span class="topic-stats">回复 11 · 收藏 0</span></p>
 
 </div>
 
