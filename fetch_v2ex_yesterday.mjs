@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import { spawnSync } from 'node:child_process';
-import { analyzeTopicsWithDeepSeek, isAnalysisCandidate } from './lib/deepseek-analysis.mjs';
+import { analyzeTopicsWithDeepSeek, isAnalysisCandidate, MAX_ANALYSIS_TOPICS, selectAnalysisTopics } from './lib/deepseek-analysis.mjs';
 import { renderValueReport } from './lib/report-renderer.mjs';
 
 const base = process.env.V2EX_BASE_URL || 'https://www.v2ex.com';
@@ -610,15 +610,14 @@ async function main() {
     const excludedTopics = allCreatedTopics.filter(isExcludedTopic);
     const contentEligibleTopics = allCreatedTopics.filter((topic) => !isExcludedTopic(topic));
     const noEngagementTopics = contentEligibleTopics.filter((topic) => !isAnalysisCandidate(topic));
-    const includedTopics = contentEligibleTopics.filter(isAnalysisCandidate);
-    const allReplyBag = await collectReplies(allCreatedTopics);
+    const includedTopics = selectAnalysisTopics(contentEligibleTopics);
+    const excludedByLimit = contentEligibleTopics.length - noEngagementTopics.length - includedTopics.length;
+    const analysisReplyBag = await collectReplies(includedTopics);
     await fs.writeFile(repliesFile, JSON.stringify(scrubSecrets({
       targetDate,
       generatedAt: formatShanghaiDateTime(),
-      topics: allReplyBag,
+      topics: analysisReplyBag,
     }), null, 2));
-    const includedIds = new Set(includedTopics.map((topic) => topic.id));
-    const analysisReplyBag = allReplyBag.filter((item) => includedIds.has(item.topic.id));
     const deepseekEnabled = process.env.V2EX_SKIP_AI !== '1';
     const deepseekModel = process.env.DEEPSEEK_MODEL || 'deepseek-v4-flash';
     const analysisResults = deepseekEnabled
@@ -647,8 +646,8 @@ async function main() {
       .filter((item) => item.keep && topicById.has(item.topic_id))
       .map((item) => ({ ...item, topic: topicById.get(item.topic_id) }))
       .sort((a, b) => b.value_score - a.value_score);
-    const downloadedReplyCount = allReplyBag.reduce((total, item) => total + item.replies.length, 0);
-    const replyFetchErrors = allReplyBag.filter((item) => item.error).length;
+    const downloadedReplyCount = analysisReplyBag.reduce((total, item) => total + item.replies.length, 0);
+    const replyFetchErrors = analysisReplyBag.filter((item) => item.error).length;
     const analysisStats = {
       requested: analysisReplyBag.length,
       success: successfulAnalyses.length,
@@ -674,9 +673,10 @@ async function main() {
       scannedCandidates: idScan.candidates.length,
       counts: {
         allCreated: allCreatedTopics.length,
-        excluded: excludedTopics.length + noEngagementTopics.length,
+        excluded: excludedTopics.length + noEngagementTopics.length + excludedByLimit,
         excludedByNode: excludedTopics.length,
         excludedNoEngagement: noEngagementTopics.length,
+        excludedByLimit,
         included: includedTopics.length,
         replies: downloadedReplyCount,
         analysisSuccess: analysisStats.success,
@@ -694,6 +694,11 @@ async function main() {
       deepseek: {
         enabled: deepseekEnabled,
         model: deepseekModel,
+        selection: {
+          limit: MAX_ANALYSIS_TOPICS,
+          score: 'stars * 3 + replies',
+          tieBreak: 'topic_id_ascending',
+        },
         stats: analysisStats,
         analyses: analysisResults,
       },

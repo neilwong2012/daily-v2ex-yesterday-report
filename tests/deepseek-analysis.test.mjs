@@ -7,6 +7,7 @@ import {
   favoriteWeightForCount,
   isAnalysisCandidate,
   replyWeightForCount,
+  selectAnalysisTopics,
 } from '../lib/deepseek-analysis.mjs';
 
 test('preserves explicit safe source links for article analysis', () => {
@@ -196,6 +197,29 @@ test('filters only topics with neither replies nor favorites from AI candidates'
   assert.equal(isAnalysisCandidate({ replies: 0, stars: 0 }), false);
   assert.equal(isAnalysisCandidate({ replies: 1, stars: 0 }), true);
   assert.equal(isAnalysisCandidate({ replies: 0, stars: 1 }), true);
+});
+
+test('selects topics by favorites times three plus replies, with stable ID tie breaking', () => {
+  const topics = [
+    { id: 4, replies: 6, stars: 0 },
+    { id: 2, replies: 0, stars: 2 },
+    { id: 3, replies: 5, stars: 0 },
+    { id: 1, replies: 1, stars: 2 },
+    { id: 5, replies: 0, stars: 0 },
+  ];
+  assert.deepEqual(selectAnalysisTopics(topics).map((topic) => topic.id), [1, 2, 4, 3]);
+  assert.deepEqual(topics.map((topic) => topic.id), [4, 2, 3, 1, 5], 'selection does not mutate the scan');
+  assert.deepEqual(selectAnalysisTopics([...topics].reverse()).map((topic) => topic.id), [1, 2, 4, 3]);
+  assert.deepEqual(selectAnalysisTopics([]), []);
+});
+
+test('caps analysis at the 100 highest scoring topics before making requests', () => {
+  const topics = Array.from({ length: 105 }, (_, index) => ({ id: index + 1, replies: index + 1, stars: 0 }));
+  const selected = selectAnalysisTopics(topics);
+  assert.equal(selected.length, 100);
+  assert.equal(selected[0].id, 105);
+  assert.equal(selected.at(-1).id, 6);
+  assert.ok(selected.every((topic) => topic.id >= 6));
 });
 
 test('rejects an analysis when DeepSeek omits the optimized title', async () => {

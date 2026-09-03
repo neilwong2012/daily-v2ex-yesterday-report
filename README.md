@@ -2,7 +2,9 @@
 
 This repository downloads yesterday's V2EX topics and replies, uses DeepSeek V4 Flash to select high-value content, and publishes the generated Markdown report to GitHub Pages.
 
-The report uses the Asia/Shanghai date boundary and always excludes `二手交易` and `推广` from analysis and recommendations. Each remaining topic is analyzed once using its title, body, and replies, then filtered and ranked by value score without duplicated keyword-based sections.
+The report uses the Asia/Shanghai date boundary and always excludes `二手交易` and `推广` from analysis and recommendations. Topics with neither replies nor favorites are also excluded. Before fetching replies or calling DeepSeek, eligible topics are ranked by `favorites × 3 + replies × 1` in descending order, with lower topic IDs first on ties. Only the top 100 topics are analyzed; when fewer qualify, all qualifying topics are analyzed. Topics beyond the limit are discarded from reply collection, AI analysis, and recommendations, with their count recorded as `counts.excludedByLimit`.
+
+Each selected topic is analyzed using its title, body, and replies, then filtered and ranked by value score without duplicated keyword-based sections. Topic data from the initial scan remains available for auditing; reply archives contain only the selected topics.
 
 ## Setup
 
@@ -31,13 +33,13 @@ Optional variables:
 - `DEEPSEEK_CONCURRENCY=4`: number of concurrent topic analyses.
 - `DEEPSEEK_VALUE_THRESHOLD=70`: minimum validated score required to keep a topic.
 - `DEEPSEEK_MIN_SUCCESS_RATIO=0.8`: block publication when too many analyses fail.
-- `DEEPSEEK_MAX_INPUT_CHARS=200000`: per-topic input limit; all replies are still archived locally.
+- `DEEPSEEK_MAX_INPUT_CHARS=200000`: per-topic input limit; all fetched replies for the selected topics are still archived locally.
 
 After retries are exhausted, an isolated transient topic error is recorded in `scanErrors` and skipped so the rest of the daily report can finish. Authentication and rate-limit failures still block the run.
 
 All topic and reply text is treated as untrusted data. DeepSeek receives one topic at a time without tools, and its JSON response is validated, length-limited, stripped of HTML, and checked against real topic and reply IDs before it can enter the report.
 
-The content score is recomputed locally from six bounded components: information density (25), actionability (25), evidence quality (20), novelty (15), topic consistency (10), and credibility (5). The final ranking uses an uncapped composite score: each reply adds one point, while topics with no replies receive -10. A minimum content score of 60 prevents low-information but popular discussions from passing on activity alone. Advertising, insufficient information, title/content mismatch, or the absence of reusable information is a hard rejection regardless of the model's requested keep flag.
+The content score is recomputed locally from six bounded components: information density (25), actionability (25), evidence quality (20), novelty (15), topic consistency (10), and credibility (5). The final ranking uses an uncapped composite score: content score plus one point per reply and three points per favorite. A minimum content score of 60 prevents low-information but popular discussions from passing on activity alone. Advertising, insufficient information, title/content mismatch, or the absence of reusable information is a hard rejection regardless of the model's requested keep flag.
 
 To rebuild a report from an existing raw analysis without calling DeepSeek again:
 

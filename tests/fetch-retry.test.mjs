@@ -157,6 +157,101 @@ test('retries a 522 response, records it, and continues the topic scan', async (
   assert.equal(replyArchive.topics.length, 1);
 });
 
+test('downloads replies and calls DeepSeek only for the top 100 eligible topics', async (t) => {
+  const replyRequests = [];
+  const analysisRequests = [];
+  const server = http.createServer(async (req, res) => {
+    res.writeHead(200, { 'content-type': 'application/json' });
+    if (req.url === '/chat/completions') {
+      const chunks = [];
+      for await (const chunk of req) chunks.push(chunk);
+      const request = JSON.parse(Buffer.concat(chunks).toString('utf8'));
+      const document = JSON.parse(request.messages[1].content);
+      analysisRequests.push(document.topic.id);
+      res.end(JSON.stringify({ choices: [{ message: { content: JSON.stringify({
+        topic_id: document.topic.id,
+        score_breakdown: {
+          information_density: 20,
+          actionability: 20,
+          evidence_quality: 15,
+          novelty: 12,
+          topic_consistency: 10,
+          credibility: 5,
+        },
+        keep: true,
+        title_content_consistent: true,
+        has_reusable_information: true,
+        category: '经验与教程',
+        optimized_title: `精选测试主题 ${document.topic.id}`,
+        article: '先验证输入，再执行后续步骤。',
+        evidence_reply_ids: [],
+        risk_flags: ['无'],
+      }) } }] }));
+      return;
+    }
+    if (req.url?.endsWith('/replies')) {
+      const id = Number(req.url.split('/').at(-2));
+      replyRequests.push(id);
+      res.end(JSON.stringify({ success: true, result: [] }));
+      return;
+    }
+    const id = Number(req.url?.split('/').at(-1));
+    res.end(JSON.stringify({ success: true, result: {
+      id,
+      title: `测试主题 ${id}`,
+      content: '可复用的测试方法',
+      url: `https://www.v2ex.com/t/${id}`,
+      created: shanghaiEpoch('2026-08-03'),
+      replies: id === 1 || id === 108 ? 0 : id >= 106 ? 10000 : id,
+      stars: id === 1 ? 100 : 0,
+      node: { title: id === 106 ? '二手交易' : id === 107 ? '推广' : '问与答' },
+    } }));
+  });
+  await new Promise((resolve) => server.listen(0, '127.0.0.1', resolve));
+  t.after(() => server.close());
+  const tempDir = await fs.mkdtemp(path.join(os.tmpdir(), 'v2ex-top100-test-'));
+  t.after(() => fs.rm(tempDir, { recursive: true, force: true }));
+  await copyRuntime(tempDir);
+  const { port } = server.address();
+  const result = await run(process.execPath, ['fetch_v2ex_yesterday.mjs'], {
+    cwd: tempDir,
+    env: {
+      ...process.env,
+      V2EX_TOKEN: 'test-token',
+      V2EX_DATE: '2026-08-03',
+      V2EX_SCAN_START: '108',
+      V2EX_SCAN_END: '1',
+      V2EX_API_BASE_URL: `http://127.0.0.1:${port}/api/v2`,
+      V2EX_API_MAX_RETRIES: '0',
+      V2EX_SKIP_AI: '0',
+      DEEPSEEK_API_KEY: 'test-only-key',
+      DEEPSEEK_BASE_URL: `http://127.0.0.1:${port}`,
+      DEEPSEEK_CONCURRENCY: '1',
+      DEEPSEEK_MAX_RETRIES: '0',
+    },
+    stdio: ['ignore', 'pipe', 'pipe'],
+  });
+  assert.equal(result.code, 0, result.stderr);
+  const expectedIds = [1, ...Array.from({ length: 99 }, (_, index) => 105 - index)];
+  assert.deepEqual(replyRequests, expectedIds);
+  assert.deepEqual(analysisRequests, expectedIds);
+  const raw = JSON.parse(await fs.readFile(path.join(tempDir, 'v2ex_2026-08-03_raw.json'), 'utf8'));
+  assert.equal(raw.counts.allCreated, 108);
+  assert.equal(raw.counts.excludedByNode, 2);
+  assert.equal(raw.counts.excludedNoEngagement, 1);
+  assert.equal(raw.counts.excludedByLimit, 5);
+  assert.equal(raw.counts.excluded, 8);
+  assert.equal(raw.counts.included, 100);
+  assert.equal(raw.counts.analysisSuccess, 100);
+  assert.equal(raw.deepseek.stats.requested, 100);
+  assert.deepEqual(raw.includedTopics.map((topic) => topic.id), expectedIds);
+  const archive = JSON.parse(await fs.readFile(path.join(tempDir, 'v2ex_yesterday_data/replies_2026-08-03.json'), 'utf8'));
+  assert.deepEqual(archive.topics.map((item) => item.topic.id), expectedIds);
+  const report = await fs.readFile(path.join(tempDir, 'v2ex_2026-08-03_report.md'), 'utf8');
+  assert.equal((report.match(/class="topic-card"/g) || []).length, 100);
+  assert.doesNotMatch(report, /data-topic-id="(?:2|3|4|5|6|106|107|108)"/);
+});
+
 for (const gapStatus of [404, 522]) {
   test(`date-bound binary search skips a ${gapStatus} topic gap`, async (t) => {
     const server = http.createServer((req, res) => {
